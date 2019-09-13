@@ -1304,7 +1304,7 @@ void do_look_in_raw(CHAR_DATA* ch, const char *argument, bool check_hidden)
 	}
 }
 
-inline void do_look_in(CHAR_DATA* ch, const char *argument)
+/*inline*/ void do_look_in(CHAR_DATA* ch, const char *argument) // inline delete by prool
 {
 	do_look_in_raw(ch, argument, FALSE);
 }

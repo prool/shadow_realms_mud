@@ -3642,7 +3642,7 @@ void do_unteth(CHAR_DATA *ch, const char *argument)
 	mount->master = NULL;
 }
 
-extern inline int get_cost_pet(CHAR_DATA *pet);
+extern /*inline*/ int get_cost_pet(CHAR_DATA *pet); // inline delete by prool
 void do_stable(CHAR_DATA *ch, const char *argument)
 {
 	CHAR_DATA       *mount;

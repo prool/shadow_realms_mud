@@ -2103,7 +2103,7 @@ bool damage(CHAR_DATA *ch, CHAR_DATA *victim,
 	return TRUE;
 }
 
-static bool inline
+static bool /*inline*/ /* inline delete by prool */
 is_safe_raw(CHAR_DATA *ch, CHAR_DATA *victim)
 {
 	/*
@@ -2716,7 +2716,7 @@ void set_fighting(CHAR_DATA *ch, CHAR_DATA *victim)
 	ch->position = POS_FIGHTING;
 }
 
-static inline void STOP_FIGHTING(CHAR_DATA *ch)
+static /*inline*/ void STOP_FIGHTING(CHAR_DATA *ch)
 {
 	ch->fighting = NULL;
 	ch->position = IS_NPC(ch) ? ch->default_pos : POS_STANDING;

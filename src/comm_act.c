@@ -367,7 +367,7 @@ act_format_text(const void *text, CHAR_DATA *ch, CHAR_DATA *to, flag32_t flags)
 	return text;
 }
 	
-static inline const char *
+static /*inline*/ const char * // inline delete by prool
 act_format_obj(OBJ_DATA *obj, CHAR_DATA *to, int sp, flag32_t flags)
 {
 	const char *descr;

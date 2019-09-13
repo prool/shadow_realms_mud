@@ -896,7 +896,7 @@ bool give_ghost_victim(CHAR_DATA * ch, CHAR_DATA * victim)
 	return FALSE;
 }
 
-inline int get_cost_pet(CHAR_DATA *pet);
+/*inline*/ int get_cost_pet(CHAR_DATA *pet); // inline delete by prool
 
 void do_give(CHAR_DATA * ch, const char *argument)
 {
@@ -1316,7 +1316,7 @@ void do_hide_obj(CHAR_DATA * ch, const char *argument)
 	}
 }
 
-inline OBJ_DATA * get_dig_by(CHAR_DATA * ch)
+/*inline*/ OBJ_DATA * get_dig_by(CHAR_DATA * ch)
 {
 	return get_eq_char(ch, WEAR_HOLD);
 }
@@ -3506,7 +3506,7 @@ uint get_cost(CHAR_DATA * keeper, OBJ_DATA * obj, int cha, bool fBuy)
 	return cost;
 }
 
-inline int get_cost_pet(CHAR_DATA *pet)
+/*inline*/ int get_cost_pet(CHAR_DATA *pet)
 {
 	// MUST_BE: NPC & ACT_PET !!!
 	if (IS_HORSE(pet)) {

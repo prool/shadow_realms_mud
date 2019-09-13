@@ -1902,12 +1902,12 @@ int count_obj_list(OBJ_INDEX_DATA *pObjIndex, OBJ_DATA *list)
  *   #  #  #   ####  #        ####  #
  */
 
-bool inline is_obj_on_near(OBJ_DATA *obj, OBJ_DATA* near)
+bool /*inline*/ is_obj_on_near(OBJ_DATA *obj, OBJ_DATA* near) // "inline" delete by prool
 {
 	return obj->on == near || near->under == obj;
 }
 
-bool inline is_obj_under_near(OBJ_DATA *obj, OBJ_DATA* near)
+bool /*inline*/ is_obj_under_near(OBJ_DATA *obj, OBJ_DATA* near)
 {
 	return obj->under == near || near->on == obj;
 }
@@ -3034,7 +3034,7 @@ void deduct_cost(CHAR_DATA *ch, uint cost)
 	ch->silver -= silver;
 } 
 
-static inline void
+static /*inline*/ void
 money_form(int lang, char *buf, size_t len, int num, const char *name)
 {
 	char tmp[MAX_STRING_LENGTH];
@@ -3439,7 +3439,7 @@ bool can_see_obj_raw(CHAR_DATA *ch, OBJ_DATA *obj,
 /*
  * True if char can see obj.
  */
-inline bool can_see_obj(CHAR_DATA *ch, OBJ_DATA *obj)
+/*inline*/ bool can_see_obj(CHAR_DATA *ch, OBJ_DATA *obj) // prool fool
 {
 	return can_see_obj_raw(ch, obj, NULL, FCSO_NONE);
 }

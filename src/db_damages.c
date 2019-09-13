@@ -70,7 +70,7 @@ flag_t damage_type_table[] =
 	{ NULL }
 };
 
-inline bool test_to_m(mlstring * to_m)
+/*inline*/ bool test_to_m(mlstring * to_m) // inline delete by prool
 {
 	if (to_m &&
 	(mlstr_mval(to_m)[0] == ' ' || mlstr_mval(to_m)[0] == '\0')) {

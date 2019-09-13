@@ -33,7 +33,7 @@ void wrath_of_gods(CHAR_DATA *ch, int align)
 {
 	race_t *r;
 	class_t *cl;
-	flag32_t restrict;
+	flag32_t restrict_; // restrict renamed to restrict_ by prool
 	int str;
 	AFFECT_DATA af;
 	const char * gdislike = "Gods dislike your action.\n";
@@ -44,12 +44,12 @@ void wrath_of_gods(CHAR_DATA *ch, int align)
 	|| !r->pcdata)
 		return;
 	
-	if ((restrict = r->pcdata->allow_align) == 0 // allow all
-	 && (restrict = cl->restrict_align) == 0)
+	if ((restrict_ = r->pcdata->allow_align) == 0 // allow all
+	 && (restrict_ = cl->restrict_align) == 0)
 		return;
 	
 	str = 0;
-	switch (restrict){
+	switch (restrict_){
 		case RA_GOOD:
 			if (IS_GOOD(ch) || align > 0)
 				return;
