@@ -1,0 +1,16 @@
+#!/bin/sh
+
+home=~/mud
+kill="/bin/kill"
+cat="/bin/cat"
+
+#
+#	Lets go...
+#
+cd $home
+if [ -f tmp/muddy.pid ] ; then
+	echo "Find pid of launched muddy. Attempt to kill it..."
+	$kill `$cat tmp/muddy.pid`
+else
+	echo "Can not find pid of muddy..."
+fi

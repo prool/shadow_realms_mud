@@ -1,0 +1,102 @@
+Redistribution and use in source and binary forms, with or without
+modification, are permitted provided that the following conditions
+are met:
+
+1) following all guidelines in the diku license (contained in the file
+	doc/Merc/license.doc.txt)
+2) following all guidelines in the Merc license (contained in the file
+	doc/Merc/license.txt)
+3) following all guidelines in the ROM license (contained in the file
+	doc/ROM/rom.license)
+4) following all guidelines in the Anatolia license (contained in the file
+	doc/Anatolia/anatolia.license
+5) following all guidelines in the SoG license (contained in the file
+	doc/SoG/COPYRIGHT
+6) The login message to your mud must contain a notice that it is based
+	on Shadow Realms, copyright 1999 by Xorader. The help files must
+	include a 'Shadow Realms' entry, readable by all players, and
+	unaltered from the file included with the source code, except as
+	authorized by the 'Shadow Realms' authors.
+7)The name "Shadow Realms" must not be used to endorse or promote
+	products derived from this software without prior written
+	permission. For written permission, please contact
+	xorader@mail.ru.
+8) must to satisfy condition of the 'GNU GENERAL PUBLIC LICENSE' with
+	 restrictions specified the above-stated items(points), namely:
+	 a) no resale or operation for profit!
+	 b) all author's of SR's "hierarchy code bases" names must appear
+	    in login sequence
+	NOW read doc/SR/GPL.LICENSE !
+
+=====
+			Requirements
+The hardware(and software) requirements are essentially:
+	20 megabytes of memory + 10K per online player
+	22 megabytes of disk space + ~20K per player file
+	any 32-bit processor
+	50 kilobits per second network bandwidth
+	Processor speed is not important
+	TCP/IP networking
+======
+			Header of sources files of Shadow Realms
+/*
+ * Copyright (c) 1999, Molchanov Alexander (Xorader),
+ * as 'Shadow Realms' program software.
+ *
+ * Redistribution and use in source and binary forms, with or without
+ * modification, are permitted provided that the conditions specified in
+ * a file doc/SR/sr.license are met!
+ */
+
+======
+			Russian translate
+			Русский перевод
+
+Распространение и использование этого програмного продукта в исходниках или
+в исполняемой форме, с или без модификаций, разрешено после выполнения
+следующих условий:
+
+1) выполнить требования указанные в doc/Merc/license.doc.txt
+2) выполнить требования указанные в doc/Merc/license.txt
+3) выполнить требования указанные в doc/ROM/rom.license
+4) выполнить требования указанные в doc/Anatolia/anatolia.license
+5) выполнить требования указанные в doc/SoG/COPYRIGHT
+6) заставка игры (первое сообщение получаемое при установлении соединения
+	клиента с сервером), должна включать в себя всех авторов
+	иерархии Shadow Realms (Diku -> Merc -> ROM -> Anatolia -> SoG -> SR)
+7) название(имя) "Shadow Realms" не должно использоваться, чтобы
+	подтвердить или продвинуть изделия полученные из этого
+	програмного обеспечения без получения письменного разрешения,
+	свяжитесь по email xorader@mail.ru для этого
+8) выполнить все условия "GNU GENERAL PUBLIC LICENSE" c ограничениями
+	и дополнениями указанными выше. В данном контексте, вкратце,
+	это значит:
+	a) нельзя использовать для получения денежной выгоды в любой форме
+	b) все "авторы иерархии Shadow Realms" должны быть указаны в
+		в начальном приглашении
+	c) выслать информационное письмо о начале использования этого
+		продукта всем авторам которые это требуют в своих
+		лицензиях
+	b) следовать лицензии GNU GPL (перевод можно почитать в файле
+		doc/SR/GPL.LICENSE.rus.txt). В общих чертах об этой лицензии:
+		- вы можете использовать эту программу для получения прибыли
+			ВНИМАНИЕ: данное разрешение не может быть пременимо
+			к продукту Shadow Realms (см. doc/Merc/license.doc.txt)
+			!!!
+		* вы обязаны предоставить исходные коды програмного продукта
+			всем лицам которым вы его распространяете
+		* вы обязаны предоставить исходные коды програмного продукта
+			после любой модификации любой части продукта
+		* если вы используете ЛЮБУЮ часть из програмного продукта c
+			лицензией GNU GPL, на вашу программу начинают
+			распространяться условия GNU GPL (значит вы обязаны
+			открыть ВСЕ исходные коды своей программы!). Либо
+			соглашайтесь с данным условием, либо не используйте
+			части программы с лицензией GNU GPL в своих программах
+			вовсе!
+
+*) в дальнейшем условно обозначим эту лицензию, как:
+	GNU GENERAL PUBLIC LICENSE with restrictions of hierarchy
+	или сокращённо
+	GNU GPL with RoH
+

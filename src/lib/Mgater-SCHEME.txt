@@ -1,0 +1,80 @@
+			MGater(D) algorithm overview
+				(simple scheme)
+				(c) Xorader & Co
+
+		<telnet client>
+			^
+			^
+			^
+			^
+	      [DESCRIPTOR_DATA_CLIENT]
+	      		/\
+		    [@@ clients @@]	[++ listening_sockets ++]
+			<to_connect - DESCRIPTOR_DATA_TUNNEL>
+			   |		||
+		/----------/		||
+		|			/\
+		|		[@@@@@@ tunnel_list @@@@@@]
+		|	--------------------=======[mgaterd]=======--------------------
+		|				[@@@@@@@@@@ connect_list @@@@@@@@@@]
+		|					\/
+		|				[DESCRIPTOR_DATA_CONNECT]
+		|				    |		#
+		\-----------------------------------/		#
+								#
+								#
+								#
+				   <telnet client>		#
+					^			#
+					^			#
+					^			#
+					^			#
+					^			#
+					^			#
+	<telnet client>			^			#
+		 ^			^			#
+		 ^			^			#
+		 ^			^			#
+		 ^			^			#
+		 ^			^			#
+	 [DESCRIPTOR_DATA_CLIENT]  [DESCRIPTOR_DATA_CLIENT]	#
+			     /\	     /\				#
+[++ listening_sockets ++]  [@@ clients @@]	[@@ clients @@ - from_connect]
+		<DESCRIPTOR_DATA_TUNNEL>    <DESCRIPTOR_DATA_TUNNEL>
+				/\		/\
+			 [@@@@@@ tunnel_list @@@@@@]	[++ tunnels_listening ++]
+			-------------------------=[muddy]=-------------------------
+
+
+
+
+<telnet client>		- игроки, простые telnet соеденения, непосредственные
+			клиенты.
+[muddy]			- MUD daemon, мад-сервер, мир.
+[mgaterd]		- MGaterD, MUD Gater Daemon, сервер туннелирующий
+			клиентов.
+[@ tunnel_list @]	- список работающих сетевых тунелей.
+<DESCRIPTOR_DATA_TUNNEL> - сетевой туннель (создаётся для входящих соединений).
+			Может работать с соединениями либо от "telnet client"ов
+			либо от mgater-tunnel'ей (incoming side), но не
+			одновременно! Muddy важно лишь указатетель на "clients"
+			(виртуализированный список клиентов). Если "to_connect"
+			не пустой (указывает на "DESCRIPTOR_DATA_CONNECT"), то
+			все клиенты проходящие через этот туннель будут
+			перенапрявляться (redirect) дальше (на
+			"DESCRIPTOR_DATA_CONNECT").
+[+ tunnels_listening +]	- список портов слушающих соединения новых mgater-tunnel'ей.
+			Новые соединения соответственно добавляются в список
+			"tunnel_list".
+[@ clients @]		- список соеденённых клиентов, как через
+			"DESCRIPTOR_DATA_CLIENT", так и через "from_connect".
+[DESCRIPTOR_DATA_CLIENT] - соединение с "telnet client"ом. Занимаеться
+			MCCP, codepage convert(koi8-r, cp1251,...), hostname
+			resolving (в будущем много дополнений: antispam,
+			editor, scroller,...).
+[+ listening_sockets +] - список портов слушающих соединения новых "telnet
+			client"ов. Новые соединения соответственно
+			добавляются в список "clients".
+[@ connect_list @]	- список исходящих туннелей.
+[DESCRIPTOR_DATA_CONNECT] - исходящий туннель (outcoming side).
+

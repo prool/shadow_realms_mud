@@ -1,0 +1,19 @@
+#CLASS
+Name unique~
+ShortName Uni~
+PrimeStat cha
+SchoolWeapon 3702
+GuildRoom 3022
+GuildRoom 3023
+GuildRoom 9633
+GuildRoom 9634
+Thac0_00 20
+Thac0_32 0
+HPRate 100
+ManaRate 100
+AddExp 0
+StatMod 0 0 0 0 0 0
+Skill 'sword' 1 100 40
+End
+
+#$

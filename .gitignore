@@ -1,0 +1,9 @@
+*~
+*.o
+muddy
+*.swp
+nohup.out
+patch*.txt
+exclfile.txt
+*.new
+

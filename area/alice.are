@@ -1,0 +1,3679 @@
+#AREADATA
+Name Wonderland~
+VNUMs 20000 21200
+Credits Yaegar~
+Security 5
+LevelRange 35 45
+End
+
+#MOBILES
+#21000
+alice~
+Alice~
+@eng Alice raises her eyebrows and says "Curiouser and curiouser!"
+@rus Алиса приподнимает брови и произносит "Все страньше и страньше!"
+~
+@eng In her amazement she has completely forgotten proper English. As if the
+inrecdible sights of Wonderland weren't enough, now she has encountered you,
+a strange being clad in dozens of different types of armor with no regard for
+fashion. Small wonder she is both amazed and afraid of you!
+@rus К своему собственному удивлению она почти забыла правильный английский.
+Как если бы ей было мало увиденных невероятностей в Стране Чудес, теперь
+ей повстречался ты, странное создание одетое в дюжину различных доспехов, 
+без малейшего намека на хороший вкус или манеры. Ничего удивительного, 
+что девочка одновременно изумлена и напугана!
+~
+human~
+AGHT HN 400 0
+45 0 10d136+786 45d10+100 5d15+26 pierce
+18 18 18 4
+EFNU 0 0 0
+stand stand female 5
+0 0 medium unknown
+F par GHIJK
+M act 21002 looks at you.~
+M kill 21001 100~
+M greet 21000 100~
+#21001
+white rabbit~
+@eng a white rabbit@rus ~~Белый~~ ~~Кролик~~~
+@eng A smartly dressed white rabbit scurries by, muttering to himself.
+@rus Аккуратно одетый белый кролик проносится мимо, бормоча что-то себе под нос.
+~
+@eng "I'm late! I'm late!" he seems to be saying, which is impossible as rabbits
+don't talk. Or do they? He was certainly very well dressed for a rabbit, or
+for anyone for that matter. Perhaps you'd fancy acquiring some of his
+accoutrements? After all, how hard could he be to slay?
+@rus Белый кролик произносит: "{GЯ опаздываю! Опаздываю!{x" 
+Но ведь кролики не умеют говорить! 
+Или все таки умеют?  Он очень хорошо одет, как длЯ кролика, да и вообще
+прекрасно одет. Вещи идеально сидят на его пушистом тельце. Может быть,
+тебе даже хочется примерять кое-что из его вещей. В конце концов, неужели 
+будет трудно убить какого-то кролика?
+~
+rabbit~
+AGHT HJNPT 400 0
+40 0 10d108+648 40d10+100 5d14+20 pierce
+15 15 15 2
+ENR 0 AEI F
+stand stand male 1
+HM BGI medium unknown
+M greet 21003 100~
+M act 21024 leaves up.~
+M act 21024 leaves down.~
+M act 21024 leaves east.~
+M act 21024 leaves west.~
+M act 21024 leaves north.~
+M act 21024 leaves south.~
+M act 21024 leaves.~
+#21002
+mouse~
+@eng a mouse@rus ~~Мышь~~~
+@eng A mouse is struggling to keep afloat here.
+@rus Мокрая серая мышь пытается удержаться на плаву.
+~
+@eng The mouse is swimming, with some difficulty, to the edge of this pool of
+water. She looks startled upon seeing you approach, and cautiously demands
+to know whether you are a cat.
+@rus Прилагая заметные усилия мышь плывет  к краю этой огромной соленой лужи.
+При твоем приближении, мышь начинает быстрее перебирать лапами и вообще 
+ведет себя настороженно, по всей вероятности опасаясь, что ты окажешься
+кошкой.
+~
+rabbit~
+AGHT J 400 0
+37 0 10d92+578 37d25+200 5d12+23 pound
+13 13 13 1
+ENU 0 0 0
+stand stand female 0
+HM B medium unknown
+M greet 21004 100~
+M act 21025 leaves north.~
+M act 21025 leaves south.~
+M act 21025 leaves up.~
+M act 21025 leaves down.~
+M act 21025 leaves east.~
+M act 21025 leaves west.~
+M act 21025 leaves.~
+#21003
+duck~
+@eng a duck@rus ~~Утка~~~
+@eng A duck waddles about, looking very confused.
+@rus Утка, бродящая поблизости вперевалочку, выглядит сконфуженной.
+~
+@eng Like you, this creature found itself suddenly submerged in a pool of Alice's
+tears. Although being a duck, it isn't half as worried.
+@rus Как и ты, эта утка попала в огромную лужу слез, наплаканную Алисой. 
+Но так как она - утка, это ее не очень взволновало.
+~
+water fowl~
+AGHT 0 400 0
+36 0 10d87+555 36d25+200 5d12+21 pierce
+12 12 12 1
+EFNU 0 0 0
+stand stand female 0
+HMV B medium unknown
+M greet 21005 100~
+M act 21026 leaves north.~
+M act 21026 leaves south.~
+M act 21026 leaves up.~
+M act 21026 leaves down.~
+M act 21026 leaves east.~
+M act 21026 leaves west.~
+M act 21026 leaves.~
+#21004
+dodo~
+@eng a dodo@rus Додо~
+@eng A dodo is busy arranging some sort of foot race.
+@rus Додо занят организацией одной из разновидности бегов.
+~
+@eng He is in fact arranging a caucus-race, to help everyone get dry. It seems to
+consist of everyone gathering about in a circular shape ("the exact shape doesn't
+matter") and running about until they are quite dry.
+@rus Фактически он организовывает бег по кругу для того, чтобы помочь всем 
+высохнуть. Это состязание происходит таким образом: на земле рисуется 
+круг ("правильность формы несущественна!"), все выстраиваются согласно
+контуру и начинается бег, который продолжается до тех пор, пока все 
+полностью не высохнут.
+~
+human~
+ABGT N 400 0
+36 0 10d87+555 36d25+200 5d12+21 pierce
+12 12 12 1
+EFNU 0 0 0
+stand stand male 3
+0 P medium unknown
+F par GHIJK
+M act 21007 looks at you.~
+M greet 21006 100~
+M act 21027 leaves north.~
+M act 21027 leaves south.~
+M act 21027 leaves up.~
+M act 21027 leaves down.~
+M act 21027 leaves east.~
+M act 21027 leaves west.~
+M act 21027 leaves.~
+#21005
+lory~
+@eng a lory@rus ~~Попугайчик~~ Лори~
+@eng A lory is busily racing about to dry off.
+@rus Лори деловито бегает по кругу, чтобы высохнуть.
+~
+@eng The lory is feeling rather sulky, as it feels that as the oldest present
+(though it will NOT reveal its age) it knows best and should be in charge.
+@rus Лори выглядит надувшимся, так как он старше присутствующих (хотя и решительно
+отказывается назвать свой возраст) и знает как лучше и что к чему.
+~
+human~
+AGHT T 400 0
+36 0 10d87+555 36d25+200 5d12+21 slash
+12 12 12 1
+EFNU 0 0 0
+stand stand male 4
+0 0 medium unknown
+F par GHIJK
+M act 21010 looks at you.~
+M greet 21009 100~
+M act 21008 tells you~
+M act 21028 leaves north.~
+M act 21028 leaves south.~
+M act 21028 leaves up.~
+M act 21028 leaves down.~
+M act 21028 leaves east.~
+M act 21028 leaves west.~
+M act 21028 leaves.~
+#21006
+eaglet~
+@eng an eaglet@rus ~~Орлёнок~~~
+@eng An eaglet screeches and stretches its soaking wet wings.
+@rus Орлёнок хрипло кричит и расплавляет промокшие крылья.
+~
+@eng The eaglet is growing impatient with the talk- all the long words he doesn't
+know the meaning of, and doubtless nor do any of the others present.
+@rus Орлёнок нарастающим нетепением следит за разговором -  ему непонятны длинные 
+слова да и не верит он, что кто-то другой из присутствующих их понимает. 
+~
+human~
+ABGT T 400 0
+36 0 10d87+555 36d25+200 5d12+21 pierce
+12 12 12 1
+EFNU 0 0 0
+stand stand male 2
+0 0 medium unknown
+F par GHIJK
+M greet 21011 100~
+M act 21029 leaves north.~
+M act 21029 leaves south.~
+M act 21029 leaves up.~
+M act 21029 leaves down.~
+M act 21029 leaves east.~
+M act 21029 leaves west.~
+M act 21029 leaves.~
+#21007
+magpie~
+@eng an elderly magpie@rus ~~Старая~~ ~~Сорока~~~
+@eng An elderly magpie complains about the cold.
+@rus Старая сорока жалуется на холод.
+~
+@eng This magpie is quite frail and is concerned the chill from being wet will
+cause her to become ill.
+@rus Эта сорока выглядит хрупкой и обеспокоенной холодом, так как мокрое
+оперение на ветру закончится серьезным просудным заболеванием. 
+~
+human~
+ABGHT T 400 0
+35 0 10d82+534 35d25+200 5d12+18 slash
+11 11 11 0
+EFNU 0 0 0
+stand stand female 2
+0 0 medium unknown
+F par GHIJK
+M greet 21012 100~
+M act 21030 leaves north.~
+M act 21030 leaves south.~
+M act 21030 leaves up.~
+M act 21030 leaves down.~
+M act 21030 leaves east.~
+M act 21030 leaves west.~
+M act 21030 leaves.~
+#21008
+owl~
+@eng an owl@rus ~~Совёнок~~~
+@eng An owl prepares to join in the caucus race.
+@rus Совенок готовится присоединиться к бегу по кругу.
+~
+@eng This owl is quite young and not very wise as yet, so it is deferring to the
+wisdom of the older birds and engaging in the decidedly silly caucus race.
+@rus Эта совенок еще не достиг возраста истинной мудрости, так как, уступая суждению 
+старших птиц, решил присоединиться таки к бегу по кругу.
+~
+human~
+ABGT T 400 0
+35 0 10d82+534 35d25+200 5d12+18 pound
+11 11 11 0
+EFNU 0 0 0
+stand stand male 2
+0 0 medium unknown
+F par GHIJK
+M greet 21013 100~
+#21009
+old crab~
+@eng an old crab@rus ~~Старая~~ ~~Крабиха~~~
+@eng An old crab is lecturing her daughter about losing her temper.
+@rus Старая самка краба поучает свою дочь всегда держать себя в руках. 
+~
+@eng This elderly crab is enough to try the patience of an oyster!
+@rus Эта крабиха выведет из терпения даже устрицу!
+~
+human~
+ABGT N 400 0
+36 0 10d87+555 36d25+200 5d12+21 pound
+12 12 12 1
+EFNU 0 0 0
+stand stand female 1
+0 0 medium unknown
+F par GHIJK
+M greet 21015 100~
+#21010
+young crab~
+@eng a young crab@rus ~~Юная~~ ~~Крабиха~~~
+@eng A young crab is telling her mother to hold her tongue.
+@rus Молодая крабиха просит свою мать придержать язык.
+~
+@eng This youthful crustacean is sick of her mother's constant lecturing.
+@rus Молодая ракообразная просто больна от постоянных поучений своей родительницы.
+~
+human~
+ABGHT N 400 0
+35 0 10d82+534 35d25+200 5d12+18 pierce
+11 11 11 0
+EFNU 0 0 0
+stand stand female 1
+0 0 medium unknown
+F par GHIJK
+M greet 21014 100~
+#21011
+bill lizard~
+@eng Bill the lizard@rus ~~ящерка~~ ~~Биль~~~
+@eng Bill the lizard is standing here, waiting to be lowered down the chimney.
+@rus Ящерка Биль готовится к спуску в трубу.
+~
+@eng He doesn't look as if he is too keen to be doing this, but he's been given
+no choice.
+@rus Не похоже, что ему очень хочется лезть туда, но выбора нет...
+~
+lizard~
+ABGHT 0 400 0
+36 0 10d87+555 36d25+200 5d12+21 pound
+12 12 12 1
+EFNU 0 0 0
+stand stand male 2
+HMV B medium unknown
+M greet 21016 100~
+M kill 21017 100~
+M death 21018 100~
+#21012
+guinea pig~
+@eng a guinea pig@rus ~~морская~~ ~~свинка~~~
+@eng A guinea pig stands here holding a length of rope.
+@rus Морская свинка стоит здесь, держа в лапах моток веревки.
+~
+@eng He and his fellow are preparing to lower poor Bill down the chimney to see
+what it is inside that is causing such a clamour.
+@rus Это зверёк вместе с другими готовится спустить беднягу Биля по дымоходной
+трубе, чтобы узнать, кто шумит внутри дома.
+~
+pig~
+ABGHT 0 400 0
+36 0 10d87+555 36d25+200 5d12+21 pound
+12 12 12 1
+EFNU 0 0 0
+stand stand male 4
+HM B medium unknown
+M greet 21019 100~
+M act 21020 looks at you.~
+#21013
+puppy~
+@eng a puppy dog@rus ~~щенок~~~
+@eng A puppy dog looks at you with large round eyes.
+@rus Лохматый щенок смотрит на тебя огромными грустными глазами.
+~
+@eng This little pup has been abandoned here. He looks like he'd LOVE to have
+someone to play with.
+@rus Маленький щенок брошен здесь кем-то. Он готов подарить всю свою ЛЮБОВЬ
+тому, кто поиграет с ним. 
+~
+dog~
+ABGHT J 400 0
+36 0 10d87+555 36d25+200 5d12+21 pound
+12 12 12 1
+EFNU 0 0 0
+stand stand male 0
+HM B medium unknown
+M greet 21021 100~
+M act 21022 tells you~
+M act 21023 leaves north.~
+M act 21023 leaves south.~
+M act 21023 leaves east.~
+M act 21023 leaves west.~
+M act 21023 leaves up.~
+M act 21023 leaves down.~
+M act 21023 leaves.~
+#21014
+caterpillar~
+@eng the caterpillar@rus ~~Гусеница~~~
+@eng The caterpiller puffs on its hookah and says languidly "Who are YOU?"
+@rus Гусеница вынимает из рта кальян и лениво произносит "{GТЫ КТО?{x"
+~
+@eng The caterpillar stands and stretches herself to her full height of three
+inches and patiently awaits an answer. She is an infuriating conversationalist.
+@rus Гусеница вытягивается на высоту всех своих трех дюймов и ждет твоего ответа.
+Видно, что она очень любит поговорить.
+~
+human~
+ABGHT HJN 400 0
+40 0 10d108+648 40d10+100 5d14+20 slash
+15 15 15 2
+EFNU 0 0 0
+stand stand female 0
+0 0 medium unknown
+F par GHIJK
+M greet 21031 100~
+M act 21032 looks at you.~
+M act 21033 leaves north.~
+M act 21033 leaves south.~
+M act 21033 leaves up.~
+M act 21033 leaves down.~
+M act 21033 leaves east.~
+M act 21033 leaves west.~
+M act 21033 leaves.~
+#21015
+pigeon~
+@eng a pigeon@rus ~~Горлица~~~
+@eng A pigeon spies you and screams "Serpent!"
+@rus При виде тебя горлица кричит от ужаса.
+~
+@eng The paranoid bird has mistaken you for a dreaded serpent, whom she fears
+and detests because they steal her eggs. Too bad she's unlikely to live
+long enough to explain her actions...
+@rus Эта параноидально настроенная птица приняла тебя за ужасную змею. Змей же 
+она боитсЯ и ненавидит, так как они постоЯнно воруют и поедают ее Яйца. К 
+сожалению, не похоже, что она проживет достаточно долго, чтобы объяснить 
+свои действия...
+~
+human~
+ABFGT T 400 0
+36 0 10d87+555 36d25+200 5d12+21 pound
+12 12 12 1
+EFNU 0 0 0
+stand stand female 30
+0 0 medium unknown
+F par GHIJK
+M greet 21034 100~
+M act 21035 looks at you.~
+M act 21036 leaves north.~
+M act 21036 leaves south.~
+M act 21036 leaves up.~
+M act 21036 leaves down.~
+M act 21036 leaves east.~
+M act 21036 leaves west.~
+M act 21036 leaves.~
+#21016
+fish footman~
+@eng a fish-footman@rus ~~рыба~~-~~лакей~~~
+@eng A fish-footman is here bearing an invitation.
+@rus Рыба-лакей здесь, несет приглашение.
+~
+@eng This fellow is smartly clad in livery and powdered wig, though you find it
+quite disconcerting how he looks at the sky rather than looking you in the
+eyes when he speaks. Then again, its not like he can help it.
+@rus Странный рыба-лакей облачен в блестящую зеленую ливрею и напудренный парик.
+Хотя и смущает немного, что вместо того, чтобы смотреть при разговоре тебе в глаза
+он пялится в небо. С другой стороны, непохоже, что он может вести себя  иначе.
+~
+fish~
+ABGT 0 400 0
+37 0 10d92+578 37d25+200 5d12+23 pierce
+13 13 13 1
+EFNR 0 0 0
+stand stand male 4
+0 0 medium unknown
+M greet 21037 100~
+M act 21038 looks at you.~
+#21017
+frog footman~
+@eng a frog-footman@rus ~~Лягушонок~~-~~Лакей~~~
+@eng A frog-footman is accompanying the fish-footman.
+@rus Лягушонок-лакей повторяет вслед за лакеем-рыбой.
+~
+@eng The frog is as neatly dressed as his aquatic companion, save that his
+appearance is rendered by far more civil by the fact that he can look
+straight ahead.
+@rus Лягушка так же одета c иголочки, как и его рыбьий товарищ,
+но производит гораздо лучшее впечатление, благодаря способности
+фокусировать свой взгляд на собеседнике.
+~
+human~
+ABGT 0 400 0
+37 0 10d92+578 37d25+200 5d12+23 slash
+13 13 13 1
+EFNU 0 0 0
+stand stand male 4
+0 0 medium unknown
+F par GHIJK
+M act 21039 tells you~
+#21018
+duchess~
+@eng the Duchess@rus ~~Герцогиня~~~
+@eng The Duchess sits here nursing her baby.
+@rus Герцогиня сидит здесь, качая на коленях ребенка.
+~
+@eng She is a hefty woman with an inordinately large head, upon which rests a
+baby's cradle. The occupant of the cradle is in her lap. She seems quite
+short-tempered and irritable.
+@rus Перед тобой здоровенная женщина с непропорционально большой головой, над 
+которой покачивается детская колыбелька. Обитатель колыбельки лежит у женщины
+на коленях. По выражению лица Герцогини очевидно, что она легко приходит 
+в бешенство и не привыкла сдерживать своих порывов.
+~
+human~
+ABDGT N 400 0
+43 0 10d124+733 43d10+100 5d15+21 pound
+16 16 16 3
+EFNU 0 0 0
+stand stand female 10
+0 0 medium unknown
+F par GHIJK
+M greet 21040 100~
+M random 21041 5~
+M act 21041 tells you~
+#21019
+pig baby~
+@eng the Duchess' baby@rus ~~младенец~~ Герцогини~
+@eng The Duchess' baby oinks and squeals. Oinks?
+@rus Младенец Герцогини чихает, визжит и хрюкает. Хрюкает?
+~
+@eng The baby appears to be quite porcine in manner and appearance. Every now and
+then it is struck by a plate hurled by the cook, and it squeals anew, the
+dirge interrupted only by periodic sneezing due to all the pepper in the air.
+@rus Этот ребенок очегь похож на поросенка, как внешне, так и поведением.
+Прямо сейчас в него попала тарелка, брошенная кухаркой, и он завизжал
+с новой силой, иногда затихая, чтобы в очередной раз чихнуть от переизбытка
+перца в воздухе.
+~
+pig~
+ABGT 0 0 0
+34 0 10d78+505 34d25+200 5d11+21 slash
+11 11 11 0
+EFNR 0 0 0
+stand stand male 0
+0 0 medium unknown
+M greet 21042 100~
+#21020
+cook~
+@eng the cook@rus ~~Кухарка~~~
+@eng The cook is preparing some sort of soup, which seems to require a LOT of pepper.
+@rus Кухарка варит суп, в который нужно сыпать ОЧЕНЬ МНОГО перца.
+~
+@eng The cook also seems immune to the sneeze-inducing effects of her ingredient.
+From time to time she hurls a piece of crockery at the other occupants of the
+room, though it doesn't seem to bother most of them in the least!
+@rus Кухарка кажется совершенно невосприимчива к раздражающему воздействию
+собственных специй. Время от времени она швыряет что-нибудь из посуды
+в остальных в комнате, хотя, похоже, никто не обращает на это никакого 
+внимания!
+~
+human~
+ABGT 0 0 0
+37 0 10d92+578 37d25+200 5d12+23 slash
+13 13 13 1
+EFNU 0 0 0
+stand stand female 2
+0 0 medium unknown
+F par GHIJK
+M greet 21043 100~
+M act 21044 says ~
+M act 21045 leaves north.~
+M act 21045 leaves south.~
+M act 21045 leaves up.~
+M act 21045 leaves down.~
+M act 21045 leaves east.~
+M act 21045 leaves west.~
+M act 21045 leaves.~
+#21021
+cheshire cat~
+@eng a Cheshire Cat@rus ~~Чеширский~~ ~~Кот~~~
+@eng A Cheshire Cat smirks at you.
+@rus Чеширский Кот улыбается тебе.
+~
+@eng Smirking and grinning seem to be the only expressions this feline is
+capable of. You weren't aware that cats could grin; then again, you've never
+met a Cheshire Cat before. It has an irritating habit of making parts of
+itself invisible, leaving only a tail, head or just a grin floating eerily
+in the air.
+@rus Улыбка кажется единственное, что может выражать эта кошачья морда.
+Ты никогда не видел раньше, чтобы коты улыбались. С другой стороны ты 
+никогда не видел раньше чеширских котов. Чеширский Кот имеет раздражающую 
+привычку исчезать постепенно, делаясь невидимым часть за частью, пока 
+не останется только хвост и голова или просто улыбка, летающая по воздуху.
+~
+cat~
+A 0 625 0
+45 0 10d136+786 45d10+100 5d15+26 claw
+18 18 18 4
+0 0 0 0
+stand stand male 6
+0 0 medium unknown
+M greet 21046 100~
+M random 21047 5~
+M act 21048 looks at you.~
+M act 21049 leaves north.~
+M act 21049 leaves south.~
+M act 21049 leaves up.~
+M act 21049 leaves down.~
+M act 21049 leaves east.~
+M act 21049 leaves west.~
+M act 21049 leaves.~
+#21022
+mad hatter~
+@eng the Mad Hatter@rus ~~Болванщик~~~
+@eng The Mad Hatter engages you in conversation.
+@rus Болванщик вовлекает тебя в беседу.
+~
+@eng Everything this insane man says is nonsense, though you do find it rather
+amusing. He tells you of the time he had to sing at a concert given by
+the Queen, where he performed "Twinkle, twinkle, little bat"-
+
+"Twinkle, twinkle, little bat!
+ How I wonder what you're at!
+
+ Up above the world you fly,
+ Like a tea-tray in the sky."
+
+ Twinkle, twinkle, little bat!
+ How I wonder what you're at!
+@rus Все в этом безумном человеке полностью абсурдно, хотя ты и находишь это
+довольно занимательным. Он рассказывает, что во время концерта, даваемого 
+Королевой,  он пел "Филина":
+"Ты мигаешь, филин мой!
+Я не знаю, что с тобой!
+Высоко же ты над нами,
+Как поднос над небесами!
+ 
+ 
+~
+human~
+ABGT H 400 0
+42 0 10d119+700 42d10+100 5d14+24 pierce
+16 16 16 3
+EFNU 0 0 0
+stand stand male 1
+0 0 medium unknown
+F par GHIJK
+M greet 21050 100~
+M act 21051 looks at you.~
+M act 21052 tells you ~
+M act 21054 leaves north.~
+M act 21054 leaves south.~
+M act 21054 leaves up.~
+M act 21054 leaves down.~
+M act 21054 leaves east.~
+M act 21054 leaves west.~
+M act 21054 leaves.~
+#21023
+march hare~
+@eng the March Hare@rus ~~Мартовский~~ ~~Заяц~~~
+@eng The March Hare, who went insane last March, explains "It's always tea-time!"
+@rus Мартовский Заяц (сошедший с ума в марте) объясняет:"Тут всегда время пить чай!"
+~
+@eng Since they decided to freeze time at Six O'clock to save the Hatter's head,
+it has always been tea-time, with no time to wash up. So they alternate
+seats and serving sets. The Hare wants you to tell them a story now.
+@rus С тех пор как они решили остановить время на шести часах, чтобы спасти
+голову Болванщика, у них всегда время пить чай. Нет времени даже помыть посуду.
+Так что они пересаживаются с места на места, меняя приборы. 
+Заяц требует, чтобы ты рассказывал историю.
+~
+rabbit~
+A 0 400 0
+41 0 10d113+678 41d10+100 5d14+22 pound
+15 15 15 2
+0 0 0 0
+stand stand male 1
+0 0 medium unknown
+M greet 21050 100~
+M act 21054 leaves north.~
+M act 21054 leaves south.~
+M act 21054 leaves up.~
+M act 21054 leaves down.~
+M act 21054 leaves east.~
+M act 21054 leaves west.~
+M act 21054 leaves.~
+#21024
+dormouse~
+@eng the Dormouse@rus ~~Соня~~~
+@eng The Dormouse snores loudly, and is pinched by its companions.
+@rus Соня громко храпит, зажатая между своих компаньонов.
+~
+@eng The Dormouse seems to be asleep, but it still manages to inject comments into
+the conversation when it fancies. It decides to tell you a story, involving
+sisters, treacle and treacle wells. It really doesn't make much sense, but
+the Dormouse gets irritated if interrupted, so you patiently listen.
+@rus Похоже, что соня спит. Hо это не мешает ей вставлять в разговор реплики,
+когда она считает необходимым. Она решает рассказать историю про сестер, 
+патоку и колодец с патокой. История эта не имеет никакого смысла, но соня 
+раздражается, когда ее прерывают, и ты вынужден терпеливо слушать.
+~
+human~
+ABGT PR 400 0
+37 0 10d92+578 37d25+200 5d12+23 slash
+13 13 13 1
+EFNU 0 0 0
+stand stand female 31
+0 0 medium unknown
+F par GHIJK
+M greet 21055 100~
+M random 21056 5~
+#21027
+gardener heart five card~
+@eng a gardener@rus ~~садовник~~~
+@eng A gardener who resembles a playing card is busily painting a rose bush.
+@rus Садовник, очень похожий на игральную карту с усердием красит розовый куст.
+~
+@eng This fellow (who is the five of hearts) is busy trying to paint the white
+roses red before the Queen arrives.
+@rus Этот малый (Пятерка Червей) старательно пытается перекрасить белые розы 
+в красные до того, как здесь появится Королева.
+~
+human~
+ABGHT 0 400 0
+36 0 10d87+555 36d25+200 5d12+21 pierce
+12 12 12 1
+EFNU 0 0 0
+stand stand male 1
+0 0 medium unknown
+F par GHIJK
+M greet 21057 100~
+M act 21058 tells you~
+M act 21058 says~
+M act 21058 tells you~
+M act 21058 says~
+M greet 21059 100~
+#21028
+gardener heart seven card~
+@eng a gardener@rus ~~садовник~~~
+@eng A gardener who resembles a playing card quickly bows upon seeing you.
+@rus Садовник, очень похожий на игральную карту, быстро кланяется при виде тебя.
+~
+@eng This fellow (who is the seven of hearts) is busy trying to paint the white
+roses red before the Queen arrives.
+@rus Этот малый (Семерка Червей) старательно пытается перекрасить белые розы 
+в красные до того, как здесь появится Королева.
+~
+human~
+ABGHT 0 400 0
+36 0 10d87+555 36d25+200 5d12+21 pound
+12 12 12 1
+EFNU 0 0 0
+stand stand male 1
+0 0 medium unknown
+F par GHIJK
+M greet 21059 100~
+M act 21058 says~
+M act 21058 tells you~
+#21029
+gardener heart two card~
+@eng a gardener@rus ~~садовник~~~
+@eng A gardener who resembles a playing card is squabbling with his friends.
+@rus Садовник, очень похожий на игральную карту, пререкается со своими товарищами.
+~
+@eng This fellow (who is the two of hearts) is busy trying to paint the white
+roses red before the Queen arrives.
+@rus Этот малый (Двойка Червей) старательно пытается перекрасить белые розы 
+в красные до того, как здесь появится Королева.
+~
+human~
+ABGHT 0 400 0
+36 0 10d87+555 36d25+200 5d12+21 slash
+12 12 12 1
+EFNU 0 0 0
+stand stand male 1
+0 0 medium unknown
+F par GHIJK
+M greet 21060 100~
+M random 21061 4~
+M act 21062 leaves north.~
+M act 21062 leaves south.~
+M act 21062 leaves up.~
+M act 21062 leaves down.~
+M act 21062 leaves east.~
+M act 21062 leaves west.~
+M act 21062 leaves.~
+#21030
+soldier club card~
+@eng a soldier@rus ~~солдат~~~
+@eng A soldier, who is actually a playing card in the suit of clubs, marches by.
+@rus Солдат, который на самом деле игральная карта пик, марширует здесь.
+~
+@eng These stern cards are sworn to protect and obey the Queen.
+@rus Эти суровые солдаты принесли клятву защищать Королеву и подчиняться ей.
+~
+human~
+AGTX N 400 0
+37 0 10d92+578 37d25+200 5d12+23 pierce
+13 13 13 1
+EFNU 0 0 0
+stand stand male 1
+0 0 medium unknown
+F par GHIJK
+M greet 21063 100~
+M act 21064 looks at you.~
+#21031
+courtier diamond card~
+@eng a courtier@rus ~~придводный~~~
+@eng A flat, oblong courtier, ornamented with diamonds, strolls by.
+@rus Плоский длинновязый придворный, украшенный бриллиантами, прохидит мимо.
+~
+@eng These noble cards accompany the Queen everywhere.
+@rus Эти благородные карты повсюду сопровождают Королеву.
+~
+human~
+AGTX 0 400 0
+37 0 10d92+578 37d25+200 5d12+23 slash
+13 13 13 1
+EFNU 0 0 0
+stand stand male 2
+0 0 medium unknown
+F par GHIJK
+M greet 21065 100~
+M act 21066 looks at you.~
+M act 21067 leaves north.~
+M act 21067 leaves south.~
+M act 21067 leaves up.~
+M act 21067 leaves down.~
+M act 21067 leaves east.~
+M act 21067 leaves west.~
+M act 21067 leaves.~
+#21032
+child card hearts heart~
+@eng a child of the Queen@rus ~~королевский~~ ~~ребенок~~~
+@eng A tiny card bearing hearts upon it scurries about like a child.
+@rus Маленькая карта с вышитыми золотами сердечками ведет себя как ребенок.
+~
+These small tykes are the children of the Queen.
+~
+human~
+AGHTX 0 400 0
+34 0 10d78+505 34d25+200 5d11+21 slash
+11 11 11 0
+EFNU 0 0 0
+stand stand male 0
+0 0 medium unknown
+F par GHIJK
+M greet 21068 100~
+#21033
+king hearts~
+@eng the King of Hearts@rus ~~Червонный~~ ~~Король~~~
+@eng The King of Hearts strolls proudly past.
+@rus Король гордо шестует мимо тебя.
+~
+@eng The King is here to play croquet with the court. Although he is King, he
+defers to his overbearing wife in most matters. He strngly resembles the
+Kings you see on playing cards.
+@rus Король здесь, чтобы пнять участие в игре в крокет. Хотя он и Король, 
+в большинстве случаев он полностью полагается на мнение своей властной жены. 
+Он очень сильно напоминает тебе короля из колоды карт.
+~
+human~
+AGTX HJ 400 0
+41 0 10d113+678 41d10+100 5d14+22 pound
+15 15 15 2
+EFNU 0 0 0
+stand stand male 6
+0 0 medium unknown
+F par GHIJK
+M greet 21069 100~
+M act 21070 looks at you.~
+M act 21071 leaves north.~
+M act 21071 leaves south.~
+M act 21071 leaves up.~
+M act 21071 leaves down.~
+M act 21071 leaves east.~
+M act 21071 leaves west.~
+M act 21071 leaves.~
+#21034
+queen hearts~
+@eng the Queen of Hearts@rus ~~Червонная~~ ~~Королева~~~
+@eng The Queen of Hearts screams "Off with their heads!"
+@rus Червонная Королева вопит '{MОтрубить им головы!{x'
+~
+@eng The Queen is an imposing aggressive woman who solves every problem by
+demanding that the heads of the causes of them be lopped off. No-one's head
+ever actually DOES get lopped off, but that doesn't deter her.
+@rus  
+Королева - высокая властная женщина, решающая любую проблему путем усечения 
+головы виновника. Ни одна голова на самом деле еще отрублена не была, но это 
+ее удерживает королеву...
+~
+human~
+AGIJLNPQRSTYa JN -400 0
+45 0 10d136+786 45d10+100 5d15+26 slash
+18 18 18 4
+EFNU 0 0 0
+stand stand female 10
+0 0 medium unknown
+F par GHIJK
+M greet 21072 100~
+M act 21072 leaves north.~
+M act 21072 leaves south.~
+M act 21072 leaves up.~
+M act 21072 leaves down.~
+M act 21072 leaves east.~
+M act 21072 leaves west.~
+M act 21072 leaves.~
+M act 21073 looks at you.~
+M kill 21074 100~
+M act 21075 tells you~
+#21035
+knave hearts~
+@eng the Knave of Hearts@rus ~~Валет~~ Червей ~
+@eng The Knave of Hearts smiles and nods a lot.
+@rus Валет Червей улыбается и раскланивается.
+~
+@eng The Knave isn't the brightest of cards by a long shot. He is however a
+notorious thief, his biggest crime to date being the theft of the Queen's
+tarts.
+@rus Валет отнюдь не самая яркая карта. Он однако пользующийся дурной славой вор,
+чье самое большое простое преступление на сегодня - кража кренделей Королевы.
+~
+human~
+AGHTX 0 0 0
+40 0 10d108+648 40d10+100 5d14+20 pierce
+15 15 15 2
+EFNU 0 0 0
+stand stand male 1
+0 0 medium unknown
+F par GHIJK
+M act 21048 looks at you.~
+M greet 21076 100~
+M act 21077 tells you ~
+#21036
+flamingo~
+@eng a flamingo@rus фламинго~
+@eng A flamingo is fleeing across the croquet lawn.
+@rus Фламинго летит через крокетную площадку.
+~
+@eng This poor bird is attempting to avoid being used by the many players as a
+croquet mallet.
+@rus Эта несчастная птица пытается избежать участи быть использованной игроками
+в качестве крокетного молотка. 
+~
+human~
+AGHTX 0 0 0
+35 0 10d82+534 35d25+200 5d12+18 pierce
+11 11 11 0
+EFNU 0 0 0
+stand stand male 0
+0 0 medium unknown
+F par GHIJK
+M greet 21078 100~
+#21037
+hedgehog~
+@eng a hedgehog@rus ~~ёж~~~
+@eng A hedgehog jumps up and scampers off after being hit by a flamingo.
+@rus Ёж, подскакивая, проносится мимо тебя, ускоренный ударом молотком-фламинго.
+~
+@eng The croquet players are using these unassuming creatures as balls in their
+bizarre version of the clasic game of nobility.
+@rus Игроки в крокет используют несчастных зверьков как мячи в своей странной
+разновидности классической игры аристократов.
+~
+human~
+AGHTX 0 0 0
+35 0 10d82+534 35d25+200 5d12+18 pierce
+11 11 11 0
+EFNU 0 0 0
+stand stand male 0
+0 0 medium unknown
+F par GHIJK
+#21038
+executioner~
+@eng the executioner@rus ~~палач~~~
+@eng The executioner is wandering about muttering about disembodied heads.
+@rus Палач бродит здесь, бормоча что-то о головах, отделенных от тела.
+~
+@eng This fellow is perhaps at the same time both the busiest and the least-busy
+of the Queen's staff. For while he is constantly being ordered to decapitate
+hundreds of people, he never actually carries out the task. He is currently
+attempting to figure out a way to decapitate the head of the Cheshire Cat
+from... nothing. Such are the weird ways of Wonderland.
+@rus Палач должно быть одновременно самый занятый и самый ничего не делающий
+человек в свите Королевы. Хотя он постоянно получает приказы обезглавить
+сотни людей, он еще никогда не выполнил ни одного такого задания.
+Сейчас он пытается отрубить голову Чеширского Кота от его...упс, а тела-то
+и нету...
+Таковы странные пути в Стране Чудес.
+~
+human~
+AGTX HN 0 0
+44 0 10d130+759 44d10+100 5d15+24 pierce
+17 17 17 3
+EFNU 0 0 0
+stand stand male 1
+0 0 medium unknown
+F par GHIJK
+M greet 21079 100~
+M act 21080 tells you ~
+M act 21081 leaves north.~
+M act 21081 leaves south.~
+M act 21081 leaves up.~
+M act 21081 leaves down.~
+M act 21081 leaves east.~
+M act 21081 leaves west.~
+M act 21081 leaves.~
+#21039
+mock turtle~
+@eng the Mock Turtle@rus ~~Черепаха~~ Квази~
+@eng The Mock Turtle is here weeping constantly.
+@rus Черепаха Квази постоянно всхлипывает.
+~
+@eng The Mock Turtle is the thing Mock Turtle soup is made from. He is attempting
+to tell you his tale, but he is weeping so much you doubt he'll ever get a
+word out. The Turtle has the head of a pig, the shell of a turtle and the
+legs and tail of a cow. How peculiar!
+@rus Квази-черепаха - это то из чего варят квази-черепаший суп. Он пытается
+рассказать тебе свою историю, но так горько плачет и тяжко вздыхает, что
+не может произнести и слова. Черепаха эта имеет коровью голову, черепаший
+панцырь, копыта и хвост коровы. Удивительно!
+~
+unique~
+A 0 610 0
+42 0 10d119+700 42d10+100 5d14+24 pierce
+16 16 16 3
+0 0 0 0
+stand stand male 1
+0 0 medium unknown
+M greet 21083 100~
+#21040
+gryphon~
+@eng a Gryphon@rus ~~Грифон~~~
+@eng A Gryphon is lying here, sound asleep.
+@rus Грифон, легонько посапывая, спит на солнцепеке.
+~
+@eng This fantastic beast is a friendly sort, despite his appearance. He
+attended the same school as the Mock Turtle, studying things such as Reeling
+and Writhing, the three branches of Arithmetic- Ambition, Distraction,
+Uglification and Derision, and of course the classics- Laughing and Grief.
+@rus Несмотря на свой угрожающий внешний вид, этот чудесный зверь дружелюбен.
+Он посещал ту самую школу, что и Черепаха Квази, изучая Чихание и Пищание, 
+четыре действия Арифметики: Скольжение, Причитание, Умиление и Изнеможение,
+а так же курс классиков и Рифы Древней Греции и Рима.
+~
+unique~
+A 0 625 0
+45 0 10d136+786 45d10+100 5d15+26 pound
+18 18 18 4
+0 0 0 0
+stand stand male 5
+0 P medium unknown
+M greet 21084 100~
+M act 21085 tells you~
+M act 21086 looks at you.~
+M kill 21087 100~
+M death 21088 100~
+#21041
+juror~
+@eng a juror@rus ~~присяжный~~~
+@eng A juror is busily scribbling on a slate.
+@rus Присяжный старательно пишет что-то на грифельной доске.
+~
+@eng This chap is one of the jury who judges the cases in the court here. Of
+course, justice in Wonderland is a very erratic process, much like everything
+else in this strange place.
+@rus Этот парень один из присяжных, выносящих суждение по делам двора здесь.
+Конечно, правосудие Страны Чудес очень странный процесс, под стать
+всему остальному в этом странном месте.
+~
+human~
+ABGHTX 0 400 0
+38 0 10d97+603 38d25+200 5d13+20 slash
+13 13 13 1
+EFNU 0 0 0
+stand stand male 2
+0 0 medium unknown
+F par GHIJK
+M greet 21089 100~
+M act 21090 tells you~
+#21042
+court officer~
+@eng a court officer@rus ~~судебный~~ ~~исполнитель~~~
+@eng A court officer stands ready to suppress rowdy members of the public.
+@rus Судебный исполнитель здесь, готовый подавить публику, нарушащую порядок.
+~
+@eng "Suppressing" takes the form of placing the offender in a large hessian sack
+and sitting on them...
+@rus "Подавление" присходит следующим образом: нарушителя запихивают в большой 
+мешок и садятся сверху...
+~
+human~
+ABGT N 400 0
+39 0 10d102+629 39d25+200 5d13+22 pierce
+14 14 14 2
+EFNU 0 0 0
+stand stand male 2
+0 0 medium unknown
+F par GHIJK
+M greet 21091 100~
+M kill 21092 100~
+#0
+
+#OBJECTS
+#21000
+pretty blue frock~
+@eng a pretty blue frock@rus ~~симпатичное~~ ~~голубое~~ ~~платье~~~
+@eng A pretty blue frock is lying on the ground here.@rus Симпатичное голубое платье лежит на земле.~
+cotton~
+armor 0 AD
+12 12 12 0 0
+45 5 90 P
+A
+18 5
+G none
+#21001
+apron~
+@eng a white apron@rus ~~белый~~ ~~передник~~~
+@eng A white apron with pockets sewn into it lies here.@rus Белый передник с нашитыми кармашками лежит здесь~
+cotton~
+container 0 AL
+5 A -1 0 0
+45 2 90 P
+G male
+#21002
+pair black shoes~
+a pair of black shoes~
+@eng A pair of black shoes has been left here.@rus Пара чёрных туфель оставлена здесь.~
+leather~
+armor 0 AG
+12 12 12 0 0
+45 2 90 P
+A
+14 12
+G female
+#21003
+thimble~
+@eng a thimble@rus ~~напёрсток~~~
+@eng A thimble lies here.@rus Напёрсток лежит здесь.~
+steel~
+armor 0 AB
+12 12 12 0 0
+45 1 90 P
+A
+12 40
+A
+18 2
+A
+19 2
+G male
+#21004
+tweed jacket~
+@eng a tweed jacket@rus ~~твидовый~~ ~~пиджак~~~
+@eng A tweed jacket has been left here.@rus Пиджак из твида оставлен здесь.~
+tweed~
+armor 0 AK
+11 11 11 0 0
+40 3 80 P
+G male
+#21005
+waistcoat~
+@eng a red waistcoat@rus ~~красный~~ ~~жилет~~~
+@eng A red waistcoat is lying here.@rus Красный жилет лежит здесь.~
+wool~
+armor 0 AD
+11 11 11 0 0
+40 2 80 P
+A
+19 8
+A
+20 -8
+A
+1 1
+G male
+#21006
+pocket watch~
+@eng a pocket watch@rus ~~карманные~~ ~~часы~~~
+@eng A pocket watch is hanging by its chain from a hook here.@rus Карманные часы подвешены цепочкой за крючок.~
+copper~
+armor B AO
+11 11 11 0 0
+40 1 80 P
+A
+12 25
+A
+20 1
+A
+20 1
+G none
+#21007
+pair tiny white kid gloves~
+@eng a pair of tiny white kid-gloves@rus ~~пара~~ белых лайковых перчаток~
+@eng A pair of tiny white kid-gloves have been dropped here.@rus Пара крошечных белых лайковых перчаток обронена здесь. ~
+leather~
+armor 0 AH
+9 9 9 0 0
+33 2 66 P
+A
+26 -2
+A
+2 1
+A
+18 4
+G female
+#21008
+fan~
+@eng a fan@rus ~~веер~~~
+@eng A fan has been left here.@rus Веер оставлен здесь кем-то.~
+ivory~
+armor 0 AJ
+9 9 9 0 0
+33 1 66 P
+A
+17 24
+G male
+#21009
+scarf~
+@eng a neck scarf@rus ~~шарф~~~
+@eng A woolen neck scarf is lying here.@rus Шерстяной шарф лежит здесь.~
+wool~
+armor 0 AC
+11 11 11 0 0
+40 2 80 P
+A
+13 30
+G male
+#21010
+shelf~
+@eng a shelf@rus ~~полка~~~
+@eng A shelf hangs from the wall here.@rus Полка висит на стене здесь.~
+copper~
+container 0 0
+15 A -1 0 0
+48 100 96 P
+G female
+#21011
+jar orange marmalade~
+@eng a jar of orange marmalade@rus ~~банка~~ апельсинового варенья~
+@eng A jar of orange marmalade sits here.@rus Банка апельсинового варенья стоит тут.~
+copper~
+container 0 AO
+2 AC 0 0 0
+48 1 96 P
+E ''
+jar~
+It is empty.
+~
+G female
+#21012
+glass thre legged table~
+@eng a tiny three-legged table@rus ~~стеклянный~~ ~~столик~~ на трех ножках~
+@eng A tiny three-legged table, all made of glass, sits here.@rus Маленький трехногий столик, полностью сделанный из стекла, стоит здесь. ~
+glass~
+furniture 0 A
+0 0 0 0 0
+48 5 96 P
+E ''
+table~
+@eng You think you can see a small glass box sitting under the table...
+@rus Кажется, ты видишь небольшую стеклянную коробочку под столиком...
+~
+G male
+#21013
+tiny golden key~
+@eng a tiny golden key@rus ~~крошечный~~ ~~золотой~~ ~~ключик~~~
+@eng A tiny golden key sits on a table here.@rus Крошечный золотой ключик лежит на столе.~
+gold~
+key 0 AO
+0 0 0 0 0
+48 1 96 P
+G male
+#21014
+little bottle~
+@eng a little bottle@rus ~~маленький~~ ~~пузырёк~~~
+@eng A little bottle with a tiny paper label rests here.@rus Маленький пузырёк с крошечной бумажной этикеткой на горлышке стоит здесь.~
+glass~
+potion 0 AO
+35 'weaken' 'weaken' 'weaken' ''
+48 1 96 P
+E ''
+bottle label~
+@eng The label reads- "DRINK ME"
+@rus Надпись гласит: "ВЫПЕЙ МЕНЯ!"
+~
+G male
+#21015
+glass box~
+@eng a tiny glass box@rus ~~крошечная~~ ~~стеклянная~~ ~~коробочка~~~
+~
+glass~
+container 0 A
+2 AC 0 0 0
+48 1 96 P
+G female
+#21016
+small cake~
+@eng a small cake@rus ~~пирожок~~~
+@eng A small cake with something written on it with currants sits here.@rus Небольшой пирожок,  на котором коринками что-то написано, лежит здесь.~
+food~
+pill 0 A
+35 'giant strength' 'giant strength' 'giant strength' ''
+48 1 96 P
+E ''
+cake пирожок~
+@eng EAT ME!
+@rus СЪЕШЬ МЕНЯ!
+~
+G male
+#21017
+little bottle~
+@eng a little bottle@rus ~~маленький~~ ~~пузырёк~~~
+@eng A little bottle with a tiny paper label rests on the table here.@rus Маленький пузырёк с крошечной бумажной этикеткой на горлышке стоит здесь.~
+glass~
+potion 0 AO
+35 'giant strength' 'stone skin' 'armor' ''
+33 1 66 P
+E ''
+bottle label~
+@eng The label reads- "DRINK ME"
+@rus Надпись гласит: "ВЫПЕЙ МЕНЯ!"
+~
+G male
+#21018
+table~
+@eng a window table@rus ~~стол~~ у окна~
+@eng A table sits in the window here.@rus Стол стоит у раскрытого окна.~
+wood~
+furniture 0 0
+0 0 0 0 0
+33 1000 66 P
+G male
+#21019
+bottle brandy~
+@eng a bottle of brandy@rus ~~бутылка~~ бренди~
+@eng A bottle of brandy has been dropped here.@rus Бутылка бренди оставлена здесь.~
+glass~
+drink 0 AO
+2 2 'whisky' 0 0
+36 1 72 P
+G female
+#21020
+hookah~
+@eng a hookah@rus ~~кальян~~~
+@eng A hookah sits here.@rus Кальян стоит здесь.~
+copper~
+armor ABG AO
+11 11 11 0 0
+40 3 80 P
+A
+18 2
+A
+12 15
+A
+19 5
+G male
+#21021
+mushroom flesh~
+@eng some flesh from a mushroom@rus ~~кусок~~ гриба~
+@eng Some flesh has been torn off the mushroom and dropped here.@rus Кусок отломан от шляпки гриба и брошен здесь.~
+mushroom~
+pill 0 AO
+40 'weaken' '' 'poison' ''
+40 1 80 P
+G male
+#21022
+mushroom flesh~
+@eng some flesh from a mushroom@rus ~~кусок~~ гриба~
+@eng Some flesh has been torn off the mushroom and dropped here.@rus Кусок отломан от шляпки гриба и брошен здесь.~
+copper~
+pill 0 AO
+40 'protection evil' 'pass door' 'fly' ''
+40 1 80 P
+G male
+#21023
+pigeon egg~
+@eng a pigeon egg@rus ~~голубиное~~ ~~яйцо~~~
+@eng A pigeon egg sits here.@rus Голубиное яйцо лежит тут.~
+food~
+pill B AO
+36 'cure poison' '' '' ''
+34 1 68 P
+G none
+#21024
+pigeon egg~
+@eng a pigeon egg@rus ~~голубиное~~ ~~яйцо~~~
+@eng A pigeon egg sits here.@rus Голубиное яйцо лежит здесь.~
+food~
+pill B AO
+36 'mind light' '' '' ''
+34 1 68 P
+G none
+#21025
+pigeon egg~
+@eng a pigeon {Wegg{x@rus ~~голубиное~~ {W~~яйцо~~{x~
+@eng A pigeon egg sits here.@rus Голубиное яйцо лежит здесь.~
+food~
+pill B AO
+36 'detect hidden' '' '' ''
+34 1 68 P
+G none
+#21026
+nest~
+@eng a small nest@rus ~~небольшое~~ ~~гнездо~~~
+@eng A small nest is stuck in the branches of this tree.@rus Небольшое гнездо сплетено в ветвях дерева.~
+hay~
+container 0 A
+3 A 0 0 0
+34 1 68 P
+G none
+#21027
+footman livery~
+@eng a footman's livery@rus ~~лакейская~~ ~~ливрея~~ ~
+@eng A footman's livery has been left here.@rus Ливрея лакея оставлена здесь.~
+cloth~
+armor 0 AD
+10 10 10 0 0
+37 7 74 P
+A
+13 10
+A
+25 1
+G female
+#21028
+powdered wig~
+@eng a powdered wig@rus ~~напудренный~~ ~~парик~~~
+@eng A powdered wig lies here.@rus Напудренный парик лежит здесь.~
+copper~
+armor 0 AE
+10 10 10 0 0
+37 1 74 P
+A
+25 1
+G male
+#21029
+invitation~
+@eng an invitation@rus ~~приглашение~~~
+@eng An invitation from the Queen to play croquet lies here.@rus Приглашение от Королевы на игру в крокет лежит здесь.~
+paper~
+scroll A AO
+36 'bless' 'detect magic' 'faerie fog' ''
+37 1 74 P
+G none
+#21030
+cradle~
+@eng a baby's cradle@rus ~~детская~~ ~~колыбелька~~~
+@eng A baby's cradle is lying here.@rus Детская колыбель стоит здесь.~
+wood~
+container M AE
+150 A 0 0 0
+43 14 86 P
+A
+14 -25
+G female
+#21031
+pot soup~
+@eng a pot of soup@rus ~~котёл~~ супа~
+@eng A pot of soup with LOTS of pepper in it makes you sneeze rather a lot.@rus Котёл супа с ОГРОМНЫМ количеством перца, заставляющим тебя непрерывно чихать.~
+iron~
+container 0 0
+10 A -1 0 0
+41 100 82 P
+G male
+#21032
+plate~
+@eng a plate@rus ~~тарелка~~~
+@eng This plate is one of several the cook has hurled at the Duchess.@rus Одна из тарелок, которыми кухарка швыряет в Герцогиню.~
+copper~
+warp_stone 0 ANO
+0 0 0 0 0
+37 2 74 P
+G female
+#21033
+ladle~
+@eng a ladle@rus ~~черпак~~~
+@eng A soup-covered ladle lies here, dripping.@rus Черпак с супом лежит здесь, образуя вокруг себя лужу.~
+steel~
+weapon 0 AN
+exotic 5 5 blast 0
+37 100 74 P
+G male
+#21034
+green top hat~
+@eng a green top hat@rus ~~зеленоверхая~~ ~~шляпа~~~
+@eng A green top hat with a tag reading "In this Style 10/6" sits here.@rus Зеленоверхая шляпа с надписью "In this Style 10/6" лежит здесь.~
+cloth~
+armor M AE
+11 11 11 0 0
+42 7 84 P
+A
+3 -2
+A
+4 -2
+G female
+#21035
+table~
+@eng a long dining table@rus ~~длинный~~ ~~деревянный~~ ~~стол~~~
+@eng A long dining table rests here.@rus Длинный деревянный стол, накрытый к чаепитию, стоит здесь.~
+wood~
+furniture 0 0
+0 0 0 0 0
+43 1000 86 P
+G male
+#21036
+chair~
+@eng a comfortable chair@rus ~~удобное~~ ~~кресло~~~
+@eng A comfortable chair sits near the table here.@rus Удобное кресло стоит возле стола.~
+wood~
+furniture 0 A
+A CEFGHI E CFG CFG
+33 50 66 P
+G none
+#21037
+chair~
+@eng a comfortable chair@rus ~~удобное~~ ~~кресло~~~
+@eng A comfortable chair sits near the table here.@rus Удобное кресло стоит возле стола.~
+wood~
+furniture 0 A
+A CEFGHI E CFG CFG
+33 50 66 P
+G none
+#21038
+chair~
+@eng a comfortable chair@rus ~~удобное~~ ~~кресло~~~
+@eng A comfortable chair sits near the table here.@rus Удобное кресло стоит возле стола.~
+wood~
+furniture 0 A
+A CEFGHI E BEF BEF
+43 50 86 P
+G none
+#21039
+chair~
+@eng a comfortable chair@rus ~~удобное~~ ~~кресло~~~
+@eng A comfortable chair sits near the table here.@rus Удобное кресло стоит возле стола.~
+copper~
+furniture 0 A
+A CEFGHI E CFG CFG
+43 50 86 P
+G none
+#21040
+polka dot bow tie~
+@eng a large polka dot bow tie@rus ~~большой~~ ~~галстук~~-~~бабочка~~ в горошек~
+@eng A large polka dot bow tie has been (purposefully?) left here.@rus Большой галстук-бабочка в горошек оставлен (преднамеренно?) здесь.~
+silk~
+armor M AC
+11 11 11 0 0
+42 1 84 P
+A
+14 5
+A
+3 -1
+A
+2 1
+A
+12 1
+A
+18 3
+G male
+#21041
+green frock coat~
+@eng a green frock coat@rus ~~зеленый~~ ~~пиджак~~~
+@eng A green frock coat has been left here.@rus Зеленый пиджак оставлен здесь.~
+cloth~
+armor 0 AK
+11 11 11 0 0
+42 5 84 P
+G male
+#21042
+bits of straw~
+@eng some bits of straw@rus ~~порванная~~ ~~соломенная~~ ~~шляпа~~~
+@eng Some bits of straw have fallen out of someone's hair.@rus Солома выпадает из старой шляпы как чьи-то волосы.~
+copper~
+armor 0 AE
+11 11 11 0 0
+41 1 82 P
+A
+2 -3
+A
+3 -3
+A
+4 -3
+G female
+#21043
+biscuit plate~
+@eng a biscuit plate@rus ~~бисквит~~~
+@eng A biscuit plate sits on the table here.@rus Кусочек бисквита лежит на столе здесь.~
+food~
+warp_stone 0 ANO
+0 0 0 0 0
+43 1 86 P
+G male
+#21044
+tea pot~
+@eng a tea pot@rus ~~чашка~~ чая~
+@eng A tea pot sits on the table here.@rus Чашка чая стоит на столе.~
+porcelain~
+drink 0 AO
+5 3 'tea' 0 0
+43 3 86 P
+G female
+#21045
+tea cup~
+@eng a tea cup@rus ~~чашка~~ чая~
+@eng A tea cup sits on the table here.@rus Чашка чая стоит на столе.~
+porcelain~
+drink 0 AO
+1 1 'tea' 0 0
+43 1 86 P
+G female
+#21046
+checked shirt~
+@eng a checked shirt@rus ~~клетчатая~~ ~~рубашка~~~
+@eng A garish checked shirt has been dropped here.@rus Клетчатая рубашка яркой расцветки обронена здесь.~
+cloth~
+armor 0 AT
+10 10 10 0 0
+37 3 74 P
+G female
+#21047
+brown breeches~
+@eng some brown breeches@rus ~~коричневые~~ ~~бриджи~~~
+@eng Someone's dropped their breeches...@rus Кто-то потерял свои бриджи...~
+cloth~
+armor 0 AF
+10 10 10 0 0
+37 4 74 P
+A
+14 3
+A
+18 2
+G none
+#21048
+pair shoes~
+@eng a pair of black shoes@rus ~~пара~~ чёрных туфель~
+@eng A pair of shiny black buckled shoes sits here.@rus Пара блестящих чёрных туфель с пряжками стоит здесь. ~
+leather~
+armor 0 AG
+10 10 10 0 0
+37 3 74 P
+G female
+#21049
+paint red can~
+@eng a can of red paint@rus ~~банка~~ красной краски~
+@eng A can of red paint is lying here, pouring paint onto the ground.@rus Банка с красной краской лежит здесь, вытекая на землю.~
+copper~
+container 0 AO
+5 A -1 0 0
+36 2 72 P
+G female
+#21050
+paint brush~
+@eng a paint brush@rus ~~кисточка~~~
+@eng A paint brush stained bright red is dripping on the floor here.@rus Кисточка, испачканная в ярко-красной краске, валяется на полу.~
+hair~
+weapon 0 AN
+exotic 5 5 suction 0
+36 39 72 P
+G female
+#21051
+bush roses white red~
+@eng a white rose bush@rus ~~куст~~ белых роз~
+@eng Someone has attempted to paint this white rose bush red.@rus Куст белых роз частично перекрашен кем-то в красный цвет.~
+plant~
+furniture 0 0
+0 0 0 0 0
+33 150 66 P
+G none
+#21052
+club~
+@eng a soldier's club@rus ~~пика~~ солдата~
+@eng A soldier's club lies here. It looks like the club off a playing card.@rus Солдатская пика лежит здесь. Выглядит как пика с игральной карты.~
+wood~
+weapon 0 AN
+exotic 5 5 crush 0
+37 231 74 P
+G female
+#21053
+diamond~
+@eng a diamond@rus ~~бриллиант~~~
+@eng A diamond has been dropped here.@rus Бриллиант потерян здесь кем-то.~
+diamond~
+light AG AOQ
+0 0 82 0 0
+37 2 74 P
+A
+14 -5
+A
+12 50
+A
+18 2
+A
+19 2
+G male
+#21054
+king hearts sceptre~
+@eng the King of Heart's sceptre@rus ~~скипетр~~ Червонного Короля~
+@eng The King of Hearts has lost his sceptre.@rus Червонный Король потерял свой скипетр.~
+gold~
+staff G AO
+41 8 8 'cure critical' 0
+41 5 82 P
+G male
+#21055
+king hearts crown~
+@eng the King of Heart's crown@rus ~~корона~~ Червонного Короля~
+@eng The King of Heart's crown lies here.@rus Корона Червонного Короля лежит здесь.~
+gold~
+armor AM AE
+11 11 11 0 0
+41 15 82 P
+A
+19 6
+G female
+#21056
+queen hearts fan~
+@eng the Queen of Heart's fan@rus ~~веер~~ Червонной Королевы~
+@eng The Queen of Hearts has dropped her heart-shaped fan.@rus Червонная Королева обронила свой веер в форме сердечка.~
+paper~
+armor 0 AJ
+12 12 12 0 0
+45 7 90 P
+A
+20 6
+G male
+#21057
+flamingo~
+@eng a flamingo@rus фламинго~
+@eng A flamingo that is being used as a croquet mallet wriggles about here.@rus Фламинго, используемый вместо крокетного молотка, пытается улететь.~
+flesh~
+weapon G AN
+exotic 3 8 bite 0
+37 10 74 P
+A
+2 -2
+A
+13 45
+A
+18 3
+A
+19 4
+G male
+#21058
+queen hearts sceptre~
+@eng the Queen of Heart's sceptre@rus ~~скипетр~~ Червонной Королевы~
+@eng The Queen of Hearts has lost her sceptre...@rus Червонная Королева потеряла свой скипетр...~
+gold~
+staff AGM AO
+45 9 9 'cause critical' 0
+45 8 90 P
+G male
+#21059
+tarts~
+@eng the Queen's tarts@rus ~~крендели~~ Королевы~
+@eng The Queen's tarts sit on a table here.@rus Крендели лежат на столе здесь.~
+food~
+food 0 A
+DE 0 0 0 0
+34 5 68 P
+G none
+#21060
+axe~
+@eng the executioner's axe@rus ~~топор~~ палача~
+@eng The executioner's axe is leaning against one wall here.@rus Топор палача прислонен к стене здесь.~
+copper~
+weapon AEGM ANP
+exotic 5 4 slice 0
+44 214 88 P
+A
+19 8
+G male
+#21061
+executioner's hood~
+@eng the executioner's hood@rus ~~капюшон~~ палача~
+@eng The executioner's hood has been left here.@rus Капюшон палача оставлен здесь.~
+cloth~
+armor 0 AE
+11 11 11 0 0
+44 1 88 P
+G male
+#21062
+slate~
+@eng a slate@rus ~~грифельная~~ ~~доска~~~
+@eng A slate is covered with meaningless scribbles.@rus Грифельная доска покрытая бессмысленными закорлючками.~
+wood~
+scroll 0 AO
+35 'sleep' 'sleep' 'sleep' ''
+38 1 76 P
+G female
+#21063
+pencil~
+@eng a pencil@rus ~~грифель~~~
+@eng A squeaky pencil is driving you nuts!@rus Скрипучий грифель трезает твои нервы.~
+copper~
+weapon 0 AN
+exotic 3 9 stab 0
+38 1 76 P
+G male
+#21064
+hessian sack~
+@eng a hessian sack@rus ~~мешок~~ для подавления~
+@eng A hessian sack, used for supressing, lies here.@rus Мешок, используемый для подавления недовольных, лежит здесь.~
+cloth~
+container 0 A
+150 A 0 0 0
+39 15 78 P
+G male
+#21065
+rabbit hole~
+@eng a rabbit hole@rus ~~кроличья~~ ~~нора~~~
+@eng A rabbit hole beckons for you to enter!@rus Кроличья нора зовет тебя войти!~
+ground~
+portal 0 0
+0 0 0 21002 0
+48 1 96 P
+G female
+#21066
+tree door~
+@eng a tree with a tiny door@rus ~~дерево~~ с небольшой дверцей~
+@eng A tree with a tiny door set in it stands here.@rus Дерево с небольшой дверцей в стволе растет здесь.~
+plant~
+portal 0 0
+0 0 0 21042 0
+35 1 70 P
+G none
+#0
+
+#ROOMS
+#20000
+@eng Under water@rus Под водой~
+@rus [Вы опустильсь на дно реки. Здесь много или и грязи.
+Вам бы надо по быстрее подняться на верх, а то можете умереть.
+~
+0 C underwater
+D4 0
+~
+~
+Z 0 21009
+S
+#20001
+~
+~
+0 C inside
+S
+#21000
+@eng A Grassy Field@rus Травянистое Поле~
+@eng You are standing in a rather pleasant green field, by the banks of a softly
+flowing brook. To the east, you can see a small hedge row, beneath which you
+think you can make out a rabbit hole. Suddenly, a rabbit dashes past,
+muttering something about being late, and disappears down the hole! Oddly
+enough, it has a pocket watch, and you have never seen a rabbit with a 
+watch. You are inspired to investigate!
+@rus Ты стоишь в чудном зеленом поле, недалеко от спокойно текущего ручья.
+К востоку видна невысокая изгородь, перед которой, похоже, чернеет
+кроличья нора. Внезапно, мимо проносится кролик, бормочущий что-то
+насчет того, что он сильно опаздывает, и скрывается прямо в этой норе!
+Как это ни странно, на кролике тобой замечены карманные часы, а ты 
+никогда раньше не видел да и не слышал о кролике с часами. 
+Живой интерес пробуждается в твоей душе таким поворотом событий! 
+~
+0 C field
+D0 0
+~
+~
+Z 0 9101
+D1 0
+~
+~
+Z -1 21001
+S
+#21001
+@eng A Hedge@rus Возле Изгороди~
+@eng you are standing above the hole now, where the rabbit just disappeared. It
+looks to be rather a tight fit for such a big person as yourself, but you
+sense something magical about it...
+@rus Ты стоишь над дырой норы, в которой скрылся кролик. Она выглядит довольно
+узкой для такой большой особы как ты, но ты чувствуешь в ней какую-то магию... 
+~
+0 0 field
+D3 0
+~
+~
+Z -1 21000
+S
+#21002
+@eng The Rabbit Hole@rus Кроличья Нора~
+@eng You are falling down a rabbit hole, unlike any you have ever seen in your
+life! The walls are lined with shelves filled with jars of many different
+substances. And though you are falling without restraint, you do not feel
+that it will cause you any injury upon impact.
+@rus Ты падаешь вниз, и это не похоже ни на что, ранее испытанное или виденное 
+тобой! Стены увешаны рядами полок, на которых стоят разными банками. И,
+хотя ты находишься в свободном падении, страха, что ты в конце концов 
+разобьешься нет.
+~
+0 DU inside
+D5 0
+~
+~
+Z -1 21003
+S
+#21003
+@eng The Bottom of the Hole@rus Внизу Норы~
+@eng After falling for what seemed like at once forever and hardly any time at
+all, you reach the bottom, landing with a soft thump. To the east stretches
+a long corridor lined with lamps and locked doors. You see the rabbit
+disappear around a corner and leap up to give chase, though you don't know
+why.
+@rus После падения, которое казалось будет длиться вечно, ты наконец достиг дна,
+упав на кучу валежника и сухих листьев. На восток тянется  длинный зал с запертыми
+дверями вдоль обоих стен и освещенный пламенем ламп. Белый кролик исчезает за
+поворотом, и вскакиваешь, чтобы следовать за ним, хотя и сам не понимаешь зачем. 
+~
+0 D inside
+D1 0
+~
+~
+Z -1 21004
+D4 0
+~
+~
+Z -1 21002
+S
+#21004
+@eng A Long Hallway@rus Длинный Коридор~
+@eng You try the handles of several of the doors, but they are all locked and
+look too strong to pick or bash down. The rabbit's tail can be seen
+disappearing around a corner just up ahead.
+@rus Ты пытаешься подергать ручки нескольких дверей, но они заперты и кажется, 
+что взломать их или выбить будет сложновато. Кроличьий хвостик мелькает
+за поворотом впереди.
+~
+0 D inside
+D1 0
+~
+~
+Z -1 21005
+D3 0
+~
+~
+Z -1 21003
+S
+#21005
+@eng A Corner@rus Поворот~
+@eng The doors and lamps continue around the corner to the north. Up ahead you
+see the rabbit duck out a door to the east, but you are sure you saw him
+drop something on the way. You hear what sounds like water lapping against
+the edge of a pool to the far north.
+@rus Двери и лампы тянутся дальше за поворот на север. Впереди кролик ныряет 
+в восточную дверь, но ты видишь, как он что-то обронил наземь. Слышны звуки
+плещущейся воды - далеко на севере виден край водоема.
+~
+0 D inside
+D0 0
+~
+~
+Z -1 21006
+D3 0
+~
+~
+Z -1 21004
+S
+#21006
+@eng Outside the Garden@rus Снаружи Сада~
+@eng You have reached the door the rabbit bolted through. It is a small golden
+door, which is partially obscured by a curtain. To the north you see what
+looks like a pool of salty water.
+@rus Ты подходишь к двери, за которой скрылся кролик. Она очень маленькая, 
+сделана золота и частично скрыта бархатными портьерами. На севере ты видишь
+что-то вроде пруда с соленой водой.
+~
+0 D inside
+D0 0
+~
+~
+Z -1 21007
+D1 0
+You see a small golden door partially obscured by a curtain.
+~
+curtain golden~
+ABCDZ 21013 21012
+D2 0
+~
+~
+Z -1 21005
+S
+#21007
+@eng The Pool of Tears@rus Лужа Слёз~
+@eng You suddenly find yourself submerged in a nine foot deep pool, the contents
+of which taste rather like someone's tears! Other creatures, similarly
+marooned float by, equally disconcerted by the sudden appearance of this
+phenomenon.
+@rus Ты неожиданно с головой погружаешься в водоём девяти футов глубиной,
+вода в котором на вкус совсем как чьи-то слезы! Другие существа,
+барахтающиеся рядом, находятся в таком же замешательстве по поводу
+неожиданного возникновения данного феномена.
+~
+0 D water
+D0 5
+~
+~
+Z -1 21010
+D2 5
+~
+~
+Z -1 21006
+D3 9
+~
+~
+Z -1 21008
+D5 0
+~
+~
+Z 0 20000
+S
+#21008
+@eng The Pool of Tears@rus Лужа Слёз~
+@eng You suddenly find yourself submerged in a nine foot deep pool, the contents
+of which taste rather like someone's tears! Other creatures, similarly
+marooned float by, equally disconcerted by the sudden appearance of this
+phenomenon.
+@rus Ты неожиданно с головой погружаешься в водоём девяти футов глубиной,
+вода в котором на вкус совсем как чьи-то слезы! Другие существа,
+барахтающиеся рядом, находятся в таком же замешательстве по поводу
+неожиданного возникновения данного феномена.
+~
+0 D water
+D0 0
+~
+~
+Z -1 21009
+D1 0
+~
+~
+Z -1 21007
+S
+#21009
+@eng The Pool of Tears@rus Лужа Слёз~
+@eng You suddenly find yourself submerged in a nine foot deep pool, the contents
+of which taste rather like someone's tears! Other creatures, similarly
+marooned float by, equally disconcerted by the sudden appearance of this
+phenomenon.
+@rus Ты неожиданно с головой погружаешься в водоём девяти футов глубиной,
+вода в котором на вкус совсем как чьи-то слезы! Другие существа,
+барахтающиеся рядом, находятся в таком же замешательстве по поводу
+неожиданного возникновения данного феномена.
+~
+0 D water
+D1 0
+~
+~
+Z -1 21010
+D2 0
+~
+~
+Z -1 21008
+D5 0
+~
+~
+Z 0 20000
+S
+#21010
+@eng Drier Ground@rus Твердая Земля~
+@eng You emerge from the pool onto solid ground, where several other animals are
+shivering and attempting to dry off. To the north you see a group of them
+running about madly, and your curiosity is aroused.
+@rus Ты вылазишь из пруда на твердую землю, где несколько животных
+трясутся от холода и пытаются высохнуть. К северу ты наблюдаешь
+группу, с энтузиазмом бегающую по кругу, и твое любопытство растёт.
+~
+0 D inside
+D0 0
+~
+~
+Z -1 21011
+D2 0
+~
+~
+Z -1 21007
+D3 0
+~
+~
+Z -1 21009
+S
+#21011
+@eng Caucus-Race@rus Бег по Кругу~
+@eng Here several animals are engaging in a Caucus-Race in order to dry off. It
+seems to involve running about in a circle at random until you are dry,
+though determining a winner is rather difficult.
+@rus Здесь несколько зверей и птиц заняты бегом по кругу с целью высохнуть
+после купания в луже слёз. Похоже, можно присоединиться к бегу в любом
+месте круга и бежать, пока полностью не высохнешь, хотя определить 
+победителя забега будет довольно нелегко.
+~
+0 D inside
+D2 0
+~
+~
+Z -1 21010
+S
+#21012
+@eng In the Garden@rus В Саду~
+@eng You are in a neat little garden, walking along a pebble path toward a small,
+well-kept house that sits at the edge of a dark wood. Birds fly over, gazing
+at you quizzically.
+@rus Ты в ухоженном садике, идешь вдоль выложенной камнями тропинки
+к маленькому, опрятному дому, стоящему на краю темного леса. Над тобой 
+кружатся птицы, потревоженные твоим появлением. 
+~
+0 0 forest
+D1 0
+~
+~
+Z -1 21013
+D3 0
+~
+~
+ABCDZ 21013 21006
+S
+#21013
+@eng Outside the Rabbit's House@rus Возле Дома Кролика~
+@eng You are stanbing outside the house, which apparently belongs to the rabbit
+you were following. Indeed, he stops to demand that you find his gloves and
+fan for him at once, and keeps calling you Mary Ann, before dashing off
+once more. How odd!
+@rus Ты стоишь перед домом, который, очевидно, пренадлежит кролику, за которым
+ты следуешь. И действительно, он останавливается и требует, чтобы ты нашёл
+и принес его перчатки и веер, при этом упорно называя тебя Мэри-Энн...
+Как странно!
+~
+0 0 field
+D0 0
+The door has a plate that reads- W. RABBIT.
+~
+door~
+ABZ 0 21014
+D1 0
+~
+~
+Z -1 21019
+D3 0
+~
+~
+Z -1 21012
+S
+#21014
+@eng Inside the Rabbit's House@rus Внутри Дома Кролика~
+@eng You are inside a small, tidy house with antique oak furniture in marvellous
+condition. A sitting room lies to the west, while to the east a door leads
+out into the garden.
+
+A set of stairs leads up to the second floor.
+@rus Ты внутри небольшого, опрятного домика, обставленного старинной дубовой 
+мебелью в хорошем состоянии. К западу расположена гостиная, двери на 
+восток выходят в сад.
+ 
+Лестница наверх ведет на второй этаж.
+~
+0 D inside
+D1 0
+~
+~
+ABZ 0 21018
+D2 0
+~
+~
+ABZ 0 21013
+D3 0
+~
+~
+ABZ 0 21015
+D4 0
+~
+~
+Z -1 21016
+S
+#21015
+@eng A Sitting Room@rus Гостиная~
+@eng This well-appointed chamber has several comfortable arm chairs and a long
+table covered in papers and pens. A herald's uniform has been neatly laid
+out on the table as well, as has a long brass trumpet and a brightly-colored
+hat.
+@rus Это хорошо обставленная зала с несколькими удобными креслами и длинным столом.
+Поверхность стола завалена бумагами и перьями. Тут же лежат аккуратно 
+сложенные одежды герольда, длинная медная труба и шляпа ярких цветов.
+~
+0 D inside
+D1 0
+~
+~
+ABZ 0 21014
+S
+#21016
+@eng The Rabbit's Bedroom@rus Спальня Кролика~
+@eng You race up into the bedroom, where you do indeed see some gloves and a fan-
+several sets in fact- sitting on a a table near a strange looking glass. A
+fireplace can be seen on one wall, and you think you can hear voices coming
+from it.
+@rus Ты в спальне, где обнаруживаешьвеер и какие-то перчатки - даже несколько 
+пар, лежащие на столе возле маленькой странной бутылочке. Возле стены
+стоит камин, и тебе кажется, что изнутри его доносятся чьи-то голоса.
+~
+0 D inside
+E ''
+fireplace~
+You peer up it and see a lizard being lowered down on a rope by two guinea
+pigs, while the rabbit yells out directions. Evidently he figured out that
+you weren't Mary Ann, and has called in for some help.
+~
+D4 0
+~
+chimney fireplace~
+Z -1 21017
+D5 0
+~
+~
+Z -1 21014
+S
+#21017
+@eng On The Roof@rus На Крыше~
+@eng You manage to squeeze up the chimney, and emerge on the roof of the rabbit's
+house, confronting the source of the voices. Down below you see the rabbit
+screaming for the house to be burnt down. They are trying to kill you!
+@rus Сумев протиснуться вверх по дымовой трубе и вылезя на крышу кроличьего 
+домика, ты обнаруживаешь источник ранее слышимых голосов. Внизу в панике
+бегает Белый Кролик, требуя чтобы дом был сожжен. Они пытаются убить
+тебя!
+~
+0 0 city
+D5 0
+~
+chimney fireplace~
+Z -1 21016
+S
+#21018
+@eng Garden@rus Огород~
+@eng You emerge into a garden, near a cucumber patch. It looks as if someone has
+recently fallen into this patch, squashing a great deal of it. You hear the
+rabbit shouting something from outside.
+@rus Ты входишь в сад неподалеку от грядки огурцов. Похоже, что кто-то совсем
+недавно упал на нее, раздавив большую часть растений. Ты слышишь, как 
+снаружи продолжает кричать Кролик.
+~
+0 0 forest
+D2 0
+~
+~
+Z -1 21019
+D3 0
+~
+~
+ABZ 0 21014
+S
+#21019
+@eng On the Edge of the Wood@rus Край Леса~
+@eng You move away from the house, staring back in amazement at the hive of
+activity. A small cart full of ladders and ropes has been pulled up, and
+several animals are scurrying about, trying to see if you are still in the
+house. The rabbit has gone again, doubtless still attempting to make his
+appointment.
+@rus Ты идешь прочь от дома, в удивлении оглядываясь назад на развитую там бурную 
+деятельность. К дому подкатила небольшая тележка, груженная самыми разными
+лестницами и веревками, Несколько животных суетятся вокруг нее, пытаясь
+рассмотреть, есть ли ты до сих пор внутри. Кролик уже убежал, несомненно
+все еще пытаясь успеть на свою встречу. 
+~
+0 0 field
+D0 0
+~
+~
+Z -1 21018
+D1 0
+~
+~
+Z -1 21020
+D3 0
+~
+~
+Z -1 21013
+S
+#21020
+@eng A Mushroom@rus Гриб~
+@eng The path is divided here by a huge mushroom, large enough for you and a few
+friends to sit on. It is currently home to someone else, though. The path
+continues around it to the east.
+@rus Посредине тропинки растет огромный гриб. Он такой большой, что ты
+с несколькими друзьЯми без труда бы мог устроить пикник на его шлЯпке. 
+Однако, похоже, что на нем уже кто-то обитает. Тропа идет сквозь лес на
+восток и запад.
+~
+0 0 forest
+D1 0
+~
+~
+Z -1 21021
+D3 0
+~
+~
+Z -1 21019
+S
+#21021
+@eng At the Base of a Tree@rus У Подножья Дерева~
+@eng You pass by a particularly tall tree to the north, from which you can hear
+someone shouting "Serpents! Serpents!" at the top of their lungs. The path
+continues into the wood to the east and west.
+@rus Ты подходишь к подножью высокого дерева, с верхних ветвей которого
+доносяться истерические вопли "Змеи! Змеи!". Тропа на востоке и западе 
+углубляется в лес.
+~
+0 0 forest
+D1 0
+~
+~
+Z -1 21024
+D3 0
+~
+~
+Z -1 21020
+D4 0
+~
+~
+Z -1 21022
+S
+#21022
+@eng Ascending the Tree@rus Взбираясь на Дерево~
+@eng You scale the rough-bark tree without too much difficulty, finding adequate
+purchase on its coarse surface, and plenty of hand and foot holds in the form
+of several broad branches.
+@rus Ты поднимаешься вверх по стволу дерева без каких-либо усилий. 
+Кора дерева грубая и шершавая, легко найти выступ, за который можно 
+зацепиться или поставить на него ногу. 
+~
+0 0 forest
+D4 0
+~
+~
+Z -1 21023
+D5 0
+~
+~
+Z -1 21021
+S
+#21023
+@eng The Top@rus На Вершине~
+@eng You reach the top of the tree, poking your head through a thick layer of
+leaves and branches to peer out across a canopy of the same that stretches
+as far as you can see. The sun beats down upon your face, the heat warming
+and cleansing you. A bird's nest rests in the canopy near your head.
+@rus Ты забрался на самую вершину дерева и, просунув голову сквозь густое
+переплетение ветвей, можешь осмотривать все вокруг поверх листяного покрова,
+тянущегося во все стороны так далеко, как ты только можешь видеть. 
+Солнечные лучи падают на твое лицо, приятно согревая его. В листве рядом
+с твоей головой расположено птичье гнездо.
+~
+0 0 forest
+D5 0
+~
+~
+Z -1 21022
+S
+#21024
+@eng A Bend in the Path@rus Поворот Тропы~
+@eng You follow the path through the wood to a bend to the north. At this point
+you can see a house due east, though the path you are on doesn't run in
+that direction.
+@rus Ты следуешь лесной тропой, поворачивающей на север. К востоку от этого места
+видно дом, но тропа, на которой ты стоишь, не ведет в его направлении.   
+~
+0 0 forest
+D0 0
+~
+~
+Z -1 21025
+D3 0
+~
+~
+Z -1 21021
+S
+#21025
+@eng Another Bend@rus Другой Поворот~
+@eng The path bends again here, heading east once more, past the front door of
+the house you spied earlier. The wood is beginning to thin out here, allowing
+you to see a small field surrounding the house.
+@rus Тропа здесь снова поворачивает, уходя еще раз на восток, мимо парадной двери
+замеченного ранее дома. Лес здесь не такой густой, что позволяет наблюдать 
+за происходящим у дверей.
+~
+0 0 forest
+D1 0
+~
+~
+Z -1 21026
+D2 0
+~
+~
+Z -1 21024
+S
+#21026
+@eng Outside the Duchess' House (Pig and Pepper)@rus Возле Дома Герцогини (Поросёнок и перец)~
+@eng You are standing outside a little house, in an open field. From within you
+can hear what sounds like a pig squealing and plates being smashed. Your
+nose twitches, twice, and you realize that it is being irritated by a
+strong odor of pepper, emanating from within.
+@rus Ты стоишь на свободной от леса полянке возле небольшого дома. В доме стоит
+страшный шум - кто-то визжит, кто-то чихает, временами слышится оглушительный
+звон, будто там бьют посуду. Твой нос непроизвольно начинает дергаться,
+и ты понимаешь, что это от сильного запаха перца, доносящегося изнутри.
+~
+0 0 city
+D1 0
+~
+~
+Z -1 21030
+D2 0
+~
+~
+ABZ 0 21027
+D3 0
+~
+~
+Z -1 21025
+S
+#21027
+@eng A Large Kitchen@rus Просторная Кухня~
+@eng The door opens directly onto the kitchen of this place, which is filled with
+smoke. Several people are moving about in here, most of them sneezing as you
+are due to the pepper that can be smelled everywhere. A grinning cat sits
+at the feet of the duchess, and its smirk unsettles you
+@rus Дверь ведет прямо в кухню, полностью заполненную дымом. Несколько людей
+снуют по комнате, причем большинство из них чихают, как и ты, впрочем, 
+поскольку перец кажется повсюду. У ног Герцогини сидит огромный улыбающийся 
+кот, и его улыбка выводит тебя из относительного равновесия даже после 
+странностей сегодняшнего дня.
+~
+0 D inside
+D0 0
+~
+~
+ABZ 0 21026
+D1 0
+~
+~
+ABZ -1 21029
+D2 0
+~
+~
+ABZ -1 21028
+S
+#21028
+@eng A Bedroom@rus Спальня~
+@eng This is the sleeping quarters of the cook. It is currently empty.
+@rus Это комната - спальня кухарки. Сейчас она пуста.
+~
+0 D inside
+D0 0
+~
+~
+ABZ 0 21027
+S
+#21029
+@eng A Bedroom@rus Спальня~
+@eng This elegant chamber serves as quarters for the Duchess and her porcine
+child.
+@rus Эта изысканная зала служит опочивальней для Герцогини и ее свиноподобного
+ребенка.
+~
+0 D inside
+D3 0
+~
+~
+ABZ 0 21027
+S
+#21030
+@eng A Bend in the Path@rus Поворот Тропы~
+@eng The path bends away from the field, heading back north into the wood.
+@rus Тропа поворачивает от полей и уводит на север прямо в глубину леса.
+~
+0 0 field
+D0 0
+~
+~
+Z -1 21031
+D3 0
+~
+~
+Z -1 21026
+S
+#21031
+@eng Back in the Wood@rus Обратно в Лес~
+@eng The path bends again, heading east this time, toward a T-junction, at which
+point a large tree grows near the center of the T. You approach cautiously.
+@rus Тропа снова поворачивает, на этот раз на восток, прямо к Т-образному 
+пересечению, в центре буквы "Т" которого растет большое дерево. 
+Ты осторожно приближаешься
+~
+0 0 forest
+D1 0
+~
+~
+Z -1 21032
+D2 0
+~
+~
+Z -1 21030
+S
+#21032
+@eng At the Base of the Tree@rus У Основания Дерева~
+@eng You stop and stare up at the tree and are startled to see a large grin
+floating in mid air above one of the branches! It resembles the grin that the
+cat in the Duchess' house was wearing, and you begin to suspect further
+chicanery.
+@rus Ты останавливаешься и смотришь вверх. Там, среди ветвей дерева, прямо 
+в воздухе парит огромная улыбка. Она как две капли воды похожа на улыбку
+кота в доме Герцогини, и ты потихоньку начинаешь понимать что к чему...
+~
+0 0 forest
+D0 0
+In this direction lives the March Hare!
+~
+~
+Z -1 21033
+D2 0
+In this direction lives the Mad Hatter!
+~
+~
+Z -1 21037
+D3 0
+~
+~
+Z -1 21031
+S
+#21033
+@eng Outside the March Hare's House@rus Возле Дома Мартовского Зайца~
+@eng You are standing outside the March Hare's House. It appears to be deserted...
+@rus Ты стоишь снаружи дома Мартовского Зайца. Похоже, здесь никого нет...
+~
+0 0 forest
+D0 0
+~
+~
+ABCZ 0 21034
+D2 0
+~
+~
+Z -1 21032
+S
+#21034
+@eng Inside the House@rus Внутри Дома~
+@eng This house hasn't been lived in for quite some time. Broken bits of
+furniture are scattered about, along with items of clothing and pieces of
+crockery. The air is musty, and you cough as you stir up dust in your
+progress.
+@rus Здесь довольно продолжительное время никто не живет. Обломки мебели
+разбросаны по полу вперемешку с предметами одежды и осколками битой посуды.
+Воздух затхлый, и ты с трудом сдерживаешься, чтобы не закашляться.
+~
+0 D inside
+D1 0
+~
+~
+Z -1 21036
+D2 0
+~
+~
+ABZ 0 21033
+D3 0
+~
+~
+Z -1 21035
+S
+#21035
+@eng Inside the House@rus Внутри Дома~
+@eng This house hasn't been lived in for quite some time. Broken bits of
+furniture are scattered about, along with items of clothing and pieces of
+crockery. The air is musty, and you cough as you stir up dust in your
+progress.
+@rus Здесь довольно продолжительное время никто не живет. Обломки мебели
+разбросаны по полу вперемешку с предметами одежды и осколками битой посуды.
+Воздух затхлый, и ты с трудом сдерживаешься, чтобы не закашляться.
+~
+0 D inside
+D1 0
+~
+~
+Z -1 21034
+S
+#21036
+@eng Inside the House@rus Внутри Дома~
+@eng This house hasn't been lived in for quite some time. Broken bits of
+furniture are scattered about, along with items of clothing and pieces of
+crockery. The air is musty, and you cough as you stir up dust in your
+progress.
+@rus Здесь довольно продолжительное время никто не живет. Обломки мебели
+разбросаны по полу вперемешку с предметами одежды и осколками битой посуды.
+Воздух затхлый, и ты с трудом сдерживаешься, чтобы не закашляться.
+~
+0 D inside
+D3 0
+~
+~
+Z -1 21034
+S
+#21037
+@eng A Mad Tea Party@rus Безумное Чаепитие~
+@eng You come across a strange sight. Three very peculiar individuals are
+gathered around a very long table, drinking tea from many tea sets scattered
+about. Every now and again they stand up, change places and sit down again.
+@rus Перед тобой разворачивается странная картина. Три очень своеобразных
+индивидуума собрались за очень длинным столом и пьют чай из множества
+чайных наборов, расставленных по его поверхности. Через некоторое время
+они поднимаются, переходят на другое место, садятся и продолжают пить чай.
+~
+0 0 field
+D0 0
+~
+~
+Z -1 21032
+D1 0
+~
+~
+Z -1 21041
+D2 0
+~
+~
+ABZ 0 21038
+S
+#21038
+@eng Inside the Hatter's House@rus В Доме Болванщика~
+@eng This house is positively crammed with hats of every shape, shize and
+description. You manage to shove enough aside to enter, and see two rooms
+adjoining this one, both of them equally packed.
+@rus Этот дом определенно забит шляпами самой разной формы, вида и размера.
+Ты ухитряешься освободить достаточно места, чтобы втиснуться внутрь, и
+видишь еще две комнаты, соединенные с этой, заваленные таким же образом. 
+~
+0 D inside
+D0 0
+~
+~
+ABZ 0 21037
+D1 0
+~
+~
+Z -1 21040
+D2 0
+~
+~
+Z -1 21039
+S
+#21039
+@eng The Hatter's House@rus Дом Болванщика~
+@eng This room, like the other two, is crammed with hats. If you didn't know
+better, you'd swear that a Hatter lived here, albeit a slightly deranged
+one...
+@rus Это комната, как и две другие забита шляпами. Если бы ты даже не знал,
+ты бы мог с уверенностью утверждать, что тут живет болванщик, хотя и 
+немного сумасшедший... 
+~
+0 D inside
+D0 0
+~
+~
+Z -1 21038
+S
+#21040
+@eng The Hatter's House@rus Дом Болванщика~
+@eng This room, like the other two, is crammed with hats. If you didn't know
+better, you'd swear that a Hatter lived here, albeit a slightly deranged
+one...
+@rus Это комната, как и две другие забита шляпами. Если бы ты даже не знал,
+ты бы мог с уверенностью утверждать, что тут живет болванщик, хотя и 
+немного сумасшедший... 
+~
+0 D inside
+D3 0
+~
+~
+Z -1 21038
+S
+#21041
+@eng Outside a Tree@rus Возле Дерева~
+@eng You continue back into the wood, and soon reach a point where the path is
+blocked by a huge tree. However, there is a tiny door in the tree, through
+which you can proceed...
+@rus Ты продолжаешь углубляться в лес, и скоро приходишь к месту, где тропа
+перекрыта огромным деревом. Однако, в стволе дерева есть крошечная дверца,
+сквозь которую ты можешь пробраться дальше...
+~
+0 0 forest
+D3 0
+~
+~
+Z -1 21037
+S
+#21042
+@eng The Long Hallway@rus Длинный Коридор~
+@eng you are back in the long hallway you first entered upon arriving in
+Wonderland. However it appears quite different this time. The pool of tears
+is gone, as is the table with they key and little bottle. The golden door
+behind the curtain is still present, however, and this provides your only
+way onwards.
+@rus Ты вернулся в тот же длинный коридор, в который вошел сразу по прибытию
+в Страну Чудес. Однако, кажется, он полностью изменился за это время.
+Но золотые двери за портьерами все еще тут, и они - единственный путь,
+которым можно куда-то попасть.
+~
+0 D inside
+D1 0
+~
+curtain golden~
+ABZ 0 21043
+S
+#21043
+@eng In a Garden@rus В Саду~
+@eng You are standing in a pretty garden, in which hundreds of red rose bushes
+grow. One of these bushes, on closer inspection, shows patches of white,
+and it is then you notice the three playing cards frantically painting a
+white rose bush red...
+@rus Ты стоишь в прекрасном саду, в котором растут сотни кустов красных роз.
+На одном из кустов, при более пристальном изучении, видны белые бутоны,
+и тогда ты замечаешь три игральные карты, усердно красящие белые розы 
+в красный цвет.
+~
+0 0 field
+D1 0
+~
+~
+Z -1 21044
+D3 0
+~
+curtain golden~
+ABZ 0 21042
+S
+#21044
+@eng A Croquet Lawn@rus Крокетная Площадка~
+@eng You are wandering across a broad field, which is apparently a croquet lawn.
+You see dozens of playing cards running about, wielding squirming flamingoes,
+with which they are attempting to bash some poor hedgehogs under other
+playing cards bent double. How peculiar!
+@rus Ты идешь по широкому полю, которое явно служит площадкой для игры в крокет.
+По нему носятся несколько игральных карт, размахивая орущими фламинго и 
+пытаясь с помощью ударов головами птиц загнать мячи-ежей в бегающие по всей 
+площадке ворота из других игральных карт.
+Странно все это...
+~
+0 0 field
+D0 0
+~
+~
+Z -1 21045
+D1 0
+~
+~
+Z -1 21049
+D2 0
+~
+~
+Z -1 21047
+D3 0
+~
+~
+Z -1 21043
+S
+#21045
+@eng A Croquet Lawn@rus Крокетная Площадка~
+@eng You are wandering across a broad field, which is apparently a croquet lawn.
+You see dozens of playing cards running about, wielding squirming flamingoes,
+with which they are attempting to bash some poor hedgehogs under other
+playing cards bent double. How peculiar!
+@rus Ты идешь по широкому полю, которое явно служит площадкой для игры в крокет.
+По нему носятся несколько игральных карт, размахивая орущими фламинго и 
+пытаясь с помощью ударов головами птиц загнать мячи-ежей в бегающие по всей 
+площадке ворота из других игральных карт.
+Странно все это...
+~
+0 0 field
+D0 0
+~
+~
+Z -1 21046
+D1 0
+~
+~
+Z -1 21050
+D2 0
+~
+~
+Z -1 21044
+S
+#21046
+@eng A Croquet Lawn@rus Крокетная Площадка~
+@eng You are wandering across a broad field, which is apparently a croquet lawn.
+You see dozens of playing cards running about, wielding squirming flamingoes,
+with which they are attempting to bash some poor hedgehogs under other
+playing cards bent double. How peculiar!
+@rus Ты идешь по широкому полю, которое явно служит площадкой для игры в крокет.
+По нему носятся несколько игральных карт, размахивая орущими фламинго и 
+пытаясь с помощью ударов головами птиц загнать мячи-ежей в бегающие по всей 
+площадке ворота из других игральных карт.
+Странно все это...
+~
+0 0 field
+D1 0
+~
+~
+Z -1 21051
+D2 0
+~
+~
+Z -1 21045
+S
+#21047
+@eng A Croquet Lawn@rus Крокетная Площадка~
+@eng You are wandering across a broad field, which is apparently a croquet lawn.
+You see dozens of playing cards running about, wielding squirming flamingoes,
+with which they are attempting to bash some poor hedgehogs under other
+playing cards bent double. How peculiar!
+@rus Ты идешь по широкому полю, которое явно служит площадкой для игры в крокет.
+По нему носятся несколько игральных карт, размахивая орущими фламинго и 
+пытаясь с помощью ударов головами птиц загнать мячи-ежей в бегающие по всей 
+площадке ворота из других игральных карт.
+Странно все это...
+~
+0 0 field
+D0 0
+~
+~
+Z -1 21044
+D1 0
+~
+~
+Z -1 21048
+S
+#21048
+@eng A Croquet Lawn@rus Крокетная Площадка~
+@eng You are wandering across a broad field, which is apparently a croquet lawn.
+You see dozens of playing cards running about, wielding squirming flamingoes,
+with which they are attempting to bash some poor hedgehogs under other
+playing cards bent double. How peculiar!
+@rus Ты идешь по широкому полю, которое явно служит площадкой для игры в крокет.
+По нему носятся несколько игральных карт, размахивая орущими фламинго и 
+пытаясь с помощью ударов головами птиц загнать мячи-ежей в бегающие по всей 
+площадке ворота из других игральных карт.
+Странно все это...
+~
+0 0 field
+D0 0
+~
+~
+Z -1 21049
+D1 0
+~
+~
+Z -1 21055
+D3 0
+~
+~
+Z -1 21047
+S
+#21049
+@eng A Croquet Lawn@rus Крокетная Площадка~
+@eng You are wandering across a broad field, which is apparently a croquet lawn.
+You see dozens of playing cards running about, wielding squirming flamingoes,
+with which they are attempting to bash some poor hedgehogs under other
+playing cards bent double. How peculiar!
+@rus Ты идешь по широкому полю, которое явно служит площадкой для игры в крокет.
+По нему носятся несколько игральных карт, размахивая орущими фламинго и 
+пытаясь с помощью ударов головами птиц загнать мячи-ежей в бегающие по всей 
+площадке ворота из других игральных карт.
+Странно все это...
+~
+0 0 field
+D0 0
+~
+~
+Z -1 21050
+D1 0
+~
+~
+Z -1 21054
+D2 0
+~
+~
+Z -1 21048
+D3 0
+~
+~
+Z -1 21044
+S
+#21050
+@eng A Croquet Lawn@rus Крокетная Площадка~
+@eng You are wandering across a broad field, which is apparently a croquet lawn.
+You see dozens of playing cards running about, wielding squirming flamingoes,
+with which they are attempting to bash some poor hedgehogs under other
+playing cards bent double. How peculiar!
+@rus Ты идешь по широкому полю, которое явно служит площадкой для игры в крокет.
+По нему носятся несколько игральных карт, размахивая орущими фламинго и 
+пытаясь с помощью ударов головами птиц загнать мячи-ежей в бегающие по всей 
+площадке ворота из других игральных карт.
+Странно все это...
+~
+0 0 field
+D0 0
+~
+~
+Z -1 21051
+D1 0
+~
+~
+Z -1 21053
+D2 0
+~
+~
+Z -1 21049
+D3 0
+~
+~
+Z -1 21045
+S
+#21051
+@eng A Croquet Lawn@rus Крокетная Площадка~
+@eng You are wandering across a broad field, which is apparently a croquet lawn.
+You see dozens of playing cards running about, wielding squirming flamingoes,
+with which they are attempting to bash some poor hedgehogs under other
+playing cards bent double. How peculiar!
+
+To the north there is a courthouse.
+@rus Ты идешь по широкому полю, которое явно служит площадкой для игры в крокет.
+По нему носятся несколько игральных карт, размахивая орущими фламинго и 
+пытаясь с помощью ударов головами птиц загнать мячи-ежей в бегающие по всей 
+площадке ворота из других игральных карт.
+Странно все это...
+ 
+На север вход в залу судебных заседаний.
+~
+0 0 field
+D0 0
+~
+courthouse~
+ABZ -1 21059
+D1 0
+~
+~
+Z -1 21052
+D2 0
+~
+~
+Z -1 21050
+D3 0
+~
+~
+Z -1 21046
+S
+#21052
+@eng A Croquet Lawn@rus Крокетная Площадка~
+@eng You are wandering across a broad field, which is apparently a croquet lawn.
+You see dozens of playing cards running about, wielding squirming flamingoes,
+with which they are attempting to bash some poor hedgehogs under other
+playing cards bent double. How peculiar!
+@rus Ты идешь по широкому полю, которое явно служит площадкой для игры в крокет.
+По нему носятся несколько игральных карт, размахивая орущими фламинго и 
+пытаясь с помощью ударов головами птиц загнать мячи-ежей в бегающие по всей 
+площадке ворота из других игральных карт.
+Странно все это...
+~
+0 0 field
+D2 0
+~
+~
+Z -1 21053
+D3 0
+~
+~
+Z -1 21051
+S
+#21053
+@eng A Croquet Lawn@rus Крокетная Площадка~
+@eng You are wandering across a broad field, which is apparently a croquet lawn.
+You see dozens of playing cards running about, wielding squirming flamingoes,
+with which they are attempting to bash some poor hedgehogs under other
+playing cards bent double. How peculiar!
+@rus Ты идешь по широкому полю, которое явно служит площадкой для игры в крокет.
+По нему носятся несколько игральных карт, размахивая орущими фламинго и 
+пытаясь с помощью ударов головами птиц загнать мячи-ежей в бегающие по всей 
+площадке ворота из других игральных карт.
+Странно все это...
+~
+0 0 field
+D0 0
+~
+~
+Z -1 21052
+D1 0
+~
+~
+Z -1 21056
+D2 0
+~
+~
+Z -1 21054
+D3 0
+~
+~
+Z -1 21050
+S
+#21054
+@eng A Croquet Lawn@rus Крокетная Площадка~
+@eng You are wandering across a broad field, which is apparently a croquet lawn.
+You see dozens of playing cards running about, wielding squirming flamingoes,
+with which they are attempting to bash some poor hedgehogs under other
+playing cards bent double. How peculiar!
+@rus Ты идешь по широкому полю, которое явно служит площадкой для игры в крокет.
+По нему носятся несколько игральных карт, размахивая орущими фламинго и 
+пытаясь с помощью ударов головами птиц загнать мячи-ежей в бегающие по всей 
+площадке ворота из других игральных карт.
+Странно все это...
+~
+0 0 field
+D0 0
+~
+~
+Z -1 21053
+D2 0
+~
+~
+Z -1 21055
+D3 0
+~
+~
+Z -1 21049
+S
+#21055
+@eng A Croquet Lawn@rus Крокетная Площадка~
+@eng You are wandering across a broad field, which is apparently a croquet lawn.
+You see dozens of playing cards running about, wielding squirming flamingoes,
+with which they are attempting to bash some poor hedgehogs under other
+playing cards bent double. How peculiar!
+@rus Ты идешь по широкому полю, которое явно служит площадкой для игры в крокет.
+По нему носятся несколько игральных карт, размахивая орущими фламинго и 
+пытаясь с помощью ударов головами птиц загнать мячи-ежей в бегающие по всей 
+площадке ворота из других игральных карт.
+Странно все это...
+~
+0 0 field
+D0 0
+~
+~
+Z -1 21054
+D3 0
+~
+~
+Z -1 21048
+S
+#21056
+@eng On the Road to the Sea@rus Дорога к Морю~
+@eng You are heading away from the field toward a rocky shoreline. The smell of
+the sea is in the air, and a brisk northerly breeze invigorates you.
+@rus Ты идешь от поля к скалистой линии берега. Воздух пропитан соленым запахом
+моря, а свежий северный бриз освежает тебя, придавая новых сил. 
+~
+0 0 hills
+D1 0
+~
+~
+Z -1 21057
+D3 0
+~
+~
+Z -1 21053
+S
+#21057
+@eng A Rocky Ledge@rus Скалистый Уступ~
+@eng You are standing on a windswept ledge far above a rocky coastline, against
+which the waves of some unknown ocean pound. Seagulls soar high above, heading
+to and from their rocky aeries.
+@rus Ты стоишь на открытом ветрам выступе скалистого побережья, который содрогается
+под ударами океанских волн. Высоко над твоей головой парят морские чайки,
+время от времени снижаясь к своим гнездовьям в скалах.
+~
+0 0 hills
+D2 0
+~
+~
+Z -1 21058
+D3 0
+~
+~
+Z -1 21056
+S
+#21058
+@eng A Rocky Ledge@rus Скалистый Уступ~
+@eng You are standing on a windswept ledge far above a rocky coastline, against
+which the waves of some unknown ocean pound. Seagulls soar high above, heading
+to and from their rocky aeries.
+@rus Ты стоишь на открытом ветрам выступе скалистого побережья, который содрогается
+под ударами океанских волн. Высоко над твоей головой парят морские чайки,
+время от времени снижаясь к своим гнездовьям в скалах.
+~
+0 0 hills
+D0 0
+~
+~
+Z -1 21057
+S
+#21059
+@eng Courthouse (Who Stole the Tarts?)@rus Зал Суда (Кто украл крендели?)~
+@eng You have entered the courthouse, where people are beginning to settle down
+for the trial of the Knave of Hearts, who stole the Queen's tarts.
+@rus Ты входишь в зал суда, где люди уже рассаживаются по своим местам, готовясь
+к судебному слушанию дела Валета Червей, укравшего крендели у Королевы.
+~
+0 D inside
+D0 0
+~
+~
+Z -1 21062
+D1 0
+~
+~
+Z -1 21061
+D2 0
+~
+~
+ABZ 0 21051
+D3 0
+~
+~
+Z -1 21060
+S
+#21060
+@eng The Jury Box@rus Места для Присяжных~
+@eng Here stands the jury box, where the 12 jurors will judge the case. Like all
+things in Wonderland, the judicial process is a complex, erratic and usually
+futile process.
+@rus Ты стоишь возле мест для присяжных, где 12 присяжных вынесут свой вердикт о 
+деле. Как и все остальное в Стране Чудес, судебный процесс здесь странен,
+крайне запутан и обычной логике не поддается.
+~
+0 D inside
+D1 0
+~
+~
+Z -1 21059
+S
+#21061
+@eng The Witness Box@rus Место для Дачи Свидетельских Показаний~
+@eng Here the accused or those giving evidence stand, to give their testimony. It
+is a rather pointless exercise, as their statements are either muddled,
+ignored or shouted down.
+@rus Это место, где стоит обвиняемый или свидетель и дает показания перед 
+судом. Вернее пытается дать. Это довольно бессмысленное занятие, так как 
+все остальные в зале мешают ему, перекрикивают или просто игнорируют 
+сказанное.
+~
+0 D inside
+D3 0
+~
+~
+Z -1 21059
+S
+#21062
+@eng The Main Floor@rus Перед Креслом Судьи~
+@eng Here the prosecuting and defense attorneys make their cases, before the
+throne where the judge (the King) sits.
+@rus Здесь защита и обвинение излагают свои факты и доказательства перед местом, 
+где сидит судья (Король).
+~
+0 D inside
+D2 0
+~
+~
+Z -1 21059
+D4 0
+~
+~
+Z -1 21063
+S
+#21063
+@eng The Throne@rus Трон-Кресло Судьи~
+@eng Here sits the King, where he judges the cases. He isn't here yet, as he hasn't
+finished pardoning the players the Queen condemned to death (all of them).
+@rus Здесь сидит Король, верша правосудие. Однако сейчас его нет на месте, 
+поскольку он до сих пор не окончил с помилованием осужденных к смерти 
+Королевой игроков в крокет (всех до единого).
+~
+0 D inside
+D5 0
+~
+~
+Z -1 21062
+S
+#0
+
+#SPECIALS
+M 21001 spec_cast_mage	* a white rabbit
+M 21014 spec_breath_gas	* the caterpillar
+M 21021 spec_cast_mage	* a Cheshire Cat
+M 21030 spec_guard	* a soldier
+M 21035 spec_thief	* the Knave of Hearts
+M 21038 spec_executioner	* the executioner
+M 21040 spec_fido	* a Gryphon
+M 21042 spec_guard	* a court officer
+S
+
+#RESETS
+D 0 21006 1 2	* Outside the Garden: door to the east: closed and locked
+D 0 21012 3 2	* In the Garden: door to the west: closed and locked
+D 0 21013 0 1	* Outside the Rabbit's House: door to the north: closed
+D 0 21014 1 1	* Inside the Rabbit's House: door to the east: closed
+D 0 21014 2 1	* Inside the Rabbit's House: door to the south: closed
+D 0 21014 3 1	* Inside the Rabbit's House: door to the west: closed
+D 0 21015 1 1	* A Sitting Room: door to the east: closed
+D 0 21018 3 1	* Garden: door to the west: closed
+D 0 21026 2 1	* Outside the Duchess' House (Pig and Pepper): door to the south: closed
+D 0 21027 0 1	* A Large Kitchen: door to the north: closed
+D 0 21027 1 1	* A Large Kitchen: door to the east: closed
+D 0 21027 2 1	* A Large Kitchen: door to the south: closed
+D 0 21028 0 1	* A Bedroom: door to the north: closed
+D 0 21029 3 1	* A Bedroom: door to the west: closed
+D 0 21033 0 2	* Outside the March Hare's House: door to the north: closed and locked
+D 0 21034 2 1	* Inside the House: door to the south: closed
+D 0 21037 2 1	* A Mad Tea Party: door to the south: closed
+D 0 21038 0 1	* Inside the Hatter's House: door to the north: closed
+D 0 21042 1 1	* The Long Hallway: door to the east: closed
+D 0 21043 3 1	* In a Garden: door to the west: closed
+D 0 21051 0 1	* A Croquet Lawn: door to the north: closed
+D 0 21059 2 1	* Courthouse (Who Stole the Tarts?): door to the south: closed
+O 0 21065 0 21001	* a rabbit hole (A Hedge)
+O 0 21010 0 21002	* a shelf (The Rabbit Hole)
+P 0 21011 1 21010 1	* a shelf: a jar of orange marmalade
+O 0 21012 0 21006	* a tiny three-legged table (Outside the Garden)
+O 0 21013 0 21006	* a tiny golden key (Outside the Garden)
+O 0 21014 0 21006	* a little bottle (Outside the Garden)
+O 0 21015 0 21006	* a tiny glass box (Outside the Garden)
+P 0 21016 1 21015 1	* a tiny glass box: a small cake
+M 0 21003 1 21008 1	* a duck (The Pool of Tears)
+M 0 21002 1 21009 1	* a mouse (The Pool of Tears)
+M 0 21005 1 21010 1	* a lory (Drier Ground)
+M 0 21007 1 21010 1	* an elderly magpie (Drier Ground)
+M 0 21008 1 21010 1	* an owl (Drier Ground)
+M 0 21004 1 21011 1	* a dodo (Caucus-Race)
+M 0 21006 1 21011 1	* an eaglet (Caucus-Race)
+M 0 21009 1 21011 1	* an old crab (Caucus-Race)
+M 0 21010 1 21011 1	* a young crab (Caucus-Race)
+O 0 21036 0 21015	* a comfortable chair (A Sitting Room)
+O 0 21037 0 21015	* a comfortable chair (A Sitting Room)
+O 0 21017 0 21016	* a little bottle (The Rabbit's Bedroom)
+O 0 21018 0 21016	* a window table (The Rabbit's Bedroom)
+O 0 21007 0 21016	* a pair of tiny white kid-gloves (The Rabbit's Bedroom)
+O 0 21008 0 21016	* a fan (The Rabbit's Bedroom)
+M 0 21011 1 21017 1	* Bill the lizard (On The Roof)
+M 0 21012 2 21017 1	* a guinea pig (On The Roof)
+G 0 21019 0		*	a bottle of brandy
+M 0 21013 1 21019 1	* a puppy dog (On the Edge of the Wood)
+M 0 21014 1 21020 1	* the caterpillar (A Mushroom)
+E 0 21020 0 17		*	a hookah: held in the hands
+G 0 21021 0		*	some flesh from a mushroom
+G 0 21022 0		*	some flesh from a mushroom
+M 0 21015 1 21023 1	* a pigeon (The Top)
+O 0 21026 0 21023	* a small nest (The Top)
+P 0 21023 1 21026 1	* a small nest: a pigeon egg
+P 0 21024 1 21026 1	* a small nest: a pigeon egg
+P 0 21025 1 21026 1	* a small nest: a pigeon {Wegg{x
+M 0 21016 1 21026 1	* a fish-footman (Outside the Duchess' House (Pig and Pepper))
+E 0 21027 0 5		*	a footman's livery: on the body
+E 0 21028 0 6		*	a powdered wig: over the head
+E 0 21029 0 17		*	an invitation: held in the hands
+M 0 21017 1 21026 1	* a frog-footman (Outside the Duchess' House (Pig and Pepper))
+E 0 21027 0 5		*	a footman's livery: on the body
+E 0 21028 0 6		*	a powdered wig: over the head
+M 0 21018 1 21027 1	* the Duchess (A Large Kitchen)
+E 0 21030 0 6		*	a baby's cradle: over the head
+O 0 21031 0 21027	* a pot of soup (A Large Kitchen)
+O 0 21032 0 21027	* a plate (A Large Kitchen)
+M 0 21019 1 21027 1	* the Duchess' baby (A Large Kitchen)
+M 0 21020 1 21027 1	* the cook (A Large Kitchen)
+E 0 21032 0 17		*	a plate: held in the hands
+E 0 21033 0 16		*	a ladle: wielded
+G 0 21032 0		*	a plate
+G 0 21032 0		*	a plate
+G 0 21032 0		*	a plate
+M 0 21021 1 21032 1	* a Cheshire Cat (At the Base of the Tree)
+O 0 21035 0 21037	* a long dining table (A Mad Tea Party)
+O 0 21036 0 21037	* a comfortable chair (A Mad Tea Party)
+O 0 21037 0 21037	* a comfortable chair (A Mad Tea Party)
+O 0 21038 0 21037	* a comfortable chair (A Mad Tea Party)
+O 0 21039 0 21037	* a comfortable chair (A Mad Tea Party)
+O 0 21043 0 21037	* a biscuit plate (A Mad Tea Party)
+O 0 21044 0 21037	* a tea pot (A Mad Tea Party)
+O 0 21045 0 21037	* a tea cup (A Mad Tea Party)
+M 0 21022 1 21037 1	* the Mad Hatter (A Mad Tea Party)
+E 0 21034 0 6		*	a green top hat: over the head
+E 0 21040 0 3		*	a large polka dot bow tie: around the neck
+E 0 21041 0 12		*	a green frock coat: about the shoulders
+E 0 21046 0 5		*	a checked shirt: on the body
+E 0 21047 0 7		*	some brown breeches: on the legs
+E 0 21048 0 8		*	a pair of black shoes: on the feet
+M 0 21023 1 21037 1	* the March Hare (A Mad Tea Party)
+E 0 21042 0 6		*	some bits of straw: over the head
+E 0 21046 0 5		*	a checked shirt: on the body
+E 0 21047 0 7		*	some brown breeches: on the legs
+E 0 21048 0 8		*	a pair of black shoes: on the feet
+M 0 21024 1 21037 1	* the Dormouse (A Mad Tea Party)
+E 0 21046 0 5		*	a checked shirt: on the body
+E 0 21047 0 7		*	some brown breeches: on the legs
+E 0 21048 0 8		*	a pair of black shoes: on the feet
+O 0 21066 0 21041	* a tree with a tiny door (Outside a Tree)
+M 0 21037 4 21042 1	* a hedgehog (The Long Hallway)
+O 0 21051 0 21043	* a white rose bush (In a Garden)
+M 0 21027 1 21043 1	* a gardener (In a Garden)
+E 0 21049 0 17		*	a can of red paint: held in the hands
+E 0 21050 0 16		*	a paint brush: wielded
+M 0 21028 1 21043 1	* a gardener (In a Garden)
+E 0 21049 0 17		*	a can of red paint: held in the hands
+E 0 21050 0 16		*	a paint brush: wielded
+M 0 21029 1 21043 1	* a gardener (In a Garden)
+E 0 21049 0 17		*	a can of red paint: held in the hands
+E 0 21050 0 16		*	a paint brush: wielded
+M 0 21037 4 21045 1	* a hedgehog (A Croquet Lawn)
+M 0 21001 1 21046 1	* a white rabbit (A Croquet Lawn)
+E 0 21004 0 12		*	a tweed jacket: about the shoulders
+E 0 21005 0 5		*	a red waistcoat: on the body
+E 0 21006 0 17		*	a pocket watch: held in the hands
+E 0 21007 0 9		*	a pair of tiny white kid-gloves: on the hands
+E 0 21008 0 11		*	a fan: as a shield
+E 0 21009 0 3		*	a neck scarf: around the neck
+M 0 21030 4 21047 1	* a soldier (A Croquet Lawn)
+E 0 21052 0 16		*	a soldier's club: wielded
+M 0 21037 4 21048 1	* a hedgehog (A Croquet Lawn)
+M 0 21038 1 21049 1	* the executioner (A Croquet Lawn)
+E 0 21060 0 16		*	the executioner's axe: wielded
+E 0 21061 0 6		*	the executioner's hood: over the head
+M 0 21000 1 21050 1	* Alice (A Croquet Lawn)
+E 0 21057 0 16		*	a flamingo: wielded
+E 0 21000 0 5		*	a pretty blue frock: on the body
+E 0 21001 0 13		*	a white apron: around the waist
+E 0 21002 0 21008		*	a pair of black shoes: unknown
+G 0 21003 0		*	a thimble
+M 0 21036 4 21050 1	* a flamingo (A Croquet Lawn)
+M 0 21033 1 21051 1	* the King of Hearts (A Croquet Lawn)
+E 0 21054 0 17		*	the King of Heart's sceptre: held in the hands
+E 0 21055 0 6		*	the King of Heart's crown: over the head
+E 0 21057 0 16		*	a flamingo: wielded
+M 0 21031 4 21052 1	* a courtier (A Croquet Lawn)
+E 0 21053 0 0		*	a diamond: as a light
+E 0 21057 0 16		*	a flamingo: wielded
+M 0 21032 4 21054 1	* a child of the Queen (A Croquet Lawn)
+G 0 21059 0		*	the Queen's tarts
+M 0 21034 1 21055 1	* the Queen of Hearts (A Croquet Lawn)
+E 0 21056 0 11		*	the Queen of Heart's fan: as a shield
+E 0 21057 0 16		*	a flamingo: wielded
+E 0 21058 0 17		*	the Queen of Heart's sceptre: held in the hands
+M 0 21040 1 21056 1	* a Gryphon (On the Road to the Sea)
+M 0 21039 1 21058 1	* the Mock Turtle (A Rocky Ledge)
+M 0 21042 2 21059 1	* a court officer (Courthouse (Who Stole the Tarts?))
+G 0 21064 0		*	a hessian sack
+M 0 21041 12 21060 1	* a juror (The Jury Box)
+E 0 21062 0 17		*	a slate: held in the hands
+E 0 21063 0 16		*	a pencil: wielded
+M 0 21035 1 21061 1	* the Knave of Hearts (The Witness Box)
+G 0 21059 0		*	the Queen's tarts
+S
+
+#OLIMITS
+O 21025 3	* a pigeon {Wegg{x
+S
+
+#MOBPROGS
+#21000
+emote поднимает брови от удивления.
+~
+#21001
+emote кричит от страха!
+yell На помощь!
+~
+#21002
+say Очень рада Вас видеть!!
+curtsey
+~
+#21003
+say  Я опаздываю! О Господи!
+emote смотрит на свои часы.
+~
+#21004
+growl
+say Кошки! Низкие, гадкие, вульгарные твари!
+~
+#21005
+say КРЯ!
+~
+#21006
+say Нужно устроить Бег по кругу. Тогда мы вмиг высохнем!
+emote рисует на земле не очень-то ровный круг.
+tell $n Правильность формы несущественна!
+~
+#21007
+emote неистово бегает по кругу!
+say Продолжаем бегать!
+~
+#21008
+tell $n Я не скажу сколько мне лет!
+~
+#21009
+tell $n Я старше, чем ты, и лучше знаю, что к чему!
+~
+#21010
+say Что уставилась, малявка!
+~
+#21011
+say Говорите по-человечески!
+emote расправляет крылья и встряхивает их, обрызгивая всех!
+~
+#21012
+say Мне действительно пора домой. Ночной воздух вреден моему горлу.
+~
+#21013
+emote бегает по кругу.
+~
+#21014
+say Попридержите лучше язык, маменька! Вы даже устрицу выведете из терпения!
+~
+#21015
+say Ах, дорогая, пусть это послужит тебе уроком! Нужно всегда держать себя в руках!
+~
+#21016
+emote вскирикивает от удивления.
+say Это гигант!
+~
+#21017
+yell Он меня как поддаст снизу - и р-раз в небо, как шутиха!
+~
+#21018
+yell Айеее!
+~
+#21019
+emote выглядит обеспокоенной.
+~
+#21020
+say Ты не очень хорошо выглядишь!
+mob oload 21019
+give brandy $n
+~
+#21021
+edit печально рассматривает тебя.
+~
+#21022
+emote виляет хвостом и прыгает прямо на тебя.
+~
+#21023
+mob echoat $n Щенок грустными глазами смотрит тебе вслед.
+~
+#21024
+say Принеси мне мои перчатки!
+~
+#21025
+tell $n Слышать о них не желаю!
+~
+#21026
+emote вперевалочку уходит.
+~
+#21027
+say Бег закончен! Но кто же победил?
+~
+#21028
+emote сидит и дуется.
+~
+#21029
+emote начинает как сумашедший бегать по кругу!
+~
+#21030
+say До свидания!
+~
+#21031
+if sex $n == 1
+say Ты...кто...такой?
+else
+say Ты...кто...такая?
+endif
+emote затягивается кальяном и пускает колечки дыма. 
+~
+#21032
+cast 'fly' $n
+cast 'fly' self
+say Теперь становятся выше!
+~
+#21033
+tell $n Отскусишь с одной стороны - подрастешь, с другой - уменьшишься!
+~
+#21034
+yell Змея!
+say Я все испробовала - и все без толку. Они не довольны ничем!
+~
+#21035
+emote дрожит от гнева!
+~
+#21036
+tell $n Скатертью дорожка, змея!
+~
+#21037
+if carries $n 21029
+else
+mob oload 21029
+give invitation $n
+say Герцогине. От Королевы. Приглашение на крокет.
+if mobhere frog footman
+mob force frog say От Королевы. Герцогине. Приглашение на крокет.
+endif
+endif
+~
+#21038
+say Нет смысла стучать.
+~
+#21039
+say Буду здесь сидеть. Хоть до завтра...
+~
+#21040
+yell Ах ты поросенок!
+emote смотрит на младенца на своих коленях.
+~
+#21041
+if sex $n == 1
+say Ты многого не видел. Это уж точно!
+else
+say Ты многого не видела. Это уж точно!
+endif
+~
+#21042
+emote чихает и визжит без передышки.
+~
+#21043
+emote помешивает суп.
+~
+#21044
+emote швыряет тарелку в Герцогиню! *>БАБАХ<*
+~
+#21045
+mob echoat $n Кухарка швыряет тарелку в тебя!
+mob echoaround $n Кухарка швыряет тарелку в $n! *>БАБАХ<*
+~
+#21046
+mob echoat $n Чеширский Кот улыбается тебе.
+echoaround $n Чеширский Кот улыбается $n.
+~
+#21047
+say Вон там живет Мартовский Заяц.
+say А там - Болванщик.
+~
+#21048
+cast 'invisibility' self
+~
+#21049
+tell $n Ты играешь сегодня в крокет у Королевы? Буду рад тебя видеть!
+emote взмахивает своим хвостом и исчезает.
+~
+#21050
+say Занято! Занято! Мест нет!
+~
+#21051
+say Чем ворон похож на конторку?
+~
+#21052
+say Понятия не имею!
+~
+#21053
+say чай!
+mob oload 21045
+give tea $r
+~
+#21054
+emote начинает засовывать соню в чайник.
+~
+#21055
+emote громко храпит.
+~
+#21056
+say Жили-были три сестрички...
+~
+#21057
+say Я не виноват! Это Семерка толкнул меня под локоть!
+emote продолжает красить куст в красный цвет.
+~
+#21058
+emote обвиняюще смотрит на Двойку.
+~
+#21059
+emote продолжает красить куст в красный цвет.
+~
+#21060
+say Поосторожней, Пятерка! Опять ты меня забрызгал!
+~
+#21061
+say Понимаете, нужно было посадить красные розы, а мы, дураки, посадили белые.
+~
+#21062
+yell КОРОЛЕВА! КОРОЛЕВА!
+~
+#21063
+emote быстро разгибается и уходит на дальний конец площадки, как только чей-то ёж летит к нему.
+~
+#21064
+tell $n Ты ищешь неприятностей?
+~
+#21065
+emote взмахивает своим фламинго и посылает ежа прямо в воротца-солдата.
+~
+#21066
+emote улыбается и кивает.
+~
+#21067
+emote убегает прочь при виде другого ежа.
+~
+#21068
+say Га-га! Гу-гу!
+~
+#21069
+say Приветствую!
+~
+#21070
+say Хммм!
+~
+#21071
+emote проходит мимо, с фламинго в руке.
+~
+#21072
+yell Отрубить им головы!
+~
+#21073
+tell $n Попрощайся со СВОЕЙ головой!
+cast 'sanctuary' self
+~
+#21074
+yell СТРАЖА! НА ПОМОЩЬ!
+cast 'flamestrike' $n
+~
+#21075
+tell $n Какая дерзость!
+~
+#21076
+emote быстро прячет крендель за спиной.
+~
+#21077
+say Ничего!
+~
+#21078
+emote убегает со всех ног от разгневанных придворных.
+~
+#21079
+say Нельзя отрубить голову, если кроме головы, ничего больше нет!
+~
+#21080
+tell  Может ТЫ?
+~
+#21081
+emote бормочет что-то под нос.
+~
+#21083
+emote выглядит слишком расстроенным, чтобы говорить.
+~
+#21084
+say Смех да и только! Казнить! У них такого отродясь не было.
+~
+#21085
+tell $n Черепаха Квази на восток и на юг отсюда.
+~
+#21086
+cast 'fly' $n
+~
+#21087
+emote вскрикивает и атакует!
+~
+#21088
+yell Я убит!
+~
+#21089
+emote неистово записывает что-то на грифельной доске.
+~
+#21090
+say Делай это ТЫ!
+mob oload 21062
+give slate $n
+~
+#21091
+emote с подозрением смотрит на тебя.
+~
+#21092
+cast 'blindness' $n
+cast 'web' $n
+~
+#0
+
+#PRACTICERS
+M 21021 lang~	* a Cheshire Cat
+S
+
+#HELPS
+0 'Through the Looking Glass' 'Looking Glass'~
+This area was written on a DOS Text Editor by Yaegar, based on the two best-
+known works of the brilliant and eccentric Lewis Carroll. It is not a literal
+interpretation- some aspects cannot be reproduced identically in Muds- but it
+attempts to faithfully recreate the atmosphere as closely as possible, with
+many people and places from several of Carroll's works included.
+
+NOTE- a LOT of the flavor and fun of this area will be lost if the triggers
+are not present or functioning properly, so if you are going to use this
+area on any other mud than AnonyMud! i would suggest you write appropriate
+mob_progs or endeavour to modernize your mud with the truly brilliant
+trigger code by the coders at AnonyMud!
+
+Enjoy!
+
+Yaegar, October 1996.
+~
+-1 $~
+
+#$

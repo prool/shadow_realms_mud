@@ -1,0 +1,2627 @@
+#AREADATA
+Name Castle of Giants~
+VNUMs 13000 13099
+Credits Outlaw~
+Security 5
+LevelRange 20 50
+End
+
+#MOBILES
+#13000
+guard giant~
+@eng a giant guard@rus ~~гигант~~-~~страж~~~
+@eng A giant guard glances around, looking to stop trouble.
+@rus Огромный стражник, оглядывается вокруг, чтобы вовремя остановить преступление.
+~
+@eng Standing around 12 feet tall, this giant seems to keep things safe in the 
+castle. I wouldn't mess with him.
+@rus Ростом 12 футов, этот гигант охраняет порядок в замке. Я бы не стал 
+спорить с ним.
+~
+giant~
+ABGT 0 0 0
+35 -2 1d1+999 35d25+200 5d8+12 smash
+8 15 10 3
+CDEKOT 0 0 0
+stand stand male 30
+0 0 huge unknown
+#13001
+thiulor spy giant~
+@eng Thiulor the Spy@rus ~~шпион~~ ~~Тиулор~~~
+@eng A strange giant peers at you while sneaking through the castle.
+@rus Странный, не похожий на гиганта, гигант стоит здесь.
+~
+@eng Strange indeed, this giant seems to be adept at what was thought impossible
+of the giants. Stealth and Guile. He is a spy for the Lord of the Giants, 
+spying on the guards and making sure they are loyal to the Lord.
+@rus Это не просто гигант. Несмотря на свой рост он может абсолютно незаметно
+передвигаться. Это шпион. Он помогает своему повелителю не только побеждать
+в сражениях, но и поддерживать порядок в государстве, выискивая противников
+политике лорда.
+~
+giant~
+ACHS DFHPU 0 0
+45 -2 1d1+3299 45d25+200 5d6+11 pound
+10 15 7 5
+CDEFHJKN 0 0 0
+stand stand male 35
+0 0 huge unknown
+#13002
+lord giant~
+@eng the Lord of the Giants@rus ~~Лорд~~ гигантов~
+@eng The Lord of the Giants raises his arms and screams at your intrusion!
+@rus Лорд гигантов возмущен твоим вторжением.
+~
+@eng The Lord of the Giants is definately someone not to be messed with. Standing
+15 feet tall, his muscles ripple and stretch all over his body, ready to 
+defend his castle. You notice a dark look in his eyes as he hungers for
+your blood.
+@rus Перед тобой огромная, 15 футов высотой, фигура хозяина этого замка.
+Он выглядит очень сильным и ты понимаешь, что он готов на всё, чтобы
+защитить свои владения.
+~
+giant~
+ABFGT DFGOu -700 0
+60 -1 1d1+5000 60d25+200 10d10+25 crush
+20 20 20 5
+AFIJKNRVX 0 0 0
+stand stand male 42
+0 0 giant unknown
+L 'giant lang'
+#13003
+mistress Shannon giant~
+@eng Shannon, the Battle Mistress@rus Шэннон, ~~повелительница~~ боя~
+@eng Screaming at your entrance, Shannon readies her weapon and attacks!
+@rus Возмущенная твоим появлением здесь, Шэннон выхватывает оружие и атакует.
+~
+@eng She is the epitomy of battle. Hair tossed about and muscles like that of
+no other female giant you have ever seen, she seems to posses both power
+and control to level anyone who challenges her.
+@rus Она -- повелительница боя. Волосы распущены. Она поражает тебя
+своим натренированным телом. Успев осмотреть её с головы до ног,
+ты понимаешь, что эта женщина может сравнять с землёй почти что
+любого.
+~
+giant~
+ABFGT V 0 0
+55 0 1d1+9199 55d25+200 10d4+26 slash
+11 11 11 6
+ACDEFIJK 0 0 0
+stand stand female 40
+0 0 giant unknown
+#13004
+cleric Iupsil giant~
+@eng Iupsil, the Master Cleric@rus ~~Июпсил~~, ~~мастер~~-~~лекарь~~~
+@eng Uttering a prayer, the Master Cleric turns to you with a smile.
+@rus Отвлекаясь от молитвы, священник улыбается тебе.
+~
+@eng This giants seems to be at peace with his surroundings. Praying to his god
+when he is in trouble and using his magics to keep the castle in good health,
+he seems just the person who you would want as a friend. (And his size makes
+him seem like someone who you WOULDN'T want as an enemy)
+@rus Он здесь для того, чтобы своими молитвами к Богу и своими
+умениями содержать замок в порядке, а всех его обитателей
+в добром здравии. Тебе кажется, что ты хотел бы быть его
+другом.
+~
+giant~
+ABCGHQT DFHTU 0 0
+55 0 1d1+6599 55d25+200 5d5+22 blast
+15 15 15 10
+DEK A 0 0
+stand stand male 40
+0 0 giant unknown
+#13005
+captain guard human~
+@eng the Captain of the Castle Guard@rus ~~капитан~~ охраны замка гигантов~
+@eng The Captain of the Castle Guard stands here, barking orders.
+@rus Капитан охраны стоит здесь, раздавая указания.
+~
+@eng Strangest thing you've seen yet. The Captain of the Guards seems to be a 
+human. Standing about 6 feet tall, he hardly compares to the guards around
+him. His muscles have been hardened over the years of training with the 
+giants and the scars over his body show him to be experienced enough to 
+hold his own in combat.
+@rus Это, наверное, самое странное, что ты когда - нибудь видел.
+Капитан охраны, кажется, человек! Ростом 6 футов, он 
+кажется совершенно беззащитным перед своими починёнными.
+Но долгие годы тренировкм с гигантами не прошли даром --
+его мускулы стали твёрдыми, как камень, а шрамы на его теле
+говорять о том, что легко он никому не дастся.
+~
+giant~
+A DH 0 0
+50 1 1d1+9999 50d25+200 5d5+29 pierce
+9 9 9 9
+ACDEHT 0 0 0
+stand stand male 37
+0 0 medium unknown
+#13006
+gardener servant elf~
+@eng the elven servant@rus ~~эльфийский~~ ~~слуга~~~
+@eng An elven servant walks around, tending the castle garden.
+@rus Усталый эльф проходит мимо тебя и удаляется в глубь сада.
+~
+@eng He smiles when he sees you, hoping that you'll add variety to his life. He
+tells you that he never gets out of the castle to visit his homeland and
+longs to pay off his debt to the Lord.
+@rus Он устало улыбается, когда видит тебя, надеясь, что ты внесёшь разнообразие
+в его жизнь. Он рассказывает тебе, что никогда не покидает замок и не может
+посетить свою родину.
+~
+elf~
+ACGHRY N 425 0
+5 0 1d1+74 5d25+200 3d3+3 slap
+3 3 3 3
+FK 0 0 0
+stand stand male 5
+0 0 medium unknown
+#13007
+male giant~
+@eng the male giant@rus ~~житель~~ замка~
+@eng A male giant is standing here, admiring the castle.
+@rus Обычный гигант стоит здесь, восхищаясь замком.
+~
+@eng He looks in admiration of everything he sees. The wealth of the giants here
+makes him proud to be a part of the race.
+@rus Он восхищён всем, что видит. Он гордится богатством и мощью этого замка.
+Он счастлив тем, что принадлежит к расе гигантов.
+~
+giant~
+ACT 0 0 0
+20 0 4d9+333 20d25+200 2d9+5 pound
+4 4 4 1
+CDEJKR 0 0 0
+stand stand male 20
+0 0 huge unknown
+#13008
+dying gnome~
+@eng the dying gnome@rus ~~умирающий~~ ~~гном~~~
+@eng A dying gnome is lying here, spitting up blood.
+@rus Умирающий гном здесь, плюется кровью.
+~
+@eng He has committed an act against the giants and is paying the price. He 
+spits up blood and coughs, trying to say something to you. All that you
+can make out is '..was.. framed'. He then goes into another coughing fit.
+@rus Он, вероятно, совершил какой - то поступок против гигантов и теперь 
+расплачивается за это. Он кашляет и плюётся кровью, пытаясь рассказать
+тебе что - то. Всё, что ты можешь разобрать: "...было...создано...".
+~
+gnome~
+AH 0 0 0
+30 0 6d12+700 30d25+200 4d6+8 digestion
+8 8 8 8
+EFJK 0 0 0
+rest rest male 27
+0 0 medium unknown
+#13009
+weeping elf~
+@eng the weeping elf@rus ~~плачущая~~ ~~эльфийка~~~
+@eng A weeping elf is chained to the wall here, struggling to break free.
+@rus Плачущая эльфийка, прикованная к стене, пытается вырваться на свободу.
+~
+@eng She has gotten herself into trouble and is now in the dungeon of the giants.
+Her hair matted with blood and swet makes her hardly seem as fair as elven
+women usually are. She says she doesn't even know what she has been charged
+with, but has to stay here for as long as they keep her.
+@rus Она впутала себя в неприятность и теперь находится здесь.
+~
+elf~
+A 0 550 0
+30 0 6d12+850 30d25+200 5d6+8 peck
+9 9 9 9
+EFJKN 0 0 M
+stand stand female 27
+0 0 medium unknown
+#13010
+weeping elf~
+@eng the weeping elf@rus ~~плачущая~~ ~~эльфийка~~~
+@eng A weeping elf sits in the corner of her cell, sobbing.
+@rus Плачущая эльфийка, сидит в углу камеры, рыдая.
+~
+@eng She has gotten herself into trouble and is now in the dungeon of the giants.
+Her hair matted with blood and swet makes her hardly seem as fair as elven
+women usually are. She says she doesn't even know what she has been charged
+with, but has to stay here for as long as they keep her.
+@rus Она впутала себя в неприятность и теперь находится здесь.
+~
+elf~
+A 0 550 0
+30 0 6d12+850 30d25+200 5d6+8 peck
+9 9 9 9
+EFJKN 0 0 M
+stand stand female 27
+0 0 medium unknown
+#13011
+librarian~
+@eng the librarian@rus ~~библиотекарь~~~
+@eng A giant librarian sits here, nose in a book.
+@rus Огромный библиотекарь сидит здесь, уткнувшись носом в книгу.
+~
+@eng He lives his life exactly how he wants. With books, LOTS of books. He met
+the lord once when the lord was in search of a certain forbidden piece of
+literature. After bargaining with the Lord he obtained the statis of 'Castle
+Librarian' and has been as pleased as can be ever since.
+@rus Он живёт книгами, среди книг и ради книг.
+~
+giant~
+ABGT 0 0 0
+35 -2 1d1+999 35d25+200 5d8+12 shbite
+8 15 10 3
+CDEKOT 0 0 0
+sit stand male 30
+0 0 huge unknown
+#13012
+torturer human~
+@eng the torturer@rus ~~палач~~~
+@eng A human stands here with a grin, delivering pain and misery.
+@rus Страшный человек стоит здесь.
+~
+@eng Having been a friend of the Lord's since their youth, this human seems to
+share in the Lord's desire for pain and destruction. Burning elves live or
+beating a gnome to death, he cares not. It is merely part of his well-paid
+job.
+@rus Он был другом повелителя с самого детства и разделяет все его стремления.
+Его чёрную душу не трогают мольбы эльфов и гномов, которых он пытает. Это
+просто часть его хорошо оплачиваемой работы.
+~
+human~
+ABCFGHT DOVu -600 0
+60 0 45d10+8250 40d25+200 10d7+35 wrath
+14 14 14 10
+ADFHJN 0 0 N
+stand stand male 32
+0 0 medium unknown
+#13013
+screaming elf~
+@eng the screaming elf@rus ~~кричащий~~ ~~эльф~~~
+@eng An elf is chained to the floor here, screaming in agony at the torture.
+@rus Здесь бъется в агонии прикованный к стене эльф.
+~
+@eng He hardly represents royalty in a huddle mass on the floor. He was once a 
+prince and was captured in a war against the giants. He now spends his days
+and nights screaming from the torture, until his body finally gives up. He 
+wishes someone would put him out of his misery.
+@rus Этот эльф был принцем у себя на родине. Он был захвачен во время войны с 
+гигантами и теперь проводит здесь всё время, мучаясь под пытками. Он молит
+Бога, чтобы тот послал ему помощь.
+~
+elf~
+AB IN 600 0
+40 0 1d1+3299 40d25+200 4d9+12 divine
+15 15 15 15
+FHJKN 0 C M
+sit stand male 32
+0 0 medium unknown
+#0
+
+#OBJECTS
+#13000
+claymore adamantite~
+@eng an adamantite claymore@rus ~~адамантитовый~~ ~~палаш~~~
+@eng A claymore forged of adamantite rests here.@rus Адамантитовый палаш валяется здесь.~
+adamantite~
+weapon 0 AN
+sword 5 5 slash 0
+35 200 70 P
+A
+13 10
+G male
+#13001
+dagger thiulor~
+@eng {MB{ma{Mr{mb{Me{md{x {wDagger of {DThiulor{x@rus ~~{MК{mо{Mл{mю{Mч{mи{Mй{x~~ кинжал {DТиулора{x~
+@eng A barbed and deadly dagger rests here in a pool of poison.@rus Колючий и смертельный кинжал лежит здесь, в облаке яда.~
+adamantite~
+weapon BEM AN
+dagger 6 6 pierce H
+50 120 100 P
+A
+13 40
+A
+18 4
+A
+2 -1
+G male
+#13002
+cloak stealth~
+@eng the cloak of {Dstealth{x@rus ~~плащ~~ {Dневидимки{x~
+@eng A cloak of strange material sits silently here.@rus Плащ из странного материала лежит здесь.~
+etherealness~
+armor T AK
+1 1 1 1 0
+45 30 90 P
+F
+A 0 0 P
+G male
+#13003
+mask spy~
+@eng {Da spy {wm{Da{ws{Dk{x@rus ~~{wм{Dа{wс{Dк{wа{x~~ {Dшпиона{x~
+@eng A strange mask is here radiating the unknown.@rus Странная маска лежит здесь и излучается неизвестность.~
+iron~
+armor ABGT AV
+1 1 1 1 0
+45 50 100 P
+A
+18 -1
+A
+6 -2
+F
+A 0 0 C
+F
+A 0 0 G
+F
+A 0 0 D
+F
+A 0 0 F
+G female
+#13004
+banner~
+@eng the {RBanner{x of the {DCastle{x of {WGiants{x@rus {R~~боевое~~ ~~знамя~~{D замка{W гигантов{x~
+@eng A Banner of the Castle of Giants flows in the wind here.@rus Боевое знамя развевается здесь на ветру.~
+cloth~
+light A A
+0 0 60 0 0
+50 35 120 P
+A
+12 50
+A
+13 50
+G none
+#13005
+ring glory~
+@eng the {BRing{x of {WGlory{x@rus ~~{BКольцо{x~~ {WПобеды{x~
+@eng A glorious ring shines brightly here, glowing with the strength of a giant.@rus Сияющее кольцо лежит на земле, ослепляя тебя.~
+adamantite~
+armor ABM AB
+15 30 15 10 10
+50 10 100 P
+A
+19 3
+A
+18 2
+A
+20 4
+G none
+#13006
+huge broadsword~
+@eng the huge {Dbroadsword{x of {RDestruction{x@rus ~~{Dмеч{x~~ {RРазрушения{x~
+@eng A powerful weapon of destruction lies here, waiting to be wielded.@rus Мощный меч с широким лезвием лежит здесь и ждёт владельца.~
+adamantite~
+weapon ABM AN
+sword 6 6 slice CF
+55 350 110 P
+A
+18 4
+A
+19 6
+G male
+#13007
+small spiked ring~
+@eng {ya small {wspiked {Cring{x@rus {yмаленькое{x ~~{wшипастое{x~~ ~~{Cколечко{x~~~
+@eng {CA ring{x sits here with jagged {wspikes{x coming from it's sides.@rus Маленькое кольцо выглядит угрожающе из - за шипов на нём.~
+iron~
+armor 0 AB
+7 9 3 2 2
+35 20 80 P
+A
+13 -15
+A
+19 4
+A
+23 30
+G none
+#13008
+spiked adamantite platemail~
+@eng a suit of {wspiked {madamantite {Cplatemail{x@rus ~~{wшипастая{x~~ ~~{mадамантитовая{x~~ ~~{Cброня{x~~~
+@eng Some spiked piles of admantite rest on the floor.@rus Броня с множеством мелких шипов лежит на полу.~
+adamantite~
+armor AB AD
+8 8 8 8 8
+50 200 100 P
+A
+19 6
+A
+20 10
+G female
+#13009
+spiked adamantite helm~
+@eng a {wspiked {madamantite {Cbattle helm{x@rus ~~{wшипастый{x~~ ~~{mадамантитовый{x~~ ~~{Cбоевой{x~~ ~~{Cшлем{x~~~
+@eng A spiked adamantite helm rests in the corner.@rus Шлем с множеством мелких шипов лежит на полу.~
+adamantite~
+armor AB AE
+8 8 8 8 8
+50 110 100 P
+A
+19 2
+A
+2 1
+G none
+#13010
+leggings spiked adamantite~
+@eng some {wspiked {madamantite {Cbattle leggings{x@rus ~~{wшипастые{x~~ ~~{mадамантитовые{x~~ ~~{Cбоевые{x~~ ~~{Cпоножи{x~~~
+@eng Some spiked adamantite leggings sit here.@rus Поножи с множеством мелких шипов лежит на полу.~
+adamantite~
+armor AB AF
+8 8 8 8 8
+50 20 100 P
+A
+19 3
+A
+12 -50
+A
+20 3
+A
+2 1
+G none
+#13011
+spiked adamantite boots~
+@eng {wspiked {madamantite {Cbattle boots{x@rus ~~{wшипастые{x~~ ~~{mадамантитовые{x~~ ~~{Cбоевые{x~~ ~~{Cсапоги{x~~~
+@eng Some spiked adamantite boots are here.@rus Сапоги с множеством мелких шипов лежат на полу.~
+adamantite~
+armor AB AG
+8 8 8 8 8
+50 70 100 P
+A
+20 4
+A
+19 2
+A
+12 -50
+A
+2 1
+G none
+#13012
+robe~
+@eng {rRobe{x of the {wHealer{x@rus ~~{rРоба{x~~ {wЛекаря{x ~
+@eng A crumpled up robe radiates a magical aura here.@rus Странная роба светится магичеким светом.~
+wool~
+armor B AD
+8 8 8 8 8
+45 50 90 P
+A
+5 -1
+A
+4 1
+A
+13 50
+A
+12 75
+G none
+#13013
+hammer power~
+@eng {mthe Hammer{x of {CPower{x@rus ~~{mМолот{x~~ {CСилы{x~
+@eng A Huge hammer draws your attention as it radiates power.@rus Мощный молот привлёк твоё внимание -- он излучает силу.~
+adamantite~
+weapon 0 AN
+mace 7 4 suction 0
+45 400 90 P
+A
+14 -5
+A
+18 2
+A
+1 1
+A
+19 5
+A
+2 -1
+G male
+#13014
+ring signet~
+@eng the {BCaptain's {GSigned {xRing@rus ~~кольцо~~ с {Gгербом{x {Bкапитана{x~
+@eng The signet ring of the Captain of the Castle guard is here.@rus Кольцо с гербом капитана охрана гигантов валяется здесь.~
+copper~
+armor A AB
+10 10 10 10 10
+50 70 100 P
+A
+19 4
+A
+18 3
+A
+13 50
+G none
+#13015
+chainmail fine copper~
+@eng a suit of fine copper chainmail@rus ~~хорошая~~ ~~медная~~ ~~кольчуга~~~
+@eng A suit of fine copper chainmail is here.@rus Крепкая медная кольчуга лежит здесь.~
+copper~
+armor AB AD
+10 10 10 10 10
+50 130 80 P
+A
+19 6
+A
+18 2
+A
+13 15
+G female
+#13016
+fine copper helmet~
+@eng a fine copper helmet@rus ~~хороший~~ ~~медный~~ ~~шлем~~~
+@eng A fine copper helmet rests in the corner.@rus Крепкий медный шлем лежит здесь.~
+copper~
+armor AB AE
+10 10 10 10 10
+50 100 80 P
+A
+13 70
+A
+18 1
+A
+19 2
+G male
+#13017
+fine copper leggings~
+@eng a set of fine copper leggings@rus ~~хорошие~~ ~~медные~~ ~~поножи~~~
+@eng A set of fine copper leggings is sitting here.@rus Крепкие медные поножи лежат здесь.~
+copper~
+armor ABJK AF
+8 9 8 10 10
+50 80 80 P
+A
+19 5
+A
+18 3
+A
+13 15
+G none
+#13018
+fine copper boots~
+@eng a pair of fine copper boots@rus ~~хорошие~~ ~~медные~~ ~~сапоги~~~
+@eng A pair of fine copper boots are here.@rus Крепкие медные сапоги лежат здесь.~
+copper~
+armor AB AG
+8 8 8 8 8
+50 80 80 P
+A
+18 4
+A
+19 3
+A
+13 15
+G none
+#13019
+badge order~
+@eng the Badge of Order@rus ~~Знак~~ капитана охраны~
+@eng The Badge of Order is here looking for an owner.@rus Блестящий значок лежит в пыли здесь.~
+copper~
+armor A AC
+6 7 5 0 0
+50 40 60 P
+A
+19 2
+A
+2 -1
+A
+13 50
+A
+18 2
+A
+1 1
+G male
+#13020
+gold treasure~
+@eng vast treasure of gold@rus ~~сокровище~~ ~~гигантов~~~
+@eng You are blinded by a huge pile of golden treasure sitting here.@rus Ты ослеплён блеском кучи монет.~
+gold~
+money 0 A
+20 0 0 0 0
+0 6 0 P
+G none
+#13021
+bracelet copper~
+@eng a fine copper bracelet@rus ~~хороший~~ ~~медный~~ ~~браслет~~~
+@eng A shiny piece of fine copper is here.@rus Блестящая медная вещица лежит здесь.~
+copper~
+armor B AM
+7 7 7 7 7
+45 50 60 P
+A
+18 1
+A
+19 3
+A
+13 45
+G none
+#13022
+gloves bloody skin~
+@eng some bloody gloves of elven skin@rus ~~окровавленные~~ ~~перчатки~~ из кожи эльфа~
+A pair of gloves stitched from bloody elven skin are here.~
+flesh~
+armor AJ AH
+5 5 5 5 5
+45 50 60 P
+A
+19 5
+A
+18 3
+A
+13 40
+G none
+#13023
+skin giant~
+@eng {rSkin{x of the {DGiant{x Lord@rus ~~{rКожа{x~~ Лорда ~~{Dгигантов{x~~~
+@eng Some tough-looking skin is here.@rus Кусок странной кожи лежит здесь.~
+flesh~
+armor QY AD
+6 5 7 3 2
+51 400 102 P
+A
+18 1
+A
+19 2
+A
+13 100
+G female
+#13024
+fur cloak~
+@eng fine {rfur{x cloak@rus хороший ~~{rмеховой{x~~ ~~плащ~~~
+@eng Some highly valuable fur is here.@rus Свёрнутый меховой плащ лежит здесь.~
+fur~
+armor A AC
+9 8 9 5 5
+40 150 80 P
+A
+13 15
+A
+19 4
+A
+18 3
+A
+17 10
+G male
+#13025
+spiked adamantite sleeves~
+@eng some {wspiked {madamantite {Csleeves{x@rus ~~{wшипастые{x~~ ~~{mадамантитовые{x~~ ~~{Cнарукавники{x~~~
+@eng A pair of spiked adamantite sleeves sit here.@rus Нарукавники с множеством мелких шипов лежат здесь.~
+adamantite~
+armor A AI
+7 7 7 7 0
+45 120 90 P
+A
+20 9
+A
+19 5
+G none
+#13026
+ring black torturer~
+@eng a ring of the torturer@rus ~~кольцо~~ палача~
+@eng A black ring made of onyx sits here, eminating evil.@rus Чёрное кольцо из оникса лежит здесь, источая зло.~
+onyx~
+armor BEJ AB
+5 5 5 5 0
+40 20 60 P
+A
+13 30
+A
+19 2
+A
+18 2
+G none
+#13027
+torturer sleeves~
+@eng {Dsleeves{x of {Rt{Do{Rr{Dt{Ru{Dr{Re{Dr{x@rus ~~{Dнарукавники{X~~ {Rп{Dа{Rл{Dа{Rч{Dа{x~
+@eng Dark sleeves lies here.@rus Тёмные нарукавники лежат здесь, тускло поблескивая.~
+steel~
+armor AEJ AI
+20 20 20 17 0
+40 40 110 P
+A
+19 8
+A
+14 -5
+A
+12 -50
+A
+26 1
+G multi
+#0
+
+#ROOMS
+#13000
+@eng A dusty path@rus Пыльная дорожка~
+@eng The dust on this path is making it quite difficult to gather in your 
+surroundings. On both sides of you are trees and you think you hear birds
+chirp in the distance. Far to the north is what looks to be a Castle,
+while south leads into the dwarven forests.
+@rus Проходя по этой дорожке ты поднимаешь с неё пыль, которая, попадая в нос,
+заставляет тебя чихнуть. По обеим сторонам от тебя деревья, где - то 
+вдалеке ты слышишь щебетание птиц. Далеко на севере ты видишь смутные
+очертания какого - то замка, а на юг тропинка ведёт в лес карликов.
+~
+0 0 forest
+D0 0
+~
+~
+Z 0 13001
+D2 0
+~
+~
+Z 0 5277
+S
+#13001
+@eng A dusty path@rus Пыльная дорожка~
+@eng The dust on this path is making it quite difficult to gather in your 
+surroundings. On both sides of you are trees and you think you hear birds
+chirp in the distance. To the north is a clearing and you make out a Castle
+in the distance. 
+@rus Проходя по этой дорожке ты поднимаешь с неё пыль, которая, попадая в нос,
+заставляет тебя чихнуть. По обеим сторонам от тебя деревья, где - то 
+вдалеке ты слышишь щебетание птиц. На севере -- поляна.
+~
+0 0 forest
+D0 0
+~
+~
+Z 0 13002
+D2 0
+~
+~
+Z 0 13000
+S
+#13002
+@eng A peaceful clearing@rus Тихая поляна~
+@eng As you enter the clearing you are surprised at the silence. Unlike the dusty
+road to the south or the castle to the north, it seems to fill your body 
+with thoughts of peace and happiness. You can't understand what is giving
+off this sensation. The flowers? They are certainly plentiful here. Perhaps
+the stone markers that seem to enclose this clearing from the rest of the
+forest. No matter. It makes you feel good... that's it.
+@rus Ты вышел на поляну и удивился необычайной тишине здесь. В отличие от 
+пыльной дорожки это место наполняет твой мозг мыслями о мире и счасьте.
+Ты не можешь сразу понять, что заставляет ощущать здесь такую свободу.
+Цветы?  Да, их здесь необычайно много. Может огромные валуны, которые
+отделяют это тихое место от кажущегося враждебным леса? Может быть.
+Но так и не найдя ответа ни на один из этих вопросов, ты просто
+наслаждаешься тем чувством, которое испытываешь, находясь здесь.
+~
+0 C field
+D0 0
+~
+~
+Z 0 13003
+D2 0
+~
+~
+Z 0 13001
+M 125 H 125
+S
+#13003
+@eng Before the Castle of the Giants@rus Перед Замком Гигантов~
+@eng Standing before the Castle of the Giants you gaze in awe at the splendid 
+display of wealth and influence. Two stone lions are on each side of the
+huge adamantite door north of you. Off to the south you see what looks 
+like a large clearing.
+@rus Стоя перед Замком Гигантов ты в каком - то священном страхе пристально
+глядишь на него и поражаешься его мощи. По обеим сторонам от адамантитовых
+ворот замка стоят статуи двух огромных каменных львов. На юге же ты видишь
+что - то напоминающее большую поляну.
+~
+0 0 field
+D0 0
+~
+adamantite~
+Z 0 13004
+D2 0
+~
+~
+Z 0 13002
+S
+#13004
+@eng Foyer of the Castle@rus Холл замка~
+@eng The foyer of this castle is rather large compared to other foyers you have
+seen before. The Lord of the Giants here obviously has gold to spare, as he 
+has collected rare art pieces and placed them around the room. Two hallways
+join here from the east and west and the gates of the castle are to the 
+south.
+@rus Ты попал в огромный холл. Такого ты раньше не видел нигде. Лорд гигантов
+видимо очень богат, так как здесь собраны ценные и редкие произведения
+исскуства. Два прохода ведут отсюда на восток и запад, на юге -- ворота
+замка.
+~
+0 D city
+D1 0
+~
+~
+Z 0 13011
+D2 0
+~
+Adamantite~
+Z 0 13003
+D3 0
+~
+~
+Z 0 13005
+S
+#13005
+@eng A hallway in the castle@rus Коридор~
+@eng The hallway is glittering with adamantite and various paintings from 
+around the world. Torches line the walls making your shadow seem to have
+a life of it's own. To the east you see the foyer of the castle and to 
+the west the hallway continues.
+@rus Коридор украшен картинами со всего мира. Свет факелов, расположенных по
+стене, отбрасывает твою тень на пол и тебе кажется, будто она живёт своей
+жизнью. Коридор продолжается на запад.
+~
+0 D city
+D1 0
+~
+~
+Z 0 13004
+D3 0
+~
+~
+Z 0 13006
+S
+#13006
+@eng A hallway in the castle@rus Коридор~
+@eng The hallway is glittering with adamantite and various paintings from 
+around the world. Torches line the walls making your shadow seem to have
+a life of it's own. 
+@rus Коридор украшен картинами со всего мира. Свет факелов, расположенных по
+стене, отбрасывает твою тень на пол и тебе кажется, будто она живёт своей
+жизнью. 
+~
+0 D city
+D1 0
+~
+~
+Z 0 13005
+D3 0
+~
+~
+Z 0 13007
+S
+#13007
+@eng A turn in the hallway@rus Поворот коридора~
+@eng The turn here is lit by a single torch. The air is thick and quite 
+uncomfortable, seeming to interupt your breathing. This is not a place you
+would like to stand around. Perhaps you should continue on your way...
+@rus Этот поворот освещён единственным факелом на стене. Воздух здесь, кажется,
+намного плотнее, чем где бы то ни было -- поэтому тебе становится трудно
+дышать. Ты понимаешь, что не хотел бы остаться здесь надолго и решаешь
+ускорить шаг.
+~
+0 D city
+D0 0
+~
+~
+Z 0 13008
+D1 0
+~
+~
+Z 0 13006
+S
+#13008
+@eng A hallway in the castle@rus Коридор~
+@eng The hallway is glittering with adamantite and various paintings from 
+around the world. Torches line the walls making your shadow seem to have
+a life of it's own. 
+@rus Коридор украшен картинами со всего мира. Свет факелов, расположенных по
+стене, отбрасывает твою тень на пол и тебе кажется, будто она живёт своей
+жизнью. 
+~
+0 D city
+D0 0
+~
+~
+Z 0 13009
+D2 0
+~
+~
+Z 0 13007
+S
+#13009
+@eng A hallway in the castle@rus Коридор~
+@eng The hallway is glittering with adamantite and various paintings from
+around the world. To the west, you see a wooden door. The hallway continues 
+to the north where it meets a stairwell and south to more hallway.
+@rus Коридор украшен картинами со всего мира. Слева ты видишь деревянную дверь.
+Коридор продолжается на север и ведёт к лестничной клетке.
+~
+0 D city
+D0 0
+~
+~
+Z 0 13010
+D2 0
+~
+~
+Z 0 13008
+D3 0
+~
+wooden door~
+ABZ 0 13048
+S
+#13010
+@eng A stairwell@rus Лестничная клетка~
+@eng The stairs here look as though laced with adamantite as they lead up 
+to the second floor of the castle. There are torches every few steps to
+guide you as you go up the flight. To the south there is a hallway and
+a stone doorway leads east into the castle garden.
+@rus Ты видишь винтовую лестницу, которая ведёт вверх. По стенам, на всём её
+протяжении, факелы, иначе в темноте можно споткнуться. На юг коридор 
+продолжается, на востоке виднеется сад замка.
+~
+0 D city
+D1 0
+~
+~
+Z 0 13053
+D2 0
+~
+~
+Z 0 13009
+D4 0
+~
+~
+Z 0 13017
+S
+#13011
+@eng A hallway in the castle@rus Коридор~
+@eng The hallway is glittering with adamantite and various paintings from
+around the world. Torches line the walls making your shadow seem to have
+a life of it's own. To the west is the foyer and to the east the hall 
+continues.
+@rus Коридор украшен картинами со всего мира. Свет факелов, расположенных по
+стене, отбрасывает твою тень на пол и тебе кажется, будто она живёт своей
+жизнью. Слева -- холл, направо коридор продолжается.
+~
+0 D city
+D1 0
+~
+~
+Z 0 13012
+D3 0
+~
+~
+Z 0 13004
+S
+#13012
+@eng A hallway in the castle@rus Коридор~
+@eng The hallway is glittering with adamantite and various paintings from
+around the world. Torches line the walls making your shadow seem to have
+a life of it's own. 
+@rus Коридор украшен картинами со всего мира. Свет факелов, расположенных по
+стене, отбрасывает твою тень на пол и тебе кажется, будто она живёт своей
+жизнью.
+~
+0 D city
+D1 0
+~
+~
+Z 0 13013
+D3 0
+~
+~
+Z 0 13011
+S
+#13013
+@eng A turn in the hallway@rus Поворот коридора~
+@eng The turn here is lit by a single torch. The air is thick and quite 
+uncomfortable, seeming to interupt your breathing. This is not a place you
+would like to stand around. Perhaps you should continue on your way...
+@rus Это место освещено одним факелом. Воздух здесь кажется плотным, он сильно
+давит на грудь, затрудняя дыхание. Ты понимаешь, что это не то место, где
+ты хотел бы останавливаться, и решаешь ускорить шаг.
+~
+0 D city
+D0 0
+~
+~
+Z 0 13014
+D3 0
+~
+~
+Z 0 13012
+S
+#13014
+@eng A hallway in the castle@rus Коридор~
+@eng The hallway is glittering with adamantite and various paintings from 
+around the world. Torches line the walls making your shadow seem to have
+a life of it's own. 
+@rus Коридор украшен картинами со всего мира. Свет факелов, расположенных по
+стене, отбрасывает твою тень на пол и тебе кажется, будто она живёт своей
+жизнью.
+~
+0 D city
+D0 0
+~
+~
+Z 0 13015
+D2 0
+~
+~
+Z 0 13013
+S
+#13015
+@eng A hallway in the castle@rus Коридор~
+@eng The hallway is glittering with adamantite and various paintings from 
+around the world. Torches line the walls making your shadow seem to have
+a life of it's own. To the east you see a wooden door.
+@rus Коридор украшен картинами со всего мира. Свет факелов, расположенных по
+стене, отбрасывает твою тень на пол и тебе кажется, будто она живёт своей
+жизнью. Справа ты видишь деревянную дверь.
+~
+0 D city
+D0 0
+~
+~
+Z 0 13016
+D1 0
+~
+wooden door~
+ABZ 0 13049
+D2 0
+~
+~
+Z 0 13014
+S
+#13016
+@eng A stairwell@rus Лестничная клетка~
+@eng The stairs here look as though laced with adamantite as they lead up 
+to the second floor of the castle. There are torches every few steps to
+guide you as you go up the flight. To the south there is a hallway and
+a stone doorway leads west into the castle garden.
+@rus Ты попал на лестничную клетку. Здесь винтовая лестница на второй этаж  
+замка. Она освещена факелами на всём своём протяжении. На юг коридор 
+продолжается, а проём в стене слева ведёт в сад замка.
+~
+0 D city
+D2 0
+~
+~
+Z 0 13015
+D3 0
+~
+~
+Z 0 13050
+D4 0
+~
+~
+Z 0 13021
+S
+#13017
+@eng A hallway in the castle@rus Коридор~
+@eng The hallway is glittering with adamantite and various paintings from
+around the world. Torches line the walls making your shadow seem to have
+a life of it's own. 
+@rus Коридор украшен картинами со всего мира. Свет факелов, расположенных по
+стене, отбрасывает твою тень на пол и тебе кажется, будто она живёт своей
+жизнью.
+~
+0 D city
+D0 0
+~
+~
+Z 0 13018
+D5 0
+~
+~
+Z 0 13010
+S
+#13018
+@eng A hallway in the castle@rus Коридор~
+@eng The hallway is glittering with adamantite and various paintings from
+around the world. Torches line the walls making your shadow seem to have
+a life of it's own. There is a door to the west.
+@rus Коридор украшен картинами со всего мира. Свет факелов, расположенных по
+стене, отбрасывает твою тень на пол и тебе кажется, будто она живёт своей
+жизнью. Слева видна дверь.
+~
+0 D city
+D0 0
+~
+~
+Z 0 13019
+D2 0
+~
+~
+Z 0 13017
+D3 0
+~
+wooden door~
+ABZ 0 13082
+S
+#13019
+@eng A hallway in the castle@rus Коридор~
+@eng The hallway is glittering with adamantite and various paintings from
+around the world. Torches line the walls making your shadow seem to have
+a life of it's own. 
+@rus Коридор украшен картинами со всего мира. Свет факелов, расположенных по
+стене, отбрасывает твою тень на пол и тебе кажется, будто она живёт своей
+жизнью.
+~
+0 D city
+D0 0
+~
+~
+Z 0 13020
+D2 0
+~
+~
+Z 0 13018
+S
+#13020
+@eng A turn in the hallway@rus Поворот коридора~
+@eng The turn here is lit by a single torch. The air is thick and quite 
+uncomfortable, seeming to interupt your breathing. This is not a place you
+would like to stand around. Perhaps you should continue on your way...
+@rus Это место освещено одним факелом. Воздух здесь кажется сжат до предела.
+Тебе тяжело дышать. Ты понимаешь, что лучше ускорить шаг и побыстрее уйти
+отсюда.
+~
+0 D city
+D1 0
+~
+~
+Z 0 13025
+D2 0
+~
+~
+Z 0 13019
+S
+#13021
+@eng A hallway in the castle@rus Коридор~
+@eng The hallway is glittering with adamantite and various paintings from
+around the world. Torches line the walls making your shadow seem to have
+a life of it's own. 
+@rus Коридор украшен картинами со всего мира. Свет факелов, расположенных по
+стене, отбрасывает твою тень на пол и тебе кажется, будто она живёт своей
+жизнью.
+~
+0 D city
+D0 0
+~
+~
+Z 0 13022
+D5 0
+~
+~
+Z 0 13016
+S
+#13022
+@eng A hallway in the castle@rus Коридор~
+@eng The hallway is glittering with adamantite and various paintings from
+around the world. Torches line the walls making your shadow seem to have
+a life of it's own. There is a door to the east.
+@rus Коридор украшен картинами со всего мира. Свет факелов, расположенных по
+стене, отбрасывает твою тень на пол и тебе кажется, будто она живёт своей
+жизнью. Справа есть дверь.
+~
+0 D city
+D0 0
+~
+~
+Z 0 13023
+D1 0
+~
+wooden door~
+ABZ 0 13083
+D2 0
+~
+~
+Z 0 13021
+S
+#13023
+@eng A hallway in the castle@rus Коридор~
+@eng The hallway is glittering with adamantite and various paintings from
+around the world. Torches line the walls making your shadow seem to have
+a life of it's own. 
+@rus Коридор украшен картинами со всего мира. Свет факелов, расположенных по
+стене, отбрасывает твою тень на пол и тебе кажется, будто она живёт своей
+жизнью.
+~
+0 D city
+D0 0
+~
+~
+Z 0 13024
+D2 0
+~
+~
+Z 0 13022
+S
+#13024
+@eng A turn in the hallway@rus Поворот коридора~
+@eng The turn here is lit by a single torch. The air is thick and quite 
+uncomfortable, seeming to interupt your breathing. This is not a place you
+would like to stand around. Perhaps you should continue on your way...
+@rus Это место освещено одним факелом. Воздух здесь кажется сжат до предела.
+Тебе тяжело дышать. Ты понимаешь, что лучше ускорить шаг и побыстрее уйти
+отсюда.
+~
+0 D city
+D2 0
+~
+~
+Z 0 13023
+D3 0
+~
+~
+Z 0 13028
+S
+#13025
+@eng A hallway in the castle@rus Коридор~
+@eng The hallway is glittering with adamantite and various paintings from
+around the world. Torches line the walls making your shadow seem to have
+a life of it's own. 
+@rus Коридор украшен картинами со всего мира. Свет факелов, расположенных по
+стене, отбрасывает твою тень на пол и тебе кажется, будто она живёт своей
+жизнью.
+~
+0 D city
+D1 0
+~
+~
+Z 0 13026
+D3 0
+~
+~
+Z 0 13019
+S
+#13026
+@eng A hallway in the castle@rus Коридор~
+@eng The hallway is glittering with adamantite and various paintings from
+around the world. Torches line the walls making your shadow seem to have
+a life of it's own. 
+@rus Коридор украшен картинами со всего мира. Свет факелов, расположенных по
+стене, отбрасывает твою тень на пол и тебе кажется, будто она живёт своей
+жизнью.
+~
+0 D city
+D1 0
+~
+~
+Z 0 13027
+D3 0
+~
+~
+Z 0 13025
+S
+#13027
+@eng A hallway in the castle@rus Коридор~
+@eng The hallway is glittering with adamantite and various paintings from
+around the world. Torches line the walls making your shadow seem to have
+a life of it's own. To the north you see a stairwell.
+@rus Коридор украшен картинами со всего мира. Свет факелов, расположенных по
+стене, отбрасывает твою тень на пол и тебе кажется, будто она живёт своей
+жизнью. На севере видна лестница.
+~
+0 D city
+D0 0
+~
+~
+Z 0 13029
+D1 0
+~
+~
+Z 0 13028
+D3 0
+~
+~
+Z 0 13026
+S
+#13028
+@eng A hallway in the castle@rus Коридор~
+@eng The hallway is glittering with adamantite and various paintings from
+around the world. Torches line the walls making your shadow seem to have
+a life of it's own. 
+@rus Коридор украшен картинами со всего мира. Свет факелов, расположенных по
+стене, отбрасывает твою тень на пол и тебе кажется, будто она живёт своей
+жизнью.
+~
+0 D city
+D1 0
+~
+~
+Z 0 13024
+D3 0
+~
+~
+Z 0 13027
+S
+#13029
+@eng A stairwell@rus Лестничная клетка~
+@eng The steps here lead to the third floor of the castle. The torches make
+your shadow seem to dance to an ethereal music, providing entertainment
+for those seeking a unique perspective of themselves. The hallway is to
+the south and the stairwell leads up and down.
+@rus Cтупени винтовой лестницы ведут на третий этаж замка. Твоя тень колышется
+на полу, кажется, она танцует в каком - то эфирном танце. Коридор отсюда
+продолжается на юг.
+~
+0 AD inside
+D2 0
+~
+~
+Z 0 13027
+D4 0
+~
+~
+Z 0 13030
+D5 0
+~
+~
+Z 0 13054
+S
+#13030
+@eng A hallway in the castle@rus Коридор~
+@eng The hallway is glittering with adamantite and various paintings from
+around the world. Torches line the walls making your shadow seem to have
+a life of it's own. 
+@rus Коридор украшен картинами со всего мира. Свет факелов, расположенных по
+стене, отбрасывает твою тень на пол и тебе кажется, будто она живёт своей
+жизнью.
+~
+0 D city
+D2 0
+~
+~
+Z 0 13031
+D5 0
+~
+~
+Z 0 13029
+S
+#13031
+@eng A hallway in the castle@rus Коридор~
+@eng The hallway is glittering with adamantite and various paintings from
+around the world. Torches line the walls making your shadow seem to have
+a life of it's own. There are doors to the east and west.
+@rus Коридор украшен картинами со всего мира. Свет факелов, расположенных по
+стене, отбрасывает твою тень на пол и тебе кажется, будто она живёт своей
+жизнью. Слева и справа ты видишь закрытые двери.
+~
+0 D city
+D0 0
+~
+~
+Z 0 13030
+D1 0
+~
+gold door
+~
+ABZ 0 13078
+D2 0
+~
+~
+Z 0 13032
+D3 0
+~
+dark door
+~
+ABZ 0 13077
+S
+#13032
+@eng A hallway in the castle@rus Коридор~
+@eng The hallway is glittering with adamantite and various paintings from
+around the world. Torches line the walls making your shadow seem to have
+a life of it's own. 
+@rus Коридор украшен картинами со всего мира. Свет факелов, расположенных по
+стене, отбрасывает твою тень на пол и тебе кажется, будто она живёт своей
+жизнью.
+~
+0 D city
+D0 0
+~
+~
+Z 0 13031
+D2 0
+~
+~
+Z 0 13033
+S
+#13033
+@eng A hallway in the castle@rus Коридор~
+@eng The hallway is glittering with adamantite and various paintings from
+around the world. Torches line the walls making your shadow seem to have
+a life of it's own. There are doors to the east and west.
+@rus Коридор украшен картинами со всего мира. Свет факелов, расположенных по
+стене, отбрасывает твою тень на пол и тебе кажется, будто она живёт своей
+жизнью. Слева и справа ты видишь закрытые двери.
+~
+0 D city
+D0 0
+~
+~
+Z 0 13032
+D1 0
+~
+wooden door
+~
+ABZ 0 13075
+D2 0
+~
+~
+Z 0 13034
+D3 0
+~
+ivory door
+~
+ABZ 0 13076
+S
+#13034
+@eng A hallway in the castle@rus Коридор~
+@eng The hallway is glittering with adamantite and various paintings from
+around the world. Torches line the walls making your shadow seem to have
+a life of it's own. 
+@rus Коридор украшен картинами со всего мира. Свет факелов, расположенных по
+стене, отбрасывает твою тень на пол и тебе кажется, будто она живёт своей
+жизнью.
+~
+0 D city
+D0 0
+~
+~
+Z 0 13033
+D2 0
+~
+~
+Z 0 13035
+S
+#13035
+@eng A hallway in the castle@rus Коридор~
+@eng The hallway is glittering with adamantite and various paintings from
+around the world. Torches line the walls making your shadow seem to have
+a life of it's own. There are doors to the east and west.
+@rus Коридор украшен картинами со всего мира. Свет факелов, расположенных по
+стене, отбрасывает твою тень на пол и тебе кажется, будто она живёт своей
+жизнью. Слева и справа ты видишь закрытые двери.
+~
+0 D city
+D0 0
+~
+~
+Z 0 13034
+D1 0
+~
+iron door
+~
+ABZ 0 13073
+D2 0
+~
+~
+Z 0 13036
+D3 0
+~
+black door
+~
+ABZ 0 13074
+S
+#13036
+@eng A hallway in the castle@rus Коридор~
+@eng The hallway is glittering with adamantite and various paintings from
+around the world. Torches line the walls making your shadow seem to have
+a life of it's own. 
+@rus Коридор украшен картинами со всего мира. Свет факелов, расположенных по
+стене, отбрасывает твою тень на пол и тебе кажется, будто она живёт своей
+жизнью.
+~
+0 D city
+D0 0
+~
+~
+Z 0 13035
+D2 0
+~
+~
+Z 0 13037
+S
+#13037
+@eng A hallway in the castle@rus Коридор~
+@eng The hallway is glittering with adamantite and various paintings from
+around the world. Torches line the walls making your shadow seem to have
+a life of it's own. 
+@rus Коридор украшен картинами со всего мира. Свет факелов, расположенных по
+стене, отбрасывает твою тень на пол и тебе кажется, будто она живёт своей
+жизнью.
+~
+0 D city
+D0 0
+~
+~
+Z 0 13036
+D2 0
+~
+~
+Z 0 13038
+S
+#13038
+@eng The Lord's Stairwell@rus Красиво украшенная комната~
+@eng The Lord of the Giants seems to have spared no expense when decorating
+this stairwell. Golden curtains adorn the windows which look over a vast
+forest. Adamantite laces the paintings and makes them seem to hum with 
+internal power. Even the torches leading to the fourth floor here are 
+wrapped in gold. The hallway is to the north.
+@rus Лорд гигантов видимо не экономил на украшении этого места. Расшитые золотом
+занавески украшают окна, через который открываеться вид на бескрайний лес. 
+Здесь даже факелы, освещающие лестницу на четвёртый этаж, золотые. Коридор
+ведёт отсюда на север.
+~
+0 D city
+D0 0
+~
+~
+Z 0 13037
+D4 0
+~
+~
+Z 0 13039
+S
+#13039
+@eng Top of the Lord's Stairwell@rus Красивая комната на четвёртом этаже~
+@eng The top of the stairwell is as spectacular as the rest of the castle.
+Paintings, tapestries, sculptures, various busts of the Lord and other
+important people. Torches follow the steps to the third floor and a
+hallway continues north.
+@rus Эта комната такая же захватывающая, как и остальные. Картины, гобелены, 
+скульптуры, бюсты Лорда и других важных лиц. Вниз ведёт освещённая факелами
+винтовая лестница, а коридор продолжается на север.
+~
+0 D city
+D0 0
+~
+~
+Z 0 13040
+D5 0
+~
+~
+Z 0 13038
+S
+#13040
+@eng The Hallway of Giants@rus Коридор гигантов~
+@eng This hallway is much different than the others you have seen. No elaborately
+decorated paintings are to be found. Only a titanium door to the east with
+a picture of the Captain of the Guard and an obsidian door to the west 
+with a picture of a Giant lurking in the shadows.
+@rus Этот коридор отличается от тех, что ты видел на нижних этажах. Здесь нет 
+изысканных украшений, только титановая дверь справа с картиной капитана
+охраны на ней и обсидиановая дверь слева, с картиной гиганта, скрывающегося
+в тени.
+~
+0 AD inside
+D0 0
+~
+~
+Z 0 13041
+D1 0
+~
+titanium door~
+ABZ 0 13047
+D2 0
+~
+~
+Z 0 13039
+D3 0
+~
+obsidian door~
+ABZ 0 13045
+S
+#13041
+@eng The Hallway of Giants@rus Коридор гигантов~
+@eng This hallway is much different than the others you have seen. No elaborately
+decorated paintings are to be found. Only a strong iron door to the west. 
+To the east is an ivory door with a picture of a cleric praying to his god
+above it. A HUGE adamantite door is north of you, scratches and dried blood 
+cover this door and a bone or two can be seen tossed a few feet from it.
+@rus Этот коридор отличается от тех, что ты видел на нижних этажах. Здесь нет 
+изысканных украшений, только мощная железная дверь слева. Справа картина в
+раме из слоновой кости, изображающая священника, который молится своему 
+Богу. ОГРОМНАЯ адамантитовая дверь к северу от тебя. На ней видны царапины
+и запёкшаяся кровь, несколько костей валяются неподалёку от неё.
+~
+0 D city
+D0 0
+~
+adamantite door~
+ABZ 0 13042
+D1 0
+~
+ivory door~
+ABZ 0 13046
+D2 0
+~
+~
+Z 0 13040
+D3 0
+~
+iron door~
+ABZ 0 13044
+S
+#13042
+@eng The Lord's Chamber@rus Покои лорда гигантов~
+@eng Hunks of dried meat and blood waft your way as you enter the Lord's chamber.
+Maps of the surrounding area with what look like model giant guards in 
+various spots on the map. From what you see it looks like the giants are 
+preparing to attack one of the world's cities. Which one? Only time can say.
+Turning your attention to the Lord himself, he does not seem pleased with
+your uninvited entrance to his Chamber. He quickly stands up to engage you.
+@rus ты чуешь запах высушенного мяса и крови, когда входишь в его покои. На 
+стене висит карта с изображением дислокации войск гигантов. Ты понимаешь,
+что гиганты готовятся напасть на один из мирных городов. На который? Ответ
+на это вопрос может дать лишь время. Обратив внимания на Лорда, ты заметил,
+что он не очень то доволен твоим здесь присутсвием.
+~
+0 D city
+D2 0
+~
+adamantite door~
+ABZ 0 13041
+D5 0
+~
+map~
+ABZ 0 13043
+S
+#13043
+@eng The Treasure Room@rus Сокровищница~
+@eng You are shocked at the amount of, not only gold, but other rare and valuable
+items here. The ceiling looks as though it goes on forever since you can't
+seem to see it, only darkness. There is a ladder that gives you the ability
+to climb back up to the Lord's Chamber.
+@rus Ты в смятении, попав в это место: здесь горы золота и других ценных 
+изделий. Здесь есть лестница, которая ведёт в покои Лорда гигантов.
+~
+0 CDN city
+D4 0
+~
+map secret~
+ABZ 0 13042
+S
+#13044
+@eng Battle Grounds@rus Боевая арена~
+@eng You are overcome with the smell of blood and rotting bodies as you enter
+this area. Made with different terains to help the Battle Mistress become
+the best fighter in any circumstance. You see a rack of weapons on the wall 
+next to the door and look out onto the field. You see hills, a mountainous
+area, a plains area, a small stream running through, and a granite arena in
+the center... All within this room. I guess it's time to prove yourself.
+@rus Ты чувствуешь запах крови и гниющих тел, когда входишь сюда. ФУУУ! Место
+довольно странное. Ты видишь стойку с оружием у двери. Ты замечаешь тёмную
+тень, которая молниеносно движется к тебе. Ты понимаешь, что пришло время
+попробовать себя в настоящей битве.
+~
+0 D inside
+D1 0
+~
+iron door~
+ABZ 0 13041
+S
+#13045
+@eng The Dark Room@rus Тёмная комната~
+@eng Only one torch is lit in this dark room and it is the one next to the door.
+All except the small table in the center of the room, the whole place is 
+dark. On the table appears to be a map of the Castle, showing red checks 
+near certain parts of it. After glancing it over and understanding nothing
+about it other than that it's a map, you turn to meet the occupant of this 
+room.
+@rus Только один факел освещает это место -- у двери. Ничего не видно, кроме
+маленького стола в центре комнаты. На столе, кажется, лежит карта этого 
+замка. Хотя в темноте может многое привидиться.
+~
+0 AD inside
+D1 0
+~
+obsidian door~
+ABZ 0 13040
+S
+#13046
+@eng The Holy Room@rus Святая комната~
+@eng The walls all around you glow and hum with a peaceful aura. Ivory laced with
+adamantite adorns an altar to the back of this room. Incense can be smelled
+in emitting from a small bowl on the altar. This room seems to be the living
+quarters of a cleric or holy man. As you look around, the occupant appears
+and greets you.
+@rus Cтены вокруг тебя светятся белой аурой. Красивый, украшенный драгоценными
+камнями, алтарь стоит у противоположной стены. Это комната священника. Он
+приветсвует тебя, едва ты входишь в комнату.
+~
+0 D inside
+D3 0
+~
+ivory~
+ABZ 0 13041
+S
+#13047
+@eng The Captain's Quarters@rus Квартира капитана охраны~
+@eng Bookshelves line the walls with books of law and order in this room. It
+serves more as an office to the Captain rather than living quarters. The
+captain is a bit smaller than the giants he commands, but is a superb 
+leader, so they follow him wherever he takes them. There is a desk at the
+far wall and alot of paperwork sitting on top of it, waiting to be done.
+@rus Книжные полки вдоль стен забиты сводами законов. Это место служит ему и 
+офисом. Он немного меньше по росту, нежели Лорд гигантов, но он отличный
+лидер. У дальней стены стоит писменный стол, с наваленными на нём бумагами.
+~
+0 D inside
+D3 0
+~
+titanium door~
+ABZ 0 13040
+S
+#13048
+@eng The kitchen@rus Кухня~
+@eng The smells of excellent dishes waft toward you as you enter the castle 
+kitchen. Pots bubble and pans sizzle with activity as they create an sound
+like an orchestra of sizzles and splashes. Dried fruit hangs in baskets from
+the ceiling. The cook get's most of her ingredients from the elven gardener,
+but the elf get's very little recognition of this fact.
+@rus Ты чувствуешь запахи превосходных блюд. Горшки бурлять и шипение кастрюль
+наполняет эту комнату как бы симфонией шипения и всплесков. В корзинах на
+потолке висят сушёные плоды.
+~
+0 D inside
+D1 0
+~
+wooden door~
+ABZ 0 13009
+S
+#13049
+@eng The storage room@rus Хранилище~
+@eng Boxes, furniture and other things that usually just take up space have been
+placed here out of the way. It looks like the maid doesn't get here too 
+often.
+@rus Здесь сложено очень много всего: коробки, мебель, разные другие вещи.
+~
+0 AD inside
+D3 0
+~
+wooden door~
+Z 0 13015
+S
+#13050
+@eng The castle garden@rus Сад замка~
+@eng Blooms of every type of flower imaginable are in this little garden. Violets,
+roses, and daisies to name a few. Vegetables also grow in abundance in this
+little garden.  
+@rus Здесь растут практически все виды цветов: фиалки, розы, маргаритки и многое
+другое. Кроме цветов здесь растёт и много офощей и фруктов.
+~
+0 0 field
+D1 0
+~
+~
+Z 0 13016
+D2 0
+~
+~
+Z 0 13051
+D3 0
+~
+~
+Z 0 13053
+S
+#13051
+@eng The castle garden@rus Сад замка~
+@eng Blooms of every type of flower imaginable are in this little garden. Violets,
+roses, and daisies to name a few. Vegetables also grow in abundance in this
+little garden.  
+@rus Здесь растут практически все виды цветов: фиалки, розы, маргаритки и многое
+другое. Кроме цветов здесь растёт и много офощей и фруктов.
+~
+0 0 field
+D0 0
+~
+~
+Z 0 13050
+D3 0
+~
+~
+Z 0 13052
+S
+#13052
+@eng The castle garden@rus Сад замка~
+@eng Blooms of every type of flower imaginable are in this little garden. Violets,
+roses, and daisies to name a few. Vegetables also grow in abundance in this
+little garden.  
+@rus Здесь растут практически все виды цветов: фиалки, розы, маргаритки и многое
+другое. Кроме цветов здесь растёт и много офощей и фруктов.
+~
+0 0 field
+D0 0
+~
+~
+Z 0 13052
+D1 0
+~
+~
+Z 0 13051
+S
+#13053
+@eng The castle garden@rus Сад замка~
+@eng Blooms of every type of flower imaginable are in this little garden. Violets,
+roses, and daisies to name a few. Vegetables also grow in abundance in this
+little garden.  
+@rus Здесь растут практически все виды цветов: фиалки, розы, маргаритки и многое
+другое. Кроме цветов здесь растёт и много офощей и фруктов.
+~
+0 0 field
+D1 0
+~
+~
+Z 0 13050
+D2 0
+~
+~
+Z 0 13052
+D3 0
+~
+~
+Z 0 13010
+S
+#13054
+@eng The bottom of a stairwell@rus Нижние ступени лестницы~
+@eng There is a definate difference between this stairwell and the others you
+have seen. It not only smells different, but also has no torches on the 
+walls. You see a faint glow coming from above and to the south you see
+darkness.
+@rus Эта лестничная площадка резко отличается от всех, на которых ты бывал в 
+этом замке. Здесь другой запах, нет факелов на стенах. Ты видишь слабое 
+свечение вверху. На юге ничего не видно -- там темно.
+~
+0 AD inside
+D2 0
+~
+~
+Z 0 13055
+D4 0
+~
+~
+Z 0 13029
+S
+#13055
+@eng The castle dungeon@rus Темница замка~
+@eng The smell of this place is dreadful indeed. Death hangs in a thick mist
+all around you. Blood and waste litter the floor in various spots. Off
+in the distance you hear screams of torture.
+@rus Запах этого места просто ужасен. Тугой туман смерти окутал тебя. Кровь
+повсюду здесь. Где совсем близко ты слышишь крики -- кого - то пытают!
+~
+0 D inside
+D0 0
+~
+~
+Z 0 13054
+D1 0
+~
+~
+Z 0 13056
+D2 0
+~
+~
+Z 0 13063
+D3 0
+~
+~
+Z 0 13071
+S
+#13056
+@eng The castle dungeon@rus Темница замка~
+@eng The smell of this place is dreadful indeed. Death hangs in a thick mist
+all around you. Blood and waste litter the floor in various spots. Off
+in the distance you hear screams of torture.
+@rus Запах этого места просто ужасен. Тугой туман смерти окутал тебя. Кровь
+повсюду здесь. Где совсем близко ты слышишь крики -- кого - то пытают!
+~
+0 D inside
+D1 0
+~
+~
+Z 0 13057
+D2 0
+~
+~
+Z 0 13062
+D3 0
+~
+~
+Z 0 13055
+S
+#13057
+@eng The castle dungeon@rus Темница замка~
+@eng The smell of this place is dreadful indeed. Death hangs in a thick mist
+all around you. Blood and waste litter the floor in various spots. Off
+in the distance you hear screams of torture. To the north and east are 
+cell doors.
+@rus Запах этого места просто ужасен. Тугой туман смерти окутал тебя. Кровь
+повсюду здесь. Где совсем близко ты слышишь крики -- кого - то пытают!
+На север и востоке видны двери в камеры.
+~
+0 D inside
+D0 0
+~
+cell door
+~
+ABZ 0 13058
+D1 0
+~
+cell door
+~
+ABZ 0 13059
+D2 0
+~
+~
+Z 0 13061
+D3 0
+~
+~
+Z 0 13056
+S
+#13058
+@eng A dungeon cell@rus Камера в темнице~
+@eng This is where the giants keep their prisoners. Be it treason, murder, 
+thievery, or prisoner of war, your cell is the same. Small and Cold.
+@rus Это место, где гиганты держать заключённых: будь то изменники, убийцы,
+воры, военнопленные -- все они попадают сюда, в эту маленькую и холодную
+камеру.
+~
+0 D inside
+D2 0
+~
+cell door
+~
+ABZ 0 13057
+S
+#13059
+@eng A dungeon cell@rus Камера в темнице~
+@eng This is where the giants keep their prisoners. Be it treason, murder, 
+thievery, or prisoner of war, your cell is the same. Small and Cold.
+@rus Это место, где гиганты держать заключённых: будь то изменники, убийцы,
+воры, военнопленные -- все они попадают сюда, в эту маленькую и холодную
+камеру.
+~
+0 D inside
+D3 0
+~
+cell door
+~
+ABZ 0 13057
+S
+#13060
+@eng A dungeon cell@rus Камера в темнице~
+@eng This is where the giants keep their prisoners. Be it treason, murder, 
+thievery, or prisoner of war, your cell is the same. Small and Cold.
+@rus Это место, где гиганты держать заключённых: будь то изменники, убийцы,
+воры, военнопленные -- все они попадают сюда, в эту маленькую и холодную
+камеру.
+~
+0 D inside
+D3 0
+~
+cell door
+~
+ABZ 0 13061
+S
+#13061
+@eng The castle dungeon@rus Темница замка~
+@eng The smell of this place is dreadful indeed. Death hangs in a thick mist
+all around you. Blood and waste litter the floor in various spots. Off
+in the distance you hear screams of torture.
+@rus Запах этого места просто ужасен. Тугой туман смерти окутал тебя. Кровь
+повсюду здесь. Где совсем близко ты слышишь крики -- кого - то пытают!
+~
+0 D inside
+D0 0
+~
+~
+Z 0 13057
+D1 0
+~
+cell door
+~
+ABZ 0 13060
+D2 0
+~
+cell door
+~
+ABZ 0 13064
+D3 0
+~
+~
+Z 0 13062
+S
+#13062
+@eng The castle dungeon@rus Темница замка~
+@eng The smell of this place is dreadful indeed. Death hangs in a thick mist
+all around you. Blood and waste litter the floor in various spots. Off
+in the distance you hear screams of torture.
+@rus Запах этого места просто ужасен. Тугой туман смерти окутал тебя. Кровь
+повсюду здесь. Где совсем близко ты слышишь крики -- кого - то пытают!
+~
+0 D inside
+D0 0
+~
+~
+Z 0 13056
+D1 0
+~
+~
+Z 0 13061
+D3 0
+~
+~
+Z 0 13063
+S
+#13063
+@eng The castle dungeon@rus Темница замка~
+@eng The smell of this place is dreadful indeed. Death hangs in a thick mist
+all around you. Blood and waste litter the floor in various spots. Off
+in the distance you hear screams of torture.
+@rus Запах этого места просто ужасен. Тугой туман смерти окутал тебя. Кровь
+повсюду здесь. Где совсем близко ты слышишь крики -- кого - то пытают!
+~
+0 D inside
+D0 0
+~
+~
+Z 0 13055
+D1 0
+~
+~
+Z 0 13062
+D2 0
+~
+~
+Z 0 13079
+D3 0
+~
+~
+Z 0 13066
+S
+#13064
+@eng A dungeon cell@rus Камера в темнице~
+@eng This is where the giants keep their prisoners. Be it treason, murder, 
+thievery, or prisoner of war, your cell is the same. Small and Cold.
+@rus Это место, где гиганты держать заключённых: будь то изменники, убийцы,
+воры, военнопленные -- все они попадают сюда, в эту маленькую и холодную
+камеру.
+~
+0 D inside
+D0 0
+~
+cell door
+~
+Z 0 13061
+S
+#13065
+@eng A dungeon cell@rus Камера в темнице~
+@eng This is where the giants keep their prisoners. Be it treason, murder, 
+thievery, or prisoner of war, your cell is the same. Small and Cold.
+@rus Это место, где гиганты держать заключённых: будь то изменники, убийцы,
+воры, военнопленные -- все они попадают сюда, в эту маленькую и холодную
+камеру.
+~
+0 D inside
+D0 0
+~
+cell door
+~
+ABZ 0 13067
+S
+#13066
+@eng The castle dungeon@rus Темница замка~
+@eng The smell of this place is dreadful indeed. Death hangs in a thick mist
+all around you. Blood and waste litter the floor in various spots. Off
+in the distance you hear screams of torture.
+@rus Запах этого места просто ужасен. Тугой туман смерти окутал тебя. Кровь
+повсюду здесь. Где совсем близко ты слышишь крики -- кого - то пытают!
+~
+0 D inside
+D0 0
+~
+~
+Z 0 13071
+D1 0
+~
+~
+Z 0 13063
+D3 0
+~
+~
+Z 0 13067
+S
+#13067
+@eng The castle dungeon@rus Темница замка~
+@eng The smell of this place is dreadful indeed. Death hangs in a thick mist
+all around you. Blood and waste litter the floor in various spots. Off
+in the distance you hear screams of torture. There is a cell door to the
+south and west.
+@rus Запах этого места просто ужасен. Тугой туман смерти окутал тебя. Кровь
+повсюду здесь. Где совсем близко ты слышишь крики -- кого - то пытают!
+~
+0 D inside
+D0 0
+~
+~
+Z 0 13070
+D1 0
+~
+~
+Z 0 13066
+D2 0
+~
+cell door
+~
+ABZ 0 13065
+D3 0
+~
+cell door
+~
+ABZ 0 13068
+S
+#13068
+@eng A dungeon cell@rus Камера в темнице~
+@eng This is where the giants keep their prisoners. Be it treason, murder, 
+thievery, or prisoner of war, your cell is the same. Small and Cold.
+@rus Это место, где гиганты держать заключённых: будь то изменники, убийцы,
+воры, военнопленные -- все они попадают сюда, в эту маленькую и холодную
+камеру.
+~
+0 D inside
+D1 0
+~
+cell door
+~
+ABZ 0 13067
+S
+#13069
+@eng A dungeon cell@rus Камера в темнице~
+@eng This is where the giants keep their prisoners. Be it treason, murder, 
+thievery, or prisoner of war, your cell is the same. Small and Cold.
+@rus Это место, где гиганты держат заключённых: будь то изменники, убийцы,
+воры, военнопленные -- все они попадают сюда, в эту маленькую и холодную
+камеру.
+~
+0 D inside
+D1 0
+~
+cell door
+~
+ABZ 0 13070
+S
+#13070
+@eng The castle dungeon@rus Темница замка~
+@eng The smell of this place is dreadful indeed. Death hangs in a thick mist
+all around you. Blood and waste litter the floor in various spots. Off
+in the distance you hear screams of torture. There is a cell door to the
+north and west.
+@rus Запах этого места просто ужасен. Тугой туман смерти окутал тебя. Кровь
+повсюду здесь. Где совсем близко ты слышишь крики -- кого - то пытают!
+На западе и севере двери в камеры.
+~
+0 D inside
+D0 0
+~
+cell door
+~
+ABZ 0 13072
+D1 0
+~
+~
+Z 0 13071
+D2 0
+~
+~
+Z 0 13067
+D3 0
+~
+cell door
+~
+ABZ 0 13069
+S
+#13071
+@eng The castle dungeon@rus Темница замка~
+@eng The smell of this place is dreadful indeed. Death hangs in a thick mist
+all around you. Blood and waste litter the floor in various spots. Off
+in the distance you hear screams of torture.
+@rus Запах этого места просто ужасен. Тугой туман смерти окутал тебя. Кровь
+повсюду здесь. Где совсем близко ты слышишь крики -- кого - то пытают!
+~
+0 D inside
+D1 0
+~
+~
+Z 0 13055
+D2 0
+~
+~
+Z 0 13066
+D3 0
+~
+~
+Z 0 13070
+S
+#13072
+@eng A dungeon cell@rus Камера в темнице~
+@eng This is where the giants keep their prisoners. Be it treason, murder, 
+thievery, or prisoner of war, your cell is the same. Small and Cold.
+@rus Это место, где гиганты держат заключённых: будь то изменники, убийцы,
+воры, военнопленные -- все они попадают сюда, в эту маленькую и холодную
+камеру.
+~
+0 D inside
+D2 0
+~
+cell door
+~
+ABZ 0 13070
+S
+#13073
+@eng The Castle War Conference Room@rus Зал заседаний Военного Совета~
+@eng This is where the giants meet to discuss the relations with other races, as
+well as where to move their troops. A large table diminates the center of
+the room. On it you see maps of Ofcol, New Thalos, Arkham, Elvenhame and
+Shire. You look and see that Thalos has been crossed off a list on a board
+on the wall.
+@rus Это место, где гиганты собираются для обсуждения своей военной доктрины,
+отношения с другими расами. Здесь принимаются решения о войне и мире. Чаще,
+к несчастью, о войне. Большой стол стоит в центре зала. На нём карты 
+Офкола, Нового Талоса, Аркама, Эльвенхейма и Шира. Ты видишь на стене доску
+с названиями этих же городов. Ты замечаешь, что Талос вычеркнут из этого
+списка.
+~
+0 D inside
+D3 0
+~
+iron door~
+ABZ 0 13035
+S
+#13074
+@eng The lounge@rus Приёмный зал~
+@eng This room looks like that of leisure and comfort. Soft cotton pillows with
+silk-laced sheets drape them. In the four corners of this room there is each 
+a different chair. A throne, cushioned with a pillow of the finest elven 
+silk, an ivory rocking chair bearing a cross at the top of it, a very 
+uncomfortable looking spiked chair made of adamantite, and a chair that is
+very hard to focus on, it shifts and changes color while blending into the
+background.
+@rus Мягкие шёлковые подушки разложены по всей комнате. В каждом из углов этой 
+комнаты стоит особое кресло. Трон, на котором лежат шёлковые подушки;
+кресло - качалка из слоновой кости с крестом наверху спинки; выглядящий
+очень неудобным стул из адамантита и очень странное кресло, которое меняет
+цвет, в зависимости от освещения и, как кажется, вообще по собственной
+прихоти.
+~
+0 D inside
+D1 0
+~
+black door~
+ABZ 0 13035
+S
+#13075
+@eng The Library@rus Библиотека~
+@eng This is where the king keeps his vast collection of books he has gathered 
+from the far reaches of the realms. Long ladders climb up to frightening
+heights to reach those books higher up. Each wall has a book shelf on it
+as well as many rows of shelves in the room itself. Those books that are a
+bit more rare and hard to get are kept in the back room.
+@rus Здесь повелитель гигантов держит своё обширное собрание книг. Длинные 
+лестницы стоят у высоченных шкафов. Каждый шкаф содержит сотни и тысячи
+книг. Однако здесь собраны далеко не все книги. Те из них, которые 
+представляют особую ценность хранятся в задней комнате.
+~
+0 D inside
+D3 0
+~
+wooden door~
+ABZ 0 13033
+S
+#13076
+@eng The Altar Room@rus Комната с алтарём~
+@eng This room is dominated by a large altar in the center of it. It is made of
+pure adamantite with ivory lacing the sides. Candles burn all around you 
+giving off am eerie glow. This is where the giants come to worship their
+god. 
+@rus В этой комнате находится огромный алтарь. Он сделал из чистого адаманта и
+икрустирован слоновой костью. Вокруг тебя горят свечи. Сюда гиганты идут,
+чтобы поклониться своему Богу.
+~
+0 D inside
+D1 0
+~
+ivory door~
+ABZ 0 13033
+S
+#13077
+@eng A dark room@rus Тёмная комната~
+@eng The only light available in this room is your own. You try to adjust your 
+eyes to the darkness and begin to make out shapes along the walls, which 
+you assume to be paintings. You bump into a few things, break a few things, 
+and decide that you might want to leave this room.
+@rus Единственный источник света, который тебе может быть здесь доступен -- это
+тот, который ты принёс собой. Ты ждёшь, когда твои глаза привыкнут к 
+темноте, и начинаешь осматривать комнату. Всё же недостаток освещения
+сказывается: ты натыкаешься на какие - то вещи, ломаешь их и понимаешь,
+что лучше тебе убраться отсюда.
+~
+0 AD inside
+D1 0
+~
+dark door~
+ABZ 0 13031
+S
+#13078
+@eng Art Gallery@rus Художественная галерея~
+@eng This room is where the Lord keeps all of his most prized art pieces. Statues
+made of pure gold, paintings of kings from other kingdoms, and also the 
+banners of other cities and regions of the world, most likely kept as war
+trophies. 
+@rus Здесь повелитель содержит наиболее ценные для него произведения искусства 
+и боевые трофеи: статуи из чистого золота, картины, награбленные его 
+войском при походе на другие королевства, боевые знамёна поверженных им
+городов и стран.
+~
+0 D inside
+D3 0
+~
+gold door~
+ABZ 0 13031
+S
+#13079
+@eng A dark hallway@rus Тёмный коридор~
+@eng The smell in this hallway seems double that of the dungeon. Dried blood and
+rotting corpses litter the floor. You hear screams to the south and know
+that someone is being tortured.
+@rus Здесь стоит тот же неприятный запах, что и темнице. Повсюду засохшие лужи
+крови и трупы. И здесь тебе слышаться звуки пыток.
+~
+0 AD inside
+D0 0
+~
+~
+Z 0 13063
+D2 0
+~
+~
+Z 0 13080
+S
+#13080
+@eng A dark hallway@rus Тёмный коридор~
+@eng The smell in this hallway seems double that of the dungeon. Dried blood and
+rotting corpses litter the floor. You hear screams coming from a door to the 
+south and know that someone is being tortured.
+@rus Здесь стоит тот же неприятный запах, что и темнице. Повсюду засохшие лужи
+крови и трупы. И здесь тебе слышаться звуки пыток.
+~
+0 AD inside
+D0 0
+~
+~
+Z 0 13079
+D2 0
+~
+iron door~
+ABZ 0 13081
+S
+#13081
+@eng The Torture Room@rus Камера пыток~
+@eng Every type of torture device thinkable is in this room and some that you 
+could have never dreamed of. There is a furnace on one of the walls and you
+see branding sticks, chains and whips on a rack in the corner. Bloody,
+disemboweled limbs hang on hooks from the ceiling. This is definately a place
+of torture.
+@rus Здесь есть все мыслимые и немыслимые орудия пыток. У одной из стен стоит
+печь, в углу висят плети, цепи, стоят дубины. Окровавленные, вырванные с
+корнем части тела висят на крюках.
+~
+0 DNX inside
+D0 0
+~
+iron door~
+ABZ 0 13080
+S
+#13082
+@eng The storage room@rus Хранилище~
+@eng Boxes, furniture and other things that usually just take up space have been
+placed here out of the way. It looks like the maid doesn't get here too 
+often.
+@rus Это место где хранится всё, что не поподя: коробки, мебель, всякий хлам.
+~
+0 AD inside
+D1 0
+~
+wooden door~
+ABZ 0 13018
+S
+#13083
+@eng The Guest Room@rus Комната для гостей~
+@eng This is where the guests to the castle of the giants stay on thier visit. 
+Diplomats as well as royalty from other regions would find the accomadations
+pleasing as they are here. There is a single bed in a corner, a dresser, and 
+a window overlooking a vast forest. 
+@rus Здесь останавливаются все гости этого странного замка. В углу стоит 
+кровать, в окно виден бескрайней лес.
+~
+0 0 inside
+D3 0
+~
+wooden door~
+ABZ 0 13022
+S
+#0
+
+#RESETS
+D 0 13009 3 1	* A hallway in the castle: door to the west: closed
+D 0 13015 1 1	* A hallway in the castle: door to the east: closed
+D 0 13018 3 1	* A hallway in the castle: door to the west: closed
+D 0 13022 1 1	* A hallway in the castle: door to the east: closed
+D 0 13031 1 1	* A hallway in the castle: door to the east: closed
+D 0 13031 3 1	* A hallway in the castle: door to the west: closed
+D 0 13033 1 1	* A hallway in the castle: door to the east: closed
+D 0 13033 3 1	* A hallway in the castle: door to the west: closed
+D 0 13035 1 1	* A hallway in the castle: door to the east: closed
+D 0 13035 3 1	* A hallway in the castle: door to the west: closed
+D 0 13040 1 1	* The Hallway of Giants: door to the east: closed
+D 0 13040 3 1	* The Hallway of Giants: door to the west: closed
+D 0 13041 0 1	* The Hallway of Giants: door to the north: closed
+D 0 13041 1 1	* The Hallway of Giants: door to the east: closed
+D 0 13041 3 1	* The Hallway of Giants: door to the west: closed
+D 0 13042 2 1	* The Lord's Chamber: door to the south: closed
+D 0 13042 5 1	* The Lord's Chamber: door to the down: closed
+D 0 13043 4 1	* The Treasure Room: door to the up: closed
+D 0 13044 1 1	* Battle Grounds: door to the east: closed
+D 0 13045 1 1	* The Dark Room: door to the east: closed
+D 0 13046 3 1	* The Holy Room: door to the west: closed
+D 0 13047 3 1	* The Captain's Quarters: door to the west: closed
+D 0 13048 1 1	* The kitchen: door to the east: closed
+D 0 13057 0 1	* The castle dungeon: door to the north: closed
+D 0 13057 1 1	* The castle dungeon: door to the east: closed
+D 0 13058 2 1	* A dungeon cell: door to the south: closed
+D 0 13059 3 1	* A dungeon cell: door to the west: closed
+D 0 13060 3 1	* A dungeon cell: door to the west: closed
+D 0 13061 1 1	* The castle dungeon: door to the east: closed
+D 0 13061 2 1	* The castle dungeon: door to the south: closed
+D 0 13065 0 1	* A dungeon cell: door to the north: closed
+D 0 13067 2 1	* The castle dungeon: door to the south: closed
+D 0 13067 3 1	* The castle dungeon: door to the west: closed
+D 0 13068 1 1	* A dungeon cell: door to the east: closed
+D 0 13069 1 1	* A dungeon cell: door to the east: closed
+D 0 13070 0 1	* The castle dungeon: door to the north: closed
+D 0 13070 3 1	* The castle dungeon: door to the west: closed
+D 0 13072 2 1	* A dungeon cell: door to the south: closed
+D 0 13073 3 1	* The Castle War Conference Room: door to the west: closed
+D 0 13074 1 1	* The lounge: door to the east: closed
+D 0 13075 3 1	* The Library: door to the west: closed
+D 0 13076 1 1	* The Altar Room: door to the east: closed
+D 0 13077 1 1	* A dark room: door to the east: closed
+D 0 13078 3 1	* Art Gallery: door to the west: closed
+D 0 13080 2 1	* A dark hallway: door to the south: closed
+D 0 13081 0 1	* The Torture Room: door to the north: closed
+D 0 13082 1 1	* The storage room: door to the east: closed
+D 0 13083 3 1	* The Guest Room: door to the west: closed
+M 0 13000 26 13004 2	* a giant guard (Foyer of the Castle)
+E 0 13000 0 16		*	an adamantite claymore: wielded
+M 0 13007 16 13006 1	* the male giant (A hallway in the castle)
+M 0 13000 26 13008 2	* a giant guard (A hallway in the castle)
+E 0 13000 0 16		*	an adamantite claymore: wielded
+M 0 13007 16 13009 1	* the male giant (A hallway in the castle)
+M 0 13000 26 13010 2	* a giant guard (A stairwell)
+E 0 13000 0 16		*	an adamantite claymore: wielded
+M 0 13007 16 13010 1	* the male giant (A stairwell)
+M 0 13000 26 13012 2	* a giant guard (A hallway in the castle)
+E 0 13000 0 16		*	an adamantite claymore: wielded
+M 0 13007 16 13012 1	* the male giant (A hallway in the castle)
+M 0 13007 16 13013 1	* the male giant (A turn in the hallway)
+M 0 13000 26 13014 2	* a giant guard (A hallway in the castle)
+E 0 13000 0 16		*	an adamantite claymore: wielded
+M 0 13007 16 13015 1	* the male giant (A hallway in the castle)
+M 0 13000 26 13016 2	* a giant guard (A stairwell)
+E 0 13000 0 16		*	an adamantite claymore: wielded
+M 0 13000 26 13018 2	* a giant guard (A hallway in the castle)
+E 0 13000 0 16		*	an adamantite claymore: wielded
+M 0 13007 16 13018 2	* the male giant (A hallway in the castle)
+M 0 13000 26 13020 2	* a giant guard (A turn in the hallway)
+E 0 13000 0 16		*	an adamantite claymore: wielded
+M 0 13007 16 13020 1	* the male giant (A turn in the hallway)
+M 0 13000 26 13022 2	* a giant guard (A hallway in the castle)
+E 0 13000 0 16		*	an adamantite claymore: wielded
+M 0 13007 16 13022 2	* the male giant (A hallway in the castle)
+M 0 13000 26 13024 2	* a giant guard (A turn in the hallway)
+E 0 13000 0 16		*	an adamantite claymore: wielded
+M 0 13007 16 13025 1	* the male giant (A hallway in the castle)
+M 0 13007 16 13028 1	* the male giant (A hallway in the castle)
+M 0 13000 26 13031 2	* a giant guard (A hallway in the castle)
+E 0 13000 0 16		*	an adamantite claymore: wielded
+M 0 13007 16 13032 1	* the male giant (A hallway in the castle)
+M 0 13000 26 13033 2	* a giant guard (A hallway in the castle)
+E 0 13000 0 16		*	an adamantite claymore: wielded
+M 0 13007 16 13033 1	* the male giant (A hallway in the castle)
+M 0 13000 26 13035 2	* a giant guard (A hallway in the castle)
+E 0 13000 0 16		*	an adamantite claymore: wielded
+M 0 13007 16 13035 1	* the male giant (A hallway in the castle)
+M 0 13002 1 13042 1	* the Lord of the Giants (The Lord's Chamber)
+E 0 13004 0 17		*	the {RBanner{x of the {DCastle{x of {WGiants{x: held in the hands
+E 0 13005 0 1		*	the {BRing{x of {WGlory{x: on the left finger
+E 0 13006 0 16		*	the huge {Dbroadsword{x of {RDestruction{x: wielded
+E 0 13022 0 9		*	some bloody gloves of elven skin: on the hands
+G 0 13023 0		*	{rSkin{x of the {DGiant{x Lord
+E 0 13024 0 3		*	fine {rfur{x cloak: around the neck
+O 0 13020 0 13043	* vast treasure of gold (The Treasure Room)
+M 0 13003 1 13044 1	* Shannon, the Battle Mistress (Battle Grounds)
+E 0 13007 0 2		*	{ya small {wspiked {Cring{x: on the right finger
+E 0 13007 0 1		*	{ya small {wspiked {Cring{x: on the left finger
+E 0 13008 0 5		*	a suit of {wspiked {madamantite {Cplatemail{x: on the body
+E 0 13009 0 6		*	a {wspiked {madamantite {Cbattle helm{x: over the head
+E 0 13010 0 7		*	some {wspiked {madamantite {Cbattle leggings{x: on the legs
+E 0 13011 0 8		*	{wspiked {madamantite {Cbattle boots{x: on the feet
+E 0 13025 0 10		*	some {wspiked {madamantite {Csleeves{x: on the arms
+M 0 13001 1 13045 1	* Thiulor the Spy (The Dark Room)
+E 0 13001 0 16		*	{MB{ma{Mr{mb{Me{md{x {wDagger of {DThiulor{x: wielded
+E 0 13002 0 12		*	the cloak of {Dstealth{x: about the shoulders
+E 0 13003 0 6		*	{Da spy {wm{Da{ws{Dk{x: over the head
+M 0 13004 1 13046 1	* Iupsil, the Master Cleric (The Holy Room)
+E 0 13012 0 5		*	{rRobe{x of the {wHealer{x: on the body
+E 0 13013 0 16		*	{mthe Hammer{x of {CPower{x: wielded
+M 0 13005 1 13047 1	* the Captain of the Castle Guard (The Captain's Quarters)
+E 0 13014 0 1		*	the {BCaptain's {GSigned {xRing: on the left finger
+E 0 13015 0 5		*	a suit of fine copper chainmail: on the body
+E 0 13016 0 6		*	a fine copper helmet: over the head
+E 0 13017 0 7		*	a set of fine copper leggings: on the legs
+E 0 13018 0 8		*	a pair of fine copper boots: on the feet
+E 0 13021 0 14		*	a fine copper bracelet: on the left wrist
+E 0 13019 0 3		*	the Badge of Order: around the neck
+M 0 13006 1 13053 1	* the elven servant (The castle garden)
+M 0 13000 26 13055 1	* a giant guard (The castle dungeon)
+E 0 13000 0 16		*	an adamantite claymore: wielded
+M 0 13009 10 13056 2	* the weeping elf (The castle dungeon)
+M 0 13000 26 13057 1	* a giant guard (The castle dungeon)
+E 0 13000 0 16		*	an adamantite claymore: wielded
+M 0 13008 4 13058 1	* the dying gnome (A dungeon cell)
+M 0 13010 4 13059 1	* the weeping elf (A dungeon cell)
+M 0 13010 4 13060 1	* the weeping elf (A dungeon cell)
+M 0 13000 26 13061 1	* a giant guard (The castle dungeon)
+E 0 13000 0 16		*	an adamantite claymore: wielded
+M 0 13009 10 13062 2	* the weeping elf (The castle dungeon)
+M 0 13000 26 13063 1	* a giant guard (The castle dungeon)
+E 0 13000 0 16		*	an adamantite claymore: wielded
+M 0 13009 10 13063 2	* the weeping elf (The castle dungeon)
+M 0 13008 4 13064 1	* the dying gnome (A dungeon cell)
+M 0 13000 26 13065 1	* a giant guard (A dungeon cell)
+E 0 13000 0 16		*	an adamantite claymore: wielded
+M 0 13008 4 13065 1	* the dying gnome (A dungeon cell)
+M 0 13009 10 13066 2	* the weeping elf (The castle dungeon)
+M 0 13000 26 13067 1	* a giant guard (The castle dungeon)
+E 0 13000 0 16		*	an adamantite claymore: wielded
+M 0 13010 4 13068 1	* the weeping elf (A dungeon cell)
+M 0 13010 4 13069 1	* the weeping elf (A dungeon cell)
+M 0 13000 26 13070 1	* a giant guard (The castle dungeon)
+E 0 13000 0 16		*	an adamantite claymore: wielded
+M 0 13009 10 13071 2	* the weeping elf (The castle dungeon)
+M 0 13008 4 13072 1	* the dying gnome (A dungeon cell)
+M 0 13011 1 13075 1	* the librarian (The Library)
+M 0 13012 1 13081 1	* the torturer (The Torture Room)
+E 0 13027 0 10		*	{Dsleeves{x of {Rt{Do{Rr{Dt{Ru{Dr{Re{Dr{x: on the arms
+E 0 13026 0 1		*	a ring of the torturer: on the left finger
+M 0 13013 1 13081 1	* the screaming elf (The Torture Room)
+S
+
+#OLIMITS
+O 13001 3	* {MB{ma{Mr{mb{Me{md{x {wDagger of {DThiulor{x
+O 13002 2	* the cloak of {Dstealth{x
+O 13003 3	* {Da spy {wm{Da{ws{Dk{x
+O 13004 4	* the {RBanner{x of the {DCastle{x of {WGiants{x
+O 13005 4	* the {BRing{x of {WGlory{x
+O 13006 1	* the huge {Dbroadsword{x of {RDestruction{x
+O 13007 6	* {ya small {wspiked {Cring{x
+O 13008 3	* a suit of {wspiked {madamantite {Cplatemail{x
+O 13009 3	* a {wspiked {madamantite {Cbattle helm{x
+O 13010 3	* some {wspiked {madamantite {Cbattle leggings{x
+O 13011 3	* {wspiked {madamantite {Cbattle boots{x
+O 13012 4	* {rRobe{x of the {wHealer{x
+O 13013 4	* {mthe Hammer{x of {CPower{x
+O 13014 4	* the {BCaptain's {GSigned {xRing
+O 13015 3	* a suit of fine copper chainmail
+O 13016 3	* a fine copper helmet
+O 13017 3	* a set of fine copper leggings
+O 13018 3	* a pair of fine copper boots
+O 13019 4	* the Badge of Order
+O 13021 8	* a fine copper bracelet
+O 13022 3	* some bloody gloves of elven skin
+O 13023 2	* {rSkin{x of the {DGiant{x Lord
+O 13024 6	* fine {rfur{x cloak
+O 13025 3	* some {wspiked {madamantite {Csleeves{x
+O 13027 2	* {Dsleeves{x of {Rt{Do{Rr{Dt{Ru{Dr{Re{Dr{x
+S
+
+#$

@@ -1,0 +1,83 @@
+#MSG
+Msg 0 0 @eng miss@rus промахнулся~@eng misses@rus не задевает~
+Msg 1 4 @eng {cscratch{x@rus {cцарапает{x~@eng {cscratches{x@rus {cцарапает{x~
+Msg 5 8 @eng {cgraze{x@rus {cзадевает{x~@eng {cgrazes{x@rus {cзадевает{x~
+Msg 9 12 @eng {chit{x@rus {cподкашивает{x~@eng {chits{x@rus {cподкашивает{x~
+Msg 13 16 @eng {cinjure{x@rus {cповреждает{x~@eng {cinjures{x@rus {cповреждает{x~
+Msg 17 20 @eng {cwound{x@rus {cранит{x~@eng {cwounds{x@rus {cранит{x~
+Msg 21 24 @eng {cmaul{x@rus {cтяжело ранит{x~@eng {cmauls{x@rus {cтяжело ранит{x~
+Msg 25 28 @eng {cdecimate{x@rus {cуничтожает{x~@eng {cdecimates{x@rus {cуничтожает{x~
+Msg 29 32 @eng {cdevastate{x@rus {cопустошает{x~@eng {cdevastates{x@rus {cопустошает{x~
+Msg 33 36 @eng {cmaim{x@rus {cкалечит{x~@eng {cmaims{x@rus {cкалечит{x~
+Msg 37 42 @eng {MMUTILATE{x@rus {MУРОДУЕТ{x~@eng {MMUTILATES{x@rus {MУРОДУЕТ{x~
+Msg 43 52 @eng {MDISEMBOWEL{x@rus {MРАЗРЫВАЕТ{x~@eng {MDISEMBOWELS{x@rus {MРАЗРЫВАЕТ{x~
+Msg 53 65 @eng {MDISMEMBER{x@rus {MРАСЧЛЕНЯЕТ{x~@eng {MDISMEMBERS{x@rus {MРАСЧЛЕНЯЕТ{x~
+Msg 66 80 @eng {MMASSACRE{x@rus {MИЗУВЕЧИВАЕТ{x~@eng {MMASSACRES{x@rus {MИЗУВЕЧИВАЕТ{x~
+Msg 81 100 @eng {MMANGLE{x@rus {MУВЕЧИТ{x~@eng {MMANGLES{x@rus {MУВЕЧИТ{x~
+Msg 101 130 @eng {y*** DEMOLISH ***{x@rus {y*** РАЗРУШАЕТ ***{x~@eng {y*** DEMOLISHES ***{x@rus {y*** РАЗРУШАЕТ ***{x~
+Msg 131 175 @eng {y*** DEVASTATE ***{x@rus {y*** ОПУСТОШАЕТ ***{x~@eng {y*** DEVASTATES ***{x@rus {y*** ОПУСТОШАЕТ ***{x~
+Msg 176 250 @eng {Y=== OBLITERATE ==={x@rus {Y=== УНИЧТОЖАЕТ ==={x~@eng {Y=== OBLITERATES ==={x@rus {Y=== УНИЧТОЖАЕТ ==={x~
+Msg 251 325 @eng {Y=== ATOMIZE ==={x@rus {Y=== РАЗРЫВАЕТ НА АТОМЫ ==={x~@eng {Y=== ATOMIZES ==={x@rus {Y=== РАЗРЫВАЕТ НА АТОМЫ ==={x~
+Msg 326 400 @eng {R>>> ANNIHILATE <<<{x@rus {R>>> УНИЧТОЖАЕТ <<<{x~@eng {R>>> ANNIHILATES <<<{x@rus {R>>> УНИЧТОЖАЕТ <<<{x~
+Msg 401 500 @eng {R>>> ERADICATE <<<{x@rus {R>>> ИСКОРЕНЯЕТ <<<{x~@eng {R>>> ERADICATES <<<{x@rus {R>>> ИСКОРЕНЯЕТ <<<{x~
+Msg 501 650 @eng {R=>> ELECTRONIZE <<={x@rus {R=>> РАЗЛАГАЕТ <<={x~@eng {R=>> ELECTRONIZE <<={x@rus {R=>> РАЗЛАГАЕТ <<={x~
+Msg 651 800 @eng {R-==> SKELETONIZE <==-{x@rus {R-=> СКЕЛЕТОНИЗИРУЕТ <=-{x~@eng {R-==> SKELETONIZES <==-{x@rus {R-=> СКЕЛЕТОНИЗИРУЕТ <=-{x~
+Msg 801 1000 @eng {R### NUKE ###{x@rus {R### ОПУСТОШАЕТ ###{x~@eng {R### NUKES ###{x@rus {R### ОПУСТОШАЕТ ###{x~
+Msg 1001 1250 @eng {R### TERMINATE ###{x@rus {R### ПРИКАНЧИВАЕТ ###{x~@eng {R### TERMINATES ###{x@rus {R### ПРИКАНЧИВАЕТ ###{x~
+Msg 1251 1500 @eng {R[*] TEAR UP [*]{x@rus {R[*] РАЗРЫВАЕТ [*]{x~@eng {R[*] TEARS UP [*]{x@rus {R[*] РАЗРЫВАЕТ [*]{x~
+Msg 1501 3000 @eng {R[*] POWER HIT [*]{x@rus {R[*] МОЩНО БЬЕТ [*]{x~@eng {R[*] POWER HITS [*]{x@rus {R[*] МОЩНО БЬЕТ [*]{x~
+Msg -1 -1 @eng {G#>{Y>{R> UNSPEAKABLE <{Y<{G<#{x@rus {G#>{Y>{R> {RНЕПЕРЕДАВАЕМО БЬЕТ <{Y<{G<#{x~@eng {G#>{Y>{R> UNSPEAKABLE <{Y<{G<#{x@rus {G#>{Y>{R> {RНЕПЕРЕДАВАЕМО БЬЕТ <{Y<{G<#{x~
+Attack @eng none@rus нет~@eng hit@rus удар~ '-1'
+Attack @eng slice@rus разрезать~@eng slice@rus разрезающий удар~ 'DAM_SLASH'
+Attack @eng stab@rus колоть~@eng stab@rus укол~ 'DAM_PIERCE'
+Attack @eng slash@rus резать~@eng slash@rus взмах~ 'DAM_SLASH'
+Attack @eng whip@rus хлыст~@eng whip@rus удар хлыстом~ 'DAM_SLASH'
+Attack @eng claw@rus разрывать~@eng claw@rus удар когтями~ 'DAM_SLASH'
+Attack @eng blast@rus заколачивать~@eng blast@rus заколачивающий удар~ 'DAM_BASH'
+Attack @eng pound@rus колотить~@eng pound@rus удар плашмя~ 'DAM_BASH'
+Attack @eng crush@rus крушить~@eng crush@rus разрушающий удар~ 'DAM_BASH'
+Attack @eng grep@rus рваться~@eng grep@rus рывок~ 'DAM_SLASH'
+Attack @eng bite@rus кусать~@eng bite@rus укус~ 'DAM_PIERCE'
+Attack @eng pierce@rus прокалывать~@eng pierce@rus укол~ 'DAM_PIERCE'
+Attack @eng suction@rus засасывать~@eng suction@rus засос~ 'DAM_BASH'
+Attack @eng beating@rus удар~@eng beating@rus удар~ 'DAM_BASH'
+Attack @eng digestion@rus переваривать~@eng digestion@rus переваривающий удар~ 'DAM_ACID'
+Attack @eng charge@rus атаковать~@eng charge@rus удар с разбегу~ 'DAM_BASH'
+Attack @eng slap@rus шлепать~@eng slap@rus шлепок~ 'DAM_BASH'
+Attack @eng punch@rus ударять кулаком~@eng punch@rus удар кулаком~ 'DAM_BASH'
+Attack @eng wrath@rus гневаться~@eng wrath@rus гнев~ 'DAM_ENERGY'
+Attack @eng magic@rus колдовство~@eng magic@rus магический удар~ 'DAM_ENERGY'
+Attack @eng divine@rus богословить~@eng divine power@rus святой удар~ 'DAM_HOLY'
+Attack @eng cleave@rus раскалывать~@eng cleave@rus раскалывающий удар~ 'DAM_SLASH'
+Attack @eng scratch@rus царапать~@eng scratch@rus царапающий удар~ 'DAM_PIERCE'
+Attack @eng peck@rus клевать~@eng peck@rus прокалывающий удар клювом~ 'DAM_PIERCE'
+Attack @eng peckb@rus клеватьб~@eng peck@rus удар клювом~ 'DAM_BASH'
+Attack @eng chop@rus рубить~@eng chop@rus рубящий удар~ 'DAM_SLASH'
+Attack @eng sting@rus жалить~@eng sting@rus жалящий укус~ 'DAM_PIERCE'
+Attack @eng smash@rus косить~@eng smash@rus скашивающий удар~ 'DAM_BASH'
+Attack @eng shbite@rus шукус~@eng shocking bite@rus шокирующий укус~ 'DAM_LIGHTNING'
+Attack @eng flbite@rus оукус~@eng flaming bite@rus огненный укус~ 'DAM_FIRE'
+Attack @eng frbite@rus мукус~@eng freezing bite@rus морозящий укус~ 'DAM_COLD'
+Attack @eng acbite@rus кукус~@eng acidic bite@rus кислотный укус~ 'DAM_ACID'
+Attack @eng chomp@rus срубить~@eng chomp@rus рубящий удар~ 'DAM_PIERCE'
+Attack @eng drain@rus высасывать~@eng life drain@rus вампирический удар~ 'DAM_NEGATIVE'
+Attack @eng thrust@rus тыкать~@eng thrust@rus тычок~ 'DAM_PIERCE'
+Attack @eng slime@rus кислота~@eng slime@rus кислотный удар~ 'DAM_ACID'
+Attack @eng shock@rus шокировать~@eng shock@rus удар током~ 'DAM_LIGHTNING'
+Attack @eng thwack@rus колотить~@eng thwack@rus сильный удар~ 'DAM_BASH'
+Attack @eng flame@rus жечь~@eng flame@rus пламенный удар~ 'DAM_FIRE'
+Attack @eng chill@rus морозить~@eng chill@rus удар холодом~ 'DAM_COLD'
+Attack @eng kiss@rus целовать~@eng kiss@rus поцелуй~ 'DAM_MENTAL'
+To_n_dt_cv_hunger @eng $n's hunger $u $mself!@rus Голод $c1{$n} $u $gn{его}!~@eng Your hunger $u%s yourself!@rus Твой голод $u%s тебя!~ ~
+To_n_dt_cv_thirst @eng $n's thirst $u $mself!@rus Жажда $c1{$n} $u $gn{его}!~@eng Your thirst $u%s yourself!@rus Твоя жажда $u%s тебя!~ ~
+To_n_dt_cv_light @eng The light of room $u $n!@rus Яркий свет $u $c3{$n}!~@eng The light of room $u%s you!@rus Яркий свет $u%s тебя!~ ~
+To_n_dt_cv_trap @eng The trap at room $u $n!@rus Ловушка $u $c3{$n}!~@eng The trap at room $u%s you!@rus Ловушка $u%s тебя!~ ~
+To_n_dt_cv @eng $n $u $mself!@rus $n $u себя!~@eng You $u%s yourself!@rus Ты $u%s себя!~ ~
+To_n_dt $n $u $N.~@eng You $u%s $N.@rus Ты $u%s $N.~@eng $n $u%s you.@rus $n $u%s тебя.~
+To_imm_cv @eng $n is unaffected by $s own $U.@rus $n $U неэффективно против $gn{него}.~@eng Luckily, you are immune to that.@rus Тебе везет, тебя этим не взять.~ ~
+To_imm @eng $N is unaffected by $n's $U!@rus Оружие "$U" $c1{$n} неэффективно против $c1{$N}!~@eng $N is unaffected by your $U!@rus Оружие "$U" неэффективно против $c1{$N}!~@eng $n's $U is powerless against you.@rus Оружие "$U" $c1{$n} бессильно против тебя..~
+To_sp_cv $n's $U $u $m.~@eng Your $U $u%s you.@rus Твой $U $u%s тебя.~ ~
+To_sp @eng $n's $U $u $N.@rus $h{$U} $c1{$n} $u $c3{$N}.~@eng Your $U $u%s $N.@rus Твой $U $u%s $c3{$N}.~$h{$U} $c1{$n} $u%s тебя.~
+end
+
+#$

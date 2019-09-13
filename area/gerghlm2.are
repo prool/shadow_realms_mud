@@ -1,0 +1,6097 @@
+#AREADATA
+Name Greater Gerighelm~
+VNUMs 7500 7699
+Credits none~
+Security 5
+LevelRange 1 30
+Flags noquest~
+End
+
+#MOBILES
+#7500
+squirrel little~
+@eng a little squirrel@rus маленькая белка~
+@eng A little squirrel is here, munching happily on nuts.
+@rus Маленькая белка грызет орехи.
+~
+@eng He is a Small squirrel, and he is SOO cute!
+@rus Маленькая белка.
+~
+dog~
+AG 0 0 7500
+1 0 2d6+10 1d25+200 1d4+0 bite
+-9 -9 -9 -10
+EKN 0 0 0
+stand stand male 1
+0 0 small unknown
+#7501
+chipmunk tiny~
+@eng a tiny chipmunk@rus крошечный бурундук~
+@eng A tiny chipmunk is here, searching through rocks for a nut he has lost..
+@rus Крошка бурундук ищет плоские камни для того, что-бы расколоть орехи...
+~
+@eng He is about 2 1/2 inches high, and weighs about 7 ounces.
+He's got sharp teeth though....
+@rus Он около 2 с половиной дюймов в высоту и весит около 7 унций.
+Бегает тут с острыми зубами...
+~
+cat~
+AG 0 0 7501
+1 0 2d6+10 1d25+200 1d4+0 claw
+-9 -9 -9 -1
+EKN 0 0 0
+stand stand male 1
+0 0 small unknown
+#7502
+snake green small~
+@eng a small green snake@rus маленькая зеленая змея~
+@eng A small green snake is here, sliding through the grass.
+@rus Маленькая зеленая змея ползет по траве.
+~
+@eng His scales remind you of green mirrors.  There is something
+pretty about them though.
+@rus Ее чешуйки напоминают тебе крошечные зеленые зеркала. В этом есть 
+что-то притягательное.
+~
+snake~
+AG 0 0 0
+1 0 2d6+10 1d25+200 1d4+0 scratch
+-9 -9 -9 -10
+EKN 0 0 0
+stand stand male 1
+0 0 small unknown
+#7503
+swallow bird small~
+@eng a swallow@rus ласточка~
+@eng A small bird is here, on closer examination, you see that it is a swallow.
+@rus Тут крутится маленькая птичка. Приболее близком рассмотрении ты понимаешь, что это ласточка.
+~
+@eng It's a swallow, what do you EXPECT to see???
+@rus Это ласточка, а что ты ожидал увидеть???
+~
+song bird~
+AG 0 0 0
+1 0 2d6+10 1d25+200 1d4+0 slap
+-9 -9 -9 -10
+EKN 0 0 0
+stand stand male 1
+0 0 tiny unknown
+#7504
+african swallow small bird~
+@eng an African Swallow@rus Африканская Ласточка~
+@eng An African Swallow is here....
+@rus Ты видишь Африканскую Ласточку.....
+~
+@eng An African Swallow is here.... Carrying a cocanut..... :)
+@rus Тут прыгает Африканская Ласточка с орехом в клюве.
+~
+song bird~
+AG 0 0 0
+2 0 2d7+21 2d25+200 1d5+0 scratch
+-8 -8 -8 -10
+EKN 0 0 0
+stand stand male 2
+0 0 small unknown
+#7505
+raccoon brown black~
+@eng a brown and black raccoon@rus черно-коричневый енот~
+@eng A brown and black raccoon is here, rummageing through the undergrowth.
+@rus Крошка енот роется в подлеске.
+~
+@eng He is very clean, must be from all those baths he gives his food...
+@rus Он очень чистый. Возможно это из-за того, что он ловит рыбу...
+~
+orc~
+AG 0 0 0
+2 0 2d7+21 2d25+200 1d5+0 bite
+-8 -8 -8 -10
+EKN 0 0 0
+stand stand male 2
+0 0 medium unknown
+#7506
+ground hog groundhog~
+@eng a ground-hog@rus земляной кaбан~
+@eng A ground-hog is here.  Digging holes.
+@rus Земляной кaбан тут копает себе нору...
+~
+@eng He is doing.. Well... Well, whatever ground-hogs DO, of course!
+@rus Он занят... ну... ну тем, чем обычно заняты земляные кабаны!
+~
+cat~
+AG 0 0 0
+2 0 2d7+21 2d25+200 1d5+0 stab
+-8 -8 -8 -10
+EKN 0 0 0
+stand stand male 2
+0 0 medium unknown
+#7507
+mouse field fieldmouse small ~
+@eng a field mouse@rus мышь-полевка~
+@eng A field mouse is here, being very small...
+@rus Мышь полевка тут. Она очень маленькая и серенькая.
+~
+@eng He's small, and it is hard to see him clearly...
+@rus Настолько мала, что сложно рассмотреть.
+~
+elf~
+AG 0 0 0
+1 0 2d6+10 1d25+200 1d4+0 claw
+-9 -9 -9 -10
+EKN 0 0 0
+stand stand male 1
+0 0 tiny unknown
+#7508
+squirrel flying~
+@eng a flying squirrel@rus белка летяга~
+@eng A flying squirrel is here, glideing about.
+@rus Белка тут летает.
+~
+@eng He's small, furry, and brown.  Makes you wish you could step on him-except
+he's flying, and you're not.  We should fix this...
+@rus Она маленькая и коричневая. У тебя возникает вопрос: почему он может летать,
+а ты нет. Тебе кажется, что это надо исправить...
+~
+song bird~
+AG 0 0 0
+2 0 2d7+21 2d25+200 1d5+0 punch
+-8 -8 -8 -10
+EKN 0 0 0
+stand stand male 2
+0 0 small unknown
+#7509
+starryeyed starry eyed lover~
+@eng a starry eyed lover@rus Влюбленный со звездными глазами~
+@eng A starry eyed lover is here, taking his stroll through the park.
+@rus Влюбленный со звездными глазами гуляет по парку.
+~
+@eng He is tall, and very handsome.  You feel that the object of his affections
+must be feeling very good.
+@rus Он высокий и очень привлекательный. Ты чуствуешь, что обьект приложения 
+его усилий должно быть очень хороша собою.
+~
+human~
+AG 0 300 0
+4 0 2d7+46 4d25+200 1d5+1 punch
+-6 -6 -6 -9
+EKN 0 0 0
+stand stand male 4
+0 0 medium unknown
+#7510
+starryeyed starry eyed lover~
+@eng a starry eyed lover@rus влюбленная со звездными глазами~
+@eng A starry eyed lover is here, smileing and talking to herself happily.
+@rus Влюбленная со звездными глазами счатливо улыбается и разговаривает сама с собою.
+~
+@eng She is young, beautiful, smart--- Kinda makes you jealous of the guy who
+has nabbed her..
+@rus Она молода, красива, умна, у тебя возникает жалость, что она 
+влюблена не в тебя.
+~
+human~
+AG 0 300 0
+4 0 2d7+46 4d25+200 1d5+1 punch
+-6 -6 -6 -9
+EKN 0 0 0
+stand stand female 4
+0 0 medium unknown
+#7511
+herbalist helper young~
+@eng a herbalists helper@rus ~~помошник~~ травника~
+@eng A helper of the herbalist is here.
+@rus Помошник травника стоит тут.
+~
+@eng He is collecting herbs for use in his training, and his mentors work.
+@rus Он собирает травы для тренировки и для проведения своего обучения дальше.
+~
+human~
+AG 0 0 0
+6 0 2d7+71 6d25+200 1d7+1 punch
+-4 -4 -4 -9
+EKN 0 0 0
+stand stand male 6
+0 0 medium unknown
+#7512
+water snake~
+@eng water snake@rus водяная змея~
+@eng A water snake is swimming (or is it sliding?) here.
+@rus Водяная змея плавет(или ползет?) рядом.
+~
+@eng He has green scales,  almost like his cousin in the Park.
+@rus Она имеет зеленые чешуйки, почти как ее кузина в парке.
+~
+snake~
+AG 0 0 0
+6 0 2d7+71 6d25+200 1d7+1 whip
+-4 -4 -4 -9
+EKN 0 0 0
+stand stand male 6
+0 0 medium unknown
+#7513
+fish pointy teeth small~
+@eng a small fish with pointy teeth@rus маленькая рыбка с острыми зубами~
+@eng A small fish with pointy teeth is here,  swimming along peacefully.
+@rus Маленькая рыбка со множеством острых зубов мирно плавает рядом.
+~
+@eng He has many small sharp pointy teeth in his mouth.
+@rus У рыбки много острых зубов в пасти.
+~
+water fowl~
+AG p 0 0
+6 0 2d7+71 6d25+200 1d7+1 smash
+-4 -4 -4 -9
+EKNV 0 0 0
+stand stand male 6
+0 0 medium unknown
+F par CP
+#7514
+fish pointy medium teeth~
+@eng a medium fish will pointy teeth@rus средняя рыбка с острыми зубами~
+@eng A medium fish with pointy teeth is here,  swimming along peacefully.
+@rus Рыбка средних размеров плавает рядом. У нее очень острые зубы.
+~
+@eng He has many medium sharp pointy teeth in his mouth.
+@rus В пасти очень много острых зубов.
+~
+water fowl~
+AG Jp 0 0
+7 0 2d6+85 7d25+200 1d8+1 smash
+-4 -4 -4 -9
+EKNV 0 0 0
+stand stand male 7
+0 0 medium unknown
+F par CP
+#7515
+fish pointy teeth large~
+@eng a large fish with pointy teeth@rus большая рыбина с острыми зубами~
+@eng A LARGE fish with pointy teeth is here, swimming along peacefully.
+@rus Тут плавает БОЛЬШАЯ рыбина со множеством острых зубов.
+~
+@eng He has MANY, MANY,  sharp pointy teeth of the medium type....
+@rus У нее много много много острых зубов среднего размера.
+~
+water fowl~
+AG p 0 0
+8 0 2d7+96 8d25+200 1d7+2 smash
+-3 -3 -3 -9
+EKNV 0 0 0
+stand stand male 8
+0 0 medium unknown
+F par CP
+#7516
+goldfish small happy~
+@eng a goldfish@rus ~~золотая~~ ~~рыбка~~~
+@eng A happy goldfish is here,  being happy.
+@rus Маленькая золотая рыбка плавает тут ничем не занята.
+~
+@eng Aw, the little fella must have been dumped here, all alone, to care for
+himself.  You should help him...
+@rus Малышка совсем одна, должно быть она потерялась. Ты должен 
+позаботиться о ней.
+~
+water fowl~
+AG J 0 0
+5 0 2d6+60 5d25+200 1d6+1 bite
+-5 -5 -5 -9
+EKN 0 0 0
+stand stand female 5
+0 0 medium unknown
+#7517
+guppy small happy~
+@eng a guppy@rus гуппи~
+@eng A happy guppy is here, being, well you know, HAPPY!
+@rus Счастливая гуппи плавает около тебя.
+~
+@eng He is almost as cute as the goldfish.  You should help him too.
+@rus Она почти как и золотая рыбка. Ей тоже нужна помошь.
+~
+human~
+AG J 0 0
+5 0 2d6+60 5d25+200 1d6+1 punch
+-5 -5 -5 -9
+EKN 0 0 0
+stand stand male 5
+0 0 medium unknown
+#7518
+fish teeth blunted~
+@eng a fish with blunted teeth@rus рыба с затупившимися зубами~
+@eng A fish with BLUNTED teeth is here, gumming some weeds.
+@rus Рыба с затупившимися зубами жует тут какого-то тощего субьекта.
+~
+@eng This is getting silly, first small fish with pointy teeth, then medium ones,
+and the LARGE ones,  AND NOW!  BLUNTED TEETHED ONES!
+It's enough to make you sick....
+@rus Эта глупая рыбина была сначало маленькаго размера, но с 
+острыми зубами, затем, среднего размера, затем БОЛЬШОГО,
+и теперь у нее ТУПЫЕ зубы. Этого достаточно, что-бы тебе
+стало плохо.
+~
+water fowl~
+AG p 0 0
+6 0 2d7+71 6d25+200 1d7+1 claw
+-4 -4 -4 -9
+EKNV 0 0 0
+stand stand male 6
+0 0 medium unknown
+#7519
+bugbear ugly~
+@eng a bugbear@rus пугало~
+@eng An UGLY bugbear is here, plotting who knows what.
+@rus ПРОТИВНОЕ пугало посаженое тут неизвестно для чего.
+~
+@eng He looks evil, and mean.  You wonder what he is planning to do down here..
+@rus Он выглядит злым и вредным. Ты начинаешь догадыватся, для 
+чего он тут посажен...
+~
+bear~
+AG J -445 0
+9 0 2d6+110 9d25+200 1d8+2 pierce
+-2 -2 -2 -9
+KN 0 0 0
+stand stand male 9
+0 0 medium unknown
+#7520
+worm cleaner large~
+@eng a cleaner worm@rus чистящий червь~
+@eng A LARGE Cleaner Worm is here!
+@rus Ты видишь ОГРОМНОГО чистящего червя.
+~
+@eng Now you know why these tunnels are so clean.
+@rus Теперь ты знаешь, почему в этих тоннелях так чисто.
+~
+snake~
+AFG DFJ 0 0
+10 0 2d7+121 10d25+200 2d4+2 grep
+-1 -1 -1 -8
+EKN 0 0 0
+stand stand male 10
+0 0 medium unknown
+#7521
+citizen man~
+@eng a citizen of Gerighelm@rus гражданин Геригхельма~
+@eng A citizen of the fine city or Gerighelm is here, going to and from his errands
+@rus Гражданин славного города Геригхельма прохаживается по своей веранде.
+~
+@eng The citizen of Gerighelm looks happy, and contented.
+@rus Гражданин Геригхельма выглядит счастливым и удовлетворенным.
+~
+human~
+AEG 0 0 7521
+6 0 2d7+71 6d25+200 1d7+1 punch
+-4 -4 -4 -9
+EKN 0 0 0
+stand stand male 6
+0 0 medium unknown
+#7522
+citizen woman~
+@eng a citizen of Gerighelm@rus жительница Геригхельма~
+@eng A citizen of the fine city of Gerighelm is here, haggling over prices in the
+market.
+@rus Жительница славного города Геригхельма торгуется на рынке.
+~
+@eng She looks very worn from all this haggling.  But she is happy nonetheless.
+@rus Она очень увлечена торговлей.
+~
+human~
+A G 0 7521
+7 0 2d6+85 7d25+200 1d8+1 punch
+-4 -4 -4 -9
+EKN 0 0 0
+stand stand female 7
+0 0 medium unknown
+#7523
+troubadour bard~
+@eng a troubadour@rus трубадур~
+@eng A troubadour is here, singing for his supper.
+@rus Трубадур поет тут в надежде, что кто-то угостит его обедом.
+~
+@eng His voice is clear and strong.  It makes you want to join in the song
+(and buy him dinner...)
+@rus Его голос чистый и сильный. Ты хочешь присоединиться к его пению
+(и купить ему обед...)
+~
+human~
+AGI 0 0 0
+10 0 2d7+121 10d25+200 2d4+2 punch
+-1 -1 -1 -8
+EKN 0 0 0
+stand stand male 10
+0 0 medium unknown
+#7524
+biddy old~
+@eng an old biddy@rus ~~старик~~~
+@eng An old biddy is here, cussing out the children...
+@rus Тут проклинает детей старик...
+~
+@eng She is wrinkled and bent.  She is also loud.....
+@rus Он морщинистый, седой и очень громкий...
+Он весь сморщенный, седой и очень ворчливый...
+~
+human~
+AG 0 0 0
+11 0 2d8+134 11d25+200 1d10+2 punch
+-1 -1 -1 -8
+EKN 0 0 C
+stand stand male 11
+0 0 medium unknown
+#7525
+coot old~
+@eng an old coot@rus ~~старый~~ ~~простак~~~
+@eng An old coot is here, talking his face off.
+@rus Старый простак разговаривает сам с собой.
+~
+@eng He is telling everyone in earshot how he defeated the red dragon and then
+stayed to play with the kings wife.....
+@rus Он рассказывает всем и каждому в пределе прямой видимости, как
+он победил красного дракона, а затем пошел играть с Королевой.
+~
+human~
+AG 0 0 7525
+13 0 2d10+170 13d25+200 2d5+3 punch
+1 1 1 -8
+EKN 0 0 C
+stand stand male 13
+0 0 medium unknown
+#7526
+child little boy~
+@eng a little boy@rus маленький мальчик~
+@eng A little boy is here, playing with his marbles.
+@rus Маленький мальчик играет со своими шариками. 
+~
+@eng He has a nice bag of marbles.  Some are red, some are blue, some are green
+with a curlycue.....
+@rus У него неплохая сумка с шариками. Некоторые из них красные, 
+некоторые голубые, некоторые зеленые с прожилками.
+~
+human~
+AG 0 0 0
+4 0 2d7+46 4d25+200 1d5+1 punch
+-6 -6 -6 -9
+EKN 0 0 C
+stand stand male 4
+0 0 small unknown
+#7527
+child little girl~
+@eng a little girl@rus маленькая девочка~
+@eng A little girl is here, talking to her doll.
+@rus Маленькая девочка играет с куклою.
+~
+@eng She is telling her doll The Facts Of Life....
+@rus Она учит свою куклу жизни....
+~
+human~
+AG 0 0 0
+4 0 2d7+46 4d25+200 1d5+1 punch
+-6 -6 -6 -9
+EKN 0 0 C
+stand stand female 4
+0 0 small unknown
+#7528
+junior guard~
+@eng a junior guard@rus ~~молодой~~ ~~стражник~~~
+@eng A junior guard of Gerighelm is here, trying to look brave and in control.
+@rus Молодой стражник Геригхельма пытается выглядеть храбрым.
+~
+@eng Hmm.  This is the new idea that the duke of Gerighelm has. It keeps youth
+Off The Streets...
+@rus Ну.. Это новая идея Герцога Геригхельма.
+~
+human~
+AGT 0 475 7528
+15 0 3d9+208 15d25+200 2d6+3 scratch
+2 2 2 -7
+CDEKLT 0 0 C
+stand stand male 7
+0 0 medium unknown
+#7529
+woman young~
+@eng a young woman@rus молодая женщина~
+@eng A young woman is here, flirting with passerbys.
+@rus Молодая женщина флиртует с прохожими.
+~
+@eng She is about 16. And VERY attractive.
+@rus На вид ей 18 лет и она ОЧЕНЬ привлекательна.
+~
+human~
+AGT 0 470 0
+14 0 2d10+190 14d25+200 1d12+3 punch
+1 1 1 -8
+CDEKL 0 0 C
+stand stand male 14
+0 0 medium unknown
+#7530
+cityguard guard gerighelm~
+@eng a Gerighelm cityguard@rus ~~стражник~~ Геригхельма~
+@eng A Gerighelm cityguard is here, protecting the innocent.
+@rus Страж Геригхельма тут. Он защищает невиновных.
+~
+@eng He is large and strong.  You are glad that he's a Good Guy....
+@rus Он большой и сильный. Ты рад, что он добрый.
+~
+human~
+AGT 0 475 7530
+15 0 3d9+208 15d25+200 2d6+3 punch
+2 2 2 -7
+CDEKLT 0 0 C
+stand stand male 15
+0 0 medium unknown
+#7531
+cityguard guard gerighelm~
+@eng a Gerighelm cityguard@rus ~~стражник~~ Геригхельма~
+@eng A Gerighelm cityguard is here, protecting the innocent.
+@rus Страж Геригхельма тут. Он защищает невиновных.
+~
+@eng He is large and strong.  You are glad that he's a Good Guy....
+@rus Он большой и сильный. Ты рад, что он добрый.
+~
+human~
+AGT 0 480 7530
+16 0 3d9+233 16d25+200 2d6+4 punch
+2 2 2 -7
+CDEKLT 0 0 C
+stand stand male 16
+0 0 medium unknown
+#7532
+cityguard guard gerighelm~
+@eng a Gerighelm cityguard@rus ~~стражник~~ Геригхельма~
+@eng A Gerighelm cityguard is here, protecting the innocent.
+@rus Страж Геригхельма тут. Он защищает невиновных.
+~
+@eng He is large and strong.  You are glad that he's a Good Guy....
+@rus Он большой и сильный. Ты рад, что он добрый.
+~
+human~
+AGT 0 485 7530
+17 0 3d9+258 17d25+200 3d4+4 punch
+3 3 3 -7
+CDEKLT 0 0 C
+stand stand male 17
+0 0 medium unknown
+#7533
+ale-conner ale conner~
+@eng the ale-conner@rus дегустатор~
+@eng The Ale-Conner is here, recovering from his inspections...
+@rus Дегустатор идет на инспекцию.
+~
+@eng His job is to inspect the wine, cider, and beer of the town.
+He does his job well.....
+@rus Его работа заключается в том, что-бы пробовать вина, сидр 
+и пиво в этом городе. Он хорошо делает свою работу...
+~
+human~
+AG 0 0 0
+17 0 3d9+258 17d25+200 3d4+4 punch
+3 3 3 -7
+CDEKLT 0 0 C
+stand stand male 17
+0 0 medium unknown
+#7534
+defender gerighelm~
+@eng a Defender of Gerighelm@rus защитник Геригхельма~
+@eng A Defender of Gerighelm is here, on leave.
+@rus Тут стоит защитник Геригхельма. Он в отпуске.
+~
+@eng He is worn and tired (WHOA! Army training must be HARD!).
+@rus Он выглядит помятым и усталым. Тренировка в армии должно-быть трудна.
+~
+human~
+AGT 0 495 7534
+19 0 3d9+308 19d25+200 2d7+5 punch
+4 4 4 -7
+CDEKLT 0 0 C
+stand stand male 19
+0 0 medium unknown
+#7535
+defender gerighelm~
+@eng a Defender of Gerighelm@rus ~~защитник~~ Геригхельма~
+@eng A Defender of Gerighelm is here, on patrol.
+@rus Защитник Геригхельма тут в патруле.
+~
+@eng He is worn, and tired.  But he still stays at his job!
+@rus Он помятый и усталый, но все еще остается на своем посту!
+~
+human~
+AGT 0 500 7534
+20 0 3d9+333 20d25+200 2d8+5 punch
+4 4 4 -7
+CDEKLT 0 0 C
+stand stand male 20
+0 0 medium unknown
+#7536
+palace guard~
+@eng a palace guard@rus ~~дворцовый~~ ~~стражник~~~
+@eng A palace guard is here, standing tall.
+@rus Тут стоит вытянувшийся в струнку дворцовый стражник.
+~
+@eng He looks happy with life-- As he is in the best position to enjoy it..
+@rus Он вполне доволен жизнью.
+~
+human~
+AGT 0 500 7536
+20 0 3d9+333 20d25+200 2d8+5 punch
+4 4 4 -7
+CDEKLT 0 0 C
+stand stand male 2
+0 0 medium unknown
+#7537
+palace guard~
+@eng a palace guard@rus ~~дворцовый~~ ~~стражник~~~
+@eng A palace guard is here, standing tall.
+@rus Тут стоит вытянувшийся в струнку дворцовый стражник.
+~
+@eng He looks happy with life-- As he is in the best position to enjoy it..
+@rus Он вполне доволен жизнью.
+~
+human~
+AGT 0 505 7536
+21 0 4d10+360 21d25+200 4d4+5 punch
+5 5 5 -7
+CDEKLT 0 0 C
+stand stand male 2
+0 0 medium unknown
+#7538
+cook~
+@eng the cook@rus повар~
+@eng The Cook is here, dreaming up new recipes.
+@rus Повар тут мечтает о новых рецептах.
+~
+@eng He looks like one of his creampuffs.  To bad he doesn't know how to diet...
+@rus Он выглядит как его пирожные. Плохо то, что он ничего не знает о диете.
+~
+human~
+AGT J 510 0
+22 0 5d10+400 22d25+200 4d4+6 punch
+5 5 5 -7
+CDEKL 0 0 C
+stand stand male 22
+0 0 medium unknown
+#7539
+palace mage~
+@eng the palace mage@rus ~~дворцовый~~ ~~маг~~~
+@eng The palace Mage is here, practicing his spells.
+@rus Дворцовый Маг продает свои услуги.
+~
+@eng He is the standard wizard:  Old, decrepit, exceedingly powerful...
+@rus Он обыкновенный мудрец: старый, седовласый, очень опасный...
+~
+human~
+AGHR B 515 0
+23 0 5d10+450 23d25+200 3d6+6 punch
+6 6 6 -6
+N A 0 E
+stand stand male 23
+0 0 medium unknown
+#7540
+palace priest~
+@eng the palace priest@rus ~~дворцовый~~ ~~священник~~~
+@eng The Priest of this palace is here, praying devotedly to his God.
+@rus Дворцовый Жрец молится своему Богу.
+~
+@eng He is the standard priest:  Old, fatherly looking, REAL powerful...
+@rus Он выглядит как обыкновенный жрец: старый, отечески выглядящий, 
+действительно МОЩНЫЙ.
+~
+human~
+ABGR BH 515 0
+23 0 5d10+450 23d25+200 3d6+6 punch
+6 6 6 -6
+EFK 0 0 E
+stand stand male 23
+0 0 medium unknown
+#7550
+head guard~
+@eng the head of the guard@rus ~~глава~~ охраны~
+@eng The head of the guard is here--GOD He's HUGE!
+@rus Старший стражник стоит тут. Боже, до чего-же он ОГРОМНЫЙ!!!
+~
+@eng He's HUGE!!!!
+@rus Он ОГРОМНЫЙ!!!!
+~
+human~
+AGT 0 515 7550
+23 0 5d10+450 23d25+200 3d6+6 punch
+6 6 6 -6
+CDEKLT 0 0 C
+stand stand male 23
+0 0 medium unknown
+#7551
+palace gardener~
+@eng the palace gardener@rus ~~придворный~~ ~~садовник~~~
+@eng The palace gardener is here, calmly uprooting some weeds.
+@rus Придворный садовник мирно кромсает какие-то растения.
+~
+@eng He is grabbing weeds like there is no tomorrow...
+@rus Он режет их так, будто у них нет будующего...
+~
+human~
+AGT 0 515 0
+23 0 5d10+450 23d25+200 3d6+6 punch
+6 6 6 -6
+CDEKL 0 0 C
+stand stand male 23
+0 0 medium unknown
+#7552
+bodyguard body guard~
+@eng a bodyguard@rus телохранитель~
+@eng A bodyguard is here, guarding the Duke.
+@rus Телохранитель Герцога.
+~
+@eng He looks like he will give his life for his Duke.
+@rus Он готов отдать свою жизнь за Герцога.
+~
+human~
+AGT 0 520 0
+24 0 5d10+500 24d25+200 2d10+6 punch
+6 6 6 -6
+CDEKLT 0 0 C
+stand stand male 24
+0 0 medium unknown
+#7553
+bodyguard body guard~
+@eng a bodyguard@rus телохранитель~
+@eng A bodyguard is here, guarding his Duke.
+@rus Телохранитель Герцога.
+~
+@eng He looks like he will give his life for his Duke.
+@rus Он готов отдать свою жизнь за Герцога.
+~
+human~
+AGT 0 525 0
+25 0 5d10+550 25d25+200 2d10+7 punch
+7 7 7 -6
+CDEKLT 0 0 C
+stand stand male 25
+0 0 medium unknown
+#7554
+duke gerighelm~
+@eng the Duke of Gerighelm@rus ~~герцог~~ Геригхельма~
+@eng The Duke of Gerighelm is here, watching over his proud lands.
+@rus Герцог Геригхельма наблюдает за своими владениями.
+~
+@eng He looks worn, but happy.
+@rus Он выглядит уставшим, но вполне счастливым
+~
+human~
+ABGRT 0 550 7550
+30 0 6d12+853 30d25+200 4d6+8 punch
+9 9 9 -6
+CDEFJKLNU A 0 E
+stand stand male 27
+0 0 medium unknown
+#7555
+duchess gerighelm~
+@eng the Duchess of Gerighelm@rus ~~герцогиня~~ Геригхельма~
+@eng The Duchess of Gerighelm is here, pondering dinner parties and the like.
+@rus Герцогиня Геригхельма думает о подготовке к званому ужину.
+~
+@eng She is a VERY social person...
+@rus Она ОЧЕНЬ эмоциональная личность...
+~
+human~
+ABGR 0 525 0
+25 0 5d10+550 25d25+200 2d10+7 punch
+7 7 7 -6
+FKN A 0 E
+stand stand female 25
+0 0 medium unknown
+#7580
+worker of gerighelm~
+@eng Worker of Gerighelm@rus ~~Наемный~~ ~~рабочий~~~
+@eng Worker of Gerighelm building city.
+@rus Наемный рабочий занят строительством города.
+~
+@eng Worker from Dwarfen Kingdom is building city for medium cost.
+Future lord of Gerighelm pay for him.
+@rus Рабочий из королевства гномов помогает возводить город за умеренную плату.
+Его нанял будущий лорд Геригхельма.
+~
+dwarf~
+A 0 475 0
+15 8 3d7+260 0d0+0 3d6+5 punch
+6 6 6 6
+0 0 0 0
+stand stand male 5
+0 0 medium unknown
+L 'dwarvish lang'
+#7581
+worker of gerighelm~
+@eng worker of Gerighelm@rus ~~рабочий~~ Геригхельма~
+@eng Worker of Gerighelm carring stones.
+@rus Рабочий Геригхельма носит камни.
+~
+@rus Коренной житель Геригхельма помогает строительству города.
+~
+human~
+A 0 474 0
+20 8 3d7+340 0d0+0 3d6+5 punch
+6 6 6 6
+0 0 0 0
+stand stand male 3
+0 0 medium unknown
+L 'human lang'
+#7582
+sewers worker~
+@eng Sewers worker @rus ~~Строитель~~ канализации~
+@eng Sewers worker geting stones
+@rus Строитель канализации носит стройматериалы.
+~
+@rus Sewers worker building sewer.
+Lord paying him
+~
+kobold~
+A 0 475 0
+20 6 3d6+340 0d0+0 3d7+8 punch
+7 7 7 7
+0 0 0 0
+stand stand male 4
+0 0 medium unknown
+#7583
+worker~
+@eng Sewers worker@rus Рабочий-шахтер~
+@eng Sewers worker building here.
+@rus Рабочий отстраивает канализацию.
+~
+@eng Worker githyanki helping to consruct sewers.
+@rus Рабочий гифъянки помогает строительству города.
+~
+githyanki~
+A 0 475 0
+22 8 3d8+380 0d0+0 3d7+8 pound
+10 10 10 10
+0 0 0 0
+stand stand male 3
+0 0 medium unknown
+L 'human lang'
+#7584
+engeneer~
+@eng elvish engeneer@rus ~~эльф~~-~~инженер~~~
+@eng Elf- engeneer very busy.
+@rus Эльф-инженер чертит что-то на бумаге.
+~
+@eng Elf- engeneer standing there, he' very busy.
+@rus Эльф-инженер чертит что-то, вероятно это план будущей канализации.
+Он очень занят.
+~
+elf~
+A 0 475 0
+26 8 3d7+400 0d0+0 3d7+10 punch
+7 7 7 7
+0 0 0 0
+stand stand male 6
+0 0 medium unknown
+L 'elvish lang'
+#7590
+servant~
+@eng a servant@rus слуга~
+@eng A servant of the duke is here serving.
+@rus Слуга тут занимается своими прямыми обязанностями.
+~
+@eng He looks at you and says, what are you doing here?
+@rus Он смотрит на тебя и спрашивает, а что Вы, собственно, тут делаете?
+~
+human~
+AG 0 500 0
+20 0 3d9+333 20d25+200 2d8+5 punch
+4 4 4 -7
+CDEKL 0 0 C
+stand stand male 20
+0 0 medium unknown
+#7591
+cutpurse~
+@eng a cutpurse@rus Воришка~
+@eng A cutpurse is here, attempting to hide.
+@rus Тут стоит воришка в надежде спрятатся.
+~
+@eng Well, COUNT your money!
+@rus Хорошенько следи за своими деньгами.
+~
+human~
+ACHS PQ -100 0
+10 0 2d7+121 10d25+200 2d4+2 punch
+-1 -1 -1 -8
+EFJN 0 0 0
+stand stand either 10
+0 0 medium unknown
+#7592
+baker~
+@eng a baker@rus пекарь~
+@eng The baker of Gerighelm is here, selling things.
+@rus Пекарь Геригхельма продает изделия своего труда.
+~
+@eng He looks like a friendly old man who likes to bake.
+@rus Он выглядит как старый дружельбный человек, который любит свою работу.
+~
+human~
+ABVe 0 650 0
+50 0 1d1+2999 50d25+200 1d9+30 beating
+25 25 25 25
+CDF ACD 0 0
+stand stand male 37
+0 0 medium unknown
+#7593
+blacksmith vendy~
+@eng the blacksmith Vendy@rus кузнец Венди~
+@eng The blacksmith Vendy is here, pounding on an anvil and selling things.
+@rus Женщина-кузнец Венди бьет по наковальне и предлагает тебе купить что-нибудь.
+~
+@eng The way she is pounding her anvil makes you want to be on his good side.
+The main reason, is that I doubt the anvil can take much more of her pounding.
+@rus Сила с которой она бъет по наковальне, вызывает у вас желание
+быть ее другом. 
+~
+human~
+ABTVe 0 650 0
+50 10 1d1+2999 50d25+200 1d8+52 punch
+25 25 25 25
+CEIK ACD 0 0
+stand stand female 10000
+0 0 medium unknown
+#7594
+mage~
+@eng the mage@rus маг~
+@eng The Mage is here, selling things.
+@rus Маг продает свои штуки.
+~
+@eng He is a powerful old coot....
+@rus Он очень сильный, но глупый.
+~
+human~
+ABVe D 650 0
+50 0 1d1+2999 1d1+999 1d8+42 magic
+15 15 15 15
+AF ACD 0 0
+stand stand male 37
+0 0 medium unknown
+#7595
+pawn shop runner~
+@eng the pawn shop owner@rus владелец ломбарда~
+@eng The Pawn Shop owner is here selling and buying things.
+@rus Владелец ломбарда продает и покупает различные вещи.
+~
+@eng He looks almost like the pawn...
+@rus Он выглядит почти как Лом.
+~
+human~
+ABVe 0 650 0
+50 0 1d1+2999 50d25+200 1d8+32 beating
+15 15 15 15
+EFJ ACD 0 0
+stand stand male 37
+0 0 medium unknown
+#7597
+merchant~
+@eng the merchant@rus торговец~
+@eng The merchant is here, selling his wares.
+@rus Тут стоит торговец и что-то продает.
+~
+@eng HE'S A MERCHANT!
+@rus ОН ТОРГОВЕЦ!!! Разве не видно?
+~
+human~
+AVe 0 600 0
+40 0 1d1+1999 40d25+200 1d8+30 beating
+15 15 15 15
+EFJ ACD 0 0
+stand stand male 32
+0 0 medium unknown
+#7604
+herbalist~
+@eng the herbalist@rus травник~
+@eng The Herbalist is here, selling herbs.
+@rus Травница продает все что она смогла собрать или вырастить.
+~
+@eng She looks like she is happy with her lot in life.
+@rus Она, похоже, наслаждается своей жизнью.
+~
+human~
+ABVe 0 550 0
+30 0 1d1+999 30d25+200 1d8+20 beating
+15 15 15 15
+EFJ ACD 0 0
+stand stand female 27
+0 0 medium unknown
+#7609
+animal man~
+@eng the animal man@rus владелец зоомагазина~
+@eng The Animal Man is here, selling pets.
+@rus Тут стоит человек, который может продать прирученое домашнее животное.
+~
+@eng He is covered in his stock..
+@rus Он полускрыт за своими ящиками.
+~
+human~
+ABV 0 600 0
+40 0 1d1+1999 40d25+200 1d8+40 punch
+15 15 15 15
+0 AC 0 0
+stand stand male 32
+0 0 medium unknown
+#7610
+witch hag~
+@eng the old witch@rus старая ведьма~
+@eng The old Witch is here, selling things.
+@rus Старая Ведьма прoдает вещички.
+~
+@eng She is old, and ugly- very good witch material...
+@rus Она старая и противная. Очень хороша в роли ведьмы.
+~
+human~
+ABVe D 600 7006
+40 0 1d1+1999 1d1+999 1d8+32 magic
+15 15 15 15
+AF ACD 0 0
+stand stand male 32
+0 0 medium unknown
+#7698
+hawk~
+@eng a hawk@rus ястреб~
+@eng A hawk is here, loyal to it's owner.
+@rus Ястреб верный своему хозяину.
+~
+@eng The hawk glares at you.
+@rus Он смотрит на тебя.
+~
+human~
+AG 0 500 0
+20 0 3d9+333 20d25+200 2d8+5 punch
+4 4 4 -7
+EKN 0 0 0
+stand stand male 20
+0 0 medium unknown
+#7699
+death~
+@eng the Death@rus смерть~
+@eng Death is here waiting for you.
+@rus Смерть ждет тебя.
+~
+@eng It is strong, impertubable looking creature. It notice that you look at its, 
+and it says: 'Have a nice day'. Hm?... Death is your only way, probably...
+@rus Это сильное, невозмутимое создание. Ты ловишь себя на том, что 
+когда ты увидел Смерть у тебя возникло желание поздороватся. 
+Хм.. Смерть на твоем пути...
+~
+human~
+ABGIT CDFGJNOlmst 0 0
+60 0 50d10+9500 599d1+1 8d6+28 slap
+30 30 30 0
+A 0 0 C
+stand stand none 42
+0 0 medium unknown
+#0
+
+#OBJECTS
+#7500
+apple~
+@eng an apple@rus яблоко~
+@eng An apple is here.@rus Тут лежит яблоко.~
+food~
+food 0 A
+CE CE 0 0 0
+1 1 2 P
+G none
+#7501
+apple pie~
+@eng an apple pie@rus яблочный пирог~
+@eng An apple pie is here.@rus Тут лежит яблочный пирог.~
+food~
+food 0 A
+DF DF 0 0 0
+1 4 2 P
+G none
+#7502
+beet~
+@eng a beet@rus свекла~
+@eng A beet is growing here.@rus Тут растет свекла.~
+food~
+food 0 A
+BEF BEF 0 0 0
+1 4 2 P
+G none
+#7503
+carrot~
+@eng a carrot@rus морковь~
+@eng A carrot is lieing here.@rus Тут лежит морковь.~
+food~
+food 0 A
+CE CE 0 0 0
+1 4 2 P
+G none
+#7504
+beer bottle~
+@eng a bottle of beer@rus бутылка пива~
+@eng A bottle of beer has been forgotten here.@rus Тут лежит забытая кем-то бутылка пива.~
+glass~
+drink 0 A
+2 2 'beer' 0 0
+1 10 2 P
+G none
+#7505
+magic water pitcher~
+@eng a magic water pitcher@rus волшебный кувшин~
+@eng A pitcher is here.@rus Тут лежит кувшин.~
+glass~
+drink k A
+25 25 'water' 0 0
+0 5 0 P
+G none
+#7507
+strengthening herbs red bunch~
+@eng a bunch of red herbs@rus пучок красной травы~
+@eng A bunch of strengthening herbs is growing here.@rus Тут растет пучок усиливающей травы.~
+food~
+pill 0 A
+2 'giant strength' 'refresh' 'haste' ''
+1 15 300 P
+G none
+#7508
+healing herb green bunch~
+@eng a bunch of green herbs@rus пучок зеленой травы~
+@eng A bunch of healing herbs is growing here.@rus Тут растет лечащая травка.~
+food~
+pill 0 A
+1 'cure critical' 'remove curse' 'cure poison' 'cure disease'
+1 20 2 P
+G none
+#7509
+strange herbs green bunch~
+@eng a bunch of herbs@rus пучок травы~
+@eng A bunch of strange herbs are growing here.@rus Пучок странной травы пробивается из-под земли.~
+food~
+pill 0 A
+1 'detect hidden' 'detect poison' 'detect invis' 'infravision'
+1 10 2 P
+G none
+#7511
+corpse guppy~
+@eng corpse of a guppy@rus трупик гуппи~
+@eng The corpse of a guppy is here.  Just sitting and being dead.@rus Тут лежит тушка гуппи.~
+food~
+food 0 A
+C C 0 0 0
+1 10 2 P
+G none
+#7512
+corpse goldfish~
+@eng corpse of a goldfish@rus трупик золотой рыбки~
+@eng The corpse of a goldfish is here.  It has been dead for a while..@rus Тушка золотой рыбки валяется тут уже достаточно давно.~
+food~
+food 0 A
+AC AC 0 0 0
+1 10 2 P
+G none
+#7513
+lute~
+@eng a lute@rus лютня~
+@eng A lute is lieing on the ground here.@rus На земле лежит лютня.~
+wood~
+wand G AO
+20 10 10 'gas breath' 0
+9 20 18 P
+A
+14 -100
+A
+5 -10
+E ''
+lute~
+@eng On the side it has words that say:
+
+                                Lute of power.
+@rus На боку написаны такие слова:
+ 
+{w                          Лютня Силы.
+~
+G none
+#7514
+harp~
+@eng a harp@rus арфочка~
+@eng A harp is lieing on the ground here.@rus Тут на земле лежит арфа.~
+gold~
+wand G AO
+35 10 10 'word of recall' 0
+9 20 18 P
+A
+17 5
+A
+13 12
+E ''
+harp~
+@eng On the side it says:
+                                Harp of safety.
+@rus На боку написано:
+ 
+{w                         Арфа безопасности.
+~
+G none
+#7515
+umbrella~
+@eng an umbrella@rus зонтик~
+@eng An umbrella is here, forgotten.@rus Тут лежит всеми забытый зонтик.~
+wood~
+weapon CK AN
+exotic 2 2 bite 0
+7 50 5 P
+G none
+#7516
+stick~
+@eng a stick@rus дубина~
+@eng A stick is here, collecting dust.@rus Дубина, собирающая грязь лежит на полу.~
+wood~
+weapon 0 AN
+mace 2 2 pound 0
+4 50 8 P
+G none
+#7517
+bag marbles~
+@eng a bag of marbles@rus ~~сумка~~ для шариков~
+@eng A bag of marbles is lieing here.@rus Тут лежит сумка для шариков.~
+marble~
+container 0 A
+100 0 0 100 100
+1 10 2 P
+E ''
+bag marbles~
+@eng On the side is says:
+
+                       Angel Enterprises Ltd.
+@rus На боку написано: 
+ 
+{w                          Angel Enterprises Ltd.
+~
+G none
+#7518
+doll~
+@eng a doll@rus кукла~
+@eng A doll is on the ground here.@rus Тут на полу лежит кукла.~
+cloth~
+trash 0 AO
+0 0 0 0 0
+4 30 15 P
+G none
+#7519
+vest junior guard~
+@eng a junior guard vest@rus ~~жилет~~ молодого стражника~
+@eng A junior guard vest is here. forgotten.@rus Тут лежит жилет молодого стража. Он никому не нужен.~
+leather~
+armor G AT
+6 6 6 0 1
+14 60 8 P
+A
+17 10
+E ''
+junior guard vest~
+On the side it says:
+                                Angel Enterprises Ltd.
+~
+G male
+#7520
+shield junior guard~
+@eng a junior guard shield@rus ~~щит~~ молодого стражника~
+@eng A junior guard shield is here.  Forgotten.@rus Тут лежит щит молодого стражника Геригхельма.~
+leather~
+armor G AJ
+6 6 6 0 1
+14 60 5 P
+A
+2 1
+E ''
+junior guard shield~
+On the side it says:
+                                Angel Enterprises Ltd.
+~
+G none
+#7521
+lantern junior guard~
+@eng a junior guard lantern@rus ~~светильник~~ молодого стража~
+@eng A junior guard lantern is lieing here in the dust.@rus Тут в грязи лежит светильник принадлежащий молодому стражнику Геригхельма.~
+bronze~
+light 0 A
+0 0 40 0 0
+0 20 5 P
+G none
+#7522
+cudgel junior guard~
+@eng a junior guard cudgel@rus ~~дубина~~ молодого стража~
+@eng A junior guard cudgel is here, collection dust.@rus Дубина молодого стража заростает грязь.~
+wood~
+weapon 0 AN
+mace 3 4 crush 0
+14 50 3 P
+G none
+#7523
+sharp fingernail nail finger~
+@eng a sharp fingernail@rus острый ~~гвоздь~~~
+@eng A sharp fingernail is in the dirt here.@rus Тут в грязи валяется очень острый гвоздь.~
+iron~
+weapon 0 AN
+exotic 2 6 stab 0
+10 10 1 P
+A
+2 -1
+G none
+#7524
+gerighelm guard ring~
+@eng Gerighelm guard ring@rus ~~кольцо~~ стражей Геригхельма~
+@eng A Gerighelm guards ring is here, forgotten.@rus Тут лежит забытое кольцо. Когда-то оно принадлежало Геригхельмовскому стражнику.~
+bronze~
+treasure 0 AB
+0 0 0 0 0
+15 10 15 P
+A
+17 5
+A
+19 1
+G none
+#7525
+helmet guard gerighelm~
+@eng a Gerighelm guard helmet@rus ~~шлем~~ стражника Геригхельма ~
+@eng A Gerighelm guard helmet is here.@rus Тут лежит шлем Геригхельмовского стража.~
+bronze~
+armor 0 AE
+3 3 3 0 2
+17 20 16 P
+A
+17 3
+G none
+#7526
+sleeves guard gerighelm~
+@eng a pair of Gerighelm guard sleeves@rus ~~пара~~  нарукавников стража Геригхельма~
+@eng A set of Sleeves are here.@rus Тут лежат нарукавники.~
+bronze~
+armor 0 AI
+6 6 6 0 2
+17 40 8 P
+A
+17 3
+G none
+#7527
+leggings guard gerighelm~
+@eng a pair of Gerighelm guard leggings@rus ~~пара~~ поножей стража Геригхельма~
+@eng A set of leggings is here.@rus Тут лежат поножи.~
+bronze~
+armor 0 AF
+7 7 7 0 2
+16 50 8 P
+A
+17 1
+A
+17 1
+G none
+#7528
+shield guard gerighelm~
+@eng a Gerighelm shield@rus ~~щит~~ стража Геригхельма~
+@eng A Gerighelm shield is here. getting buried in the dust.@rus Тут лежит щит, сделанный в Геригхельме. Он уже начал ржаветь в этой грязи.~
+bronze~
+armor 0 AJ
+6 6 6 0 2
+16 60 9 P
+A
+17 2
+G none
+#7529
+vest guard gerighelm~
+@eng a Gerighelm vest@rus ~~жилет~~ стража Геригхельма~
+@eng a Gerighelm guard vest is here.@rus Жилет стража Геригхельма лежит тут.~
+bronze~
+armor 0 AT
+8 6 6 0 2
+16 70 9 P
+A
+19 2
+A
+18 1
+G male
+#7530
+cape guard gerighelm~
+@eng a Gerighelm guard cape@rus пелерина стража Геригхельма~
+@eng A Gerighelm guard's cape is here.@rus Тут лежит пелерина стражника города Геригхельма.~
+cloth~
+armor 0 AK
+6 6 6 0 2
+16 50 9 P
+A
+6 1
+G none
+#7531
+cloak guard gerighelm~
+@eng a Gerighelm cloak@rus плащ стража Геригхельма~
+@eng A Gerighelm guard's cloak is here.@rus Тут лежит плащ стражника Геригхельма.~
+cloth~
+armor G AC
+10 8 6 0 2
+16 50 9 P
+A
+12 -10
+A
+5 1
+G none
+#7532
+gloves guard gerighelm~
+@eng a pair of Gerighelm gloves@rus перчатки стража Геригхельма~
+@eng A pair of Gerighelm gloves are here.@rus Тут лежит пара перчаток.~
+bronze~
+armor 0 AH
+6 6 6 0 2
+16 30 9 P
+A
+17 2
+G none
+#7533
+belt guard gerighelm~
+@eng a Gerighelm belt@rus пояс стража Геригхельма~
+@eng A Gerighelm belt is lieing here.@rus Тут лежит пояс произведенный в Геригхельме.~
+bronze~
+armor 0 AL
+6 6 6 0 2
+16 20 7 P
+A
+13 -5
+A
+2 1
+G none
+#7534
+bracer guard gerighelm~
+@eng a Gerighelm bracer@rus браслет стража Геригхельма~
+@eng A Gerighelm bracer is lying here.@rus Браслет произведенный в Геригхельме лежит и ржавеет.~
+bronze~
+armor 0 AM
+9 9 9 0 2
+16 20 7 P
+A
+17 3
+G none
+#7535
+sword guard gerighelm~
+@eng a Gerighelm sword@rus меч стража Геригхельма~
+@eng A sword with the colours of Gerighelm carved into the side is here.@rus Меч с цветами города Геригхельма лежит в сторонке.~
+bronze~
+weapon 0 AN
+sword 5 2 slash 0
+15 80 10 P
+G none
+#7536
+boots guard gerighelm~
+@eng a pair of Gerighelm boots@rus ботинки стража Геригхельма~
+@eng A pair of Gerighelm boots are here.@rus Пара геригхельмовских ботинок валяется тут.~
+bronze~
+armor 0 AG
+6 6 6 0 2
+16 50 10 P
+A
+17 2
+G none
+#7537
+helm defenders~
+@eng a defenders helm@rus шлем защитника~
+@eng the helm of one of Gerighelms defenders is here.@rus Шлем защитника Геригхельма лежит перед тобою.~
+gold~
+armor 0 AE
+8 8 8 0 2
+20 40 16 P
+A
+17 3
+G none
+#7538
+sword defenders~
+@eng a defenders sword@rus меч защитника~
+@eng The sword of one of Gerighelms defenders is here.@rus Тут лежит меч одного из защитников Геригхельма.~
+iron~
+weapon 0 AN
+sword 5 3 slash 0
+20 80 20 P
+G none
+#7539
+ring palace guard~
+@eng a palace guard ring@rus кольцо дворцового стражника~
+@eng A ring that glows!@rus Светящееся кольцо.~
+brass~
+treasure A AB
+0 0 0 0 0
+22 1 20 P
+A
+17 1
+A
+19 1
+G none
+#7540
+helmet palace guard~
+@eng a palace guard helmet@rus шлем дворцовой стражи~
+@eng A helmet that glows!@rus Светящийся шлем.~
+steel~
+armor A AE
+7 7 7 0 2
+22 30 16 P
+A
+6 1
+G none
+#7541
+sleeves palace guard~
+@eng a pair of palace guard sleeves@rus пара нарукавников дворцовой стражи~
+@eng Some sleeves that glow!@rus Светящиеся нарукавники.~
+steel~
+armor A AI
+8 8 8 1 2
+22 50 18 P
+A
+17 1
+G none
+#7542
+leggings palace guard~
+@eng a pair of palace guard leggings@rus пара поножей дворцовой стражи~
+@eng Some leggings that glow!@rus Какие-то светящиеся поножи.~
+steel~
+armor A AF
+8 8 8 1 2
+22 60 18 P
+A
+17 1
+G none
+#7543
+shield palace guard~
+@eng a palace guard shield@rus щит дворцовой стражи~
+@eng A shield that glows!@rus Светящийся щит.~
+steel~
+armor A AJ
+7 7 7 0 2
+22 50 18 P
+A
+17 10
+A
+13 15
+G none
+#7544
+vest palace guard~
+@eng a palace guard vest@rus ~~жилет~~ дворцовой стражи~
+@eng A vest that glows!@rus Светящийся жилет.~
+steel~
+armor A AT
+10 10 10 0 2
+22 60 18 P
+A
+19 4
+A
+17 5
+G male
+#7545
+cape palace guard~
+@eng a palace guard cape@rus ~~накидка~~ дворцовой стражи~
+@eng A cape that glows!@rus Светящаяся накидка.~
+steel~
+armor A AK
+7 7 7 0 2
+22 40 50 P
+A
+18 1
+A
+17 2
+G none
+#7546
+cloak palace guard~
+@eng a palace guard cloak@rus плащ дворцовой стражи~
+@eng a cloak that glows! And Humms too!!@rus Святящийся плащ. Он к тому-же еще и гудит.~
+steel~
+armor ABG AC
+8 7 7 0 2
+22 40 45 P
+A
+14 5
+G none
+#7547
+gloves palace guard~
+@eng a pair of palace guard gloves@rus перчатки дворцовой стражи~
+@eng A pair of gloves that glow!@rus Светящиеся перчатки.~
+steel~
+armor A AH
+8 8 8 0 2
+22 40 18 P
+A
+1 1
+G none
+#7548
+belt palace guard~
+@eng a palace guard belt@rus пояс дворцовой стражи~
+@eng A belt the glows!@rus Светящийся пояс.~
+steel~
+armor A AL
+8 8 8 0 2
+22 60 44 P
+A
+5 1
+G none
+#7549
+bracer palace guard~
+@eng a palace guard bracer@rus браслет дворцового стража~
+@eng A bracer that glows!@rus Светящийся браслет.~
+steel~
+armor A AM
+8 8 8 3 2
+22 30 18 P
+A
+17 2
+G none
+#7550
+sword palace guard~
+@eng a palace guard's sword@rus меч дворцовой стражи~
+@eng A sword with many runes on the side is here.@rus Меч со множеством рун по лезвию лежит перед тобою.~
+steel~
+weapon AB AN
+sword 4 4 slash 0
+22 80 19 P
+E ''
+sword palace guard runes~
+@eng The runes say:
+
+                                Made in HEAVEN.....
+
+What does that mean?
+@rus Руны говорят:
+{w                 Сделано на небесах...
+Что-бы это значило?
+~
+G none
+#7551
+cooks cook hat~
+@eng the cooks hat@rus поварской колпак~
+@eng A hat is here.@rus Тут лежит колпак.~
+cloth~
+clothing HM AE
+0 0 0 0 0
+20 10 20 P
+A
+2 -1
+A
+5 -1
+A
+1 -1
+G male
+#7552
+silver staff~
+@eng a silver staff@rus серебрянный посох~
+@eng A staff made out of silver is here.@rus Посох сделаный из серебра лежит здесь.~
+wood~
+staff 0 AO
+40 20 20 'lightning bolt' 0
+20 40 50 P
+G none
+#7553
+dagger stabbing~
+@eng the dagger of stabbing@rus кинжал боли~
+@eng A dagger is here.@rus Тут лежит кинжал боли.~
+silver~
+weapon G AN
+dagger 3 6 stab 0
+20 40 19 P
+A
+19 1
+A
+13 -10
+G none
+#7554
+holy word holyword~
+@eng a {Wh{Yo{Wl{Yy{Ww{Yo{Wr{Yd{x@rus {WС{Yв{Wя{Yт{Wо{Yе {Wс{Yл{Wо{Yв{Wо{x~
+@eng A holyword is here, hanging in midair.@rus Тут в воздухе парит святое слово.~
+crystal~
+weapon GK AN
+exotic 5 4 divine I
+25 92 17 P
+A
+12 20
+A
+5 -1
+A
+18 1
+A
+19 1
+G none
+#7555
+mace~
+@eng a mace@rus палица~
+@eng A mace is here.@rus Тут лежит палица.~
+wood~
+weapon AG AN
+mace 2 4 pound 0
+6 10 12 P
+A
+2 -1
+G none
+#7556
+sword thunder~
+@eng the sword of thunder@rus меч грома~
+@eng A HUGE sword is here.@rus Тут лежит огромный меч.~
+steel~
+weapon G AN
+sword 5 2 slash 0
+21 200 20 P
+A
+19 2
+G none
+#7557
+vest titans titan~
+@eng the vest of the titans@rus ~~жилетка~~ титанов~
+@eng A vest is here.@rus Ты видишь жилетку титанов.~
+leather~
+armor G AT
+10 10 10 0 3
+21 60 20 P
+A
+18 1
+A
+2 -1
+A
+19 3
+A
+1 1
+G male
+#7558
+hoe destruction~
+@eng the hoe of destruction@rus ~~мотыга~~ разрушения~
+@eng A hoe of destruction is here.@rus Тут лежит мотыга разрушения.~
+wood~
+weapon ABG AN
+exotic 2 6 blast 0
+21 130 15 P
+A
+18 1
+G none
+#7559
+gardeners gloves~
+@eng the gardeners gloves@rus садовые рукавицы~
+@eng Some gloves are here.@rus Тут лежат какие-то варежки.~
+cloth~
+armor G AH
+3 3 3 0 1
+21 50 15 P
+A
+18 1
+A
+19 2
+G none
+#7560
+cutlass~
+@eng a cutlass@rus ~~тесак~~~
+@eng A cutlass is here.@rus Тут лежит тесак.~
+steel~
+weapon 0 AN
+sword 5 3 pierce 0
+22 80 44 P
+G none
+#7561
+uniform~
+@eng a uniform@rus ~~униформа~~~
+@eng A uniform is here.@rus Тут лежит униформа.~
+cloth~
+armor G AD
+8 8 8 0 3
+22 60 20 P
+A
+19 1
+A
+18 1
+A
+17 15
+G none
+#7562
+saber~
+@eng a saber@rus ~~сабля~~~
+@eng A saber is here.@rus Ты видишь саблю.~
+steel~
+weapon G AN
+sword 3 6 slash 0
+22 80 20 P
+A
+12 -30
+A
+19 1
+A
+18 1
+G none
+#7563
+sword two-handed two handed~
+@eng a two-handed sword@rus ~~двуручный~~ ~~меч~~~
+@eng A two handed sword is here.@rus Ты видишь двуручный меч.~
+steel~
+weapon G AN
+sword 5 5 slash F
+28 173 56 P
+A
+19 1
+G none
+#7564
+dukes duke helm~
+@eng the Dukes Helm@rus ~~шлем~~ герцога~
+@eng A helmet is here.@rus Тут лежит шлем.~
+steel~
+armor G AE
+9 9 9 0 3
+28 50 60 P
+A
+19 3
+A
+17 25
+G none
+#7565
+duchesses tiara~
+@eng the Duchesses Tiara@rus ~~тиара~~ герцогини~
+@eng A Tiara is here.@rus Ты видишь тиару.~
+diamond~
+armor G AE
+7 7 7 0 2
+22 10 70 P
+A
+12 80
+A
+17 -10
+G female
+#7566
+wedding ring~
+@eng a wedding ring@rus ~~обручальное~~ ~~кольцо~~~
+@eng A wedding ring is here.@rus Ты видишь обручальное кольцо.~
+gold~
+armor ABG AB
+7 7 7 0 2
+22 10 30 P
+A
+20 2
+A
+13 20
+G none
+#7567
+wedding ring~
+@eng a wedding ring@rus ~~обручальное~~ ~~кольцо~~~
+@eng A wedding ring is here.@rus Ты видишь обручальное кольцо.~
+gold~
+armor ABG AB
+8 8 8 0 2
+28 10 20 P
+A
+20 2
+A
+13 20
+G none
+#7596
+strange herbs green bunch~
+@eng a bunch of herbs@rus пучок травы~
+@eng A bunch of strange, green herbs are growing here.@rus Пучок странной зеленой травы пробивается из-под земли.~
+food~
+pill G A
+1 'detect magic' 'fly' 'word of recall' 'pass door'
+1 1 2 P
+G none
+#7597
+magic bottle air~
+@eng The Magic bottle of Air@rus Волшебная бутылка Воздуха~
+@eng A bottle is here,  collecting dust.@rus Тут лежит бутылка на которой копится грязь и пыль.~
+glass~
+boat A A
+0 0 0 0 0
+3 1 6 P
+E ''
+bottle magic air~
+It has written on the side:
+
+Garunteed to provide fresh breathing air underwater, till it doesn't...
+~
+G none
+#7600
+marbles marble green~
+@eng a green marble@rus {Gзеленый шарик{x~
+@eng A green marble is here, all alone...@rus Тут одиноко лежит зеленый шарик.~
+marble~
+wand A AO
+20 1 1 'fireball' 0
+20 1 40 P
+G none
+#7601
+marble marbles blue~
+@eng a blue marble@rus {Bсиний шарик{x~
+@eng A marble is here, it's blue.@rus Тут лежит синий шарик.~
+marble~
+wand A AO
+20 1 1 'heal' 0
+20 1 40 P
+G none
+#7602
+marble marbles yellow~
+@eng a yellow marble@rus {Yжелтый шарик{x~
+@eng A yellow marble is here.@rus Тут лежит желтый шарик.~
+marble~
+wand A AO
+30 1 1 'gas breath' 0
+20 1 40 P
+G none
+#7650
+sleeves defenders~
+@eng a defenders sleeves@rus ~~нарукавники~~ защитника~
+@eng A pair of sleeves are here, collecting dust.@rus Тут лежит пара нарукавников принадлежащая защитникам Геригхельма.~
+gold~
+armor 0 AI
+6 6 6 0 2
+18 60 23 P
+A
+5 1
+G none
+#7651
+leggings defenders~
+@eng a defenders leggings@rus поножи защитников~
+@eng A pair of leggings are here, collecting dust.@rus Пара поножей валяется в грязи.~
+silver~
+armor 0 AF
+6 6 6 0 2
+18 70 23 P
+A
+17 5
+G none
+#7652
+shield defenders~
+@eng a defenders shield@rus щит защитников~
+@eng A shield is here, emblazoned with Gerighelms coat of arms.@rus Тут лежит щит с гербом Геригхельма.~
+silver~
+armor 0 AJ
+6 6 6 0 2
+18 120 12 P
+A
+14 -5
+A
+17 10
+A
+19 2
+A
+2 1
+G none
+#7653
+ring defender~
+@eng a defenders ring@rus кольцо защитников Геригхельма~
+@eng A ring is shining in the dust.@rus Сквозь толщу пыли сияет кольцо.~
+gold~
+armor G AB
+0 0 0 0 0
+18 10 20 P
+A
+13 20
+G none
+#7654
+vest defender~
+@eng a defenders vest@rus ~~жилет~~ защитника~
+@eng A gold and silver vest is lieing on the side of the road.@rus Жилет из золота и серебра лежит на краю дороги.~
+silver~
+armor 0 AT
+8 8 8 0 2
+18 60 20 P
+A
+17 10
+G male
+#7655
+cape defender~
+@eng a defenders cape@rus накидка защитников~
+@eng A cape is hanging by a tree branch.@rus Накидка цвета хаки.~
+gold~
+armor 0 AK
+6 6 6 0 2
+18 80 16 P
+A
+17 3
+G none
+#7656
+cloak defender~
+@eng a defenders cloak@rus плащ защитника~
+@eng A heap of gold and silver cloth is on the ground here.@rus Куча серебряной и золотой шерсти лежит на земле.~
+silver~
+armor 0 AC
+6 6 6 0 2
+18 100 16 P
+A
+17 3
+A
+1 1
+G none
+#7657
+gloves defender~
+@eng a defenders gloves@rus перчатки защитника~
+@eng A pair of gloves are on the side of the road here.@rus Пара перчаток лежит на краю дороги.~
+gold~
+armor 0 AH
+6 6 6 0 2
+18 70 36 P
+A
+19 3
+A
+17 3
+G none
+#7658
+belt defender~
+@eng a defenders belt@rus пояс защитников~
+@eng A gold belt is lieing here.@rus Золотой пояс лежит тут.~
+gold~
+armor 0 AL
+6 6 6 0 2
+18 70 18 P
+A
+13 5
+A
+17 5
+G none
+#7659
+bracer defender~
+@eng a defenders bracer@rus браслет защитников~
+@eng A silver bracer is lieing here.@rus Тут лежит серебряный браслет.~
+silver~
+armor 0 AM
+6 6 6 0 2
+18 30 14 P
+A
+18 1
+A
+19 2
+A
+17 3
+A
+13 2
+G none
+#7660
+boots defender~
+@eng a defenders pair of boots@rus ботинки защитника~
+@eng A pair of silver boots are here.@rus Пара серебрянный ботинок лежит перед тобою.~
+silver~
+armor 0 AG
+6 6 6 0 2
+18 50 14 P
+A
+17 1
+A
+14 5
+G none
+#7661
+boots palace guard~
+@eng a palace guards boots@rus ботинки дворцового стража~
+@eng A pair of boots are here, glowing!!@rus Тут лежит пара светящихся ботинок!~
+steel~
+armor A AG
+3 3 3 0 2
+18 50 16 P
+A
+19 1
+A
+17 4
+G none
+#7699
+scythe~
+@eng the {DDeath's {WScythe{x@rus ~~{Wкоса{x~~ ~~{Dсмерти{x~~~
+@eng Very dangerous evil scythe is here.@rus Очень опасная коса от которой так и веет злом.~
+mithril~
+weapon GJK AN
+exotic 7 5 smash E
+60 200 120 P
+A
+31 15
+A
+19 1
+A
+18 1
+G female
+#0
+
+#ROOMS
+#7500
+@eng Entrance to the park.@rus Вход в парк~
+@eng This is the entrance to a small park. You see that it is full of animals,
+birds, and reptiles.  There are also people here, strolling around in the
+romantic setting.
+@rus Это вход в маленький парк. Ты видишь, что он полон животными, 
+птицами и рептилиями. Тут так-же видны люди бродящие в 
+романтических настроениях.
+~
+0 0 forest
+D0 0
+~
+~
+Z 0 7566
+D2 0
+You see the park.
+~
+~
+Z -1 7501
+S
+#7501
+@eng Inside the park.@rus В парке~
+@eng You are standing inside what looks like a park--probably because it is
+one...
+@rus Ты стоишь внутри чего-то напоминающего тебе парк. Возможно 
+потому, то это и есть парк.
+~
+0 0 forest
+D0 0
+You see the entrance to the park.
+~
+~
+Z -1 7500
+D1 0
+You see the park continue on.
+~
+~
+Z -1 7502
+D2 0
+You see the park continue on.
+~
+~
+Z -1 7503
+S
+#7502
+@eng The Park.@rus Парк~
+@eng You are in the park, it is green, and bright, but for some reason,
+someone placed a wall to the north, east, and south....
+@rus Ты в парке. Он зеленый и светлый, но по каким-то причинам кто-то 
+поставил стены на севере, востоке и юге.
+~
+0 0 forest
+D3 0
+You see the park.
+~
+~
+Z -1 7501
+S
+#7503
+@eng The Park.@rus Парк~
+@eng You are in the park.  The breeze flows around you like a current of
+refreshing water.
+@rus Ты в парке. Тебя обдувает свежий ветер.
+~
+0 0 forest
+D0 0
+You see the park.
+~
+~
+Z -1 7501
+D2 0
+You see the park.
+~
+~
+Z -1 7504
+S
+#7504
+@eng The Park.@rus Парк~
+@eng You are in the Park. You think that it is cool and refreshing to be here,
+and that you should really come here more often.
+@rus Ты в парке. Ты думаешь о том как тут прохладно и освежающе.
+И тебе кажется, что тебе надо быть тут почаще.
+~
+0 0 forest
+D0 0
+You see the park.
+~
+~
+Z -1 7503
+D3 0
+You see the park.
+~
+~
+Z -1 7505
+S
+#7505
+@eng The Park.@rus Парк~
+@eng You are in the Park.  This is a really nice place to be.
+@rus Ты в парке. Это действительно приятное место для пребывания.
+~
+0 0 forest
+D1 0
+You see the park.
+~
+~
+Z -1 7504
+D2 0
+You see the park.
+~
+~
+Z -1 7510
+D3 0
+You see the park.
+~
+~
+Z -1 7506
+S
+#7506
+@eng The Park.@rus Парк~
+@eng You are in the Park.  The cool breezes bring on memorys of when you were
+a small child.
+@rus Ты в парке. Свежий ветер вызывает воспоминания о детстве.
+~
+0 0 forest
+D1 0
+You see the park.
+~
+~
+Z -1 7505
+D2 0
+You see the park.
+~
+~
+Z -1 7509
+D3 0
+You see the park.
+~
+~
+Z -1 7507
+S
+#7507
+@eng The Park.@rus Парк~
+@eng You are in the Park.  here, at the edge of the park, you find several
+benches.  However, they are all occupied by the people who got here first.
+'Da*n' you think, as you see them all so full of grins.
+@rus Ты в парке. Тут, на краю парка ты нашел несколько скамеек. 
+К несчастью они уже заняты людьми, которые пришли раньше. 
+Ты зеленеешь от злости глядя на них.
+~
+0 0 forest
+D1 0
+You see the park.
+~
+~
+Z -1 7506
+D2 0
+You see the park.
+~
+~
+Z -1 7508
+S
+#7508
+@eng The Park.@rus Парк~
+@eng You are in the Park.  You feel intoxicated by the night breeze.
+@rus Ты в парке. Ты чуствуешь интоксицирующее действие ветра.
+~
+0 0 forest
+D0 0
+You see the park.
+~
+~
+Z -1 7507
+D1 0
+You see the park.
+~
+~
+Z -1 7509
+D2 0
+You see the park.
+~
+~
+Z -1 7518
+S
+#7509
+@eng The Park.@rus Парк~
+@eng You are in the Park.  Gods, this is beautiful!
+@rus Ты в парке. Боже, как тут прекрасно.
+~
+0 0 forest
+D0 0
+You see the park.
+~
+~
+Z -1 7506
+D1 0
+You see the park.
+~
+~
+Z -1 7510
+D2 0
+You see the park.
+~
+~
+Z -1 7511
+D3 0
+You see the park.
+~
+~
+Z -1 7508
+S
+#7510
+@eng The Park.@rus Парк~
+@eng You are in the Park.  You think 'This is THE most BEAUTIFUL place I've
+ever been to!'.
+@rus Ты находишся в парке. И тебе кажется, что это наиболее прекрасное
+место из тех, где ты бывал раньше.
+~
+0 0 forest
+D0 0
+You see the park.
+~
+~
+Z -1 7505
+D2 0
+You see the park.
+~
+~
+Z -1 7512
+D3 0
+You see the park.
+~
+~
+Z -1 7509
+S
+#7511
+@eng The trail in the Park.@rus Тропинка в парке~
+@eng You are in the Park.  You are on a small worn trail to a building to the
+east.
+@rus Ты в парке. Тут есть небольшая тропинка ведущая к постройкам на востоке.
+~
+0 0 forest
+D0 0
+You see the park.
+~
+~
+Z -1 7509
+D1 0
+You see the trail.
+~
+~
+Z -1 7512
+D3 0
+You see the park.
+~
+~
+Z -1 7518
+S
+#7512
+@eng The trail in the Park.@rus Тропинка в парке~
+@eng You are in the Park.  The trail that you are on leads east toward that
+building that your see there.
+@rus Ты в парке. Тропинка ведет на восток прямо к зданиям, которые 
+там виднеются.
+~
+0 0 forest
+D0 0
+You see the park.
+~
+~
+Z -1 7510
+D1 0
+You see the trail.
+~
+~
+Z -1 7513
+D3 0
+You see the trail.
+~
+~
+Z -1 7511
+S
+#7513
+@eng The split in the trail in the Park.@rus Развилка тропинки в парке~
+@eng The trail goes east, and south here. There is a building to the east.
+@rus Тут тропинка раздваивается. Одно ее продолжение ведет на восток, 
+а другое на запад. На западе видны строения.
+~
+0 0 forest
+D1 0
+You see the caretakers house.
+~
+~
+ABZ -1 7514
+D2 0
+You see the trail.
+~
+~
+Z -1 7515
+D3 0
+You see the trail.
+~
+~
+Z -1 7512
+S
+#7514
+@eng Care-Takers House.@rus Домик садовника~
+@eng You are in the home of the Caretaker of this Park.  You see shiny spades,
+hoes, and watering-cans that the Caretaker must like a lot.
+@rus Ты видишь домик Садовника этого парка. Ты видишь сверкающие 
+грабли, мотыги и лейки которые должно быть очень любит.
+~
+0 D inside
+D3 0
+You see the trail.
+~
+~
+ABZ -1 7513
+S
+#7515
+@eng The trail.@rus Тропинка~
+@eng You are along a trail in the park that is going south at the moment.
+You wonder what could be at the end of it...
+@rus Ты на тропинке в парке. Эта тропинка ведет на юг. Тебе кажется, 
+что ты понял, что будет в конце этой тропинки...
+~
+0 0 forest
+D0 0
+You see the trail.
+~
+~
+Z -1 7513
+D2 0
+You see the trail.
+~
+~
+Z -1 7516
+S
+#7516
+@eng The trail.@rus Тропинка~
+@eng You are along the trail in the park that is going somewhere.... You
+wonder where....
+@rus Ты на тропинке в парке которая ведет куда-то...
+~
+0 0 forest
+D0 0
+You see the trail.
+~
+~
+Z -1 7515
+D3 0
+You see the trail
+~
+~
+Z -1 7517
+S
+#7517
+@eng The end of the trail.@rus Конец дорожки~
+@eng Ah, at last!  The end of the trail!  But um, there really isn't much to
+see...  I'm sorry.
+@rus Ну наконец-то! Конец этой тропинки. Но, тут действительно 
+не на что посмотреть. Мне жаль.
+~
+0 0 forest
+D1 0
+You see the trail.
+~
+~
+Z -1 7516
+S
+#7518
+@eng The Park.@rus Парк~
+@eng You are in the Park.  You feel that it is so peaceful here that you
+want to drop your gear and just rest a moment.
+@rus Ты в Парке. Тут настолько мирно и приятно, что тебе хочется 
+все бросить и немного отдохнуть в этой тишине и покое.
+~
+0 0 forest
+D0 0
+You see the park.
+~
+~
+Z -1 7508
+D1 0
+You see the park.
+~
+~
+Z -1 7511
+D2 0
+You see the park.
+~
+~
+Z -1 7519
+S
+#7519
+@eng The Entrance to the Garden in the Park.@rus Вход в Сад этого Парка~
+@eng You are in a large garden now.  It has violets, and other flowers that you
+can't begin to name. (sorry that you slept through that class aren't you?).
+@rus Ты в большом Саду. Тут растут фиалки и другие цветы, которые 
+ты не можешь назвать. Наверно это из-за того, что ты прогуливал 
+некоторые занятия. Не так-ли???
+~
+0 0 city
+D0 0
+You see the park.
+~
+~
+Z -1 7518
+D2 0
+You see the garden.
+~
+~
+Z -1 7520
+S
+#7520
+@eng The Garden.@rus Сад~
+@eng You are inside the garden now, and you see even MORE flowers!
+@rus Ты в саду. Ты никогда не видел большего количества цветов!
+~
+0 0 city
+D0 0
+You see the Entrance to the garden.
+~
+~
+Z -1 7519
+D3 0
+You see the garden.
+~
+~
+Z -1 7521
+S
+#7521
+@eng The Garden.@rus Сад~
+@eng You are in the garden, there are many lovers here who are (Ahem) 'necking'.
+@rus Ты в саду. Тут много влюбленных, которые чем-то занимаются...
+~
+0 0 city
+D1 0
+You see the garden.
+~
+~
+Z -1 7520
+D2 0
+You see the garden.
+~
+~
+Z -1 7522
+D3 0
+You see the garden.
+~
+~
+Z -1 7523
+S
+#7522
+@eng The Garden.@rus Сад~
+@eng You are in the garden.  This section seems to be devoted to roses.
+@rus Ты в саду. Эта секция целиком засажена розами.
+~
+0 0 city
+D0 0
+You see the garden.
+~
+~
+Z -1 7521
+S
+#7523
+@eng The Garden.@rus Сад~
+@eng You are in the section of the garden that is devoted to lilacs.
+@rus Ты находишся на участке сада, который целиком засажен лилиями.
+~
+0 0 city
+D1 0
+You see the garden.
+~
+~
+Z -1 7521
+S
+#7524
+@eng In the Sewers.@rus В канализации~
+@eng You are inside the dark, dank sewers of Gerighelm.  There is a faint
+scent of mud in the air.  To the north, there is a wall.....
+@rus Ты находишся в темной, сырой канализации Геригхельма. Тут в 
+воздухе плавают куски грязи. На севере ты видишь стену.
+~
+0 A field
+D1 0
+You see the sewers.
+~
+~
+Z -1 7526
+D4 0
+You see the entrance to the sewers.
+~
+~
+Z -1 7584
+S
+#7526
+@eng The Sewers.@rus Канализация~
+@eng You are in the old sewer system of Gerighelm.  It is dark and hard to see.
+@rus Ты в старой системе канализации в Геригхельме. Тут темно и 
+очень плохо видно.
+~
+0 A field
+D0 0
+You see the sewers.
+~
+~
+Z -1 7528
+D1 0
+You see the sewers.
+~
+~
+Z -1 7533
+D2 0
+You see the sewers.
+~
+~
+Z -1 7527
+D3 0
+You see the sewers.
+~
+~
+Z -1 7524
+S
+#7527
+@eng The Sewers.@rus Канализация~
+@eng Hmm, another dead end.
+@rus Хм... Тут тупик...
+~
+0 A field
+D0 0
+You see the sewers.
+~
+~
+Z -1 7526
+S
+#7528
+@eng The Sewers.@rus Канализация~
+@eng You are in a tunnel that leads north-south.  The walls here are moist.
+@rus Ты в тоннеле ведущем с севера на юг. Стены тут влажные.
+~
+0 A field
+D0 0
+You see the sewers.
+~
+~
+Z -1 7529
+D2 0
+You see the sewers.
+~
+~
+Z -1 7526
+S
+#7529
+@eng The Sewers.@rus Канализация~
+@eng You are in a tunnel that leads north-south.  The walls are moist here.
+@rus Ты в тоннеле ведущем с севера на юг. Стены тут влажные.
+~
+0 A field
+D0 0
+You see the sewers.
+~
+~
+Z -1 7530
+D2 0
+You see the sewers.
+~
+~
+Z -1 7528
+S
+#7530
+@eng The Sewers.@rus Канализация~
+@eng You are at one end of a tunnel that leads north-south.  I wonder where
+it goes.  Oh well, you can keep wondering, because there is a magic sign
+that says 'UNDER CONSTRUCTION' to the west......
+@rus Ты в тупике тоннеля который вел с севера на юг. Но ты можешь 
+рассчитывать найти еще что-нибудь. Так как ты видишь знак 
+СТРОИТЕЛЬСТВО на западе.
+~
+0 A field
+D2 0
+You see the sewers.
+~
+~
+Z -1 7529
+S
+#7531
+@eng The Sewers.@rus Канализация~
+@eng You are in one of the twisting tunnels that abound in these sewers.
+@rus Ты в одном из извивающихся тоннелей этой канализации.
+~
+0 AC field
+D1 0
+You see some VERY clean sewers.
+~
+~
+Z -1 7554
+D2 0
+You see the sewers.
+~
+~
+Z -1 7532
+S
+#7532
+@eng The Sewers.@rus Канализация~
+@eng You are in one of the twisting tunnels in this maze of messy water.
+@rus Ты в извивающемся лабиринте местной канализации.
+~
+0 A field
+D0 0
+You see the sewers.
+~
+~
+Z -1 7531
+D2 0
+You see the sewers.
+~
+~
+Z -1 7533
+S
+#7533
+@eng The Sewers.@rus Канализация~
+@eng You are in the sewers.  Not a very nice area to be.
+Especially because it doesn't exactly smell nice.
+( You just realized it wasn't your breath...)
+@rus Ты в канализации. Это не самая твоя лучшая идея--находится здесь.
+Особенно потому, что пахнет тут явно не розами.
+(Ты только что понял, что это не запах из твоего рта...)
+~
+0 A field
+D0 0
+You see the sewers.
+~
+~
+Z -1 7532
+D1 0
+You see the sewers.
+~
+~
+Z -1 7534
+D3 0
+You see the sewers.
+~
+~
+Z -1 7526
+S
+#7534
+@eng The Sewers.@rus Канализация~
+@eng The tunnel continues on, to the east, and west.  There is a tunnel to the
+south.
+@rus Тоннель продолжается на восток и запад. Также есть проход на юг.
+~
+0 A field
+D1 0
+You see the sewers.
+~
+~
+Z -1 7540
+D2 0
+You see the tunnel.
+~
+~
+Z -1 7535
+D3 0
+you see the sewers.
+~
+~
+Z -1 7533
+S
+#7535
+@eng The tunnel.@rus Тоннель~
+@eng You are going down a tunnel that runs north-south.  To
+the south there is a wet scent.
+@rus Ты спускаешся вниз по тоннелю, который ведет с севера на юг.
+С юга тянет сухим воздухом.
+~
+0 A city
+D0 0
+You see the sewers.
+~
+~
+Z -1 7534
+D2 0
+You see the tunnel.
+~
+~
+Z -1 7536
+S
+#7536
+@eng The tunnel.@rus Тоннель~
+@eng You are going down a tunnel that leads north-south.  There is some water
+to the south.
+@rus Ты спускаешся вниз по тоннелю, который ведет с севера на юг.
+На юге видно немного воды.
+~
+0 A field
+D0 0
+You see the tunnel.
+~
+~
+Z -1 7535
+D2 0
+You see the tunnel.
+~
+~
+Z -1 7537
+S
+#7537
+@eng The watery tunnel.@rus Водный тоннель~
+@eng There is some water here, it is up to your waist.  It is calm enough
+to swim or wade though.
+@rus Вода тут достает до твоей талии. Тут можно либо плыть либо брести.
+~
+0 A water
+D0 0
+You see the tunnel.
+~
+~
+Z -1 7536
+D2 0
+You see the tunnel.
+~
+~
+Z -1 7538
+S
+#7538
+@eng The watery tunnel.@rus Водный тоннель~
+@eng The water gets deeper here, it is up to your chin.
+@rus Тут немного глубже. Вода доходит тебе до подбородка.
+~
+0 A water
+D0 0
+You see the tunnel.
+~
+~
+Z -1 7537
+D2 0
+You see the end of the tunnel.
+~
+~
+Z -1 7539
+S
+#7539
+@eng The end of the watery tunnel.@rus Конец водного тоннеля~
+@eng The tunnel ends here, with all that water in the tunnel pouring out.
+The water here is rough, it is all you can do to keep your head afloat.
+To the east and west, there a walls in the way of your movement.@rus Тут водяной тоннель заканчивается. Вся вода в этом тоннеле
+берется отсюда. Тут очень глубоко. Ты можешь передвигаться
+только вплавь. На западе и востоке твой путь преграждают
+стены.
+~
+0 AC water
+D0 0
+You see the tunnel.
+~
+~
+Z -1 7538
+S
+#7540
+@eng The Sewers.@rus Канализация~
+@eng You are in the sewers.  There is the familiar dank smell to everything...
+@rus Ты в канализации. Воздух тут пахнет сыростью.
+~
+0 AC field
+D0 0
+You see the sewers.
+~
+~
+Z -1 7552
+D1 0
+You see the sewers.
+~
+~
+Z -1 7541
+D3 0
+You see the sewers.
+~
+~
+Z -1 7534
+S
+#7541
+@eng The Sewers.@rus Канализация~
+@eng You are in the sewers, to the east, the tunnel ends.  So it seems.
+@rus Ты в канализации. На востоке тоннель заканчивается.
+~
+0 A field
+D1 0
+You see the sewers.
+~
+~
+Z -1 7542
+D3 0
+You see the sewers.
+~
+~
+Z -1 7540
+S
+#7542
+@eng The Sewers.@rus Канализация~
+@eng You are at the end of one of the countless tunnels in these sewers.
+To the east, there is a grate that seems to have a force field in between
+the holes in it.
+@rus Ты в тупике одного тоннеля местной канализации. На востоке
+видна решетка, которая закрывает вход сюда.
+~
+0 A field
+D1 0
+You see the grate.
+~
+grate~
+Z -1 7543
+D3 0
+You see the sewers.
+~
+~
+Z -1 7541
+S
+#7543
+@eng Underwater in the river.@rus Под водой в реке~
+@eng You are swimming underwater in the river.  It looks so different from
+down here.
+@rus Вы плывете под водой. Как здесь все по другому.
+~
+0 0 underwater
+D0 0
+You see the river.
+~
+~
+Z -1 7545
+D2 0
+You see the river.
+~
+~
+Z -1 7544
+D3 0
+You see the grate to the sewers.
+~
+grate~
+Z -1 7542
+S
+#7544
+@eng Underwater.@rus Под водой~
+@eng You are underwater in the river.  There seems to be a force field
+to the south....
+@rus Вы плывете под водой. Вероятно, к югу есть какое-то силовое поле.
+~
+0 0 underwater
+D0 0
+You see the river.
+~
+~
+Z -1 7543
+S
+#7545
+@eng Underwater.@rus Под водой~
+@eng You are underwater in the river.
+@rus Вы плывете под водой. 
+~
+0 0 underwater
+D0 0
+You see the river.
+~
+~
+Z -1 7546
+D2 0
+You see the river.
+~
+~
+Z -1 7543
+S
+#7546
+@eng Underwater.@rus Под водой~
+@eng You are underwater in the river.
+@rus Вы плывете под водой. 
+~
+0 0 underwater
+D0 0
+You see the river.
+~
+~
+Z -1 7547
+D2 0
+You see the river.
+~
+~
+Z -1 7545
+S
+#7547
+@eng Underwater.@rus Под водой~
+@eng You are underwater in the river.  The water shallows out to the north.
+To the west there is a ledge that is just above the water, some of it
+is underwater.  As you look closer to the north, you see that there is a
+force field blocking your passage.
+@rus Вы плывете под водой. На севере виднеется отмель. На западе есть
+какой-то приступок, возвышающийся над водой. Вы отправляетесь
+на север, но натыкаетесь на силовое поле, закрывающее проход.
+~
+0 0 underwater
+D2 0
+You see the river.
+~
+~
+Z -1 7546
+D3 0
+You see the half flooded sewers.
+~
+~
+Z -1 7548
+S
+#7548
+@eng Half Flooded Sewers.@rus Полузатопленная канализация~
+@eng You are up to your waist in river water.  To the west there are some VERY
+clean sewers...
+@rus Ты по талию в речной воде. На западе видна ОЧЕНЬ чистая канализация.
+~
+0 C water
+D1 0
+You see the river.
+~
+~
+Z -1 7547
+D3 0
+You see the clean sewers.
+~
+~
+Z -1 7549
+S
+#7549
+@eng Very clean Sewers.@rus Очень чистая канализация~
+@eng You are standing at the start of a section of sewers that are VERY
+clean...  There is a sign here.
+@rus Ты стоишь в начале участка канализации, которая очень чисто
+выглядит. Тут виден знак({Wsign{x)
+~
+0 A inside
+E ''
+sign~
+@eng The sign reads:
+
+                             WARNING    WARNING
+                         TESTING GROUNDS FOR MAGIC WORMS.
+                             PROCEED AT OWN RISK.
+
+Gerighelm Sewer Service.
+@rus Знак гласит:
+{w              ОСТОРОЖНО     ОСТОРОЖНО
+{w              СЛЕДИТЕ ЗА ВОЛШЕБНЫМИ ЧЕРВЯМИ
+{w              НАХОЖДЕНИЕ НА СВОЙ РИСК
+~
+D1 0
+You see the flooded ledge.
+~
+~
+Z -1 7548
+D2 0
+You see the clean sewers.
+~
+~
+Z -1 7550
+S
+#7550
+@eng Very clean Sewers.@rus Очень чистая канализация~
+@eng You are in some VERY clean sewers.  You have been wondering what that
+sign meant by 'MAGIC WORMS'.......
+@rus Ты в чистой канализации. Ты долго думал над тем, что-же означает 
+МАГИЧЕСКИЕ ЧЕРВИ...
+~
+0 A city
+D0 0
+You see the clean sewers.
+~
+~
+Z -1 7549
+D3 0
+You see the clean sewers.
+~
+~
+Z -1 7551
+S
+#7551
+@eng Very clean Sewers.@rus Очень чистая канализация~
+@eng You are in the VERY clean sewers.
+@rus Ты в ОЧЕНЬ чистой канализации.
+~
+0 A city
+D1 0
+You see the clean sewers.
+~
+~
+Z -1 7550
+D2 0
+You see the clean sewers.
+~
+~
+Z -1 7552
+S
+#7552
+@eng Very clean Sewers.@rus Очень чистая канализация~
+@eng You are in the VERY clean sewers.
+@rus Ты в ОЧЕНЬ чистой канализации.
+~
+0 A city
+D0 0
+You see the clean sewers.
+~
+~
+Z -1 7551
+D2 0
+You see the sewers.
+~
+~
+Z -1 7540
+D3 0
+You see the clean sewers.
+~
+~
+Z -1 7553
+S
+#7553
+@eng Very clean Sewers.@rus Очень чистая канализация~
+@eng You are in the VERY clean sewers.
+@rus Ты в ОЧЕНЬ чистой канализации.
+~
+0 A city
+D0 0
+You see the clean sewers.
+~
+~
+Z -1 7554
+D1 0
+You see the clean sewers.
+~
+~
+Z -1 7552
+S
+#7554
+@eng Very clean Sewers.@rus Очень чистая канализация~
+@eng You are in some EXTREEMLY clean sewers!  There is a sign here.
+@rus Ты в ОСОБЕННО чистой канализации! Тут виден знак({Wsign{x).
+~
+0 A city
+E ''
+sign~
+@eng The sign reads:
+
+
+                                WARNING    WARNING
+                        TESTING GROUND FOR MAGIC WORMS.
+                                PROCEED AT OWN RISK.
+
+Gerighelm Sewer Service.
+@rus Знак гласит:
+{w              ОСТОРОЖНО     ОСТОРОЖНО
+{w              СЛЕДИТЕ ЗА ВОЛШЕБНЫМИ ЧЕРВЯМИ
+{w              НАХОЖДЕНИЕ НА СВОЙ РИСК
+~
+D0 0
+You see the clean sewers.
+~
+~
+Z -1 7555
+D2 0
+You see the clean sewers.
+~
+~
+Z -1 7553
+D3 0
+You see the sewers.
+~
+~
+Z -1 7531
+S
+#7555
+@eng Old library in the very clean Sewers.@rus Старая библиотека в очень чистой канализации~
+@eng You are in the VERY clean sewers.  There are some benches here, as well
+as some old books that are aged bye time..  You are afraid to touch them,
+unless they may crumble to dust with your touch.  One of the books is open.
+@rus Ты в очень чистом участке местной канализации. Тут видны несколько 
+скамеек. Тут видно несколько книг, которые состарились за века своего 
+существования. Ты боишся прикоснутся к ним, потому, что они могут 
+рассыпатся в пыль от твоего прикосновения. Одна из книг({ybook{x) открыта.
+~
+0 AC field
+E ''
+book old~
+@eng The page reads:
+
+went off to find him.  The next day, the archangel Zarchon came to earth,
+and asked why the people were suffering.  He was told by the minstrel,
+'There are no Heros in this land, and no adventurers' he said, 'That is why
+I am unhappy.'.
+
+He asked a passing child, 'Why are you suffering?'.
+The child replyed, 'I have no "role-models"  I am told.  In the old days,
+there were many brave warriors, priests, wizards, and rouges.  BUt now any-
+more...'.
+
+So Zarchon took the case to the God Trollz, and his aides, Tass, and Garth.
+And Trollz said 'There shall be adventurers again. I command it.'
+
+And it was done, and there were such greats as uidsgfjkjskfauwehfjk
+
+The rest is garbled by time.
+@rus На листе написано:
+ 
+найти его. На следующий день архангел Зархон пришел на землю и 
+спрашивал людей от чего они печальны. Он говорил с менестрелем:
+'Нет более на земле Героев и любителей приключений, вот почему 
+я несчастлив.'
+
+И спрашивал он у проходящего мимо ребенка:"Почему ты несчастлив?"
+И отвечал ему ребенок:"Мне не на кого быть похожим, в старые времена
+были храбрые воины, жрецы, мудрецы и разбойники, но теперь больше 
+нет никого..."
+ 
+И пощел Зархон обратно к богу Тролл и его помошникам Тазз и Гарх.
+И сказал Тролл "Снова должны появится приключенцы на земле. Да
+будет так."
+ 
+И стало так.. и было в мире много славы и приклюжыпдрыиявчэризршфва
+ 
+.. далее все скрыло время.
+~
+D2 0
+You see the clean sewers.
+~
+~
+Z -1 7554
+S
+#7556
+@eng Junction in the dark Forest@rus Просвет в Темном Лесу~
+@eng You are at a junction in the Dark Forest.
+@rus Ты на поляне в Темном Лесу.
+~
+0 0 forest
+D2 0
+You see the dirt path.
+~
+~
+Z -1 7557
+D4 0
+You see the trail.
+~
+~
+Z -1 6003
+D5 0
+You see the trail.
+~
+~
+Z -1 6002
+S
+#7557
+@eng Dirt path@rus Грязная тропка~
+@eng You are on a dirt path that leads to a town. (you can tell this because
+a passerby told you.), the path continues north and south.
+@rus Ты на грязной тропке ведущей к городу. (Ты это знаешь потому,
+что тебе сказал это один из прохожих.) дорожка прожолжается 
+на юг и на север.
+~
+0 0 city
+D0 0
+You see the junction.
+~
+~
+Z -1 7556
+D2 0
+You see the dirt path.
+~
+~
+Z -1 7558
+S
+#7558
+@eng Dirt Path@rus Грязная тропка~
+@eng You are on a dirt path.
+@rus Ты на очень грязной дороге.
+~
+0 0 forest
+D0 0
+You see the dirt path.
+~
+~
+Z -1 7557
+D2 0
+You see the dirt path.
+~
+~
+Z -1 7559
+S
+#7559
+@eng Dirt Path@rus Грязная тропка~
+@eng You are on the dirt path.
+@rus Ты на очень грязной дороге.
+~
+0 0 city
+D0 0
+You see the dirt path.
+~
+~
+Z -1 7558
+D1 0
+You see the dirt path.
+~
+~
+Z -1 7560
+S
+#7560
+@eng Dirt Path@rus Грязная тропка~
+@eng You are on the dirt path.
+@rus Ты на очень грязной дороге.
+~
+0 C city
+D1 0
+You see the dirt path.
+~
+~
+Z -1 7561
+D3 0
+You see the dirt path.
+~
+~
+Z -1 7559
+S
+#7561
+@eng Dirt Path@rus Грязная тропка~
+@eng You are on the dirt path.
+@rus Ты на очень грязной дороге.
+~
+0 0 city
+D2 0
+You see the dirt path.
+~
+~
+Z -1 7562
+D3 0
+You see the dirt path.
+~
+~
+Z -1 7560
+S
+#7562
+@eng Dirt Path@rus Грязная тропка~
+@eng You are on the dirt path.  Up ahead, you see a LARGE city.
+@rus Ты на очень грязной дороге. На юге видны ворота Геригхельма.
+Повсюду слышны голоса строителей. Издалека видно как повозки везут к Геригхельму строительные материалы.
+~
+0 0 city
+D0 0
+You see the dirt path.
+~
+~
+Z -1 7561
+D2 3
+You see the gate of Gerighelm.
+~
+~
+Z -1 7563
+S
+#7563
+@eng Gate of Gerighelm@rus Ворота Геригхельма~
+@eng You are standing inside the Gate of Gerighelm.  There is only one,
+because the town is surrounded by mountains.  Of course, there is a lot
+of traffic here.
+     There is a small (Glowing) (Humming) tablet.
+@rus Ты стоишь внутри ворот Геригхельма. Они тут единственные, потому,
+что город окружен горами. И конечно-же тут большое движение.
+{w    Ты видишь маленькую (Светящуюся) (Жужжащую) табличку({Wtablet{x).
+Видно огромное количество повозок с стройматериалами. Вокруг них суетятся рабочие. Ворота в Геригхельме возводятся заново.
+~
+0 0 city
+E ''
+small tablet~
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
++                                                                  +
++            This area has been converted and adapted by           +
++                         Targos and jaceks                        +
++                                                                  +
++                                &                                 +
++                                                                  +
++    modified, debugged (?:) strongly enhanced and balanced by     +
++                             jaceks                               +
++                                                          july'96 +
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+~
+D0 3
+You see the dirt path.
+~
+~
+Z -1 7562
+D2 0
+~
+~
+Z 0 7564
+S
+#7564
+@eng West-Street of Gerighelm@rus Западная дорога Геригхельма~
+@eng This is the western most street of Gerighelm.  To the east, there is
+a street with a sign proclaiming:  Peter Ave.
+@rus Это самая западная дорога Геригхельма. На востоке улица с табличкой: 
+Питер Авеню.
+~
+0 0 city
+D0 0
+~
+~
+Z 0 7563
+D2 0
+You see West-Street.
+~
+~
+Z -1 7580
+S
+#7565
+@eng Peter Ave@rus Питер Авеню~
+@eng You are on Peter Ave.  To the south, you can see the park, but the entrance
+to the park is still to the east.
+@rus Ты на Питер Авеню. На юге ты видишь парк, на вход в него расположен 
+немного восточнее.
+~
+0 0 city
+D1 0
+You see peter ave.
+~
+~
+Z -1 7566
+S
+#7566
+@eng Peter Ave@rus Питер Авеню~
+@eng You are on Peter Ave. The the south, you see the entrance to the park.
+@rus Ты на Питер Авеню. На юге расположен вход в парк.
+~
+0 0 city
+D1 0
+You see peter ave.
+~
+~
+Z -1 7567
+D2 0
+~
+~
+Z 0 7500
+D3 0
+You see peter ave.
+~
+~
+Z -1 7565
+S
+#7567
+@eng Peter Ave@rus Питер Авеню~
+@eng You are on Peter ave. The the west, you see the entrance to the park.
+@rus Ты на Питер Авеню. На западе расположен вход в парк.
+~
+0 0 city
+D2 0
+You see peter ave.
+~
+~
+Z -1 7568
+D3 0
+You see peter ave.
+~
+~
+Z -1 7566
+S
+#7568
+@eng Peter Ave@rus Питер Авеню~
+@eng You are on Peter Ave.  To the west, you can see the park, but it's entrance
+is not in sight.
+@rus Ты на Питер Авеню. На западе ты видишь парк, но вход в него не виден.
+~
+0 0 city
+D0 0
+You see peter ave.
+~
+~
+Z -1 7567
+D2 0
+You see merchant way.
+~
+~
+Z -1 7569
+S
+#7569
+@eng Merchant Way@rus Торговая улица~
+@eng You are on the Merchant Way.  There are vendors selling everything that you
+could possibly need.
+@rus Ты на Торговой Улице. Тут стоят продавцы, которые продают все, 
+что ты сможешь захотеть.
+~
+0 0 city
+D0 0
+You see peter ave.
+~
+~
+Z -1 7568
+D1 0
+You see merchant way.
+~
+~
+Z -1 7571
+D2 0
+You see the shop with lots of food..
+~
+~
+Z -1 7570
+D3 0
+You see merchant way.
+~
+~
+Z -1 7575
+S
+#7570
+@eng The shop with lots of food@rus Магазин продуктов~
+@eng This shop has lots of food in it. Apples, pies, carrots, you name it.
+There is a sign here.
+@rus Этот магазин содержит огромное продуктов. Яблоки, пироги, морковь.
+Тут виден знак({Wsign{x).
+~
+0 D inside
+E ''
+sign~
+@eng The sign reads:
+
+      To buy an item, type: BUY <itemname>
+      To see what is in our fine stock, type: LIST
+      To see if we wish to purchase something from you, type: VALUE <item>
+      If we are interested in the item, you can sell it to use with SELL <item>
+@rus List: дает вам возможность ознакомиться с перечнем товаров.
+Value: говорит за сколько у вас купят эту вещь.
+Sell: предложить товар для продажи
+Buy: любимая команда продавца, купить вещь
+~
+D0 0
+You see merchant way.
+~
+~
+Z -1 7569
+S
+#7571
+@eng Merchant Way@rus Торговая улица~
+@eng You are on the Merchant Way.  To the south, there is a weapon shop.
+@rus Ты на Торговой Улице. На юге виден оружейный магазин.
+~
+0 0 city
+D1 0
+You see the end of merchant way.
+~
+~
+Z -1 7573
+D2 0
+You see the weapon shop.
+~
+~
+Z -1 7572
+D3 0
+You see merchant way.
+~
+~
+Z -1 7569
+S
+#7572
+@eng Weapon shop@rus Оружейный магазин~
+@eng You are in the weapon shop. There are many fine weapons here, but all of
+them are safe and out of your reach.  There is a sign here.
+@rus Ты в оружейном магазине. Тут много хорошего оружия, но оно вне 
+твоей досягаемости. Ты видишь знак({Wsign{x).
+~
+0 D city
+E ''
+sign~
+@eng The sign reads:
+
+
+To see what we have for sale, type: LIST
+To see if we want to buy something from you, type: VALUE <item>
+To buy an item type: BUY <item>
+To sell an item, type: SELL <item>
+@rus List: дает вам возможность ознакомиться с перечнем товаров.
+Value: говорит за сколько у вас купят эту вещь.
+Sell: предложить товар для продажи
+Buy: любимая команда продавца, купить вещь
+~
+D0 1
+You see the merchant way.
+~
+~
+Z -1 7571
+S
+#7573
+@eng End of Merchant Way@rus Конец Торговой Улицы~
+@eng You are at the end of merchant way, yet there is still another store
+south of here.
+@rus Ты видишь конец Торговой Улицы. И еще одно хранилище расположено 
+на юге отсюда.
+~
+0 0 city
+D2 0
+You see the Herbalist shop.
+~
+~
+Z -1 7574
+D3 0
+You see merchant way.
+~
+~
+Z -1 7571
+S
+#7574
+@eng Herbalist Shop@rus Травный магазин~
+@eng You are inside the Herbalist Shop.  There are many herbs here- Lord knows
+WHAT some of them do... There is a sign here too, on the table.
+@rus Ты в Травном магазине. Тут множество разных трав. Господа знают 
+что делают некоторые из них. Тут также есть знак({Wsign{x), на столике.
+~
+0 D inside
+E ''
+sign~
+@eng The sign reads:
+
+To see what we have for sale, type: LIST
+To buy something, type: BUY <item>
+To value something, type: VALUE <item>
+To sell something, type: SELL <item>
+@rus List: дает вам возможность ознакомиться с перечнем товаров.
+Value: говорит за сколько у вас купят эту вещь.
+Sell: предложить товар для продажи
+Buy: любимая команда продавца, купить вещь
+~
+D0 0
+You see the end of merchant way.
+~
+~
+Z -1 7573
+S
+#7575
+@eng Merchant Way@rus Торговая улица~
+@eng You are on merchant way. To the south, there is another shop.
+@rus Ты на торговой улице. На юге есть маназин.
+~
+0 0 city
+D1 0
+You see the merchant way.
+~
+~
+Z -1 7569
+D2 0
+You see the magic shop.
+~
+~
+Z -1 7576
+D3 0
+You see the merchant way.
+~
+~
+Z -1 7577
+S
+#7576
+@eng Magic Shop@rus Волшебный магазин~
+@eng You are inside the magic shop.  There are many many many magical things
+of unknown nature.  There is a sign here.
+@rus Ты внутри магазина, продающего магию. Тут много магических вещей 
+непонятной природы. Тут виден знак({Wsign{x).
+~
+0 D inside
+E ''
+sign~
+@eng the sign reads:
+
+to see what we have for sale, type: LIST
+To see what we want to buy from you, type: VALUE <item>
+To sell an item, type: SELL <item>
+To buy an item, type: BUY <item>
+@rus List: дает вам возможность ознакомиться с перечнем товаров.
+Value: говорит за сколько у вас купят эту вещь.
+Sell: предложить товар для продажи
+Buy: любимая команда продавца, купить вещь
+~
+D0 0
+You see the merchant way.
+~
+~
+Z -1 7575
+S
+#7577
+@eng Merchant Way@rus Торговая улица~
+@eng You are on the merchant way.  To the south, there is the local branch
+of the Pawn Shop.  And to the west, Merchant ave. ends.
+@rus Ты на Торговой Улице. На юге виден местный филиал ломбарда. На западе 
+видна Западная Улица.
+~
+0 0 city
+D1 0
+You see the merchant way.
+~
+~
+Z -1 7575
+D2 0
+You see the Pawn Shop.
+~
+~
+Z -1 7578
+D3 0
+You see West-Street
+~
+~
+Z -1 7579
+S
+#7578
+@eng The Pawn Shop@rus Ломбард~
+@eng You are in the Pawn shop.  Unfourtuatly, there is no pawn here,
+just a hired merchant.
+@rus Ты в Ломбарде. К несчастью тут нет Лома, а стоит тут--нанятый торговец.
+~
+0 D inside
+D0 0
+You see the merchant way.
+~
+~
+Z -1 7577
+S
+#7579
+@eng West-Street@rus Западная Улица~
+@eng You are on West-Street.  To the east, the Merchant Way begins.
+@rus Ты на Западной Улице. На востоке начинается Торговая Улица.
+~
+0 0 city
+D0 0
+You see West-Street.
+~
+~
+Z -1 7580
+D1 0
+You see the Merchant Way.
+~
+~
+Z -1 7577
+D2 0
+You see West-Street.
+~
+~
+Z -1 7581
+S
+#7580
+@eng West-Street@rus Западная Улица~
+@eng You are on the West-Street.  To the north, you approach the North Gate.
+@rus Ты на западной Улице. На севере ты видишь Северные Ворота.
+~
+0 0 city
+D0 0
+You see the West-Street.
+~
+~
+Z -1 7564
+D2 0
+You see the West-Street.
+~
+~
+Z -1 7579
+S
+#7581
+@eng West-Street@rus Западная Улица~
+@eng You are on the West-Street.  To the south, Merchant way begins. As well as
+to the north.
+@rus Ты на Западной Улице. На юге видно начало Торговой Улицы. 
+И на севере тоже. :)
+~
+0 0 city
+D0 0
+You see West-Street.
+~
+~
+Z -1 7579
+D2 0
+You see West-Street.
+~
+~
+Z -1 7582
+S
+#7582
+@eng West-Street@rus Западная Улица~
+@eng You are on West-Street. To the west, Mable Road begins, and to the east
+Merchant way travels.
+@rus Ты на Западной Улице. На западе начинается Мраморная Улица, а на 
+востоке начинается Торговая Улица.
+~
+0 0 city
+D0 0
+You see West-Street.
+~
+~
+Z -1 7581
+D1 0
+You see the Merchant Way.
+~
+~
+Z -1 7601
+D2 0
+You see West-Street.
+~
+~
+Z -1 7589
+D3 0
+You see Mable road.
+~
+~
+Z -1 7583
+S
+#7583
+@eng Mable Road@rus Мраморная Дорога~
+@eng You are on Mable road.  It was called this after the late Kings wife.
+To the north, the Palace of the Duke grows to the horizon.
+@rus Ты на Мраморной Дороге. Она была так названа, после опоздания Королевы.
+На севере над горизонтом вырастает герцогский Дворец.
+~
+0 0 city
+D0 0
+You see the Dukes Palace.
+~
+~
+Z -1 7663
+D1 0
+You see West-Street.
+~
+~
+Z -1 7582
+D3 0
+You see Mable road.
+~
+~
+Z -1 7584
+S
+#7584
+@eng Mable Road@rus Мраморная Дорога~
+@eng You are on Mable road. To the north, the palace looms large, but the
+entrance to the palace is to the east.  There is a sewer pipe exposed in
+the side of the road.
+@rus Ты на мраморной дороге. На севере виден Дворец, но вход в него 
+находится на востоке. С краю от дороги виден канализационный люк.
+Возле люка суетятся какие-то люди, они строят канализацию.
+~
+0 0 city
+D1 1
+You see Mable road.
+~
+~
+Z -1 7583
+D2 1
+You see Mable road.
+~
+~
+Z -1 7585
+D5 2
+You see the sewers.
+~
+~
+Z -1 7524
+S
+#7585
+@eng Mable Road@rus Мраморная Дорога~
+@eng You are on Mable road. To the north, the palace STILL looms big.
+@rus Ты на Мраморной Улице. На севере все еще виден Дворец.
+~
+0 0 city
+D0 0
+You see Mable road.
+~
+~
+Z -1 7584
+D2 0
+You see Mable road.
+~
+~
+Z -1 7586
+S
+#7586
+@eng Mable Road@rus Мраморная Дорога~
+@eng You are on Mable road.  To the north, the palace looms majesticly on
+the horizon.
+@rus Ты на мраморной дороге. На севере виден Дворец.
+~
+0 0 city
+D0 0
+You see Mable road.
+~
+~
+Z -1 7585
+D1 0
+You see Mable road.
+~
+~
+Z -1 7587
+S
+#7587
+@eng Mable Road@rus Мраморная Дорога~
+@eng You are on Mable road.  To the southeast, you see the path leaving
+Gerighelm.  Also, to the east, West-Street takes over.
+@rus Ты находишся на Мраморной Дороге. На юго-востоке видна дорожка, 
+ведущая из Геригхельма. На востоке видно окончание Западной 
+Улицы.
+~
+0 0 city
+D1 0
+You see West-Street
+~
+~
+Z -1 7588
+D3 0
+You see Mable road.
+~
+~
+Z -1 7586
+S
+#7588
+@eng West-Street@rus Западная Улица~
+@eng You are on the West-Street.  To the south, a path leading out of town begins.
+@rus Ты на Западной Улице. На юге видна дорожка ведущая из города.
+~
+0 0 city
+D0 0
+You see West-Street
+~
+~
+Z -1 7589
+D2 0
+You see the path.
+~
+~
+Z -1 7598
+D3 0
+You see Mable road.
+~
+~
+Z -1 7587
+S
+#7589
+@eng West-Street@rus Западная Улица~
+@eng You are on West-Street.  To the north, there is an intersection of
+Merchant Way, West-street, and  Mable road.  And, to the east, Temple
+Street wends.
+@rus Ты на Западной Улице. На севере есть Торговая Улица, Западная
+Улица и Мраморная Дорога. На востоке начинается Храмовая Улица.
+~
+0 0 city
+D0 0
+You see West-street.
+~
+~
+Z -1 7582
+D1 0
+You see Temple Street.
+~
+~
+Z -1 7590
+D2 0
+You see West-Street.
+~
+~
+Z -1 7588
+S
+#7590
+@eng Temple Street@rus Храмовая Улица~
+@eng You are on Temple Street.  To the south, there is some construction work
+going on.
+@rus Ты на Храмовой Улице. На юге ведутся какие-то строительные работы.
+~
+0 0 city
+D1 0
+You see Temple Street.
+~
+~
+Z -1 7592
+D2 0
+You see the contruction crew building a new temple
+~
+~
+Z -1 7591
+D3 0
+You see West-Street.
+~
+~
+Z -1 7589
+S
+#7591
+@eng Construction site@rus Строительство~
+@eng You are standing before a large construction site in which men are building a
+new temple.
+Who's it for?
+@rus Ты стоишь перед огромной строительной площадкой на которой 
+суетится множество людей. Они строят новый Храм.
+Для кого он строится?
+~
+0 0 forest
+D0 0
+You see Temple Street.
+~
+~
+Z -1 7590
+S
+#7592
+@eng Temple Street@rus Храмовая Улица~
+@eng You are on Temple Street.  To the south is the Temple to Time.
+@rus Ты на Храмовой Улице. На юге стоит Храм Времени.
+~
+0 0 city
+D1 0
+You see Temple Street.
+~
+~
+Z -1 7594
+D2 0
+You see a temple.
+~
+~
+Z -1 7593
+D3 0
+You see Temple Street.
+~
+~
+Z -1 7590
+S
+#7593
+@eng Temple to Time@rus Храм Времени~
+@eng You are standing inside the Temple to time. There are many clocks here, to say 
+the least.
+@rus Ты стоишь внутри Храма, посвященного Времени. Тут множество часов,
+как бы служащих напоминанием этому.
+~
+0 0 city
+D0 0
+You see the Temple Street.
+~
+~
+Z -1 7592
+S
+#7594
+@eng Temple Street@rus Храмовая Улица~
+@eng You are on Temple street. to the south, you see the cathedral.
+@rus Ты на Храмовой Улице. На юге виден Собор.
+~
+0 0 city
+D2 0
+You see an old, run down cathedral.  There are Gargoyles, vampires, and
+others.  They seem to be moving....
+~
+~
+Z -1 7595
+D3 0
+You see Temple Street.
+~
+~
+Z -1 7592
+S
+#7595
+@eng Temple of Death@rus Храм Смерти~
+@eng You are standing inside the temple of Death. It's kinda scary in here, how
+about running away hmm?
+@rus Ты стоишь внутри Храма Смерти. Тут немного страшно. Как начсет 
+того, что-бы поскорее отсюда убежать???
+~
+0 D inside
+E ''
+altar~
+It is a coffin.  It's kinda scary, maybe you should just run away now, hmm?
+~
+D0 0
+You see Temple Street.
+~
+~
+Z -1 7594
+D2 0
+You see Sacrifice Room.
+~
+~
+Z -1 7699
+S
+#7596
+@eng Temple Street@rus Храмовая Улица~
+@eng You are standing on Temple street.  To the south a Temple is leaking.
+Blood!
+@rus Ты стоишь на Храмовой Улице. На юге виден Храм. Там много {RКРОВИ{x...
+~
+0 0 city
+D2 0
+You see the Temple to War!
+~
+~
+Z -1 7597
+D3 0
+You see Temple Street.
+~
+~
+Z -1 7594
+S
+#7597
+@eng Temple to War!@rus Храм Войны~
+@eng There is blood dripping all over
+the place.  Some of it has been captured, and is sent streaming into veritable
+RIVERS of blood!  It's very artistic.  The altar contains: Blood, guts, a few
+sacrificial offerings (corpses, soon to be corpses, whatever).
+@rus Все залито {Rкровью{x. По полу текут настоящие {RРЕКИ крови{x. Алтарь 
+залит {Rкровью{x, на нем разложены чьи-то внутренности и то, что 
+осталось от жертвы..
+~
+0 D inside
+E ''
+altar~
+On the altar you see: babes, men, women, and, of course, ducklings.
+~
+D0 0
+You see the Temple Street.
+~
+~
+Z -1 7596
+S
+#7598
+@eng Path from Gerighelm@rus Тропинка из Геригхельма~
+@eng You are at the beginning of a path from Gerighelm.
+@rus Ты стоишь в начале тропинки, ведущей к выходу из Геригхельма.
+~
+0 0 field
+D0 0
+You see West-Street.
+~
+~
+Z -1 7588
+D2 0
+You see the Dump.
+~
+~
+Z -1 7599
+S
+#7599
+@eng The Dump@rus Свалка~
+@eng You are at the Dump.
+@rus Ты на Свалке.
+~
+0 0 hills
+D0 0
+You see the path from Gerighelm.
+~
+~
+Z -1 7598
+D2 0
+You see The dump.
+~
+~
+Z -1 7600
+S
+#7600
+@eng The Dump@rus Свалка~
+@eng You are at the Dump.  Need I say more?
+@rus Ты на свалке. Тебе еще что-либо надо сказать по этому поводу???
+~
+0 0 hills
+D0 0
+You see the Dump.
+~
+~
+Z -1 7599
+S
+#7601
+@eng Merchant Way@rus Торговая Улица~
+@eng You are at the beginning of Merchant way.  To the north, there is a shop
+that proclaims itself 'Ye Olde Pet Shope'.  Those look like healthy, handsome
+pets.
+@rus Ты на Торговой Улице. На севере виден магазин животных.
+~
+0 0 city
+D0 0
+You see the olde pet shope.
+~
+~
+Z -1 7602
+D1 0
+You see the merchant way.
+~
+~
+Z -1 7603
+D3 0
+You see West-Street.
+~
+~
+Z -1 7582
+S
+#7602
+@eng Ye Olde Pet Shope@rus Магазин домашних животных~
+@eng You are standing inside the pet shop.  There are pets EVERYWHERE.
+There are dogs, cats, kittens, puppy's, wolves, you name it.
+@rus Ты стоишь внутри магазина. Он весть заполнен различными животными.
+Тут есть собаки, кошки, волки.
+~
+0 DKM inside
+D2 0
+You see the merchant way.
+~
+~
+Z -1 7601
+S
+#7603
+@eng Merchant Way@rus Торговая Улица~
+@eng You are on the merchant way.  To the north, there is yet another shop.
+This one is: Greghimles furniture store.
+@rus Ты на Торговой Улице. На севере еще один магазин. Это магазин мебели.
+~
+0 0 city
+D0 0
+You see Greghimles furniture store.
+~
+~
+Z -1 7604
+D1 0
+You see merchant way.
+~
+~
+Z -1 7605
+D3 0
+You see the Merchant way.
+~
+~
+Z -1 7601
+S
+#7604
+@eng Greghimles furniture store@rus Мебельный магазин~
+@eng You are inside Greghimles furniture store.  There are lamps, boxes, great
+stuffed chairs, that sort of thing.
+@rus Ты находишся внутри мебельного магазина. Тут продается не только 
+мебель, но и лампы, коробки и прочая дребедень.
+~
+0 D inside
+D2 0
+You see the Merchant way.
+~
+~
+Z -1 7603
+S
+#7605
+@eng Merchant Way@rus Торговая Улица~
+@eng You are on the Merchant way.  To the north, there is yet another store.
+This one is:  Crazy Himshlick's portable fountains.  To the south, you see
+the Barracks.
+@rus Ты находишся на Торговой Улице. На севере видно еще одно хранилище. 
+На юге видны Казармы.
+~
+0 0 city
+D0 0
+You see Crazy Himshlick's portable fountains.
+~
+~
+Z -1 7606
+D1 0
+You see the Merchant way.
+~
+~
+Z -1 7607
+D2 0
+You see the barracks.
+~
+~
+Z -1 7681
+D3 0
+You see the Merchant way.
+~
+~
+Z -1 7603
+S
+#7606
+@eng Crazy Himshlick's portable fountains@rus Хранилище~
+@eng You are inside a ramshakle building, probably just thrown together for this
+guys shop.  You see a sign advertising his 'low prices' and 'low interest
+rates'....
+@rus Ты стоишь в чем-то отдаленно напоминающем магазин. Ты видишь
+стол, на столе табличка на которой написано: {YСАМЫЕ НИЗКИЕ ЦЕНЫ{x
+и {YСАМАЯ НИЗКАЯ ДОБАВЛЕННАЯ СТОИМОСТЬ{x. 
+~
+0 0 city
+D2 0
+You see the Merchant way.
+~
+~
+Z -1 7605
+S
+#7607
+@eng Merchant Way@rus Торговая Улица~
+@eng You are on the Merchant way.  To the north, there is another shop.
+This one is:  Water bottles and beer.
+@rus Ты на Торговой Улице. На севере виден магазин. Это магазин по продаже
+прохладительных напитков.
+~
+0 0 city
+D0 0
+You see the Water bottles and beer.
+~
+~
+Z -1 7608
+D1 0
+You see the Merchant way.
+~
+~
+Z -1 7609
+D3 0
+You see the Merchant way.
+~
+~
+Z -1 7605
+S
+#7608
+@eng Water bottles and Beer@rus Продажа воды и пива~
+@eng You are inside a shop with a small bar.
+@rus Ты внутри маленького магазина с маленькой стойкой бара внутри него.
+~
+0 D inside
+D2 0
+You see the Merchant way.
+~
+~
+Z -1 7607
+S
+#7609
+@eng Merchant Way@rus Торговая Улица~
+@eng You are on the Merchant way.  To the north, there is yet another shop.
+The sign out front reads: potions and wands.  To the east, there is a river,
+but there is a bridge crossing it.
+@rus Ты на Торговой Улице. На севере виден магазин, на его вывеске 
+написано: {Wснадобья и волшебные палочки{x. На востоке видна река
+через которую перекинут мост.
+~
+0 0 city
+D0 0
+You see the Potions and Wands.
+~
+~
+Z -1 7610
+D1 0
+You see the Bridge crossing the river.
+~
+~
+Z -1 7611
+D3 0
+You see the Merchant way.
+~
+~
+Z -1 7607
+S
+#7610
+@eng The Potions and Wands shop@rus Магазин по продаже снадобий и волшебных палочек~
+@eng This shop is tended by an old witch.  There are boiling pots and cauldrons
+all over.
+@rus За продавца тут стоит старая ведьма. Она стоит на фоне варящихся снадобий.
+~
+0 D inside
+D2 0
+You see the Merchant way.
+~
+~
+Z -1 7609
+S
+#7611
+@eng Bridge over the river@rus Мост через реку~
+@eng You are on a bridge over the river.
+@rus Ты стоишь на мосту через реку.
+~
+0 0 city
+D1 0
+You see the Merchant Way.
+~
+~
+Z -1 7612
+D3 0
+You see the Merchant way.
+~
+~
+Z -1 7609
+S
+#7612
+@eng Merchant Way@rus Торговая Улица~
+@eng You are on Merchant way.  This part of Merchant way is much more crowded.
+the vendors have taken to wandering the streets, selling their stock as they
+go.
+@rus Ты на Торговой Улице. Эта часть улицы заполнена народом. По улице 
+бегают торговцы продавая свои товары каждому встречному.
+~
+0 0 field
+D1 0
+You see the crowded market.
+~
+~
+Z -1 7614
+D2 0
+You see the crowded market.
+~
+~
+Z -1 7613
+D3 0
+You see the bridge over the river.
+~
+~
+Z -1 7611
+S
+#7613
+@eng Crowded market@rus Рынок~
+@eng You wonder if you are going to get out of this crowded market.....
+@rus Ты думаешь о том, как тебе найти выход из этой толкучки.
+~
+0 0 hills
+D0 0
+You see Merchant way.
+~
+~
+Z -1 7612
+S
+#7614
+@eng Crowded market@rus Рынок~
+@eng You think that you can get away from the crowd!  To the north, there
+is a long path the wends it's way into the distance.
+@rus Ты думаешь о том, как бы тебе выбратся из этой толпы. На севере 
+видна дорожка.
+~
+0 0 hills
+D0 0
+You see the long path.
+~
+~
+Z -1 7615
+D1 0
+You see the crowded market.
+~
+~
+Z -1 7640
+D2 0
+You see the crowded market.
+~
+~
+Z -1 7639
+D3 0
+You see the Merchant way.               
+~
+~
+Z -1 7612
+S
+#7615
+@eng Long path@rus Длинная дорога~
+@eng You are on the long path.  To the south, you see the crowded market.
+To the north, you see the path as peaceful as can be.
+@rus Ты находишся на длинной дороге. На юге ты видишь рыночную толпу.
+На севере видна очень пустая дорога.
+~
+0 0 field
+D0 0
+You see the long path.
+~
+~
+Z -1 7616
+D2 0
+You see the crowded market.
+~
+~
+Z -1 7614
+S
+#7616
+@eng Long path@rus Длинная дорога~
+@eng You are on the long path. To the north and south is peace.
+@rus Ты видишь длинную дорогу. На ней никого нет ни на севере ни на юге.
+~
+0 0 field
+D0 0
+You see the junction.
+~
+~
+Z -1 7617
+D2 0
+You see the long path.
+~
+~
+Z -1 7615
+S
+#7617
+@eng Junction@rus Соединение~
+@eng You are at a junction on the long path.  To the east, there is a bunch of
+homes.
+@rus Вы на соединении длинного пути. На востоке видны жилые постройки.
+~
+0 0 forest
+D0 0
+You see the long path.
+~
+~
+Z -1 7629
+D1 0
+You see the houses.
+~
+~
+Z -1 7620
+D2 0
+You see the long path.
+~
+~
+Z -1 7616
+S
+#7620
+@eng Rurals@rus Деревенские постройки~
+@eng You are surrounded by people as they go about their errands from house to
+house.
+@rus Ты окружен толпой слоняющихся людей которые ходят от дома к дому.
+~
+0 0 field
+D1 0
+You see the houses.
+~
+~
+Z -1 7621
+D3 0
+You see the junction.
+~
+~
+Z -1 7617
+S
+#7621
+@eng Rurals@rus Деревенские постройки~
+@eng Up ahead, you see a pair of paths, that lead up to the front doors
+of the houses.
+@rus Прямо перед собой ты видишь пару тропок которые ведут прямо к дверям домов.
+~
+0 0 city
+D1 0
+You see the paths.
+~
+~
+Z -1 7622
+D3 0
+You see the path you came in on.
+~
+~
+Z -1 7620
+S
+#7622
+@eng Pair of paths@rus Пара дорожек~
+@eng The paths are under you feet now.  You can choose which house to go to
+first.
+@rus Ты видишь развилку. Тебе надо выбрать в какой дом ты пойдешь раньше.
+Подойдя к дому, не забудь постучатся в дверь.
+~
+0 0 city
+D0 0
+You see the house.
+~
+door~
+Z -1 7624
+D2 0
+You see the house.
+~
+door~
+Z -1 7623
+D3 0
+You see the path you came in on.
+~
+~
+Z -1 7621
+S
+#7623
+@eng House@rus Дом~
+@eng You are inside a house. the house continues to the east and west.
+@rus Ты внутри дома. Ты видишь выходы на восток и на запад.
+~
+0 D inside
+D0 0
+You see the door.
+~
+door~
+Z -1 7622
+D1 0
+You see the drawing room.
+~
+~
+Z -1 7627
+D3 0
+You see the living room.
+~
+~
+Z -1 7628
+S
+#7624
+@eng House@rus Дом~
+@eng You are inside a house.  The house continues to the west, and east.
+@rus Ты стоишь внутри дома. Тут есть выходы на запад и восток.
+~
+0 D inside
+D1 0
+You see the dining room.
+~
+~
+Z -1 7625
+D2 0
+You see the door.
+~
+door~
+Z -1 7622
+D3 0
+You see the sitting room.
+~
+~
+Z -1 7626
+S
+#7625
+@eng Dining room@rus Столовая~
+@eng You are inside the dining room.
+@rus Ты стоишь внутри столовой.
+~
+0 D inside
+D3 0
+You see the entrance to the house.
+~
+~
+Z -1 7624
+S
+#7626
+@eng Sitting room@rus Гостинная~
+@eng You are inside the sitting room.
+@rus Ты находишся внутри гостинной.
+~
+0 D inside
+D1 0
+You see the entrance to the house.
+~
+~
+Z -1 7624
+S
+#7627
+@eng Living room@rus Жилая комната~
+@eng You are inside the living room in the house.
+@rus Ты находишся в жилой комнате дома.
+~
+0 D inside
+D3 0
+You see the entrance to the house.
+~
+~
+Z -1 7623
+S
+#7628
+@eng Drawing room@rus Малярная мастерская~
+@eng You are inside the drawing room in the house.
+@rus Ты в малярной мастерской в доме.
+~
+0 D inside
+D1 0
+You see the entrance to the house.
+~
+~
+Z -1 7623
+S
+#7629
+@eng Long path@rus Длинная дорога~
+@eng You are on the long path.  To the north, you see that the path ends.
+@rus Ты на длинной дороге. На севере видно окончание этой дороги.
+~
+0 0 field
+D0 0
+You see the end of the path.
+~
+~
+Z -1 7630
+D2 0
+You see the junction
+~
+~
+Z -1 7617
+S
+#7630
+@eng End of the path@rus Конец дороги~
+@eng You are at the end of the long path, there is a sign here that says:
+'under construction'  with an arrow pointing north.. To the north, you see
+a building being coded.....
+@rus Ты в конце этой длинной дороги. тут виден знак : СТРОИТЕЛЬСТВО. 
+В подтверждении этим словам на севере виден фундамент дома, который 
+начали строить в незапамятные времена еще на SoG'е.
+~
+0 0 field
+D2 0
+You see the path.
+~
+~
+Z -1 7629
+S
+#7639
+@eng Crowded market@rus Рыночная толпа~
+@eng Gods, this place is STUFFED with people!
+@rus Боже, это место просто нашпиговано толпой людей.
+~
+0 0 field
+D0 0
+You see the crowded market.
+~
+~
+Z -1 7614
+S
+#7640
+@eng Crowded market@rus Рыночная толпа~
+@eng You are in the crowded market.  To the east, there is a bridge over the
+river.
+@rus Ты прямо в рыночной толпе. На востоке виден мост через реку.
+~
+0 0 field
+D1 0
+You see the bridge.
+~
+~
+Z -1 7647
+D2 0
+You see the crowded market.
+~
+~
+Z -1 7641
+D3 0
+You see the crowded market.
+~
+~
+Z -1 7614
+S
+#7641
+@eng Crowded market@rus Рыночная толпа~
+@eng You are in the crowded market.  The vendors here are getting on your
+nerves. it's always 'Come see my fresh fish!' or 'my jewelry is THE BEST!'
+etc....
+@rus Ты на рынке. Торговцы тут очень назойливы. Тебе вечно приходится слышать 
+крики вроде: МОЯ РЫБА САМАЯ СВЕЖАЯ или МОИ ДРАГОЦЕННОСТИ ЛУЧШИЕ.
+~
+0 0 field
+D0 0
+You see the crowded market.
+~
+~
+Z -1 7640
+D2 0
+You see the crowded market.
+~
+~
+Z -1 7642
+S
+#7642
+@eng Crowded market@rus Рыночная толпа~
+@eng You are in the crowded market.  How many people can there BE?! You ask
+yourself.....
+@rus Ты на рынке. Ты потрясен количеством народа и спрашиваешь себя, а
+сколько-же тут людей?
+~
+0 0 field
+D0 0
+You see the crowded market.
+~
+~
+Z -1 7641
+D3 0
+You see the crowded market.
+~
+~
+Z -1 7643
+S
+#7643
+@eng Crowded market@rus Рыночная толпа~
+@eng You are in the crowded market.  There are too many people here..
+@rus Ты на рынке. Вместе с тобой тут шатается целая куча людей.
+~
+0 0 field
+D0 0
+You see the crowded market.
+~
+~
+Z -1 7644
+D1 0
+You see the crowded market.
+~
+~
+Z -1 7642
+D3 0
+You see the crowded market.
+~
+~
+Z -1 7645
+S
+#7644
+@eng Crowded market@rus Рыночная толпа~
+@eng You are in the crowded market.  It's just so big...
+@rus Ты на рынке. Он просто огромен...
+~
+0 0 forest
+D2 0
+You see the crowded market.
+~
+~
+Z -1 7643
+S
+#7645
+@eng Crowded market@rus Рыночная толпа~
+@eng You are in the crowded market.  So many people, it's making you crazy!
+@rus Ты на рынке. Тут настолько много людей что вся их болтовня просто 
+сводит тебя с ума.
+~
+0 0 forest
+D0 0
+You see the crowded market.
+~
+~
+Z -1 7646
+D1 0
+You see the crowded market.
+~
+~
+Z -1 7643
+S
+#7646
+@eng Crowded market@rus Рыночная толпа~
+@eng You are in the crowded market.  You start jabbering mindlessly....
+@rus Ты на рынке. Ты начинаешь уставать...
+~
+0 0 forest
+D2 0
+You see the crowded market.
+~
+~
+Z -1 7645
+S
+#7647
+@eng On the bridge@rus На мосту~
+@eng You are on the bridge over the river.  The water here is beautiful.
+One of the reasons it's beautiful, is because it's made of some kind of magic
+mirror.  And, if thats not enough to convince you that it's beautiful, get
+this-  There are women walking over it..... >:)
+@rus Ты на мосту через местную реку. Вода в ней просто прекрасна. 
+Одна из причин по которой вода так прекрасна, это то, что она 
+сделана из какого-то сорта волшебного стекла.
+~
+0 0 city
+D1 0
+You see the market.
+~
+~
+Z -1 7648
+D3 0
+You see the crowded market.
+~
+~
+Z -1 7640
+S
+#7648
+@eng Market@rus Рынок~
+@eng You are in a market, but it's much less crowded than the last one.
+The vendors are still in open air setups, but at least they are
+quieter about it...
+@rus Ты на рынке. Тут много меньше народу чем на предыдущем.
+~
+0 0 city
+D1 0
+You see the market.
+~
+~
+Z -1 7650
+D2 0
+You see the market.
+~
+~
+Z -1 7649
+D3 0
+You see the bridge.
+~
+~
+Z -1 7647
+S
+#7649
+@eng The market@rus Рынок~
+@eng Yes, you think, this arrangement is much better than the crowded one.
+Vendors are quietly calling out their wares.
+@rus Тут много лучше и тише чем на тех переполеных людьми рыночных
+площадках. Торговцы спокойно называют свои цены.
+~
+0 0 city
+D0 0
+You see the market.
+~
+~
+Z -1 7648
+D1 0
+You see the market.
+~
+~
+Z -1 7651
+D2 0
+You see the market.
+~
+~
+Z -1 7662
+S
+#7650
+@eng Market@rus Рынок~
+@eng You are in the market.  To the east, you can see the edge of the market.
+@rus Ты на рынке. На востоке ты видишь край рынка.
+~
+0 0 city
+D1 0
+You see the market.
+~
+~
+Z -1 7652
+D2 0
+You see the market.
+~
+~
+Z -1 7651
+D3 0
+You see the market.
+~
+~
+Z -1 7648
+S
+#7651
+@eng Market@rus Рынок~
+@eng You are in the middle of the market.  The vendors are selling EVERYTHING!
+@rus Ты на центре рынка. Местные торговцы продают все что угодно.
+~
+0 0 city
+D0 0
+You see the market.
+~
+~
+Z -1 7650
+D1 0
+You see the market.
+~
+~
+Z -1 7653
+D2 0
+You see the market.
+~
+~
+Z -1 7660
+D3 0
+You see the market.
+~
+~
+Z -1 7649
+S
+#7652
+@eng Market@rus Рынок~
+@eng You are at one of the corners of the market.  To the east, a path out of
+town begins.
+@rus Ты в одном из углов рынка. На востоке начинается путь из города.
+~
+0 0 city
+D1 0
+You see the path out of town.
+~
+~
+Z -1 7654
+D2 0
+You see the market.
+~
+~
+Z -1 7653
+D3 0
+You see the market.
+~
+~
+Z -1 7650
+S
+#7653
+@eng Market@rus Рынок~
+@eng You are in the market.  There must be everything that man can sell or
+buy being traded here...
+@rus Ты на рынке. Тут возможно все продать и купить.
+~
+0 0 city
+D0 0
+You see the market.
+~
+~
+Z -1 7652
+D2 0
+You see the market.
+~
+~
+Z -1 7658
+D3 0
+You see the market.
+~
+~
+Z -1 7651
+S
+#7654
+@eng On the path@rus Дорожка~
+@eng The path takes you near a large town.  On the west, there is a
+small hole in the wall of the market, that you might crawl through.There is
+a sign here.
+@rus Дорожка идет вокруг большого города. На западе видна дыра в заборе,
+судя по всему ты можешь в нее пролезть. Тут виден знак({Wsign{x).
+~
+0 0 city
+E ''
+sign~
+@eng The sign reads:
+
+                                Welcome to the fine city of
+                                Gerighelm.
+                                There are many fine adventures
+                                for all of you who go here,
+                                So give it a try!
+@rus Добро пожаловать в славный город
+Геригхельм.
+Тут много путешественников, которые
+могут отвести тебя куда угодно.
+~
+D2 0
+You see the path.
+~
+~
+Z -1 7655
+D3 0
+You see the market.
+~
+~
+Z -1 7652
+S
+#7655
+@eng The path@rus Тропинка~
+@eng The path travels by a market. To the west you see it, full of food,
+clothing, and jewelry! You have another chance to go to the
+town to the north, and to the south.
+@rus Тропинка ведет по рынку. На западе ты видишь кучи еды, одежды 
+и драгоценностей. Или у тебя есть возможность пойти на север 
+или юг.
+~
+0 0 field
+D0 0
+You see the path.
+~
+~
+Z -1 7654
+D2 0
+You see the path.
+~
+~
+Z -1 7656
+S
+#7656
+@eng On the path@rus Тропинка~
+@eng The path leads you to a small gate to a large town.  The gate is unguarded
+and there is a sign here.
+@rus Тропинка ведет тебя к маленьким воротам в большом городе. Ворота 
+не охраняются и около них стоит знак({Wsign{x).
+~
+0 0 city
+E ''
+sign~
+@eng The sign reads:
+                                Welcome travelers!
+                        This is the great city of Gerighelm.
+                Where many adventurers lost their lives, and gained fame
+                                        and fortune.
+@rus Добро пожаловать, путешественник!
+Это славный город Геригхельм.
+Много храбрых путешественников нашли здесь свою удачу или потеряли жизнь.
+~
+D0 0
+You see the path.
+~
+~
+Z -1 7655
+D3 0
+You see the market.
+~
+~
+Z -1 7657
+S
+#7657
+@eng Market@rus Рынок~
+@eng You are in the market.  To the east there is an old gate, but it's not
+guarded.  These vendors, you just can't get over it-- they buy ANYTHING.
+If you can find the right one...
+@rus Ты находишся на рынке. На востоке отсюда видны старые ворота, 
+но они совершенно не охраняются. Тебе не дают пройти торговцы,
+во множестве стоящие тут. Они покупают все. Если ты сможешь 
+найти правильное все. :)))
+~
+0 0 city
+D0 0
+You see the market.
+~
+~
+Z -1 7658
+D1 0
+You see the path out of town.
+~
+~
+Z -1 7656
+D3 0
+You see the market.
+~
+~
+Z -1 7659
+S
+#7658
+@eng Market@rus Рынок~
+@eng You are in the market.  To the east, you catch a faint glimmering of what
+may be a path, but you are not sure.  You get back to marvelling over these
+vendors...
+@rus Ты на рынке. На востоке ты видишь то, что при ближайшем рассмотрении
+может оказатся дорожкою. Ты снова начинаешь пробиватся сквозь всех 
+этих торговцев.
+~
+0 0 city
+D0 0
+You see the market.
+~
+~
+Z -1 7653
+D2 0
+You see the market.
+~
+~
+Z -1 7657
+D3 0
+You see the market.
+~
+~
+Z -1 7660
+S
+#7659
+@eng Market@rus Рынок~
+@eng You are in the market.  Gods, these vendors are cool!
+@rus Ты на рынке. Тут ОЧЕНЬ много торговцев.
+~
+0 0 city
+D0 0
+You see the market.
+~
+~
+Z -1 7660
+D1 0
+You see the market.
+~
+~
+Z -1 7657
+D3 0
+You see the market.
+~
+~
+Z -1 7661
+S
+#7660
+@eng Market@rus Рынок~
+@eng You are in the market.  To you, this is the niftiest place to be,
+@rus Ты на рынке. Это популярное место.
+~
+0 0 city
+D0 0
+You see the market.
+~
+~
+Z -1 7651
+D1 0
+You see the market.
+~
+~
+Z -1 7658
+D2 0
+You see the market.
+~
+~
+Z -1 7659
+D3 0
+You see the market.
+~
+~
+Z -1 7662
+S
+#7661
+@eng Market@rus Рынок~
+@eng You are in the market.  To the south and west, the market turns into a wall.
+@rus Ты видишь рынок. На юге и западе рынок поворачивает к стене.
+~
+0 0 city
+D0 0
+You see the market.
+~
+~
+Z -1 7662
+D1 0
+You see the market.
+~
+~
+Z -1 7659
+S
+#7662
+@eng Market@rus Рынок~
+@eng You are in the market.  To the west, you can see the river flowing into
+the underground sewers system.
+@rus Ты на рынке. На западе ты видишь реку впадающую, в подземную 
+систему канализаций.
+~
+0 0 city
+D0 0
+You see the market.
+~
+~
+Z -1 7649
+D1 0
+You see the market.
+~
+~
+Z -1 7660
+D2 0
+You see the market.
+~
+~
+Z -1 7661
+S
+#7663
+@eng Entrance to the Knights Castle@rus Вход в Рыцарский Замок~
+@eng You are standing beside the entrance to the Knights' castle.
+To the west, the palace stretches on, covered with silks, furs, and gold.
+To the south there is mable road
+@rus Ты стоишь перед входом в Рыцарский Замок. На западе продолжается 
+дворец весь в шелках, мехах и золоте. На юге видна Мраморная Дорога.
+~
+0 D inside
+E ''
+silks silk~
+The silks are very fine, they must have been purchased from China or Japan.
+~
+E ''
+furs fur~
+The furs are from beasts like:  bears, foxes, wolves, jabberwockies. etc.
+~
+E ''
+gold~
+What do you expect? It's GOLD!
+~
+D2 0
+You see Mable road.
+~
+~
+Z -1 7583
+D3 0
+You see the palace.
+~
+~
+Z -1 7664
+S
+#7664
+@eng The palace@rus Дворец~
+@eng You are inside the palace.  It's a very fine place to be you realize.
+@rus Ты во дворце. Тебе кажется, что это замечательное место.
+~
+0 D inside
+D1 0
+You see the entrance to the palace.
+~
+~
+Z -1 7663
+D3 0
+You see the palace.
+~
+~
+Z -1 7665
+S
+#7665
+@eng Inside the Palace@rus Во Дворце~
+@eng You are inside the palace of Gerighelm.  To the north, you see a room
+that is guarded by an old man.  To the east and west, the palace continues
+it's splendor.
+@rus Ты во Дворце Геригхельма. На севере ты видишь комнату, которую 
+охраняет старец. На востоке и западе во всем своем великолепии 
+продолжается дворец. 
+~
+0 D inside
+D0 0
+You see the room guarded by the old man.
+~
+~
+Z -1 7666
+D1 0
+You see the palace.
+~
+~
+Z -1 7664
+D3 0
+You see the palace.
+~
+~
+Z -1 7668
+S
+#7666
+@eng Treasury@rus Сокровищница~
+@eng You are standing just outside the treasury.  there is a huge iron door
+to the east.  The old man says 'STOP'. He says 'You cannot enter here.'  'Go.'
+@rus Ты стоишь около сокровищницы. Тут стоит огромная железная дверь на
+востоке. Старец говорит: '{GСтой. Ты на можешь пройти сюда. Уходи 
+отсюда.{x'
+~
+0 D inside
+D1 0
+You see the huge iron door.
+~
+door huge iron~
+Z -1 7667
+D2 0
+You see the palace.
+~
+~
+Z -1 7665
+S
+#7667
+@eng Inside the Treasury@rus Внутри сокровищницы~
+@eng You see the final defenses of the Treasury.  Three bugbears!!!
+Aside from you certain doom, you see lots of gold, silver, and other such
+valuables...
+@rus Ты видишь последних защитников сокровищ: три пугала!!! Перед твоим 
+взором открываются неисчислимые богатства. Золото, серебро и другие 
+ценные вещи.
+~
+0 D inside
+D3 0
+You see the huge iron door
+~
+door huge iron~
+Z -1 7666
+S
+#7668
+@eng Inside the palace@rus Во Дворце~
+@eng You are inside the palace of Gerighelm.  here, the palace opens into
+a large garden.  Complete with birds, chipmunks, and bugs OUCH <stupid fly>
+@rus Ты внутри Дворца Геригхельма. Дворец выходит в огромный парк полный
+птиц, бурундуков и насекомых.
+~
+0 D inside
+D0 0
+You see the garden.
+~
+~
+Z -1 7669
+D1 0
+You see the palace.
+~
+~
+Z -1 7665
+S
+#7669
+@eng Garden@rus Сад~
+@eng You are in the palace garden.  You hope that the Gardener won't catch
+you wandering about like this..
+@rus Ты во дворцовом саду. Ты надеешся, что в своей задумчивости садовник не 
+обкарнает тебя так-же, как он обкарнал местные растения.
+~
+0 D inside
+D0 0
+You see the garden ending.
+~
+~
+Z -1 7671
+D2 0
+You see the garden.
+~
+~
+Z -1 7668
+D3 0
+You see the garden.
+~
+~
+Z -1 7670
+S
+#7670
+@eng Garden@rus Сад~
+@eng Here the garden is blocked by a wall to the north, west, and south.
+But the flowers are still as pretty though.
+@rus Тут сад заблокирован стенами с севера, запада и юга.
+~
+0 D inside
+D1 0
+You see the garden.
+~
+~
+Z -1 7669
+S
+#7671
+@eng End of the garden@rus Окончание сада~
+@eng You are at the and of the garden.  To the north there is a GRAND hall.
+I wonder whats at the end of it?.
+@rus Ты около окончания сада. На севере виден ОГРОМНЫЙ зал. Тебе 
+кажется, что это еще не конец...
+~
+0 D inside
+D0 0
+You see the great hall.
+~
+~
+Z -1 7672
+D2 0
+You see the garden.
+~
+~
+Z -1 7669
+S
+#7672
+@eng Great hall@rus Громадный зал~
+@eng You are in the great hall of the palace of Gerighelm. To the north, you 
+see what may be a throne room. To the east however, there seems to be an altar.
+And to the west, there is some servants quarters.
+@rus Ты в громадном дворцовом зале Геригхельма. На севере ты видишь то, 
+что легко может сойти за тронный зал. На востоке видно нечто похожее
+на алтарь. И на западе видна людская.
+~
+0 D inside
+D0 0
+You see the throne room.
+~
+~
+Z -1 7676
+D1 0
+You see the priests altar.
+~
+~
+Z -1 7673
+D2 0
+You see the garden.
+~
+~
+Z -1 7671
+D3 0
+You see the servants quarters.
+~
+~
+Z -1 7674
+S
+#7673
+@eng The Altar@rus Алтарь~
+@eng What luck! It's the altar to your very own God! Better pray here and now!
+@rus Какая удача! Это алтарь твоего Бога! Лучше молись здесь и сейчас.
+~
+0 D inside
+D3 0
+You see the great hall.
+~
+~
+Z -1 7672
+S
+#7674
+@eng Servants Quarters@rus Людская~
+@eng These are the servants quarters.  To the south, there are more of them.
+The quarters themselves are much like quarters indeed.  there are 4 beds to
+a room. and 4 boxes under each bed.  The boxes are locked, and pickproof,
+so don't be getting any ideas...
+@rus Это кварталы слуг. К югу их еще больше. Все кварталы похожи, 
+как один. В каждой комнате по 4 постели и под ними по ящику 
+для вещей. Ящики заперты, чтоб никто не залез.
+~
+0 D inside
+D1 0
+You see the Great hall.
+~
+~
+Z -1 7672
+D2 0
+You see the servants quarters.
+~
+~
+Z -1 7675
+S
+#7675
+@eng Servants Quarters@rus Людская~
+@eng You are in some servants quarters.  They are much like the last one you
+saw, except there are only 3 beds and boxes.
+@rus Вы в квартале слуг. Он очень похож на тот, что вы только
+что видели, только тут по 3 кровати.
+~
+0 D inside
+D0 0
+You see the servants quarters.
+~
+~
+Z -1 7674
+S
+#7676
+@eng Throne Room@rus Тронный зал~
+@eng This is it! The Throne Room!  The Duke and Duchess are sitting in their
+respective thrones, which are carved out of the finest ebony and ivory.
+The furs, gold, and silks are VERY VERY VERY resplendent here.  There is a
+staircase that leads upward, and a staircase that leads down.
+@rus Вот он!! Тронный Зал! Герцог и Герцогиня сидят на своих прекрасных 
+тронах, выделаных эбонитом и слоновой костью. Меха, золото, 
+первокласный шелк все это очень прекрасно всписывается в обстановку. 
+Тут есть лестница ведущая наверх и лестница ведущая вниз.
+~
+0 D inside
+D2 0
+You see the great hall.
+~
+~
+Z -1 7672
+D4 0
+You see the Dukes bedrooms.
+~
+~
+Z -1 7677
+D5 0
+You see the beer cellar.
+~
+~
+Z -1 7680
+S
+#7677
+@eng Hallway@rus Коридор~
+@eng You are in a hall way that leads to two bedrooms.  The door to the north
+has some gold words on it that say 'Dukes room' and the words on the south
+door say 'Duchesses room'.  This is all so formal, you think.
+@rus Ты в зале который ведет в спальню. Дверь на севере украшена золотой 
+надписью "Спальня Герцога". А на южной двери написано : '{YСпальня 
+Герцогини{x'. Тебе кажется, что это все только формальность.
+~
+0 D inside
+D0 0
+You see the door to the dukes room.
+~
+door dukes duke~
+Z -1 7679
+D2 0
+You see the door to the duchesses room.
+~
+door duchesses duchess~
+Z -1 7678
+S
+#7678
+@eng Duchesses room@rus Комната Герцогини~
+@eng This is the Duchesses room.  She must come here when she and her husband
+have a spat.  You know this because the room is relatively dusty compared
+with all the other rooms here.
+@rus Это комната Герцогини. Она должно быть приходит сюда когда 
+немного повздорит с мужем.
+~
+0 D inside
+D0 0
+You see the door of this room.
+~
+door~
+Z -1 7677
+S
+#7679
+@eng Dukes room@rus Комната Герцога~
+@eng This room is well used to say the least.  I'd say more, but it's not the
+kinda thing to transmit over phone lines.  But I can tell you this:
+The Duke and his wife have, shall we say, _interesting_ habits >:)
+@rus Тут Герцог и герцогиня _презанятнейше_ проводят свое время. >:)
+~
+0 D inside
+D2 0
+You see the door to this room.
+~
+door~
+Z -1 7677
+S
+#7680
+@eng Beer cellar@rus Пивной погреб~
+@eng Yes, I know you were expecting a wine cellar, and one farther from the
+Throne room, but the Duke designed it himself, and..-Well anyway:
+The room is your standard cellar, there are many empty racks here, and only
+2 bottle left. Hmmm...
+@rus Да, я знаю, что ты ожидал увидеть винный погреб, но Герцог
+решил по своему.. В любом случае тут осталось только 
+2 полные бутылки...
+~
+0 AD inside
+D4 0
+You see the Throne room.
+~
+~
+Z -1 7676
+S
+#7681
+@eng Barracks@rus Казармы~
+@eng You are in the barracks.  There are guards all around you, coming and going.
+@rus Ты в казармах. вокруг тебя полно входящих и выходящих содат.
+~
+0 D inside
+D0 0
+You see the Merchant way.
+~
+~
+Z -1 7605
+S
+#7698
+@eng Pet Shop Warehouse@rus Магазин домашних животных~
+~
+0 CM inside
+S
+#7699
+@eng Sacrifice Room@rus Жертвенная комната~
+@eng Blood, blood, blood, guts, flesh, corpses....
+@rus {RКровь{x, {Rкровь{x, {Rкровь{x, кишки, мясо, трупы...
+~
+0 CM inside
+S
+#0
+
+#SPECIALS
+M 7528 spec_guard	* a junior guard
+M 7530 spec_guard	* a Gerighelm cityguard
+M 7531 spec_guard	* a Gerighelm cityguard
+M 7532 spec_guard	* a Gerighelm cityguard
+M 7534 spec_guard	* a Defender of Gerighelm
+M 7535 spec_guard	* a Defender of Gerighelm
+M 7536 spec_guard	* a palace guard
+M 7537 spec_guard	* a palace guard
+M 7539 spec_cast_mage	* the palace mage
+M 7540 spec_cast_cleric	* the palace priest
+M 7550 spec_executioner	* the head of the guard
+M 7552 spec_guard	* a bodyguard
+M 7553 spec_guard	* a bodyguard
+M 7554 spec_cast_judge	* the Duke of Gerighelm
+M 7555 spec_breath_any	* the Duchess of Gerighelm
+M 7591 spec_thief	* a cutpurse
+S
+
+#RESETS
+D 0 7513 1 1	* The split in the trail in the Park.: door to the east: closed
+D 0 7514 3 1	* Care-Takers House.: door to the west: closed
+M 0 7503 6 7502 1	* a swallow (The Park.)
+M 0 7506 4 7502 1	* a ground-hog (The Park.)
+M 0 7509 6 7502 1	* a starry eyed lover (The Park.)
+M 0 7510 6 7502 1	* a starry eyed lover (The Park.)
+M 0 7500 10 7503 1	* a little squirrel (The Park.)
+M 0 7503 6 7503 1	* a swallow (The Park.)
+M 0 7508 5 7503 1	* a flying squirrel (The Park.)
+M 0 7506 4 7504 1	* a ground-hog (The Park.)
+M 0 7508 5 7505 1	* a flying squirrel (The Park.)
+M 0 7502 4 7506 1	* a small green snake (The Park.)
+M 0 7505 3 7507 1	* a brown and black raccoon (The Park.)
+M 0 7500 10 7508 1	* a little squirrel (The Park.)
+M 0 7502 4 7508 1	* a small green snake (The Park.)
+M 0 7501 5 7509 1	* a tiny chipmunk (The Park.)
+M 0 7506 4 7509 1	* a ground-hog (The Park.)
+M 0 7507 10 7509 1	* a field mouse (The Park.)
+O 0 7509 0 7509	* a bunch of herbs (The Park.)
+M 0 7502 4 7510 1	* a small green snake (The Park.)
+M 0 7504 2 7510 1	* an African Swallow (The Park.)
+M 0 7509 6 7510 1	* a starry eyed lover (The Park.)
+M 0 7510 6 7510 1	* a starry eyed lover (The Park.)
+M 0 7501 5 7511 1	* a tiny chipmunk (The trail in the Park.)
+M 0 7505 3 7512 1	* a brown and black raccoon (The trail in the Park.)
+M 0 7500 10 7513 1	* a little squirrel (The split in the trail in the Park.)
+M 0 7505 3 7515 1	* a brown and black raccoon (The trail.)
+M 0 7511 6 7515 1	* a herbalists helper (The trail.)
+G 0 7509 0		*	a bunch of herbs
+M 0 7500 10 7516 1	* a little squirrel (The trail.)
+M 0 7507 10 7516 1	* a field mouse (The trail.)
+O 0 7596 0 7516	* a bunch of herbs (The trail.)
+M 0 7507 10 7517 1	* a field mouse (The end of the trail.)
+M 0 7508 5 7517 1	* a flying squirrel (The end of the trail.)
+O 0 7509 0 7517	* a bunch of herbs (The end of the trail.)
+O 0 7596 0 7518	* a bunch of herbs (The Park.)
+M 0 7509 6 7519 1	* a starry eyed lover (The Entrance to the Garden in the Park.)
+M 0 7510 6 7519 1	* a starry eyed lover (The Entrance to the Garden in the Park.)
+M 0 7504 2 7520 1	* an African Swallow (The Garden.)
+M 0 7508 5 7520 1	* a flying squirrel (The Garden.)
+M 0 7500 10 7521 1	* a little squirrel (The Garden.)
+M 0 7503 6 7521 1	* a swallow (The Garden.)
+M 0 7503 6 7522 1	* a swallow (The Garden.)
+M 0 7506 4 7522 1	* a ground-hog (The Garden.)
+O 0 7507 0 7522	* a bunch of red herbs (The Garden.)
+O 0 7508 0 7522	* a bunch of green herbs (The Garden.)
+M 0 7509 6 7522 1	* a starry eyed lover (The Garden.)
+M 0 7510 6 7522 1	* a starry eyed lover (The Garden.)
+O 0 7507 0 7523	* a bunch of red herbs (The Garden.)
+O 0 7508 0 7523	* a bunch of green herbs (The Garden.)
+M 0 7511 6 7523 1	* a herbalists helper (The Garden.)
+G 0 7596 0		*	a bunch of herbs
+M 0 7583 2 7524 1	* Sewers worker (In the Sewers.)
+M 0 7583 2 7526 1	* Sewers worker (The Sewers.)
+M 0 7583 2 7526 1	* Sewers worker (The Sewers.)
+M 0 7519 5 7531 1	* a bugbear (The Sewers.)
+M 0 7583 2 7533 1	* Sewers worker (The Sewers.)
+M 0 7516 10 7535 1	* a goldfish (The tunnel.)
+G 0 7512 0		*	corpse of a goldfish
+M 0 7516 10 7535 1	* a goldfish (The tunnel.)
+G 0 7512 0		*	corpse of a goldfish
+M 0 7516 10 7535 1	* a goldfish (The tunnel.)
+G 0 7512 0		*	corpse of a goldfish
+M 0 7516 10 7535 1	* a goldfish (The tunnel.)
+G 0 7512 0		*	corpse of a goldfish
+M 0 7516 10 7535 1	* a goldfish (The tunnel.)
+G 0 7512 0		*	corpse of a goldfish
+M 0 7516 10 7535 1	* a goldfish (The tunnel.)
+G 0 7512 0		*	corpse of a goldfish
+M 0 7516 10 7535 1	* a goldfish (The tunnel.)
+G 0 7512 0		*	corpse of a goldfish
+M 0 7516 10 7535 1	* a goldfish (The tunnel.)
+G 0 7512 0		*	corpse of a goldfish
+M 0 7516 10 7535 1	* a goldfish (The tunnel.)
+G 0 7512 0		*	corpse of a goldfish
+M 0 7516 10 7535 1	* a goldfish (The tunnel.)
+G 0 7512 0		*	corpse of a goldfish
+M 0 7517 10 7537 1	* a guppy (The watery tunnel.)
+G 0 7511 0		*	corpse of a guppy
+M 0 7517 10 7537 1	* a guppy (The watery tunnel.)
+G 0 7511 0		*	corpse of a guppy
+M 0 7517 10 7537 1	* a guppy (The watery tunnel.)
+G 0 7511 0		*	corpse of a guppy
+M 0 7517 10 7537 1	* a guppy (The watery tunnel.)
+G 0 7511 0		*	corpse of a guppy
+M 0 7517 10 7537 1	* a guppy (The watery tunnel.)
+G 0 7511 0		*	corpse of a guppy
+M 0 7517 10 7537 1	* a guppy (The watery tunnel.)
+G 0 7511 0		*	corpse of a guppy
+M 0 7517 10 7537 1	* a guppy (The watery tunnel.)
+G 0 7511 0		*	corpse of a guppy
+M 0 7517 10 7537 1	* a guppy (The watery tunnel.)
+G 0 7511 0		*	corpse of a guppy
+M 0 7517 10 7537 1	* a guppy (The watery tunnel.)
+G 0 7511 0		*	corpse of a guppy
+M 0 7517 10 7537 1	* a guppy (The watery tunnel.)
+G 0 7511 0		*	corpse of a guppy
+M 0 7519 5 7539 1	* a bugbear (The end of the watery tunnel.)
+M 0 7583 2 7540 1	* Sewers worker (The Sewers.)
+M 0 7514 4 7541 1	* a medium fish will pointy teeth (The Sewers.)
+M 0 7514 4 7541 1	* a medium fish will pointy teeth (The Sewers.)
+M 0 7514 4 7541 1	* a medium fish will pointy teeth (The Sewers.)
+M 0 7514 4 7541 1	* a medium fish will pointy teeth (The Sewers.)
+M 0 7583 2 7542 1	* Sewers worker (The Sewers.)
+M 0 7513 5 7543 1	* a small fish with pointy teeth (Underwater in the river.)
+M 0 7513 5 7543 1	* a small fish with pointy teeth (Underwater in the river.)
+M 0 7513 5 7543 1	* a small fish with pointy teeth (Underwater in the river.)
+M 0 7513 5 7543 1	* a small fish with pointy teeth (Underwater in the river.)
+M 0 7513 5 7543 1	* a small fish with pointy teeth (Underwater in the river.)
+M 0 7515 5 7544 1	* a large fish with pointy teeth (Underwater.)
+M 0 7515 5 7544 1	* a large fish with pointy teeth (Underwater.)
+M 0 7515 5 7544 1	* a large fish with pointy teeth (Underwater.)
+M 0 7515 5 7544 1	* a large fish with pointy teeth (Underwater.)
+M 0 7515 5 7544 1	* a large fish with pointy teeth (Underwater.)
+M 0 7518 3 7547 1	* a fish with blunted teeth (Underwater.)
+M 0 7520 6 7551 1	* a cleaner worm (Very clean Sewers.)
+M 0 7520 6 7551 1	* a cleaner worm (Very clean Sewers.)
+M 0 7520 6 7551 1	* a cleaner worm (Very clean Sewers.)
+M 0 7520 6 7551 1	* a cleaner worm (Very clean Sewers.)
+M 0 7520 6 7551 1	* a cleaner worm (Very clean Sewers.)
+M 0 7520 6 7551 1	* a cleaner worm (Very clean Sewers.)
+M 0 7523 30 7559 1	* a troubadour (Dirt Path)
+E 0 7514 0 17		*	a harp: held in the hands
+M 0 7528 1 7563 1	* a junior guard (Gate of Gerighelm)
+M 0 7531 25 7564 2	* a Gerighelm cityguard (West-Street of Gerighelm)
+E 0 7524 0 1		*	Gerighelm guard ring: on the left finger
+E 0 7529 0 5		*	a Gerighelm vest: on the body
+E 0 7535 0 16		*	a Gerighelm sword: wielded
+E 0 7534 0 15		*	a Gerighelm bracer: on the right wrist
+M 0 7528 25 7564 2	* a junior guard (West-Street of Gerighelm)
+E 0 7519 0 5		*	a junior guard vest: on the body
+E 0 7520 0 11		*	a junior guard shield: as a shield
+E 0 7521 0 0		*	a junior guard lantern: as a light
+E 0 7522 0 16		*	a junior guard cudgel: wielded
+M 0 7532 15 7568 2	* a Gerighelm cityguard (Peter Ave)
+E 0 7524 0 1		*	Gerighelm guard ring: on the left finger
+E 0 7529 0 5		*	a Gerighelm vest: on the body
+E 0 7535 0 16		*	a Gerighelm sword: wielded
+E 0 7531 0 3		*	a Gerighelm cloak: around the neck
+E 0 7531 0 4		*	a Gerighelm cloak: on the body (shirt)
+M 0 7592 1 7570 1	* a baker (The shop with lots of food)
+G 0 7500 0		*	an apple
+G 0 7501 0		*	an apple pie
+G 0 7502 0		*	a beet
+G 0 7503 0		*	a carrot
+M 0 7523 30 7571 1	* a troubadour (Merchant Way)
+E 0 7513 0 17		*	a lute: held in the hands
+M 0 7593 1 7572 1	* the blacksmith Vendy (Weapon shop)
+G 0 7519 0		*	a junior guard vest
+G 0 7520 0		*	a junior guard shield
+G 0 7521 0		*	a junior guard lantern
+M 0 7604 1 7574 1	* the herbalist (Herbalist Shop)
+G 0 7507 0		*	a bunch of red herbs
+G 0 7508 0		*	a bunch of green herbs
+M 0 7594 1 7576 1	* the mage (Magic Shop)
+G 0 7517 0		*	a bag of marbles
+G 0 7600 0		*	a green marble
+G 0 7601 0		*	a blue marble
+G 0 7602 0		*	a yellow marble
+M 0 7553 3 7576 3	* a bodyguard (Magic Shop)
+E 0 7561 0 5		*	a uniform: on the body
+E 0 7562 0 16		*	a saber: wielded
+M 0 7595 1 7578 1	* the pawn shop owner (The Pawn Shop)
+M 0 7580 1 7580 1	* Worker of Gerighelm (West-Street)
+M 0 7524 4 7581 1	* an old biddy (West-Street)
+E 0 7523 0 16		*	a sharp fingernail: wielded
+M 0 7525 4 7581 1	* an old coot (West-Street)
+M 0 7526 5 7581 1	* a little boy (West-Street)
+M 0 7527 5 7581 1	* a little girl (West-Street)
+E 0 7518 0 17		*	a doll: held in the hands
+M 0 7580 1 7581 1	* Worker of Gerighelm (West-Street)
+M 0 7580 1 7581 1	* Worker of Gerighelm (West-Street)
+M 0 7581 1 7581 1	* worker of Gerighelm (West-Street)
+M 0 7581 1 7581 1	* worker of Gerighelm (West-Street)
+M 0 7581 1 7581 1	* worker of Gerighelm (West-Street)
+M 0 7530 20 7582 2	* a Gerighelm cityguard (West-Street)
+E 0 7524 0 1		*	Gerighelm guard ring: on the left finger
+E 0 7529 0 5		*	a Gerighelm vest: on the body
+E 0 7535 0 16		*	a Gerighelm sword: wielded
+E 0 7533 0 13		*	a Gerighelm belt: around the waist
+M 0 7531 25 7582 2	* a Gerighelm cityguard (West-Street)
+E 0 7524 0 1		*	Gerighelm guard ring: on the left finger
+E 0 7529 0 5		*	a Gerighelm vest: on the body
+E 0 7535 0 16		*	a Gerighelm sword: wielded
+E 0 7528 0 11		*	a Gerighelm shield: as a shield
+M 0 7526 5 7582 1	* a little boy (West-Street)
+E 0 7516 0 16		*	a stick: wielded
+M 0 7527 5 7582 1	* a little girl (West-Street)
+E 0 7518 0 17		*	a doll: held in the hands
+M 0 7523 30 7582 1	* a troubadour (West-Street)
+M 0 7582 4 7584 4	* Sewers worker  (Mable Road)
+M 0 7584 2 7584 1	* elvish engeneer (Mable Road)
+M 0 7580 3 7586 1	* Worker of Gerighelm (Mable Road)
+M 0 7535 10 7590 1	* a Defender of Gerighelm (Temple Street)
+E 0 7537 0 6		*	a defenders helm: over the head
+E 0 7538 0 16		*	a defenders sword: wielded
+E 0 7650 0 10		*	a defenders sleeves: on the arms
+E 0 7651 0 7		*	a defenders leggings: on the legs
+E 0 7652 0 11		*	a defenders shield: as a shield
+E 0 7653 0 1		*	a defenders ring: on the left finger
+E 0 7654 0 5		*	a defenders vest: on the body
+E 0 7655 0 12		*	a defenders cape: about the shoulders
+E 0 7656 0 3		*	a defenders cloak: around the neck
+E 0 7657 0 9		*	a defenders gloves: on the hands
+E 0 7658 0 13		*	a defenders belt: around the waist
+E 0 7659 0 14		*	a defenders bracer: on the left wrist
+E 0 7660 0 8		*	a defenders pair of boots: on the feet
+M 0 7535 10 7600 1	* a Defender of Gerighelm (The Dump)
+E 0 7537 0 6		*	a defenders helm: over the head
+E 0 7538 0 16		*	a defenders sword: wielded
+E 0 7650 0 10		*	a defenders sleeves: on the arms
+E 0 7651 0 7		*	a defenders leggings: on the legs
+E 0 7652 0 11		*	a defenders shield: as a shield
+E 0 7653 0 1		*	a defenders ring: on the left finger
+E 0 7654 0 5		*	a defenders vest: on the body
+E 0 7655 0 12		*	a defenders cape: about the shoulders
+E 0 7656 0 3		*	a defenders cloak: around the neck
+E 0 7657 0 9		*	a defenders gloves: on the hands
+E 0 7658 0 13		*	a defenders belt: around the waist
+E 0 7659 0 14		*	a defenders bracer: on the left wrist
+E 0 7660 0 8		*	a defenders pair of boots: on the feet
+M 0 7609 1 7602 1	* the animal man (Ye Olde Pet Shope)
+M 0 7523 30 7603 1	* a troubadour (Merchant Way)
+E 0 7514 0 17		*	a harp: held in the hands
+M 0 7597 10 7604 1	* the merchant (Greghimles furniture store)
+G 0 7504 0		*	a bottle of beer
+G 0 7505 0		*	a magic water pitcher
+M 0 7532 15 7605 2	* a Gerighelm cityguard (Merchant Way)
+E 0 7524 0 1		*	Gerighelm guard ring: on the left finger
+E 0 7529 0 5		*	a Gerighelm vest: on the body
+E 0 7535 0 16		*	a Gerighelm sword: wielded
+E 0 7527 0 7		*	a pair of Gerighelm guard leggings: on the legs
+E 0 7536 0 8		*	a pair of Gerighelm boots: on the feet
+M 0 7523 30 7605 1	* a troubadour (Merchant Way)
+E 0 7513 0 17		*	a lute: held in the hands
+M 0 7597 10 7606 1	* the merchant (Crazy Himshlick's portable fountains)
+G 0 7504 0		*	a bottle of beer
+G 0 7505 0		*	a magic water pitcher
+M 0 7523 30 7607 1	* a troubadour (Merchant Way)
+E 0 7514 0 17		*	a harp: held in the hands
+M 0 7533 1 7608 1	* the ale-conner (Water bottles and Beer)
+M 0 7597 10 7608 1	* the merchant (Water bottles and Beer)
+G 0 7504 0		*	a bottle of beer
+G 0 7505 0		*	a magic water pitcher
+M 0 7523 30 7609 1	* a troubadour (Merchant Way)
+E 0 7513 0 17		*	a lute: held in the hands
+M 0 7610 1 7610 1	* the old witch (The Potions and Wands shop)
+M 0 7523 30 7611 1	* a troubadour (Bridge over the river)
+M 0 7523 30 7613 1	* a troubadour (Crowded market)
+E 0 7514 0 17		*	a harp: held in the hands
+M 0 7534 10 7614 1	* a Defender of Gerighelm (Crowded market)
+E 0 7538 0 16		*	a defenders sword: wielded
+E 0 7654 0 5		*	a defenders vest: on the body
+E 0 7537 0 6		*	a defenders helm: over the head
+E 0 7650 0 10		*	a defenders sleeves: on the arms
+E 0 7651 0 7		*	a defenders leggings: on the legs
+E 0 7652 0 11		*	a defenders shield: as a shield
+E 0 7653 0 1		*	a defenders ring: on the left finger
+E 0 7655 0 12		*	a defenders cape: about the shoulders
+E 0 7656 0 3		*	a defenders cloak: around the neck
+E 0 7657 0 9		*	a defenders gloves: on the hands
+E 0 7658 0 13		*	a defenders belt: around the waist
+E 0 7659 0 14		*	a defenders bracer: on the left wrist
+E 0 7660 0 8		*	a defenders pair of boots: on the feet
+M 0 7523 30 7614 1	* a troubadour (Crowded market)
+E 0 7513 0 17		*	a lute: held in the hands
+M 0 7535 10 7614 1	* a Defender of Gerighelm (Crowded market)
+E 0 7537 0 6		*	a defenders helm: over the head
+E 0 7538 0 16		*	a defenders sword: wielded
+E 0 7650 0 10		*	a defenders sleeves: on the arms
+E 0 7651 0 7		*	a defenders leggings: on the legs
+E 0 7652 0 11		*	a defenders shield: as a shield
+E 0 7653 0 1		*	a defenders ring: on the left finger
+E 0 7654 0 5		*	a defenders vest: on the body
+E 0 7655 0 12		*	a defenders cape: about the shoulders
+E 0 7656 0 3		*	a defenders cloak: around the neck
+E 0 7657 0 9		*	a defenders gloves: on the hands
+E 0 7658 0 13		*	a defenders belt: around the waist
+E 0 7659 0 14		*	a defenders bracer: on the left wrist
+E 0 7660 0 8		*	a defenders pair of boots: on the feet
+M 0 7522 5 7622 1	* a citizen of Gerighelm (Pair of paths)
+E 0 7515 0 16		*	an umbrella: wielded
+M 0 7521 5 7623 1	* a citizen of Gerighelm (House)
+E 0 7555 0 16		*	a mace: wielded
+M 0 7523 30 7639 1	* a troubadour (Crowded market)
+E 0 7514 0 17		*	a harp: held in the hands
+M 0 7523 30 7640 1	* a troubadour (Crowded market)
+E 0 7513 0 17		*	a lute: held in the hands
+M 0 7530 25 7641 10	* a Gerighelm cityguard (Crowded market)
+E 0 7524 0 1		*	Gerighelm guard ring: on the left finger
+E 0 7529 0 5		*	a Gerighelm vest: on the body
+E 0 7535 0 16		*	a Gerighelm sword: wielded
+E 0 7526 0 6		*	a pair of Gerighelm guard sleeves: over the head
+M 0 7524 4 7641 1	* an old biddy (Crowded market)
+E 0 7523 0 16		*	a sharp fingernail: wielded
+M 0 7525 4 7641 1	* an old coot (Crowded market)
+M 0 7526 5 7641 1	* a little boy (Crowded market)
+E 0 7516 0 16		*	a stick: wielded
+M 0 7527 5 7641 1	* a little girl (Crowded market)
+E 0 7518 0 17		*	a doll: held in the hands
+M 0 7523 30 7641 1	* a troubadour (Crowded market)
+E 0 7514 0 17		*	a harp: held in the hands
+M 0 7523 30 7642 1	* a troubadour (Crowded market)
+E 0 7513 0 17		*	a lute: held in the hands
+M 0 7524 4 7643 1	* an old biddy (Crowded market)
+M 0 7525 4 7643 1	* an old coot (Crowded market)
+M 0 7526 5 7643 1	* a little boy (Crowded market)
+E 0 7516 0 16		*	a stick: wielded
+M 0 7527 5 7643 1	* a little girl (Crowded market)
+M 0 7523 30 7643 1	* a troubadour (Crowded market)
+E 0 7514 0 17		*	a harp: held in the hands
+M 0 7523 30 7644 1	* a troubadour (Crowded market)
+E 0 7513 0 17		*	a lute: held in the hands
+M 0 7523 30 7645 1	* a troubadour (Crowded market)
+E 0 7514 0 17		*	a harp: held in the hands
+M 0 7523 30 7646 1	* a troubadour (Crowded market)
+E 0 7513 0 17		*	a lute: held in the hands
+M 0 7523 30 7647 1	* a troubadour (On the bridge)
+M 0 7523 30 7649 1	* a troubadour (The market)
+E 0 7514 0 17		*	a harp: held in the hands
+M 0 7535 10 7654 1	* a Defender of Gerighelm (On the path)
+E 0 7537 0 6		*	a defenders helm: over the head
+E 0 7538 0 16		*	a defenders sword: wielded
+E 0 7650 0 10		*	a defenders sleeves: on the arms
+E 0 7651 0 7		*	a defenders leggings: on the legs
+E 0 7652 0 11		*	a defenders shield: as a shield
+E 0 7653 0 1		*	a defenders ring: on the left finger
+E 0 7654 0 5		*	a defenders vest: on the body
+E 0 7655 0 12		*	a defenders cape: about the shoulders
+E 0 7656 0 3		*	a defenders cloak: around the neck
+E 0 7657 0 9		*	a defenders gloves: on the hands
+E 0 7658 0 13		*	a defenders belt: around the waist
+E 0 7659 0 14		*	a defenders bracer: on the left wrist
+E 0 7660 0 8		*	a defenders pair of boots: on the feet
+M 0 7524 4 7660 1	* an old biddy (Market)
+E 0 7523 0 16		*	a sharp fingernail: wielded
+M 0 7525 4 7660 1	* an old coot (Market)
+M 0 7526 5 7660 1	* a little boy (Market)
+E 0 7516 0 16		*	a stick: wielded
+M 0 7527 5 7660 1	* a little girl (Market)
+M 0 7535 10 7662 1	* a Defender of Gerighelm (Market)
+E 0 7537 0 6		*	a defenders helm: over the head
+E 0 7538 0 16		*	a defenders sword: wielded
+E 0 7650 0 10		*	a defenders sleeves: on the arms
+E 0 7651 0 7		*	a defenders leggings: on the legs
+E 0 7652 0 11		*	a defenders shield: as a shield
+E 0 7653 0 1		*	a defenders ring: on the left finger
+E 0 7654 0 5		*	a defenders vest: on the body
+E 0 7655 0 12		*	a defenders cape: about the shoulders
+E 0 7656 0 3		*	a defenders cloak: around the neck
+E 0 7657 0 9		*	a defenders gloves: on the hands
+E 0 7658 0 13		*	a defenders belt: around the waist
+E 0 7659 0 14		*	a defenders bracer: on the left wrist
+E 0 7660 0 8		*	a defenders pair of boots: on the feet
+M 0 7590 10 7664 1	* a servant (The palace)
+M 0 7536 10 7664 1	* a palace guard (The palace)
+E 0 7539 0 1		*	a palace guard ring: on the left finger
+E 0 7540 0 6		*	a palace guard helmet: over the head
+E 0 7541 0 10		*	a pair of palace guard sleeves: on the arms
+E 0 7542 0 7		*	a pair of palace guard leggings: on the legs
+E 0 7543 0 11		*	a palace guard shield: as a shield
+E 0 7544 0 5		*	a palace guard vest: on the body
+E 0 7545 0 12		*	a palace guard cape: about the shoulders
+E 0 7546 0 3		*	a palace guard cloak: around the neck
+E 0 7547 0 9		*	a pair of palace guard gloves: on the hands
+E 0 7548 0 13		*	a palace guard belt: around the waist
+E 0 7549 0 15		*	a palace guard bracer: on the right wrist
+E 0 7550 0 16		*	a palace guard's sword: wielded
+M 0 7590 10 7665 1	* a servant (Inside the Palace)
+M 0 7535 10 7665 1	* a Defender of Gerighelm (Inside the Palace)
+E 0 7537 0 6		*	a defenders helm: over the head
+E 0 7538 0 16		*	a defenders sword: wielded
+E 0 7650 0 10		*	a defenders sleeves: on the arms
+E 0 7651 0 7		*	a defenders leggings: on the legs
+E 0 7652 0 11		*	a defenders shield: as a shield
+E 0 7653 0 1		*	a defenders ring: on the left finger
+E 0 7654 0 5		*	a defenders vest: on the body
+E 0 7655 0 12		*	a defenders cape: about the shoulders
+E 0 7656 0 3		*	a defenders cloak: around the neck
+E 0 7657 0 9		*	a defenders gloves: on the hands
+E 0 7658 0 13		*	a defenders belt: around the waist
+E 0 7659 0 14		*	a defenders bracer: on the left wrist
+E 0 7660 0 8		*	a defenders pair of boots: on the feet
+M 0 7539 1 7666 1	* the palace mage (Treasury)
+E 0 7552 0 17		*	a silver staff: held in the hands
+E 0 7553 0 16		*	the dagger of stabbing: wielded
+M 0 7590 10 7668 1	* a servant (Inside the palace)
+M 0 7536 10 7668 1	* a palace guard (Inside the palace)
+E 0 7539 0 1		*	a palace guard ring: on the left finger
+E 0 7540 0 6		*	a palace guard helmet: over the head
+E 0 7541 0 10		*	a pair of palace guard sleeves: on the arms
+E 0 7542 0 7		*	a pair of palace guard leggings: on the legs
+E 0 7543 0 11		*	a palace guard shield: as a shield
+E 0 7544 0 5		*	a palace guard vest: on the body
+E 0 7545 0 12		*	a palace guard cape: about the shoulders
+E 0 7546 0 3		*	a palace guard cloak: around the neck
+E 0 7547 0 9		*	a pair of palace guard gloves: on the hands
+E 0 7548 0 13		*	a palace guard belt: around the waist
+E 0 7549 0 15		*	a palace guard bracer: on the right wrist
+E 0 7550 0 16		*	a palace guard's sword: wielded
+M 0 7551 3 7670 1	* the palace gardener (Garden)
+E 0 7558 0 16		*	the hoe of destruction: wielded
+M 0 7536 10 7670 1	* a palace guard (Garden)
+E 0 7539 0 1		*	a palace guard ring: on the left finger
+E 0 7540 0 6		*	a palace guard helmet: over the head
+E 0 7541 0 10		*	a pair of palace guard sleeves: on the arms
+E 0 7542 0 7		*	a pair of palace guard leggings: on the legs
+E 0 7543 0 11		*	a palace guard shield: as a shield
+E 0 7544 0 5		*	a palace guard vest: on the body
+E 0 7545 0 12		*	a palace guard cape: about the shoulders
+E 0 7546 0 3		*	a palace guard cloak: around the neck
+E 0 7547 0 9		*	a pair of palace guard gloves: on the hands
+E 0 7548 0 13		*	a palace guard belt: around the waist
+E 0 7549 0 15		*	a palace guard bracer: on the right wrist
+E 0 7550 0 16		*	a palace guard's sword: wielded
+M 0 7550 1 7672 1	* the head of the guard (Great hall)
+E 0 7556 0 16		*	the sword of thunder: wielded
+E 0 7557 0 5		*	the vest of the titans: on the body
+M 0 7590 10 7672 1	* a servant (Great hall)
+M 0 7540 1 7673 1	* the palace priest (The Altar)
+E 0 7554 0 16		*	a {Wh{Yo{Wl{Yy{Ww{Yo{Wr{Yd{x: wielded
+M 0 7590 10 7674 1	* a servant (Servants Quarters)
+M 0 7590 10 7674 1	* a servant (Servants Quarters)
+M 0 7590 10 7675 1	* a servant (Servants Quarters)
+M 0 7552 3 7676 3	* a bodyguard (Throne Room)
+E 0 7561 0 5		*	a uniform: on the body
+E 0 7560 0 16		*	a cutlass: wielded
+M 0 7554 1 7676 1	* the Duke of Gerighelm (Throne Room)
+E 0 7563 0 16		*	a two-handed sword: wielded
+E 0 7564 0 6		*	the Dukes Helm: over the head
+E 0 7567 0 1		*	a wedding ring: on the left finger
+M 0 7555 1 7676 1	* the Duchess of Gerighelm (Throne Room)
+E 0 7565 0 6		*	the Duchesses Tiara: over the head
+E 0 7566 0 1		*	a wedding ring: on the left finger
+M 0 7536 10 7676 1	* a palace guard (Throne Room)
+E 0 7539 0 1		*	a palace guard ring: on the left finger
+E 0 7540 0 6		*	a palace guard helmet: over the head
+E 0 7541 0 10		*	a pair of palace guard sleeves: on the arms
+E 0 7542 0 7		*	a pair of palace guard leggings: on the legs
+E 0 7543 0 11		*	a palace guard shield: as a shield
+E 0 7544 0 5		*	a palace guard vest: on the body
+E 0 7545 0 12		*	a palace guard cape: about the shoulders
+E 0 7546 0 3		*	a palace guard cloak: around the neck
+E 0 7547 0 9		*	a pair of palace guard gloves: on the hands
+E 0 7548 0 13		*	a palace guard belt: around the waist
+E 0 7549 0 15		*	a palace guard bracer: on the right wrist
+E 0 7550 0 16		*	a palace guard's sword: wielded
+E 0 7551 0 8		*	the cooks hat: on the feet
+M 0 7538 1 7680 1	* the cook (Beer cellar)
+E 0 7551 0 6		*	the cooks hat: over the head
+M 0 7531 25 7681 6	* a Gerighelm cityguard (Barracks)
+E 0 7530 0 12		*	a Gerighelm guard cape: about the shoulders
+E 0 7529 0 5		*	a Gerighelm vest: on the body
+E 0 7535 0 16		*	a Gerighelm sword: wielded
+E 0 7524 0 1		*	Gerighelm guard ring: on the left finger
+M 0 7532 15 7681 6	* a Gerighelm cityguard (Barracks)
+E 0 7524 0 1		*	Gerighelm guard ring: on the left finger
+E 0 7529 0 5		*	a Gerighelm vest: on the body
+E 0 7535 0 16		*	a Gerighelm sword: wielded
+E 0 7526 0 10		*	a pair of Gerighelm guard sleeves: on the arms
+M 0 7698 1 7698 1	* a hawk (Pet Shop Warehouse)
+M 0 7699 1 7699 1	* the Death (Sacrifice Room)
+E 0 7699 0 16		*	the {DDeath's {WScythe{x: wielded
+S
+
+#SHOPS
+7592 0 0 0 0 0 120 101 0 23 0 ~
+7593 9 5 1 8 11 120 100 0 23 0 ~
+7594 2 3 4 10 26 150 90 0 23 0 ~
+7595 8 18 5 15 0 100 90 0 23 0 ~
+7597 0 0 0 0 0 100 100 0 23 0 ~
+7604 26 0 0 0 0 130 90 0 23 0 ~
+7610 10 17 3 0 0 180 75 0 23 0 ~
+0
+
+#OLIMITS
+O 7509 2	* a bunch of herbs
+O 7554 5	* a {Wh{Yo{Wl{Yy{Ww{Yo{Wr{Yd{x
+O 7699 2	* the {DDeath's {WScythe{x
+S
+
+#HELPS
+-1 greater gerighelm~
+Converted to standard Merc 2.x by Jason Huang (god@@sure.net)
+Further conversion to Rom 2.4 by Jaceks and Chicken's Den Staff~
+-1 $~
+
+#$

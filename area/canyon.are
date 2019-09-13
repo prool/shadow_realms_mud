@@ -1,0 +1,2641 @@
+#AREADATA
+Name Elemental Canyon~
+VNUMs 9200 9299
+Credits Raff~
+Security 5
+LevelRange 5 30
+End
+
+#MOBILES
+#9201
+mountain climber mountainclimber~
+@eng the mountain climber@rus альпинист~
+@eng A mountain climber is making the same trek that you are.
+@rus Альпинист ползет по склону горы.
+~
+@eng He wants to see what's on the other side of the mountain too.
+@rus Он хочет узнать, что находится по ту сторону гор...
+~
+human~
+ACGT 0 415 0
+3 1 10d5+15 3d25+200 1d4+1 punch
+-7 -7 -7 -8
+JN 0 HIJR 0
+stand stand male 3
+0 0 medium unknown
+#9202
+cyclops~
+@eng the cyclops@rus циклоп~
+@eng A hungry cyclops snarls at you!
+@rus Голодный циклоп хочет сделать из тебя отбивную!
+~
+@eng He looks like he's about to have dinner (maybe it's you?).
+@rus Он мечтает о вкусном обеде... может быть им станешь ты???
+~
+giant~
+ABFQT 0 -510 0
+22 7 10d10+600 22d25+200 6d4+10 smash
+7 7 7 2
+ACDIO A CD 0
+stand stand male 0
+0 0 huge unknown
+#9203
+tiny elemental~
+@eng a tiny elemental@rus ~~крошечный~~ ~~элементал~~~
+@eng A tiny elemental form wanders about.
+@rus Крошечный элементал стоит тут.
+~
+@eng Rather small for an elemental form, looks like a reject.
+@rus Что-то маленькое и непонятное, не на что непохожее стоит здесь.
+~
+human~
+AG 0 0 0
+1 0 2d6+10 1d25+200 1d4+0 none
+-9 -9 -9 -10
+EFNU 0 0 0
+stand stand male 0
+0 0 medium unknown
+#9204
+elemental guardian~
+@eng the elemental guardian@rus ~~элементал~~-~~охранник~~~
+@eng The elemental guardian of the canyon.
+@rus Элементалл-охранник защищает жителей каньона.
+~
+@eng You can't tell which kind of elemental it is, maybe it's a bit 
+o' all of them?
+@rus Он выглядит впечатляюще...пара метров ростом, огромные мышцы...
+Что-то связываться с ним неохота.
+~
+human~
+AB 0 0 0
+20 0 3d9+333 20d25+200 2d8+5 none
+4 4 4 -7
+EFNU 0 0 0
+stand stand male 0
+0 0 medium unknown
+#9205
+small elemental~
+@eng a small elemental@rus ~~маленький~~ ~~элементал~~~
+@eng A small, rather non-descript elemental.
+@rus Маленький и шустрый элементальчик.
+~
+@eng A small elemental, a resident of the canyon.
+@rus Элементальчик носится по каньону.
+~
+human~
+ABG Jp 0 0
+5 0 2d6+60 5d25+200 1d6+1 none
+-5 -5 -5 -9
+EFNUV 0 0 0
+stand stand male 0
+0 0 medium unknown
+#9206
+medium elemental~
+@eng a medium elemental@rus ~~средненький~~ ~~элементал~~~
+@eng A medium-sized elemental.
+@rus Элементал среднего размера.
+~
+@eng A medium elemental, a resident of the canyon.
+@rus Это элементалл просто тусуется здесь.
+~
+human~
+ABG J 10 0
+10 0 2d7+121 10d25+200 2d4+2 none
+-1 -1 -1 -8
+EFNU 0 0 0
+stand stand male 0
+0 0 medium unknown
+#9207
+large elemental~
+@eng a large elemental@rus ~~большой~~ ~~элементал~~~
+@eng A large elemental.
+@rus Большой элементалл.
+~
+@eng A large elemental, a resident of the canyon.
+@rus Это элементал просто тусуется здесь.
+~
+human~
+ABG 0 20 0
+15 0 3d9+208 15d25+200 2d6+3 none
+2 2 2 -7
+EFNU 0 0 0
+stand stand male 0
+0 0 medium unknown
+#9208
+earth elemental ruler~
+@eng the Earth Ruler@rus ~~повелитель~~ {GЗемли{x~
+@eng The Ruler of the earth elementals.
+@rus Правитель земных элементалов.
+~
+@eng He looks as old as the earth itself.  He seems to know all the 
+secrets and knowledge of the Earth.  You can't really tell where 
+he begins and the rock wall ends.
+@rus Он выглядит таким-же старым как сама земля.
+Он знает все тайны земли.
+~
+human~
+ABKQe HJ 0 0
+30 0 6d12+853 30d25+200 5d4+8 none
+9 9 9 -4
+EIKU A 0 0
+stand stand male 0
+0 0 medium unknown
+#9209
+fire elemental ruler~
+@eng the Fire Ruler@rus ~~повелитель~~ {RОгня{x~
+@eng The Ruler of the fire elementals.
+@rus Повелитель огненных элементаллов.
+~
+@eng As you look at him he seems to blend in with the fire in his throne.
+@rus Чистое пламя! Даже подойти страшно.
+~
+human~
+ABKe H 0 0
+30 0 6d12+853 30d25+200 4d6+8 none
+9 9 9 -6
+EFNU A 0 0
+stand stand male 0
+0 0 medium unknown
+#9210
+air elemental ruler~
+@eng The Air Ruler@rus ~~повелитель~~ {CНеба{x~
+@eng The Ruler of the air elementals.
+@rus Повелитель воздушных элементаллов.
+~
+@eng As you peer at him you seem to be looking at the sky itself.
+@rus Он как само небо...Красота!
+~
+human~
+ABKe H 0 0
+30 0 6d12+853 30d25+200 4d6+8 none
+9 9 9 -6
+EFNU A 0 0
+stand stand male 0
+0 0 medium unknown
+#9211
+lightning elemental ruler~
+@eng The Lightning Ruler@rus ~~повелитель~~ {WМолний{x~
+@eng The Ruler of the lightning elementals.
+@rus Повелитель молний грозно смотрит по сторонам.
+~
+@eng As you examine him there is a blinding flash of light and a deafening boom!
+You rub your eyes and look and the ruler is there grinning at you.
+@rus Он сам состоит из молний. Кажется прикоснись к нему и будешь испепелен.
+~
+human~
+ABKe H 0 0
+30 0 6d12+853 30d25+200 4d6+8 none
+9 9 9 -6
+EFNU A 0 0
+stand stand male 0
+0 0 medium unknown
+#9212
+water elemental ruler~
+@eng The Water Ruler@rus ~~повелитель~~ {BВоды{x~
+@eng The Ruler of the water elementals.
+@rus Повелитель водных элементаллов.
+~
+@eng As you look at him he changes to mist, which swirls around you.  Just
+as you get scared, it reforms in elemental form.
+@rus Он состоит из воды и кажется он весь течет.
+~
+water fowl~
+ABKe Hp 0 0
+30 0 6d12+853 30d25+200 4d6+8 none
+9 9 9 -6
+EFNR A 0 0
+stand stand male 0
+0 0 medium unknown
+#9214
+water puddle elemental]~
+@eng a puddle@rus лужа~
+@eng A small puddle of water elemental.
+@rus Маленький водяной элементальчик.
+~
+@eng It trickles along the ground and gets your feet wet.
+@rus Эта лужа струится около ваших ног. Ой!!! Вы промокли!!!
+~
+water fowl~
+AG p 0 0
+8 0 2d7+96 8d25+200 1d7+2 none
+-3 -3 -3 -9
+EFNRV 0 0 0
+stand stand female 0
+0 0 medium unknown
+#9215
+fire flame elemental~
+@eng a flame@rus {R~~огонек~~{x~
+@eng A small flickering flame elemental.
+@rus Огненный элементальчик.
+~
+@eng It smolders along the grass aimlessly.
+@rus Он бесцельно тлеет.
+~
+human~
+AG 0 0 0
+4 0 2d7+46 4d25+200 1d5+1 none
+-6 -6 -6 -9
+EFNU 0 0 0
+stand stand male 0
+0 0 medium unknown
+#9216
+snowflake snow flake ice elemental~
+@eng a small snowflake@rus ~~маленькая~~ ~~снежинка~~~
+@eng A frozen snowflake water elemental.
+@rus Замороженный водяной элементальчик.
+~
+@eng It looks a little blue.
+@rus Маленькая голубая снежинка.
+~
+human~
+AG Jp 415 0
+3 0 2d6+35 3d25+200 1d6+0 none
+-7 -7 -7 -10
+EFNUV 0 0 0
+stand stand none 0
+0 0 medium unknown
+#9217
+pebble rock earth stone elemental~
+@eng a small rock@rus ~~камешек~~~
+@eng A small rock.
+@rus Окаменевший земляной элементалл.
+~
+@eng It seems to be a small living pebble!
+@rus Это маленькая живая галька!!!!
+~
+human~
+AG J 0 0
+3 0 2d6+35 3d25+200 1d6+0 none
+-7 -7 -7 -10
+EFNU 0 0 0
+stand stand none 0
+0 0 medium unknown
+#9218
+spark lightning energy elemental~
+@eng a small spark@rus ~~маленькая~~ ~~искорка~~~
+@eng A small spark of electricity fizzles here.
+@rus Маленькая электрическая искорка.
+~
+@eng Zipping from place to place at the speed of light is tough work.
+@rus Она мчится со скоростью света.
+~
+human~
+AG 0 0 0
+4 0 2d7+46 4d25+200 1d5+1 none
+-6 -6 -6 -9
+EFNU 0 0 0
+stand stand female 0
+0 0 medium unknown
+#9219
+acid blob elemental~
+@eng a small blob of acid@rus ~~маленькая~~ ~~капля~~ кислоты~
+@eng A small blob of acid aimlessly eats away at the stone.
+@rus Маленькая капля кислоты бесцельно разъедает камень.
+~
+@eng The magical blob of acid is a cross between lightning and water.
+@rus Маленькая капля кислоты что-то среднее между молнией и водой.
+~
+human~
+AG 0 0 0
+9 0 2d6+110 9d25+200 1d8+2 none
+-2 -2 -2 -8
+EFNU 0 0 0
+stand stand female 0
+0 0 medium unknown
+#9220
+lava elemental~
+@eng a lava beast@rus ~~лавовая~~ ~~тварь~~~
+@eng A lava beast spews from place to place.
+@rus Лавовая тварь прыгает с места на место.
+~
+@eng The magical lava beast is a cross between fire and earth.
+@rus Магическая лавовая тварь что-то среднее между огнем и землей.
+~
+human~
+AG J 0 0
+8 0 2d7+96 8d25+200 1d7+2 none
+-3 -3 -3 -9
+EFNU 0 0 0
+stand stand female 0
+0 0 medium unknown
+#9221
+mud elemental~
+@eng a mud monster@rus ~~грязевой~~ ~~монстр~~~
+@eng A mud monster slops around.
+@rus Грязевой монстр оглядывается вокруг.
+~
+@eng The magical mud monster is a cross between water and earth.
+@rus Магический грязевой монстр что-то среднее между водой и землей.
+~
+human~
+AG J 0 0
+7 0 2d6+85 7d25+200 1d8+1 none
+-4 -4 -4 -9
+EFNU 0 0 0
+stand stand male 0
+0 0 medium unknown
+#9222
+mist elemental~
+@eng an elemental mist@rus ~~элементальный~~ ~~туман~~~
+@eng The air is magically misty here.
+@rus Облако магического тумана висит здесь.
+~
+@eng The magical mist is a cross between water and air.
+@rus Магический туман что-то среднее между водой и воздухом.
+~
+human~
+AG p 0 0
+6 0 2d7+71 6d25+200 1d7+1 none
+-4 -4 -4 -9
+EFNUV 0 0 0
+stand stand male 0
+0 0 medium unknown
+#9223
+particle elemental~
+@eng a particle@rus ~~частица~~~
+@eng A sub-atomic particle is too small for you to see.
+@rus Субатомная частица слишком маленькая, чтобы ее заметить.
+~
+@eng The magical manifestation of energy.
+@rus Это частица энергии.
+~
+human~
+AG J 0 0
+5 0 2d6+60 5d25+200 1d6+1 none
+-5 -5 -5 -9
+EFNU 0 0 0
+stand stand female 0
+0 0 medium unknown
+#9224
+dust elemental~
+@eng a dust cloud@rus ~~пылевой~~ ~~элементал~~~
+@eng A dust cloud blowing by makes you sneeze.
+@rus Пылевой элементалл может помешать тебе дышать.
+~
+@eng The magical dust cloud is a cross between air and earth.
+@rus Магическая пыль что-то среднее между землей и воздухом.
+~
+human~
+AGS DFJ 0 0
+6 0 2d6+60 6d25+200 1d6+1 none
+-5 -5 -5 -9
+BEFJNU 0 0 0
+stand stand male 0
+0 0 medium unknown
+#9225
+eddie elemental~
+@eng an eddie@rus ~~эдди~~~
+@eng A small eddie current swirls junk around here.
+@rus Эдди шарахается здесь.
+~
+@eng The magical eddie current is a manifestation of an air elemental.
+@rus Магический Эдди - это еще одно проявление воздушного элементала.
+~
+human~
+AGS DF 0 0
+2 0 2d6+10 2d25+200 1d4+0 none
+-9 -9 -9 -10
+BEFJNU 0 0 0
+stand stand male 0
+0 0 medium unknown
+#9226
+blue flame~
+@eng the Blue Flame@rus {C~~голубое~~ {x~~пламя~~~
+@eng The Blue Flame burns mysteriously here.
+@rus {CГолубое пламя{x может обжечь тебя.
+~
+@eng As you look you see what seems to be a face and almost a 
+humanoid figure somehow trapped in the fire.
+@rus Вы пристально смотрите на это. По фигуре похоже на гуманоида,
+охваченного огнем.
+~
+human~
+ABG 0 -100 0
+26 0 5d10+600 26d25+200 3d7+7 none
+7 7 7 -6
+EFNU 0 0 0
+stand stand none 0
+0 0 medium unknown
+#9227
+magneto~
+@eng the Magneto@rus магнето~
+@eng The Magneto considers zapping you for the heck of it.
+@rus Магнето осматривает тебя.
+~
+@eng A humanoid figure seems to be trapped in the field of the Magneto.
+@rus Это магнитный гуманоид.
+~
+human~
+ABG 0 -150 0
+22 0 5d10+400 22d25+200 4d4+6 none
+5 5 5 -7
+EFNU 0 0 0
+stand stand none 0
+0 0 medium unknown
+#9228
+ice bandit~
+@eng the Ice Bandit@rus {C~~ледяной~~ {C~~разбойник~~{x~
+@eng The Ice Bandit strikes cold fear in your heart.
+@rus Ледяной разбойник взглядом замораживает твое сердце.
+~
+@eng A humanoid figure encased in ice but still apparently alive.
+@rus Это обледеневший гуманоид, но он еще жив!!!
+~
+human~
+ABGH P -250 0
+24 0 5d10+500 24d25+200 2d10+6 none
+6 6 6 -6
+EFNU 0 0 0
+stand stand male 0
+0 0 medium unknown
+#9229
+rock monster~
+@eng the Rock Monster@rus ~~горный~~ ~~монстр~~~
+@eng The Rock Monster considers you in stoney silence.
+@rus Горный монстр готов тебя затоптать.
+~
+@eng A humanoid figure trapped in stone seems alive.
+@rus Это окаменевший гуманоид, но он жив!!!
+~
+human~
+ABG 0 -310 0
+23 0 5d10+450 23d25+200 3d6+6 none
+6 6 6 -6
+EFNU 0 0 0
+stand stand male 0
+0 0 medium unknown
+#9230
+hurricane~
+@eng the Hurricane@rus ~~Ураган~~~
+@eng A Hurricane rages across the sky.
+@rus Ураган готов поднять тебя в небо.
+~
+@eng A humanoid figure is trapped in the rushing wind.
+@rus В ветре угадывается человеческая фигура.
+~
+human~
+ABG P -10 0
+28 0 6d12+703 28d25+200 5d4+8 none
+8 8 8 -6
+EFNU 0 0 0
+stand stand male 0
+0 0 medium unknown
+#9231
+magician~
+@eng an elemental magician@rus ~~элементальный~~ ~~волшебник~~~
+@eng An elemental magician seeks magical stones for a spell.
+@rus Элементный волшебник держит в руках волшебный камень.
+~
+@eng The elemental magician has come here in search of the fabled
+Stone of Surrender which can be used to render opponents senseless.
+@rus Волшебник ишет Камень Сдачи, чтобы предотвратить бессмысленную резню.
+~
+human~
+ABGR B -50 0
+17 0 3d9+233 17d25+200 1d12+3 none
+2 2 2 -4
+FU 0 0 0
+stand stand male 0
+0 0 medium unknown
+#9232
+rainbow warrior~
+@eng a rainbow warrior@rus ~~воин~~ {YР{Rа{Mд{Gу{Bг{Cи{x~
+@eng A warrior of the Rainbow Cult swears his loyalty.
+@rus Воин Культа Радуги осматривается вокруг.
+~
+@eng The Rainbow Cult has received special powers for their service to 
+the elemental forces.
+@rus Культ Радуги получил дополнительные силы для использования сил природы.
+~
+human~
+AGQ 0 150 0
+18 0 3d9+283 18d25+200 2d6+4 none
+3 3 3 -6
+EIKU 0 0 0
+stand stand male 0
+0 0 medium unknown
+#9233
+illusionist~
+@eng an illusionist@rus ~~иллюзионист~~~
+@eng The illusionist seeks the aid of the elemental forces.
+@rus Иллюзионист призывает силы природы.
+~
+@eng He seeks their aid for a powerful new spell of deception.
+<wielded>            The Sword of Illusions
+@rus Он ищет в себе силы для написания нового заклинания.
+<вооружение>           {W(sword){x Меч Иллюзии [{gидеальное{x]
+~
+human~
+ABGR 0 -50 0
+12 0 2d8+134 12d25+200 1d8+2 none
+-1 -1 -1 -6
+FU 0 0 0
+stand stand male 12
+0 0 medium unknown
+#9234
+alchemist~
+@eng an alchemist@rus алхимик~
+@eng An alchemist wanders by in search of magical herbs.
+@rus Алхимик смешивает чего-то подозрительное.
+~
+@eng Rare herbs are rumored to grow only in the canyon.
+@rus Как говорят, все редкие травы растут в этом каньоне.
+~
+human~
+AGS DF -50 0
+13 0 2d10+150 13d25+200 1d10+3 none
+0 0 0 -7
+BEFJNU 0 0 0
+stand stand male 13
+0 0 medium unknown
+#9235
+baby rainbow dragon~
+@eng a baby rainbow dragon@rus ~~маленький~~ ~~радужный~~ ~~дракон~~~
+@eng A baby rainbow dragon plays among the elements here.
+@rus Маленький радужный дракон играет с элементаллами.
+~
+@eng It's only a baby by dragon standards.
+@rus Это только детеных по драконьим стандартам.
+~
+human~
+ABG DF 0 0
+16 0 3d9+233 16d25+200 2d6+4 none
+2 2 2 -7
+EFNU 0 0 0
+stand stand male 0
+0 0 medium unknown
+#9236
+imp~
+@eng a little imp@rus чертенок~
+@eng A little imp runs along being annoying.
+@rus Чертенок бегает вокруг вас.
+~
+@eng The little bugger steals stuff and is generally obnoxious.
+@rus Проказник любит красть вещи и такой противный!
+~
+human~
+ACGH JPQ -425 0
+5 0 2d6+60 5d25+200 1d6+1 none
+-5 -5 -5 -9
+EFNU 0 0 0
+stand stand male 0
+0 0 medium unknown
+#9237
+HUGE elemental~
+@eng a HUGE elemental@rus ~~ОГРОМНЫЙ~~ ~~элементал~~~
+@eng A HUGE elemental form stands here.
+@rus ОГРОМНЫЙ элементалл стоит тут.
+~
+@eng HUGE, need i say more?
+@rus ОГРОМНЫЙ, что еще сказать?
+~
+human~
+ABG 0 30 0
+20 0 3d9+333 20d25+200 2d8+5 none
+4 4 4 -7
+EFNU 0 0 0
+stand stand male 0
+0 0 medium unknown
+#9238
+vendor~
+@eng the elixir vendor@rus ~~продавец~~ эликсиров~
+@eng A vendor is willing to sell you elixirs.
+@rus Продавец эликсиров хочет тебе что-то предложить.
+~
+@eng I WOULD NOT suggest you attack me ...!
+@rus Не стоит нападать на него.
+~
+human~
+ABEGRe 0 550 0
+30 0 6d12+778 30d25+200 5d4+7 none
+9 9 9 -1
+FU ACD 0 0
+stand stand male 27
+0 0 medium unknown
+#9239
+magician~
+@eng The Combat Magician@rus ~~боевой~~ ~~маг~~~
+@eng A Magician seeks magical stones for some powerfull combat spells.
+@rus Маг готовый обучить тебя боевым заклятиям.
+~
+@eng The elemental magician has come here in search of the fabled
+Stone of Surrender which can be used to render opponents senseless.
+@rus Это каменный элементалл.Кажется магия а не камень его основная составляющая.
+~
+human~
+ABGKRe D -50 0
+46 30 3d9+8233 17d9+4100 10d12+33 none
+12 12 12 4
+F AC 0 0
+stand stand male 35
+0 0 medium unknown
+#9240
+old magician~
+@eng The Old magician@rus ~~старый~~ ~~волшебник~~~
+@eng The Old magician stand here and will sell the magic items.
+@rus Старый волшебник стоит тут и продает магические предметы.
+~
+~
+human~
+ABe DFHlt 850 0
+90 70 1d1+30000 1d1+10000 50d20+100 slash
+0 0 0 0
+CFK ACDQ 0 0
+stand stand male 53
+0 0 medium unknown
+M grall 9201 100~
+#0
+
+#OBJECTS
+#9201
+ring earth~
+@eng the earth ring@rus ~~кольцо~~ земли~
+@eng A dark ring which seems to absorb all the light around it lies here.
+@rus Темное кольцо, поглощающее свет лежит тут.~
+oldstyle~
+furniture I AB
+0 0 0 0 0
+7 50 14 P
+A
+13 -10
+A
+4 1
+A
+3 1
+G none
+#9202
+breastplate stoney breast plate~
+@eng a stoney breastplate@rus ~~каменная~~ ~~броня~~~
+@eng A breastplate made of the stone from deep within the earth lies here.
+@rus Броня, сделанная из камня, лежит на земле.~
+stone~
+armor 0 AD
+10 10 10 2 0
+31 258 62 P
+A
+17 25
+A
+2 -1
+A
+13 50
+A
+5 1
+G none
+#9203
+dagger fiery~
+@eng a fiery dagger@rus ~~горячий~~ ~~кинжал~~~
+@eng A dagger made of fire crackles mysteriously here.
+@rus Кинжал, сделанный из мистического огня, лежит тут.~
+fire~
+weapon A AN
+dagger 3 3 pierce A
+29 54 58 P
+A
+24 -15
+A
+22 10
+G none
+#9204
+cape flame flaming red~
+@eng a flame red cape@rus ~~{Rгорячий{x~~ ~~{Rкрасный{x~~ ~~{Rплащ{x~~~
+@eng A cape made of ethereal red fiber lies neatly folded on the ground here.
+@rus Плащ, созданный  из красной глины, лежит тут и спокойно полыхает.~
+ethereal~
+armor A AK
+9 9 9 3 0
+30 30 60 P
+A
+13 -10
+A
+12 30
+A
+24 -5
+A
+22 5
+A
+19 1
+G none
+#9205
+boots wind~
+@eng the {Cwind{x boot@rus ~~ботинки~~ {Cветра{x~
+@eng A pair of boots that look fast standing still are here.
+@rus Пара летающих ботинок парят над землей.~
+fiber~
+armor G AG
+8 8 8 2 0
+26 10 52 P
+A
+2 1
+G none
+#9206
+helmet hurricane~
+@eng a hurricane helmet@rus ~~шлем~~ урагана~
+@eng A helmet that looks like it has weathered many storms has been set here.
+@rus Шлем, созданный из урагана, лежит тут.~
+iron~
+armor B AE
+9 9 9 3 0
+31 40 62 P
+A
+21 -10
+A
+23 15
+A
+20 2
+G none
+#9207
+sword lightning bolt~
+@eng a sparking lightning sword@rus Искрящийся меч молний~
+@eng A lightning bolt fashioned into a sword spits sparks here.
+@rus Меч, испускающий молнии, лежит на земле.~
+unknown~
+weapon AB AN
+sword 3 3 slash G
+25 100 50 P
+A
+12 -20
+A
+24 10
+A
+23 10
+A
+22 -8
+A
+21 -8
+G none
+#9208
+shield electric~
+@eng an electric shield@rus ~~электрический~~ ~~щит~~~
+@eng A shield made entirely of energy buzzes here.
+@rus Щит, сделанный из электрических разрядов, лежит на земле.~
+unknown~
+armor B AJ
+9 9 9 4 0
+28 80 56 P
+A
+12 40
+A
+16 3
+A
+21 -8
+A
+23 7
+G none
+#9209
+girth icy~
+@eng an icy girth@rus {C~~ледяной~~ ~~пояс~~{x~
+@eng A girth made of magical ice has been left here.
+@rus Пояс из мистического льда лежит тут.~
+ice~
+armor GY AL
+10 10 10 3 0
+31 100 62 P
+A
+20 20
+A
+22 -25
+A
+24 30
+A
+5 -2
+G none
+#9210
+cloak waterfall~
+@eng a {bwaterfall{x cloak@rus ~~накидка~~ {bводопада{x~
+@eng A cloak fashioned from a small magical waterfall is here.
+@rus Накидка, напоминаяющая водопад лежит тут.~
+unknown~
+armor 0 AK
+9 9 9 2 0
+30 60 60 P
+A
+14 -5
+F
+A 0 0 p
+G none
+#9211
+amulet elemental~
+@eng an elemental amulet@rus ~~амулет~~ элементалей~
+@eng An amulet depicting fire, water, lightning, earth, and air lies here.
+@rus Амулет с изображениями стихий лежит тут.~
+unknown~
+jewelry A AC
+0 0 0 0 0
+20 10 24 P
+A
+20 2
+G none
+#9212
+bracelet elemental~
+@eng an elemental bracelet@rus ~~браслет~~ элементалей~
+@eng A bracelet made of elemental magic lies here.
+@rus Элементальный магический браслет лежит на земле.~
+unknown~
+gem 0 AM
+0 0 0 0 0
+20 40 40 P
+A
+13 20
+G none
+#9213
+armband platinum band~
+@eng a platinum arm band@rus ~~платиновые~~ ~~наручные~~ ~~повязки~~~
+@eng A platinum arm band, once worn by the Cyclops, lie here.
+@rus Платиновые циклопьи повязки лежат тут.~
+platinium~
+armor 0 AM
+9 9 9 2 0
+26 120 52 P
+A
+5 1
+A
+4 -2
+A
+1 1
+G none
+#9214
+legbands platinum bands~
+@eng some platinum leg bands@rus ~~платиновые~~ ~~ножные~~ ~~повязки~~~
+@eng A pair of platinum leg bands, once worn by the Cyclops, lie here.
+@rus Платиновые циклопьи повязки лежат тут.~
+platinium~
+armor 0 AF
+9 9 9 2 0
+26 40 52 P
+A
+5 1
+A
+3 -2
+A
+2 1
+G none
+#9215
+wand~
+@eng elemental wand of fire@rus ~~элементальный~~ ~~посох~~ {Rогня{x~
+@eng A fire wand lies forgotten on the ground.
+@rus Элементальный посох лежит на земле.~
+wood~
+wand A AO
+15 3 3 'fireball' 0
+16 70 32 P
+G none
+#9216
+staff ice~
+@eng an ice staff@rus ~~посох~~ {Cльда{x~
+@eng An ice staff lies forgotten on the ground.@rus Ледяной посох брошен тут.~
+ice~
+wand A AO
+12 3 3 'frost breath' 0
+25 70 50 P
+G none
+#9217
+rod earthquake~
+@eng an elemental rod of earthquake@rus ~~элементальная~~ ~~палочка~~ {rземлетрясения{x~
+@eng An earthquake rod lies forgotten on the ground.@rus Землетрясная палочка валяется тут.~
+ebony~
+wand A AO
+7 3 3 'earthquake' 0
+7 70 14 P
+G none
+#9218
+wand air wind~
+@eng elemental wand of wind and air@rus ~~элементальная~~ ~~палочка~~ {Wветра и воздуха{x~
+@eng An air wand lies forgotten on the ground.@rus Воздужная палочка лежит на земле.~
+wood~
+wand A AO
+11 1 1 'gas breath' 0
+27 70 54 P
+G none
+#9219
+wand~
+@eng elemental wand of lightning@rus ~~элементальная~~ ~~палочка~~ {Mмолний{x~
+@eng A lightning wand lies forgotten on the ground.@rus Малочка молний лежит на земле.~
+ebony~
+wand A AO
+9 1 1 'lightning bolt' 0
+7 70 14 P
+G none
+#9220
+stone club two-handed~
+@eng a stone club@rus каменная дубинка~
+@eng A large stone club lies on the ground.@rus Каменная дубинка лежит на земле.~
+stone~
+weapon 0 AN
+mace 3 6 pound F
+13 160 26 P
+A
+19 1
+A
+18 -2
+G none
+#9221
+lode load lodestone loadstone stone~
+@eng a lodestone@rus магнит~
+@eng A dull red rock lies here amid the weeds.@rus Обломок тусклой красной скалы лежит среди травы.~
+stone~
+wand 0 AO
+19 2 2 'harm' 0
+13 20 26 P
+A
+1 -2
+G none
+#9222
+lava lamp~
+@eng a lava lamp@rus ~~лавовая~~ ~~лампа~~~
+@eng A lantern which glows with a red glowing light has been dumped.@rus Лампа, светящаяся красным светом, брожена на землю.~
+oldstyle~
+light A A
+0 0 70 0 0
+0 40 0 P
+G none
+#9223
+energy scroll~
+@eng an energy scroll@rus ~~свиток~~ энергии~
+@eng A scroll of energy replacement lies here.@rus Свиток энергии лежит на земле.~
+paper~
+scroll B A
+19 'cure critical' 'refresh' '' ''
+5 10 10 P
+G none
+#9224
+water jug~
+@eng a water jug@rus ~~кувшин~~ для воды~
+@eng A large but surprisingly light jug of water stands here.@rus Большой кувшин цвета воды стоит здесь.~
+glass~
+drink 0 A
+150 150 'water' 0 0
+0 20 0 P
+G none
+#9225
+dust~
+@eng magic dust@rus ~~волшебная~~ ~~пыль~~~
+@eng A pile of dust of appearance has gathered here.@rus Кучка пыли собралась здесь.~
+unknown~
+pill 0 A
+20 'detect invis' '' '' ''
+0 10 0 P
+G none
+#9226
+flame lance~
+@eng a flame lance@rus ~~огненная~~ ~~пика~~~
+@eng A lance of blue flame burns the ground around it.@rus Пика синего пламени жжет землю вокруг себя.~
+flame~
+weapon A AN
+lance 2 7 thrust A
+29 140 58 P
+A
+18 1
+A
+19 3
+A
+13 -20
+G none
+#9227
+icicle dagger ice~
+@eng an icicle@rus сосулька~
+@eng A glowing icicle dagger lies here amid a patch of frost.@rus Сосулька в виде кинжала лежит на земле.~
+ice~
+weapon A AN
+dagger 5 4 pierce B
+28 10 56 P
+A
+1 -1
+A
+19 3
+G none
+#9228
+avalanche~
+@eng the avalanche@rus лавина~
+@eng An avalanche is about to crush you!@rus Лавина обрушивается на вас!!!~
+unknown~
+weapon 0 AN
+exotic 1 25 blast 0
+24 160 48 P
+A
+18 -3
+A
+16 5
+G none
+#9229
+star morning~
+@eng the morning star@rus ~~утренняя~~ ~~звезда~~~
+@eng A chain with a star on the end lies here.@rus Цепь со звездой на конце лежит здесь.~
+wood~
+weapon A AN
+flail 3 3 crush 0
+23 170 46 P
+A
+20 4
+G none
+#9230
+shock whip~
+@eng the Shock Whip@rus ~~хлыст~~ потрясения~
+@eng A whip hums innocently too itself.@rus Хлыст рассекает воздух около вас.~
+leather~
+weapon B AN
+whip 3 8 whip G
+20 100 40 P
+A
+12 -60
+A
+1 4
+A
+6 -1
+A
+3 -1
+A
+4 -1
+A
+2 -1
+A
+5 -1
+A
+19 4
+G none
+#9231
+elixir anti~
+@eng anti-cyclops elixir@rus ~~противоциклопный~~ ~~эликсир~~~
+@eng An elixir to ward off cyclopi has been bought then left behind here.@rus Эликсир избегания боя с циклопами кем-то куплен, а после брошен.~
+glass~
+potion 0 AO
+15 'invisibility' '' '' ''
+0 10 150 P
+G none
+#9232
+wand~
+@eng {wWand of {RF{ri{Rr{re{x@rus ~~{Rогненный{x~~ ~~жезл~~~
+@eng {wWand of {RF{ri{Rr{re{x lies on the groud.@rus {RО{rг{Rн{rе{Rн{rн{Rы{rй {wжезл{x лежит на земле.~
+unknown~
+wand A AO
+7 5 5 'fireball' 0
+5 5 400 P
+G none
+#9233
+wand~
+@eng {wWand of {MF{ma{Me{mr{Mi{me {Mf{mi{Mr{me{x@rus ~~жезл~~ {Mрозового огня{x~
+@eng {wWand of {MF{ma{Me{mr{Mi{me {Mf{mi{Mr{me{x lies on the ground.@rus {wЖезл {MР{mо{Mз{mо{Mв{mо{Mг{mо {Mо{mг{Mн{mя{x лежит на земле.~
+unknown~
+wand G AO
+30 10 10 'faerie fire' 0
+8 3 150 P
+G none
+#9234
+wand~
+@eng {wWand of {DE{rV{DI{rL{x@rus ~~жезл~~ {Dз{rл{Dа{x~
+@eng {wWand of {DE{rV{DI{rL{x lies on the ground.@rus {wЖезл {DЗ{rЛ{DА{x лежит на земле.~
+wood~
+wand CGJ AO
+20 15 15 'protection good' 0
+10 1 250 P
+G none
+#9235
+wand~
+@eng {wWand of {BG{CO{BO{CD{x@rus ~~жезл~~ {Bд{Cо{Bб{Cр{Bа{x~
+@eng {wWand of {BG{CO{BO{CD{x lies on the ground.@rus {wЖезл {BД{CО{BБ{CР{BА{x лежит на земле.~
+wood~
+wand GIK AO
+20 15 15 'protection evil' 0
+10 1 230 P
+G none
+#9236
+staff~
+@eng {wStaff of {Ys{ya{Yn{yd{x@rus ~~посох~~ {Yп{yе{Yс{yк{Yа{x~
+@eng {wStaff of {Ys{ya{Yn{yd{x lies on the ground.@rus {WПосох {Yп{yе{Yс{yк{Yа{x лежит на земле.~
+wood~
+staff CG AO
+15 3 3 'sand storm' 0
+20 1 120 P
+G none
+#0
+
+#ROOMS
+#9201
+@eng A Mountain Path@rus Горная тропинка~
+@eng You are on a mountain path which ascends a steep mountainside.  The trail
+curves around the mountain so that you cannot really see what lies ahead.
+You do sense great power though coming from the area behind the mountain.
+@rus Ты стоишь на горной тропинке, которая ведет в горы. Скалы загораживают 
+обзор, но ты чувствуешь мощь, исходящую из-за горы.
+~
+0 0 mountain
+D0 0
+~
+~
+Z -1 5267
+D4 0
+~
+~
+Z -1 9202
+S
+#9202
+@eng A Mountain Path@rus Горная тропинка~
+@eng You are on a rocky mountain path leading up and around a steep mountainside.
+You sense a glow from the area beyond the mountain, which you cannot see yet.
+@rus  Ты стоишь на горной тропинке, которая ведет в горы. Из-за горы виднеется 
+какое-то свечение.
+~
+0 0 mountain
+D0 0
+Gateway to abysis.
+~
+~
+Z -1 25000
+D4 0
+~
+~
+Z -1 9203
+D5 0
+~
+~
+Z -1 9201
+S
+#9203
+@eng Mountainside Tombs@rus Могила на склоне горы~
+@eng There are a few stone heaps here and there, the tombs of those who did not
+last the arduous journey up the mountain.  Curiously you notice a few
+uncovered bodies which don't seem to have died of exhaustion.  The path curves
+east around the mountain.
+@rus 
+Ты видишь могилы ({Dstones tombs{x) тех, кто не дошел до вершины.  Странно... 
+тут ты видишь тушки({ybodies{x) умерших не от истощения. Тропинка поднимается 
+в горы.
+~
+0 0 mountain
+E ''
+bodies body dead~
+@eng They look as if their necks have been broken and their flesh, chewed.
+@rus Они выглядят так, как будто им разбили головы, а самих пожевали.
+~
+E ''
+heaps stones tombs~
+@eng You are sure glad that YOU aren't under one of those piles!
+Many of the tombstones have the same name on them, 'Raff'.  He must come
+here a lot.
+@rus Как вы рады что не под одним из них! Многие Могильники подписаны одним и 
+тем же именем РАФФ. Видимо он часто здесь бывал.
+~
+D4 0
+~
+~
+Z -1 9204
+D5 0
+~
+~
+Z -1 9202
+S
+#9204
+@eng A Blind Curve on the Mountain Path.@rus Тропинка на склоне~
+@eng This looks like a normal mountain path, but it is NOT!  This section of the
+path is habitated by a huge (and of course, man-eating) Cyclops.  The path
+makes its final ascent to an overlook.
+@rus Это напоминает обычную тропинку. Но НЕТ!!! Здесь обитает Циклоп... он конечно 
+людоед... Дорожка, после подъема заканчивается.
+~
+0 0 mountain
+D4 0
+~
+~
+Z -1 9205
+D5 0
+~
+~
+Z -1 9203
+S
+#9205
+@eng Vista@rus Перспектива~
+@eng This is a stunning vista overlooking a canyon.  There is a sign here that says:
+	BEHOLD -- ELEMENTAL CANYON
+Fire leaps up from firepits in the western part of the canyon.  The sky looks
+funny, and the air seems hazy to the northwest.  Electricity sparks
+intermittently in the northeast.  To the east you see a strong, magic-looking
+river flowing through the canyon.  Also to the east you spy a cave entrance
+leading into the canyon wall.  The path descends to the north to another
+overlook.
+@rus Это ошеломляющая перспектива, огибающая каньон. Небольшой знак вкопанный 
+здесь, сообщает:
+{y================================{x
+{y=  {RПЕРЕД КАНЬОНОМ ЭЛЕМЕНТАЛОВ{y  ={x
+{y================================{x
+{RОгненные вспышки{x из котлованов видны в западной части каньона.  {CНебесные 
+просторы{x и смутный воздух - в северо-западной части. {CЭлектрические искры{x 
+мелькают на северо-востоке. На востоке, ты видишь большую, волшебную {cреку{x, 
+текущую через весь каньон. Также на востоке, ты замечаешь вход в {Dпещеры{x, 
+вырубленный в стене каньона. Дорога огибает каньон с севера.
+~
+0 0 mountain
+D0 0
+~
+~
+Z -1 9206
+D5 0
+~
+~
+Z -1 9204
+S
+#9206
+@eng The Overlook@rus Тропинка~
+@eng You see various elemental servants wandering around the canyon.  The noise of
+humming coming from the canyon gets louder.  The path makes a steep descent
+into the canyon here.
+@rus Ты видишь различных элементалов, бродящих вокруг каньона. {YЖужжание{x, 
+исходящее из каньона, становится громче. Дорога круто спускается 
+в каньон.
+ 
+~
+0 0 mountain
+D2 0
+~
+~
+Z -1 9205
+D5 0
+~
+~
+Z -1 9207
+S
+#9207
+@eng Entrance to Elemental Canyon@rus Вход в каньон элементалов~
+@eng You are awed by the sounds and sights of great powers at works here.
+Elemental servants bustle back and forth doing the biddings of the elemental
+rulers.  You see a sort of cross roads to the north, and you can climb up to
+the overlook here.
+@rus Тебя  благославляют  звуки и  взгляды {wвеликих держав{x, находящихся тут.
+Элементалы-слуги бегают взад и вперед и занимаются чем только не попадя.
+На  севере ты видишь, своего рода перекрестки.  Ты можешь  вскарабкаться 
+наверх, на гору. 
+~
+0 0 forest
+D0 0
+~
+~
+Z -1 9209
+D4 0
+~
+~
+Z -1 9206
+S
+#9208
+@eng The Floor of the Canyon@rus Дно каньона~
+@eng Various elemental forms wander the floor of the canyon.  Some seem to be
+going about their business, while others seem to have no business at all.
+In general, it is calm, yet there is always a incessant buzz of things
+going on about.  The canyon continues north and east.
+@rus 
+Различные формы элементалов бродят по дну каньона. Некоторые кажется, заняты
+своими делами, тогда как  другие  ничем  не  занимаясь,  просто  смотрят  по 
+сторонам. В основном, тут царит {Cспокойствие{x, хотя тебе  слышится непрерывное 
+{Yжужжание{x исходящее непонятно откуда.  Дно каньона продолжается на север и на 
+восток.
+~
+0 0 forest
+D0 0
+~
+~
+Z -1 9211
+D1 0
+~
+~
+Z -1 9209
+S
+#9209
+@eng Elemental Gateway@rus Ворота элементалов~
+@eng To the west a path dips and winds among some flowing firepits.  To the
+northeast a path goes toward the river.  Beyond toward the northeast and
+northwest are outcrops which rise up from the canyon floor. To the east there
+is a cave mouth which leads into the canyon wall.  And to the south the path
+leads up, away, and out of the canyon.  Various pure and cross-breeds of
+elemental forms wander the canyon floor, which extends in a wide swath
+northwards. To the up you see the Combat Magician Chamber and a magical
+force helps you to fly through to chamber.
+@rus 
+На западе ты видишь утоптанные дороги и {Cветры{x доносят до тебя запахи {Rогненных{x 
+шахт. На  северо-восток дороги  ведут к {Bреке{x. Впереди,  на северо-востке и 
+северо-западе простилается дно каньона. На востоке ты видишь {Dпещеры{x, которые 
+упираются в стены каньона.  Различные  чистые и смешанные  породы элементалов 
+бродят по дну каньона, которое расширяется к северу. На верху ты видишь Палату 
+Волшебника и {Mмагическая {rсила{x помогает тебе, чтобы ты смог долететь до этой 
+палаты.
+~
+0 CD inside
+D0 0
+~
+~
+Z -1 9212
+D1 0
+~
+~
+Z -1 9210
+D2 0
+~
+~
+Z -1 9207
+D3 0
+~
+~
+Z -1 9208
+D4 0
+~
+Entrance to the Combat Magician Chamber.
+~
+Z -1 9261
+S
+#9210
+@eng The Floor of the Canyon@rus Дно каньона~
+@eng Various elemental forms wander the floor of the canyon.  Some seem to be
+going about their business, while others seem to have no business at
+all.  In general, it is calm, yet there is always a incessant buzz of
+things going on about.  The canyon floor extends north and west.  There is a
+cave mouth set into the canyon wall to the east.
+@rus Различные  формы  элементалов бродят по  дну каньона.  Некоторые кажется, 
+заняты своими делами, тогда как другие ничем не занимаясь, просто смотрят 
+по  сторонам.  В основном,  тут  царит {Cспокойствие{x,  хотя  тебе  слышится 
+непрерывное {Yжужжание{x исходящее непонятно откуда. Дно каньона продолжается 
+на север, на юг и на запад. На востоке, в стене каньона, ты видишь несколько 
+{Dпещер{x.
+~
+0 0 forest
+D0 0
+~
+~
+Z -1 9213
+D1 0
+~
+~
+Z -1 9220
+D3 0
+~
+~
+Z -1 9209
+S
+#9211
+@eng The Floor of the Canyon@rus Дно каньона~
+@eng Various elemental forms wander the floor of the canyon.  Some seem to be
+going about their business, while others seem to have no business at
+all.  In general, it is calm, yet there is always an incessant buzz of
+things going on about.  The canyon floor extends off to the north, east,
+and south.
+@rus Различные формы элементалов бродят по дну каньона. Некоторые кажется, заняты
+своими делами, тогда как другие ничем не занимаясь, просто смотрят по сторонам.
+В основном, тут царит {Cспокойствие{x, хотя тебе слышится непрерывное {Yжужжание{x
+исходящее непонЯтно откуда. Дно каньона продолжается на север, на восток и на юг.
+~
+0 0 forest
+D0 0
+~
+~
+Z -1 9214
+D1 0
+~
+~
+Z -1 9212
+D2 0
+~
+~
+Z -1 9208
+S
+#9212
+@eng The Floor of the Canyon@rus Дно каньона~
+@eng Various elemental forms wander the floor of the canyon.  Some seem to be
+going about their business, while others seem to have no business at
+all.  In general, it is calm, yet there is always an incessant buzz of
+things going on about.  The canyon floor extends in all directions.
+@rus Различные формы элементалов бродят по дну каньона. Некоторые кажется, заняты
+своими делами, тогда как другие ничем не занимаясь, просто смотрят по сторонам.
+В основном, тут царит {Cспокойствие{x, хотя тебе слышится непрерывное {Yжужжание{x
+исходящее непонятно откуда. Дно каньона продолжается во всех направлениЯх.
+~
+0 0 forest
+D0 0
+~
+~
+Z -1 9215
+D1 0
+~
+~
+Z -1 9213
+D2 0
+~
+~
+Z -1 9209
+D3 0
+~
+~
+Z -1 9211
+S
+#9213
+@eng The Floor of the Canyon@rus Дно каньона~
+@eng Various elemental forms wander the floor of the canyon.  Some seem to be
+going about their business, while others seem to have no business at
+all.  In general, it is calm, yet there is always an incessant buzz of
+things going on about.  The canyon floor extends north, south, and west.
+A path follows a stream to the east.
+@rus Различные формы элементалов бродят по дну каньона. Некоторые кажется, заняты
+своими делами, тогда как другие ничем не занимаясь, просто смотрят по сторонам.
+В основном, тут царит {Cспокойствие{x, хотя тебе слышится непрерывное {Yжужжание{x
+исходящее непонятно откуда. Дно каньона продолжается на север, на юг и на запад.
+Дорога на восток идет паралельно маленькому {cручейку{x.
+~
+0 0 forest
+D0 0
+~
+~
+Z -1 9216
+D1 0
+~
+~
+Z -1 9228
+D2 0
+~
+~
+Z -1 9210
+D3 0
+~
+~
+Z -1 9212
+S
+#9214
+@eng The Floor of the Canyon@rus Дно каньона~
+@eng Various elemental forms wander the floor of the canyon.  Some seem to be
+going about their business, while others seem to have no business at
+all.  In general, it is calm, yet there is always an incessant buzz of
+things going on about. The canyon floor extends north, east, and south.
+To the west a garden is on fire.
+@rus Различные формы элементалов бродят по дну каньона. Некоторые кажется, заняты
+своими делами, тогда как другие ничем не занимаясь, просто смотрят по сторонам.
+В основном, тут царит {Cспокойствие{x, хотя тебе слышится непрерывное {Yжужжание{x
+исходящее непонятно откуда. Дно каньона продолжается на север, на восток и на юг.
+На западе виднеется {Rогненный {xсад.
+~
+0 0 forest
+D0 0
+~
+~
+Z -1 9217
+D1 0
+~
+~
+Z -1 9215
+D2 0
+~
+~
+Z -1 9211
+D3 0
+~
+~
+Z -1 9237
+S
+#9215
+@eng The Floor of the Canyon@rus Дно каньона~
+@eng Various elemental forms wander the floor of the canyon.  Some seem to be
+going about their business, while others seem to have no business at
+all.  In general, it is calm, yet there is always an incessant buzz of
+things going on about.  The canyon floor extends in all directions.
+@rus Различные формы элементалов бродят по дну каньона. Некоторые кажется, заняты
+своими делами, тогда как другие ничем не занимаясь, просто смотрят по сторонам.
+В основном, тут царит {Cспокойствие{x, хотя тебе слышится непрерывное {Yжужжание{x
+исходящее непонятно откуда. Дно каньона продолжается во всех направлениях.
+~
+0 0 forest
+D0 0
+~
+~
+Z -1 9218
+D1 0
+~
+~
+Z -1 9216
+D2 0
+~
+~
+Z -1 9212
+D3 0
+~
+~
+Z -1 9214
+S
+#9216
+@eng The Floor of the Canyon@rus Дно каньона~
+@eng Various elemental forms wander the floor of the canyon.  Some seem to be
+going about their business, while others seem to have no business at
+all.  In general, it is calm, yet there is always an incessant buzz of
+things going on about.  The Canyon floor extends north, south and west.
+@rus Различные формы элементалов бродят по дну каньона. Некоторые кажется, заняты
+своими делами, тогда как другие ничем не занимаясь, просто смотрят по сторонам.
+В основном, тут царит {Cспокойствие{x, хотя тебе слышится непрерывное {Yжужжание{x
+исходящее непонятно откуда. Дно каньона продолжается на север, на юг и на запад.
+~
+0 0 forest
+D0 0
+~
+~
+Z -1 9219
+D2 0
+~
+~
+Z -1 9213
+D3 0
+~
+~
+Z -1 9215
+S
+#9217
+@eng The Floor of the Canyon@rus Дно каньона~
+@eng Various elemental forms wander the floor of the canyon.  Some seem to be
+going about their business, while others seem to have no business at
+all.  In general, it is calm, yet there is always an incessant buzz of
+things going on about. The canyon floor extends east and south.  You can
+climb a rise in the canyon floor to the north.
+@rus Различные формы элементалов бродят по дну каньона. Некоторые кажется, заняты
+своими делами, тогда как другие ничем не занимаЯсь, просто смотрЯт по сторонам.
+В основном, тут царит {Cспокойствие{x, хотя тебе слышится непрерывное {Yжужжание{x
+исходящее непонятно откуда. Дно каньона продолжается на юг и на восток.
+Пологий подъем со дна коньона виден на севере.
+~
+0 0 forest
+D0 0
+~
+~
+Z -1 9253
+D1 0
+~
+~
+Z -1 9218
+D2 0
+~
+~
+Z -1 9214
+S
+#9218
+@eng The Floor of the Canyon@rus Дно каньона~
+@eng Various elemental forms wander the floor of the canyon.  Some seem to be
+going about their business, while others seem to have no business at
+all.  In general, it is calm, yet there is always an incessant buzz of
+things going on about.  The canyon floor extends east, south, and west.
+@rus Различные формы элементалов бродЯт по дну каньона. Некоторые кажется, заняты
+своими делами, тогда как другие ничем не занимаясь, просто смотрят по сторонам.
+В основном, тут царит {Cспокойствие{x, хотЯ тебе слышитсЯ непрерывное {Yжужжание{x
+исходящее непонятно откуда. Дно каньона продолжается на восток, на юг и на запад.
+~
+0 0 forest
+D1 0
+~
+~
+Z -1 9219
+D2 0
+~
+~
+Z -1 9215
+D3 0
+~
+~
+Z -1 9217
+S
+#9219
+@eng The Floor of the Canyon@rus Дно каньона~
+@eng Various elemental forms wander the floor of the canyon.  Some seem to be
+going about their business, while others seem to have no business at
+all.  In general, it is calm, yet there is always an incessant buzz of
+things going on about.  The canyon floor extends south and west.  You can
+climb a rise in the canyon floor to the north.
+@rus Различные формы элементалов бродят по дну каньона. Некоторые кажется, заняты
+своими делами, тогда как другие ничем не занимаясь, просто смотрят по сторонам.
+В основном, тут царит {Cспокойствие{x, хотя тебе слышится непрерывное {Yжужжание{x
+исходящее непонятно откуда. Дно каньона продолжается на юг и на запад.
+Пологий подъем со дна коньона виден на севере.
+~
+0 0 forest
+D0 0
+~
+~
+Z -1 9254
+D2 0
+~
+~
+Z -1 9216
+D3 0
+~
+~
+Z -1 9218
+S
+#9220
+@eng Dark Cave@rus Темная Пещера~
+@eng You notice a path winding east among some huge boulders.  You feel a powerful
+source of energy from that direction.
+@rus Ты внимательно смотришь на восток и видишь дорогу, петляющую среди {Dогромных 
+валунов{x. Ты чувствуешь {Cмощный источник энергии{x исходящий с востока.
+~
+0 AD forest
+D1 0
+~
+~
+Z -1 9221
+D3 0
+~
+~
+Z -1 9210
+S
+#9221
+@eng Darker Caves@rus Темные Пещеры~
+@eng You can barely see your way even with a light source.  The rocks of the cave
+are even darker than the darkness.  You hear a powerful humming all around
+you.  Cave paths go south and east roughly, its hard to tell exactly when you
+can't see where you are going.
+@rus Ты едва можешь разглядеть дорогу даже с {yфакелом{x. Стены пещеры {Dтемнее{x чем сама 
+{Dтемнота{x. Ты слышишь {Yсильное жужжание{x вокруг себя. Проходы в {Dпещере{x виднеются 
+на юге и на востоке, хотя это довольно трудно определить, т.к. ты не видишь 
+даже своих рук.
+~
+0 AD forest
+D1 0
+~
+~
+Z -1 9222
+D2 0
+~
+~
+Z -1 9223
+D3 0
+~
+~
+Z -1 9220
+S
+#9222
+@eng Darker Caves@rus Темные Пещеры~
+@eng You can barely see your way even with a light source.  The rocks of the cave
+are even darker than the darkness.  You hear a powerful humming all around
+you.  Cave paths go south and west roughly; it's hard to tell exactly when you
+can't see where you are going.
+@rus 
+Ты едва можешь разглядеть дорогу даже с {yфакелом{x. Стены {Dпещеры{x темнее чем сама 
+{Dтемнота{x. Ты слышишь {Yсильное жужжание{x вокруг себя. Проходы в {Dпещере{x виднеются 
+на юге и на западе, хотя это довольно трудно определить, т.к. ты не видишь 
+даже своих рук.
+~
+0 AD forest
+D2 0
+~
+~
+Z -1 9224
+D3 0
+~
+~
+Z -1 9221
+S
+#9223
+@eng Darker Caves@rus Темные Пещеры~
+@eng You can barely see your way even with a light source.  The rocks of the cave
+are even darker than the darkness.  You hear a powerful humming all around you.
+Cave paths go north, south and east roughly; it's hard to tell exactly when
+you can't see where you are going.
+@rus Ты едва можешь разглядеть дорогу даже с {yфакелом{x. Стены {Dпещеры{x темнее чем сама 
+{Dтемнота{x. Ты слышишь {Yсильное жужжание{x вокруг себя. Проходы в пещере виднеются 
+на юге и на востоке, хотя это довольно трудно определить, т.к. ты не видишь 
+даже своих рук.
+~
+0 AD forest
+D0 0
+~
+~
+Z -1 9221
+D1 0
+~
+~
+Z -1 9224
+D2 0
+~
+~
+Z -1 9225
+S
+#9224
+@eng Darker Caves@rus Темные Пещеры~
+@eng You can barely see your way even with a light source.  The rocks of the cave
+are even darker than the darkness.  You hear a powerful humming all around you.
+Cave paths go north, south and west roughly, it's hard to tell exactly when you
+can't see where you are going.
+@rus Ты едва можешь разглядеть дорогу даже с {yфакелом{x. Стены {Dпещеры{x темнее чем сама 
+{Dтемнота{x. Ты слышишь {Yсильное жужжание{x вокруг себя. Проходы в пещере виднеются 
+на юге и на западе, хотя это довольно трудно определить, т.к. ты не видишь 
+даже своих рук.
+~
+0 AD forest
+D0 0
+~
+~
+Z -1 9222
+D2 0
+~
+~
+Z -1 9226
+D3 0
+~
+~
+Z -1 9223
+S
+#9225
+@eng Darkest Caves@rus В глубине Темных Пещер~
+@eng Your light doesn't even seem to work here.  Even magical light sources seem
+only to illuminate about a foot ahead of you.  You suddenly realize that the
+path has descended quite a bit but you didn't notice before because of the
+darkness.  You sense a great presence off to the east aways.
+@rus 
+Твой {yфакел{x отказывается светить в такой {Dтемноте{x. Даже {mмагический{x источник 
+света может осветить не более фута от тебя. Ты вдруг понимаешь что дорога 
+немного {cизменилась{x, но ты не обратил на это внимания из-за {Dтемноты{x. Ты {Cчувствуешь{x 
+чье-то присутствие, и тебе кажется, что оно на востоке.
+~
+0 AD forest
+D0 0
+~
+~
+Z -1 9223
+D1 0
+~
+~
+Z -1 9226
+S
+#9226
+@eng Darkest Caves@rus В глубине Темных Пещер~
+@eng Your light doesn't even seem to work here.  Even magical light sources seem
+only to illuminate about a foot ahead of you.  You suddenly realize that the
+path has descended quite a bit but you didn't notice before because of the
+darkness.  You sense a great presence directly to the east.
+@rus Твой {yфакел{x отказывается светить в такой {Dтемноте{x. Даже {mмагический{x источник 
+света может осветить не более фута от тебя. Ты вдруг понимаешь что дорога 
+немного {cизменилась{x но ты не обратил на это внимания из-за {Dтемноты{x. Ты {Cчувствуешь{x 
+чье то присутствие, и тебе кажется, что оно на востоке.
+~
+0 AD forest
+D0 0
+~
+~
+Z -1 9224
+D1 0
+~
+~
+Z -1 9227
+D3 0
+~
+~
+Z -1 9225
+S
+#9227
+@eng The {yEarth{x Chamber@rus Земная палата~
+@eng This is the abode of the Earth Ruler.  He decides about earthquakes,
+landslides, and avalanches.  The Earth Ruler sits upon a huge marble throne
+carved into the wall.
+@rus Здесь живет правитель земных элементалов. Он решает вопросы о землетрясениях, 
+обвалах, и аваланшах. Правитель {yземных{x элементалов сидит в огромном {Wмраморном{x 
+троне({Wmarble throne{x), врезанном на стену.
+~
+0 AD forest
+E ''
+marble throne~
+@eng The ruler notices your stare, and doesn't like it one bit!  The whole
+earth seems to shake with his emotion.
+@rus Повелитель {yземных{x элементалов обращает внимание на ваш пристальный взгляд и 
+ему он не нравится! Вся землы трясется по его желанию.
+~
+D3 0
+~
+~
+Z -1 9226
+S
+#9228
+@eng By the River@rus У Реки~
+@eng The water in the river seems to bubble and froth with magic.  Though it
+splashes playfully on you, it does not seem wet.  The path leads north closer
+to the water. To the west you see a T-intersection.
+@rus {cВода{x на реке кажется {wпузырится{x и {Wпенится{x с помощью {mмагии{x. Все-же она весело 
+{Cплескает{x тебя, но ты не мокнешь. Путь ведет север, ближе к {cводе{x. На 
+западе, ты видишь T-пересечение.
+~
+0 0 forest
+D0 0
+~
+~
+Z -1 9229
+D3 0
+~
+~
+Z -1 9213
+S
+#9229
+@eng In the River@rus В Реке~
+@eng To continue you had to walk right in the river.  Though you walk along in
+water up to your knees, you do not seem to get wet.  A bay stretches out to
+the north and the river goes south.
+@rus Чтобы продолжить путь, тебе нужно идти непосредственно по {cводе{x. Ты входишь в 
+{cводу{x по колено, но твои ноги не мокнут. Бухта протягивается на север, а река 
+продолжается на юг.
+~
+0 0 water
+D0 0
+~
+~
+Z -1 9230
+D2 0
+~
+~
+Z -1 9228
+S
+#9230
+@eng Elemental Bay@rus Бухта Элементалов~
+@eng The water is crystal clear here and you can see the bottom of the bay 30 feet
+below you.  Then you realize you are walking on the water itself.  Truly
+magical water indeed.  Though you splash through the bay you do not get wet.
+@rus Вода тут кристально чистая и ты можешь видеть аж на 30 футов в глубину. Затем 
+ты замечаешь, что {cвода{x как бы проходит сквозь тебя. Да, это истинная {mмагия{x.
+{CВолны{x в бухте заливают тебя, но ты не становишься мокрым.
+~
+0 0 water
+D0 0
+~
+~
+Z -1 9233
+D1 0
+~
+~
+Z -1 9231
+D2 0
+~
+~
+Z -1 9229
+S
+#9231
+@eng Elemental Bay@rus Бухта Элементалов~
+@eng The water is crystal clear here and you can see the bottom of the bay 30 feet
+below you.  Then you realize you are walking on the water itself.  Truly
+magical water indeed.  Though you splash through the bay you do not get wet.
+@rus Вода тут кристально чистая и ты можешь видеть аж на 30 футов в глубину. Затем 
+ты замечаешь, что {cвода{x как бы проходит сквозь тебя. Да, это истинная {mмагия{x.
+{CВолны{x в бухте заливают тебя, но ты не становишься мокрым.
+~
+0 0 water
+D0 0
+~
+~
+Z -1 9234
+D1 0
+~
+~
+Z -1 9232
+D3 0
+~
+~
+Z -1 9230
+S
+#9232
+@eng Elemental Bay@rus Бухта Элементалов~
+@eng The water is crystal clear here and you can see the bottom of the bay 30 feet
+below you.  Then you realize you are walking on the water itself.  Truly
+magical water indeed.  Though you splash through the bay you do not get wet.
+@rus Вода тут кристально чистая и ты можешь видеть аж на 30 футов в глубину. Затем 
+ты замечаешь, что {cвода{x как бы проходит сквозь тебя. Да, это истинная {mмагия{x.
+{CВолны{x в бухте заливают тебя, но ты не становишься мокрым.
+~
+0 0 water
+D0 0
+~
+~
+Z -1 9235
+D3 0
+~
+~
+Z -1 9231
+S
+#9233
+@eng Elemental Bay@rus Бухта Элементалов~
+@eng The water is crystal clear here and you can see the bottom of the bay 30 feet
+below you.  Then you realize you are walking on the water itself.  Truly
+magical water indeed.  Though you splash through the bay you do not get wet.
+@rus Вода тут кристально чистая и ты можешь видеть аж на 30 футов в глубину. Затем 
+ты замечаешь, что {cвода{x как бы проходит сквозь тебя. Да, это истинная {mмагия{x.
+{CВолны{x в бухте заливают тебя, но ты не становишься мокрым.
+~
+0 0 water
+D1 0
+~
+~
+Z -1 9234
+D2 0
+~
+~
+Z -1 9230
+S
+#9234
+@eng Elemental Bay@rus Бухта Элементалов~
+@eng The water is crystal clear here and you can see the bottom of the bay 30 feet
+below you.  Then you realize you are walking on the water itself.  Truly
+magical water indeed.  Though you splash through the bay you do not get wet.
+@rus Вода тут кристально чистая и ты можешь видеть аж на 30 футов в глубину. Затем 
+ты замечаешь, что {cвода{x как бы проходит сквозь тебя. Да, это истинная {mмагия{x.
+{CВолны{x в бухте заливают тебя, но ты не становишься мокрым.
+~
+0 0 water
+D1 0
+~
+~
+Z -1 9235
+D2 0
+~
+~
+Z -1 9231
+D3 0
+~
+~
+Z -1 9233
+S
+#9235
+@eng Elemental Bay@rus Бухта Элементалов~
+@eng The water is crystal clear here and you can see the bottom of the bay 30 feet
+below you.  Then you realize you are walking on the water itself.  Truly
+magical water indeed.  Though you splash through the bay you do not get wet.
+@rus Вода тут кристально чистая и ты можешь видеть аж на 30 футов в глубину. Затем 
+ты замечаешь, что {cвода{x как бы проходит сквозь тебя. Да, это истинная {mмагия{x.
+{CВолны{x в бухте заливают тебя, но ты не становишься мокрым.
+~
+0 0 water
+D2 0
+~
+~
+Z -1 9232
+D3 0
+~
+~
+Z -1 9234
+D5 0
+~
+~
+Z -1 9236
+S
+#9236
+@eng {cWater{x Chamber@rus Подводная Палата~
+@eng This chamber was magically created here on the floor of the bay.  It looks
+like it's been here for a long, long time.  Though you are 'under water' there
+is no difficulty breathing normally, and oddly you do not feel the pressure of
+the water above you.
+@rus Эта палата была создана здесь, на дне бухты. Она выглядит так, как будто ее 
+строили очень, очень давно. И всеже находясь под {cводой{x ты не ощущаешь 
+проблемм с дыханием и давлением {cводы{x.
+~
+0 D underwater
+D4 0
+~
+~
+Z -1 9235
+S
+#9237
+@eng A Fiery Pathway@rus Огненный путь~
+@eng You tread carefully along a path which dips and turns among geysers of fire.
+Miniature volcanoes spew lava in rivers.  The fire is hot but not altogether
+dangerous.  The path extends east and south.
+@rus Ты осторожно идешь вдоль {Rогненного {xпути, который петляет среди {Rгейзеров 
+огня{x. Миниатюрные {Yвулканы {xизвергают реки {rлавы{x. {RОгонь {xгорячий, но не 
+опасный. Путь продолжается на восток и на юг.
+~
+0 0 mountain
+D1 0
+~
+~
+Z -1 9214
+D2 0
+~
+~
+Z -1 9238
+S
+#9238
+@eng A Fiery Pathway@rus Огненный путь~
+@eng You tread carefully along a path which dips and turns among pits of fire and
+beds of coals.  A garden to the west glows with an everlasting fire.
+@rus Ты осторожно идешь вдоль {Rогненного{x пути, который петляет среди {Rгейзеров огня {x
+и пластов {Dкаменного угля{x. Сад на западе {Wсветитьсяся {Cвечным {Rогнем{x.
+~
+0 0 mountain
+D0 0
+~
+~
+Z -1 9237
+D3 0
+~
+~
+Z -1 9242
+S
+#9242
+@eng The Burning Gardens@rus Огненные сады~
+@eng Everywhere around you the landscape is afire; the rocks, the shrubs and even
+the air seems to be aflame.  Curiously, the magical fire does not seem to
+consume its hosts.  A path leads east among some fire pits.
+@rus 
+Везде вокруг тебя {Rогненный{x пейзаж - {Dскалы{x, {Gкусты {xи даже {Cвоздух {xкажется, из 
+{Rогня{x. Странно, но тебе кажется, что {Mмагическое {Rпламя {xне обжигает своих хозяев.
+Путь ведет на восток к {Rогненным гейзерам{x.
+~
+0 0 mountain
+D1 0
+~
+~
+Z -1 9238
+D3 0
+~
+~
+Z -1 9245
+S
+#9245
+@eng {WThe {RFire {WChamber{x@rus Огненная палата~
+@eng The fire ruler sits upon a throne made of blue flame.  Little flickers of
+flame dance to and fro for the entertainment of the ruler.
+@rus Повелитель {Rогненных {xэлементаллов сидит на троне, сделанном из {Bсинего пламени{x.
+Небольшие мерцающие {Rогоньки {xтанцуют для развлечения {Rогненного {xповелителя.
+~
+0 0 forest
+D1 0
+~
+~
+Z -1 9242
+S
+#9246
+@eng Electric Pathway@rus Электрический путь~
+@eng The pathway glows and hums because of the electricity pulsing through it.
+It seems almost soothing to your weary feet.  To the north there is a
+sunken-in area.  A path leads east also.
+@rus Путь {Wсветится{x и {Yгудит{x из-за {Cэлектричества{x, пульсирующего сквозь него. Тебе кажется, что 
+это {Yгудение{x немного успокаивает твои ноги. Область простирается на север. Хотя путь также 
+продолжается на восток.
+~
+0 0 forest
+D0 0
+~
+~
+Z -1 9248
+D1 0
+~
+~
+Z -1 9253
+S
+#9247
+@eng The Electric Playground@rus Электрическая площадка~
+@eng Though there is a seemingly carefree atmosphere here, you sense that
+something much more important takes place near by.  The electric playground
+extends north and east.
+@rus Все-же по-видимому здесь довольно беспечная атмосфера, ты чувствуешь, что что-то важное 
+находится неподалеку. Площадка продолжается на север и на восток. 
+~
+0 0 hills
+D0 0
+~
+~
+Z -1 9249
+D1 0
+~
+~
+Z -1 9248
+S
+#9248
+@eng The Electric Playground@rus Электрический путь~
+@eng Though there is a seemingly carefree atmosphere here, you sense that
+something much more important takes place near by.  There is an electric
+path heading away south.  The playground extends north and west.
+@rus Все-же по-видимому здесь довольно беспечная атмосфера, ты чувствуешь, что что-то важное 
+находится неподалеку. Начало {Cэлектрического{x пути виднеется на юге. Площадка продолжается 
+на север и на запад.
+~
+0 0 hills
+D0 0
+~
+~
+Z -1 9250
+D2 0
+~
+~
+Z -1 9246
+D3 0
+~
+~
+Z -1 9247
+S
+#9249
+@eng The Electric Playground@rus Электрическая площадка~
+@eng Though there is a seemingly carefree atmosphere here, you sense that
+something much more important takes place near by.  The playground continues
+south and east.
+@rus Все-же по-видимому здесь довольно беспечная атмосфера, ты чувствуешь, что что-то важное 
+находится неподалеку. Площадка продолжается на юг и на восток. 
+~
+0 0 hills
+D1 0
+~
+~
+Z -1 9250
+D2 0
+~
+~
+Z -1 9247
+S
+#9250
+@eng The Electric Playground@rus Электрическая площадка~
+@eng Though there is a seemingly carefree atmosphere here, you sense that
+something much more important takes place near by.  The playground is
+south and west.  Something more important catches your eye to the east.
+@rus Все-же по-видимому здесь довольно беспечная атмосфера, ты чувствуешь, что что-то важное 
+находится неподалеку. Площадка продолжается на юг и на запад. Что-то более важное виднеется на востоке.
+~
+0 0 hills
+D1 0
+~
+~
+Z -1 9251
+D2 0
+~
+~
+Z -1 9248
+D3 0
+~
+~
+Z -1 9249
+S
+#9251
+@eng Lightning Causeway@rus Электрическая тропа~
+@eng Up a set of stairs carved into the hill you see intermittent flashes of
+lightning.  A continuous hum also comes form that direction.  To the west
+is the electric playground.
+@rus Ступеньки ведущие наверх, на холм, {Cвспыхивают {Wмолниями{x. Непрерывное {Yжужжание{x также 
+исходит откуда-то сверху. На западе видна {Cэлектрическая{x площадка.
+~
+0 0 hills
+D0 0
+~
+~
+Z 0 9262
+D3 0
+~
+~
+Z -1 9250
+D4 0
+~
+~
+Z -1 9252
+S
+#9252
+@eng Lightning Chamber@rus Электрическая палата~
+@eng There is some sort of control panel here. Apparently the Lightning Ruler
+observes and controls electric forces from here.  A set of steps carved into
+the hill lead down to a causeway.
+@rus Ты замечаешь здесь некую панель управления. Очевидно {rПовелитель {Cэлектрических{x элементалов 
+наблюдает и регулирует отсюда {Cэлектрические{x силы. Тропа ведет вниз.
+~
+0 D water
+D5 0
+~
+~
+Z -1 9251
+S
+#9253
+@eng Mesa West@rus Западная часть Мезаструктуры~
+@eng An electric path starts to the west.  The mesa continues to the east.
+Or you can climb down to the canyon floor to the south.
+@rus {CЭлектрический{x путь виден на западе. Мезаструктура продолжается на восток.
+Также ты можешь спуститься по южному краю, на дно каньона.
+~
+0 0 hills
+D1 0
+~
+~
+Z -1 9254
+D2 0
+~
+~
+Z -1 9217
+D3 0
+~
+~
+Z -1 9246
+S
+#9254
+@eng Mesa East@rus Восточная часть Мезаструктуры~
+@eng A path starts to the north.  The mesa continues to the west.
+Or you can climb down to the canyon floor to the south.
+@rus Основная дорога ведет на север. Мезаструктура продолжается на запад.
+Также ты можешь спуститься по южному краю, на дно каньона.
+~
+0 0 hills
+D0 0
+~
+~
+Z -1 9255
+D2 0
+~
+~
+Z -1 9219
+D3 0
+~
+~
+Z -1 9253
+S
+#9255
+@eng Floating in Air@rus В Воздухе~
+@eng Last you knew, you were walking on the mesa.  Abruptly the path dropped
+from beneath your feet much to quick for you to recover.  Instead of
+plunging to your death, you seemingly miss the ground and begin walking
+on air.  The space to the north and east seems just thin air, but you can
+walk there.  The pathway you came from is to the south.
+@rus Последнее что ты  помнишь - это мезаструктура. Путь резко подбросил тебя вверх, это случилось
+так быстро, что ты не успел опомниться. Вместо того, чтобы упасть вниз и разбиться, ты 
+по-видимому игнорируешь земное притяжение и начинаешь парить в воздухе. 
+Пространство на север и на восток кажется просто жидким воздухом, но ты можешь пройти там.
+Дорога, по которой ты пришел, остается на юге.
+~
+0 0 hills
+D0 0
+~
+~
+Z -1 9257
+D1 0
+~
+~
+Z -1 9256
+D2 0
+~
+~
+Z -1 9254
+S
+#9256
+@eng Floating in Air@rus В Воздухе~
+@eng You look down and see the ground 100 feet below you.  The wind whispering
+in your ear seems to reassure you that this is fine.  To the north aways
+you spy a portal of sorts.  To the west is more thin air.
+@rus Ты смотришь вниз и видишь землю в 100 футах под ногами. {cВетер{x, шепчет тебе в ухо и кажется 
+это успокаивает тебя. На севере ты замечаешь порталы. На западе - более жидкий {cвоздух{x.
+~
+0 0 hills
+D0 0
+~
+~
+Z -1 9258
+D3 0
+~
+~
+Z -1 9255
+S
+#9257
+@eng Floating in Air@rus В Воздухе~
+@eng You look down and see the ground 100 feet below you.  The wind whispering
+in your ear seems to reassure you that this is fine.  To the east aways
+you spy a portal of sorts.  To the south is more thin air.
+@rus Ты смотришь вниз и видишь землю в 100 футах под ногами. {cВетер{x, шепчет тебе в ухо и кажется 
+это успокаивает тебя. На востоке ты видишь портал. Также ты можешь двигаться на юг.
+~
+0 0 hills
+D1 0
+~
+~
+Z -1 9258
+D2 0
+~
+~
+Z -1 9255
+S
+#9258
+@eng Floating in Air@rus В Воздухе~
+@eng You look down and see the ground 100 feet below you.  The wind whispering
+in your ear seems to reassure you that this is fine. There is a portal
+hanging in midair here. It is to the east.  You can float south or west
+if you'd like.
+@rus Ты смотришь вниз и видишь землю в 100 футах под ногами. {cВетер{x, шепчет тебе в 
+ухо и кажется это успокаивает тебя. На востоке ты видишь портал({Wportal{x). 
+Также ты можешь двигаться на юг и на запад.
+~
+0 0 hills
+E ''
+portal~
+@eng Through the portal you see a tunnel.
+@rus Через портал Вы видите туннель.
+~
+D1 0
+~
+~
+Z -1 9259
+D2 0
+~
+~
+Z -1 9256
+D3 0
+~
+~
+Z -1 9257
+D4 0
+Aarakocran City.
+~
+~
+Z -1 5600
+S
+#9259
+@eng Windy Tunnel@rus Воздушный Туннель ~
+@eng A tunnel leads east.  To the west you can enter a portal. The wind in
+this tunnel is quite fierce, it seems as if it's forced.  
+@rus Туннель ведет на восток. На западе, ты видишь портал({Wportal{x). {cВетер{x в этом 
+туннеле очень сильный, тебе кажется, что это не случайно. {cОблако пыли{x, 
+дующее в лицо, заставляет тебя чихать.
+~
+0 0 hills
+E ''
+portal~
+@eng Through the portal you see nothing but sky.
+@rus Через туннель вы не видите ничего кроме неба.
+~
+D1 0
+~
+~
+Z -1 9260
+D3 0
+~
+~
+Z -1 9258
+S
+#9260
+@eng Air Chamber@rus Воздушная Палата~
+@eng Tiny tornadoes come and go and dance along the ground here.  At the back
+of the chamber you notice a huge throne made of swirling clouds.
+A tunnel leads west.
+@rus Небольшие {Cсмерчи{x ходят и танцуют здесь на земле. В стене палаты, на которую ты 
+обращаешь внимание, виден огромный трон({Wthrone{x), сделанный из кучевых {Cоблаков{x.
+~
+0 D water
+E ''
+throne clouds~
+@eng Although the cloud throne appears solid enough to sit on, I wouldn't try
+it if I were you!
+@rus Хотя трон из облака достаточно прочен, чтобы можно было присесть, но я бы 
+этого не стал делать.
+~
+D3 0
+~
+~
+Z -1 9259
+S
+#9261
+@eng The Combat Magician Chamber@rus Палата Волшебника~
+@eng You are standing in the middle of this magical chamber.This 
+room is full of shelves which hold various spell components. The entire 
+room smells of smoke and incense. This room is obviously used by a 
+practicing mage.
+@rus Ты стоишь посреди {mмагической {xпалаты. Эта комната - доверху забита полками с 
+различными компонентами для заклинания. В комнате пахнет {Dдымом{x и {cэсенцией{x. 
+Очевидно эта комната используется для практикования боевых заклинаний.
+~
+0 0 inside
+D5 0
+~
+~
+Z -1 9209
+S
+#9262
+@eng House of old magician@rus Дом старого волшебника~
+~
+0 X inside
+D2 0
+~
+~
+Z 0 9251
+S
+#0
+
+#SPECIALS
+M 9202 spec_cast_cleric	* the cyclops
+M 9204 spec_breath_any	* the elemental guardian
+M 9207 spec_breath_any	* a large elemental
+M 9208 spec_cast_cleric	* the Earth Ruler
+M 9209 spec_breath_fire	* the Fire Ruler
+M 9210 spec_breath_gas	* The Air Ruler
+M 9211 spec_breath_lightning	* The Lightning Ruler
+M 9212 spec_breath_acid	* The Water Ruler
+M 9219 spec_breath_acid	* a small blob of acid
+M 9223 spec_breath_lightning	* a particle
+M 9224 spec_thief	* a dust cloud
+M 9225 spec_thief	* an eddie
+M 9226 spec_breath_fire	* the Blue Flame
+M 9227 spec_breath_lightning	* the Magneto
+M 9228 spec_breath_frost	* the Ice Bandit
+M 9230 spec_breath_gas	* the Hurricane
+M 9231 spec_cast_mage	* an elemental magician
+M 9232 spec_cast_cleric	* a rainbow warrior
+M 9233 spec_cast_mage	* an illusionist
+M 9234 spec_thief	* an alchemist
+M 9235 spec_breath_any	* a baby rainbow dragon
+M 9237 spec_breath_any	* a HUGE elemental
+M 9238 spec_cast_mage	* the elixir vendor
+M 9239 spec_cast_mage	* The Combat Magician
+S
+
+#RESETS
+M 0 9201 3 9201 3	* the mountain climber (A Mountain Path)
+M 0 9201 3 9202 3	* the mountain climber (A Mountain Path)
+G 0 9231 0		*	anti-cyclops elixir
+M 0 9236 15 9202 15	* a little imp (A Mountain Path)
+M 0 9201 3 9203 3	* the mountain climber (Mountainside Tombs)
+M 0 9238 1 9203 1	* the elixir vendor (Mountainside Tombs)
+G 0 9231 0		*	anti-cyclops elixir
+M 0 9202 1 9204 1	* the cyclops (A Blind Curve on the Mountain Path.)
+E 0 9213 0 10		*	a platinum arm band: on the arms
+E 0 9214 0 7		*	some platinum leg bands: on the legs
+M 0 9205 12 9207 12	* a small elemental (Entrance to Elemental Canyon)
+M 0 9236 15 9207 15	* a little imp (Entrance to Elemental Canyon)
+M 0 9203 15 9208 15	* a tiny elemental (The Floor of the Canyon)
+M 0 9232 8 9208 8	* a rainbow warrior (The Floor of the Canyon)
+M 0 9204 1 9209 1	* the elemental guardian (Elemental Gateway)
+E 0 9211 0 3		*	an elemental amulet: around the neck
+E 0 9212 0 14		*	an elemental bracelet: on the left wrist
+M 0 9205 12 9209 12	* a small elemental (Elemental Gateway)
+M 0 9207 6 9209 6	* a large elemental (Elemental Gateway)
+M 0 9232 8 9209 8	* a rainbow warrior (Elemental Gateway)
+E 0 9220 0 16		*	a stone club: wielded
+M 0 9203 15 9210 15	* a tiny elemental (The Floor of the Canyon)
+M 0 9223 8 9210 8	* a particle (The Floor of the Canyon)
+M 0 9231 5 9211 5	* an elemental magician (The Floor of the Canyon)
+E 0 9215 0 17		*	elemental wand of fire: held in the hands
+M 0 9206 9 9212 9	* a medium elemental (The Floor of the Canyon)
+E 0 9221 0 17		*	a lodestone: held in the hands
+M 0 9216 5 9212 5	* a small snowflake (The Floor of the Canyon)
+M 0 9222 8 9213 8	* an elemental mist (The Floor of the Canyon)
+M 0 9203 15 9215 15	* a tiny elemental (The Floor of the Canyon)
+M 0 9203 15 9215 15	* a tiny elemental (The Floor of the Canyon)
+M 0 9231 5 9216 5	* an elemental magician (The Floor of the Canyon)
+E 0 9215 0 17		*	elemental wand of fire: held in the hands
+M 0 9203 15 9217 15	* a tiny elemental (The Floor of the Canyon)
+M 0 9203 15 9218 15	* a tiny elemental (The Floor of the Canyon)
+M 0 9205 15 9218 15	* a small elemental (The Floor of the Canyon)
+M 0 9207 6 9218 6	* a large elemental (The Floor of the Canyon)
+M 0 9207 6 9218 6	* a large elemental (The Floor of the Canyon)
+E 0 9223 0 17		*	an energy scroll: held in the hands
+M 0 9233 7 9218 7	* an illusionist (The Floor of the Canyon)
+M 0 9203 15 9219 15	* a tiny elemental (The Floor of the Canyon)
+E 0 9225 0 17		*	magic dust: held in the hands
+M 0 9236 15 9220 15	* a little imp (Dark Cave)
+M 0 9220 8 9220 8	* a lava beast (Dark Cave)
+E 0 9222 0 17		*	a lava lamp: held in the hands
+M 0 9217 15 9221 15	* a small rock (Darker Caves)
+M 0 9220 8 9221 8	* a lava beast (Darker Caves)
+M 0 9223 8 9221 8	* a particle (Darker Caves)
+M 0 9205 12 9222 12	* a small elemental (Darker Caves)
+E 0 9224 0 17		*	a water jug: held in the hands
+M 0 9217 15 9222 15	* a small rock (Darker Caves)
+M 0 9221 8 9222 8	* a mud monster (Darker Caves)
+M 0 9221 8 9222 8	* a mud monster (Darker Caves)
+M 0 9224 8 9222 8	* a dust cloud (Darker Caves)
+E 0 9225 0 5		*	magic dust: on the body
+M 0 9217 15 9223 15	* a small rock (Darker Caves)
+E 0 9217 0 17		*	an elemental rod of earthquake: held in the hands
+M 0 9217 15 9224 15	* a small rock (Darker Caves)
+M 0 9206 9 9225 9	* a medium elemental (Darkest Caves)
+E 0 9219 0 17		*	elemental wand of lightning: held in the hands
+M 0 9217 15 9225 15	* a small rock (Darkest Caves)
+M 0 9216 5 9225 5	* a small snowflake (Darkest Caves)
+M 0 9217 15 9226 15	* a small rock (Darkest Caves)
+M 0 9208 1 9227 1	* the Earth Ruler (The {yEarth{x Chamber)
+E 0 9201 0 1		*	the earth ring: on the left finger
+E 0 9202 0 5		*	a stoney breastplate: on the body
+M 0 9217 15 9227 15	* a small rock (The {yEarth{x Chamber)
+M 0 9217 15 9227 15	* a small rock (The {yEarth{x Chamber)
+M 0 9224 8 9227 8	* a dust cloud (The {yEarth{x Chamber)
+M 0 9236 15 9228 15	* a little imp (By the River)
+M 0 9219 8 9228 8	* a small blob of acid (By the River)
+M 0 9219 8 9229 8	* a small blob of acid (In the River)
+M 0 9234 6 9230 6	* an alchemist (Elemental Bay)
+E 0 9218 0 16		*	elemental wand of wind and air: wielded
+M 0 9214 15 9230 15	* a puddle (Elemental Bay)
+M 0 9214 15 9231 15	* a puddle (Elemental Bay)
+M 0 9221 8 9231 8	* a mud monster (Elemental Bay)
+M 0 9221 8 9231 8	* a mud monster (Elemental Bay)
+M 0 9214 15 9232 15	* a puddle (Elemental Bay)
+M 0 9216 5 9232 5	* a small snowflake (Elemental Bay)
+M 0 9216 5 9232 5	* a small snowflake (Elemental Bay)
+M 0 9222 8 9232 8	* an elemental mist (Elemental Bay)
+M 0 9214 15 9233 15	* a puddle (Elemental Bay)
+E 0 9216 0 17		*	an ice staff: held in the hands
+M 0 9205 12 9234 12	* a small elemental (Elemental Bay)
+M 0 9214 15 9234 15	* a puddle (Elemental Bay)
+M 0 9214 15 9235 15	* a puddle (Elemental Bay)
+E 0 9224 0 17		*	a water jug: held in the hands
+M 0 9212 1 9236 1	* The Water Ruler ({cWater{x Chamber)
+E 0 9209 0 13		*	an icy girth: around the waist
+E 0 9210 0 12		*	a {bwaterfall{x cloak: about the shoulders
+M 0 9214 15 9236 15	* a puddle ({cWater{x Chamber)
+M 0 9214 15 9236 15	* a puddle ({cWater{x Chamber)
+M 0 9236 15 9237 15	* a little imp (A Fiery Pathway)
+M 0 9226 1 9238 1	* the Blue Flame (A Fiery Pathway)
+E 0 9226 0 16		*	a flame lance: wielded
+M 0 9227 1 9238 1	* the Magneto (A Fiery Pathway)
+E 0 9230 0 16		*	the Shock Whip: wielded
+M 0 9234 6 9238 6	* an alchemist (A Fiery Pathway)
+E 0 9217 0 16		*	an elemental rod of earthquake: wielded
+M 0 9219 8 9238 8	* a small blob of acid (A Fiery Pathway)
+M 0 9220 8 9238 8	* a lava beast (A Fiery Pathway)
+M 0 9207 6 9242 6	* a large elemental (The Burning Gardens)
+M 0 9228 1 9242 1	* the Ice Bandit (The Burning Gardens)
+E 0 9227 0 16		*	an icicle: wielded
+M 0 9229 1 9242 1	* the Rock Monster (The Burning Gardens)
+E 0 9228 0 16		*	the avalanche: wielded
+M 0 9230 1 9242 1	* the Hurricane (The Burning Gardens)
+E 0 9229 0 16		*	the morning star: wielded
+M 0 9215 15 9242 15	* a flame (The Burning Gardens)
+M 0 9215 15 9242 15	* a flame (The Burning Gardens)
+E 0 9215 0 17		*	elemental wand of fire: held in the hands
+M 0 9215 15 9242 15	* a flame (The Burning Gardens)
+M 0 9220 8 9242 8	* a lava beast (The Burning Gardens)
+M 0 9209 1 9245 1	* the Fire Ruler ({WThe {RFire {WChamber{x)
+E 0 9203 0 16		*	a fiery dagger: wielded
+E 0 9204 0 3		*	a flame red cape: around the neck
+M 0 9215 15 9245 15	* a flame ({WThe {RFire {WChamber{x)
+E 0 9215 0 17		*	elemental wand of fire: held in the hands
+M 0 9215 15 9245 15	* a flame ({WThe {RFire {WChamber{x)
+M 0 9215 15 9245 15	* a flame ({WThe {RFire {WChamber{x)
+M 0 9206 9 9246 9	* a medium elemental (Electric Pathway)
+M 0 9236 15 9246 15	* a little imp (Electric Pathway)
+M 0 9218 15 9246 15	* a small spark (Electric Pathway)
+M 0 9219 8 9246 8	* a small blob of acid (Electric Pathway)
+M 0 9218 15 9247 15	* a small spark (The Electric Playground)
+M 0 9218 15 9248 15	* a small spark (The Electric Playground)
+M 0 9223 8 9248 8	* a particle (The Electric Playground)
+M 0 9235 2 9249 2	* a baby rainbow dragon (The Electric Playground)
+M 0 9218 15 9249 15	* a small spark (The Electric Playground)
+M 0 9205 12 9250 12	* a small elemental (The Electric Playground)
+M 0 9218 15 9250 15	* a small spark (The Electric Playground)
+E 0 9219 0 17		*	elemental wand of lightning: held in the hands
+M 0 9218 15 9251 15	* a small spark (Lightning Causeway)
+M 0 9211 1 9252 1	* The Lightning Ruler (Lightning Chamber)
+E 0 9207 0 16		*	a sparking lightning sword: wielded
+E 0 9208 0 11		*	an electric shield: as a shield
+M 0 9218 15 9252 15	* a small spark (Lightning Chamber)
+E 0 9218 0 17		*	elemental wand of wind and air: held in the hands
+M 0 9218 15 9252 15	* a small spark (Lightning Chamber)
+M 0 9233 8 9253 8	* an illusionist (Mesa West)
+M 0 9223 8 9253 8	* a particle (Mesa West)
+M 0 9206 9 9254 9	* a medium elemental (Mesa East)
+M 0 9222 8 9254 8	* an elemental mist (Mesa East)
+M 0 9233 7 9255 7	* an illusionist (Floating in Air)
+M 0 9236 15 9255 15	* a little imp (Floating in Air)
+M 0 9225 15 9255 15	* an eddie (Floating in Air)
+E 0 9218 0 17		*	elemental wand of wind and air: held in the hands
+M 0 9225 15 9255 15	* an eddie (Floating in Air)
+E 0 9225 0 17		*	magic dust: held in the hands
+M 0 9222 8 9255 8	* an elemental mist (Floating in Air)
+M 0 9225 15 9256 15	* an eddie (Floating in Air)
+M 0 9235 2 9257 2	* a baby rainbow dragon (Floating in Air)
+E 0 9216 0 16		*	an ice staff: wielded
+M 0 9225 15 9257 15	* an eddie (Floating in Air)
+M 0 9224 8 9257 8	* a dust cloud (Floating in Air)
+M 0 9225 15 9258 15	* an eddie (Floating in Air)
+M 0 9225 15 9259 15	* an eddie (Windy Tunnel)
+M 0 9224 8 9259 8	* a dust cloud (Windy Tunnel)
+M 0 9210 1 9260 1	* The Air Ruler (Air Chamber)
+E 0 9205 0 8		*	the {Cwind{x boot: on the feet
+E 0 9206 0 6		*	a hurricane helmet: over the head
+M 0 9207 6 9260 6	* a large elemental (Air Chamber)
+E 0 9220 0 16		*	a stone club: wielded
+M 0 9225 15 9260 15	* an eddie (Air Chamber)
+M 0 9225 15 9260 15	* an eddie (Air Chamber)
+M 0 9239 1 9261 1	* The Combat Magician (The Combat Magician Chamber)
+M 0 9240 1 9262 1	* The Old magician (House of old magician)
+G 0 9232 0		*	{wWand of {RF{ri{Rr{re{x
+G 0 9233 0		*	{wWand of {MF{ma{Me{mr{Mi{me {Mf{mi{Mr{me{x
+G 0 9234 0		*	{wWand of {DE{rV{DI{rL{x
+G 0 9235 0		*	{wWand of {BG{CO{BO{CD{x
+G 0 9236 0		*	{wStaff of {Ys{ya{Yn{yd{x
+S
+
+#SHOPS
+9238 0 0 0 0 0 105 15 0 23 0 ~
+9240 0 3 4 10 0 100 10 0 23 0 ~
+0
+
+#OLIMITS
+O 9201 10	* the earth ring
+O 9205 2	* the {Cwind{x boot
+O 9210 1	* a {bwaterfall{x cloak
+S
+
+#MOBPROGS
+#9201
+if isimmort $n
+say Здрасте дядя {CИмм{x.
+end
+endif
+say Приветствую тебя странник,
+say Что привело тебя ко мне, в такую глушь ?
+tip $n
+~
+#0
+
+#PRACTICERS
+M 9208 draconian~	* the Earth Ruler
+M 9209 draconian~	* the Fire Ruler
+M 9210 draconian~	* The Air Ruler
+M 9211 draconian~	* The Lightning Ruler
+M 9212 draconian~	* The Water Ruler
+M 9239 combat~	* The Combat Magician
+S
+
+#OMPROGS
+O 9205 wear_prog wear_prog_wind_boots	* `the {Cwind{x boot'
+O 9205 remove_prog remove_prog_wind_boots	* `the {Cwind{x boot'
+S
+
+#$

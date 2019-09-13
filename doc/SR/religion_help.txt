@@ -1,0 +1,73 @@
+/*
+ * Copyright (c) 1999, Molchanov Alexander (Xorader),
+ * as 'Shadow Realms' program software.
+ *
+ * Redistribution and use in source and binary forms, with or without
+ * modification, are permitted provided that the conditions specified in
+ * a file doc/SR/sr.license are met!
+ */
+
+#
+#	religion.conf created by Xorader in 2002 year
+#	sorry fo russian, english variant will be later
+#
+Структура описания религии следущая (etc/religion.conf):
+
+#GOD
+имя (простая строка) - английское~
+@eng empty@rus описание (мултиязыковая строка) по типу desc у моба,
+так что может переноситься на др. строку
+~
+;	Это коментарий... дальше список параметров, синтаксис
+;	которых мы рассмотрим отдельно...
+End
+
+Итак синтаксис команд:
+
+Tattoo <number>			; vnum татушки
+Templeman <number>		; vnum моба который посвящает в религию
+Flags <string>~			; список флагов: RELIG_* в religion.h
+Change_sacrifice <number>	; изменение давания денег от sacrifice в %
+				; по умолчанию 100
+Altar <vnum_room> <vnum_pit>	; описание алтаря
+AllowAlign <list of alings>~	; список разрешённых align'ов для данной
+				; религии (по ум. разрешены все)
+Change_buy <number>		; изменение цен на покупку шмоток в % (по ум. 100)
+Change_sell <number>		; изменение цен на продажу шмоток в % (по ум. 100)
+Change_exp_death <number>	; На сколько % изменяеться отнятие exp'ы
+				; при смерти (по ум. 100)
+Recall_exp <number>		; На сколько % изменяеться отнятие exp'ы
+				; при recall'е (по ум. 100)
+Cost_gold <number>		; цена в gold'е религии у Templeman'а
+Cost_qp <number>		; цена в qp'ах религии у Templeman'а
+				; если указано и Cost_gold и Cost_qp
+				; то требуеться оба...
+Ghost_timer_default <number>	; количество секунд до принудительного
+				; реанкарнирования
+Ghost_timer_plevel <number>	; на сколько секунд изменяеться
+				; Ghost_timer_default за каждый level
+				; чара
+Addskill '<skill>' <level> <add_percent> <max_percent> <hard>
+				; добавление скилла пока поклоняешься
+				; данной религии
+Fightcast '<name of spell>' <percent_cast> {honor|dishonor} {char|victim} <change faith>
+	;		это описание что, как и когда будет делать
+	;		<в помошь>/<во вред> данная религия
+	; <percent_cast> - это модификатор вероятности срабатывания (ВС), то
+	; есть сколько процентов остаёться от ВС по умолчанию
+	; (при percent_cast = 100). ВС по умолчанию (default_percent) при
+	; макс. faith = 11% (каждый "баттл тик").
+	; Например при percent_cast = 50 : максимальная ВС = 5.5%,
+	; а при 120 - 13.2%
+	; <change faith> - это на сколько изменять faith при срабатывании
+	; fightcast'а (при honor <change faith> отнимаеться, а при dishonor -
+	; прибавляеться)
+Faith {+|-} <number> <that>
+	;		эта опция указывает что(that) <любит>/<не любит>(+/-) 
+	; бог и на сколько(number).
+	; Значение number зависит от того к чему относиться, но обычно это
+	; на сколько faith изменять после указанного действия либо это
+	; сколько % брать от стандартного изменения faith....
+	; Но например, при sacrifice_obj <number> указывает на сколько %
+	; изменять faith в зав-ти от "хорошести" шмотки
+

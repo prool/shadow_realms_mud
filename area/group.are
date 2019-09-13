@@ -1,0 +1,1461 @@
+#AREADATA
+Name Groups Helps~
+VNUMs 0 0
+Credits Diku~
+Security 2
+LevelRange 0 0
+End
+
+#HELPS
+-1 WANDS STAVES SCROLLS ПАЛОЧКИ ПОСОХИ СВИТКИ~
+@eng Magical items require training to use properly.  If your character lacks the
+necessary skill to use an item, he will fail, possibly destroying it.  The
+item skills are as follows:
+
+scrolls		The reading of magical scrolls and books (see 'help recite')
+staves		The use of staves and similar devices (see 'help brandish')
+wands		The use of wands and similar items (see 'help zap') 
+@rus {G====================================================================================={x
+ 
+Для магических предметов необходима тренировка, чтобы правильно ими пользоваться.
+Если ваш персонаж не имеет необходимые умения для использования предмета, то
+у него ничего не получится, возможно даже он уничтожит его. Умения для использования
+магических предметов:
+ 
+{cscrolls{x         Чтение магических свитков и книг (см. {c'help recite'{x)
+{cstaves{x          Использование посохов и похожих устройств (см. {c'help brandish'{x)
+{cwands{x           Использование палочек и похожих предметов (см. {c'help zap'{x)
+ 
+{G====================================================================================={x
+~
+-1 EXOTIC WEAPONS WEAPONSMASTER AXE DAGGER FLAIL MACE POLEARM SPEAR SWORD WHIP~
+@eng Each weapon skill applies to a specific group of armaments, and determines how
+well a character fights with a particular weapon.
+If the character has the parry skill as well, he can parry incoming attacks.
+The chance of parrying is best if the character in question is skilled at 
+both his weapon and his opponent's.
+
+The weapon skills consist of the following:
+
+axe		the use of axes, ranging from hand to great (but not halberds)
+dagger		the use of knives and daggers, and other stabbing weapons
+flail		skill in ball-and-chain type weapons
+mace		this skill includes clubs and hammers as well as maces
+polearm		the use of pole weapons (except spears), including halberds
+spear		this skill covers both spears and staves, but not polearms
+sword		the warrior's standby, from rapier to claymore
+whip		the use of whips, chains, and bullwhips
+bow             the use of missile weapons           
+exotic          the use of strange magical weapons
+ 
+The exotic skill can neither be known nor practiced, and is dependent solely
+upon level. 
+@rus {G==============================================================================={x
+ 
+Каждый навык владения оружием относится к специфической группе вооружения и
+показывает насколько хорошо персонаж сражается определенным видом оружия. Также,
+если персонаж имеет навык {cparry{x, то он может отклонить атаки противника.
+Шанс отклонить атаку наибольший если персонаж хорошо владеет как своим, так и
+оружием своего оппонента.
+ 
+{CСуществуют следующие навыки владения оружием:{x
+ 
+{caxe{x - использование топоров и секир.
+{cdagger{x - использование ножей и кинжалов и другого колющего оружия.
+{cflail{x - навык владения цепами и кистенями.
+{cmace{x - навык владения дубинами, булавами и молотами.
+{cpolearms{x - навык владения алебардами.
+{cspear{x - навык владения копьями и посохами.
+{x    Копья также предназначны для метания их на расстоянии. Чтобы узнать, как это делается, смотри {chelp throw spear{x.
+{csword{x - навык владения длинными клинками от рапир до клейморов.
+{cwhip{x - навык владения цепями, кнутами и плетками.
+{cexotic{x - навык владения диковинным магическим оружием.
+ 
+Навык владения экзотическим оружием не может быть выучен и развит, он полностью
+определяется левелом.
+ 
+{G==============================================================================={x
+~
+-1 'SHIELD BLOCK' 'БЛОК ЩИТОМ'~
+@eng Shield block is a rather fancy name for the art of parrying with a shield.
+Characters with no shield block skill will not be able to defend themselves
+well with a shield.  Nearly all classes may learn shield block, but only 
+warriors and clerics are good at it.  Beware, flails ignore shield 
+blocking attempts, and whips have an easier time getting around them.  
+Axes may split shields in two.
+	Warriors have more chance than the others to block the attacks
+with the shields.
+@rus  
+{G================================================================================{x
+ 
+{cShield block{x это умение отклонения атаки щитом. Персонажи без этого умения
+не могут эффективно защищать себя щитом. Многим классам доступно это умение.
+Но стоит учитывать, что цепы ({cflail{x) невозможно блокировать щитом,
+а хлысты ({cwhip{x) могут обогнуть щит.
+
+{G================================================================================{x
+~
+-1 BACKSTAB~
+@eng {G============================================================================{x
+
+Syntax: {cbackstab <target>{x
+
+Backstab is the favored attack of  thieves, murderers, and other rogues.  It 
+can be only be used with daggers, knifes or other kind of stabing weapons.
+The damage inflicted by a backstab is determined by the attacker's level, his
+weapon skill, his backstab skill, and the power of his opponent.
+Thives may learn to dual backstab in their higher levels.  A second 
+backstab can be executed after the first one, automaticly.
+Only thieves may learn the skill to backstab.
+ 
+{G============================================================================{x
+@rus {G============================================================================{x
+
+Синтаксис: {cbackstab <жертва>{x
+
+Backstab - любимая атака воров. Он может сработать только если ваше оружие
+- любое колющее оружие (нож и т.д.). Повреждение наносимое этим ударом 
+зависит от уровня нападающего, уровня прокачки оружия и backstab и от силы 
+вашего противника. Воры могут изучить второй backstab на более высоких 
+уровнях.
+ 
+{G============================================================================{x
+~
+-1 BASH~
+@eng The bash skill is a warrior talent, a brute-force attack designed to knock
+your foe to his knees.  Its success depends on many factors, including the
+bash rating, your weight, and the size of your opponent, so bashing a dragon
+is not generally a wise idea.
+@rus {G==============================================================================={x
+ 
+Синтаксис: {cbash {x<цель>
+Синтаксис: {cbash
+ 
+{xУмение {cbash{x - толкнуть противника является талантом воина, такая грубая атака
+разработана для того чтобы сшибить противника с ног. Успех зависит от многих показателей,
+включая ваше умение толкаться, ваш вес и размер оппонента.Так что толкать огромного,
+хлопающего крыльями дракона - это не лучшая ваша идея.
+ 
+{G==============================================================================={x
+~
+-1 BERSERK~
+@eng Only powerful warriors can master berserking, the ability to enter insane rage
+in combat.  Its effects are not altogether unlike the frenzy spell -- a huge
+surge of combat prowess, coupled with a disregard for personal safety.  
+Berserking warriors are more resistant to the effects of magic.
+@rus  
+{G==============================================================================={x
+ 
+Синтаксис: {cberserk{x
+ 
+Только могучие войны способны овладеть мастерством {cberserk{x - способностью
+позволяющей овладеть тобой дикой ярости. Это имеет как положительные, так и
+отрицательные стороны. Берсерк бросатся в атаку забывая о своей защите, что
+впрочем часто приносит положительные результаты ...
+Воины в состоянии Ярости имеют сопротивление к воздействию магии.
+ 
+{G==============================================================================={x
+~
+-1 DIRT 'DIRT KICKING'~
+@eng  
+Syntax: {cdirt kicking {x<target>
+ 
+Consider by some to be a cowardly skill, dirt kicking gives the clever
+combatant a chance to blind his opponent by casting dirt into his eyes.
+The blindness does not last long, but can provide an edge in combat.
+Dexterity helps in hitting or avoiding a dirt kick.
+@rus {G=======================================================================
+ 
+{xСинтаксис: {cdirt kicking {x<цель>
+{xСинтаксис: {cdirt
+ 
+{cDirt kicking{x - умение пнуть грЯзь в лицо противника. ОслеплЯет
+на небольшой промежуток времени, невозможно вылечить магией и молитвами.
+Невозможно использовать там, где нет грЯзи, песка, земли или если вы летаете.
+ 
+{G======================================================================={x
+~
+-1 DISARM~
+@eng Disarm is a somewhat showy and unreliable skill, designed to relieve your
+opponent of his weapon.  The best possible chance of disarming occurs when you
+are skilled both your own and your opponent's weapon. Only talented thieves
+and warriors may learn this skill.
+@rus {G========================================================================{x
+ 
+Синтаксис: {cdisarm <цель>{x
+
+{cDisarm{x - умение позволяющее обезоружить твоего противника. У тебя больше
+шансов разоружить противника если ты хорошо владеешь и своим оружием и
+его оружием.
+ 
+{G========================================================================{x
+ 
+~
+-1 DODGE~
+@eng In the words of one wise warrior, 'the best way to block a blow is to not
+be where it lands'.  The dodge skill honors this tradition, by improving the
+character's natural agility to the point where many blows will miss the 
+target. The chance of dodging is also affected by the dexterity of the
+attacker and the target.  Nearly all classes may learn dodging.
+Warriors and Samurai's have more chance than the others to dodge
+the attacks. Then Thieves and Ninjas and then the others.  
+@rus {G========================================================================{x
+ 
+Улучшает естественное проворство персонажа, заставляя противника протыкать
+воздух. На возможность уворачиваться, кроме самого умения, влияет ловкость
+нападающего и уворачивающегося, размер персонажа, а также аффект {chaste{x.
+ 
+{G========================================================================{x
+ 
+~
+-1 'ENHANCED DAMAGE'~
+@eng Warriors and skilled thieves can become skilled enough in combat that they are
+able to inflict more damage than other classes.  Enhanced damage is checked
+for with each hit, although with a low skill, the chance of receiving a bonus
+is very low indeed. 
+	Warriors have the greatest enhanced damage factors , while clerics
+have the least. The others have between these two.
+@rus  
+{G====================================================================================={x
+ 
+Некоторые боевые классы способны наносить больше ущерба используя умение:
+{cenhanced damage{x, которое проверяется с каждым ударом. С низким умением возможность
+получениЯ дополнительной мощи очень низка.
+ 
+{G====================================================================================={x
+~
+-1 ENVENOM~
+@eng {G============================================================================{x
+
+The envenom skill is a cowardly skill practiced only by thieves, designed to
+win a battle through alchemy and treachery rather than skill or strength.
+Or, put another way, it's a skill used by the smart to kill the foolish.
+Food, drink, and weapons may be envenomed, with varying effects. Poisoned
+food or drink puts a mild poison spell on the consumer, and is unlikely to
+be more than a minor inconvience (after all, the typical adventurer could
+drink sewer water with only a trace of the runs).  A poisoned weapon, on
+the other hand, can inflict serious damage on an opponent as the poison 
+burns through his bloodstream.  But be careful, blade venom evaporates 
+quickly and is rendered almost powerless by repeated blows in combat.
+ 
+{G============================================================================{x
+@rus {G============================================================================{x
+ 
+Синтаксис: {cenvenom <цель>{x
+
+Это умение воров позволяет отравить пищу, питье или оружие.
+Отравленноу оружие в бою может отравить ({chelp poison{x) врага.
+ 
+{G============================================================================{x
+~
+-1 'HAND TO HAND'~
+@eng  
+{cHand to hand {xcombat skill. Learning this style of fighting gives the player
+a weapon even when disarmed -- bare hands. Trained hand to hand experts
+are far more effective than many swordsmen.
+@rus  
+{G================================================================================
+ 
+{cHand to hand{x - искуство рукопашного боя. Изучение этого стиля ведения боя
+предоставляет оружие, которое невозможно выбить - кулаки. Тренированные мастера
+рукопашного боя порою более эффективны нежели некоторые мечники.
+ 
+{G================================================================================{x
+~
+-1 'KICK'~
+@eng  
+Syntax: {ckick{x
+ 
+Kicking allows the adventurer to receive an extra attack in combat, a powerful
+kick. However, a failed kick may throw an unwary fighter off balance.
+@rus {G==============================================================================={x
+ 
+Синтаксис:{c {ckick <цель>{x{x
+ 
+Пинок помогает авантюристу получить дополнительную атаку во время боя.
+Тем не менее неудачный удар может нарушить равновесие бойца.
+ 
+{G==============================================================================={x
+~
+-1 PARRY~
+@eng If at first you fail to dodge, block it.  Parry is useful for deflecting 
+attacks, and is succesful more often than dodge.  Parry requires a weapon for
+full success, the hand-to-hand skill may also be used, but results in reduced
+damage instead of no damage.  The best chance of parrying occurs when the
+defender is skilled in both his and his opponent's weapon type. Due to their
+belief that touching the blades of their opponent with their own blade is
+a loss of honor, Ninjas cannot parry with swords.
+	Warriors and samurai's have more chance than the others to parry
+the attacks.  
+
+@rus  
+{G====================================================================================={x
+ 
+Умение парировать атаки противника. Причем, если вы держите 2 оружия в руках,
+то умение {cparry{x будет работать лучше, чем с одним оружием.
+Ето умение зависит от ловкости нападающего и парирующего.
+Для лучшего эффекта, надо знать свое оружие и оружие противника на 100%.
+Если вы парируете атаку большого и сильного противника, то есть вероятность
+не удержать ее и упасть.
+
+{G====================================================================================={x
+~
+-1 RESCUE~
+@eng A friend in need is a friend indeed.  And when in combat, a warrior with
+the rescue skill is just the friend you need.  Rescue allows you to intercede
+in combat, protecting weaker characters from bodily harm. Hopefully the
+favor will be returned.  Success in rescuing depends on the skill rating, as
+well as a comparision of level, dexterity, and speed between the character and
+the target. (note: you rescue a friend, not the monster)
+@rus  
+{G====================================================================================={x
+ 
+Синтаксис: {crescue{x <цель>
+ 
+{cRescue{x - умение позволяющее вытащить из боя члена своей группы, после чего
+враг начинает нападать на вас.
+ 
+{G====================================================================================={x
+~
+-1 'TRIP'~
+@eng Back by popular demand.  Trip is a somewhat dastardly attack, and involves
+using any one of a number of methods to bring your opponent down to the ground.
+Tripping large monsters is generally not a good idea, and agile ones will
+find the attack easy to avoid.
+@rus {G========================================================================{x
+ 
+Синтаксис: {ctrip <цель>{x
+ 
+Это умение позволяет сделать жертве подсечку, после которой она теряет
+дееспособность на какое-то время. После применеия этого умения против
+колдуна он не может колдовать небольшое время. Подсечка не проходит против
+летающих существ.
+ 
+{G========================================================================{x
+ 
+~
+-1 'SECOND ATTACK'~
+@eng Training in second attack allows the character a chance at additional strikes
+in combat -- allow a 100% second attack does NOT guarantee 2 attacks every
+round.  Any class may learn this skill, although clerics and mages have a 
+very hard time with it.
+@rus {x
+{G================================================================================
+ 
+{xЗнание умения {csecond attack {xдает шанс персонажу нанести в бою дополнительный
+удар. Но даже 100% знание {csecond attack{x {RНЕ {xгарантирует того, что вы будете
+наносить два удара каждый раунд боя. Все классы могут изучить это умение, но
+колдующим оно дается гораздо тяжелее..
+ 
+{G================================================================================{x
+~
+-1 'THIRD ATTACK'~
+@eng Training in third attack allows the character a chance at an additional strike
+in a combat, and increases the chance of a second attack as well.  Perfect
+third attack does NOT assure three attacks per round.
+@rus  
+{G====================================================================================={x
+ 
+Изучение персонажем умения {cthird attack{x дает шанс нанести во время боя
+дополнительный третий удар, также оно повышает шанс прохождения умения
+{csecond attack{x. {RНО{x даже мастерское владение этим умением {RНЕ{x гарантирует
+того, что Вы будете наносить три удара каждый раунд боя.
+ 
+{G====================================================================================={x
+~
+-1 HIDE SNEAK~
+@eng Hide and sneak are similar skills, both related to remaining undetected.
+Hiding is done by moving in civilized shadows which are generally 
+geometricaly shaped, and mostly found in civilized world but not in forests.
+Hide has a very high chance of success, but only works for as long as the
+character remains silent.  Sneak may be used when moving (including to
+sneak by monsters), but has a lower chance of success.  Only and thieves  
+may learn these skills.
+@rus {G========================================================================{x
+ 
+Синтаксис: {chide{x
+Синтаксис: {csneak{x
+ 
+Эти два умения взаимно дополняют друг друга. {cHide{x позволяет спрятаться,
+а {csneak{x передвигаться бесшумно, что позволяет подкрасться к жертве и 
+провести решающую атаку.
+ 
+{G========================================================================{x
+ 
+~
+-1 'FAST HEALING'~
+@eng The fast healing skill improves wound healing rates, whether walking, resting,
+or sleeping. It represents knowledge of healing herbs or just general 
+toughness and stamina.  Fast healing is checked every tick, and it is 
+possible for it to fail.  All class may learn this skill, but mages find it
+very difficult to master, due to their bookish lifestyle.
+@rus {G====================================================================================={x
+ 
+{cFast healing{x искуство, позволяющее быстрее восстанавливаться от боевых ран,
+независимо от того, что делает персонаж - сражается, спит, отдыхает или стоит.
+Каждый тик, если срабатывает это умение вы востанавливаете больше здоровья и движения.
+Все классы могут изучить это искусство, но магам оно дается с трудом из-за их
+слабого телосложения.
+ 
+{G====================================================================================={x
+~
+-1 LORE~
+@eng Lore is a general skill, consisting of knowledge of myths and legends. Use
+of the lore skill gives a chance of obtaining information on an object,
+concerning its power and uses. All classes may learn lore, although 
+thieves are best at it, and warriors find it very hard to use.  The 
+harder you practice lore, the more information you will find.
+@rus  
+{G====================================================================================={x
+ 
+{cLore{x - навык запоминания мифов и легенд. Его использование дает шанс получения
+информации относящейся к объекту ваших иследований. Относительно его свойств и
+пременения. Воры лучше всех могут овладеть этим умением, войнам же оно дается с
+большим трудом.
+ 
+{G====================================================================================={x
+~
+-1 HAGGLE HAGGLING~
+Haggling is an indispensable skill to the trader.  It allows a character to
+match wits with a merchant, seeking to get a better price for merchandise,
+or to buy at the lowest possible cost.  Unfortunately, most merchants are 
+already very skilled at haggling, so the untrainined adventurer had best 
+guard his treasure closely.  Thieves are natural masters at haggling, 
+although other classes may learn it as well.
+~
+-1 PEEK~
+@eng {G============================================================================{x
+
+The peek skill is useful for seeing what a player or monster is carrying,
+the better to use the steal command with.  More intelligent characters are
+harder to peek at.  Only thieves can peek.
+ 
+{G============================================================================{x
+@rus {G============================================================================{x
+ 
+Воры с помощью этого умения могут заглядывать к игроку или мобу в инвентарь.
+ 
+{G============================================================================{x
+~
+-1 PICK 'PICK LOCK'~
+@eng Lock picking is one of the prime skills of thieves, allowing them to gain
+access to many secured areas.  Lock picking chances are improved by  
+intelligence, and hindered by the difficulty of the lock. Very few 
+classes, may learn to pick locks, and thives are the master of it.
+@rus {G========================================================================{x
+ 
+Синтаксис: {cpick lock <дверь>{x
+
+Умение позволяет использовать отмычки, чтобы открыть закрытую дверь.
+ 
+{G========================================================================{x
+ 
+~
+-1 PERCEPTION~
+@eng {G============================================================================{x
+
+Perception is one of the prime skills of thieves, allowing them to gain
+access to many secured areas. Perception allows you to recognize the
+closed doors, gates or others with a * symbol  
+ 
+{G============================================================================{x
+@rus {G============================================================================{x
+ 
+Это умение воров, которое показывает все закрытые двери, порталы и др.
+символом * (звездочка).
+ 
+{G============================================================================{x
+~
+-1 MEDITATION~
+@eng This skill is similar to fast healing, but relies on the concentration and
+mantras to increase mana recovery when the character is sleeping or resting.
+Thieves and warriors, with their troubled minds and violent attitudes, have
+much trouble learning to meditate.
+@rus {G====================================================================================={x
+ 
+{cMeditation {x- это умение похоже на {cfast healing{x, но основанно оно на мысленной
+концентрации и мантрах, которые увеличивают востановление маны персонажу во
+время сна или отдыха. Классы не особо утруждающие себя умственным трудом,
+овладевают этим умением медленнее чем маги и клерики денно и нощьно оттачивающие
+свой ум и магические способности.
+ 
+{G====================================================================================={x
+ 
+~
+60 'DETECT GOOD'~
+@eng Syntax: cast 'detect good'
+ 
+This spell enables the caster to detect good characters, which will
+reveal a characteristic golden aura.
+@rus {G========================================================================{x
+
+Синтаксис: {ccast 'detect good'{x
+ 
+Это заклинание помогает вам увидеть добрых игроков (монстров)
+в золотой ауре.
+ 
+{G========================================================================{x
+ 
+~
+-1 'DISPEL GOOD'~
+@eng {G{G==========================================================================={x
+
+Syntax: {ccast 'dispel good' <victim>
+ 
+{xDispel good brings forth evil energies that inflict horrific torment on  
+the pure of heart.  Good-aligned characters use this dark magic at their
+peril.
+
+{G==========================================================================={x
+@rus {G============================================================================================{x
+
+Синтаксис: {ccast 'dispel good' <жертва>
+ 
+{xЭто заклинание вызывает гнев богов на добрую жертву. Оно зависит от разницы злого и доброго
+начал кастующего и жертвы (больше разница - сильнее заклинание).Заклинание срабатывает чаще,
+если кастующий верит в какого-либо Бога.
+
+{G============================================================================================{x
+~
+-1 'RECHARGE'~
+@eng Syntax: cast 'recharge' <item>
+
+The recharge spell is used to restore energy to depleted wands and staves.
+Fully exhausted items cannot be recharged, and the difficulty of the spell
+is proportional to the number of charges used.  Magic items can only be
+recharged one time successfully.
+@rus {G========================================================================{x
+
+Синтаксис: {ccast recharge <предмет>{x
+ 
+Этим заклинанием можно перезарЯжать {cwands{x и {cstaves{x.
+Если эти вещи не использовались ни одного раза - то вы не сможете их дозарЯдить.
+Магические предметы могут быть перезарЯжены только один раз.
+ 
+{G========================================================================{x
+ 
+~
+-1 'DEMONFIRE'~
+@eng {G================================================================================{x
+
+Syntax: {ccast 'demonfire' <target>{x
+
+Demonfire is a spell of blackest evil, and as such can only be used by those
+who follow the paths of darkness.  It conjures forth demonic spirits to 
+inflict terrible wounds on the enemies of the caster.
+ 
+{G================================================================================{x
+@rus {G================================================================================{x
+ 
+Синтаксис: {ccast 'demonfire' <цель>{x
+ 
+'Демонический огонь' -  это черная магия, и может использоваться только теми, кто
+следует путем тьмы. Оно вызывает демонических духов, которые наносят ужасные повреждения
+врагу кастующего.
+ 
+{G================================================================================{x
+~
+-1 'BLUEFIRE'~
+@eng {G====================================================================================={x
+
+Syntax: {ccast 'bluefire' <target>{x
+
+Demonfire is a spell of neutral clerics, and as such can only be used by
+those who has neutral alignment.  It conjures forth spirits of the
+neutrals of earth to inflict terrible wounds on the enemies of the caster.
+ 
+{G====================================================================================={x
+@rus {G====================================================================================={x
+
+Синтаксис: {ccast 'bluefire' <жертва>{x
+
+Этот магический удар предназначен для neutral клериков. Клерики с другим
+align~~ом, применяющие это заклинание будут получать повреждение от этого
+магического удара. 
+ 
+{G====================================================================================={x
+~
+-1 'RAY OF TRUTH'~
+@eng Syntax: cast 'ray of truth' <target>
+
+Ray of truth opens a portal to the planes of positive energy, bringing forth
+a beam of light of sufficient purity to harm or or annihilate the servants
+of evil.  It cannot harm the pure of heart, and will turn and strike 
+casters who are tainted by evil.
+@rus {G========================================================================{x
+ 
+Cинтаксис: {ccast 'ray of truth' <цель>{x
+ 
+Этот магичесикй удар предназначен для не злых персонажей (злые будут сами
+получать от него повреждение). Чем злее противник, на которого применяется
+это заклинание, тем большее повреждение он получит. Также это заклинание
+может повесить аффект {cblindness{x на противника.
+ 
+{G========================================================================{x
+ 
+~
+-1 'PORTAL'~
+@eng Syntax: cast 'portal' <target>
+
+The portal spell is similar to gate, but creates a lasting one-way portal
+to the target creature, instead of transporting the caster.  Portals are
+entered using 'enter' or 'go' command, as in 'go portal'.  Portals cannot
+be made to certain destinations, nor used to escape from gate-proof rooms.
+Portal requires a special source of power to be used, unfortunately the
+secret of this material component has been lost...
+@rus {G========================================================================================{x
+
+Синтаксис: {ccast portal <цель>{x
+ 
+Это заклинание открывает односторонние врата к необходимому вам мобу ( игроку ).
+Чтобы войти в эти врата , используйте команду 'enter portal' или 'go portal'. 
+Чтобы создать портал , вам необходим специальный магический предмет. 
+
+{G========================================================================================{x
+ 
+~
+-1 'NEXUS'~
+@eng Syntax: cast 'nexus' <target>
+
+This spell is virtually identical to portal (see 'help portal'), with the
+only difference being that while portal creates a one-way gate, a nexus 
+spell makes a two-sided gate.  It also lasts longer than the lower-powered
+portal spell.  Both spells require an additional power source, the secret
+of which has been lost...
+@rus {G==============================================================================={x
+
+Синтаксис: {ccast nexus <цель>{x
+ 
+Это заклинание похоже на заклинание {cportal{x, но оно создает врата,
+в которые можно не только зайти, но и при желании вернутся обратно.
+Кроме того, врата, созданные с помощью этого заклинания, сохраняются
+дольше, чем созданные с помощью маломощного заклинания {cportal{x.
+Для этого заклинания также необходим специальный магический предмет.
+
+{G==============================================================================={x
+~
+-1 'HEAT METAL'~
+@eng {G============================================================================={x
+
+Syntax: {ccast 'heat metal' <target>{x
+
+Heat metal is a powerful clerical attack spell, with effects that vary 
+according to the armor of the victim.  It heats up the metal equipment
+(assumed to be all weapons and armor at this point in time) on the target,
+causing him or her to drop them if possible, taking serious burns in the
+process (possibly fatal if the equipment is too heavy to remove easily).
+This spell does no damage to creatures who are immune to fire.
+ 
+{G============================================================================={x
+@rus {G============================================================================={x
+ 
+Синтаксис: {ccast 'heat metal' <цель>{x
+ 
+Это заклинание позволяет раскалить металические вещи у противника, в
+результате чего он получает повреждение огнем (DAM_FIRE), и автоматически
+бросает эти вещи.
+ 
+{G============================================================================={x
+~
+-1 'HOLY WORD'~
+@eng Syntax: cast 'holy word'
+
+Holy word involves the invocation of the full power of a cleric's god, with
+disasterous effects upon the enemies of the priest coupled with powerful
+blessings on the priest's allies.  All creatures of like alignment in the
+room are blessed and filled with righteous divine wrath, while those of
+opposite morals (or both good and evil in the case of neutral priests)
+are struck down by holy (or unholy might) and cursed.  The cleric suffers
+greatly from the strain of this spell, being left unable to move and 
+drained of vitality.  Experience loss is no longer associated with the spell.
+@rus {G========================================================================{x
+ 
+Синтаксис: {ccast 'holy word'{x
+ 
+Магический удар, который бьёт всех в комнате с противоположным отношением
+к миру (если ты колеблешься между путями добра и зла, то бьёт по всем в
+комнате). Так же это заклинание может наложить на всех, кто близок вам по
+духу, аффекты {cbless{x и {cfrenzy{x.
+ 
+{G========================================================================{x
+ 
+~
+-1 FRENZY~
+@eng {G=============================================================================={x
+
+Syntax: {ccast 'frenzy' <target>{x
+
+The frenzy spell fills the target with righteous fury, greatly increasing
+his or her attack skill and damaging capacity.  Unfortunately, this divine
+wrath is coupled with a tendency to ignore threats to personal safety, 
+making the character easier to hit.  Frenzy provides immunity to the calm
+spell (see 'help calm'), and may only be used on those of the caster's 
+alignment.
+ 
+{G=============================================================================={x
+@rus {G=============================================================================={x
+ 
+Синтаксис: {ccast 'frenzy' <цель>{x
+ 
+Заклинание "бешенство"  наполняет цель справедливой яростью, и при этом
+сильно повышает навыки нападения и способность наносить большие повреждения.
+К сожалению, божественный гнев - тенденция игнорировать угрозы личной безопастности.
+И поэтому цель заклинания становится легче поразить. Бешенство дает иммунитет
+к спокойствию (смотреть {chelp calm{x).
+ 
+{G=============================================================================={x
+~
+-1 'CALM'~
+@eng {G==================================================================================={x
+
+Syntax: {ccast 'calm'{x
+
+One of the most useful and often overlooked abilities of the master cleric is
+the calm spell, which can put an end to all violence in a room.  Calmed
+creatures will not attack of their own volition, and are at a disadvantage
+in combat as long as the spell soothes their minds.  The more violence 
+activity there is in a room, the harder the spell, and it is all or nothing --
+either all combat in the room is ended (with the exception of those who
+are immune to magic) or none is.
+ 
+{G==================================================================================={x
+@rus {G==================================================================================={x
+ 
+Синтаксис: {ccast 'calm'{x
+
+Одна из наиболее полезных и часто применяемых способностей мастера-клерика.
+Успокаивающее заклинание, которое может положить конец всему насилию в комнате. Успокаиваемые
+существа не будут нападать по своей собственной воле, также можно во время боя успокоить всех.
+Чем большее насилия в комнате, тем меньше вероятность прохождения успокоения. Или все, или
+ничего - весь бой в комнате закончен или нет (заклинание не действует на мобов/чаров, 
+защищенных от магии).
+ 
+{G==================================================================================={x
+~
+-1 'HASTE'~
+@eng Syntax: cast 'haste' <target>
+
+The haste spell increases the speed and agility of the recipient, allowing
+an extra attack (or even a backstab) in combat, and improving evasive
+abilities in combat.  However, it produces a great strain on the system,
+such that recuperative abilities are halved.  Haste is capable of negating
+the slow spell. (see 'help slow').
+@rus {G========================================================================{x
+
+Синтаксис: {ccast haste <цель>{x
+
+Ускоряющее заклинание {chaste{x - одно из самых важных заклинаний в наборе
+любого мага. Оно повышает ловкость, дает возможность дополнительного удара
+в сражении. Но в связи с ускорением обмена веществ значительно снижаются
+способности к восстановлению.
+Негативным заклинанием является заклинание замедления ({cslow{x).     
+ 
+{G========================================================================{x
+ 
+~
+-1 SLOW~
+@eng Syntax: cast 'slow' <target>
+
+Despite popular mythology, slow is not the opposite of haste, but is a spell
+with it's own unique set of effects.  When cast on an unfortunate victim,
+it slows its movements, making it easier to hit and reducing its rate
+of attack.  The effect of slow also double movement costs and halve healing
+rates, due to reduced metabolism.
+@rus {G========================================================================{x
+
+Синтаксис: {ccast slow <цель>{x
+ 
+Замедляющее заклинание {C{cslow{x{x является полной противоположностью {chaste{x. Оно
+уменьшает ловкость, снижает его подвижность в сражении, делая противника
+более уязвимым к ударам. Также {cslow{x удваивает количество movements,
+необходимых для перемещения, и уменьшает восстанавливающие способности в
+связи с замедлением метаболизма.
+ 
+{G========================================================================{x
+ 
+~
+-1 PLAGUE~
+@eng Syntax: cast 'plague' <target>
+
+The plague spell infests the target with a magical disease of great virulence,
+sapping its strength and causing horrific suffering, and generally leading to
+death.  It is a risky spell to use, as the contagion can spread like
+wildfire if the victim makes it to a populated area.
+@rus {G========================================================================================{x
+
+Синтаксис: {ccast plague <цель>{x
+ 
+Этот спелл вызывает магическую чуму , которая уменьшает вашу силу и со временем
+вытягивает из вас жизнь , не позволяя ей восстанавливаться.
+От зараженного игрока ( моба ) , чума может передатся и другим героям ( мобам ).
+
+{G========================================================================================{x
+ 
+~
+-1 'CREATE ROSE'~
+@eng {G=========================================================================={x
+
+Syntax: {ccast 'create rose'{x
+
+A romantic spell that creates a fragrant red rose, with utterly no game
+use whatsoever.
+ 
+{G=========================================================================={x
+@rus {G========================================================================================={x
+
+Синтаксис: {ccast 'create rose' <название>{x
+ 
+Романтическое заклинание , которое создаёт прекрасную благоухающую розу.
+
+{G========================================================================================={x
+~
+0 'PROTECTION GOOD' 'PROTECTION EVIL'~
+@eng Syntax: cast 'protection evil' <target>
+	cast 'protection good' <target>
+
+The protection spells reduce damage taken from attackers of the appropriate
+ethos, and improve saving throws against all forms of magic. They may not
+be cast on others, and one person cannot carry both defenses at the same
+time.
+@rus {G========================================================================{x
+
+Синтаксис: {ccast 'protection good{x'
+Синтаксис: {ccast 'protection evil{x'
+ 
+Эти защитные заклинаниЯ уменьшают повреждениЯ , которые вы получаете от
+нападающих соответствующего алигна. Эти заклинаниЯ не действуют на других
+и вы не можете использовать их одновременно.
+ 
+{G========================================================================{x
+ 
+~
+0 'GIANT STRENGTH'~
+@eng Syntax: cast 'giant strength' <character>
+ 
+This spell increases the strength of the target character.
+@rus {G========================================================================{x
+ 
+Синтаксис: {ccast 'giant strength' <персонаж>{x
+
+Это заклинание увеличивает силу персонажа.
+ 
+{G========================================================================{x
+ 
+~
+-1 'CHAIN LIGHTNING'~
+@eng Syntax : cast 'chain lightning' <target>
+
+Chain lightning is a deadly spell, producing a powerful bolt of lightning
+that arcs from target to target in the room, until its force is fully
+expended.  Allies of the caster may be hit by this spell if they are members 
+of a clan, while the caster himself will not be struck unless no other
+viable target remains.  Chain lightning is most effective when used on
+groups of creatures.
+@rus {G========================================================================{x
+ 
+Синтаксис: {ccast 'chain lightning' <цель>{x
+ 
+Заклинание вызывает цепь молний, которые, постепенно слабея, бьют всех в 
+комнате (кроме одного). Могут задеть даже вас.
+ 
+{G========================================================================{x
+ 
+~
+1 'FARSIGHT'~
+@eng Syntax: cast 'farsight'
+	cast 'farsight' <direction>
+
+The farsight spell expands the caster's consciousness, allowing him or her
+to see far away beings like they were in the same room.  It takes intense
+concentration, often leaving the caster helpless for several minutes.
+The spell may be used for a general scan that reaches a short distance in
+all directions, or with a directional component to see creatures much
+farther away.
+@rus {G========================================================================{x
+
+Синтаксис: {ccast farsight <направление>{x
+
+Это заклинание позволЯет вам увидеть то что происходит
+на соседней с вами клетке в заданном вами направлений.
+ 
+{G========================================================================{x
+ 
+~
+-1 MASS HEALING~
+Syntax: cast 'mass healing' 
+
+The mass healing spell, as its name might suggest, performs a healing spell
+on all players in the room.  It also throws in a refresh spell for good
+measure.
+~
+-1 'FLOATING DISC'~
+@eng Syntax: cast 'floating disc'
+
+This useful spell creates a floating field of force which follows the caser
+around, allowing him or her to pile treasure high with no fear of weight
+penalties.  It lasts no more than twice the casters level in hours, and
+usually less.  It can hold 10 pounds per level of the caster, with a 
+maximum of five pounds per item.  The spell requires an open float location
+on the character, and the only way to remove the disc is to die or allow it
+to run out of energy.
+@rus {G========================================================================{x
+
+Синтаксис: {ccast 'floating disc'{x
+ 
+Это полезное заклинание создает силовое поле , которое летает вокруг мага,
+позволЯЯ ему складывать туда свои сокровища не опасаЯсь перегрузки.
+ДлитсЯ это заклинание не больше чем {c2*уровень{x мага ( обычно меньше ).
+Использовать это заклинание вы сможете только находЯсь вне помещениЯ.
+ИзбавитьсЯ от этого диска невозможно.
+ 
+{G========================================================================{x
+ 
+~
+-1 FIREPROOF~
+@eng Syntax: cast 'fireproof' <object>
+
+The fireproof spell creates a short-lived protective aura around an object,
+to protect it from the harmful effects of acid and flame.  Items protected
+by this spell are not harmed by acid, fire, or the heat metal spell.
+Although inexpensive to use, the spell's short duration makes it impractical
+for protecting large numbers of objects.
+@rus {G========================================================================================{x
+
+Синтаксис: {ccast fireproof <предмет>{x
+ 
+Это заклинание создает на времЯ защитную ауру у предмета.
+Эта аура защищает вещь от огнЯ и кислоты.
+Также не дает воздействовать на предмет с помощью заклинания {cheat metal{x.
+
+{G========================================================================================{x
+ 
+~
+-1 | ALIAS UNALIAS~
+@eng Syntax: alias
+        alias <word>
+        alias <word> <substitution>
+        unalias <word>
+The alias command allows limited shortening of command names.  At this time,
+aliases can call other aliases, and can generate more than one command with
+using | and || elements.
+Alias by itself lists your current aliases, Alias <word> lists the alias with 
+that name (if such exist), and alias with both a word and and argument 
+produces a new alias.  You cannot alias either alias or unalias to a new
+command.  Examples of use:
+alias gc get all corpse --> typing gc will equal typing 'get all corpse'
+alias ff cast 'fireball' %1 --> ff orc will equal 'cast 'fireball' orc'
+Only the first word on the line will be subsituted at this time.
+ 
+Complex arguments can be used in aliases. Examples:
+alias th throw spear %1 %2  --> typing th north mob will equal throw spear 
+north mob
+@rus {G==============================================================================={x
+ 
+    Синтаксис: {calias{x
+               {calias <сокращение> <сокращаемое выражение>{x
+               {cunalias <сокращение>{x
+ 
+С помощью команды {calias{x ты можешь посмотреть список всех твоих сокращений, которые ты уже сделал. С помощью команды {calias <сокращение> <сокращаемое выражение>{x ты можешь сократить набор некоторых сообщений.
+
+Пример:
+{calias gc get all corpse{x => Команда {cgc{x делает то же самое, что и команда {cget all corpse{x.
+
+Пример:
+Для того, чтобы обозначить аргумент, необходимо поставить значки {c%1{x, {c%2{x, {c%3{x в зависимости от очередности, с которой они будут действовать.
+ 
+{calias fb cast fireball %1.%2{x => Команда {cfb north woman{x аналогична команде {ccast fireball north.woman{x.
+ 
+Для того, чтобы прописать последовательное выполнение нескольких команд, необходимо использовать знак {c|{x , прописывая его, как {c||{x.
+
+Пример:
+{calias eat get potpie bacpack || eat potpie{x => Команда {ceat{x будет аналогична последовательно выполненным командам {cget potpie bacpack{x и {ceat potpie{x.
+ 
+С помощью команды {cunalias <сокращение>{x ты можешь стереть то сокращение, которое кажется тебе ненужным.
+ 
+{G==============================================================================={x
+~
+0 'IMPROVED INVIS'~
+@eng {G========================================================================================{x
+         Синтаксис cast 'improved invis' <target>
+ 
+Это заклинание позволяет вам спрятаться.
+Увидеть вас можно будет только с помощью заклятия 'improved detect'
+{G========================================================================================{x
+@rus {G========================================================================{x
+ 
+Синтаксис: {ccast 'improved invis' <цель>{x
+ 
+Это заклинание позволяет вам спрятаться более надёжно. Увидетьвас можно
+будет только под заклинанием {cimproved detect{x.
+ 
+{G========================================================================{x
+ 
+~
+0 IMPROVED DETECT~
+@eng {G========================================================================================{x
+          Синтаксис cast 'improved detect'
+ 
+С помощью этого заклинаниЯ вы сможете увидеть тех , кто находитсЯ под
+заклинанием 'improved invis'.
+{G========================================================================================{x
+@rus {G========================================================================================{x
+ 
+Синтаксис: {ccast 'improved detect'{x
+ 
+С помощью этого заклинания вы сможете увидеть тех , кто находится под
+заклинанием {cimproved invis{x.
+ 
+{G========================================================================================{x
+ 
+~
+0 PEACEFULL ATTACKER~
+@eng When begin playing, you are peaceful.
+Peaceful character cannot wear limited items, attack players,
+and cannot cast on attacker. Also, peaceful character
+gains half quest points and don't get money for completed quest.
+But it has some advantages: any player cannot attack peaceful character
+and cannot get stuff from it's corpse.
+To become attacker, use the command 'attacker become' standing near the Sheriff.
+@rus {G============================================================================={x
+
+Когда вы начинаете играть, вы - мирный.
+Мирный чар не может одевать лимиты, не может нападать на 
+игроков и не может применять мирную магию против атакера. Так же мирный получает в 
+два раза меньше квестовых очков и не получает деньги за выполненое задание.
+Но у него есть и плюсы: на мирного не может напасть другой игрок и нельзя 
+украсть вещи из его трупа.
+Что бы стать атакером, вам нужно набрать команду {cattacker become{x около 
+шерифа.
+ 
+{G============================================================================={x
+ 
+~
+0 'HAND BLOCK'~
+@eng  
+{G====================================================================================={x
+ 
+{cHand block {xthis skill allows unarmed person to block enemy attack with his
+or her hands.
+ 
+{G====================================================================================={x
+@rus  
+{G====================================================================================={x
+ 
+{cHand block{x - это умение позволяет отбивать наносимые удары голыми руками.
+ 
+{G====================================================================================={x
+~
+0 FOURTH ATTACK~
+@rus  
+{G==============================================================================={x
+ 
+Изучение персонажем умения {cfourth attack{x дает шанс нанести во время боя
+еще один - четвертый удар, по противнику. Также это умение повышает шанс 
+прохождения {csecond attack {xи {cthird attack. {RНО{x даже мастерское владение
+этим умением {RНЕ {x гарантирует того, что Вы будете наносить четыре
+удара каждый раунд боя.
+ 
+{G==============================================================================={x
+~
+0 MSC 'MAGIC SCHOOL'~
+@rus Синтаксис:
+{cmschool info [<название школы>]{z - узнать где можно изучить эту школу
+{cmschool learn <название школы>{z - изучить школу
+{cmschool renounce <название школы> <ваш пароль>{z - отказаться от школы 
+{cmschool list <название школы>{z - узнать что дает школа
+
+  Издавна магия  была нескольких видов:  магия воздуха,  магия воды, магия 
+земли,  магия огня, магия смерти и  магия ментального воздействия.  Изуча-
+лись они в различных школах и  зачастую нейтрализовывали  друг друга, как, 
+к примеру, вода тушит огонь, но огонь испаряет воду. 
+  В мире Shadow Realms  существует 6 школ Магии,  4 из  которых имеют про-
+тивоположную  школу  (воздух <-> земля,  вода <-> огонь).  Выбрав одну  из 
+школ, вы уже не сможете изучить противоположную  (если она есть),  поэтому 
+вы можете  изучить не больше 4 школ,  но и их изучение  связано с большими 
+трудностями.  Совет:  вначале изучите в  совершенстве одну школу,  а после 
+уже принимайтесь  за изучение другой.  Замечание: чем  выше прокачена одна 
+школа,  тем ниже (защита/нападение) от противоположной  школы (если есть). 
+У каждой школы  есть 3 ранга  (в зависимости  от них  идет зависимость  от 
+конкретной прокачки школы [1..100])
+1 ранг: 1 .. 30
+2 ранг: 31 .. 85
+3 ранг: 86 .. 100
+Между этими  цифрами прокачка идет от использования  соответствующей магии
+(или защите от нее), как и при прокачке skill'ов. Доходя до правой цифры -  
+вам нужен наставник, чтобы поднять ранг школы (3 max).  Для каждой школы и 
+для каждого ранга этой школы - свой наставник.
+Вообще, вы можите не вступать ни в одну из школ,  но тогда у учащихся школ 
+будет перед вами преимущество в силе заклятий.
+~
+0 QUEST TYPE~
+@eng {G==============================================================================={x
+
+In world of Shadow Realm you may take next quests:
+1) QUESTT_KILLMOB - kill random mob
+2) QUESTT_FINDOBJ - find quest object and bring to questor
+3) QUESTT_CASTMOB - cast a random spell on random mob
+4) QUESTT_ASK_WH_MOB - say in which room a random mob
+5) QUESTT_ASK_WH_OBJ - say where a random object
+6) QUESTT_ASK_MOB_AT - say what name of a random mob in random room
+7) QUESTT_ASK_OBJ_AT - say what name of random object in random room
+8) QUESTT_EXCORT_TO_MOB - excort one mob to another
+9) QUESTT_EXCORT_TO_ROOM - excort mob to random room
+10) QUESTT_BRING_TO_MOB - bring random object to random mob
+11) QUESTT_BRING - bring a existed obj to questor
+ 
+{G==============================================================================={x
+@rus {G========================================================================{x
+В нашем мире задания, выдаваемые квестором или богами, могут быть
+следующих типов:
+
+{C1){x Найти и убить случайную живность в случайном месте (разумеется квест
+даётся с учётом уровня, то есть, чтобы задание было реально выполнить).
+На квестовой живности будет метка {R[ЦЕЛЬ]{x.
+ 
+{C2){x Найти квестовый объект (quest staff) находящийися в случайном месте.
+Он может быть зарыт или спрятан в этой комнате (чтобы искать такие объекты
+существуют умения {cdig{x и {c{csearch{x{x).
+ 
+{C3){x Прочитать любое заклинание (из списка имеющихся) на случайного моба
+с меткой.
+ 
+{C4){x Квест-вопрос: "Где находится определённый моб?". Нужно ответить
+квестору ({cquest complete {c{c{{exp|noexp}{x{x <ответ>{x), где находится указанный им
+моб с меткой. Вам даётся три попытки. После первой неправильной квестор
+скажет арию, в которой стоит этот моб. С каждой попыткой уменьшается
+размер вознаграждения.
+ 
+{C5){x Квест-вопрос: "Где находится определённый предмет?". Нужно ответить
+квестору ({cquest complete {c{c{{exp|noexp}{x{x <ответ>{x), где находится указанный им 
+объект (он может быть у моба). Квест похож на предыдущий.
+ 
+{C6){x Квест-вопрос: "Какой моб стоит в определённом месте?". Нужно ответить
+квестору ({cquest complete {c{c{{exp|noexp}{x{x <ответ>{x), какой моб стоит в указанном 
+им месте. На мобе будет метка {R[ЦЕЛЬ]{x. Так же даётся три попытки.
+ 
+{C7){x Квест-вопрос: "Какой объект лежит в определённом месте?". Нужно ответить
+квестору ({cquest complete {c{c{{exp|noexp}{x{x <ответ>{x) на его вопрос. На объекте 
+будет метка.
+ 
+{C8){x Нужно найти моба в указанном месте и довести его до моба в другом
+месте. Для этого воспользуйтесь командой (когда найдёте первого моба)
+{cquest control excort{x с параметрами: {cbegin{x -- моб начинает следовать
+за вами и {cend{x -- прекратит следовать за вами. Если он находится в 
+нужном месте, то вам сообщат, что квест почти закончен. После чего надо
+вернуться к квестору и написать {cquest complete{x.
+ 
+{C9){x Нужно найти моба в указанном месте и отвести его в другое.
+Воспользуйтесь теми же командами, что и в предыдущем квесте.
+ 
+{C10){x Нужно найти случайный предмет и отнести его случайному мобу. Используйте
+команду {cquest control bring end{x, когда будете стоять с объектом,
+помеченным как {R[ЦЕЛЬ]{x, в комнате с мобом, помеченным так же.
+ 
+{C11){x Нужно найти определённый объект в мире и принести его квестору. Просто
+{cquest complete{x, когда вещь будет у вас.
+ 
+{G========================================================================{x
+ 
+~
+0 DESCRIPTION~
+{G================================================================================{x
+
+{CDescription{z - это ваше описание, то как выглядит ваш персонаж. Именно его будут
+видеть другие игроки, когда посмотрят на вас. Представьте что вы встали перед
+зеркалом и описываете себя: ваш внешний вид, какие-то особенности (родинки,
+шрамы и прочее). 
+{M*{z Рисунки вместо описания допустимы, но не приветствуются. Они будут строго
+отбираться и если Бессмертный сочтет картинку недопустимой для вашего образа,
+придется ее изменить.
+{M*{z Не приветствуются описания ощущений, которые вызывает ваш персонаж. Не забывайте
+что мир населен разными расами и то, что противно для одних, может быть прекрасным
+для других.
+{M*{z Недопустимы предложения типа: Могучий некромант/воин/и т.д. Это более
+подходЯще длЯ титула (См.{CHelp title{x)
+{M*{z Если вы хотите заострить внимание на профессии персонажа можно написать: Он
+выглядит сильным воином, могучим магом и т.п. Это возможно только если удачно
+сочетается с вашим описанием, а не выглядит левой фразой на общем фоне описания.
+{M*{z Недопустимы описания таких действий как: Он убивает тебя, Его чармисы/големы 
+нападают на тебя и тому подобное.
+{M*{z Недопустимо описание одежды, оружия и прочих предметов которые вы держите
+в руках.
+{M*{z Недопустимо описание чармисов, големов и прочей живности.
+{M*{z Недопустимо копирование описания с других персонажей. Помните, каждый в этом
+мире уникален.
+{M*{x Описание должно хоть сколько-нибудь раскрывать внешность Вашего персонажа
+Поэтому описание на две строчки - это мало. Много - не значит лучше.
+Придерживайтесь золотой середины.
+{M*{z Недопустимо использование различных смайликов.
+{M*{x ОписаниЯ можно выделЯть цветом (См.{CHelp color{x), но не злоупотреблЯйте этим. Помните
+{Dтемные{z, {Bсиние{z и {bтемно-синие{z цвета не у всех хорошо читаются.
+Написать его можно при помощи команды {Rdescription edit{z. 
+{R* {xВаше описание должно быть одобрено Бессмертными. Только после этого вы сможете
+выполнять задания, раздаваемые Квестором.
+{R*{x Описания персонажей, чьи имена были забракованы, изменены и созданы вновь
+с тем же именем {RОДОБРЕНИЮ НЕ ПОДЛЕЖАТ{x!
+{R*{x Перед тем, как просить Бессмертных одобрить Ваше описание проверьте его
+на предмет грамматических ошибок.
+ 
+{C*{x Для подачи Богам знака, что ваше описание готово и его нужно посмотреть и утвердить
+{x в свой титул аббревиатуру {{{CNCD{x} ({{{{CNCD{x}) - {CNeedCheckDesc {x!
+Для этого используйте команду {ctitle{x (см. {chelp title{x).
+ 
+{G================================================================================{x
+~
+0 AID~
+@rus {G==============================================================================={x
+
+Синтаксис: {caid <человек>{z
+ 
+Это умение помогать тяжело раненным, истекающим кровью товарищам. Оно 
+восстанавливает очки жизни (hit points) до 1.
+{G==============================================================================={x
+~
+0 KROLM~
+@rus {G============================================================================={x
+
+  {CКролм{z - бог войны и сражений.  Он покровительствует всем, кто добывает 
+себе  деньги, славу и другие  прелести  жизни с помощью  оружия в руках, 
+убивая других игроков или более сильных монстров.  К жертвам принесенным 
+во славу Его Кролм относится великодушно, но вот мольбы о возврате домой 
+и похищение жертв с  алтаря могут отвернуть  от вас Его благосклонность. 
+Вода - не напиток для последователей Кролма, Он любит, когда пьют спирт-
+ное. Жрецы Кролма часто выступают в роли наставников и тренеров в воинс-
+ких  частях и казармах,  однако  предпочитают быть  одиночками, т.к. это 
+более по душе Кролму.
+ 
+{G============================================================================={x
+~
+0 test~
+Ах! Простой смертный, ищущий приключений. Через пространство и время 
+пронесся ты и оказался в чудесном мире Shadow Realms. Твое появление 
+в Храме было предначертано Судьбой, отсюда ты отправишься в путешествие 
+по миру, сюда же ты будешь возвращаться в трудный момент после молитвы 
+к Богам ({Crecall{z). Огляди себя с ног до головы ({Clook{z self или {Cexamine{z self) 
+или только посмотри что на тебе одето ({Cequipment{z или equipment all) 
+и можешь отправляться в путь. Хотя лучше сначала узнать что же ты умеешь: 
+какие заклинания ({Cspells{z) и какие умения ({Cskills{z) тебе уже доступны, либо 
+скоро станут доступными. Советую тебе сначала заглянуть в свою гильдию, 
+находящуюся в городе, для того чтобы потренироваться ({Ctrain{z) и 
+попрактиковаться ({Cpractice{z). 
+Теперь ты готов отправиться в опасный и полный приключений путь. Чтобы 
+узнать куда лучше сходить в твоем юном возрасте набери {Careas{z, в фигурных 
+скобках указаны уровни на которых рекомендуется ходить в ту или иную 
+область. Но новому человеку, совсем не знакомому с миром придется трудно, 
+поэтому не плохо найти попутчика или нескольких ({Cgroup{z). Посмотри кто 
+кроме тебя присутсвует в мире ({Cwho{z) и предложи ({Ctell{z <имя>) присоединиться 
+к тебе. Прежде чем сразиться с монстром померяйся с ним силами ({Cconsider{z) - 
+возможно ты слишком слаб чтобы драться с ним. Если же ты убил ({Ckill{z) монстра 
+и снял с него какую-либо вещь, то ты можешь сравнить ее с аналогичной, уже 
+одетой на тебя ({Ccompare{z).
+
+P.S. Доступные тебе команды можно посмотреть при помощи {Ccommands{z, на все 
+команды есть справки, просмотреть которые можно при помощи help <command>. 
+Не стесняйся спрашивать что непонятно, это можно сделать при помощи общих 
+каналов ({Cchat{z), либо в приватной беседе с кем-либо ({Ctell{z <name>).
+P.S.2 Обязательно посмотри справку (help) по выделенным словам.
+~
+0 test2~
+~
+0 'ASSIST'~
+@rus {G==============================================================================={x
+ 
+Синтаксис: {ccast assist <цель>{x
+ 
+Восстанавливающее заклинание некроманта, позволяющее лечить. Может использоваться
+только раз за определённое время.
+ 
+{G==============================================================================={x
+~
+0 'DETECT HIDE'~
+@rus {G========================================================================{x
+ 
+Cинтаксис: {cdetect hide{x
+ 
+Это умение позволяет видеть спрятавшихся существ (умение {chide{x).
+ 
+{G========================================================================{x
+ 
+~
+0 'BLIND FIGHTING'~
+@rus {G========================================================================{x
+ 
+Это умение позволяет сражаться ослеплённым так же хорошо, как и обычно.
+ 
+{G========================================================================{x
+ 
+~
+0 'REMOVE FEAR'~
+@rus {G========================================================================{x
+ 
+Синтаксис: {ccast 'remove fear' <цель>{x
+ 
+Снимает аффект страха с персонажа, наложенный заклинанием {cfear{x.
+ 
+{G========================================================================{x
+ 
+~
+0 'SUPERIOR HEAL'~
+@rus {G========================================================================{x
+ 
+Синтаксис: {ccast 'superior heal' <цель>{x
+ 
+Одно из самых мощных и наиболее часто применяющиеся из восстанавливающих
+заклинаний.
+ 
+{G========================================================================{x
+ 
+~
+0 THROW SPEAR~
+@rus {G==============================================================================={x
+
+Синтаксис: {cthrow spear <направление> <жертва>{x
+
+Достаточно умелый воин может уметь поражать жертву на расстоянии при
+помощи копья.  Для того, чтобы делать это, ему необходимо всего лишь умение
+{cspear{x и копье.  Для того, чтообы кинуть копье, у воина должны быть
+свободны обе руки, и он должен твердо стоять на земле, дабы прицелиться как
+можно точнее.  
+ 
+{G==============================================================================={x
+~
+0 BOW~
+@rus {G==============================================================================={x
+ 
+Все охотники и наиболее умелые воины умеют пользоваться луками. Для того, чтоы выстрелить, необходимо набрать команду {cshoot <сторона> <цель>{x. Для того, чтобы узнать, как можно сделать стрелы, наберите {chelp arrow{x.
+ 
+{G==============================================================================={x
+~
+0 ARROW GREEN RED WHITE BLUE~
+@rus {G==============================================================================={x
+ 
+Синтаксис: {cmake bow{x
+           {cmake arrow{x
+           {cmake arrow green{x
+           {cmake arrow blue{x
+           {cmake arrow red{x
+           {cmake arrow white{x
+ 
+Достаточно умелый рэйнджер может самостоятельно изготовить стрелы для 
+использования. Кроме того, чем старше он становится , тем более сильные стрелы
+у него получаются. Со временем он может научиться делать стрелы с различными
+аффектами, которые будут накладываться на того, в кого эта стрела попадет.
+Зеленая стрела ({cgreen arrow{x) может отравить вашего оппонента ядом.
+Голубая стрела ({cblue arrow{x) имеет дополнительный аффект {cshocking{x, что позволяет
+нанести оппоненту дополнительное повреждение, а так же может спалить его вещи.
+Красная стрела ({cred arrow{x) имеет дополнительный аффект {cflaming{x, нанося при этом
+повреждение огнем. Кроме того, противник может быть ослеплен ею, а также лишиться
+некоторых вещей, уничтоженных огнем.
+Белая стрела ({cwhite arrow{x) с аффектом {cfrost{x может нанести повреждение холодом,
+заморозить вещи или самого противника ({cchill touch{x).
+
+{G==============================================================================={x
+~
+0 HEALING GROUP~
+@rus {G==========================================================================={x
+
+Заклинания, принадлежащие этой группе, предназначены для лечения, то есть
+для восстановления определенного количества hit point.  Наберите glist
+healing, для того чтобы узнать, какие из этих заклинаний сможете выучить вы.
+
+{G==========================================================================={x
+~
+0 MALADICTION GROUP~
+@rus {G==========================================================================={x
+
+Заклинания этой группы предназначены для того, чтобы понизить показатели
+вашего оппонента во время битвы.  Учтите, что юбое из этих заклинаний
+является атакующим, то есть вы начинаете бой с вашим оппонентом сразу после
+того, как ваше заклинание начинает оказывать на него действие.  
+ 
+{G==========================================================================={x
+~
+0 VERSION~
+{G========================================================================{x
+ 
+Syntax: {cversion{x
+ 
+This command allow you to see the date of the last muddy's compile.
+Using this, you can know the differences, which was done in the
+source of MUD.
+ 
+{G========================================================================{x
+~
+0 DIG SEARCH~
+@rus {G========================================================================{x
+ 
+Синтаксис: {cdig{x
+{c           search{x
+ 
+Использование этих умений может помочь тебе в выполнении заданий. Если тебе 
+дали задание найти посох, то он может быть либо закопан в комнате, 
+названной квестором, либо срятан в ней. Для нахождения его набирай {cdig{x
+или {csearch{x сответственно.
+Данные умения не даюся ни одному классу. Для того, чтобы научиться им, тебе
+необходимо сначала найти существо, которое обладает такими знаниями
+{chelp research list{x.
+ 
+{G========================================================================{x
+~
+0 'SADDLE'~
+@rus {G========================================================================{x
+
+Синтаксис: {csaddle <лошадь>{x
+ 
+С помощью этой команды вы можете оседлать вашу лошадь, для того, чтобы
+снять седло, также используйте команду {csaddle{x. Если вам нужно оставить
+коня, не забудьте его привязать (см. {chelp teth{x), чтобы он не убежал.
+Если вы покидаете игру, то вы можете оставить коня в конюшне ({chelp stable{x).
+ 
+{G========================================================================{x
+~
+0 word 'MOUNT' 'DISMOUNT'~
+@rus {G========================================================================{x
+ 
+Синтаксис: {c{cmount <лошадь>{x{x
+{c           {cdismount <лошадь>{x{x
+ 
+С помощью этих команд вы можете взобраться верхом на лошадь, или
+слезть с нее. 
+Используйте {chelp saddle{x для большей информации.
+ 
+{G========================================================================{x
+~
+0 'TETH' 'UNTETH'~
+@eng look russian variant
+@rus {G========================================================================{x
+ 
+Синтаксис: {cteth <лошадь>{x
+{dСинтаксис: {cunteth <лошадь>{x
+ 
+Этими командами можно привязать ({cteth{x) или отвязать ({cunteth{x) лошадь,
+чтобы она не убежала. Когда лошадь отвязана, она пасется и восстанавливает
+очки движения ({cmove{x).
+ 
+{G========================================================================{x
+~
+0 'STABLE'~
+@eng {G========================================================================{x
+
+Syntax: {cstable <horse>{x
+
+This command works only in stables.  It allows you to exchange your horse
+for an equivalent ticket.  This is useful when you're about to quit Shadow
+Realms and want to stash your horse away for further use.  To retrieve it,
+you have to give ({chelp give{x) your ticket to the stablesman.
+ 
+{G========================================================================{x
+@rus {G========================================================================{x
+
+Синтаксис: {cstable <лошадь>{x
+
+Эта команда работает только в конюшне.  Она позволяет обменять свою
+лошадь на соответствующий билет, чтобы не потерять её при выходе из Shadow
+Realms.  Чтобы получить свою лошадь назад, необходимо дать конюху этот билет
+({chelp give{x).  
+ 
+{G========================================================================{x
+~
+-1 $~
+
+#$

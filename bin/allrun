@@ -1,0 +1,6 @@
+#!/bin/sh
+
+./autorun &
+sleep 5
+echo ">>>   Begin seeing 'tmplog' (tail -f ../log/tmplog)   <<<"
+exec tail -f ../log/tmplog

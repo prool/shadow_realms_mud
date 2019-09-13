@@ -1,0 +1,1782 @@
+#AREADATA
+Name Dwarven Kingdom~
+VNUMs 6500 6599
+Credits Anon~
+Security 5
+LevelRange 10 25
+End
+
+#MOBILES
+#6500
+dwarf guard~
+@eng dwarven guard@rus ~~охранник~~-~~дварф~~~
+@eng A dwarven guard is here.
+@rus Охранник-дварф стоит здесь.
+~
+@eng The guard looks very tough and mean.
+@rus Страж выглядит крепким и уверенным в себе.
+~
+dwarf~
+ABKl D 500 0
+20 0 3d9+333 20d25+200 2d8+5 none
+4 4 4 -7
+EFNR 0 0 0
+stand stand male 5
+0 0 medium unknown
+L 'dwarvish lang'
+#6501
+dwarf worker miner~
+@eng the dwarven worker@rus ~~рабочий~~-~~дварф~~~
+@eng A dwarven mining worker is here.
+@rus Дварф-шахтер работает здесь.
+~
+@eng He is very dirty, and looks extremely over-worked.
+@rus Он очень грязный и выглядит черезвычайно занятым.
+~
+dwarf~
+AG 0 460 0
+12 0 2d10+150 12d25+200 1d10+3 none
+0 0 0 -8
+EFNR 0 0 0
+stand stand male 4
+0 0 medium unknown
+L 'dwarvish lang'
+#6502
+wraith~
+@eng the wraith@rus ~~призрак~~~
+@eng A wraith is awaiting your first move here.
+@rus Призрак ожидает твоего первого движения здесь.
+~
+@eng A black, almost transparent wraith.
+@rus Черный, почти совсем прозрачный призрак
+~
+human~
+AB DFJ -545 0
+29 0 20d20+778 20d20+500 5d17+8 none
+9 9 9 -6
+EFNU 0 0 0
+stand stand male 0
+0 0 medium unknown
+#6503
+storekeeper~
+the storekeeper~
+There is the Hide & Tooth storekeeper standing here, waiting patiently.
+~
+The storekeeper is very rotund, but looks like a sharp guy.
+~
+human~
+ABe 0 575 0
+35 0 10d10+1300 35d25+200 4d7+11 none
+11 11 11 -5
+EFNU 0 0 0
+stand stand male 30
+0 0 medium unknown
+#6504
+oldstyle baker~
+the baker~
+Granite Head, the baker, is waiting for a customer here.
+~
+Granite Head is covered with flour and grains.
+~
+human~
+ABe 0 575 0
+35 0 10d10+1700 35d25+200 4d7+11 none
+31 31 31 -5
+EFNU 0 0 0
+stand stand male 30
+0 0 medium unknown
+#6505
+lizard~
+@eng the giant lizard@rus ~~гиганский~~ ~~ящер~~~
+@eng A giant lizard is here.
+@rus Гигантския ящер разгуливает здесь.
+~
+@eng This scaly creature looks like it is well adapted to it's underground
+habitat.  He looks very powerful.
+@rus Это существо выглядит весьма приспособленным к своей подземной жизни.
+Оно очень сильное на вид.
+~
+lizard~
+AG D 100 0
+18 0 3d9+283 18d25+200 2d7+4 none
+3 3 3 -7
+EFNR 0 0 0
+stand stand male 0
+0 0 medium unknown
+#6506
+giant~
+@eng the giant@rus ~~гигант~~~
+@eng A giant is here.
+@rus Гигант здесь.
+~
+@eng The giant is about 8 feet tall, with arms of steel, and looks very strong.
+@rus Гигант 8 футов ростом, с стальными кулаками выглядит очень внушительно.
+~
+giant~
+AG 0 0 0
+16 0 3d9+233 16d25+200 2d6+4 none
+2 2 2 -7
+EFNR 0 0 0
+stand stand male 3
+0 0 medium unknown
+#6507
+dwarf miner~
+@eng the dwarven miner@rus ~~дварф~~-~~шахтер~~~
+@eng A dwarven miner is here.
+@rus Дварф-шахтер вкалывает тут.
+~
+@eng The mineworker is very tired, and very dirty, and he has bulging muscles.
+@rus Он выглядит очень усталым и грязным.
+Его мышцы бугрятся под одеждой.
+~
+dwarf~
+AB 0 0 0
+8 0 2d7+96 8d25+200 1d7+2 none
+-3 -3 -3 -9
+EFNR 0 0 0
+stand stand male 2
+0 0 medium unknown
+#6508
+dwarf leader~
+@eng the dwarven mine leader@rus ~~начальник~~ шахты~
+@eng A dwarven mine leader is here.
+@rus Начальник шахты дварфов стоит здесь.
+~
+@eng The mine leader is very big and very strong.
+@rus Начальник шахты очень большой и очень сильный.
+~
+dwarf~
+AB 0 0 0
+21 0 4d10+360 21d25+200 4d4+5 none
+5 5 5 -7
+EFNR 0 0 0
+stand stand male 10
+0 0 medium unknown
+L 'dwarvish lang'
+#6509
+dwarf doctor~
+@eng the dwarven doctor@rus ~~доктор~~-~~дварф~~~
+@eng The dwarven doctor is here.
+@rus Доктор-дварф стоит тут.
+~
+@eng He is a very skilled surgeon, with hands of steel.
+@rus Очень опытный полевой врач со стальными кулаками.
+~
+dwarf~
+AB DH 445 0
+9 0 2d6+110 9d25+200 1d8+2 none
+-2 -2 -2 -8
+EFNR 0 0 0
+stand stand male 4
+0 0 medium unknown
+#6510
+dwarf peon~
+@eng the dwarven peon@rus ~~дварф~~-~~чернорабочий~~~
+@eng A dwarven peon is awaiting help here.
+@rus Дварф-чернорабочий ждет тут чего-то.
+~
+~
+dwarf~
+AB 0 415 0
+3 0 2d6+35 3d25+200 1d6+0 none
+-7 -7 -7 -10
+EFNR 0 0 0
+stand stand male 1
+0 0 medium unknown
+L 'dwarvish lang'
+#6511
+dwarf~
+@eng the dwarf@rus ~~дварф~~~
+@eng A grinning dwarf is here.
+@rus Дварф усмехается над тобой здесь.
+~
+~
+dwarf~
+AB 0 445 0
+9 0 2d6+110 9d25+200 1d8+2 none
+-2 -2 -2 -8
+EFNR 0 0 0
+stand stand male 4
+0 0 medium unknown
+#6512
+oldstyle dwarf son~
+the unwanted son~
+An unwanted son is here.  You feel sorry for the guy.
+~
+~
+dwarf~
+AG 0 250 0
+9 0 2d6+110 9d25+200 1d8+2 none
+-2 -2 -2 -8
+EFNR 0 0 0
+stand stand male 9
+0 0 medium unknown
+#6513
+oldstyle dwarf daughter~
+the unwanted daughter~
+An unwanted daughter is here.  You feel sorry for her.
+~
+~
+dwarf~
+AG 0 250 0
+10 0 2d7+121 10d25+200 2d4+2 none
+-1 -1 -1 -8
+EFNR 0 0 0
+stand stand female 10
+0 0 medium unknown
+#6514
+oldstyle dwarf guard~
+the barracks guard~
+A barrack guard is here.
+~
+~
+dwarf~
+AB 0 100 0
+16 0 3d9+233 16d25+200 2d6+4 none
+2 2 2 -7
+EFNR 0 0 0
+stand stand male 16
+0 0 medium unknown
+#6515
+oldstyle man~
+the man in waiting~
+A man in waiting is here.  He looks nervous and unsure of himself.
+~
+~
+human~
+AB 0 300 0
+15 0 3d9+208 15d25+200 2d6+3 none
+2 2 2 -7
+EFNU 0 0 0
+stand stand male 15
+0 0 medium unknown
+#6516
+oldstyle mazekeeper~
+the mazekeeper~
+A mazekeeper is here.
+~
+He looks VERY tough.
+~
+human~
+ABF Ju -545 0
+29 0 6d12+778 29d25+200 2d12+8 none
+9 9 9 -6
+EFNU 0 0 0
+stand stand male 27
+0 0 medium unknown
+#6517
+oldstyle snake~
+the giant snake~
+There is a giant snake here.
+~
+~
+snake~
+ABF J -475 0
+15 0 3d9+208 15d25+200 2d6+3 none
+2 2 2 -7
+EFNR 0 0 0
+stand stand male 15
+0 0 medium unknown
+#6518
+oldstyle dwarf seller~
+the dwarven worker~
+A dwarven mining worker is here.
+~
+He is very dirty, and looks extremely over-worked. But unlike the others 
+this one seems to be waiting for someone
+~
+dwarf~
+ABGl 0 0 0
+12 0 2d10+150 12d25+200 1d10+3 none
+0 0 0 -8
+EFNR 0 0 0
+stand stand male 12
+0 0 medium unknown
+#6519
+torn~
+@eng Torn@rus ~~Торн~~~
+@eng Thickset dwarf stands at a counter.
+@rus Коренастый дварф стоит у прилавка.
+~
+~
+dwarf~
+ABe DVu -100 0
+85 0 30d10+17000 10d10+100 10d10+30 cleave
+55 55 55 22
+ADEHIJ 0 0 0
+stand stand male 45
+0 0 medium unknown
+L 'dwarvish lang'
+#0
+
+#OBJECTS
+#6501
+axe of torn's~
+@eng Torn's axe@rus ~~топор~~ Торна~
+@eng The axe of master Torn lays before you.@rus Топор самого мастера Торна лежит перед тобой.~
+unknown~
+weapon F AN
+axe 6 10 cleave E
+85 230 229 P
+A
+18 5
+A
+19 5
+A
+2 -1
+G male
+#6502
+key green~
+@eng a deep green key@rus ~~темно-зеленный~~ ~~ключ~~~
+@eng A deep green key is on the floor.@rus Темно-зеленный ключ лежит здесь.~
+wood~
+key 0 A
+0 0 0 0 0
+0 10 0 P
+G none
+#6504
+axe dwarven battle~
+@eng battle dwarven axe@rus ~~боевая~~ ~~секира~~ дварфов~
+@eng There is a dwarven axe lies here.@rus Боевая секира ржавеет на земле.~
+iron wood~
+weapon 0 AN
+axe 4 4 chomp 0
+17 100 34 P
+G none
+#6505
+dwarven plate~
+dwarven plate mail~
+There is dwarven plate mail laying here.~
+iron~
+armor 0 AD
+7 7 7 0 0
+20 40 40 P
+A
+5 1
+G none
+#6506
+stick~
+@eng long, black stick@rus ~~длинная~~, ~~черная~~ ~~палочка~~~
+@eng There is a long, black stick lying here.@rus Длинная, черная палочка лежит тут.~
+coal~
+staff 0 AO
+7 12 12 'cure critical' 0
+11 10 22 P
+A
+23 5
+G none
+#6507
+stick~
+@eng long, black stick@rus ~~длинная~~ ~~черная~~ ~~палочка~~~
+@eng There is a long, black stick here.@rus Длинная черная палочка валяется в пыли.~
+coal~
+light 0 AO
+0 0 160 0 0
+0 10 0 P
+G none
+#6508
+axe dwarven~
+@eng dwarven axe@rus ~~гномья~~ ~~секира~~~
+@eng There is a dwarven axe laying here.@rus Гномья секира забыта здесь.~
+iron wood~
+weapon 0 AN
+axe 2 8 chomp 0
+10 10 20 P
+G none
+#6509
+two-handed dwarven axe~
+@eng a two-handed dwarven axe@rus ~~двуручная~~ ~~секира~~ дварфов~
+@eng A two-handed Dwarven axe is here.@rus Двуручная секира дварфов лежит тут.~
+wood steel~
+weapon 0 AN
+axe 4 6 cleave F
+17 50 34 P
+G none
+#6510
+helmet~
+@eng a dwarven helmet@rus ~~шлем~~ дварфов~
+@eng A dwarven helmet is here.@rus Шлем дварфов лежит здесь.~
+iron~
+armor 0 AE
+7 7 7 0 0
+20 40 40 P
+A
+5 1
+G male
+#6511
+ring golden dwarven~
+@eng a dwarven golden ring@rus ~~золотое~~ ~~кольцо~~ гномов~
+@eng A pretty golden ring is here.@rus Хорошенькое золотое кольцо тут.~
+gold~
+armor G AB
+-1 -1 -1 0 0
+7 10 70 P
+A
+17 -3
+A
+18 1
+A
+19 1
+G none
+#6512
+gloves~
+@eng dwarven gloves@rus ~~перчатки~~ дварфов~
+@eng Thick dwarven gloves lay here.@rus Перчатки дварфов забыты здесь кем-то.~
+leather~
+armor 0 AH
+4 4 4 0 0
+13 30 26 P
+A
+4 -1
+A
+2 1
+A
+1 1
+G none
+#6513
+note~
+@eng a note@rus ~~надпись~~~
+@eng A crumpled note is here.@rus Здесь что-то написано.~
+paper~
+furniture 0 A
+0 0 0 0 0
+0 0 0 P
+E ''
+note letter letters~
+It seems to be a hot love letter from the Queen.  Unfortunately,
+it's not suitable for transmission across a public data network.
+~
+G female
+#6514
+castle key~
+a castle key~
+There is a key to Strangelove Castle here.~
+iron~
+key 0 A
+0 0 0 0 0
+0 0 0 P
+G none
+#6516
+key mine~
+@eng a mine key@rus ~~ключ~~ к шахте~
+@eng There is a key to the mines here.@rus Ключ к шахтам лежит здесь.~
+iron~
+key 0 A
+0 0 0 0 0
+0 0 0 P
+G none
+#6517
+coal~
+@eng a chunk of coal@rus ~~кусок~~ угля~
+@eng There is a chunk of coal here.@rus Кусок угля лежит в пыли.~
+coal~
+trash T AO
+0 0 0 0 0
+0 10 0 P
+G male
+#6518
+pick~
+a mining pick~
+There is a mining pick here.~
+iron wood~
+weapon I AN
+exotic 2 3 pierce 0
+3 10 6 P
+G none
+#6519
+pills~
+@eng a box of birth control pills@rus ~~коробка~~ с пилюлями~
+@eng There is a box of birth control pills here.@rus Коробка с противозачаточными таблетками забыта тут кем-то.~
+unknown~
+pill 0 A
+20 'cure light' 'cure light' 'cure light' ''
+0 10 1 P
+E ''
+birth control pills pill~
+They are in a circular container, and there are numbers corresponding
+to the day that they are to be taken.  You can tell they haven't been
+used for a while.
+~
+G none
+#6520
+map castle strangelove~
+@eng a map of Castle Strangelove@rus ~~карта~~ замка Strangelove~
+@eng A rolled up map is here.@rus Свернутая карта лежит здесь.~
+paper~
+map 0 A
+A 0 0 0 0
+0 10 5 P
+E ''
+map castle strangelove~
+.
+* * * Castle Strangelove * * *       __________
+ = = ==================== = =        \ Queen's \
+      			              \ Bedroom \
+                                       \_________\
+                                                *
+                               __________    ____\_____
+     North  Up                 \  Top of \    \ Waiting \
+        \   |                   \ Stairs  \----\  Room   \
+          \ |                    \_________\    \_________\
+  West ---- + ---- East             |
+            | \                _____|____
+            |   \              \         \
+          Down  South           \ Stairs  \    [] - You need the Castle Key
+                                 \_________\        to get beyond this point.
+                                    |               The Castle Key can be
+                               _____|____           found on the Grinning
+                               \         \          Dwarves in the Barracks.
+                                \ Stairs  \
+                                 \_________\    * - You need the Deep Green
+                                    |               Key to get beyond this
+                __________     _____|____           point.  This key can be
+                \ Door to \    \ Inside  \          found on the Wraith in
+                 \ Castle  \-[]-\ Castle  \         the wine cellar or on one
+                  \_________\    \_________\        of the Dwarven Guards on
+                           \                        the Dark path.
+                         ____\_____
+                         \ Path to \
+                          \ Castle  \
+                           \_________\
+                                    \
+                   __________     ____\_____
+                   \ Door to \    \ Path to \
+                    \ Kingdom \----\ Castle  \
+                     \_________\    \_________\
+                              \
+                           To Dwarven
+                             Kingdom
+~
+G female
+#6521
+iron bars chunk~
+a chunk of iron bars~
+There is a chunk of iron bars here.~
+iron~
+trash T AO
+0 0 0 0 0
+0 30 100 P
+G none
+#6522
+dwarven hammer~
+@eng a hammer@rus ~~молот~~~
+@eng There is a hammer lying on the floor here.@rus Кто-то обронил тут свой молот.~
+iron~
+trash T AO
+0 0 0 0 0
+0 30 100 P
+G none
+#6523
+dwarven silver ring~
+@eng a dwarven silver ring@rus ~~серебряное~~ ~~кольцо~~ дварфов~
+@eng A pretty silver ring is here.@rus Клевое серебрянное колечко забыто здесь кем-то.~
+silver~
+gem AGK AB
+0 0 0 0 0
+10 10 24 P
+A
+18 1
+G none
+#6524
+axe~
+@eng easy fighting axe@rus лёгкий боевой топор~
+@eng Small polished axe lies here.@rus Небольшой отполированный топорик лежит здесь.~
+iron~
+weapon I AN
+axe 4 1 slice 0
+8 60 37 P
+E ''
+axe~
+@rus Обыкновенный, ничем не примечательный топорик. Такой обычно применяют для
+обучения владению топорами.
+~
+G male
+#6525
+axe of moonlight~
+@eng {Daxe{x of {Wm{wo{Wo{wn{Wl{wi{Wg{wh{Wt{x@rus ~~{Dтопор{x~~ {Wл{wу{Wн{wн{Wо{wг{Wо{x света~
+@eng The axe luminous from within by a moonlight, is forgotten by someone here.@rus Топор, светящийся изнутри лунным светом, кем-то забыт здесь.~
+bronze~
+weapon BCJL AN
+axe 5 3 cleave C
+19 105 120 P
+A
+17 -10
+A
+19 3
+E ''
+axe~
+@eng In your hands an axe shaped by dark forces in immemorial times. Its smooth
+steel shines from within dim matte light. On it are visible old runes. You
+feel power incorporated in this weapon and understand, that with such
+instrment of Darkness it is possible to establish eternal Chaos on the
+world!
+@rus В твоих руках топор выкованный тёмными силами в незапяматные времена. Его 
+гладкая сталь светится изнутри тусклым матовым светом. На ней видны старые
+непонятные руны. Ты чувствуешь мощь заложенную в этом оружии и понимаешь,
+что с таким орудием Тьмы можно воцарить на земле вечный Хаос!
+~
+G male
+#6526
+flaming axe~
+@eng {Rflaming {Daxe{x@rus ~~{Rогненный{x~~ {Dтопор{x~
+@eng The fiery axe lays here, blinding you.@rus Пылающий топор лежит здесь, слепя глаза.~
+fire~
+weapon AKL AN
+axe 4 4 cleave A
+21 80 113 P
+G male
+#6527
+bat axe~
+@eng axe "Bat"@rus ~~топор~~ "Летучая мышь"~
+@eng An axe, likes a bat, lies here.@rus Топор, напоминающий летучую мышь, валяется без дела.~
+adamantite~
+weapon BCM AN
+axe 4 7 cleave 0
+35 190 88 P
+A
+19 4
+A
+5 1
+A
+2 -1
+E ''
+bat~
+@rus В своих руках ты держишь топор, двустороннее лезвие которого сделано в
+причудливой и необычной форме -- форме летучей мыши.
+~
+G male
+#6528
+axe~
+@eng axe@rus ~~топор~~~
+@eng Axe is here.@rus Здесь лежит топор.~
+steel~
+weapon 0 AN
+axe 5 6 cleave 0
+47 120 134 P
+A
+12 -25
+A
+19 3
+A
+18 3
+G male
+#6529
+pole-axe of revenge~
+@eng pole axe of revenge@rus ~~секира~~ мести~
+@eng The stained with blood poleaxe lays here.@rus Окровавленная секира лежит здесь.~
+steel~
+weapon AGM AN
+axe 7 5 cleave H
+56 195 139 P
+G female
+#6530
+axe dwarf~
+@eng dwarven axe@rus ~~топор~~ дварфов~
+@eng Dwarven axe lyas here.@rus Славный топор работы дварфов просто валяется на земле.~
+iron~
+weapon I AN
+axe 9 4 cleave E
+63 160 126 P
+A
+5 1
+A
+2 -1
+A
+18 -1
+A
+13 50
+G male
+#6531
+revenge axe~
+@eng {Baxe{x of {Rrevenge{x@rus ~~{Bтопор{x~~ {Rгнева{x~
+@eng The huming axe lies here.@rus Гудящий от излучаемой им мощи топор лежит в пыли.~
+energy~
+weapon B AN
+axe 8 6 cleave C
+72 205 147 P
+A
+18 4
+A
+19 6
+A
+14 -10
+G male
+#6532
+tror axe~
+@eng shining axe of Tror@rus ~~{Wс{wи{Wя{wю{Wщ{wи{Wй{x~~ ~~{Dт{wо{Dп{wо{Dр{x~~ {DТрора{x~
+@eng Tror's shining axe, the great leaders of gnomes, disgracefully simply lays in a dirty.@rus Сияющий топор Трора, великого предводителя гномов, бесславно просто лежит в грязи.~
+unknown~
+weapon AHI AN
+axe 11 6 cleave 0
+80 175 240 P
+A
+1 1
+A
+14 -20
+A
+2 -1
+A
+18 5
+A
+19 10
+A
+22 40
+A
+17 50
+A
+6 -1
+G male
+#6533
+yin-yan poleaxe axe~
+@eng poleaxe of balance@rus ~~{yсекира{x~~ {wр{Dа{wв{Dн{wо{Dв{wе{Dс{wи{Dя{x~
+@eng Poleaxe with it is familiar 'Yin-Yan' on an edge lays here.@rus Секира со знаком "Инь-Янь" на лезвии лежит здесь.~
+steel~
+weapon BGJK AN
+axe 5 6 slice G
+50 166 133 P
+A
+12 -10
+A
+13 -10
+A
+24 -20
+A
+32 30
+G female
+#6534
+mithril axe~
+@eng mithril axe@rus ~~мифриловый~~ ~~топор~~~
+@eng From under a dust shine of mitril makes the way.@rus Из-под пыли пробивается блеск мифрила.~
+mithril~
+weapon HI AN
+axe 12 3 cleave 0
+67 130 137 P
+A
+20 -2
+A
+19 4
+G male
+#0
+
+#ROOMS
+#6500
+@eng Path to Dwarven Village@rus Путь к деревне гномов~
+@eng All around you are the mountains of the southern range, home of dwarves and 
+giants.  You can climb back down the mountains to the west and leave these 
+realms, or seek riches in the northern mineshafts.  A dirt road leads south, 
+towards a small building.  You can hear crying and shrieking coming from it.
+@rus     Вы окружены цепью южных гор, домом dwarf'ов и giant'ов. Вы можете вернуться
+обратно на запад и покинуть это царство, или поискать богатства северных шахт.
+Грязная дорога ведет на юг к маленькому зданию. Оттуда доносится плачь и вопли.
+~
+0 0 field
+D0 0
+The path continues.
+~
+~
+Z -1 6501
+D2 0
+You hear the patter of little feet.
+~
+~
+Z -1 6601
+D3 0
+A rocky road leads back to Midgaard and the mines of Moria.
+~
+~
+Z -1 6562
+S
+#6501
+@eng Path, base of mountain@rus Путь, подножье горы~
+@eng Now you are at the bottom of a rugged mountain.  The forest around you is
+very dense, and it seems very dark to the north.
+@rus    Вы находитесь у подножья скалистой горы. Вас окружает очень густой лес. На
+север виднеется темный путь.
+~
+0 0 hills
+D0 0
+The path continues up the mountain.
+~
+~
+Z -1 6502
+D2 0
+The path heads toward the main city.
+~
+~
+Z -1 6500
+S
+#6502
+@eng Path, middle of mountain@rus Путь, на середине горы~
+@eng Standing on the middle of the mountain, you can easily see the turning
+point to the south, and the top of the mountain is very near to the north.
+@rus     Стоя на середине горы, вы отчетливо видите развилку на юге. Недалеко на
+севере находиться вершина горы.
+~
+0 0 mountain
+D0 0
+The top of the mountain is easily seen from here.
+~
+~
+Z -1 6503
+D2 0
+The base of the mountain is near.
+~
+~
+Z -1 6501
+S
+#6503
+@eng Top of mountain@rus Вершина горы~
+@eng You are now on the top of the mountain.  To the south you see a path
+leading down the mountain.  To the east and west you see entrances to
+what seems like mines.
+@rus     Теперь вы стоите на вершине горы. На юг идет путь вниз к подножью. На
+востоке и западе кажется виднеются входы в шахты.
+~
+0 0 hills
+D1 0
+An entrance to the mountain which seems to lead underground.
+~
+~
+Z -1 6540
+D2 0
+The path leads down the mountain to the main city.
+~
+~
+Z -1 6502
+D3 0
+There is an entrance to the mountain.
+~
+~
+Z -1 6505
+S
+#6504
+@eng Narrow Path@rus Узкая дорога~
+@eng This is a narrow path leading to the Dwarven Kingdom.  It looks less
+travelled than the others, and it is very creepy.  The path opens up
+to the south, and continues to the north.
+@rus     Это узкая дорога, ведущая в Dwarven Kingdom. Выглядит она весьма жутко и
+менее наезжена чем другие. Путь продолжается с юга на север.
+~
+0 D inside
+D0 0
+~
+~
+Z -1 6506
+D2 0
+~
+~
+Z -1 6540
+S
+#6505
+@eng Entrance to Mountain@rus Вход в гору~
+@eng Here is an entrance to the mountain.  The door looks very well built,
+and you can hear noise coming from within.
+@rus     Здесь расположен вход в гору. Дверь выглядит весьма внушительно, и вы
+можете слышать шум, идущий из-за нее.
+~
+0 0 field
+D1 0
+~
+~
+Z -1 6503
+D3 0
+~
+door~
+ABCFZ 6502 6513
+S
+#6506
+@eng Bend in Narrow Path@rus Изгиб узкой дороги~
+@eng This is a narrow path that bends to the east here.  The trees hang over
+the path, and it is very overgrown.  The narrow path continues to the
+south and to the east.
+@rus     Здесь дорога поворачивает на восток. Вокруг нависают деревья, все выглядит
+очень заросшим. Путь идет на юг и на восток.
+~
+0 D inside
+E ''
+tree trees~
+They hang over the road in the most ominous of ways.
+~
+D1 0
+~
+~
+Z -1 6507
+D2 0
+~
+~
+Z -1 6504
+S
+#6507
+@eng Narrow path@rus Узкая дорога~
+@eng This path is very narrow, and it continues to the north and west.
+@rus     Здесь дорога становиться очень узкой. Она продолжается на север и на запад.
+~
+0 D inside
+D0 0
+~
+~
+Z -1 6508
+D3 0
+~
+~
+Z -1 6506
+S
+#6508
+@eng Narrow north-south path@rus Узкая дорога~
+@eng This path leads to the north and south.  To the north you can see a
+door, and to the south the path continues.
+@rus     Дорога идет на север и на юг. На севере виднеется дверь.
+~
+0 D inside
+D0 0
+~
+~
+Z -1 6509
+D2 0
+~
+~
+Z -1 6507
+S
+#6509
+@eng Door to Kingdom@rus Дверь в Королевство~
+@eng Here the path turns to the west.  You can see a door in front of you,
+and the path continues to the west and south.
+@rus     Здесь дорога поворачивает на запад. Прямо перед собой вы видите дверь.
+Путь продолжается на запад и на юг.
+~
+0 D inside
+D1 0
+~
+door~
+ABCFZ 6502 6510
+D2 0
+~
+~
+Z -1 6508
+D3 0
+~
+~
+Z -1 6522
+S
+#6510
+@eng Path to the Castle@rus Путь в Замок~
+@eng You are on a path that will eventually lead to the castle.  It
+continues north to the castle, and there is a door on the western wall.
+@rus     Вы идете по пути, ведущему к замку. Он продолжается на север, к замку, на
+западной стене расположена дверь.
+~
+0 D inside
+D0 0
+~
+~
+Z -1 6511
+D3 0
+~
+door~
+ABCFZ 6502 6509
+S
+#6511
+@eng Still on the path to the Castle@rus Все еще по дороге в замок~
+@eng You are still on the path to the castle, or back to the
+Dwarven village, whichever way you wish to go.  The path
+continues to the north and south.
+@rus     Вы все еще на пути к замку или наоборот, обратно в деревню dwarf'ов, куда
+вы пожелаете. Путь продолжается на север и на юг.
+~
+0 D inside
+D0 0
+~
+~
+Z -1 6512
+D2 0
+~
+~
+Z -1 6510
+S
+#6512
+Door to Castle~
+Here there is a door to the castle to the east.  The castle
+is elegantly designed, and looks much like a roll of toilet paper
+standing on end.  A sign says:
+              ******************************************
+              *  WELCOME TO THE CASTLE OF STRANGELOVE  *
+              *      Here, celibacy is uninvited       *
+              ******************************************
+~
+0 D inside
+D1 0
+~
+door~
+ABCFZ 6514 6525
+D2 0
+~
+~
+Z -1 6511
+S
+#6513
+Inside the entrance~
+Everything here is covered in soot and very grimy.  The path continues
+to the east and north, and there is a door to the west.
+~
+0 D inside
+D0 0
+The little underground path continues to the north.
+~
+~
+Z -1 6514
+D1 0
+The path leads outside the entrance.
+~
+door~
+ABCFZ 6502 6505
+D2 0
+~
+~
+Z 0 6565
+D3 0
+This looks like an entrance to some type of store room.
+~
+~
+Z -1 6526
+S
+#6514
+Path~
+You are on a path in the dwarven village which leads north to the shops
+and south to the corner of the area.
+~
+0 D inside
+D0 0
+~
+~
+Z -1 6515
+D2 0
+~
+~
+Z -1 6513
+S
+#6515
+Turn in road~
+You are on a path that leads to a Hide & Tooth shop to the west, and the
+path continues to the south.
+~
+0 D inside
+D2 0
+~
+~
+Z -1 6514
+D3 0
+The Hide & Tooth shop is seen to the west.
+~
+~
+Z -1 6516
+S
+#6516
+Hide & Tooth Shop~
+You are in the Hide & Tooth shop.  Here you may buy the finest in Dwarven
+weapons and armors. The path continues to the north and east.
+~
+0 D inside
+D0 0
+~
+~
+Z -1 6517
+D1 0
+~
+~
+Z -1 6515
+S
+#6517
+Path to the north of shop~
+You are on a path to the north of the Hide & Tooth shop.  The path continues
+to the north, and there is Granite Head's bakery to the west.
+~
+0 D inside
+D0 0
+~
+~
+Z -1 6518
+D2 0
+~
+~
+Z -1 6516
+D3 0
+~
+~
+Z -1 6535
+S
+#6518
+North of Shops~
+Here the path bends to the east towards the barracks. To the
+south you can see the shops.
+~
+0 D inside
+D1 0
+~
+~
+Z -1 6519
+D2 0
+~
+~
+Z -1 6517
+S
+#6519
+Path by Hospital~
+Here the path passes by the Hospital to the north.  It continues
+to the east to the barracks, and to the west.
+~
+0 D inside
+D0 0
+~
+~
+Z -1 6534
+D1 0
+~
+~
+Z -1 6520
+D3 0
+~
+~
+Z -1 6518
+S
+#6520
+Path next to barracks~
+Here the path continues west, and east to the barracks.
+~
+0 D inside
+D1 0
+~
+~
+Z -1 6521
+D3 0
+~
+~
+Z -1 6519
+S
+#6521
+Entrance to barracks~
+Here there is an entrance to the barracks to the south, and
+the path continues to the west.
+~
+0 D inside
+D2 0
+~
+door~
+ABZ -1 6523
+D3 0
+~
+~
+Z -1 6520
+S
+#6522
+Guard House~
+You are in the guard house to the west of the entrance
+to the castle.  There are nude posters covering the walls.
+~
+0 D inside
+E ''
+poster~
+There is a wall poster of a nude Minne Pearl.
+~
+D1 0
+~
+~
+Z -1 6509
+S
+#6523
+First Barrack room~
+Here is the first of two main rooms of barracks.  The
+barracks continue to the south, and you can leave the room
+to the north.
+~
+0 D inside
+D0 0
+~
+door~
+ABZ -1 6521
+D2 0
+~
+~
+Z -1 6524
+S
+#6524
+Back of Barracks~
+Here is the back of the dwarven barracks.  There are rows
+of beds here, and there is a stench that is unbearable.
+~
+0 D inside
+D0 0
+~
+~
+Z -1 6523
+D5 0
+~
+floorboards boards~
+ABZ -1 2001
+S
+#6525
+Inside of Castle Strangelove~
+You are just inside the castle.  It is very tubular in shape,
+and it is very featureless.  There is a set of stairs that lead
+up, and the door leads out of the castle to the west.
+~
+0 D inside
+D3 0
+~
+door~
+ABCFZ 6514 6512
+D4 0
+~
+~
+Z -1 6528
+S
+#6526
+A store room~
+There is a layer of dust on the floor at least 3 inches thick!  It is
+probable that not many people have been in here for many months.
+~
+0 AD inside
+E ''
+floor dust~
+After blowing all the dust off the floor, you notice a trapdoor!
+~
+D1 0
+A lighted area that looks like a well worn path.
+~
+~
+Z -1 6513
+D5 0
+~
+trapdoor~
+ABZ 0 6527
+S
+#6527
+Wine cellar~
+This room smells like wine, and you can only assume it used to be
+a wine cellar at one time.
+~
+0 AD inside
+D4 0
+~
+~
+ABZ -1 6526
+D5 0
+~
+floorboards boards~
+ABZ -1 2065
+S
+#6528
+Stairs in castle~
+The stairs continue to circle up and down here.
+~
+0 D inside
+D4 0
+~
+~
+Z -1 6529
+D5 0
+~
+~
+Z -1 6525
+S
+#6529
+Stairs~
+You are still circling around on the stairs.  You are starting to
+get dizzy from going around and around and around and around and
+around.  The stairs continue up and down.
+~
+0 D inside
+D4 0
+~
+~
+Z -1 6530
+D5 0
+~
+~
+Z -1 6528
+S
+#6530
+Top of stairs~
+You are at the top of the stairs in the castle.  There is an exit
+to the east, and the stairs lead down.
+~
+0 D inside
+D1 0
+~
+~
+Z -1 6531
+D5 0
+~
+~
+Z -1 6529
+S
+#6531
+Queen's waiting room~
+This is the Queen's waiting room.  Here the men literally
+'wait' for the queen.  You've heard that the queen really likes
+to get to 'know' her people, in the biblical sense.  The queen's
+bedroom is to the north, and you can see stairs to the west.
+~
+0 D inside
+D0 0
+~
+door~
+ABFZ 6502 6532
+D3 0
+~
+~
+Z -1 6530
+S
+#6532
+Bedroom~
+This is the Queen's bedroom.  The bed is all ruffled, and there
+is a stack of dirty sheets piled in the corner.
+A note has been scrawled in lipstick on the mirror:
+    I'm out looking for my birth control pills.
+    Why don't you slip into something comfortable while you're waiting?
+~
+0 D inside
+D2 0
+~
+door~
+ABFZ 6502 6531
+S
+#6534
+Hospital~
+You are inside the Dwarven Hospital.  It smells like rubbing
+alcohol, and there is blood all over the walls.
+~
+0 D inside
+D2 0
+~
+~
+Z -1 6519
+S
+#6535
+Granite Head's Bakery~
+The aroma coming from this room is sensuous.  You can almost taste
+the pastries dissolving in your mouth.
+~
+0 D inside
+D1 0
+~
+~
+Z -1 6517
+S
+#6540
+Dark path~
+This path is very well worn, and there is an entrance to the mines to the
+east, while the path continues to the north and west.
+~
+0 D inside
+D0 0
+~
+~
+Z -1 6504
+D1 0
+~
+door~
+ABCFZ 6502 6541
+D3 0
+~
+~
+Z -1 6503
+S
+#6541
+Mine entrance~
+The little path here leads down toward the mines, while the worn path
+continues to the west.
+~
+0 D inside
+D3 0
+~
+door~
+ABCFZ 6502 6540
+D5 0
+~
+~
+Z -1 6542
+S
+#6542
+Inside the mine~
+There are holes everywhere from the places that the workers blew
+away the rock to get to whatever they were looking for.  A path leads
+down and up.
+~
+0 AD inside
+D4 0
+~
+~
+Z -1 6541
+D5 0
+~
+~
+Z -1 6554
+S
+#6543
+Path in the mine~
+You are deep inside the mine, and you feel very uncomfortable.  The
+path continues to the east, and leads to the mineshaft to the west.
+~
+0 AD inside
+D1 0
+~
+~
+Z -1 6544
+D3 0
+~
+~
+Z -1 6554
+S
+#6544
+Mine crossroad~
+You are at a crossroad in the mine.  There is a door to the north,
+and the path continues to the south, east, and west.
+~
+0 AD inside
+D0 0
+~
+door~
+ABCFZ 6502 6546
+D1 0
+~
+~
+Z -1 6545
+D2 0
+~
+~
+Z -1 6551
+D3 0
+~
+~
+Z -1 6543
+S
+#6545
+Coal Room~
+You are inside the storage area for the raw materials
+that are found down here.  The room is very unsturdy as the
+supports are very rickety.
+~
+0 AD inside
+D3 0
+~
+~
+Z -1 6544
+S
+#6546
+Mine Maze~
+You have entered the maze of the mines.  To the east you
+can see some inscriptions, and you can exit to the south.
+~
+0 AD inside
+D1 0
+~
+~
+Z -1 6547
+D2 0
+~
+door~
+ABCFZ 6502 6544
+S
+#6547
+Maze inscription~
+You are inside the maze, but not far enough in that you could get lost.
+~
+0 AD inside
+D0 0
+~
+~
+Z -1 6548
+D3 0
+~
+~
+Z -1 6546
+S
+#6548
+Maze~
+You are in a maze.
+~
+0 AD inside
+D0 0
+~
+~
+Z -1 6549
+D2 0
+~
+~
+Z -1 6547
+S
+#6549
+Maze~
+You are in a maze.
+~
+0 AD inside
+D0 0
+~
+~
+Z -1 6550
+D3 0
+~
+~
+Z -1 6548
+S
+#6550
+Maze~
+You are in a maze.
+~
+0 AD inside
+D2 0
+~
+~
+Z -1 6549
+D3 0
+~
+~
+Z -1 6552
+S
+#6551
+Mining equipment room~
+This is the storage room for equipment used by the
+Dwarven miners.  It is very small, and you can tell that
+not many miners actually use any equipment.
+~
+0 AD inside
+D0 0
+~
+~
+Z -1 6544
+S
+#6552
+Solved the Maze.~
+You have solved the maze.  You can tell by the last few moves
+that there is no way that a dumb worker could have figured that
+out.  It seems pretty desolate here.  To the south is a bleak room.
+To the north, you see the maze.  There is a sign above the south exit:
+    Those who enter, plan on a timely death.
+    Especially if you're loyal to the queen.
+~
+0 AD inside
+D1 0
+~
+~
+Z -1 6550
+D3 0
+~
+~
+Z -1 6553
+S
+#6553
+The Mazekeeper's Room~
+You have entered the Mazekeeper's room.  There are pictures of
+the Queen with darts thrown in it.  Spray-painted on the wall are
+things like 'the queen shall suffer' and 'Catholics Rule'.
+~
+0 AD inside
+D1 0
+~
+~
+Z -1 6552
+S
+#6554
+Bottom of mineshaft~
+You are at the bottom of the mineshaft.  The air here is very sooty, and
+it is very hard to breath.  The mineshaft leads up and east.
+~
+0 AD inside
+D1 0
+~
+~
+Z -1 6543
+D4 0
+~
+~
+Z -1 6542
+S
+#6562
+The mountains of the dwarven kingdom~
+You are standing at the foot of the mountains of the dwarven kingdom, where
+dwarves and giants toil endlessly to pry gems and mithril from the mother 
+earth.  Here lies the palace of the dwarven queen, and untold riches.
+But beware, for the mines are said to be haunted by demon and spirit alike.
+The dwarven kingdom lies to the east.
+~
+0 0 mountain
+D1 0
+The dwarven kingdom awaits!
+~
+~
+Z -1 6500
+D3 0
+You see the foothills of this mighty mountain range.
+~
+~
+Z -1 4000
+S
+#6565
+@eng Torn's shop@rus Магазин Торна~
+@eng You are in the Torn's shop. The known smith in these rdges and masters on
+manufacturing fighting axes.
+@rus Ты находишься в магазине Торна. Известного в этих краях кузнеца и мастера 
+по изготовлению боевых топоров.
+~
+0 D inside
+D0 0
+~
+~
+Z 0 6513
+S
+#0
+
+#RESETS
+D 0 6505 3 2	* Entrance to Mountain: door to the west: closed and locked
+D 0 6509 1 2	* Door to Kingdom: door to the east: closed and locked
+D 0 6510 3 2	* Path to the Castle: door to the west: closed and locked
+D 0 6512 1 2	* Door to Castle: door to the east: closed and locked
+D 0 6513 1 2	* Inside the entrance: door to the east: closed and locked
+D 0 6521 2 1	* Entrance to barracks: door to the south: closed
+D 0 6523 0 1	* First Barrack room: door to the north: closed
+D 0 6524 5 1	* Back of Barracks: door to the down: closed
+D 0 6525 3 2	* Inside of Castle Strangelove: door to the west: closed and locked
+D 0 6526 5 1	* A store room: door to the down: closed
+D 0 6527 4 1	* Wine cellar: door to the up: closed
+D 0 6527 5 1	* Wine cellar: door to the down: closed
+D 0 6531 0 1	* Queen's waiting room: door to the north: closed
+D 0 6532 2 1	* Bedroom: door to the south: closed
+D 0 6540 1 2	* Dark path: door to the east: closed and locked
+D 0 6541 3 2	* Mine entrance: door to the west: closed and locked
+D 0 6544 0 2	* Mine crossroad: door to the north: closed and locked
+D 0 6546 2 2	* Mine Maze: door to the south: closed and locked
+M 0 6501 6 6501 2	* the dwarven worker (Path, base of mountain)
+M 0 6501 6 6502 2	* the dwarven worker (Path, middle of mountain)
+O 0 6507 0 6503	* long, black stick (Top of mountain)
+M 0 6501 6 6503 2	* the dwarven worker (Top of mountain)
+M 0 6500 10 6505 2	* dwarven guard (Entrance to Mountain)
+E 0 6504 0 16		*	battle dwarven axe: wielded
+E 0 6505 0 5		*	dwarven plate mail: on the body
+G 0 6502 0		*	a deep green key
+M 0 6500 10 6505 2	* dwarven guard (Entrance to Mountain)
+E 0 6504 0 16		*	battle dwarven axe: wielded
+E 0 6505 0 5		*	dwarven plate mail: on the body
+O 0 6507 0 6505	* long, black stick (Entrance to Mountain)
+M 0 6518 1 6505 1	* the dwarven worker (Entrance to Mountain)
+G 0 6521 0		*	a chunk of iron bars
+G 0 6522 0		*	a hammer
+M 0 6506 2 6508 2	* the giant (Narrow north-south path)
+M 0 6500 10 6509 2	* dwarven guard (Door to Kingdom)
+E 0 6509 0 16		*	a two-handed dwarven axe: wielded
+E 0 6510 0 6		*	a dwarven helmet: over the head
+E 0 6511 0 1		*	a dwarven golden ring: on the left finger
+M 0 6500 10 6509 2	* dwarven guard (Door to Kingdom)
+E 0 6512 0 9		*	dwarven gloves: on the hands
+E 0 6509 0 16		*	a two-handed dwarven axe: wielded
+E 0 6505 0 5		*	dwarven plate mail: on the body
+M 0 6500 10 6512 2	* dwarven guard (Door to Castle)
+E 0 6504 0 16		*	battle dwarven axe: wielded
+M 0 6500 10 6512 2	* dwarven guard (Door to Castle)
+E 0 6504 0 16		*	battle dwarven axe: wielded
+O 0 6507 0 6513	* long, black stick (Inside the entrance)
+M 0 6505 2 6515 1	* the giant lizard (Turn in road)
+M 0 6503 1 6516 1	* the storekeeper (Hide & Tooth Shop)
+G 0 6504 0		*	battle dwarven axe
+G 0 6505 0		*	dwarven plate mail
+G 0 6510 0		*	a dwarven helmet
+G 0 6511 0		*	a dwarven golden ring
+G 0 6512 0		*	dwarven gloves
+E 0 6504 0 16		*	battle dwarven axe: wielded
+M 0 6505 2 6520 1	* the giant lizard (Path next to barracks)
+M 0 6514 4 6521 4	* the barracks guard (Entrance to barracks)
+E 0 6509 0 16		*	a two-handed dwarven axe: wielded
+M 0 6514 4 6521 4	* the barracks guard (Entrance to barracks)
+E 0 6509 0 16		*	a two-handed dwarven axe: wielded
+M 0 6500 10 6521 2	* dwarven guard (Entrance to barracks)
+M 0 6500 10 6521 2	* dwarven guard (Entrance to barracks)
+M 0 6511 8 6523 6	* the dwarf (First Barrack room)
+M 0 6511 8 6523 6	* the dwarf (First Barrack room)
+E 0 6508 0 16		*	dwarven axe: wielded
+E 0 6514 0 17		*	a castle key: held in the hands
+M 0 6511 8 6523 6	* the dwarf (First Barrack room)
+M 0 6511 8 6523 6	* the dwarf (First Barrack room)
+M 0 6511 8 6524 6	* the dwarf (Back of Barracks)
+O 0 6513 0 6524	* a note (Back of Barracks)
+M 0 6502 2 6524 1	* the wraith (Back of Barracks)
+M 0 6511 8 6524 6	* the dwarf (Back of Barracks)
+G 0 6520 0		*	a map of Castle Strangelove
+M 0 6502 2 6527 1	* the wraith (Wine cellar)
+G 0 6502 0		*	a deep green key
+M 0 6512 3 6528 2	* the unwanted son (Stairs in castle)
+M 0 6512 3 6529 2	* the unwanted son (Stairs)
+M 0 6513 3 6529 2	* the unwanted daughter (Stairs)
+M 0 6513 3 6530 2	* the unwanted daughter (Top of stairs)
+M 0 6515 4 6531 4	* the man in waiting (Queen's waiting room)
+M 0 6515 4 6531 4	* the man in waiting (Queen's waiting room)
+O 0 6516 0 6532	* a mine key (Bedroom)
+O 0 6506 0 6534	* long, black stick (Hospital)
+M 0 6510 4 6534 4	* the dwarven peon (Hospital)
+M 0 6510 4 6534 4	* the dwarven peon (Hospital)
+M 0 6509 1 6534 1	* the dwarven doctor (Hospital)
+E 0 6506 0 17		*	long, black stick: held in the hands
+G 0 6519 0		*	a box of birth control pills
+M 0 6504 1 6535 1	* the baker (Granite Head's Bakery)
+G 0 3000 0		*	a barrel of beer
+G 0 3003 0		*	a bottle of firebreather
+G 0 3009 0		*	a big pot pie
+G 0 3031 0		*	a hooded brass lantern
+E 0 6504 0 16		*	battle dwarven axe: wielded
+M 0 6500 10 6540 2	* dwarven guard (Dark path)
+E 0 6504 0 16		*	battle dwarven axe: wielded
+E 0 6505 0 5		*	dwarven plate mail: on the body
+G 0 6502 0		*	a deep green key
+M 0 6500 10 6540 2	* dwarven guard (Dark path)
+E 0 6504 0 16		*	battle dwarven axe: wielded
+E 0 6505 0 5		*	dwarven plate mail: on the body
+O 0 6507 0 6540	* long, black stick (Dark path)
+M 0 6507 4 6542 2	* the dwarven miner (Inside the mine)
+E 0 6508 0 16		*	dwarven axe: wielded
+M 0 6507 4 6543 3	* the dwarven miner (Path in the mine)
+E 0 6508 0 16		*	dwarven axe: wielded
+M 0 6507 4 6543 3	* the dwarven miner (Path in the mine)
+E 0 6508 0 16		*	dwarven axe: wielded
+M 0 6508 2 6543 2	* the dwarven mine leader (Path in the mine)
+E 0 6512 0 9		*	dwarven gloves: on the hands
+E 0 6504 0 16		*	battle dwarven axe: wielded
+O 0 6517 0 6545	* a chunk of coal (Coal Room)
+M 0 6517 2 6548 1	* the giant snake (Maze)
+M 0 6517 2 6549 1	* the giant snake (Maze)
+O 0 6518 0 6551	* a mining pick (Mining equipment room)
+M 0 6516 1 6553 1	* the mazekeeper (The Mazekeeper's Room)
+G 0 6519 0		*	a box of birth control pills
+G 0 6524 1		*	easy fighting axe
+M 0 6519 1 6565 1	* Torn (Torn's shop)
+E 0 6501 0 16		*	Torn's axe: wielded
+G 0 6524 0		*	easy fighting axe
+G 0 6525 3		*	{Daxe{x of {Wm{wo{Wo{wn{Wl{wi{Wg{wh{Wt{x
+G 0 6526 3		*	{Rflaming {Daxe{x
+G 0 6527 0		*	axe "Bat"
+G 0 6528 0		*	axe
+G 0 6529 0		*	pole axe of revenge
+G 0 6530 0		*	dwarven axe
+G 0 6531 2		*	{Baxe{x of {Rrevenge{x
+G 0 6532 1		*	shining axe of Tror
+G 0 6533 3		*	poleaxe of balance
+G 0 6534 0		*	mithril axe
+S
+
+#SHOPS
+6503 0 0 0 0 0 150 50 0 23 0 ~
+6504 0 0 0 0 0 150 50 0 23 0 ~
+6518 0 0 0 0 0 100 50 0 23 0 ~
+6519 5 0 0 0 0 125 10 4 22 C 6524 6525 6526 6527 6528 6529 6530 6531 6532 6533 6534 ~
+0
+
+#OLIMITS
+O 6525 3	* {Daxe{x of {Wm{wo{Wo{wn{Wl{wi{Wg{wh{Wt{x
+O 6526 3	* {Rflaming {Daxe{x
+O 6531 2	* {Baxe{x of {Rrevenge{x
+O 6532 1	* shining axe of Tror
+O 6533 3	* poleaxe of balance
+S
+
+#PRACTICERS
+M 6500 lang~	* dwarven guard
+S
+
+#$

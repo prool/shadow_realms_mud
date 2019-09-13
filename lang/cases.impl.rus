@@ -1,0 +1,413 @@
+#RULE
+Name -ый~
+BaseLen -2
+Form 1 -ого~
+Form 2 -ому~
+Form 3 -ого~
+Form 4 -ым~
+Form 5 -ом~
+End
+
+#RULE
+Name -кий~
+BaseLen -2
+Form 1 -ого~
+Form 2 -ому~
+Form 3 -ий~
+Form 4 -им~
+Form 5 -ом~
+End
+
+#RULE
+Name -щий~
+BaseLen -2
+Form 1 -его~
+Form 2 -ему~
+Form 3 -его~
+Form 4 -им~
+Form 5 -ем~
+End
+
+#RULE
+Name -ой~
+BaseLen -1
+Form 1 -ого~
+Form 2 -ому~
+Form 3 -ого~
+Form 4 -ым~
+Form 5 -ом~
+End
+
+#RULE
+Name -шое~
+BaseLen -2
+Form 1 -ого~
+Form 2 -ому~
+Form 3 -ое~
+Form 4 -им~
+Form 5 -ом~
+End
+
+#RULE
+Name -кое~
+BaseLen -2
+Form 1 -ого~
+Form 2 -ому~
+Form 3 -ое~
+Form 4 -им~
+Form 5 -ом~
+End
+
+#RULE
+Name -ое~
+BaseLen -2
+Form 1 -ого~
+Form 2 -ому~
+Form 3 -ое~
+Form 4 -ым~
+Form 5 -ом~
+End
+
+#RULE
+Name -ая~
+BaseLen -2
+Form 1 -ой~
+Form 2 -ой~
+Form 3 -ую~
+Form 4 -ой~
+Form 5 -ой~
+End
+
+#RULE
+Name -ка~
+BaseLen -1
+Form 1 -и~
+Form 2 -е~
+Form 3 -у~
+Form 4 -ой~
+Form 5 -е~
+End
+
+#RULE
+Name -яя~
+BaseLen -2
+Form 1 -ей~
+Form 2 -ей~
+Form 3 -юю~
+Form 4 -ей~
+Form 5 -ей~
+End
+
+#RULE
+Name -ожа~
+BaseLen -1
+Form 1 -и~
+Form 2 -е~
+Form 3 -у~
+Form 4 -ей~
+Form 5 -е~
+End
+
+#RULE
+Name -ежа~
+BaseLen -1
+Form 1 -и~
+Form 2 -е~
+Form 3 -у~
+Form 4 -ой~
+Form 5 -е~
+End
+
+#RULE
+Name -ча~
+BaseLen -1
+Form 1 -и~
+Form 2 -е~
+Form 3 -у~
+Form 4 -ой~
+Form 5 -е~
+End
+
+#RULE
+Name -ца~
+BaseLen -1
+Form 1 -ы~
+Form 2 -е~
+Form 3 -у~
+Form 4 -ей~
+Form 5 -е~
+End
+
+#RULE
+Name -га~
+BaseLen -1
+Form 1 -и~
+Form 2 -е~
+Form 3 -у~
+Form 4 -ой~
+Form 5 -е~
+End
+
+#RULE
+Name -ша~
+BaseLen -1
+Form 1 -и~
+Form 2 -е~
+Form 3 -у~
+Form 4 -ой~
+Form 5 -е~
+End
+
+#RULE
+Name -ик~
+Form 1 -а~
+Form 2 -у~
+Form 3 -а~
+Form 4 -ом~
+Form 5 -е~
+End
+
+#RULE
+Name -ок~
+BaseLen -1
+Form 1 -ка~
+Form 2 -ку~
+Form 3 -ка~
+Form 4 -ком~
+Form 5 -ке~
+End
+
+#RULE
+Name -ия~
+BaseLen -1
+Form 1 -и~
+Form 2 -и~
+Form 3 -ю~
+Form 4 -ей~
+Form 5 -и~
+End
+
+#RULE
+Name -ще~
+BaseLen -1
+Form 1 -а~
+Form 2 -у~
+Form 3 -е~
+Form 4 -ем~
+Form 5 -е~
+End
+
+#RULE
+Name -це~
+BaseLen -1
+Form 1 -а~
+Form 2 -у~
+Form 3 -е~
+Form 4 -ем~
+Form 5 -е~
+End
+
+#RULE
+Name -ыня~
+BaseLen -1
+Form 1 -и~
+Form 2 -е~
+Form 3 -ю~
+Form 4 -ей~
+Form 5 -е~
+End
+
+#RULE
+Name -ер~
+Form 1 -а~
+Form 2 -у~
+Form 3 -а~
+Form 4 -ом~
+Form 5 -е~
+End
+
+#RULE
+Name -ан~
+BaseLen -2
+Form 1 -ана~
+Form 2 -ану~
+Form 3 -ана~
+Form 4 -аном~
+Form 5 -ане~
+End
+
+#RULE
+Name -щая~
+BaseLen -3
+Form 1 -щей~
+Form 2 -щей~
+Form 3 -щую~
+Form 4 -щей~
+Form 5 -щей~
+End
+
+#RULE
+Name -а~
+BaseLen -1
+Form 1 -ы~
+Form 2 -е~
+Form 3 -у~
+Form 4 -ой~
+Form 5 -е~
+End
+
+#RULE
+Name -ный~
+BaseLen -2
+Form 1 -ого~
+Form 2 -ому~
+Form 3 -ого~
+Form 4 -ым~
+Form 5 -ом~
+End
+
+#RULE
+Name -ие~
+BaseLen -2
+Form 1 -ия~
+Form 2 -ию~
+Form 3 -ие~
+Form 4 -ии~
+End
+
+#RULE
+Name -ать~
+BaseLen -3
+Form 1 -ати~
+Form 2 -ати~
+Form 3 -ать~
+Form 4 -атью~
+Form 5 -ати~
+End
+
+#RULE
+Name -ел~
+Form 1 -а~
+Form 2 -у~
+Form 3 -а~
+Form 4 -ом~
+Form 5 -е~
+End
+
+#RULE
+Name -ил~
+Form 1 -а~
+Form 2 -у~
+Form 3 -а~
+Form 4 -ом~
+Form 5 -е~
+End
+
+#RULE
+Name -ей~
+BaseLen -2
+Form 1 -ья~
+Form 2 -ью~
+Form 3 -ья~
+Form 4 -ьем~
+Form 5 -ье~
+End
+
+#RULE
+Name -нь~
+BaseLen -1
+Form 1 -и~
+Form 2 -и~
+Form 3 -ь~
+Form 4 -ью~
+Form 5 -и~
+End
+
+#RULE
+Name -ий~
+BaseLen -2
+Form 1 -его~
+Form 2 -ему~
+Form 3 -его~
+Form 4 -им~
+Form 5 -ем~
+End
+
+#RULE
+Name -ек~
+Form 1 -а~
+Form 2 -у~
+Form 3 -а~
+Form 4 -ом~
+Form 5 -е~
+End
+
+#RULE
+Name -ль~
+BaseLen -1
+Form 1 -я~
+Form 2 -ю~
+Form 3 -я~
+Form 4 -ем~
+Form 5 -е~
+End
+
+#RULE
+Name -ун~
+Form 1 -а~
+Form 2 -у~
+Form 3 -а~
+Form 4 -ом~
+Form 5 -е~
+End
+
+#RULE
+Name -уя ~
+BaseLen -1
+Form 1 -и~
+Form 2 -е~
+Form 3 -ю~
+Form 4 -ей~
+Form 5 -е~
+End
+
+#RULE
+Name -рь~
+BaseLen -1
+Form 1 -я~
+Form 2 -ю~
+Form 3 -я~
+Form 4 -ем~
+Form 5 -е~
+End
+
+#RULE
+Name -ал~
+Form 1 -а~
+Form 2 -у~
+Form 3 -а~
+Form 4 -ом~
+Form 5 -е~
+End
+
+#RULE
+Name -ий~
+BaseLen -2
+Form 1 -его~
+Form 2 -ему~
+Form 3 -ий~
+Form 4 -им~
+Form 5 -ем~
+End
+
+#RULE
+Name -о~
+BaseLen -1
+Form 1 -а~
+Form 2 -у~
+Form 3 -о~
+Form 4 -ом~
+Form 5 -е~
+End
+
+#$

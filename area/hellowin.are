@@ -1,0 +1,1812 @@
+#AREADATA
+Name For help to IMM~
+VNUMs 34000 34499
+Credits Askold~
+Security 2
+LevelRange 0 0
+ResetMessage @eng A dresser falls down, but Xor dexterously dodges.@rus Шкаф падает, но Ксор ловко увернулся.~
+Flags closed noquest~
+End
+
+#MOBILES
+#34000
+mob old adventurer~
+@eng the old adventurer@rus старый приключенец~
+@eng The old adventurer stand here.
+@rus Старый приключенец стоит здесь.
+~
+Вы видите перед собой старого человека, который всю свою жизнь,
+путешествовал по миру. Он много повидал на своем веку и если вы
+хорошенько попросите, то он может рассказать много чего интерес-
+ного. Обычно этот человек появляеться где происходит что-нибудь
+интересное или только собираеться произойти.
+~
+lich~
+A 0 0 0
+350 90 1d1+1 10d20+3000 10d25+5 pound
+100 100 100 100
+0 0 0 0
+stand stand none 55
+0 0 medium unknown
+#34006
+Ciquala lich~
+the lich Ciquala~
+A powerful, evil looking lich stands here, Ciquala, 
+the oldest of all the undead.
+~
+Ciquala still looks majestic after all these thousands of years.  But you can
+see the menace in her eye as she looks at you, and prepares her first spell.
+~
+human~
+ABF DFJTu -710 0
+62 0 50d15+10000 519d1+100 6d9+29 pierce
+35 35 35 1
+BCDEH A J K
+stand stand female 43
+0 0 medium unknown
+#34030
+tortoise turtle~
+@eng turtle@rus ~~черепаха~~ ~~Тортила~~~
+@eng turtle
+@rus Огромная черепаха смотрит на вас умиленными глазами - вы ей понравились !
+~
+@rus Подойдя к ней поближе, вы видите в её глазах весь трехсотлетний опыт её
+проживания на этой грешной земле.  Вы чуствуете, что ни одно другое
+существо, исключая разве что богов, не может вам столько рассказать о жизни
+в этом прекрасном мире.  Попытавшись заговорить с ней, вы осознаете, что
+такими мелочами, как беседа, она уже не интересуется и разворачиваетесь,
+дабы продолжить свой путь.  
+~
+lich~
+A 0 900 0
+92 500 100d50+15000 300d100+10000 150d100+1000 wrath
+98 87 98 80
+0 0 0 0
+stand stand female 3
+0 0 gargantuan unknown
+M speech 34031 key~
+M speech 34032 go!~
+M speech 34033 fu~
+S 100 0 0 0 0 0 0
+#34200
+dalai-lama lama~
+@eng {WDalai-lama{x@rus {W~~далай-лама~~{x~
+@eng Dalai-lama looks for troubles...
+@rus Далай-лама левитирует над болотом.
+~
+@rus Полный мужчина небольшого роста завис над поверхностью воды.
+Он являет собой торжество разума и резиновой индустрии над примитивными законами физической гравитации.
+У него чудесные голубые глаза.
+Одежда мужчины сделана из белой резины.
+Блики солнца танцуют по ее блестящей поверхности.
+~
+human~
+ABR DEFHJTVclmtv 700 0
+80 51 12d25+16 8d50+200 12d21+8 wrath
+1 20 4 1
+AQ U HO J
+stand stand male 0
+0 Q medium unknown
+F for AHM
+I 92
+L 'human lang'
+S 42 0 0 0 0 0 0
+#34208
+valentin danko~
+@eng Valentine named Danko@rus ~~Данко~~~
+@eng Danko stands here, radiating power.
+@rus Красавец Данко рвет грудь на сердца.
+~
+~
+human~
+ABRT DFHJTVclmtv 1000 0
+81 0 16d200+800 10d80+900 4d80+20 kiss
+15 13 12 13
+AV NQS AJU M
+stand stand male 10
+0 PQ giant unknown
+F for AH
+M greet 34208 100~
+L 'human lang'
+S 120 0 0 0 0 0 0
+#34300
+fish~
+@eng a small fish with pointy teeth@rus Пиранья плавает тут с острыми зубами~
+@eng A small fish with pointy teeth is here.
+@rus Пиранья плавает тут в ожидании Ксоровой кормежки.
+~
+@eng He has MANY, MANY,  sharp pointy teeth of the medium type....
+@rus У нее много много много острых зубов среднего размера.
+~
+water fowl~
+AG p 3 0
+92 0 8d8+96 4d50+500 10d11+4 smash
+-3 -3 -3 -9
+EKNV 0 0 0
+stand stand female 8
+0 0 small unknown
+F par CP
+#34400
+Cannibal giant~
+@eng {RCANNIBAL{x @rus {Rлюдоед{x~
+@eng {DEvil {RCANNIBAL{x stand here and look for any {rvictim{x.
+@rus {DЗлой {RЛЮДОЕД {xстоит тут и осматриваетсЯ в поисках {rжертвы{x.
+~
+@eng A Huge evil Cannibal looks for any food.
+@rus Огромный злой людоед выискивает чем бы полакомиться. 
+~
+giant~
+AFGT DFGJOVZclmt -1000 0
+120 500 1d1+25000 1d1+10000 30d20+250 smash
+100 100 100 100
+ADFHKO ALQ ADFGQ HN
+stand stand male 60
+G UV gargantuan unknown
+F res HI
+F vul A
+M grall 1 100~
+#34403
+mage~
+@eng Mage@rus Маг~
+@eng Mage is here.
+@rus Маг стоит здесь.
+~
+~
+human~
+AGRb V 0 0
+30 40 10d20+500 50d25+200 5d10+10 none
+0 0 0 0
+ACDHIKN 0 0 0
+stand stand male 37
+C 0 medium unknown
+F for H
+F par ABCDEFGHIJK
+M grall 207 100~
+#34405
+oldster~
+@eng {DOldster{x@rus {D~~старик~~{x~
+@eng Solitary {DOldster{x stand here.
+@rus Одинокий {DСтарик{x стоит тут.
+~
+~
+human~
+ABR 0 0 0
+0 0 1d1+10000 1d1+5000 1d1+200 none
+0 0 0 0
+0 ACDLQ 0 0
+stand stand male 0
+0 0 medium unknown
+M grall 34405 100~
+#34406
+yamato~
+@eng {mYamato{x@rus {mЯмато{x~
+@eng {mYamato{x searches for his father.
+@rus {mЯмато{x ищет тут своего отца.
+~
+~
+human~
+A 0 0 0
+0 50 1d1+500 0d25+200 1d1+50 none
+0 0 0 0
+0 ALQ 0 0
+stand stand male 0
+0 0 medium unknown
+M grall 34406 100~
+#34407
+cat~
+Кошка Эмилька~
+Кошка {DЭмилька{x раздраженно машет хвостом из стороны в сторону
+~
+~
+cat~
+AI CDEFGVegilmnorst 0 0
+5 0 0d0+0 0d0+0 0d0+0 claw
+0 0 0 0
+0 ACU EHIJLMNQRYZ 0
+stand stand female 0
+CK 0 small unknown
+F for A
+#34408
+evil nechto~
+@eng Evil nechto@rus Дикое нечто~
+@eng Evil nechto here
+@rus Дикое нечто стоит тут
+~
+~
+undead~
+Ag 0 -1000 0
+91 45 30d3+1 30d3+2 20d8+2 none
+10 10 10 3
+ESV 0 0 0
+stand stand male 0
+0 0 medium unknown
+#34409
+test mob~
+@eng test mob@rus test mob~
+@eng test mob here 
+@rus test mob here 
+~
+@eng test mob look you
+@rus тестовый моб смотрит на тебя
+~
+human~
+A 0 0 0
+30 0 1d1+0 0d0+0 1d1+0 none
+0 0 0 0
+0 0 0 0
+stand stand either 0
+R 0 medium unknown
+F for AHMV
+F par ABCDEFGHIJ
+#34491
+hedgedog~
+@eng hedgedog@rus ~~ёжик~~~
+@eng Small hadgedog rest here.
+@rus Маленький ёжик сопит, ища что-то в травке.
+~
+~
+unique~
+ART DHJPVlmptv 777 0
+100 0 50d20+21000 1d100+20000 18d11+85 kiss
+65 65 65 40
+CEFHKMO A C 0
+stand stand either 55
+ACHLV ADJ giant unknown
+#34492
+mob~
+@eng mob@rus моб~
+@eng Mob is here.
+@rus Моб здесь.
+~
+~
+human~
+A V 0 0
+0 0 100d100+100 0d0+0 0d0+0 none
+0 0 0 0
+0 D 0 0
+sleep sleep none 0
+0 0 medium unknown
+F for AHMV
+F par ABCDEFGHIJK
+#0
+
+#OBJECTS
+#34000
+angel~
+@eng the angel@rus ~~ангел~~~
+@eng Angel is floating here.@rus Ангел летает тут.~
+cloud~
+gem ABGIOT AQ
+0 0 0 0 0
+5 1 10000 P
+A
+29 'bless'
+G none
+#34001
+chain~
+@eng {YGold chain{x@rus {YЗ{wо{Yл{wо{Yт{wа{Yя цепочка{x~
+@eng The {Ygold chain{x lies here.@rus {YЗолотая цепочка{x валяеться здесь.~
+gold~
+treasure TY AO
+0 0 0 0 0
+92 5 1000 P
+G female
+#34002
+notepad~
+@eng Xor`s notepad@rus ~~записная~~ ~~книжка~~ Xorа~
+@eng FULL write notepad lies here.@rus Полностью исписаный блокнот лежит тут.~
+paper~
+armor HIRTU AN
+0 0 0 0 0
+10 0 1000 P
+A
+16 20
+G female
+#34003
+tv~
+@eng TV set@rus телевизор~
+@eng TV set here.@rus Телевизор стоит тут похоже только в качестве полки для груды наваленных на него книг.~
+gold~
+furniture Rg 0
+A 0 BH 0 0
+0 0 0 P
+E ''
+tv~
+@eng Label is "Electron 34-A3".
+@rus Ящик марки "Электрон 34-A3".
+~
+E ''
+tv~
+@eng Cool porno film!
+~
+G none
+#34004
+earring emerald~
+emerald earring~
+Emerald earring lies here.~
+emerald~
+armor TY AW
+0 0 0 0 0
+92 0 0 P
+F
+A 0 0 CEG
+F
+A 0 0 P
+F
+A 0 0 U
+F
+A 0 0 T
+G none
+#34005
+ring diamond~
+diamond ring~
+This ring is for girl IMM. They want to be most beuteful in the world. :)~
+diamond~
+armor SY AB
+0 0 0 0 0
+92 0 0 P
+G none
+#34006
+divan old~
+@eng old divan@rus ~~старый~~ ~~диван~~@rusoff (null)~
+@eng Old divan stay here.@rus Старый диван стоит тут.@rusoff (null)~
+wood~
+furniture R 0
+BD 0 BEHK CFG CFG
+0 0 100 P
+G male
+#34007
+shkaf old~
+@eng shkaf@rus шкаф~
+@eng shkaf is here.@rus Шкаф стоит тут.~
+wood~
+container Rg 0
+1000 AD 34009 100 100
+100 100 1000 P
+G male
+#34008
+sword angels~
+@eng {Wangel's {Dsword{x@rus ~~{Dмеч{x~~ {Wангела{x~
+@eng the {Wangel's {Dsword{x lines here.@rus {Dмеч{x {Wангела{x лежит здесь.~
+mithril~
+weapon ABGIORTa AN
+sword 100 100 slice BCDE
+10 100 10000 P
+G male
+#34009
+key xor~
+@eng key of Xor`s shkaf@rus ~~ключ~~ от Хоровского шкафа~
+@eng Key lies here.@rus Ключ лежит тут.~
+iron~
+key RTg AO
+0 0 0 0 0
+0 10 40 P
+G none
+#34010
+bucket~
+@eng bucket@rus ~~корзина~~ для мусора~
+@eng bucket@rus Корзина для мусора стоит здесь~
+wood~
+container D AO
+2 A 0 300 20
+10 10 10 P
+G female
+#34011
+ring~
+@eng ring of wisdom@rus {Dкольцо {Wотличника{x~
+@eng Silver ring lying here.@rus Серебрянное колечко лежит здесь~
+silver~
+treasure A AB
+0 0 0 0 0
+5 5 100 P
+A
+4 1
+G none
+#34012
+light~
+@eng light@rus ~~светлячок~~~
+@eng Light and hum.@rus Светится и жужжит.~
+light~
+light BTY AQ
+0 0 -1 0 0
+0 0 100 P
+A
+16 500
+G male
+#34013
+window~
+@eng the opened window@rus распахнутое окно~
+@eng Behind a window absolute darkness...@rus За окном абсолютная тьма...~
+glass~
+portal OR 0
+0 A A 1 0
+0 0 0 P
+G none
+#34017
+staff wolf's~
+@eng wolf's staff@rus посох {RВолка{x~
+@eng wolf's staff lise here.@rus Посох волка лежит здесь~
+wood~
+staff ABCFGHRZ AO
+100 10000 10000 'mirror' 0
+3 100 100 P
+A
+16 10000
+A
+6 500
+A
+8 5000
+A
+5 500
+A
+3 500
+A
+4 500
+A
+2 500
+A
+1 500
+A
+8 500
+A
+18 500
+A
+19 500
+G none
+#34018
+sword kallandor~
+@eng {RKallandor{x@rus {RКалландор{x~
+@eng Kallandor is here.@rus Меч, парящий в воздухе стоя, обращенный вниз рукоятью, будто невесомый, ожидает того, кто легко  дотянется до рукояти и возьмет его.~
+hz~
+weapon GI AN
+sword 50 40 none ABCDEGI
+103 100 0 P
+A
+19 500
+A
+3 10
+A
+6 10
+A
+5 10
+A
+4 10
+A
+1 10
+A
+2 10
+G male
+#34020
+seal radiance~
+@eng Seal of {WR{wa{Wd{wi{Wa{wn{Wc{we{x@rus Seal of {WR{wa{Wd{wi{Wa{wn{Wc{we{x~
+@eng Seal of {WR{wa{Wd{wi{Wa{wn{Wc{we{x is lying here.@rus Seal of {WR{wa{Wd{wi{Wa{wn{Wc{we{x лежит здесь.~
+Obsidian~
+armor ABCITWY AW
+50 50 50 50 0
+100 0 5000 P
+A
+9 50
+A
+12 50
+A
+19 7
+A
+18 5
+A
+13 50
+A
+17 150
+G none
+#34021
+gold~
+gold~
+Gold~
+gold~
+money 0 A
+0 10000 0 0 0
+0 100000 100000000 P
+G none
+#34030
+damokl blade sword~
+@eng {cDamokl{w's {Ysword{x@rus {c~~дамоклов~~ {Y~~меч~~{x~
+@eng You see the sword of Damokl. @rus Огромный меч  зависает над вами.~
+iron~
+weapon BFIKLMRa AN
+sword 10 10 blast AEIJ
+92 20 100 P
+G male
+#34031
+helm head elefant~
+@eng {cElefant{Y'{cs {Wtasks{x@rus {W~~бивни~~ {cслона{x~
+@eng A big elefant's tasks lies here.@rus Вы видите огромные бивни, когда то принадлежащие слону.~
+?~
+armor ABFGI AE
+17 9 25 13 0
+92 100 127 P
+A
+18 10
+A
+19 25
+G none
+#34033
+staff~
+@eng {DA dark {bstaff {Dof {gnecromancer{x@rus {D~~черный~~ {b~~посох~~ {gнекроманта{x~
+@eng A dark staff of necromancer lies here in a mystic light.@rus Темный посох некроманта светится мистическим светом.~
+unknown~
+staff I AOU
+0 0 0 'request' 0
+93 10000 1000 P
+A
+25 150
+F
+A 0 0 a
+F
+A 0 0 v
+F
+A 0 0 V
+F
+A 0 0 V
+F
+A 0 0 v
+A
+25 150
+F
+A 0 0 U
+F
+A 0 0 T
+F
+A 0 0 E
+F
+A 0 0 G
+F
+A 0 0 C
+F
+A 0 0 p
+A
+6 3
+A
+2 3
+A
+5 3
+A
+3 3
+A
+4 3
+A
+1 3
+G none
+#34034
+bed soft convenient~
+@eng Convenient soft bed@rus ~~удобная~~ ~~мягкая~~ ~~кровать~~~
+@eng A little, but soft and convenient bed stays here.@rus Небольшая, но мягкая и удобная кровать стоит тут.~
+unknown~
+furniture KRTYg A
+A DFGHIJ BEHK EHI EHI
+92 1000 100 P
+G none
+#34037
+banner war merc~
+@eng a war banner@rus ~~боевое~~ ~~знамя~~~
+@eng A war banner is on the floor here.@rus Боевое знамя лежит на полу.~
+cloth~
+light A A
+0 0 1 0 0
+8 10 16 P
+A
+20 1
+A
+17 2
+E ''
+banner~
+This is the official Merc war banner to see you through the darkest realm!
+~
+G male
+#34038
+pill anti valid validol tablete~
+@eng {WValidol?{x@rus {WВалидол?{x~
+@eng Shine pill, made by one of the most powerful mages of The Shadow Realms.@rus Блестящая таблетка, сделанная одним из лучших магов Shadow Realms.~
+кровь~
+pill HRTag A
+90 'insanity' 'request' 'request' 'request'
+92 22 12 P
+G none
+#34039
+pac bac bag box~
+@eng {WB{Dox with {RAnti-validol{x@rus {W~~к{Dоробка~~ c {RАнти-валидолом{x~
+@eng A simple paper box with strange pills.@rus Простая картонная коробка с интересными таблетками.~
+картон~
+container ABGHMORa AQ
+220 AC 0 10 0
+92 220 10 P
+G female
+#34041
+chair rest seat sit~
+@eng an old chair@rus {y~~деревянный~~ {g~~стул~~{x@rusoff (null)~
+@eng A usual wooded chair stand staged to the table.@rus Простой {yдеревянный {gстул{x приставлен к столу.@rusoff (null)~
+wood~
+furniture ORg A
+A EIJKN BEHK CDFI CDFI
+90 1000000 100 P
+G male
+#34042
+table stand center~
+@eng a little table@rus {y~~небольшой~~ {g~~стол~~{x~
+@eng You can see a big table at the center of room, dump by a lot of paper.@rus Посередине комнаты стоит большой и тяжелый {yдеревянный {gстол{x, заваленный разными бумагами.~
+wood~
+container KOR A
+5000 ACD 34043 100 100
+90 7600 1 P
+G male
+#34043
+key~
+@eng {Ygolden {Gkey{x@rus {Yзолотой {Gключик{x~
+@eng A little key shines by gold.@rus Маленький ключик поблескивает золотом.~
+steel~
+key KOR A
+0 0 0 0 0
+90 9 26 P
+G none
+#34045
+list~
+list~
+list~
+paper~
+trash 0 AO
+0 0 0 0 0
+0 1 0 P
+E ''
+text~
+~
+G female
+#34100
+pool vodka~
+@eng pool with vodka@rus ~~бассейн~~ с водкой~
+@eng A big pool with vodka! WOW!!!@rus Громадный бассейн с водкой тут! ВАУ!!!~
+mramor~
+fountain GRgil 0
+0 0 'vodka' 0 0
+0 0 0 P
+G male
+#34101
+ring wolf's~
+@eng wolf' ring@rus кольцо {RВолка{x~
+@eng wolf's ring lies here.@rus кольцо {RВолка{x  лежит здесь.~
+unknown~
+treasure H AB
+0 0 0 0 0
+1 10 50 P
+A
+16 5000
+A
+18 400
+G none
+#34102
+canine of the wolf~
+@eng canine of the wolf@rus клык {RВолка{x~
+@eng canine of the wolf lies here.@rus клык {RВолка{x  лежит здесь.~
+unknown~
+treasure H AC
+0 0 0 0 0
+92 50000 50 P
+A
+9 50
+A
+2 15
+A
+1 20
+G none
+#34103
+boots wolf's~
+@eng wolf's boots@rus ботинки {RВолка{x~
+@eng wolf's boots lies here.@rus Ботинки {RВолка{x лежат здесь.~
+platinum~
+armor C AG
+0 0 0 0 0
+1 10 10 P
+A
+16 20000
+A
+16 1000
+A
+18 1000
+A
+19 1000
+G none
+#34118
+musical bracers black feather~
+@eng {Cmusical{x {Rbracers{x@rus ~~{Cмузыкальные{x~~ ~~{Rбраслеты{x~~~
+@eng A pair of black feather {Rbracers{x lie here, humming {Cmelodically{x.@rus Пара {Rбраслетов{x из черных перьев издают мелодичный {Cгул{x.~
+feathers~
+armor AB AM
+13 13 13 13 0
+43 20 86 P
+G none
+#34127
+blood red dagger~
+a {rBLOOD-RED{x dagger~
+A {rBLOOD-RED{x dagger lies here.~
+steel~
+weapon EGJ AN
+dagger 7 8 pierce ADJ
+45 140 90 P
+E ''
+blood red dagger~
+.    The dagger before you is known as a blood dagger, and for good reason: as
+it pierces its victim's flesh, it draws the victim's blood into its blade, 
+absorbing its dark red color.  This particular dagger radiates an almost
+black color, showing just how much use it has seen....
+.    The arms of an evil-looking creature cover the handle, forming an 
+excellent grip, while the creature's gaping mouth and head form the hilt 
+at the dagger's top.  The blade itself has been notched like a saw, for 
+extra destructive power....
+ ~
+G none
+#34208
+valentinchik heart~
+@eng {D>{W∙ {Rvalentinchik {W∙{D<{x@rus {D>{W∙ {R~~валентинчик~~ {W∙{D<{x~
+@eng The heart-shaped subject decays, crushed by whose leg@rus {wТ{Dл{rе{Rю{rщ{Dи{wй {Rс{rердц{Rев{rидны{Rй {wп{Dр{rе{Rд{rм{Dе{wт {yв{gт{Dо{gп{yт{Dа{gн{D в {yз{gе{Dм{yл{gю{w.{x~
+fire~
+light A AC
+0 0 80 0 0
+1 5 0 P
+E ''
+heart~
+@eng {x
+{x       {r*{g*{W*********{g*{r* 
+{x       {W*{gooooooooooo{W*
+{x       {W*{gooo{R*{gooo{R*{gooo{W*
+{x       {g*oo{R***{go{R***{goo*
+{x       {W*{goo{R*******{goo{W*
+{x       {g*ooo{R*****{gooo*
+{x       {W*{goooo{R***{goooo{W*
+{x       {g*ooooo{R*{gooooo*{x
+{x       {W*{gooooooooooo{W*
+{x       {r*{g*{W*********{g*{r*
+{x
+{W    С Днем Св.Валентина!
+{x
+~
+E ''
+heart~
+~
+G none
+#34210
+dagger~
+@eng {Wblade{x of the {Gmorning{x {Cdew{x {W[{r1{x]{x@rus {Wклинок{x {Gутренней{x {Cросы{x {W[{r1{x]{x~
+@eng {WBlade{x of the {Gmorning{x {Cdew{x lies here.@rus {WКлинок{x {Gутренней{x {Cросы{x лежит здесь.~
+plexiglass~
+weapon ABGHM AN
+exotic 3 3 pierce CE
+1 3 3 P
+A
+6 2
+A
+3 2
+A
+4 2
+A
+5 2
+A
+2 2
+A
+1 2
+A
+18 25
+A
+19 25
+A
+14 100
+A
+12 100
+A
+13 100
+A
+20 10
+A
+17 150
+G none
+#34211
+dagger~
+@eng {Wblade{x of the {Gspring{x {Crain{x {W[{r25{x]{x@rus {Wклинок{x {Gвесеннего{x {Cдождя{x {W[{r25{x]{x~
+@eng {WBlade{x of the {Gspring{x {Crain{x {W[{r25{x]{x lies here.@rus {WКлинок{x {Gвесеннего{x {Cдождя{x {W[{r25{x]{x лежит здесь.~
+plexiglass~
+weapon ABGHM AN
+exotic 5 5 pierce CE
+25 3 3 P
+A
+17 300
+A
+20 25
+A
+14 200
+A
+12 200
+A
+13 200
+A
+18 75
+A
+19 75
+A
+6 3
+A
+4 3
+A
+3 3
+A
+5 3
+A
+2 3
+A
+1 3
+G none
+#34212
+dagger~
+@eng {Wblade{x of the {Gsummer{x {Cflood{x {W[{r25 x2{x]{x@rus {Wклинок{x {Gлетнего{x {Cпаводка{x {W[{r25 x2{x]{x~
+@eng {WBlade{x of the {Gsummer{x {Cflood{x {W[{r25 x2{x]{x lies here.@rus {WКлинок{x {Gлетнего{x {Cпаводка{x {W[{r25 x2{x]{x лежит здесь.~
+plexiglass~
+weapon ABGHM AN
+exotic 5 5 pierce CE
+25 3 3 P
+A
+6 2
+A
+3 2
+A
+4 2
+A
+5 2
+A
+2 2
+A
+1 2
+A
+19 37
+A
+18 37
+A
+13 100
+A
+12 100
+A
+14 100
+A
+20 12
+A
+17 150
+G none
+#34216
+dagger~
+@eng {Wblade{x of the {Gautumn{x {Chail{x {W[{r70 x2{x]{x@rus {Wклинок{x {Gосеннено{x {Cграда{x {W[{r70 x2{x]{x~
+@eng {WBlade{x of the {Gautumn{x {Chail{x {W[{r70 x2{x]{x lies here.@rus {WКлинок{x {Gосеннено{x {Cграда{x {W[{r70 x2{x]{x лежит здесь.~
+plexiglass~
+weapon ABGHM AN
+exotic 7 7 pierce CE
+70 3 3 P
+A
+1 3
+A
+2 3
+A
+5 3
+A
+3 3
+A
+4 3
+A
+6 3
+A
+19 87
+A
+18 87
+A
+13 200
+A
+12 200
+A
+14 200
+A
+20 37
+A
+17 300
+G none
+#34217
+amulet stream~
+@eng {Wamulet{x of the {Gmountain{x {Cstream{x {W[{r1{x]{x@rus {Wамулет{x {Gгорного{x {Cручья{x {W[{r1{x]{x~
+@eng {WAmulet{x of the {Gmountain{x {Cstream{x {W[{r1{x]{x lies here.@rus {WАмулет{x {Gгорного{x {Cручья{x {W[{r1{x]{x лежит здесь.~
+plexiglass~
+armor ABG AC
+0 0 0 0 0
+1 3 3 P
+F
+A 0 0 O
+F
+A 0 0 N
+F
+A 0 0 C
+F
+A 0 0 G
+F
+A 0 0 H
+F
+A 0 0 v
+F
+A 0 0 V
+G none
+#34300
+mithril armor~
+@eng {cMithril {WArmor{x@rus ~~{WС{wв{Wе{wр{Wк{wа{Wю{wщ{Wи{wе{x~~ ~~{cМифриловые{x~~ ~~{WДоспехи{x~~~
+@eng {cMithril {WArmor{x lies here.@rus {WС{wв{Wе{wр{Wк{wа{Wю{wщ{Wи{wе{x {cМифриловые{x {WДоспехи{x лежат здесь.~
+mithril~
+armor H AD
+50 50 50 50 0
+92 10 72 P
+F
+A 0 0 PTp
+G none
+#34305
+robe~
+@eng Robe@rus Роба~
+@eng Robe is here.@rus Роба находится здесь.~
+Silk~
+armor AQR AK
+0 0 0 0 0
+30 0 0 P
+F
+A 2 1 V
+G female
+#34306
+glittering ring~
+@eng a glittering golden ring@rus {Yз{xо{Yл{xо{Yт{xо{Yе {xколечко@rusoff a~
+@eng A golden ring line here.@rus {yзолотое{x колечко лежит здесь.@rusoff a~
+unknown~
+clothing AGHIORTYZa ABO
+0 0 0 0 0
+1 1 10000 P
+G none
+#34310
+earring laire~
+earring laire~
+Earring laire lies here.~
+emerald~
+armor TY AW
+0 0 0 0 0
+92 0 0 P
+F
+A 0 0 CEG
+F
+A 0 0 P
+F
+A 0 0 U
+F
+A 0 0 T
+G none
+#34333
+tree~
+@eng tree@rus ~~дерево~~, на котором живут сатиры~
+@eng Green tree stay hear.@rus {gБ{Wо{yл{gь{Wш{yо{gе {Gз{gе{Gлен{gо{Gе{W д{gерев{Wо{g с раскидистыми {yветвями{g растет здесь.{x~
+wood~
+furniture Rg 0
+AB 0 BEHK DGH DGH
+1 1000 1 P
+A
+3 1
+G none
+#34343
+hex invictius~
+@eng {wInvictius hex{x@rus {W~~предзнаменование~~ Инвиктиуса{x~
+@eng Mysterious blade of darkened silver, covered with ancient runes, is here, waitig for it's master.@rus Таинственный клинок из чернёного серебра, покрытый древними рунами, ожидает здесь своего хозяина.~
+adamantite~
+weapon ABCJ AN
+dagger 7 6 magic J
+1 20 20 P
+A
+20 25
+A
+17 200
+A
+8 10
+A
+25 10
+G none
+#34384
+termos~
+@eng termos with coffee@rus ~~термос~~ с кофе~
+@eng Termos with coffee lies here.@rus Термос с кофе лежит здесь.~
+plastmassa steklo~
+drink 0 AO
+300 300 'coffee' 0 0
+90 10 0 P
+G male
+#34385
+robe~
+@eng {bRobe{x@rus {bХламида{x ~
+@eng {bRobe{x for imms@rus {bХламида{x ~
+unknown~
+clothing A AD
+0 0 0 0 0
+92 30 0 P
+F
+I 0 0 S
+G none
+#34406
+dagger corkwood~
+@eng the dagger from corkwood@rus ~~пробковый~~ ~~ножик~~~
+The dagger from corkwood lies here.~
+unknown~
+weapon 0 AN
+dagger 0 0 none 0
+100 1 5 P
+A
+19 -40
+A
+18 -20
+G male
+#34408
+bag container avoska~
+@eng the bag for leaver of immortals@rus ~~авоська~~ для внутренностей бессмертных~
+@eng The bag for leaver wait your deposit in self.@rus Авоська для внутренностей ждет твой вклад в нее.~
+capron~
+container 0 AO
+100 AC 0 20 100
+0 5 1 P
+G female
+#34457
+portal~
+@eng {MM{ma{Mg{mi{Mc {wgate{x@rus {MМ{mа{Mг{mи{Mч{mе{Mс{mк{Mи{mе {wврата{x~
+@eng {MM{ma{Mg{mi{Mc {wgate{x open the way in lack of information.@rus {MМ{mа{Mг{mи{Mч{mе{Mс{mк{Mи{mе {wврата{x открывают путь в неизвестность.~
+stone~
+portal 0 0
+0 A A 3001 0
+0 0 0 P
+G none
+#34469
+cake birthday~
+@eng big cake@rus ~~{yбольшой {Rпирог{x~~ для {WК{wс{Wо{wр{Wы{x~
+@eng Big cake lies here.@rus Огромный пирог с шоколадной статуей бабки смотрится великолепно.~
+unknown~
+food a A
+CDEF CDEF 0 0 0
+0 100 50 P
+E ''
+cake~
+@rus На первый взгляд огромный пирог многослоен, но приглядевшись
+получше, вы обнаруживаете замечательную работу пекарей, 
+написавших код мада по спирали, фоном по всему пирогу.
+На вершине пирога, состоящей из книг (сделанных из долек
+фруктов), стоит большая шоколадная бабка, одной рукой
+держа авоську, другой показывая фигу. По краю пирога
+красивыми буквами написано:
+ "{WС днем рождения, Ксора!{x"
+~
+G none
+#34482
+shield rune~
+@eng {Crune {Eshield {x@rus {CЩит {Dпокрытый рунами {x~
+@eng Rune shield here@rus Щит покрытый руннами лежит здесь~
+gold~
+jukebox ABCDEFGHIS AJ
+0 0 0 0 0
+92 10 10 P
+A
+18 30
+A
+19 30
+A
+17 300
+G none
+#34484
+quester ii stepeni~
+@eng Quester II stepeni@rus {WОрден {Gквестора {MII {Wстепени {x~
+@eng Quester II stepeni here@rus {WОрден {Gквестора {MII {Wстепени {x лежит здесь~
+Gold~
+clothing AG AQ
+0 0 0 0 0
+50 0 0 P
+A
+20 2
+F
+A 20 0 T
+A
+17 100
+A
+19 20
+A
+18 20
+G none
+#34485
+quester i stepeni~
+@eng Quester I stepeni@rus {WОрден {Gквестора {MI {Wстерени {x~
+@eng Quester I stepeni here@rus {WОрден {Gквестора {MI {Wстерени {wлежит здесь {x~
+Gold~
+clothing ABG AQ
+0 0 0 0 0
+70 0 0 P
+F
+A 20 0 BDEF
+A
+20 5
+G none
+#34486
+trone~
+@eng Tronne hell@rus {EТрон {Rповелителя {rада {x~
+@eng Tronne hell stand here@rus {EТрон {Rповелителя {rада {wстоит тут {x~
+Flame~
+furniture ACGJL A
+AB FHIJKL EFIKL BD BD
+0 0 0 P
+G none
+#34488
+fountan beer~
+@eng the fountan with beer@rus ~~Фонтан~~ с пивом~
+@eng Fountan with beer here.@rus Фонтан с пивом здесь.~
+stone~
+fountain BGR A
+1000 0 'root beer' 0 0
+0 0 0 P
+G none
+#34491
+blade of elf~
+@eng {Wel{wvi{wsh {Yblade{x@rus {W~~эльфийский~~ {Y~~клинок~~{x~
+@eng elvish blade lies here.@rus светящийся голубым светом меч лежит здесь.~
+mithril~
+weapon AGHIRT AN
+sword 11 10 wrath AEI
+92 5 0 P
+A
+20 100
+A
+32 50
+A
+18 25
+A
+19 25
+G male
+#34492
+coffee~
+@eng {ycoffee pot{x@rus ~~{yкофейник{x~~~
+@eng Coffee pot here.@rus Изящный {yкофейник{x здесь, всем своим видом предлагает тебе кофейку.~
+iron~
+fountain AOg 0
+0 0 'coffee' 0 0
+0 0 5 P
+G male
+#34493
+ring of night~
+@eng ring of {Dnight{x@rus ~~кольцо~~ ~~{DНочи{x~~~
+@eng Strange ring lies here.@rus Темное кольцо горит тусклым светом.~
+mithril~
+jewelry CG AB
+0 0 0 0 0
+92 0 100 P
+A
+25 5
+G none
+#34494
+ring rain~
+@eng ring of {BRain{x@rus ~~кольцо~~ ~~{BДождя{x~~~
+@eng Beautiful ring lies here.@rus Сверкающее кольцо парит в воздухе.~
+mithril~
+jewelry AI AB
+0 0 0 0 0
+92 0 100 P
+A
+25 5
+G none
+#34495
+tell~
+@eng tell@rus телл~
+@eng Tell lies here.@rus Телл лежит тут.~
+unknown~
+furniture 0 AN
+0 0 0 0 0
+90 100 40 P
+G male
+#34497
+hoof fighting~
+@eng {Gf{Yi{Gg{Yh{Gt{Yi{Gn{Yg {Gh{Yo{Go{Yf{x@rus ~~{Gб{Yо{Gе{Yв{Gо{Yе{x~~ ~~{Gк{Yо{Gп{Yы{Gт{Yо{x~~~
+@rus Копыто отважного и смелого сатира оставлено здесь.~
+unknown~
+weapon AI AN
+exotic 10 10 wrath CE
+96 0 0 P
+A
+6 10
+G none
+#34498
+seat~
+@eng cushioned seat@rus ~~мягкое~~ ~~кресло~~~
+@eng The cushioned seat covered blanket stands in an angle.@rus Мягкое кресло, покрытое пледом, стоит в углу.~
+unknown~
+furniture IRT 0
+A 0 ABFIL EHI EHI
+0 400 0 P
+G none
+#34499
+engine~
+@eng small engine@rus моторчик~
+@eng Small amusing engine buzzs here.@rus Небольшой забавный моторчик жужжит здесь.~
+unknown~
+container BGU AU
+10000 A 0 0 0
+94 0 0 P
+G male
+#0
+
+#ROOMS
+#34000
+@eng Main room@rus Главнаяя комната~
+@eng This area was created for immortals.  You may create a room for yourself
+here.  A {Yprompt{x is shimmering in the air.  It looks useful for
+immortals.  
+@rus Эта ария создана специально для бессметрных, чтобы они смогли сделать
+тут свои комнаты для отдыха...
+Вы видите промтп({wprompt{x), который хорошо подойдет бессмертным.
+~
+0 0 water
+E ''
+prompt~
+prompt {{g%h{{xhp {{y%m{{xm %vmv ({{m%R{{xvnum {{w%z{{x.are) Opp:{{R%o{{x {{C%e{{x#
+~
+D0 0
+@eng Window in world wait your works.
+@rus Окно в мир ведет к смертым. Входя в него помни, что мир -
+это не забава, а огромная ответственность.
+~
+window~
+ABZ 0 3001
+D2 0
+~
+~
+NZ 0 34003
+D4 0
+грязный, маленький подкоп
+~
+~
+ABZ 0 701
+D5 0
+~
+~
+ABZ 0 34001
+S
+#34001
+Underwater without bottom.~
+~
+0 0 underwater
+D4 0
+~
+~
+ABZ 0 34000
+D5 0
+~
+~
+Z 0 34002
+S
+#34002
+Underwater with bottom.~
+~
+0 0 underwater
+D2 0
+~
+~
+ABZ 0 34004
+D4 0
+~
+~
+Z 0 34001
+S
+#34003
+Room for creators-currency.~
+Вообщем мир должен поделён на места специализирующиеся на производстве
+или добыче шмоток и соот-о на спросе и предложении. Итак, вводный курс
+в рыночную экономику:
+Спрос: какие шмотки тут будут покупаться и по какой цене, например,
+       песчаный карьер - мало пищи - соответсвенно пищи мало и тут
+       её с удовольствием покупают, но добытчики привередливые и
+       любят кушать мясо, особенно свинину. В цифрах - свинина стоит
+       на 30% дороже стандартной цены, а остальная пища на 20%.
+Соотв-о нада сотворить список обьектов и их стандартных цен... Пусть
+это будет находиться в help'е "CREATE WORLD OBJECTS COSTS".
+Предложение: опять на примере, то же песчаннике добываються драгоценные
+             камни (не придераться, это пример !!!). А именно: рубины,
+             топазы и....
+             Но раз в месяц сюда наведываеться дракон и забирает почти
+             все камни у добытчиков, поэтому кол-во камней в продаже
+             очень мало.
+Замечания: 1) Не должно быть табличек: "тут покупать то-то, а продо-ть..."
+         2) По возможности мир должен быть сбалансиорван на спрос - предложение,
+            то есть если, например, рядом с тем же карьером есть свинобойня,
+            то цены должны РЕЗКО упасть на свинину... Ещё пример, если
+"торговая точка" находиться в месте, где много PC, то продавцы
+            должны покупать дешевле а продовать дороже....
+Итак, как должен выглядить Мидгаард:
+Пускай он специализируеться на переработке сырья (так как город), но
+так как городов много, углубим специализацию, так как этот город
+находится в центре мира то он спец-я на собирании знаний, а так же
+он славиться своими алхимиками, которые делают качаественный товар, но
+цены на всё очень дорогие, а продавать тут всё ну очень невыгодно, заисключением
+пищи так как народа много (но и тут доход очень низкий, так как конкуренция)
+Выводы. Покупаеться и продаёться всё, но ОЧЕНЬ невыгодно заисключением:
+Спрос: карты, книги, всё что связанно с информацией, а также, травы,
+редкие органы, редкие камни, вообщем, ингриенты для составления потионов,
+скроллов, etc... 
+В результате, купить здесь можно вполне неплохие вещи (особенно потионы),
+но по ужасно дорогой цене... продавать тут вообще невыгодно, заисключением
+пищи, "но гномы из пещер Забвенья дают за пищу гораздо щедрее"....
+ 
+Не забывайте что, чем больше разница в цене между "точками", то тем
+расстояние между ними больше и дорога опаснее....
+Вскоре, gate и др. способы перемещения будут изменены в зав-и от
+расстояния, плюс эти спеллы будут требовать недешовых компонентов, так
+что при торговле всеж придёться исп-ть старый метод ног для получения прибыли :)
+~
+0 0 inside
+D0 0
+~
+~
+Z 0 34000
+S
+#34004
+@eng The Xor's little room@rus Комнатка Ксора~
+@eng Xor likes russian language and wrote desc on this lang :))
+(see russian variant)
+@rus Вполне уютная комнатушка, заставленная старенькой мебелью. Окна,
+выходящие на южную сторону, открывают вид во двор, где, возможно,
+Ксор проводил своё детство. Обстановка (info) навевает ностальгию
+о былых временах с белыми и чёрными "полосами". На стене напротив
+окон не хватает только плаката ДДТ (ddt) до полного образа квартиры
+человека спасающегося от жизни.... Под высоким, протёкшим
+в несколких местах, потолком болтается раздолбанная лампа в
+"китайском" стиле.
+~
+0 CD city
+E ''
+info~
+{x   ____________________
+  |        balkon      |
+__|__[window]__[door2]_|__
+| TV   tape-r            |     /S\ {x
+|                       s|      |
+| ta-                   h|      |
+| ble                   k|      |
+|                       a|      N
+|                       f|
+| [###bed###] lamp       |
+|----------------[door1]-|
+~
+E ''
+ddt~
+{x          .  ..           .  ..       . ,,,,....___
+        .   ::IZs.      .   ::IZs.    . :IZZ$$$$$$$$$Sh.
+        .  ::IZZ$$b.     . ::IZZ$$b. . .:IZ$$$$$$$$$$$$$b
+              `$$$$$b         `$$$$$b    `РZS$$$$$$$$$$$$b
+              .$$$"?$S.       .$$$"?$S.      $$$$$$$$ ~~~~""
+              i$$:  ?$b       i$$:  ?$b      $$$$$$$$
+             .$$l   :$$:     .$$l   :$$:     $$$$$$$?
+             i$$:   l$$l     i$$:   l$$l     $$$$$$Z:
+            .$$l   ,$$$'    .$$l   ,$$$'     S$$$$ZI
+            i$$' ,d$$$?     i$$' ,d$$$?      $$$$ZI'
+           d$$$.d$$$$7     d$$$.d$$$$7       $$$ZI?:
+         .dZZZ$$$$$$-    .dZZZ$$$$$$-        $$ZI7::
+      . ::IZZZZZ$$-'    ::IZZZZZ$$-'         $ZI7::
+         ::IIIIS-'     . ::IIIIS-'           II-::.
+     .    :::-~~         . :::-~~              ?::. . .
+        .                                    :.
+~
+D0 0
+~
+~
+ABZ 0 34002
+S
+#34007
+@eng The Baltazar's apartments@rus Покои Бальтазара~
+@rus Вы попали в небольшую комнату. Она выглядит очень опрятной. Потолок излучает
+красивый бледно - голубой свет. Вы чувствуете как Вас наполняет какая - то
+неведомая сила. Вы успокаиваетесь и понимаете, что Вам нечего бояться, пока
+Вы находитесь здесь. С востока до Вас доносится пение птиц и аромат цветов.
+~
+0 C city
+D1 0
+~
+~
+Z 0 34008
+M 1000 H 1000
+S
+#34008
+@eng Garden of Life@rus Сад Жизни~
+@rus Вы в прекрасном небольшом саду. Здесь слышится чудное пение птиц
+и чувствуется аромат цветов. Здесь прохладно. Небольшой ветерок
+нежно теребит ваши волосы. Это действительно Сад Жизни.
+~
+0 0 forest
+D3 0
+~
+~
+Z 0 34007
+S
+#34030
+@eng Tormann house@rus Дом Тормана~
+@eng You are in a big, spacious premise. you see a little door, which lead you to Midgaard. You understand, that the master of this plase will be very kind to you. 
+@rus Вы находитесь внутри просторного помещения с широкими и высокими окнами. 
+Разноцветные обои радуют глаз своей цветовой гаммой, напоминающей
+произведение какого то великого мастера.  Небольшой деревянный стол выглядит
+очень старым но, несмотя на это, гармонично сочетается с простым деревянным
+полом.  Стул в углу комнаты позволяет Вам сделать вывод, что хозяин очень
+часто работает здесь.  Прозрачная занавеска прикрывает вход в спальную
+комнату.  Широко раскрытые двери ведут Вас в прихожую.  
+~
+0 DS inside
+D1 0
+~
+~
+Z 0 34031
+D2 0
+~
+~
+Z 0 34032
+M 0 H 0
+O tormann~
+S
+#34031
+@eng vast hall@rus Широкая прихожая~
+@rus  Вы Находитесь в широкой прихожей, которая ведет вас в дом Торманна. 
+Высокие стены покрыты позолоченной плиткой, составляющей узор, смысл
+которого вы никак не можете уловить.  Широкие двери ведут вас в основную
+комнату дома.  На севере вы видите дорогу в храм Мидгарда.  
+~
+0 0 inside
+D0 0
+~
+~
+Z 0 3001
+D3 0
+~
+~
+Z 0 34030
+M 150 H 150
+S
+#34032
+@eng bedroom@rus Спальная комната~
+@rus Вы входите в небольшое помещение, наполненное мягким синим светом.  Стены
+помещения оформлены в спокойных коричневых тонах.  Приятная медленная музыка
+успокаивает вас и приглашает лечь на небольшую, но удивительно мягкую
+кровать, стоящую посередине.  
+~
+0 JS inside
+D0 0
+~
+~
+Z 0 34030
+M 300 H 300
+S
+#34100
+@eng Maks's room@rus Комната Макса~
+@eng You are in the cube, absolutely clear room. The walls emits soft light.
+You can go into any wall about.
+@rus Ты находишься в кубической, абсолютно пустой комнате. Стены испускают мягкий свет.
+При этом в любую из стен можно войти.
+~
+0 0 inside
+S
+#34200
+@eng Rubber Bog@rus Резиновое болото~
+@rus Здесь тихо и тепло...
+В воздухе пахнет серой... Густая черная масса хлюпает у твоих ног.
+Черная масса окружает тебя. Ты обнаруживаешь себя на маленьком
+островке. Невдалеке на черноте проступает ярлычок (label).
+~
+0 0 inside
+E 'human lang'
+label~
+@rus               R.I.P.
+Чарльз Гудьир (29.12.1800 - 01.07.1860)
+Изобретатель вулканизации каучука.
+~
+S
+#34333
+@eng Secret Satirish Room@rus ТайнаЯ СатирскаЯ РезиденциЯ~
+@eng Wild satyrs loves this place!
+@rus Дикие сатиры облюбовали эту комнату длЯ своего обитаниЯ.
+ 
+Зеленые ветви деревьев образуют над твоей головой непоницаемый длЯ света и непогоды полог.
+Создается впечатление, что ты попал в леса Аркадии.
+МЯгкий аромат хвои приЯтно щекочет ноздри.
+Полутьма окутывает тебЯ.
+Пока здесь спокойно.
+ХочетсЯ спать - зеваешь почти до хруста в челюсти.
+Должно быть у диких сатиров миграциЯ.
+Или - они спЯт...
+~
+0 0 forest
+D0 0
+~
+~
+Z 0 12050
+S
+#34444
+@eng Heonis@rus Хеонис~
+@eng Эта комната была созда Heonis`om, специально, что бы научится строить комнаты
+самое интересное куда видут выходы  - я не знаю... Да их просто нет...
+Слабый ветерок, лаская твое лицо, доносил до тебя звуки пустоты...
+@rus {WТы сейчас находишся в покоях лорда северных земель. 
+Комната, по необычному, огромна и находясь в ней кажется, 
+что времЯ застывает, и Все становитсЯ вечностью...
+А вечность -- ВСЕМ.
+Ты струдом разглядываешь стены и потолок и понимаешь, что
+они сделаны из черного льда.
+~
+0 P field
+E ''
+keyword~
+@rus Я могу тябя предупредить, Страник, что  место где ты находишся, очень опасно...
+~
+M 100 H 1000
+O Heonis~
+S
+#34450
+@eng Cave@rus Пещера~
+Ты стоишь в мрачной пещере. Вокруг себя ты видишь только стены, хотя ты замечаешь дверь
+ведущую на запад. Ты понимаешь, что дверь просто так не открыть, и тебе нужен ключ.
+Тут ты замечаешь небольшую надпись(inscription), начерченную на каменной стене.
+~
+0 CKW inside
+E ''
+inscription~
+Приветствую тебя путник...
+Ты сейчас перед входом в великую сокровищницу ЗЛА!
+За 6-ю дверями хранится несметное богатство, то только если у тебя есть ключ - ты можешь завладеть им.
+ 
+{rKeeper{x
+~
+D0 0
+~
+~
+ABCFGZ 34469 34454
+D1 0
+~
+~
+ABCFGZ 34467 34453
+D4 0
+~
+~
+ABCFGZ 0 34456
+D5 0
+~
+~
+ABCFGZ 34470 34455
+S
+#34453
+@eng Cave@rus Пещера~
+~
+0 0 inside
+D3 0
+~
+~
+ABCFGZ 0 34450
+S
+#34454
+@eng Cave@rus Пещера~
+~
+0 0 inside
+D2 0
+~
+~
+ABCFGZ 0 34450
+S
+#34455
+@eng Cave@rus Пещера~
+~
+0 0 inside
+D4 0
+~
+~
+ABCFGZ 0 34450
+S
+#34456
+@eng Treasure@rus Сокровищница~
+~
+0 0 inside
+D5 0
+~
+~
+ABCFGZ 0 34450
+S
+#34459
+@eng {RHell {x@rus {RАд {x~
+~
+0 AN city
+S
+#34460
+@eng Ged i tochka@rus Ged i tochka~
+~
+0 0 forest
+D2 0
+~
+~
+Z 0 34004
+S
+#0
+
+#SPECIALS
+M 34006 spec_cast_undead	* the lich Ciquala
+S
+
+#RESETS
+D 0 34000 0 1	* Main room: door to the north: closed
+D 0 34000 4 1	* Main room: door to the up: closed
+D 0 34000 5 1	* Main room: door to the down: closed
+D 0 34001 4 1	* Underwater without bottom.: door to the up: closed
+D 0 34002 2 1	* Underwater with bottom.: door to the south: closed
+D 0 34004 0 1	* The Xor's little room: door to the north: closed
+D 0 34450 0 2	* Cave: door to the north: closed and locked
+D 0 34450 1 2	* Cave: door to the east: closed and locked
+D 0 34450 4 2	* Cave: door to the up: closed and locked
+D 0 34450 5 2	* Cave: door to the down: closed and locked
+D 0 34453 3 2	* Cave: door to the west: closed and locked
+D 0 34454 2 2	* Cave: door to the south: closed and locked
+D 0 34455 4 2	* Cave: door to the up: closed and locked
+D 0 34456 5 2	* Treasure: door to the down: closed and locked
+M 0 34300 1 34001 1	* a small fish with pointy teeth (Underwater without bottom.)
+M 0 34300 1 34002 1	* a small fish with pointy teeth (Underwater with bottom.)
+O 0 34003 0 34004	* TV set (The Xor's little room)
+O 0 34006 0 34004	* old divan (The Xor's little room)
+O 0 34007 0 34004	* shkaf (The Xor's little room)
+O 0 34492 0 34007	* {ycoffee pot{x (The Baltazar's apartments)
+O 0 34498 0 34007	* cushioned seat (The Baltazar's apartments)
+O 0 34013 0 34007	* the opened window (The Baltazar's apartments)
+M 0 34491 1 34008 1	* hedgedog (Garden of Life)
+O 0 34041 0 34030	* an old chair (Tormann house)
+O 0 34042 0 34030	* a little table (Tormann house)
+P 0 31088 1 34042 1	* a little table: a History book
+P 0 34045 1 34042 1	* a little table: list
+P 0 3396 1 34042 1	* a little table: an old book
+P 0 3394 1 34042 1	* a little table: an old book about known limited items, Fascicle I
+O 0 15005 0 34030	* a fountain with milk (Tormann house)
+P 0 3395 1 34042 1	* a little table: an old book about known limited items, Fascicle II
+O 0 34034 0 34032	* Convenient soft bed (bedroom)
+M 0 34200 1 34200 1	* {WDalai-lama{x (Rubber Bog)
+O 0 34333 0 34333	* tree (Secret Satirish Room)
+O 0 34457 0 34450	* {MM{ma{Mg{mi{Mc {wgate{x (Cave)
+O 0 34001 0 34453	* {YGold chain{x (Cave)
+O 0 34001 0 34454	* {YGold chain{x (Cave)
+O 0 34001 0 34455	* {YGold chain{x (Cave)
+O 0 34001 0 34456	* {YGold chain{x (Treasure)
+M 0 50 1 34459 1	* Junkseller ({RHell {x)
+O 0 34498 0 34460	* cushioned seat (Ged i tochka)
+O 0 34100 0 34460	* pool with vodka (Ged i tochka)
+M 0 3090 1 34460 1	* the kitten (Ged i tochka)
+M 0 34492 1 34460 1	* mob (Ged i tochka)
+G 0 16059 0		*	Scroll of reveal
+S
+
+#SHOPS
+34400 0 0 0 0 0 100 100 0 23 0 ~
+34492 0 0 0 0 0 100 100 0 23 0 ~
+0
+
+#OLIMITS
+O 34001 1	* {YGold chain{x
+O 34002 1	* Xor`s notepad
+O 34034 1	* Convenient soft bed
+O 34038 10	* {WValidol?{x
+O 34039 10	* {WB{Dox with {RAnti-validol{x
+O 34118 3	* {Cmusical{x {Rbracers{x
+O 34127 0	* a {rBLOOD-RED{x dagger
+S
+
+#MOBPROGS
+#34030
+if $n say go
+fol $n
+else
+if $n say key
+give key $n
+endif
+~
+#34031
+mob oload 34043
+give key $n
+~
+#34032
+fol $n
+~
+#34033
+fol self
+~
+#34034
+if isimmort $n
+mob slay $n
+say ibo nefig !!!
+endif
+~
+#34208
+if isimmort $n
+   say Дарова, тебе о бессмертное!
+   bow
+else
+   if isvisible $n
+      if carries $n 34208
+         say фиг тебе!
+         emote показывает тебе язык. Беееее...
+      else
+         mob oload 34208
+         give valent $n
+         kiss $n
+         tell $n Как насчет встретиться вечером?
+      endif
+   endif
+endif
+~
+#34386
+if $n say Transfer
+transfer $n 3015
+goto 3015
+~
+#34388
+say За что попал?
+say Твое место у параши
+~
+#34405
+if level $n < 5
+say Ты слишком храбр $n! Но это слишком сложное задание для тебя
+say Приходи как подростешь!
+end
+endif
+say В далекой местности, потерялся мой сын,
+say я ищу его многие годы и не могу найти
+say Помоги мне найти его, о отважный $n!
+say Если ты мне поможешь, я награжу тебя
+say Он потерялся где то около Моря Дракона!
+say Удачи тебе странник.
+smile $n
+ 
+~
+#34406
+if isimmort $n
+bow $n
+end
+endif
+say Привет, меня зовут Ямато, я потерял своего отца
+say Помоги мне добраться к нему
+follow $n
+say Вперед!
+~
+#34491
+if rand 50
+say Я люблю Рема!
+endif
+if rand 50
+say Рем, пойдём лучше пивка попьём. Нафиг эту работу.
+end
+endif
+if rand 50
+say Ксор-скотина!!! :)
+endif
+if rand 50
+say Зря вчера к Ксору поехали... башка раскалывается.
+endif
+if rand 50
+say Я не люблю Макдональдс.
+end
+endif
+if rand 50
+say Главное толпами не ходить.
+end
+endif
+~
+#0
+
+#HELPS
+1 'QUANTUM SPIKE'~
+@rus {G=============================================================================={x
+ 
+Синтаксис: {ccast 'quantum spike' <цель>{x
+ 
+Ведьмы могут использовать Астрал для причинения вреда врагу используя
+квантовый шип.
+ 
+{G=============================================================================={x
+~
+-1 $~
+
+#$

@@ -1,0 +1,1019 @@
+#AREADATA
+Name Smurfville~
+VNUMs 100 199
+Credits Generic~
+Security 5
+LevelRange 1 10
+End
+
+#MOBILES
+#101
+smurf~
+@eng a smurf@rus ~~смурф~~~
+@eng A smurf is singing and walking along.
+@rus {BСмурф{x гуляет по дорожке.
+~
+@eng A cute little blue smurf with a white hat and white boots.  You have a sudden
+urge to crush him.
+@rus Маленький {BСмурф{x в белой шляпе и белых ботинках. Ты пугаешь его своим видом.
+~
+human~
+AGHS DF 100 0
+1 0 2d4+2 0d9+100 1d2+0 punch
+-10 -10 -10 -10
+BEFJNU 0 0 0
+stand stand male 2
+0 0 medium unknown
+#102
+oldstyle smurf~
+@eng a smurf@rus {BСмурф{x~
+@eng A smurf is here, picking berries.
+@rus {BСмурф{x гуляет по дорожке.
+~
+@eng A small smurf is quietly picking berries.  He seems to hardly notice you.
+@rus Маленький {BСмурф{x в белой шляпе и белых ботинках. Ты пугаешь его своим видом.
+~
+human~
+ABHS DF 100 0
+1 0 2d4+2 0d9+100 1d2+0 punch
+-10 -10 -10 -10
+BEFJNU 0 0 0
+stand stand male 2
+0 0 medium unknown
+#103
+oldstyle brainy smurf~
+@eng Brainy Smurf@rus {wУмный {BСмурф{x~
+@eng Brainy Smurf is here, mumbling something to himself.
+@rus {wУмный {BСмурф{x бубнит что-то себе под нос.
+~
+@eng Brainy Smurf has on his usual glasses.  Brainy Smurf isn't liked much by the
+other smurfs.  They fear his knowledge.  Knowledge is power!
+@rus {wУмный {BСмурф{x в очках- не смей его трогать. Он не очень любит остальных. Знание- Сила.
+~
+human~
+AGHS DF 100 0
+3 0 2d7+21 1d9+100 1d5+0 punch
+-8 -8 -8 -10
+BEFJNU 0 0 0
+stand stand male 6
+0 0 medium unknown
+#104
+handy smurf~
+@eng Handy Smurf@rus ~~мастер~~ ~~смурф~~~
+@eng Handy Smurf is building something here.
+@rus {wМастер {BСмурф{x cтроит что-то.
+~
+@eng Handy is always building something.  He never takes a break.  Why don't you
+give him a break, like all of his bones.
+@rus Мастер готов помочь каждому. Если у тебя что-нибуть сломалось- 
+неси к нему, он починит.
+~
+human~
+AGHS DF 100 0
+3 0 2d7+21 1d9+100 1d5+0 none
+-8 -8 -8 -10
+BEFJNU 0 0 0
+stand stand male 6
+0 0 medium unknown
+#105
+oldstyle sleepy smurf~
+@eng Sleepy Smurf@rus {wСпящий {BСмурф{x~
+@eng Sleepy Smurf is sleep walking here.
+@rus {wСпящий {BСмурф{x спит на ходу.
+~
+@eng Sleepy never gets enough sleep.  You would think he goes to college.  I wonder
+if he has ever stayed up a whole night without sleeping.
+@rus Этому Смурфу всегда хочется поспать. Он спит даже когда ест.
+Так почему же он такой толстый?
+~
+human~
+AGHS DF 100 0
+3 0 2d7+21 1d9+100 1d5+0 none
+-8 -8 -8 -10
+BEFJNU 0 0 0
+stand stand male 6
+0 0 medium unknown
+#106
+oldstyle hefty smurf~
+@eng Hefty Smurf@rus {yТолстый {BСмурф{x~
+@eng Hefty Smurf is lifting weights here.
+@rus {yТолстый {BСмурф{x поедает все что можно.
+~
+@eng Hefty is a total health nut.  He lifts weights, eats right, and exercises all
+the time.  Won't do him much good when he's DEAD.
+@rus Этот Смурф такой толстый, что в объеме пуза он не уступит даже дварфу.
+Он ест все подряд.
+~
+human~
+AGHS DF 100 0
+3 0 2d7+21 1d9+100 1d5+0 none
+-8 -8 -8 -10
+BEFJNU 0 0 0
+stand stand male 6
+0 0 medium unknown
+#107
+oldstyle grumpy smurf~
+@eng Grumpy Smurf@rus ~~унылый~~ ~~{Bсмурф{x~~~
+@eng Grumpy Smurf is here, swearing.
+@rus {wУнылый {BСмурф{x Ворчит что-то себе под нос.
+~
+@eng Grumpy has never been happy in his whole life.  So why don't you just end it?
+@rus Этот Смурф никогда  не был счастливю
+Все время его терзают несчастья.
+Вот и сейчас его убьют:((
+~
+human~
+AGHS DF 100 0
+3 0 2d7+21 1d9+100 1d5+0 none
+-8 -8 -8 -10
+BEFJNU 0 0 0
+stand stand male 6
+0 0 medium unknown
+#108
+oldstyle jokey smurf~
+@eng Jokey Smurf@rus ~~{Bсмурф{x~~-~~шутник~~~
+@eng Jokey Smurf is here, holding a present.
+@rus {BСмурф-{wШутник{x прикалывается тут.
+~
+@eng Jokey loves to give people presents.  Too bad the present explodes when opened.
+Oh well, to each his own.
+@rus Он готов прикольнутся над всем чем можно.
+~
+human~
+AGHS DF 100 0
+3 0 2d7+21 1d9+100 1d5+0 none
+-8 -8 -8 -10
+BEFJNU 0 0 0
+stand stand male 6
+0 0 medium unknown
+#109
+oldstyle smurfette~
+@eng Smurfette@rus {B~~смурфилетта~~{x~
+@eng Smurfette is here, looking beautiful.
+@rus {BСмурфилетта{x красуется здесь.
+~
+@eng Smurfette is the cutest little smurf you've ever seen.  If only she were your
+size.  I wonder how much she charges the other smurfs.
+@rus Смурфилетта красуется в зеркальце.
+~
+human~
+AGHS DF 100 0
+3 0 2d7+21 1d9+100 1d5+0 none
+-8 -8 -8 -10
+BEFJNU 0 0 0
+stand stand female 6
+0 0 medium unknown
+#110
+oldstyle papa smurf~
+@eng Papa Smurf@rus {BПАПА СМУРФ{x~
+@eng Papa Smurf is practicing magic here.
+@rus {BПАПА СМУРФ{x практикуется в магии.
+~
+@eng Yep, its Papa Smurf all right.  Red hat and boots and the funny little white
+beard.  Papa Smurf treats his fellow smurfs with dignity and respect.  That
+is why Papa Smurf is so popular among the ladies.
+@rus ПАПА смурф готов каждому нахлопать по попке.
+~
+human~
+AGHR 0 100 0
+10 0 2d6+110 10d9+100 1d8+1 none
+-2 -2 -2 -6
+FU 0 0 0
+stand stand male 20
+0 0 medium unknown
+#111
+oldstyle gargamel~
+@eng Gargamel@rus {BГаргамель{x~
+@eng Gargamel is here, cursing out the smurfs.
+@rus {BГаргамель{x лечит смурфов.
+~
+@eng Gargamel has never done anything right in his life.  He has caught smurfs
+before but always lets them escape.  He brings true meaning to the word moron.
+@rus Гаргамель избавляет Смурфов от ран.
+Он очень хороший Лекарь.
+~
+human~
+ABHQ 0 -100 0
+10 0 2d7+121 10d9+100 1d7+2 none
+-1 -1 -1 -7
+EIKU 0 0 0
+stand stand male 20
+0 0 medium unknown
+#112
+oldstyle azreal cat~
+@eng Azreal@rus {BАЗЕРАЛ{x~
+@eng Azreal is here, licking himself.
+@rus {BАЗЕРАЛ{x вылизывается.
+~
+@eng Gargamel's worthless cat.  He is just about as dumb as Gargamel.  He should
+just grab a smurf in his teeth and chew away.
+@rus Огромная, но маленькая котяра.
+~
+human~
+ABH 0 -100 0
+8 0 2d7+96 4d9+100 1d7+2 none
+-3 -3 -3 -9
+EFNU 0 0 0
+stand stand male 16
+0 0 medium unknown
+#0
+
+#OBJECTS
+#100
+bunch berries smurfberries~
+@eng a bunch of smurfberries@rus {W(bunch){xПучок ягод Смурфов~
+@eng A bunch of delicious looking smurfberries lie here.@rus {W(bunch){xПучок ягод Смурфов лежит без дела.~
+food~
+pill 0 A
+8 '' '' 'detect magic' ''
+0 20 180 P
+G none
+#101
+glasses~
+@eng a pair of glasses@rus ~~очки~~ старого Смурфа~
+@eng An odd pair of glasses has been left here.@rus Очки старого Смурфа валяются на полу.~
+glass~
+clothing A AV
+0 0 0 0 0
+3 20 270 P
+A
+4 1
+A
+2 -1
+G none
+#102
+smurf hat~
+@eng a smurf hat@rus {W(hat){x Шляпа Смурфа~
+@eng A smurf hat has been left here.@rus {W(hat){x Шляпа Смурфа брошена на произвол судьбы.~
+cloth~
+armor 0 AE
+3 3 3 0 0
+3 20 310 P
+A
+4 1
+G none
+#103
+axe small~
+@eng a small axe@rus ~~маленький~~ ~~топорик~~~
+@eng A small axe has been dropped here.@rus Маленький топорик кем-то брошен здесь.~
+wood~
+weapon 0 AN
+axe 1 6 slash 0
+3 20 370 P
+G none
+#104
+necklace~
+@eng a small necklace@rus ~~маленькое~~ ~~ожерелье~~~
+@eng A small necklace is lying on the ground.@rus Маленькое Ожерелье валяется тут.~
+gem~
+jewelry A AC
+0 0 0 0 0
+5 20 550 P
+A
+3 1
+G none
+#105
+pink potion~
+@eng a pink potion@rus {MФиолетовое {wЗелье{x~
+@eng A pink potion is barely visible on the ground.@rus {MФиолетовое {wЗелье{x светится тут.~
+glass~
+potion 0 A
+6 'armor' 'cure blindness' '' ''
+0 20 160 P
+G none
+#106
+wand~
+@eng a small wand@rus {mВолшебная Палочка{x~
+@eng A small wand lies on the ground.@rus {mВолшебная Палочка{x парит над землей.~
+wood~
+wand 0 AO
+5 1 1 'burning hands' 0
+3 20 540 P
+G none
+#107
+key~
+@eng a tiny key@rus {cключик{x~
+@eng A tiny key is lying on the ground.@rus {cКлючик{x брошенный на пол.~
+wood~
+key 0 A
+B 0 0 0 0
+0 20 0 P
+G none
+#108
+well~
+@eng a smurf well@rus {wКолодец{x~
+@eng A small smurfy well is here.@rus Небольшой {wколодец{x смурфов тут~
+stone~
+fountain 0 0
+50 50 'water' 0 0
+0 0 0 P
+G none
+#109
+key~
+@eng a small key@rus ключик~
+@eng A key to Gargamel's door lies here.@rus {wКлючик{x от двери {mГаргамела{x лежит на земле.~
+wood~
+key 0 A
+B 0 0 0 0
+0 20 0 P
+G none
+#0
+
+#ROOMS
+#101
+@eng Dimly Lit Path@rus Затененная Тропа~
+@eng This path is made of crushed granite with curious blue streaks in it.
+The path continues north to a village, or south to the eastern road.
+@rus Эта тропа выложена кусками гранита с любопытными голубыми вкраплениями.
+Она ведет на север к деревне и на юг к Восточной дороге.
+~
+0 0 forest
+D0 0
+The path continues toward the village.
+~
+~
+Z -1 102
+D2 0
+The path heads back toward the eastern road.
+~
+~
+Z -1 3525
+S
+#102
+@eng Dimly Lit Path@rus Затененная Тропа~
+@eng This section of the road is badly worn and frequently traversed.  There is
+faint singing to the north.  The path back to the road lies to the south.
+@rus Эта часть тропы не очень ухожена, покрыта упавшими листьями и ветками. 
+С севера ты слышишь приглушенное пение.Путь обратно на Восточную Дорогу лежит на юге.
+~
+0 C forest
+D0 0
+The path continues toward the village.
+~
+~
+Z -1 103
+D2 0
+The dimly lit path.
+~
+~
+Z -1 101
+S
+#103
+@eng Dimly Lit Path@rus Затененная Тропа~
+@eng This section of the road is badly worn and frequently traversed.  Singing is
+getting stronger to the north.  The path back to the road lies to the south.
+@rus Эта часть тропы не очень ухожена, покрыта упавшими листьями и ветками. 
+С севера ты слышишь приглушенное пение.Путь обратно на Восточную Дорогу лежит на юге.
+~
+0 0 forest
+D0 0
+The entrance to smurf village.
+~
+~
+Z -1 104
+D2 0
+The dimly lit path.
+~
+~
+Z -1 102
+S
+#104
+@eng Entrance to Smurf Village@rus Вход в Деревню Смурфов~
+@eng You stand at the entrance to a tiny village.  You can see across the whole
+village easily.  Little blue creatures with white hats and boots and little 
+fluffy tails scamper about.  They sing continuously.  The singing is getting
+on your nerves and you have the urge to squash them.
+@rus Ты стоишь у входа в небольшую деревушку. Настолько маленькую, что ты видишь ее
+всю насквозь. Маленькие грустные создания в белых шапочках и ботинках и с небольшими
+хвостиками снуют вокруг. Они все время что-то напевают. Их пение действует тебе на нервы
+и вызывает желание заткнуть им рты.
+~
+0 0 field
+D0 0
+Smurfy Road
+~
+~
+Z -1 105
+D2 0
+Dimly Lit Path
+~
+~
+Z -1 103
+S
+#105
+@eng Smurfy Road@rus Дорожка смурфов~
+@eng You are way too big to be using this road.  But who cares.  Who's gonna stop
+you?  These little blue smurfs?  The singing is growing intense.  Your ears
+are starting to ring.  Smurfy Road continues to the north, west, and east.
+There is still time to turn back and go south.
+@rus Эта дорожка не предназначена для таких великанов, как ты. Но тебе наплевать.
+Кто может остановить тебя? Эти маленькие смурфы?
+От пения вокруг твои уши сворачиваются в трубочку.
+Дорожка продолжается на север, запад и восток.
+Но у тебЯ еще есть шанс развернутьсЯ и пойти обратно на юг.
+~
+0 0 city
+D0 0
+Smurfy Road
+~
+~
+Z -1 106
+D1 0
+Smurfy Road
+~
+~
+Z -1 110
+D2 0
+Entrance to smurf village
+~
+~
+Z -1 104
+D3 0
+Smurfy Road
+~
+~
+Z -1 111
+S
+#106
+@eng Smurfy Road@rus Дорожка смурфов~
+@eng You continue to travel down Smurfy Road.  Isn't it just smurfy?  Smurfy road
+continues its smurfy path to the smurfy north, smurfy west, and smurfy south.
+A smurfy home lies to the smurfy east.
+@rus Ты продолжаешь свой путь по Дорожке смурфов. Тут все смурфовое. 
+СмурфоваЯ дорожка по-смурфовому 
+продолжаетсЯ на смурфовый север, смурфовый запад и смурфовый юг.
+На смурфовом востоке ты видишь смурфовый дом.
+~
+0 0 city
+D0 0
+Smurfy Road
+~
+~
+Z -1 107
+D1 0
+Smurfy Home
+~
+~
+Z -1 120
+D2 0
+Smurfy Road
+~
+~
+Z -1 105
+D3 0
+Smurfy Road
+~
+~
+Z -1 112
+S
+#107
+@eng Smurfy Road@rus Дорожка смурфов~
+@eng Oh boy, another smurfy road!  Smurfy Road goes north and south here.  There
+is a smurfy, mushroom home to the west.  A beautiful smurfberry patch is to
+the east.
+@rus Ого, есче один смурфовый путь! СмурфоваЯ дорожка продолжаетсЯ на север 
+и юг.  К западу находитсЯ смурфовый дом. СимпатичнаЯ смурфо-ЯгоднаЯ 
+дорожка расположена на востоке.
+~
+0 0 city
+D0 0
+Smurfy Road
+~
+~
+Z -1 108
+D1 0
+Smurfberry Patch
+~
+~
+Z -1 116
+D2 0
+Smurfy Road
+~
+~
+Z -1 106
+D3 0
+A Smurfy Home
+~
+~
+Z -1 129
+S
+#108
+@eng Smurfy Road@rus Дорожка смурфов~
+@eng Smurfy Road continues to smurf here.  It smurfs to the south and smurfs to
+an end to the north.  A smurfberry patch is to the east.  A stone path lies
+to the west.
+@rus СмурфоваЯ дорожка продолжаетсЯ на север и на юг. Смурфо-ЯгоднаЯ дорожка 
+находитсЯ на востоке. КаменистаЯ тропа лежит к западу.
+~
+0 0 city
+D0 0
+Smurfy Road
+~
+~
+Z -1 109
+D1 0
+Smurfberry patch
+~
+~
+Z -1 117
+D2 0
+Smurfy Road
+~
+~
+Z -1 107
+D3 0
+A stone path
+~
+~
+Z -1 113
+S
+#109
+@eng Smurfy Road@rus Дорожка смурфов~
+@eng A smurfy well lies here in the middle of Smurfy Road.  A fence separates
+the smurfs from harm to the north.  A berry patch is to the east.  Smurfy
+Road continues to to the south and west.
+@rus ПрЯмо посреди смурфовой дорожки стоит смурфовый колодец. Забор 
+отделЯет смурфов от опасностей с севера. Ягодный путь лежит на восток.
+СмурфоваЯ дорожка продолжаетсЯ на юг и запад.
+~
+0 0 city
+E ''
+smurfy well~
+A small well is here.  Just the right size if you're a smurf.  But big
+enough for you to get some water from.  I'm sure the smurfs wont mind.
+~
+D1 0
+Smurfberry Patch
+~
+~
+Z -1 118
+D2 0
+Smurfy Road
+~
+~
+Z -1 108
+D3 0
+Smurfy Road
+~
+~
+Z -1 114
+S
+#110
+@eng Smurfy Road@rus Дорожка смурфов~
+@eng A corner of smurfy road is where you stand.  A smurfy fence blocks passage
+to the east or south.  A smurfy home is to the north.  Smurfy Road goes back
+to the west.
+@rus Ты стоишь на углу смурфовой дорожки. Смурфовый забор преграждает путь на
+восток и юг. Смурфовый дом расположен к северу. СмурфоваЯ дорожка 
+продолжаетсЯ на запад.
+~
+0 0 city
+D0 0
+Smurfy Home
+~
+~
+Z -1 119
+D3 0
+Smurfy Road
+~
+~
+Z -1 105
+S
+#111
+@eng Smurfy Road@rus Дорожка смурфов~
+@eng Western corner of Smurfy Road.  You can continue to smurf down the road
+to the east and north.  You can also smurf into a smurfy home to the south.
+@rus Западный угол смурфовой дорожки. Ты можешь продолжить свой путь на восток
+и север. Также ты можешь войти в смурфовый дом на юг.
+~
+0 0 city
+D0 0
+Smurfy Road
+~
+~
+Z -1 112
+D1 0
+Smurfy Road
+~
+~
+Z -1 105
+D2 0
+Smurfy Home
+~
+~
+Z -1 121
+S
+#112
+@eng Smurfy Road@rus Дорожка смурфов~
+@eng There's no place like smurf.  There's no place like smurf.  Sorry wrong
+movie.  A smurfy home is to the west.  Papa Smurf's backyard is to the
+north but you can't go there.  Smurfy Road continues to the south and
+east.
+@rus Вокруг все смурфовое. Вокруг все смурфовое. У тебЯ уже крухитсЯ голова.
+Смурфовый дом расположен к западу. Двор Папы Смурфа на север, но туда
+ты пройти не можешь. СмурфоваЯ дорожка продолжаетсЯ на юг и восток.
+~
+0 0 city
+D1 0
+Smurfy Road
+~
+~
+Z -1 106
+D2 0
+Smurfy Road
+~
+~
+Z -1 111
+D3 0
+Smurfy Home
+~
+~
+Z -1 122
+S
+#113
+@eng Stone Path@rus КаменистаЯ тропа~
+@eng You are walking along a cute little stone path.  To the south lies Papa
+Smurf's house.  A Smurfy house is to the west.  Smurfy road is to the east.
+Everything is so peaceful here.  You could stay forever.
+@rus Ты бредешь по симпатичной каменистой тропке. На юг находитсЯ дом Папы
+Смурфа. Другой смурфовый дом на западе. СмурфоваЯ дорожка продолжаетсЯ
+на восток. Как здесь хорошо! Может, останешьсЯ тут насовсем?
+~
+0 0 city
+D1 0
+Smurfy Road
+~
+~
+Z -1 108
+D2 0
+Papa Smurf's House
+~
+door~
+Z 107 125
+D3 0
+Smurfy House
+~
+~
+Z -1 123
+S
+#114
+@eng Smurfy Road@rus Дорожка смурфов~
+@eng Yet another part of Smurfy Road.  Hey if you go west its the last
+section of Smurfy Road.  You can go back to the smurfy well to the east.
+@rus Это все еще часть смурфовой дорожки. Но если ты пойдешь на запад,
+кажетсЯ, обнаружишь место, где она заканчиваетсЯ! Также ты можешь
+вернутьсЯ на восток к смурфовому колодцу.
+~
+0 0 city
+D1 0
+Smurfy Road
+~
+~
+Z -1 109
+D3 0
+Smurfy Road
+~
+~
+Z -1 115
+S
+#115
+@eng Smurfy Road@rus Дорожка смурфов~
+@eng The last piece of Smurfy Road.  You can go back to Smurfy Road to the east.
+A nice, beautiful, smurfy, mushroom home is to the south.  In the distance to
+the north you can see Gargamel's Castle.
+@rus ПоследнЯЯ часть смурфовой дорожки. Но ты можешь вернутьсЯ обратно на 
+восток. Симпатичный, чистенький, смурфовый, похожий на гриб домик 
+расположен на юге. На севере, в некотором удалении, ты видишь замок 
+Гаргамела.
+~
+0 0 city
+D0 0
+Path to Gargamel's Castle
+~
+~
+Z -1 126
+D1 0
+Smurfy Road
+~
+~
+Z -1 114
+D2 0
+Smurfy Home
+~
+~
+Z -1 124
+S
+#116
+@eng Smurfberry Patch@rus Смурфо-ЯгоднаЯ дорожка~
+@eng Delicious smurfberries grow here.  You could probably eat a year's worth of
+smurfberries in one sitting.  Smurfy Road is back to the west.  Another
+smurfberry patch is to the north.
+@rus ГроздьЯ вкуснейших смурфовых Ягод свисают вокруг. При желании можно сесть
+на землю и есть их даже не пользуЯсь руками. На западе - смурфоваЯ дорожка.
+Смурфо-ЯгоднаЯ дорожка продолжаетсЯ на север.
+~
+0 0 city
+D0 0
+Smurfberry Patch
+~
+~
+Z -1 117
+D3 0
+Smurfy Road
+~
+~
+Z -1 107
+S
+#117
+@eng Smurfberry Patch@rus Смурфо-ЯгоднаЯ дорожка~
+@eng Another patch of smurfberries is growing here.  The smell is driving your
+nostrils crazy.  It almost, ALMOST, makes you forget all the singing going
+on.  Smurfy Road is to the west, while smurfberry patches are to the north
+and south.
+@rus ГроздьЯ вкуснейших смурфовых Ягод свисают вокруг. Запахи просто сводЯт 
+тебЯ с ума. Ты почти, ПОЧТИ забыл об этом дурацком пении вокруг. СмурфоваЯ
+дорожка на западе, в то времЯ, как смурфо-ЯгоднаЯ дорожка продолжаетсЯ на
+север и юг.
+~
+0 0 city
+D0 0
+Smurfberry Patch
+~
+~
+Z -1 118
+D2 0
+Smurfberry Patch
+~
+~
+Z -1 116
+D3 0
+Smurfy Road
+~
+~
+Z -1 108
+S
+#118
+@eng Smurfberry Patch@rus Смурфо-ЯгоднаЯ дорожка~
+@eng The northernmost of the smurfberry patches grows here.  It looks just
+as scrumptious as all the rest.  Just take a few; they'll never know.  Smurfy
+Road is to the west.  A smurfberry patch is to the south.
+@rus Северное окончание смурфо-Ягодной дорожки. Может, нарвать немного Ягод?
+Все равно никто не увидит! Наверное.. СмурфоваЯ дорожка на западе, и
+ты можешь пойти смурфо-Ягодным путем на юг.
+~
+0 0 city
+D2 0
+Smurfberry Patch
+~
+~
+Z -1 117
+D3 0
+Smurfy Road
+~
+~
+Z -1 109
+S
+#119
+@eng Brainy Smurf's Home@rus Дом Брейни Смурфа~
+@eng You rip the roof of the home to get a good look inside.  You see
+many smurfy books.  The print is so small you couldn't even read it
+with a magnifying glass.  I wonder if Brainy Smurf minds if you
+destroy his home?  Smurfy Road is back to the south.
+@rus Ты сорвал крышу, чтобы выпрЯмитьсЯ внутри. Как тут много книг!
+Но шрифт настолько мелкий, что ты не прочтешь их даже с самыми
+хорошими очками. Интересно, что скажет Брейни, когда узнает,
+что ты сломал его дом? Лучше вернись на юг, на смурфовую дорожку.
+~
+0 0 city
+D2 0
+Smurfy Road
+~
+~
+Z -1 110
+S
+#120
+@eng Handy Smurf's Home@rus Дом Хенди Смурфа~
+@eng This home was well built.  Of course, until you rip it apart you big meany
+you.  Tools are all over the place.  Too small for you to use.  Smurfy Road is
+back to the west.
+@rus Этот дом был построен хорошо и крепко! Был. Недостаточно крепко длЯ такого
+великана, как ты. Повсюду разложены инструменты, но они слишком малы длЯ тебЯ.
+Ты можешь вернутьсЯ на смурфовую дорожку на запад.
+~
+0 0 city
+D3 0
+Smurfy Road
+~
+~
+Z -1 106
+S
+#121
+@eng Hefty Smurf's Home@rus Дом Хефти Смурфа~
+@eng Hefty is anything but wimpy.  So is his house.  It actually took you a 
+couple of minutes to destroy his house.  Better watch out -- he might be
+a little mad at you.  Smurfy Road is back to the north.
+@rus Хефти - это что-то очень трусливое. У тебЯ займет не более нескольких минут
+разломать весь его дом. Но не стоит - разрушение может стать навЯзчивой
+идеей. Лучше вернись на север, на смурфовую дорожку.
+~
+0 0 city
+D0 0
+Smurfy Road
+~
+~
+Z -1 111
+S
+#122
+@eng Sleepy Smurf's Home@rus Дом Слиппи Смурфа~
+@eng Be vewy vewy quiet.  Sleepy Smurf is probably sleeping.  You see so many
+beds you can't even tell if he is here.  Maybe you should quietly go back to
+Smurfy Road to the east.
+@rus Здесь очень-очень тихо. Слиппи наверное спит. Вокруг так много кроватей,
+что ты даже не можешь их сосчитать. Может быть, тебе следует повернутьсЯ
+и тихонько вернутьсЯ на восток, на смурфовую дорожку?
+~
+0 0 city
+D1 0
+Smurfy Road
+~
+~
+Z -1 112
+S
+#123
+@eng Grumpy Smurf's Home@rus Дом Грампи Смурфа~
+@eng This is Grumpy Smurf's home.  He is pissed at you.  Of course, he is pissed
+at everyone.  So don't take it bad.  Maybe you'd better leave before he really
+gets mad.  Smurfy Road to the east is your only salvation.
+@rus Это дом Грампи Смурфа. Он.. раздражает тебЯ! Еще бы, эта обстановка выведет
+из себЯ любого! Так что расслабьсЯ, вдохни поглубже, и вернись обратно на
+восток, пока ты окончательно не рассвирепел...
+~
+0 0 city
+D1 0
+Smurfy Road
+~
+~
+Z -1 113
+S
+#124
+@eng Jokey Smurf's Home@rus Дом Джоки Смурфа~
+@eng You pull the top of his house and it explodes in your face.  That Jokey
+Smurf, what a kidder.  You can hear his laughter as you wipe the ashes off
+your face.  You better get even.  Smurfy Road is to the north.
+@rus Ты вошел в дом, и тут же треснулсЯ головой о потолок. Это все шуточки
+Джоки! Ты представлЯешь его идиотский смех. Вернись на север, на
+смурфовую дорожку, пока на тебЯ что-нибудь не свалилось!
+~
+0 0 city
+D0 0
+Smurfy Road
+~
+~
+Z -1 115
+S
+#125
+@eng Papa Smurf's Home@rus Дом Папы Смурфа~
+@eng It's the home of the leader of the smurfs.  Papa Smurf has a nicely decorated
+home.  He takes pride in his work.  You could get to know him or just squash
+him.  If Papa Smurf is not here he is probably at Smurfette's putting the
+moves on her.  A stone path lies to the north.
+@rus Это дом старосты этой деревни. Папа Смурф заботливо украсил свое жилище.
+Он Явно гордитсЯ своим положением. Он либо тут, либо ушел к Смурфетте,
+старый развратник! На севере - каменистаЯ тропа.
+~
+0 0 city
+D0 0
+Stone Path
+~
+door~
+Z 107 113
+S
+#126
+@eng Path to Gargamel's Castle@rus Путь к замку Гаргамела~
+@eng You are walking along a path to Gargamel's Castle to the North.
+Smurfy Road lies to the south.
+@rus Ту идешь по тропе, ведущей к замку Гаргамела на севере. СмурфоваЯ
+дорожка начинаетсЯ на юге.
+~
+0 0 city
+D0 0
+Outside Gargamel's Castle
+~
+~
+Z -1 127
+D2 0
+Smurfy Road
+~
+~
+Z -1 115
+S
+#127
+@eng Outside Gargamel's Castle@rus Перед замком Гаргамела~
+@eng You are standing outside Gargamel's Castle.  You can hear him screaming at
+Azreal from inside.  You can also him cursing out those wretched smurfs.
+His Castle is to the north while Smurfy Road is to the south.
+@rus Ты стоишь перед замком Гаргамела. Ты слышишь, как он внутри орет на 
+Азреала. Попутно он поносит смурфов. ПройдЯ на север, ты войдешь в 
+замок. На юге - смурфоваЯ дорожка.
+~
+0 0 city
+D0 0
+Gargamel's Castle
+~
+door~
+Z 109 128
+D2 0
+Path to Gargamel's Castle
+~
+~
+Z -1 126
+S
+#128
+@eng Gargamel's Castle@rus Замок Гаргамела~
+@eng This is Gargamel's Castle.  His big black kettle is in the middle of the room.
+Where else would he put it?  The place has only one room.
+@rus Это замок Гаргамела. Большой черный котел стоит прЯмо посреди комнаты. Но
+что это? В замке всего одна комната!!!
+~
+0 0 city
+D2 0
+Outside Gargamel's Castle
+~
+door~
+Z 109 127
+S
+#129
+@eng Smurfette's House@rus Дом Смурфетты~
+@eng This house is conveniently next to Papa Smurfs.  Makes it easier for Papa
+Smurf to sneak over at night.  I hope he uses protection.  I would hate to
+have little smurfs running around.  The only exit is to the east.
+@rus Этот дом стоит достаточно близко к дому Папы Смурфа. Наверное, чтобы ему
+легче было крастьсЯ сюда ночью. Ты надеешьсЯ, он использует презер...
+O-o-ps!! защиту. Еще бы, только маленьких смурфЯт тут и не хватало!
+Единственный выход ведет на восток.
+~
+0 0 city
+D1 0
+Smurfy Road
+~
+~
+Z -1 107
+S
+#0
+
+#SPECIALS
+M 101 spec_thief	* a smurf
+M 102 spec_thief	* a smurf
+M 103 spec_thief	* Brainy Smurf
+M 104 spec_thief	* Handy Smurf
+M 105 spec_thief	* Sleepy Smurf
+M 106 spec_thief	* Hefty Smurf
+M 107 spec_thief	* Grumpy Smurf
+M 108 spec_thief	* Jokey Smurf
+M 109 spec_thief	* Smurfette
+M 110 spec_cast_mage	* Papa Smurf
+M 111 spec_cast_cleric	* Gargamel
+M 112 spec_poison	* Azreal
+S
+
+#RESETS
+M 0 101 8 104 1	* a smurf (Entrance to Smurf Village)
+G 0 102 0		*	a smurf hat
+M 0 101 8 105 1	* a smurf (Smurfy Road)
+M 0 101 8 107 1	* a smurf (Smurfy Road)
+M 0 101 8 108 1	* a smurf (Smurfy Road)
+G 0 102 0		*	a smurf hat
+O 0 108 0 109	* a smurf well (Smurfy Road)
+M 0 101 8 109 1	* a smurf (Smurfy Road)
+M 0 101 8 110 1	* a smurf (Smurfy Road)
+G 0 102 0		*	a smurf hat
+M 0 101 8 111 1	* a smurf (Smurfy Road)
+M 0 101 8 112 1	* a smurf (Smurfy Road)
+G 0 102 0		*	a smurf hat
+M 0 102 3 116 1	* a smurf (Smurfberry Patch)
+G 0 100 0		*	a bunch of smurfberries
+M 0 102 3 117 1	* a smurf (Smurfberry Patch)
+G 0 100 0		*	a bunch of smurfberries
+M 0 102 3 118 1	* a smurf (Smurfberry Patch)
+G 0 100 0		*	a bunch of smurfberries
+M 0 103 1 119 1	* Brainy Smurf (Brainy Smurf's Home)
+E 0 101 0 6		*	a pair of glasses: over the head
+M 0 104 1 120 1	* Handy Smurf (Handy Smurf's Home)
+E 0 103 0 16		*	a small axe: wielded
+M 0 106 1 121 1	* Hefty Smurf (Hefty Smurf's Home)
+E 0 103 0 16		*	a small axe: wielded
+M 0 105 1 122 1	* Sleepy Smurf (Sleepy Smurf's Home)
+M 0 107 1 123 1	* Grumpy Smurf (Grumpy Smurf's Home)
+M 0 108 1 124 1	* Jokey Smurf (Jokey Smurf's Home)
+M 0 110 1 125 1	* Papa Smurf (Papa Smurf's Home)
+G 0 105 0		*	a pink potion
+G 0 109 0		*	a small key
+M 0 111 1 128 1	* Gargamel (Gargamel's Castle)
+E 0 106 0 17		*	a small wand: held in the hands
+M 0 112 1 128 1	* Azreal (Gargamel's Castle)
+M 0 109 1 129 1	* Smurfette (Smurfette's House)
+E 0 104 0 3		*	a small necklace: around the neck
+G 0 107 0		*	a tiny key
+S
+
+#$

@@ -1,0 +1,103 @@
+#!/bin/sh
+#	Используеться для запуска мада на других портах для тестов и тд...
+umask 002
+
+#
+# locale settings for FreeBSD
+#LANG=ru_RU.KOI8-R; export LANG
+#LANG=koi8-r; export LANG
+#LC_TIME=en_US.ISO_8859-1; export LC_TIME
+
+#
+# mud home -- all other paths and filenames are relative from $home
+#home=/usr/local/sog
+home=~/mud
+
+#
+# logging control
+lastlog=tmp/lastlog
+index=0000
+
+#
+# mud binary executable
+mudbin=mudsr
+
+#
+# shutdown flag file
+shutdown=tmp/shutdown
+
+#
+# corefile name
+core=core
+
+##############################################################################
+# let's go
+#
+cd $home
+
+#
+# Special for UIC
+# Get new muddy from Xor :)))
+cp ~xor/mud/bin/muddy bin
+cp ~xor/mud/bin/autorun bin
+# Save hostname for clients
+rm -f ~xor/mud/tmp/hostname
+hostname>~xor/mud/tmp/hostname
+chmod 770 ~xor/mud/tmp/hostname
+
+if [ -r $shutdown ]; then
+	rm $shutdown
+fi
+
+while [ 1 ]
+do
+	if [ -r $lastlog ]; then
+		index=`cat $lastlog`
+	fi
+
+	while [ 1 ]
+	do
+		logfile=`printf "log/%05d.log" $index`
+		if [ -r $logfile ]
+		then
+			index=$(($index + 1))
+		else
+			break
+		fi
+	done
+
+	echo $(($index+1)) > $lastlog
+	bin/$mudbin >log/tmplog 2>&1
+	exitcode=$?
+	
+	cp log/tmplog $logfile
+
+	avail=`df -k $home | tail -1 | awk '{ print $4 }'`
+	if [ -r $core ]
+	then
+		chmod g+rw $core
+		if [ $avail -gt 65535 ]
+		then
+			mv $core corefiles/core.$index
+			ln bin/$mudbin corefiles/$mudbin.$index
+		else
+			echo `date` "Low space (${avail}k) on disk: corefile not renamed" | tee -a $logfile >> log/tmplog
+		fi
+		sleep 5
+		continue
+	fi
+
+	if [ -r $shutdown ]
+	then
+		rm -f tmp/shutdown
+		echo find tmp/shutdown - exit | tee -a $logfile >> log/tmplog
+		break
+	fi
+
+	if [ $exitcode -ne 0 ]
+	then
+		echo exitcode $exitcode - exit | tee -a $logfile >> log/tmplog
+		break
+	fi
+	sleep 5
+done

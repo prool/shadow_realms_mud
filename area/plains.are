@@ -1,0 +1,1666 @@
+#AREADATA
+Name Plains~
+VNUMs 300 399
+Credits .~
+Security 5
+LevelRange 1 20
+End
+
+#MOBILES
+#300
+druid Aruncus oldstyle~
+@eng Aruncus the Druid@rus ~~Друид~~ ~~Арункус~~~
+@eng Aruncus the Druid is walking around here, searching for herbs.
+@rus Друид Арункус прогуливается мимо вас в поисках трав.
+~
+@eng Aruncus is a tall, skinny druid with a face marked by nature.
+He seems to be in peace with himself and his surroundings.
+@rus Арункус - высокий и худой друид с лицом, на котором видна печать природы.
+Он живет в мире с собой и с окружающей его средой.
+~
+human~
+AGH D -465 0
+13 0 2d10+170 13d25+200 2d5+3 none
+1 1 1 -8
+EFNU 0 0 0
+stand stand male 13
+0 0 medium unknown
+#301
+hermit sorbus oldstyle~
+@eng Sorbus the Hermit@rus ~~Отшельник~~ ~~Сорбус~~~
+@eng Sorbus the Hermit is sitting here, roasting a rabbit.
+@rus Отшельник Сорбус сидит здесь, зажаривая кролика.
+~
+@eng Sorbus bares the marks of a long, hard life in solitude.
+He is dressed in simple clothing and looks like he has little
+or nothing to say.
+@rus Сорбус - лучший пример долгой и трудной жизни в одиночестве.Он одет в простые
+одежды и не выглядит очень болтливым.
+~
+human~
+AB 0 0 0
+4 0 2d7+46 4d25+200 1d5+1 none
+-6 -6 -6 -9
+EFNU 0 0 0
+sit sit male 4
+0 0 medium unknown
+#303
+citizen oldstyle~
+@eng the citizen@rus ~~Житель~~~
+@eng There is a citizen of Ofcol here glaring at you ... stranger!
+@rus Житель Офкола восхищенно смотрит на вас ... незнакомец !
+~
+@eng He seems like a nice person with no interest in harming you or others.
+He wears normal, light clothing and has an anonymous face.
+@rus Он выглядит, как хороший человек, не заинтересованный в причинении вам вреда.
+Он одет в чистую белую одежду и имеет ничем не примечательную внешность.
+~
+human~
+ACG 0 0 0
+6 0 2d7+71 6d25+200 1d7+1 none
+-4 -4 -4 -9
+EFNU 0 0 0
+stand stand male 6
+0 0 medium unknown
+#304
+citizen oldstyle~
+@eng the citizen@rus ~~Жительница~~~
+@eng There is a citizen of Ofcol here glaring at you ... stranger!
+@rus Жительница Офкола восхищенно смотрит на вас ... незнакомец !
+~
+@eng She seems like a nice person with no interest in harming you or others.
+She wears a minimum of clothing and has big ... eyes.
+@rus Она выглядит, как приличная женщина, не заинтересованная в причинении вам вреда.
+Одетая в чистую белую одежду, она имеет ничем не примечательную внешность.
+~
+human~
+ACG 0 0 0
+5 0 2d6+60 5d25+200 1d6+1 none
+-5 -5 -5 -9
+EFNU 0 0 0
+stand stand female 5
+0 0 medium unknown
+#305
+worm Shudde-M'ell oldstyle~
+@eng Shudde-M'ell@rus ~~Шудди-Мелл~~~
+@eng Shudde-M'ell the Giant worm of G'harne is guarding his treasure.
+@rus Шудди-Мелл - гигантский червь Гхарнов охраняет свою сокровищницу.
+~
+@eng Shudde-M'ell is about 15 ft long and is surrounded by an evil stench,
+The worm is the protector of the treasure of G'harne and has been so
+for as long anyone can remember.
+@rus Шудди-Мелл около 15 футов в длину. Окруженный злым запахом, он поставлен здесь,
+дабы следить за сокровищем Гхарнов. Его поместили сюда ещё в те времена, 
+которые никто не помнит.
+~
+human~
+ABF DJ -520 0
+24 0 5d10+500 24d25+200 2d10+6 none
+6 6 6 -6
+EFNU 0 0 0
+stand stand male 24
+0 0 medium unknown
+#306
+luxan shopkeeper oldstyle~
+@eng Luxan@rus ~~лаксан~~~
+@eng Luxan the Shopkeeper is here, eager to sell you anything.
+@rus лаксан торговец готов продать вам что угодно.
+~
+@eng Luxan is dressed in a strange jacket.
+He looks like a mean trader from the outskirts of Midgaard.
+His life is seems to be totally occupied with trading.
+He looks very fit and capable of protecting his goods.
+@rus лаксан торговец одет в странную куртку. Он выглядит, как и любой торговец с 
+окраин Мидгарда. Все его жизнь посвящена торговле. Он готов со всем упорством 
+отстаивать в битве свой товар.
+~
+human~
+ABCe 0 400 0
+23 0 5d10+450 23d25+200 3d6+6 none
+6 6 6 -6
+EFNU 0 0 0
+stand stand male 23
+0 0 medium unknown
+#308
+innkeeper oldstyle keeper~
+@eng the Innkeeper@rus ~~Трактирщик~~~
+@eng An Innkeeper is here waiting for your order.
+@rus Трактирщик ждет твоего заказа.
+~
+@eng The Innkeeper looks skilled in brewing different beers and mixing the
+wierdest drinks known. He also looks very big.
+@rus Трактирщик выглядит весьма ловким по части пивоварения и смешивания различных 
+напитков.Он выглядит очень большим.
+~
+human~
+ABe 0 -100 0
+23 0 5d10+450 23d25+200 3d6+6 none
+6 6 6 -6
+EFNU 0 0 0
+stand stand male 23
+0 0 medium unknown
+#309
+rabbit oldstyle~
+@eng the cute rabbit@rus ~~симпатичный~~ ~~кролик~~~
+@eng A cute rabbit is here.
+@rus Симпатичный кролик бегает вокруг.
+~
+@eng It is a small, furry creature with long ears and big feet.
+@rus Кролик это не только ценный мех, но и 2-3 килограмма питательного мяса.
+~
+rabbit~
+AGl 0 0 0
+1 0 2d6+10 1d25+200 1d4+0 pound
+-9 -9 -9 -10
+ENR 0 0 0
+stand stand male 1
+0 0 medium unknown
+#310
+wolf angry oldstyle~
+@eng angry wolf@rus ~~злой~~ ~~волчара~~~
+@eng Strong and dangerous wolf rest in a corner.
+@rus Сильный и опасный волк сидит в углу.
+~
+@eng You see one of the best and strongest wolf's, his has a crumpled skin and
+deep bleeding sting at his neck...  
+@rus Перед вами стоит один из сильнейших волков которых вы когда либо видели,
+его шерсть сильно потрепана а на шее вы видите застаревший укус с подсохшей
+уже кровью.  
+~
+wolf~
+Ae FJctv -250 0
+12 0 1d8+37 2d3+8 1d8+7 claw
+1 0 0 0
+DP 0 AE Y
+stand stand male 40
+0 0 medium unknown
+M greet 346 100~
+M speech 344 fas~
+#350
+dragon pet oldstyle~
+@eng the pet dragon@rus ~~Домашний~~ ~~дракон~~~
+@eng Ravan's pet dragon is bouncing around here flapping her cute wings.
+@rus Домашниий дракон Равана прыгает вокруг, размахивая своими маленькими крылышками.
+~
+@eng Ravan's pet dragon is about 3 ft. tall with small pointy teeth.
+The small wings are eagerly trying to lift her from the ground,
+but so far they haven't succeeded.
+@rus Домашний дракон Равана с небольшими, но острыми зубками около трех футов в 
+высоту. Небольшие крылья усердно пытаются оторвать его от земли, но до сих пор 
+они не преуспели.
+~
+dragon~
+ABHR DH 450 0
+10 0 2d6+110 10d25+200 1d8+1 none
+-2 -2 -2 -6
+FR 0 0 0
+stand stand female 10
+0 0 medium unknown
+#0
+
+#OBJECTS
+#300
+herbs herb timian~
+@eng a small dusk of timian herbs@rus ~~небольшой~~ ~~пучок~~ тимьяна~
+@eng Some herbs are lying here, small green leaves and tiny pink flowers.@rus Небольшая травка лежит здесь с зелеными листочками и розовым цветком.~
+plant_organism~
+food 0 A
+A A 0 0 0
+0 10 0 P
+E ''
+herbs herb timian~
+@eng This herb smells rather spicy; maybe you should try it?
+@rus Эта травка пахнет очень приятно. Может, стоит её попробовать ?
+~
+G male
+#301
+herbs herb gyvel~
+@eng a small dusk of black gyvel@rus ~~небольшой~~ ~~пучок~~ темной травы~
+@eng Some black gyvel is lying here, dark green with black leaves and tiny
+blood red flowers.@rus Небольшая темная травка лежит здесь, с темно-зелеными листьями и кроваво-красным цветком.~
+food~
+food 0 A
+A A 0 0 0
+0 10 0 P
+E ''
+herbs herb gyvel~
+@eng This herb smells rather special, but is it poisonous?
+@rus Эта травка пахнет как-то необычно, но отравлена ли она ?
+~
+G male
+#302
+plant ivy~
+@eng a small dusk of poison ivy@rus ~~Небольшая~~ ~~веточка~~ ядовитого плюща~
+@eng Some poison ivy is growing here.@rus Здесь растет ядовитый плющ.~
+plant_organism~
+food 0 A
+A A 0 A 0
+0 10 0 P
+E ''
+plant ivy~
+@eng This plant has dark green juicy leaves.
+You notice some small white thorns on it.@rus На этом растении вы видите темно-зеленые листья...  Вы чуствуете ядовитый
+запах, исходящий от него.  
+~
+G female
+#303
+blood jar~
+@eng a dark red jar@rus ~~Темно-красная~~ ~~банка~~~
+@eng A small jar in a dark, red colour.@rus Маленькая банка темно-красного цвета.~
+glass~
+drink 0 A
+2 2 'water' 0 0
+0 20 0 P
+E ''
+blood jar~
+@eng The jar is made of dry clay, covered with markings suggesting its
+occult origin.
+@rus Бутылка сделана из темного стекла, покрытого странными надписями,
+выдающими его странное происхождение...  
+~
+G female
+#304
+wild flowers~
+@eng wild flowers@rus Дикие цветы~
+@eng A bunch of pretty wild flowers is here.@rus Пучок красивых диких цветков растет здесь.~
+plant_organism~
+trash K AEO
+0 0 0 0 0
+0 10 0 P
+E ''
+wild flowers~
+These wild flowers are really pretty.
+Just like the flowers you would wear in your hair.~
+G none
+#307
+amulet~
+@eng a strange amulet@rus ~~Странный~~ ~~амулет~~~
+@eng A strange looking amulet is lying here, half covered with dust.@rus Странный амулет лежит здесь, наполовину закопанный в землю.~
+bronze~
+jewelry GH AC
+0 0 0 0 0
+8 10 3 P
+A
+20 -5
+E ''
+amulet~
+Judging from the signs inscripted in the amulet, you gather it must
+have belonged to a druid.  It is weird looking with symbols from nature
+dominating it.
+~
+G male
+#308
+staff stick~
+@eng a druish staff@rus ~~Посох~~ друида~
+@eng A staff with druidic marks have been left here.@rus Посох с отметиной друида был забыт здесь.~
+wood~
+trash 0 AO
+0 0 0 0 0
+0 40 10 P
+E ''
+staff stick~
+Then staff is about 5 ft long, engraved with mythical signs and figures.
+Otherwise the staff seems of no real interest.
+~
+G male
+#309
+rabbit roast wabbit~
+@eng a rabbit roast@rus ~~Жареный~~ ~~кролик~~~
+@eng You see a deliciously looking rabbit roast.@rus От вида Жаркого из кролика у вас потекли слюнки.~
+meat~
+food 0 A
+DE DE 0 0 0
+1 50 0 P
+E ''
+roast rabbit wabbit~
+Well the rabbit looks rather dead.
+You guess that this once was a ferocious rabbit who's life now has
+changed to that of a tasty wabbit woast.
+~
+G male
+#310
+template scroll~
+@eng a strange template@rus ~~Странный~~ ~~шаблон~~~
+@eng A strange template made of an exotic green metal is placed here@rus Странный шаблон, сделаный из неизвестного зеленого металла установлен здесь.~
+vellum~
+scroll G AO
+15 'sleep' 'blindness' 'fireball' ''
+13 10 26 P
+E ''
+template scroll metal~
+The template is made of an exotic green metal and looks
+centuries old.
+Inscripted upon is the words 'Ep ep fi'hur G'harne
+                             G'harne fhtagn Shudde-M'ell hyas Negg'h'
+And beneath the inscription you see horrifying death scenes depicted.
+~
+G male
+#311
+potion clear~
+@eng a clear potion@rus Прозрачное зелье~
+@eng A clear potion wrapped in leather is unnoticed placed here.@rus Прозрачное зелье, завернутое в кожу, незаметно лежит здесь.~
+glass~
+potion G A
+30 'pass door' 'detect invis' 'detect magic' 'detect hide'
+20 20 37 P
+E ''
+leather~
+The leather wrapped around the potion is old and decayed, originating
+from an, to you, unknown creature.~
+E ''
+potion clear~
+As you examine the potion more, you notice the oddities of this
+potion. When you look through it you notice strange things...
+The clear potion is certainly not of this world.
+~
+G none
+#312
+scroll jhyfrdow~
+@eng a scroll titled 'jhyfrdow'@rus ~~Список~~, называющийся 'орнаквщц'~
+@eng An odd looking scroll is here.@rus Странно выглядящий список лежит здесь.~
+vellum~
+scroll 0 A
+18 'protection evil' '' '' ''
+2 10 4 P
+E ''
+ritual men drawings~
+The drawing pictures people gathered round giant stone formations,
+worshipping a giant worm like creature.
+It seems they are sacrificing some of their own species.
+~
+E ''
+scroll jhyfrdow~
+The scroll is titled 'jhyfrdow' and looks very old.
+As you examine it closer you notice primitive drawings of
+men doing some kind of a ritual.
+~
+G male
+#313
+skin rabbit~
+@eng rabbit skin@rus ~~шкура~~ кролика~
+@eng A rabbit skin lies here.@rus Кроличья шкура лежит здесь.~
+unknown~
+trash 0 A
+0 0 0 0 0
+4 1 37 P
+G female
+#314
+pine tree~
+@eng Tall pine@rus Высокая сосна~
+@eng Tall tree grows here on the slope of foothill.@rus Высокое дерево растет на склоне холма.~
+wood~
+trash ORg 0
+0 0 0 0 0
+20 3486 0 P
+G none
+#315
+tusk fand wolf~
+@eng wolf's tusk@rus клык волка~
+@eng Bloodly red tusk of a wolf was hunted by some lucky hunter.@rus Кроваво-красный клык волка выл добыт каким-то удачливым охотником.~
+bone~
+weapon 0 AN
+exotic 2 7 claw D
+10 87 73 G
+A
+12 -5
+A
+13 10
+A
+19 3
+A
+18 -2
+A
+2 1
+A
+4 -1
+A
+3 -1
+G male
+#0
+
+#ROOMS
+#300
+@eng Path in the plains@rus Тропинка на равнине~
+@eng You are walking on a path situated in the rough plains.
+You feel the strong winds blow through your hair as you study
+the beautiful landscaping here. The path continues east, north
+and west leads to plains and you see the path towards the north
+gate of midgaard to the south.
+@rus Вы прогуливаетесь по тропинке, бегущей по пустынной равнине.  Сильный
+ветер развевает ваши волосы в то время, когда вы наслаждаетесь окружающим
+видом.  Тропинка, продолжающаяся на восток, запад и север ведет вас в
+равнины, на юге же она выводит вас к северным воротам Мидгарда.  
+~
+0 0 field
+D0 10
+You see the grassy plains.
+~
+~
+Z -1 315
+D1 2
+You notice nothing special, except that the path in the plains continues.
+~
+~
+Z -1 301
+D2 2
+Towards the south you notice the north gate of Midgaard.
+~
+~
+Z -1 3904
+D3 10
+You see the grassy plains.
+~
+~
+Z -1 316
+D5 0
+~
+~
+Z 0 346
+S
+#301
+@eng Path in the plains@rus Тропинка на равнине~
+@eng You are walking on a path situated in the rough plains.
+You feel the strong winds blow through your hair as you study
+the beautiful landscaping here. The path continues east and west.
+@rus Вы прогуливаетесь по тропинке, бегущей по пустынной равнине.  Сильный
+ветер развевает ваши волосы в то время, когда вы наслаждаетесь окружающим
+видом.  Тропинка, продолжается на восток и запад.  
+~
+0 0 field
+D1 2
+You notice nothing special, except that the path in the plains continues.
+~
+~
+Z -1 302
+D3 2
+You notice nothing special, except that the path in the plains continues.
+~
+~
+Z -1 300
+S
+#302
+@eng Path in the plains@rus Тропинка на равнине~
+@eng You are walking on a path situated in the rough plains.
+You feel the strong winds blow through your hair as you study
+the beautiful landscaping here. The path continues north and west.
+@rus Вы прогуливаетесь по тропинке, бегущей по пустынной равнине.  Сильный
+ветер развевает ваши волосы в то время, когда вы наслаждаетесь окружающим
+видом.  Тропинка, продолжается на север и запад.  
+~
+0 0 field
+D0 2
+You notice nothing special, except that the path in the plains continues.
+~
+~
+Z -1 303
+D3 2
+You notice nothing special, except that the path in the plains continues.
+~
+~
+Z -1 301
+S
+#303
+@eng Path in the plains@rus Тропинка на равнине~
+@eng You are walking on a path situated in the rough plains.
+You feel the strong winds blow through your hair as you study
+the beautiful landscaping here. The path leads north and south.
+To the east and the west you have the grassy plains.
+@rus Вы прогуливаетесь по тропинке, бегущей по пустынной равнине.  Сильный
+ветер развевает ваши волосы в то время, когда вы наслаждаетесь окружающим
+видом.  Тропинка, продолжается на север и на юг.  Идя на восток и запад, вы
+попадете на травянистые равнины.  
+~
+0 0 field
+D0 2
+You notice nothing special, except that the path in the plains continues.
+~
+~
+Z -1 304
+D1 10
+To the east you notice the grassy plains.
+~
+~
+Z -1 317
+D2 2
+You notice nothing special, except that the path in the plains continues.
+~
+~
+Z -1 302
+D3 10
+To the west you can see more of the beautiful grassy plains.
+~
+~
+Z -1 315
+S
+#304
+@eng Path in the plains@rus Тропинка на равнине~
+@eng You are walking on a path situated in the rough plains.
+You feel the strong winds blow through your hair as you study
+the beautiful landscaping here. The Path leads north and south.
+@rus Вы прогуливаетесь по тропинке, бегущей по пустынной равнине.  Сильный
+ветер развевает ваши волосы в то время, когда вы наслаждаетесь окружающим
+видом.  Тропинка, продолжается на север и на юг.  
+~
+0 0 field
+D0 2
+The path continues north as small foothills begins to appear.
+~
+~
+Z -1 305
+D2 2
+The path leads south towards the town.
+~
+~
+Z -1 303
+S
+#305
+Path in the plains~
+You are walking on a path situated in the rough plains.
+You feel the strong winds blow through your hair as you watch the
+beautiful landscaping here. To the east and west you see the grassy plains.
+The path extends into small foothills to the north and also continues south.
+~
+0 0 field
+D0 2
+The path continues into the small foothills.
+~
+~
+Z -1 306
+D1 10
+You see the grassy plains here.
+~
+~
+Z -1 321
+D2 2
+The path continues towards Midgaard.
+~
+~
+Z -1 304
+D3 10
+You see the grassy plains here.
+~
+~
+Z -1 320
+S
+#306
+@eng Path in the foothills@rus Тропинка в предгорье~
+@eng You are on the path leading through the small foothills.
+The wind blow through your hair as you study the beautiful
+landscaping here. From the north you sense a certain freshness.
+The path continues east and south. You smell freshness from north.
+@rus Вы прогуливаетесь по тропинке, бегущей по пустынной равнине. Сильный ветер развевает ваши волосы в то время, когда вы наслаждаетесь окружающим видом. Тропинка, продолжается на восток и на юг. С севера вы чуствуете приятную свежесть. 
+~
+0 0 field
+D0 10
+You see grassy plains and perhaps some crystal clear water.
+~
+~
+Z -1 326
+D1 2
+The path continues towards east here.
+~
+~
+Z -1 307
+D2 2
+The path in the plains wind through the small foothills.
+~
+~
+Z -1 305
+S
+#307
+@eng Path in the foothills@rus Тропинка в предгорье~
+@eng You are walking on a path situated in the small foothills.
+The winds are more than average here but it feels nice. You can follow
+the path east or west.
+@rus Вы прогуливаетесь по тропинке, бегущей по пустынной равнине. Ветер более чем умеренный, но вполне приятный. Вы можете последовать за тропинкой на восток или запад.
+~
+0 0 field
+D1 2
+The path continues in the foothills
+~
+~
+Z -1 308
+D3 2
+To the west the path takes a bend southwards.
+~
+~
+Z -1 306
+S
+#308
+@eng Path in the foothills@rus Тропинка в предгорье~
+@eng You are walking on a narrow path in the foothills.
+You feel the strong winds blow through your hair as you study
+the beautiful landscaping here. The path goes north and west.
+@rus Вы прогуливаетесь по узкой тропинке в предгорьях.  Сильный ветер
+развевает ваши волосы в то время, когда вы наслаждаетесь окружающим видом. 
+Тропинка продолжается на север и на запад.  
+~
+0 0 field
+D0 2
+The narrow path through the foothills turns left here.
+~
+~
+Z -1 309
+D3 2
+To the west you can see the path continues.
+~
+~
+Z -1 307
+S
+#309
+@eng Path in the foothills@rus Тропинка в предгорье~
+@eng You are walking on a path situated in foothills.
+To the west you sense a certain freshness and the path continues
+south and east.
+@rus Вы прогуливаетесь по узкой тропинке в предгорьях.  Вы ощущаете приятную
+свежесть, идущую с запада.  Тропинка продолжается на юг и на восток.  
+~
+0 0 field
+D1 2
+You see the path continues in the foothills.
+~
+~
+Z -1 310
+D2 2
+You see the path continues in the foothills.
+~
+~
+Z -1 308
+D3 10
+You see grassy plains and perhaps some crystal clear water.
+~
+~
+Z -1 326
+S
+#310
+@eng Path in the foothills@rus Тропинка в предгорье~
+@eng You are walking on a long path in the east-west direction.
+The surroundings are green, vegetated foothills.
+You are able to force your way through some dense plants to the north.
+@rus Вы прогуливаетесь по длинной тропинке ведущей с запада на восток.  Вокруг
+вас находятся зеленые, травянистые предгорья.  Вы чуствуете, что сможете
+пройти сквоэь густо заросшие равнины на север.  
+~
+0 0 field
+D0 10
+You can't really see much through the vegetation on the foothills.
+~
+~
+Z -1 327
+D1 2
+To the east you notice that the path continues towards a T-intersection.
+~
+~
+Z -1 311
+D3 2
+You just see the path through the foothills.
+~
+~
+Z -1 309
+S
+#311
+@eng Path in the foothills@rus Тропинка в предгорьях~
+@eng You are walking on the long, narrow path through the foothills.
+To your east you see a T-intersection and to the west the path
+continues far.
+@rus Вы идете по длинной, узкой тропинке в предгорьях. На востоке вы видите
+Т-образное пересечение, тропинка же продолжается далеко на запад.  
+~
+0 0 field
+D1 2
+You can go to the T-intersection this way.
+~
+~
+Z -1 312
+D3 2
+You can see the long path through the plains.
+~
+~
+Z -1 310
+S
+#312
+@eng The path T-intersection@rus Т-образное пересечение~
+@eng You are standing on an intersection between 3 paths.
+To the west you can follow a long, narrow path through the foothills.
+To the north a wide path leads to the Village of Ofcol and an
+ancient path leads towards the south.
+@rus Вы стоите на пересечении трех путей.  Идя на запад, вы пройдете по
+длинной и узкой тропинке в предгорьях.  Широкая тропа, ведущая на север,
+приведет вас в Офкол, а древняя дорога следует на юг.
+~
+0 0 field
+D0 0
+The wide road to Ofcol runs here.
+~
+~
+Z -1 313
+D1 0
+The holy castle of King Arthur.
+~
+~
+Z -1 17301
+D2 2
+Here is a partially hidden, ancient looking path.
+~
+~
+Z -1 332
+D3 2
+You can see the long narrow path running through the foothills.
+~
+~
+Z -1 311
+S
+#313
+@eng Road to Ofcol@rus Дорога в Офкол~
+@eng You are walking on a wide road with trail marks on it.  To the north
+you see the village of Ofcol and to the south there is the T intersection.
+You can enter the foothills west.  The foothills to your east are too
+steep to climb.
+@rus Вы идете по широкой, хорошо утоптанной дороге.  На севере вы видите
+деревню Офкол, а на юге - Т-образное пересечение.  Идя на запад, вы попадете
+в предгорья.  Горы на востоке слишком отвесны для подьема.  
+~
+0 0 field
+D0 0
+The road continues towards Ofcol.
+~
+~
+Z -1 314
+D2 0
+You can see the T-intersection in the souther direction.
+~
+~
+Z -1 312
+D3 0
+You think you can climb these foothills.
+~
+~
+Z -1 327
+S
+#314
+@eng Outside Ofcol@rus Предместья Офкола~
+@eng You are standing outside the village of Ofcol.
+The village looks very small, but still a nice and safe place to stay.
+You may enter the city to the north or journey towards the
+T-intersection in the southern direction.
+@rus Вы находитесь возле входа в Офкол.  Деревня выглядит не очень большой, но
+весьма милой.  Хорошее место, чтобы остаться и погостить.  Вы видите вход в
+город на севере и путь, ведущий вас к Т-образному пересечению в южном
+направлении.  
+~
+0 0 field
+D0 0
+You notice a sign saying : Stranger we welcome you to the
+                           peaceful city of Ofcol.
+~
+~
+Z -1 5550
+D2 0
+Here you see the road go towards the intersection.
+~
+~
+Z -1 313
+S
+#315
+@eng Gallow hill@rus Виселичный холм~
+@eng You walk in the grassy plains. On this little hill you can see
+two gallows, with rotting human tissue hanging from the ropes.
+There is a sign here.
+@rus Вы идете по травянистой равнине.  На одном из холмов вы видите две
+две виселицы с разлагающимися трупами людей, висящими на них.
+Перед виселицами в землю воткнут табличка (sign).
+~
+0 0 hills
+E ''
+sign ~
+@eng The sign says: Loyal citizens of Midgaard.  These are the earthly remains
+of the two heretics 'Dim' and 'Gamma' of this world.  Having forged them-
+selves to immortality, they called upon themselves the anger of the
+implementators.  Let this be a lesson too all .....  -- the Powers that Be. 
+
+@rus  Знак гласит:
+  Мирные жители Мидгарда ! Эти два жалких остатка напоминают о двух еретиках - 
+'Дим' и 'Гамма'. Заставив богов забыть о себе, они вызвали гнев земных 
+ последователей. Пусть это будет урок для всех.... - Силы, что Существует.
+~
+D0 10
+The plains extend far to the north.
+~
+~
+Z -1 320
+D1 10
+To the east you can see a small path in the plains.
+~
+~
+Z -1 303
+D2 10
+To the south you can see a small path in the plains.
+~
+~
+Z -1 300
+D3 10
+The plains extend far to the west.
+~
+~
+Z -1 318
+S
+#316
+@eng Grassy plains@rus Травянистые равнины~
+@eng You walk in the grassy plains among the herbs which grow here. The wind is
+strong and rough. Far to the north you can see the foothills and further on
+mountain peaks are visible.
+@rus Вы прогуливаетесь по травяной равнине среди трав, которые растут здесь. 
+Ветер сильный и жестокий.  Далеко на севере вы видите предгорья.  Вдали
+виднеется горная цепь.  
+~
+0 0 hills
+D0 0
+The plains extend far to the north.
+~
+~
+Z -1 318
+D1 0
+When you look to the east you notice at small path.
+~
+~
+Z -1 300
+S
+#317
+@eng Grassy plains@rus Травянистые равнины~
+@eng You walk in the grassy plains among the herbs which grow here. The wind is
+strong and rough. Far to the north you can see the foothills and further on
+mountain peaks are visible. City of Midgaard is to the south but so are some
+VERY steep slopes.
+@rus Вы прогуливаетесь по травяной равнине среди трав, которые растут здесь. 
+Ветер сильный и жестокий.  Далеко на севере вы видите предгорья.  Вдали
+виднеется горная цепь.  Мидгаард находится на юге, но к нему ведут ОЧЕНЬ
+крутые склоны.  
+~
+0 0 hills
+D1 0
+The plains extend far to the east.
+~
+~
+Z -1 338
+D2 0
+Some VERY steep slopes prevent you from going this way, it might kill you.
+~
+~
+Z -1 345
+D3 0
+A small path is running through the plains.
+~
+~
+Z -1 303
+S
+#318
+@eng Grassy plains@rus Травянистые равнины~
+@eng You walk in the beautiful grassy plains. The wind is strong and rough.
+Far to the north you can see the foothills and further on mountain peaks
+are visible.
+@rus Вы прогуливаетесь по прекрасной травянистой равнине.  Ветер сильный и
+жестокий.  Далеко на севере вы видите предгорья.  Вдали виднеется горная
+цепь.  
+~
+0 0 hills
+D0 10
+The plains extend far to the north.
+~
+~
+Z -1 319
+D1 10
+The plains extend far to the east.
+~
+~
+Z -1 315
+D2 10
+The plains extend far to the south.
+~
+~
+Z -1 316
+D3 5
+~
+~
+Z 0 40100
+S
+#319
+@eng Grassy plains@rus Травянистые равнины~
+@eng You walk in the grassy plains among the herbs which grow here. The wind is
+strong and rough. To the north you can see the foothills and just behind
+mountain peaks are visible.
+@rus Вы прогуливаетесь по травяной равнине среди трав, которые растут здесь. 
+Ветер сильный и жестокий.  Далеко на севере вы видите предгорья.  Вдали
+виднеется горная цепь.  
+~
+0 0 hills
+D0 10
+To the north, the plains extend into small foothills, behind a small hill
+you notice something ...
+~
+~
+Z -1 330
+D1 10
+The plains extend far to the east.
+~
+~
+Z -1 320
+D2 10
+The plains extend far to the south.
+~
+~
+Z -1 318
+S
+#320
+@eng Grassy plains@rus Травянистые равнины~
+@eng You walk in some grassy plains. The wind is strong and rough. To the
+north you can see the foothills and further on mountain peaks are visible.
+@rus Вы прогуливаетесь по прекрасной травянистой равнине.  Ветер сильный и
+жестокий.  Далеко на севере вы видите предгорья.  Вдали виднеется горная
+цепь.  
+~
+0 0 hills
+D0 10
+The plains extend into small foothills to the north.
+~
+~
+Z -1 322
+D1 10
+East of here you see a winding path in the plains.
+~
+~
+Z -1 305
+D2 10
+The plains extend far to the south.
+~
+~
+Z -1 315
+D3 10
+The plains extend far to the west.
+~
+~
+Z -1 319
+S
+#321
+@eng Grassy plains@rus Травянистые равнины~
+@eng You walk in the grassy plains. The wind is fairly strong.
+@rus Вы прогуливаетесь по травянистой равнине. Ветер достаточно силен.
+~
+0 0 hills
+D2 0
+The plains extend far to the south.
+~
+~
+Z -1 338
+D3 0
+A small path is running through the plains.
+~
+~
+Z -1 305
+S
+#322
+@eng Grassy foothills@rus Травянистые предгорья~
+@eng You walk in the grassy foothills north of the plains. The wind is rough.
+To the north you can see foothills and just behind them mountain peaks
+are visible.
+@rus Вы идете по травянистым предгорьям на севере от равнин.  В лицо вам дует
+жестокий ветер.  На севере вы видите предгорья, и сразу за ними горную цепь.
+~
+0 0 hills
+D0 10
+The small foothills extend into foothills far to the north.
+~
+~
+Z -1 324
+D2 10
+The small foothills extend into plains far to the south.
+~
+~
+Z -1 320
+D3 10
+The small foothills extend far to the west.
+~
+~
+Z -1 330
+S
+#323
+@eng The steep foothills@rus Крутые склоны~
+@eng You walk in the steep foothills. It is rather hard to move here.
+To the north you can see a grassy valley with wildflowers.
+@rus Вы идете по крутым склонам. Двигаться здесь достаточно трудно. 
+На севере находится травянистая долина с дикими цветами.
+~
+0 0 hills
+D0 10
+You see a path toward the valley.
+~
+~
+Z 0 7800
+D1 10
+The foothills extend far to the east.
+~
+~
+Z -1 324
+D2 10
+On the horizon you can see the City of Midgaard.
+~
+~
+Z -1 330
+S
+#324
+@eng The steep foothills@rus Крутой склон~
+@eng You are walking in the steep foothills. It is rather hard to move here.
+To the north you can see the mountains towering over you.  Pine trees
+grow here.
+@rus Вы идете по крутым склонам. Двигаться здесь достаточно трудно. 
+На севере перед вами поднимаются высокие горы. Одинокая сосна растет здесь.
+~
+0 0 hills
+E ''
+pine tree trees pines~
+The all too quiet trees suggest that something roams these woods.
+~
+E ''
+mountains~
+The mountains seems dark and all most alive, as they contrast against
+the sky.
+~
+D0 10
+The path continues up the mountain.
+~
+~
+Z -1 901
+D1 10
+The foothills extend far to the east.
+~
+~
+Z -1 325
+D2 10
+The foothills extend downwards to the south. In the horizon you can
+see the City Of Midgaard.
+~
+~
+Z -1 322
+D3 10
+The foothills extend far to the west.
+~
+~
+Z -1 323
+S
+#325
+@eng The steep foothills@rus Крутой склон~
+@eng You are walking in the steep foothills. It is rather hard to move here.
+Further to the north you can see the mountains towering over you.
+Several pinetrees grow here.
+@rus Вы идете по крутым склонам. Двигаться здесь достаточно трудно. 
+На севере перед вами поднимаются высокие горы. Здесь растет несколько сосен.
+~
+0 0 hills
+D0 10
+The King's Road.
+~
+~
+Z -1 15201
+D1 10
+The foothills extend into smaller hills far to the east.
+~
+~
+Z -1 326
+D3 10
+The foothills extend far to the west.
+~
+~
+Z -1 324
+S
+#326
+@eng The pool in the foothills@rus Озеро в предгорье~
+@eng You are standing by a pool in the small foothills. It is clear and cold.
+A steep slope rises up into the foothills to the north. Behind them ...
+the mountains.
+@rus Вы стоите на берегу озерав маленьких предгорьях.  Оно холодное и чистое. 
+Крутой склон поднимается вверх к предгорьям, находящимся на севере.  Зразу
+за ними...  Горы.  
+~
+0 0 hills
+E ''
+pool~
+The pool is crystal clear, but as you look into it you notice that
+you can't see the bottom of it ... it must be pretty deep.
+~
+D1 10
+To the east you notice a small path in the foothills.
+~
+~
+Z -1 309
+D2 10
+To the south a path winds its way south into the plains.
+~
+~
+Z -1 306
+D3 10
+The foothills extend far to the west.
+~
+~
+Z -1 325
+S
+#327
+@eng The foothills@rus Предгорья~
+@eng You are walking in some foothills. It is rather hard to move here.
+Further to the north you can see the mountains towering over you.
+Several pinetrees grow here.
+@rus Вы идете по предгорьям.  Передвигаться здесь достаточно тяжело. 
+Невдалеке на севере крутым склоном вздымаются горы.  Несколько сосен растет
+здесь.  
+~
+0 0 hills
+D1 0
+To the east you notice a small path in the foothills.
+~
+~
+Z -1 313
+D2 0
+To the south a steep slope runs down to a small path in the foothills.
+~
+~
+Z -1 310
+S
+#330
+@eng In front of hut in foothills@rus Возле хижины в предгорьях~
+@eng You are standing in the foothills. To the west, well hidden among the small
+foothills and pines, you see a small hut. To the north you can see
+the foothills, and some pineforrest. Further on mountain peaks are visible.
+@rus Вы находитесь в предгорьях.  На западе вы видите хорошо укрытую и
+спрятанную между холмов и деревьев хижину.  На севере вы видите холмистую,
+покрытую сосновым бором местность.  Вдалеке за ней виднеются горы.  
+~
+0 0 hills
+D0 10
+The steep foothills seems hard to climb
+~
+~
+Z -1 323
+D1 10
+The foothills extend far to the east.
+~
+~
+Z -1 322
+D2 10
+To the south the foothills extend into plains far to the south.
+~
+~
+Z -1 319
+D3 3
+You see a small crumbled hut here, must be a hermit living here.
+~
+door~
+Z -1 331
+S
+#331
+@eng Hermit's hut@rus Хижина отшельника~
+@eng You are inside the hermit's hut. It is rather old, but serves it purpose.
+It keeps its habitant from the rough winds and dangerous beasts of the
+plains and foothills. There is a small fireplace here.
+@rus Вы внутри отшельниковой хижины.  Она уже достаточно стара, но все ещё
+сохраняет свое назначение - хранить своего обитателя от жестокого ветра и
+диких зверей, бродящих по равнинам и холмам.  Посередине пылает маленький
+очаг.  
+~
+0 D inside
+E ''
+fireplace~
+The hermit cooks here.
+~
+D1 0
+Through the door you can see the foothills.
+~
+door~
+Z -1 330
+S
+#332
+@eng The ancient path@rus Древняя тропа~
+@eng You are moving on an ancient path. The path is slightly covered with
+leaves and twitches.
+To the north you can see the T-crossing and the path continues south.
+@rus Вы двигаетесь по древней дороге.  Тропинка покрыта опавшими листьями и
+пожухлой травой.  На севере вы видите Т-образное пересечение.  Тропа
+продолжается на юг.  
+~
+0 0 forest
+D0 0
+As you look to the north you see a T-intersection.
+~
+~
+Z -1 312
+D2 0
+The ancient path continues through the plains.
+~
+~
+Z -1 333
+D4 0
+An Ancient Path through the Dark Forest.
+~
+~
+Z -1 2400
+S
+#333
+@eng The ancient path@rus Древняя тропа~
+@eng You are standing on the ancient path which runs north and south.
+The path is hardly visible here.
+@rus Вы стоите на древней тропе, которая бежит с севера на юг.{\ Различить её уже достаточно сложно.
+~
+0 0 forest
+D0 0
+You see the ancient path.
+~
+~
+Z -1 332
+D2 0
+You trace the path carefully and see no immediate dangers.
+~
+~
+Z -1 334
+S
+#334
+@eng The ancient path@rus Древняя тропа~
+@eng You are standing on the ancient path which runs north and south.
+The path is hardly visible here.
+@rus Вы стоите на древней тропе, которая бежит с севера на юг.{\ Различить её уже достаточно сложно.
+~
+0 0 forest
+D0 0
+You see the ancient path.
+~
+~
+Z -1 333
+D2 0
+You trace the path carefully and see no immediate dangers.
+~
+~
+Z -1 335
+S
+#335
+@eng The ancient path@rus Древняя тропа~
+@eng The path runs north and east from here.  You notice some markers placed
+along the side of the path.
+@rus Тропа ведет вас На север и восток.  Вы замечаете несколько отметок
+(markers), расположенных с одной стороны тропы.  
+~
+0 0 forest
+E ''
+markers~
+@eng The markers seems like normal stones, but the way they are
+arranged makes you think there is something special about them.
+@rus Маркеры выглядят обычными камнями, но тот путь, который они обозначают,
+заставляет вас думать, что это не случайно.  
+~
+D0 0
+You see the ancient path winding its way north from here. Looks safe.
+~
+~
+Z -1 334
+D1 0
+Further ahead you see a bridge over a small creak.
+~
+~
+Z -1 336
+D3 0
+The jungle~
+~
+Z -1 17171
+S
+#336
+@eng The wooden bridge@rus Деревянный мост~
+@eng You have stepped upon a wooden bridge. It looks old but safe to cross.
+It is made of a wood you haven't seen before.
+@rus Вы вступили на деревянный мост.  Он выглядит старым, но хорошо
+сохранившимся.  Дерево, из которого его изготовили, вы никогда раньше не
+встречали.  
+~
+0 0 field
+E ''
+rock formation formations~
+@eng The rock formations are made of 7 huge, monolith like stones, placed
+in a symbolic circle.
+You notice it's possible to enter the ring.
+@rus Формация камней сделана из семи монолитов, поставленных в форме круга. 
+Вы чуствуете, что можете войти в их кольцо.  
+~
+D1 0
+The path continues, further ahead you notice some rock formations.
+~
+~
+Z -1 337
+D3 0
+The ancient path leads west and turns north further ahead.
+~
+~
+Z -1 335
+S
+#337
+@eng The ancient path@rus Древняя тропа~
+@eng You find yourself located between the bridge and the rock formations.
+As you approach the formations you begin to realize the true size of
+them, about 15 feet tall and almost perfect rectangular shape.
+You feel impressed with the awesome sight.
+@rus Вы обнаруживаете себя расположенным между мостом и каменными
+образованиями (rock formations).  Приближаясь к камням, вы осознаете
+настоящий их размер.  Они около 15 футов в высоту, и строго прямоугольной
+формы.  Вы чуствуете себя потрясенными чьим-то величественным божественным
+знаком.  
+~
+0 0 forest
+E ''
+rock formation formations~
+@eng The rock formations are made of seven huge monolith placed in a circle.
+You notice it's possible to enter the ring.
+@rus Формация камней сделана из семи монолитов, поставленных в форме круга. 
+Вы чуствуете, что можете войти в их кольцо.  
+~
+D1 0
+To the east you enter the ring of stones. You wonder if it's safe.
+~
+~
+Z -1 339
+D3 0
+To the west the ancient path leads across the wooden bridge.
+~
+~
+Z -1 336
+S
+#338
+@eng Grassy plains@rus Травянистые равнины~
+@eng You walk in the grassy plains among the herbs which grow here. The wind is
+strong and rough. Far to the north you can see the foothills and further on
+mountain peaks are visible.
+@rus Вы прогуливаетесь по травянистой равнине среди трав, которые растут
+здесь.  Ветер сильный и жесткий.  На севере вы видите холмы, а вдалеке за
+ними - горную цепь.  
+~
+0 0 hills
+D0 0
+The plains extend far to the north.
+~
+~
+Z -1 321
+D3 0
+The plains extend far to the east.
+~
+~
+Z -1 317
+D5 0
+~
+~
+Z -1 8855
+S
+#339
+@eng The Stones of G'harne@rus Камни Гхарнов~
+@eng You are in the center of 7, 15 ft tall monolith like black stones.
+In the center of the ring formed by the monolith you can't help
+noticing a big sacrifice altar. The ground is covered with dirt, but the
+altar shows no sign of such. West of here is the ancient path.
+@rus Вы находитесь в круге, образованном семью гигантскими монолитами
+(monolit).  В центре этого круга вы видите большой алтарь для
+жертвоприношений (altar).  Земля вокруг покрыта грязью, Но на алтарь
+абсолютно чист.  На западе находится древной путь.  
+~
+0 0 field
+E ''
+death rituals worms engraving picture~
+@eng The pictures are depicting evil rituals.
+You see druids pouring blood over herbs on an altar like this one.
+There are people calling giant worms into existence with dark spells.
+@rus Картины изображают злые ритуалы.  Вы видите друидов, поливающих кровью
+пучки трав лежащих на алтаре, похожем на этот.  Рядом находятся люди,
+вызывающие к жизни гигантских червей с помозью темных зклинаний.  
+~
+E ''
+altar sacrifice~
+@eng You move closer to examine the sacrifice altar of G'harne.
+The altar is about 3 feet high, 10 feet long and 4 feet wide.
+It has engraved pictures of death rituals and horrifying worms.
+@rus  Вы подошли поближе, чтобы изучить алтарь для жертвоприношений,
+принадлежащий Гхарнам.  Алтарь около трех футов в высоту, десяти в длину и
+четырех в ширину.  Он украшен картинами (pictures) смертельных ритуалов и
+ужасающих червей.  
+~
+E ''
+stones g'harne monolith~
+@eng The stones of G'harne tower fifteen feet over you.
+The giant stones are made of a material you haven't seen before.
+It resembles black marble, but somehow feels different.
+@rus Камни башни Гхарнов высотой 15 футов возвышаются над вами.  Гигантские
+валуны сделаны из материала, который вы никогда раньше не видели.  Он
+напоминает вам черный мрамор, но в чем-то чуствуются отличия.  
+~
+D3 0
+You see the ancient path and the wooden bridge here.
+~
+~
+Z -1 337
+D5 0
+You see a tunnel down there.
+~
+~
+Z -1 340
+S
+#340
+@eng Dark smelly tunnels@rus Темный вонючий туннель~
+@eng You are standing in a gloomy tunnel leading south and west, right under
+the altar of G'harne.  The walls are covered with a smelly slime and small
+rotting pieces of a meat like substance, fills the air with an unbearable
+stench.  You might be able to force your way up into fresh air from here.
+@rus Вы стоите в мрачном туннеле, ведущем на юг и на запад, прямо под алтарем
+Гхарнов.  Стены покрыты вонючей слизью и небольшими кусочками разлагающегося
+мяса (meat>, наполняющего воздух невыносимым зловонием.  Вы готовы выбежать
+наверх ради хотя бы одного глотка свежего воздуха.  
+~
+0 ADI inside
+E ''
+meat rotting slime substance~
+@eng You try to examine the substance closer, but must refrain from this
+as all you really want to do is puke.
+You puke.
+@rus Вы пытаетесь поподробнее изучить то, что лежит здесь, но вынуждены
+воздержаться от этого, так вас сильно затошнило.  Вас начинает рвать.  
+~
+D2 0
+~
+~
+Z -1 341
+D3 0
+~
+~
+Z -1 342
+D4 0
+You welcome the sight of fresh air.
+~
+~
+Z -1 339
+S
+#341
+@eng Dead end of tunnel@rus Тупик в туннеле~
+@eng The tunnel comes to an abrupt end here. It simply looks like it
+hasn't been excavated further.  North of here the tunnel makes a turn east.
+@rus Здесь туннель внезапно обрывается.  Это выглядит так, как будто никто не
+пытался рыть его дальше.  Идущий на север туннель делает поворот на запад.  
+~
+0 ADI inside
+D0 0
+~
+~
+Z -1 340
+S
+#342
+@eng Dark smelly tunnels@rus Темный вонючий туннель~
+@eng You are standing in a gloomy tunnel leading east and west.
+The walls are covered with a smelly slime and small rotting pieces of a
+meat like substance, fills the air with an unbearable stench.
+@rus Вы стоите в мрачном туннеле, ведущем на восток и на запад.  Стены покрыты
+вонючей слизью и небольшими кусочками разлагающегося мяса (meat>,
+наполняющего воздух невыносимым зловонием.  
+~
+0 ADI inside
+E ''
+meat rotting slime substance~
+@eng You try to examine the substance closer, but must refrain from this
+as all you really want to do is puke.
+You puke.
+@rus Вы пытаетесь поподробнее изучить то, что лежит здесь, но вынуждены
+воздержаться от этого, так вас сильно затошнило.  Вас начинает рвать.  
+~
+D1 0
+The tunnel continues in this direction.
+~
+~
+Z -1 340
+D3 0
+The tunnel continues in this direction.
+~
+~
+Z -1 343
+S
+#343
+@eng Dark smelly tunnels@rus Темный вонючий туннель~
+@eng You are standing in a small smelly tunnel under the plains.
+The smell is growing stronger to the west, so is the density of the
+slime and other undeterminable substances ...
+@rus Вы стоите в небольшом вонючем туннеле под равнинами.  Запах усиливается
+на западе, так же сгущается слизь и другие непонятные субстанции...  
+~
+0 I inside
+E ''
+slime substance~
+@eng BWADR! ...
+@rus Вы пытаетесь поподробнее изучить то, что лежит здесь, но вынуждены
+воздержаться от этого, так вас сильно затошнило.  Вас начинает рвать.  
+~
+D1 0
+The unbearable stench is less intensive in this direction.
+~
+~
+Z -1 342
+D3 0
+The tunnel seems to extend into some kind of cave.
+~
+~
+Z -1 344
+S
+#344
+@eng The Hall of G'harne@rus Коридор Гхарнов~
+@eng You stand in the hall of G'harne. The walls are dressed with strange
+carving, symbolizing human sacrifice and people worshipping giant worms.
+Disgusting slime and gore are also very dominant in your view of this room.
+@rus Вы стоите в коридоре Гхарнов.  Стены украшены странной резьбой,
+символизирующей человеческие жертвоприношения.  И люди, призывающие
+гигантских червей.  Отвратительная слизь и запекшаяся кровь до сих пор
+единственное, что попадает в поле вашего зрения.  
+~
+0 ADI inside
+E ''
+slime gore~
+@eng You puke.
+@rus Вас начинает рвать.
+~
+D1 0
+It looks like a good idea just to run in this direction.
+~
+~
+Z -1 343
+S
+#345
+@eng Steep slope@rus Крутой склон~
+@eng You try to climb down the slope.
+>
+You slip!
+You fall and tumble.
+You hit your head HARD.
+You die.
+You've fallen, and you can't get up!
+@rus Вы пытаетесь удержаться, скользя вниз по обрыву.
+ 
+Вы не можете удержаться !
+Вы упали и ударились.
+Вы сильно повредили голову.
+Вы умерли.
+Вы провалились, и не можете подняться !
+~
+0 C field
+S
+#346
+@eng Wolf's hole@rus Волчья яма~
+@eng You are in a wolf's hole, diged many years ago by hunters...  Many years
+leaves but it was not filled with dust and trush or water.  You see two
+{rred eyes{x shining in a dark corner.  
+@rus Вы находитесь в волчьей яме, давно выкопанной охотниками...  Прошло не
+мало лет но её всё ещё не завалило землей и не затопило водой.  В темном
+углу светятся красным цветом {rчьи-то глаза{x.  
+~
+0 AC field
+M 90 H 75
+S
+#0
+
+#SPECIALS
+M 350 spec_cast_mage	* the pet dragon
+S
+
+#RESETS
+O 0 304 0 316	* wild flowers (Grassy plains)
+M 0 309 10 318 4	* the cute rabbit (Grassy plains)
+G 0 313 1		*	rabbit skin
+O 0 301 0 319	* a small dusk of black gyvel (Grassy plains)
+O 0 304 0 323	* wild flowers (The steep foothills)
+M 0 300 1 323 1	* Aruncus the Druid (The steep foothills)
+E 0 308 0 17		*	a druish staff: held in the hands
+E 0 307 0 3		*	a strange amulet: around the neck
+G 0 312 0		*	a scroll titled 'jhyfrdow'
+G 0 302 0		*	a small dusk of poison ivy
+G 0 313 1		*	rabbit skin
+O 0 314 0 324	* Tall pine (The steep foothills)
+O 0 300 0 327	* a small dusk of timian herbs (The foothills)
+M 0 301 1 331 1	* Sorbus the Hermit (Hermit's hut)
+G 0 303 0		*	a dark red jar
+O 0 309 0 331	* a rabbit roast (Hermit's hut)
+M 0 309 10 334 4	* the cute rabbit (The ancient path)
+O 0 304 0 338	* wild flowers (Grassy plains)
+M 0 305 1 344 1	* Shudde-M'ell (The Hall of G'harne)
+G 0 310 0		*	a strange template
+G 0 311 0		*	a clear potion
+M 0 310 1 346 1	* angry wolf (Wolf's hole)
+E 0 315 0 16		*	wolf's tusk: wielded
+S
+
+#SHOPS
+306 1 10 11 19 0 120 60 0 23 0 ~
+308 0 0 0 0 0 110 100 0 23 0 ~
+0
+
+#MOBPROGS
+#344
+if mobhere rabbit
+yell АГРХХХ !!!
+say Сейчас я тебя сьем !!!
+kill rabbit
+endif
+~
+#345
+if ispc $n
+say иди нахер отсюда!
+mob transfer $n 15002
+endif
+~
+#346
+if isimmort $n
+shout AAaa !!!
+yell Помогите !!!
+emote делает большие глаза.
+emote забивается в угол и сиротливо прижимается к стенке.
+'Не убивай меня, о бессмертный!
+else
+yell СМЕРТЬ СМЕлЬЧАКАМ !!!
+say Сейчас ты умрешь !!!
+mob kill $n
+endif
+~
+#0
+
+#$

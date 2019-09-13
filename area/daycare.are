@@ -1,0 +1,744 @@
+#AREADATA
+Name Day Care~
+VNUMs 6600 6699
+Credits Sandman~
+Security 5
+LevelRange 1 5
+End
+
+#MOBILES
+#6600
+youth dwarven dwarf~
+@eng the dwarven youth @rus юноша-гном~
+@eng A young dwarf plays with a toy axe.
+@rus Юный гном играет с игрушечным топором.
+~
+@eng This is a young but not totally harmless creature.
+@rus Он молод, но может быть и небезобиден.
+~
+dwarf~
+ACGT 0 -5 0
+3 0 1d4+30 3d25+200 1d4+2 beating
+-7 -6 -7 -10
+DJR 0 0 0
+sit stand male 3
+0 0 small unknown
+#6601
+teddy bear~
+@eng a teddy bear @rus плюшевый мишка~
+@eng A cute and fuzzy teddy bear stands here.
+@rus Здесь стоит сообразительный и пушистый мишка.
+~
+@eng This is a tiny little bear with a heart on his chest.
+@rus Это крошечный мишка, но у него в груди бьется сердце.
+~
+doll~
+ACG 0 405 0
+1 0 1d10+10 1d25+200 1d4+0 beating
+-8 -5 -9 -10
+NR 0 0 0
+stand stand male 1
+0 0 small unknown
+#6602
+doll raggedy anne~
+@eng a raggedy anne doll @rus рваная кукла~
+@eng A raggedy anne doll is sitting here.
+@rus Здесь сидит рваная кукла.
+~
+@eng You see a small little cute rag doll.
+@rus Вы видите маленькую тряпичную куклу.
+~
+doll~
+ACG 0 300 0
+2 0 2d5+19 2d25+200 1d5+0 beating
+-7 -4 -8 -10
+FHR 0 0 0
+sit stand female 2
+0 0 small unknown
+#6603
+soldier toy~
+@eng a toy soldier @rus игрушечный солдатик~
+@eng A toy soldier is standing here.
+@rus Здесь стоит игрушечный солдатик.
+~
+@eng The toy is looking for target practice.
+@rus Солдатик, кажется, хочет занятся воинской тренировкой.
+~
+doll~
+ACGT 0 -300 0
+3 1 3d5+36 3d25+200 1d4+3 punch
+-6 -7 -6 -9
+IR 0 G E
+stand stand male 3
+0 0 small unknown
+#6604
+bear ugly~
+@eng the ugly bear @rus мерзкий мишка~
+@eng An ugly stuffed bear stands here.
+@rus Здесь стоит плохо набитый мишка.
+~
+@eng This is obviously a reject from the factory.
+He snarls and growls at you.
+@rus Его точно забраковали на фабрике.
+Он рычит и огрызается на тебя.
+~
+doll~
+ACF 0 -400 0
+3 0 3d4+29 3d25+200 1d6+1 chomp
+-6 -3 -7 -10
+DJNR 0 0 0
+stand stand male 3
+0 0 small unknown
+#6605
+doll old~
+@eng an old doll @rus старая кукла~
+@eng An abused and old doll is here.
+@rus Забытая старая кукла бродит здесь.
+~
+@eng This doll has been hugged and played with until there is almost nothing left.
+@rus Этой куклой играли до тех пор, пока еще хоть что-то от нее оставалось.
+~
+doll~
+ACG 0 -2 0
+1 0 1d10+1 1d25+200 1d4+0 beating
+-8 -5 -9 -10
+R 0 0 0
+stand stand none 1
+0 0 small unknown
+#6606
+nanny~
+@eng the nanny @rus няня~
+@eng An old wrinkled nanny stands here, looking over the little ones.
+@rus Старая сморщенная няня здесь, присматривает за малышами.
+~
+@eng You see an old dwarven lady who has been hunched over with age.  However, it
+appears that there is still some fight left in her.
+@rus Это старая гномейка, сгорбленная прожитыми веками.
+Но она еще может задать жару.
+~
+dwarf~
+AG 0 10 0
+5 1 4d4+50 5d25+200 1d6+1 slap
+-5 -5 -5 -10
+CDR 0 0 0
+stand stand female 5
+0 0 medium unknown
+#6607
+guard~
+@eng the armed guard @rus караульный~
+@eng An armed guard stands here looking lost.
+@rus Караульный стоит здесь с потерянным видом.
+~
+@eng This is a big mean bully who is tired of being lost in this maze.
+You suddenly think that you had better flee.
+@rus Этому большому подлому задире давно стало очень скучно в этом лабиринте.
+А не кажется ли тебе, что пора смыться отсюда?
+~
+dwarf~
+ABCT D -440 0
+8 1 3d10+100 8d25+200 1d7+3 punch
+-3 -2 -3 -8
+CDJR 0 0 0
+stand stand male 8
+0 0 medium unknown
+#6608
+brat spoiled~
+@eng the spoiled brat @rus избалованный ребенок~
+@eng A spoiled brat is crying here.
+@rus Избалованный ребенок рыдает.
+~
+@eng You see a little tyke who has always gotten what he wanted.  You have the
+biggest urge to put him out of his misery.
+@rus Ты видишь маленького хама, который всегда получал то, чего хочется.
+Ты чувствуешь сильнейшее побуждение избавить его от всех его страданий.
+~
+dwarf~
+ABC 0 -400 0
+1 0 2d4+15 1d25+200 2d2+1 beating
+-8 -8 -8 -10
+IJN 0 0 0
+stand stand male 1
+0 0 small unknown
+#0
+
+#OBJECTS
+#6600
+axe toy~
+@eng a toy axe @rus игрушечный топорик~
+@eng An axe made of wood lies here. @rus Здесь валяется игрушечный деревянный топор.~
+wood~
+weapon 0 AN
+axe 1 5 chop 0
+0 30 0 G
+E ''
+axe toy~
+@eng A small label says 'made in Taiwan'.
+@rus На топорике вы нашли надпись 'made in Taiwan'.
+~
+G none
+#6601
+ring pink ice~
+@eng a pink ice ring @rus кольцо из розового льда~
+@eng A pink ice ring draws your eye. @rus Кольцо из розового льда притягивает к себе ваш взгляд.~
+ice~
+treasure G AB
+0 0 0 0 0
+3 10 30 G
+A
+13 4
+A
+1 1
+E ''
+ring pink ice~
+@eng How strange...it's made of ice, but it doesn't melt. It feels pleasantly 
+cool to the touch.
+@rus Изумительно! Оно сделано из льда, но не тает, зато приятно холодит.
+~
+G none
+#6621
+robe linen~
+@eng a linen robe @rus льняной халат~
+@eng A linen robe is crumpled into a ball here. @rus Здесь валяется скомканный льняной халат.~
+cloth~
+armor G AK
+1 2 1 1 1
+7 50 14 G
+A
+12 5
+A
+4 1
+E ''
+robe linen~
+@eng It radiates an aura of peace and wisdom.  The perfect garb for a teacher.
+@rus Он излучает ауру мира и мудрости. Замечательное одеяние для учителя.
+~
+G none
+#6622
+broom~
+@eng a broom @rus метла~
+@eng A stout straw broom lies on the floor. @rus Крепкая соломенная метла лежит на полу.~
+wood~
+weapon 0 AN
+spear 2 3 pound F
+4 30 8 W
+A
+18 -1
+A
+17 1
+E ''
+broom~
+@eng It's worn and tired, probably from swatting too many children.
+@rus Она изношена и потрепана, вероятно, от шлепания многих и многих детишек.
+~
+G none
+#6644
+meat steak~
+@eng a juicy steak @rus сочный кусок мяса~
+@eng A juicy steak sits on a plate here. @rus Сочный кусок мяса лежит на тарелке.~
+meat~
+food 0 A
+ADE ADE 0 0 0
+0 20 0 P
+G none
+#6645
+steak rotten~
+@eng a rotten steak @rus испорченное мясо~
+@eng A dry steak lies on the floor. @rus Засохшее мясо лежит на полу.~
+meat~
+food 0 A
+C C 0 A 0
+0 20 0 W
+G none
+#6646
+potion amber~
+@eng an amber potion @rus янтарное снадобье~
+@eng An amber potion sits in a corner. @rus Янтарное снадобье закатилось в угол.~
+glass~
+potion 0 A
+5 'cure light' 'armor' '' ''
+0 10 0 G
+E ''
+potion~
+@eng It's a tight-stoppered glass bottle with a thick amber liquid inside. It
+tastes kind of like whiskey.
+@rus Это плотно закрытая бутылочка с густой янтарной жидкостью внутри. Вроде бы,
+что-то типа виски.
+~
+G none
+#6647
+gun toy~
+@eng a toy gun @rus игрушечное ружье~
+@eng A toy gun with a sharp bayonet lies here. @rus Здесь валяется игрушечное ружье с острым штыком.~
+wood~
+weapon 0 AN
+spear 2 3 stab F
+4 20 8 G
+A
+17 1
+E ''
+gun toy~
+@eng It's just a toy...but the point looks kind of sharp.
+You'll put your eye out, kid!
+@rus Это только игрушка... но острие выглядит очень острым.
+Как бы дети не выкололи себе глаз!
+~
+G none
+#0
+
+#ROOMS
+#6601
+@eng The Dwarven Drop Off @rus Прихожая детского сада~
+@eng This is where the dwarven mommies and daddies come to drop off their
+annoying little brats.  You have the urge to leave.  There is a sign here.
+@rus Это место, куда гномские мамы и папы приходят, чтобы оставить своих
+надоедливых отпрысков. Вам нечего здесь делать.
+На стене есть знак (sign).
+~
+0 CD inside
+E ''
+sign~
+@eng This is an area for newbies, so have fun.  -- Sandman
+@rus Эта зона для новичков, так что развлекайтесь.  -- Sandman
+Переведено Чеширским Котом для Shadow Realms.
+~
+D0 0
+~
+~
+Z -1 6500
+D2 0
+@eng You see a large room full of noisy brats.
+@rus Вы видите большую комнату, полную шумных детей.
+~
+~
+Z -1 6602
+S
+#6602
+@eng Day Care Center @rus Детский сад~
+@eng You are in the north-east corner of the main part of the center.  Toys and
+toddlers are all over the room.  There is a kitchen to the east.
+@rus Вы находитесь в северо-восточном углу главной части детского сада.
+По всей комнате разбросаны игрушки и ползают дети. На востоке проход на кухню.
+~
+0 D inside
+D0 0
+@eng You see the drop off.
+@rus Там видна прихожая.
+~
+~
+Z -1 6601
+D1 0
+@eng You see an extremely messy kitchen.
+@rus Там видна ужасно запущенная кухня.
+~
+~
+Z -1 6626
+D2 0
+@eng You see a large room full of noisy brats.
+@rus Там полная комната шумных детей.
+~
+~
+Z -1 6604
+D3 0
+@eng You see a large room full of noisy brats.
+@rus Там полная комната шумных детей.
+~
+~
+Z -1 6603
+S
+#6603
+@eng Day Care Center @rus Детский сад~
+@eng You are in the north-west corner of the main part of the center.  Toys and
+toddlers are all over the room.  There is a bathroom to the west.
+@rus Вы находитесь в северо-западном углу главной части детского сада.
+По всей комнате разбросаны игрушки и ползают дети. Ванная на западе.
+~
+0 D inside
+D1 0
+@eng You see a large room full of noisy brats.
+@rus Там полная комната шумных детей.
+~
+~
+Z -1 6602
+D2 0
+@eng You see a large room full of noisy brats.
+@rus Там полная комната шумных детей.
+~
+~
+Z -1 6605
+D3 0
+@eng You see a messy bathroom.
+@rus Там видна заброшенная ванная.
+~
+~
+Z -1 6606
+S
+#6604
+@eng Day Care Center @rus Детский сад~
+@eng You are in the south-east corner of the main part of the center.  Toys and
+toddlers are all over the room.  There is a playground to the east.
+@rus Вы находитесь в юго-восточном углу главной части детского сада.
+По всей комнате разбросаны игрушки и ползают дети. На востоке 
+игровая площадка.
+~
+0 D inside
+D0 0
+@eng You see a large room full of noisy brats.
+@rus Там полная комната шумных детей.
+~
+~
+Z -1 6602
+D1 0
+@eng You see the playground.
+@rus Там видна площадка для игр.
+~
+~
+Z -1 6610
+D3 0
+@eng You see a large room full of noisy brats.
+@rus Там полная комната шумных детей.
+~
+~
+Z -1 6605
+S
+#6605
+@eng Day Care Center @rus Детский сад~
+@eng You are in the south-west corner of the main part of the center.  Toys and
+toddlers are all over the room.  There is a staircase to the west.
+@rus Вы находитесь в юго-западном углу главной части детского сада.
+По всей комнате разбросаны игрушки и ползают дети. На западе есть лестница.
+~
+0 D inside
+D0 0
+@eng You see a large room full of noisy brats.
+@rus Там полная комната шумных детей.
+~
+~
+Z -1 6603
+D1 0
+@eng You see a large room full of noisy brats.
+@rus Там полная комната шумных детей.
+~
+~
+Z -1 6604
+D3 0
+@eng You see a staircase leading down.
+@rus Там есть лестница, ведущая вниз.
+~
+~
+Z -1 6607
+S
+#6606
+@eng The Messy Bathroom @rus Запущенная ванная~
+@eng You hold your nose as you realize you have made the worst mistake of your
+life.  The air is rancid and the walls are stained.
+@rus Ты зажимаешь свой нос и понимаешь, что совершаешь худшую ошибку в своей
+жизни. Воздух здесь протух, а стены все в пятнах.
+~
+0 D inside
+D1 0
+@eng You see a large room full of noisy brats.
+@rus Там полная комната шумных детей.
+~
+~
+Z -1 6603
+S
+#6607
+@eng The Staircase @rus Лестница~
+@eng You stand on top of a staircase leading down, and wonder what mystery could
+lie down under.  Beware!
+@rus Ты стоишь наверху лестницы и размышляешь, какие тайны могут скрываться внизу.
+Будь настороже!
+~
+0 D inside
+D1 0
+@eng You see a large room full of noisy brats.
+@rus Там полная комната шумных детей.
+~
+~
+Z -1 6605
+D5 0
+@eng You see the entrance to something.
+@rus Ты видишь вход куда-то.
+~
+~
+Z -1 6612
+S
+#6608
+@eng The Playground @rus Игровая площадка~
+@eng You are in the north-west corner of the playground.
+@rus Это северо-западный угол площадки для игр.
+~
+0 0 field
+D1 0
+@eng You see the playground.
+@rus Там видна площадка для игр.
+~
+~
+Z -1 6609
+D2 0
+@eng You see the playground.
+@rus Там видна площадка для игр.
+~
+~
+Z -1 6610
+S
+#6609
+@eng The Playground @rus Игровая площадка~
+@eng You are in the north-east corner of the playground.
+@rus Это северо-восточный угол площадки для игр.
+~
+0 0 field
+D2 0
+@eng You see the playground.
+@rus Там видна площадка для игр.
+~
+~
+Z -1 6611
+D3 0
+@eng You see the playground.
+@rus Там видна площадка для игр.
+~
+~
+Z -1 6608
+S
+#6610
+@eng The Playground @rus Игровая площадка~
+@eng You are in the south-west corner of the playground.
+@rus Это юго-западный угол площадки для игр.
+~
+0 0 field
+D0 0
+@eng You see the playground.
+@rus Там видна площадка для игр.
+~
+~
+Z -1 6608
+D1 0
+@eng You see the playground.
+@rus Там видна площадка для игр.
+~
+~
+Z -1 6611
+D3 0
+@eng You see a large room full of noisy brats.
+@rus Там полная комната шумных детей.
+~
+~
+Z -1 6604
+S
+#6611
+@eng The Playground @rus Игровая площадка~
+@eng You are in the south-east corner of the playground.
+@rus Это юго-восточный угол площадки для игр.
+~
+0 0 field
+D0 0
+@eng You see the playground.
+@rus Там видна площадка для игр.
+~
+~
+Z -1 6609
+D3 0
+@eng You see the playground.
+@rus Там видна площадка для игр.
+~
+~
+Z -1 6610
+S
+#6612
+@eng Entrance to the Mini-Maze @rus Вход в мини-лабиринт~
+@eng You stand in the entrance to a small, but confusing maze.  You really hope
+that you don't get lost.
+@rus Ты стоишь у входа в маленький, но запутанный лабиринт. Надеюсь,
+ты из него выберешься.
+~
+0 ACD field
+D1 0
+~
+~
+Z -1 6613
+D4 0
+@eng You see some stairs.
+@rus Просто лестница.
+~
+~
+Z -1 6607
+S
+#6613
+@eng Mini-Maze @rus Мини-лабиринт~
+@eng You are in a small passage that looks just like every other one.
+@rus Ты в узком коридоре, в точности таком же, как и все остальные.
+~
+0 ADV field
+D1 0
+~
+~
+Z -1 6614
+D2 0
+~
+~
+Z -1 6615
+D3 0
+~
+~
+Z -1 6612
+S
+#6614
+@eng Mini-Maze @rus Мини-лабиринт~
+@eng You are in a small passage that looks just like every other one.
+@rus Ты в узком коридоре, в точности таком же, как и все остальные.
+~
+0 ADV field
+D2 0
+~
+~
+Z -1 6616
+D3 0
+~
+~
+Z -1 6613
+S
+#6615
+@eng Mini-Maze @rus Мини-лабиринт~
+@eng You are in a small passage that looks just like every other one.
+@rus Ты в узком коридоре, в точности таком же, как и все остальные.
+~
+0 ADV field
+D0 0
+~
+~
+Z -1 6613
+D1 0
+~
+~
+Z -1 6616
+S
+#6616
+@eng Mini-Maze @rus Мини-лабиринт~
+@eng You are in a small passage that looks just like every other one.
+@rus Ты в узком коридоре, в точности таком же, как и все остальные.
+~
+0 ADV field
+D0 0
+~
+~
+Z -1 6614
+D2 0
+~
+~
+Z -1 6624
+D3 0
+~
+~
+Z -1 6615
+S
+#6624
+@eng End of the Mini-Maze @rus Конец мини-лабиринта~
+@eng You stand at the end of your journey.  There is a big sign here and you had
+better read it!
+@rus Вот и конец твоего путешествия. Здесь висит большой знак (sign). Читать
+умеешь? Читай!
+~
+0 AD field
+E ''
+sign~
+@eng If you are not level 6 or above, then don't go south!!!!  It is a dangerous
+area, but congrats for getting this far - Sandman
+@rus Если твой уровень ниже 6, не ходи на юг! Эта зона опасна, однако поздравляю
+тебя, ты зашел довольно далеко.   - Sandman
+~
+D0 0
+~
+~
+Z -1 6616
+D2 0
+~
+~
+Z -1 6631
+S
+#6626
+@eng Messy Kitchen @rus Запущенная кухня~
+@eng You stand in the kitchen and eating area of the day care center.  Pots and
+pans are everywhere, while the toddlers continue to create chaos.
+@rus Ты стоишь в кухне и столовой детского сада. Везде котлы и кастрюли, а дети
+продолжают создавать хаос.
+~
+0 D inside
+D3 0
+@eng You see a large room full of noisy brats.
+@rus Там полная комната шумных детей.
+~
+~
+Z -1 6602
+S
+#6631
+@eng The End? @rus Конец?~
+@eng You have reached the final lair.  It is dominated by a huge five headed
+dragon (actually an overgrown brat with a Halloween mask).
+@rus Вот ты и добрался до последней берлоги. Ее занимает огромный пятиглавый
+дракон (а на самом деле это ребенок-переросток в маске с последнего Хэллоуина).
+~
+0 AD field
+D0 0
+~
+~
+Z -1 6624
+S
+#0
+
+#SPECIALS
+M 6600 spec_thief	* the dwarven youth 
+M 6604 spec_thief	* the ugly bear 
+M 6606 spec_cast_cleric	* the nanny 
+M 6608 spec_thief	* the spoiled brat 
+S
+
+#RESETS
+M 0 6600 7 6602 1	* the dwarven youth  (Day Care Center )
+E 0 6600 0 16		*	a toy axe : wielded
+M 0 6601 2 6602 1	* a teddy bear  (Day Care Center )
+M 0 6606 2 6602 1	* the nanny  (Day Care Center )
+G 0 6646 0		*	an amber potion 
+G 0 6644 0		*	a juicy steak 
+E 0 6621 0 12		*	a linen robe : about the shoulders
+M 0 6600 7 6603 1	* the dwarven youth  (Day Care Center )
+E 0 6600 0 16		*	a toy axe : wielded
+M 0 6600 7 6604 1	* the dwarven youth  (Day Care Center )
+E 0 6600 0 16		*	a toy axe : wielded
+M 0 6602 2 6604 1	* a raggedy anne doll  (Day Care Center )
+M 0 6606 2 6604 1	* the nanny  (Day Care Center )
+G 0 6646 0		*	an amber potion 
+E 0 6622 0 16		*	a broom : wielded
+M 0 6600 7 6605 1	* the dwarven youth  (Day Care Center )
+E 0 6600 0 16		*	a toy axe : wielded
+M 0 6602 2 6605 1	* a raggedy anne doll  (Day Care Center )
+G 0 6645 0		*	a rotten steak 
+M 0 6605 3 6605 1	* an old doll  (Day Care Center )
+E 0 6601 0 1		*	a pink ice ring : on the left finger
+M 0 6605 3 6606 1	* an old doll  (The Messy Bathroom )
+M 0 6601 2 6606 1	* a teddy bear  (The Messy Bathroom )
+M 0 6600 7 6608 1	* the dwarven youth  (The Playground )
+E 0 6600 0 16		*	a toy axe : wielded
+M 0 6603 4 6608 1	* a toy soldier  (The Playground )
+E 0 6647 0 16		*	a toy gun : wielded
+M 0 6600 7 6609 1	* the dwarven youth  (The Playground )
+E 0 6600 0 16		*	a toy axe : wielded
+M 0 6604 2 6609 1	* the ugly bear  (The Playground )
+M 0 6603 3 6609 1	* a toy soldier  (The Playground )
+E 0 6647 0 16		*	a toy gun : wielded
+M 0 6603 4 6609 1	* a toy soldier  (The Playground )
+E 0 6647 0 16		*	a toy gun : wielded
+M 0 6600 7 6610 1	* the dwarven youth  (The Playground )
+E 0 6600 0 16		*	a toy axe : wielded
+M 0 6603 4 6610 1	* a toy soldier  (The Playground )
+E 0 6647 0 16		*	a toy gun : wielded
+M 0 6605 3 6610 1	* an old doll  (The Playground )
+M 0 6604 2 6611 1	* the ugly bear  (The Playground )
+M 0 6603 4 6611 1	* a toy soldier  (The Playground )
+E 0 6647 0 16		*	a toy gun : wielded
+M 0 6607 1 6624 1	* the armed guard  (End of the Mini-Maze )
+E 0 3023 0 16		*	a club: wielded
+M 0 6608 1 6631 1	* the spoiled brat  (The End? )
+S
+
+#$

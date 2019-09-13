@@ -1,0 +1,581 @@
+#AREADATA
+Name Faerie Ring~
+VNUMs 29101 29114
+Credits Lok~
+Security 5
+LevelRange 10 15
+End
+
+#MOBILES
+#29101
+pixie faerie~
+a giggling pixie~
+A pixie pokes you in the butt with its sword and giggles! 
+~
+The pixie is about 6" tall, is human like, and has dragonfly wings. 
+~
+unique~
+ACEH T 0 0
+10 0 2d7+121 10d25+200 2d4+2 pierce
+-1 -1 -1 -7
+EFR 0 CD HZ
+stand stand male 10
+ACHMVW ABCDEFGHIJKO tiny unknown
+#29102
+nixie faerie~
+a fluttering nixie~
+A fluttering nixie rummages through your possessions looking for wine! 
+~
+The nixie, like the pixie has dragonfly wings, but is taller (9"). 
+~
+unique~
+ACEH T 0 0
+12 0 2d10+150 12d25+200 1d10+3 slash
+0 0 0 -7
+EFU 0 C HZ
+stand stand male 8
+AHMVW ABCDEFGHIJKO tiny unknown
+#29103
+sprite faerie~
+a dancing sprite~
+A sprite casts a spell and you do a merry little dance! 
+~
+The sprite has dragonfly wings like the nixie and pixie, but she towers over 
+them at an amazing 12" height!
+~
+unique~
+ACEH BT 0 0
+11 0 2d8+134 11d25+200 1d10+2 pierce
+-1 -1 -1 -7
+EFNU 0 C HZ
+stand stand female 11
+AHMVW ABCDEFGHIJKO tiny unknown
+#29104
+brownie faerie~
+a stern brownie~
+A stern brownie stands guard here - you better watch it bub! 
+~
+The beefy 2' tall brownie wears earth colored clothing, and seems intent on 
+its task of guarding.
+~
+unique~
+ABCE V 0 0
+13 0 2d10+170 13d25+200 2d5+3 pierce
+1 1 1 -6
+EFHNU 0 C Z
+stand stand male 9
+AHMV ABCDEFGHIJK small unknown
+#29105
+puck faerie~
+Puck~
+Uh oh! You see Puck!
+~
+Puck is an amazing 3' tall. He snaps his head back and forth in quick darting 
+motions checking if his pile is still there.
+~
+unique~
+ABCES QV 0 0
+14 0 2d10+190 14d25+200 1d12+3 stab
+1 1 1 -6
+EFHNU 0 CD Z
+stand stand male 7
+AHMV ABCDEFGHIJK small unknown
+#29106
+queen faerie~
+the Faerie Queen~
+The Faerie Queen sits in a circle of dancing twinkling faeries! 
+~
+The faerie queen is here teaching her subjects court in a gossamer gown  of 
+moonbeams. She towers at 4' tall. She is by far the most beautiful creature
+ you have ever  seen. Maybe you should stay here a while. Hmmm. Why  bother
+going back?
+~
+elf~
+ABCER DHT 0 0
+15 5 3d9+208 15d25+200 2d6+3 pierce
+2 2 2 -6
+EFNU 0 C 0
+stand stand female 10
+0 O medium unknown
+#29107
+lucky leprechaun faerie~
+Lucky~
+A little leprechaun garbed in green says 'Wooo-hooo-hoo' and tickles you! 
+~
+Lucky wears green and is mumbling something about blue diamonds. 
+~
+unique~
+ACEH QUV 0 0
+13 0 2d10+170 13d25+200 2d5+3 slash
+1 1 1 -6
+EFHNU 0 C Z
+stand stand male 6
+AHMV ABCDEFGHIJK small unknown
+#29108
+faerie drunken~
+a drunken faerie~
+A drunken faerie snores happily on the floor.  
+~
+The drunken faerie lies nude on the floor, snoring happily away. Looks like 
+somebody is playing a practical joke on him.
+~
+unique~
+ABCE RT 0 0
+10 -1 2d7+121 10d25+200 2d4+2 pierce
+-1 -1 -1 -7
+EFNU 0 CD HZ
+sleep rest male 5
+AHMV ABCDEFGHIJKO tiny unknown
+#29109
+twinkletoes bartender faerie~
+Twinkletoes~
+A faerie bartender is here, serving up faerie wine and finger food. 
+~
+Twinkletoes is a fierce, old looking brownie. Maybe you should leave her 
+alone.
+~
+unique~
+ABCEbe V 0 0
+45 0 50d10+5500 5d5+5000 10d4+23 pierce
+25 25 25 1
+EFNU 0 CD Z
+stand stand female 35
+AHMV ABCDEFGHIJK medium unknown
+#0
+
+#OBJECTS
+#29101
+rhyme catchy little~
+a catchy little rhyme~
+There is a tiny rolled up paper lying on the ground.~
+paper~
+scroll AG AO
+15 'faerie fog' '' '' ''
+10 1 20 P
+E ''
+rhyme catchy little~
+You look at the rhyme. It reads:
+-
+Turn your clothes inside out
+Circle three times and shout
+Iron and cross, make you be
+Revealed to all, and to me
+~
+G none
+#29102
+light twinkle twinkling ball~
+@eng a {Y*{xtwinkling{Y*{x ball of light@rus {Y*{xМерцающий{Y*{x шарик света~
+@eng A twinkling ball of light sparkles here!@rus Мерцающий шарик света сверкает тут!~
+unknown~
+light AGI AO
+0 0 80 0 0
+15 2 2 P
+G male
+#29103
+belt sprite~
+a sprite belt~
+A loop of rainbow thread lies here.~
+mithril~
+armor FM AL
+1 1 1 0 0
+11 3 6 P
+A
+20 2
+G male
+#29104
+bracer brownie~
+a brownie bracer~
+An earthen colored band lies here.~
+mithril~
+armor G AM
+1 1 1 0 0
+13 10 8 P
+A
+2 1
+G male
+#29105
+vial moonlight bottled~
+a vial of bottled moonlight~
+A vial of sparkling liquid emits a soft white glow.~
+glass~
+potion AG AO
+15 'fly' 'cure poison' 'cure critical' ''
+12 1 24 P
+G none
+#29106
+robe gossamer~
+@eng a gossamer robe@rus ~~халат~~ из паутины~
+@eng A gossamer robe sparkles with a pale white glow!@rus Халат из паутины валяется на земле.~
+cloth~
+armor IM AK
+6 6 6 6 0
+15 4 11 P
+A
+12 5
+A
+20 2
+G male
+#29107
+moonbeam~
+a moonbeam~
+A sparkling pale light ray glows here! ~
+unknown~
+weapon AF AN
+exotic 3 2 pierce G
+15 12 13 P
+A
+14 -10
+A
+18 2
+A
+19 2
+G none
+#29108
+wine goblet faerie~
+a goblet of faerie wine~
+A crystal goblet filled with a sparkling wine is here.~
+glass~
+potion G A
+10 'cure blindness' 'invisibility' '' ''
+10 1 20 P
+G none
+#29109
+britches dirty~
+@eng a pair of dirty britches@rus ~~пара~~ грязных штанов~
+@eng A pair of dirty britches lies here. Get the laundry soap.@rus Пара грязных штанов лежат тут.~
+leather~
+armor C AF
+2 2 2 0 0
+14 15 10 P
+A
+13 10
+A
+19 1
+A
+20 1
+G none
+#29110
+key sparkling~
+a sparkling key~
+A sparkling key glistens on the ground.~
+silver~
+key BG AO
+0 0 0 0 0
+13 1 1 P
+G none
+#29111
+cloak dirty~
+a dirty cloak~
+A dirty cloak lies here. Ugh! Get the laundry soap.~
+leather~
+armor C AC
+2 2 2 0 0
+14 14 11 P
+A
+18 -1
+A
+22 -10
+A
+12 -20
+A
+2 1
+A
+1 1
+G male
+#29112
+wand blue diamond~
+a blue diamond wand~
+A wand with a huge blue diamond on it is just lying here! Pick it up!~
+wood~
+wand G AO
+14 12 12 'create food' 0
+13 2 2 P
+E ''
+diamond blue~
+They're magically delicious!
+~
+G none
+#29113
+gold whooo~
+whoooooopie! Gold!~
+A rainbow ends at this pot of gold!~
+gold~
+money A AO
+8 0 0 0 0
+0 13 80 P
+G none
+#29114
+food finger~
+delicious finger food~
+A delicious little plate of scrumptious finger foods lies beckons to you.~
+flesh~
+food 0 AN
+DE DE 0 0 0
+0 1 0 P
+G none
+#0
+
+#ROOMS
+#29101
+@eng Forest Clearing@rus Лужайка~
+@eng You stand in a grassy clearing in the forest. Moonlight causes the shadows
+to move in an eerie dance. There is a strange circle of mushrooms about30' in 
+diameter in the center of the clearing.
+@rus Вы стоите на лесной лужайке. Лунный свет заставляет тени двигаться
+в зловещем танце. В центре лужайки находится странный круг из грибов
+примерно десяти метров в диаметре.
+~
+0 C forest
+E ''
+mushrooms circle~
+You look at the mushroom circle. You see tiny footprints and the faint outline 
+of a trap door in the center of the ring.
+~
+D3 0
+~
+~
+Z -1 3513
+D5 0
+A small trap door~
+door trap~
+ABZ -1 29102
+S
+#29102
+@eng Entrance Hall@rus Входной туннель~
+@eng You are in a cramped, low ceiling tunnel. Roots dangle overhead and caress 
+you. There are tiny doors to the north, south and west, which you think you 
+could crawl your way into. A ladder fashioned of woven roots leads up. You 
+hear sounds of a raucous celebration to the east.
+ 
+@rus Вы находитесь в тесном туннеле с низким потолком. Сверху свисают корни.
+На севере, юге и западе есть крошечные двери, через которые вы вроде бы
+сможете с трудом проползти. Наверх ведет оплетенная корнями лестница. На
+востоке идет какое-то празднество, оттуда слышатся пьяные голоса.
+ 
+~
+0 D inside
+D0 0
+A tiny door~
+door tiny~
+ABZ -1 29103
+D1 0
+A smoky hallway~
+~
+Z -1 29104
+D2 0
+A tiny door~
+door tiny~
+ABZ -1 29105
+D3 0
+A tiny door~
+door tiny~
+ABZ -1 29106
+D4 0
+A small trap door~
+door trap~
+ABZ -1 29101
+S
+#29103
+@eng Puck's Room@rus Комната Злого Духа~
+@eng You are hunched over in Puck's room. You know this by the sign that says 
+"Pucks stuff- keep your grubby hands off". There is a bed of forest leaves, 
+some rude hollowed out shelves, a tiny table with a half full jack of ale, 
+and a great pile of junk beneath the sign.
+ 
+@rus Вы сидите на корточках в комнате Злого Духа. Это видно из таблички,
+на которой написано: "Имущество Злого Духа - руки прочь!" Вы видите
+кровать из лесных листьев, несколько грубо торчащих полок, крошечный стол
+с наполовину полным стаканом пива и огромную кучу тряпья под табличкой.
+ 
+~
+0 D inside
+E ''
+sign~
+The sign says: "Puck's stuff- keep your grubby hands off" 
+~
+D2 0
+A tiny door~
+door tiny~
+ABZ -1 29102
+S
+#29104
+@eng Little People's Bar and Grill@rus Гриль-бар фей~
+@eng You squeeze into the famous Little People's Bar and Grill! Conversation 
+abruptly stops as you enter. Around you little people are drinking from 
+beautifully crafted crystal glasses. The smoke is thick and buoys your 
+spirits. Maybe you should stay a while and try the faerie wine? A low tunnel 
+heads west, and you hear a thunderous racket coming from the east.
+ 
+@rus Вы втискиваетесь в знаменитый Гриль-бар фей!
+При вашем появлении разговор вдруг прекратился.
+Вокруг вас феи пьют из прекрасно сделанных хрустальных
+бокалов. Комната наполнена плотным дымом. Может быть,
+остановишься и попробуешь волшебного вина?
+На запад ведет низкий туннель, а с востока раздается оглушительный грохот.
+ 
+~
+0 D inside
+D1 0
+Towards the racket~
+~
+Z -1 29107
+D3 0
+A smoky hallway~
+~
+Z -1 29102
+S
+#29105
+@eng Snooze Den@rus Спальня~
+@eng You hunker in the snooze den. A large sign is on the wall. Many little people 
+lie collapsed in drunken heaps about this large room. To the north is a tiny 
+door.
+ 
+@rus Вы сидите на корточках в спальне. На стене висит большой плакат (sign).
+Множество пьяных фей здесь спит, свернувшись и сбившись в кучи.
+На север ведет крошечная дверь.
+ 
+~
+0 D inside
+E ''
+sign~
+The sign says 'Close the door, stupid'~
+D0 0
+A tiny door~
+door tiny~
+ABZ -1 29102
+S
+#29106
+@eng Guarded Burrow@rus Охраняемая нора~
+@eng You are once again hunched over in a earthy burrow. There is sign of much 
+passage through here, many little feet have packed the dirt hard. To the east 
+lies a door, and to the south is a normal sized door.
+ 
+@rus Вам опять приходится сгорбиться, чтобы войти в эту земляную нору.
+Здесь видны признаки того, что проход продолжается дальше: земля
+хорошо утоптана множеством маленьких ног.
+На востоке - выход в узкий тоннель, а на юге - дверь нормального размера!
+ 
+~
+0 D inside
+D1 0
+A tiny door~
+door tiny~
+ABZ -1 29102
+D2 0
+A normal sized door~
+door normal~
+ABCZ 29110 29108
+S
+#29107
+@eng Bowling Alley@rus Кегельбан~
+@eng You are hunched over in a bowling alley! Little people are rolling round 
+objects down grooved tracks at long white targets. The whole cave echoes in a 
+dreadful crash each time they hit the targets! Oh you wish you had that glass 
+of faerie wine. To the west is the Little People's Bar and grill.
+ 
+@rus Вы, сгорбившись, вошли в кегельбан! Здесь феи катают шары.
+Стены пещеры отражают ужасающий грохот каждый раз, когда шар
+попадает в цель. О, как хочется выпить бокал того волшебного вина!
+На западе - выход в гриль-бар.
+ 
+~
+0 D inside
+E ''
+round objects~
+You look at the round objects. Each object is a human head! Yikes! 
+~
+E ''
+targets white~
+You look carefully at the white targets and discover they are human bones! 
+~
+D3 0
+Little People's Bar and Grill~
+~
+Z -1 29104
+S
+#29108
+@eng Hall of the Faerie Queen@rus Приемная Королевы Фей~
+@eng You stand in the hall of the Faerie Queen. Rainbow colors dance across the 
+room in a colorful display. Faerie folk flutter furiously fanning forge fires. 
+Say that 3 times fast. Maybe you should have had that faerie wine.
+ 
+@rus Вы вошли в приемную Королевы Фей. Радужный свет пляшет по комнате.
+Множество фей неистово пляшут вокруг средоточия огней.
+ 
+~
+0 D inside
+E ''
+forge fires~
+They are being fanned furiously by fluttering faerie folk.~
+D0 0
+A normal sized door~
+door normal~
+ABCZ 29110 29106
+S
+#0
+
+#SPECIALS
+M 29105 spec_thief	* Puck
+M 29106 spec_cast_mage	* the Faerie Queen
+S
+
+#RESETS
+D 0 29101 5 1	* Forest Clearing: door to the down: closed
+D 0 29102 0 1	* Entrance Hall: door to the north: closed
+D 0 29102 2 1	* Entrance Hall: door to the south: closed
+D 0 29102 3 1	* Entrance Hall: door to the west: closed
+D 0 29102 4 1	* Entrance Hall: door to the up: closed
+D 0 29103 2 1	* Puck's Room: door to the south: closed
+D 0 29105 0 1	* Snooze Den: door to the north: closed
+D 0 29106 1 1	* Guarded Burrow: door to the east: closed
+D 0 29106 2 2	* Guarded Burrow: door to the south: closed and locked
+D 0 29108 0 2	* Hall of the Faerie Queen: door to the north: closed and locked
+M 0 29101 4 29102 1	* a giggling pixie (Entrance Hall)
+G 0 29101 0		*	a catchy little rhyme
+M 0 29105 1 29103 1	* Puck (Puck's Room)
+E 0 29109 0 7		*	a pair of dirty britches: on the legs
+E 0 29111 0 4		*	a dirty cloak: on the body (shirt)
+O 0 29108 0 29103	* a goblet of faerie wine (Puck's Room)
+M 0 29102 3 29104 1	* a fluttering nixie (Little People's Bar and Grill)
+G 0 29105 0		*	a vial of bottled moonlight
+M 0 29101 4 29104 1	* a giggling pixie (Little People's Bar and Grill)
+G 0 29101 0		*	a catchy little rhyme
+M 0 29103 3 29104 1	* a dancing sprite (Little People's Bar and Grill)
+E 0 29103 0 13		*	a sprite belt: around the waist
+M 0 29109 1 29104 1	* Twinkletoes (Little People's Bar and Grill)
+G 0 29108 0		*	a goblet of faerie wine
+G 0 29114 0		*	delicious finger food
+M 0 29107 1 29104 1	* Lucky (Little People's Bar and Grill)
+G 0 29112 0		*	a blue diamond wand
+G 0 29113 0		*	whoooooopie! Gold!
+M 0 29108 2 29105 1	* a drunken faerie (Snooze Den)
+M 0 29108 2 29105 1	* a drunken faerie (Snooze Den)
+G 0 29108 0		*	a goblet of faerie wine
+M 0 29104 3 29106 1	* a stern brownie (Guarded Burrow)
+E 0 29104 0 14		*	a brownie bracer: on the left wrist
+G 0 29110 0		*	a sparkling key
+M 0 29101 4 29107 1	* a giggling pixie (Bowling Alley)
+G 0 29101 0		*	a catchy little rhyme
+M 0 29102 3 29107 1	* a fluttering nixie (Bowling Alley)
+G 0 29105 0		*	a vial of bottled moonlight
+M 0 29103 3 29107 1	* a dancing sprite (Bowling Alley)
+E 0 29103 0 13		*	a sprite belt: around the waist
+M 0 29106 1 29108 1	* the Faerie Queen (Hall of the Faerie Queen)
+E 0 29102 0 0		*	a {Y*{xtwinkling{Y*{x ball of light: as a light
+E 0 29106 0 5		*	a gossamer robe: on the body
+E 0 29107 0 16		*	a moonbeam: wielded
+M 0 29101 4 29108 1	* a giggling pixie (Hall of the Faerie Queen)
+G 0 29101 0		*	a catchy little rhyme
+M 0 29102 3 29108 1	* a fluttering nixie (Hall of the Faerie Queen)
+G 0 29105 0		*	a vial of bottled moonlight
+M 0 29103 3 29108 1	* a dancing sprite (Hall of the Faerie Queen)
+E 0 29103 0 13		*	a sprite belt: around the waist
+M 0 29104 3 29108 1	* a stern brownie (Hall of the Faerie Queen)
+E 0 29104 0 14		*	a brownie bracer: on the left wrist
+S
+
+#SHOPS
+29109 1 2 3 4 18 120 80 0 23 0 ~
+0
+
+#$

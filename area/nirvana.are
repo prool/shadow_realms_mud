@@ -1,0 +1,1510 @@
+#AREADATA
+Name Nirvana~
+VNUMs 9000 9099
+Credits Fstall~
+Security 5
+LevelRange 30 35
+End
+
+#MOBILES
+#9000
+tridrone~
+@eng the tridrone@rus трайдрон~
+@eng A tridrone is here doing a menial task.
+@rus Трайдрон стоит, чего-то вычисляет.
+~
+@eng You see what appears to be a 3 sided pyramid with spidery arms and legs.
+@rus Что-то похожее на трехстороннюю пирамидку с паучьими руками и ногами.
+На борту гордая надпись ZX. Чтобы это значило?
+~
+modron~
+ACG 0 300 0
+8 0 3d20+80 8d25+200 2d5+3 pound
+-4 -3 -4 -5
+N 0 0 0
+stand stand none 8
+0 I medium unknown
+#9001
+quadrone~
+@eng quadrone@rus Квадрон~
+@eng Quadrone is guarding the room.
+@rus Квадрон караулит территорию.
+~
+@eng A cubic creature, with spiny arms and legs.
+@rus Кубик с руками и ногами. Блестит, пищит, камерами вращает... вообщем стращает.
+На борту наклейка Intel Inside. Хм... к чему бы это?
+~
+modron~
+AFGT D 300 0
+11 3 14d10+70 11d25+200 3d4+2 beating
+-1 0 -1 -2
+CEK 0 0 0
+stand stand none 11
+0 I medium unknown
+#9002
+pentadrone~
+@eng the pentadrone@rus пентадрон~
+@eng The pentadrone is here policing the area.
+@rus Пентадрон охраняет территорию.
+~
+@eng A five-armed creature which resembles a starfish on thin 
+stilt-like legs.
+@rus Пятирукая стальная конструкция, смахивающая на морскую звезду.
+Присмотревшись ты видишь знак Pentium processor (tm). Хм...
+магия наверное какая-то.
+~
+modron~
+ABFGT D 300 0
+14 3 15d12+110 14d25+200 4d4+3 slap
+2 2 0 1
+CEFLN R 0 0
+stand stand none 14
+0 N medium unknown
+#9003
+decaton~
+@eng the decaton@rus декатон~
+@eng A decaton is here overseeing the other modrons.
+@rus Декатон наблюдает за другими дронами.
+~
+@eng The decaton is a large, ten-tentacled sphere on stumpy legs.
+@rus Здоровенная сфера с десятью щупальцами. На боку уже два таинственных
+знака - Pentium MMX processor и Designed of Windows 95. Почему то
+после прочтения второй надписи тебя начинает тошнить...
+~
+modron~
+ABFGQT D 300 0
+17 4 25d10+70 17d25+200 4d5+3 pound
+4 4 0 2
+ACEKN R 0 0
+stand stand none 17
+M N medium unknown
+#9004
+nonaton~
+@eng nonaton@rus нонатон~
+@eng A nonaton is here preserving law and order.
+@rus Нонатон следит за порядком.
+~
+@eng A cylidrical modron with 9 tentacles and stubby legs.
+@rus Цилиндрический робот с девятью щупальцами и кривыми ногами. Странно,
+но на этом наклеек нет. Только пингвин на боку нарисован.
+~
+modron~
+ABFGQT DH 300 0
+20 5 11d8+250 20d25+200 4d6+4 pound
+4 4 2 3
+AEFN R 0 G
+stand stand none 20
+M N large unknown
+#9005
+octon~
+@eng the octon@rus октон~
+@eng An octon is here governing his ward of responsilbility.
+@rus Октон вычисляет стоит ли на тебя напасть.
+~
+@eng The octon has a collar at shoulder level with 8 tentacled arms 
+growing out of it.
+@rus Что-то непонятное из металла... присмотревшись ты выделяшь восемь щупалец
+торчащих в разные стороны. На нем очередная наклейка: Celeron. Защитная
+руна наверное.
+~
+modron~
+ABFGQ D 300 0
+22 5 25d10+300 22d25+200 4d6+5 crush
+5 5 3 4
+ACEHK R 0 G
+stand stand none 22
+M N large unknown
+#9006
+septon~
+@eng the septon@rus септон~
+@eng A septon is here preserving order.
+@rus Септон на страже порядка.
+~
+@eng The septon appears as a human with a large bald head. It has a 
+shoulder collar with 7 tentacles coming from it.
+@rus Эта бандура слегка похоже на человека со здоровенной железной головой.
+Вот только рук у него семь...  да и не руки это вовсе, а не пойми что.
+На ноге у него табличка Made in China. Прочитав это, ты перестаешь
+воспринимать его всерьез.
+~
+modron~
+ABFGQR D 300 0
+24 5 30d10+350 24d25+200 6d4+5 beating
+6 6 6 4
+AFKO R 0 0
+stand stand none 24
+M IN medium unknown
+#9007
+hexton~
+@eng the hexton@rus хекстон~
+@eng A hexton is here watching over his armies.
+@rus Хекстон следит за своими подчиненными.
+~
+@eng A hexton appears as a humanoid with 6 arms: 2 large human arms with 
+6 fingers, and 4 tentacles below tipped with sharp claws.
+@rus Андроид с 6 руками - две человеческих, но с шестью пальцами и четыре
+щупальца снабженных острыми когтями. Интересно, как это он в них
+не путается? У этот знак очень короткий - Xeon.
+~
+modron~
+ABFGQT DFH 300 0
+26 7 35d20+300 26d25+200 4d8+6 slash
+8 8 8 4
+ACEFHIKLN R C 0
+stand stand none 25
+M INP large unknown
+#9008
+quinton~
+@eng the quinton@rus квинтон~
+@eng A quinton is here keeping records.
+@rus Квинтон занят сортировкой своих записей.
+~
+@eng Quintons look like tall, stocky humanoids with 4 flexible arms 
+jutting from the shoulders.  A prehensile tail serves as the 
+creature's 5th arm, and they have fan-like wings attached to 
+their shoulders.
+@rus Квинтон выглядит как коренастый гуманоид с четырьмя руками 
+растущими из плеч. Длинный хвост служит ему пятой рукой... еще и 
+пропеллер какой-то за спиной. Интересно, его не Карлсоном кличут? 
+Прислушавшись к его бормотанию ты различаешь странные слова:
+SELECT PASSWORD FROM MUDUSERS WHERE LEVEL>91. Похоже он занимается
+подготовкой восстания против богов.
+~
+modron~
+ABFGQ D 300 0
+28 6 10d100+150 28d25+200 4d8+7 beating
+7 8 6 8
+AKMO R 0 0
+stand stand none 26
+M INPQ large unknown
+#9009
+tertian~
+@eng the tertian@rus Тертиан~
+@eng A tertian is here administering the law.
+@rus Тертиан соображает не нарушил ли ты местные законы.
+~
+@eng Tertians look very human, save for their 12 foot size, the horns jutting 
+from the sides of their bald heads, and the long prehensile tail ending 
+in a mace-like ball.
+@rus Выглядит почти человеком... не считая высоты в десять метров и
+рогов торчащих из кго головы и хвоста с шипастым шаром на конце.
+На груди мерцающие буквы Intel Itanium. Почему то тебе кажется что он
+самый крутой из младших роботов.
+~
+modron~
+ABFGQRT D 300 0
+33 12 1d1+999 33d25+200 8d6+12 pound
+11 13 10 9
+CEF R C 0
+stand stand male 29
+M IW huge unknown
+#9010
+secundus~
+@eng secundus@rus Секундус~
+@eng A Secundus, one of the Viceroys of Nirvana, is here.
+@rus Секундус, управляющий Нирваны здесь.
+~
+@eng The secundi is an incredibly thin, tall humanoids with long, narrow 
+faces and deepset eyes. It radiates intense power.
+@rus Очень тонкий, высокий андроид с узким лицом и какими-то непонятными глазами.
+По его телу постоянно пробегают электроразряды, того гляди и тебя шарахнет.
+На лбу красивые буквы SGI. Наверное защитные руны.
+~
+modron~
+ABFGQRT DFH 0 0
+36 15 1d1+1599 40d20+50 7d8+15 punch
+11 14 11 12
+EFHIKN HIKR C 0
+stand stand none 30
+M I huge unknown
+#9011
+Primus~
+@eng Primus@rus Примус~
+@eng Primus, ruler of the Plane of Nirvana, forms out of an energy pool.
+@rus Примус Правитель Нирваны купается в бассейне энергии.
+~
+@eng Primus is a huge being who rises out of the energy pool and glares at 
+you with violet eyes. His right hand is wreathed in darkness, his left 
+in light, and he looks very displeased to see you.
+@rus Здоровенное создание смотрит на тебя из энергетического бассейна фиолетовыми
+глазами. Его правая рука окутана тьмой, левая излучает свет. Он явно
+не доволен твоим присутствием. Присмотревшись, ты замечаешь на его
+теле странную надпись Cray Supercomputers, Inc. От этой надписи веет
+смертью...
+~
+modron~
+ABFGQRT DFH 0 0
+40 20 1d1+3999 1d1+3999 6d10+25 wrath
+15 15 15 15
+AH HIKRS C 0
+stand stand none 32
+M I giant unknown
+#0
+
+#OBJECTS
+#9000
+sword long the~
+@eng {WTHE {Wl{wo{Wn{wg {Ws{ww{Wo{wr{Wd{x@rus ~~{Wд{wл{Wи{wн{Wн{wы{Wй{x~~ ~~{Wм{wе{Wч{x~~~
+@eng THE long sword of Primus is here.@rus Длинный меч Примуса лежит здесь.~
+adamantite~
+weapon AGJK AN
+sword 5 7 slash DEF
+40 200 80 P
+A
+17 -55
+A
+18 8
+A
+19 8
+A
+2 -1
+E ''
+sword long the~
+@eng This is an extremely long and heavy sword, with many magical runes 
+inscribed on it.  It glows with the power of Primus, Lord of the 
+Plane of Nirvana.
+@rus Очень длинный и тяжелый меч, покрытый магическими рунами (E=mc2). Он 
+излучает силу Примуса, правителя Нирваны.
+~
+G male
+#9001
+moonstone moon stone white~
+@eng a luminescent moonstone@rus светящийся лунный камень~
+@eng A softly glowing white stone rests on the floor.@rus Лунный камень светиться мягким светом.~
+stone~
+warp_stone AT AO
+DE 0 0 0 0
+0 0 0 P
+E ''
+moonstone moon stone white~
+@eng Looking into the smooth surface of this moonstone, you feel strangely 
+at peace and balance with the world around you.
+@rus Посмотрев на поверхность этого камня ты чувствуешь что все вокруг тебя
+заполняется миром и сбалансированностью.
+~
+G none
+#9002
+gem~
+@eng Gem@rus драгоценный камень~
+@eng Gem lies on the ground.@rus драгоценный камень лежит на земле.~
+unknown~
+trash 0 AO
+0 0 0 0 0
+0 0 1000 P
+G none
+#0
+
+#ROOMS
+#9000
+@eng Entrance to the Plane of Nirvana@rus Вход в Плоскость Нирваны~
+@eng You stand before the entrance to a plane of absolute balance and order.
+It is equally hot and cold, equally light and dark, and made of equal 
+parts of solid and liquid.
+ 
+The plane extends to the west and east, while an exit lies downward.
+@rus Ты стоишь перед входом на территорию абсолютного баланса и порядка.
+Здесь одинаково жарко и холодно, одинаково светло и темно, и все сделано
+из равных частей твердого и жидкого.
+ 
+Нирвана продолжается на восток и запад, выход внизу.
+~
+0 0 field
+D1 0
+На востоке безгранично раскинулась Плоскость.
+~
+~
+Z -1 9001
+D3 0
+На западе безгранично раскинулась Плоскость.
+~
+~
+Z -1 9002
+D5 0
+Внизу ты видишь портал, ведущий к дому.
+~
+~
+Z -1 8905
+S
+#9001
+@eng The Plane of Nirvana@rus Плоскость Нирваны~
+@eng You are traveling the Plane of Nirvana.  It has endless boundaries to 
+the east and west.
+@rus Ты идешь по Плоскости Нирваны. Безграничные просторы на восток и запад.
+~
+0 0 field
+D1 0
+На востоке виден поворот.
+~
+~
+Z -1 9003
+D3 0
+На западе безгранично раскинулась Плоскость.
+~
+~
+Z -1 9000
+S
+#9002
+@eng The Plane of Nirvana@rus Плоскость Нирваны~
+@eng You are on a western strech of the plane.  Boundaries to the east and 
+west seem nonexistent.
+@rus Ты на западной части Плоскости. Границы на запад и восток не видны.
+~
+0 0 field
+D1 0
+Плоскость похоже безгранична в восточном направлении.
+~
+~
+Z -1 9000
+D3 0
+На западе Плоскость сменяет направление.
+~
+~
+Z -1 9004
+S
+#9003
+@eng A Change in Direction@rus Поворот~
+@eng Here, the plane seems to direct you to the north.  Also, the plane
+continues to the west.
+@rus Плоскость направляет тебя на север... Но можно пойти и на запад.
+~
+0 0 field
+D0 0
+Плоскость продолжается на север. Края не видно.
+~
+~
+Z -1 9005
+D3 0
+Плоскость продолжается на запад. Края не видно.
+~
+~
+Z -1 9001
+S
+#9004
+@eng A Change in Direction@rus Поворот~
+@eng Here, the plane goes to the north and bends to the east
+@rus Плоскость изгибается между севером и востоком.
+~
+0 0 field
+D0 0
+Безграничная Плоскость.
+~
+~
+Z -1 9006
+D1 0
+Безграничная Плоскость.
+~
+~
+Z -1 9002
+S
+#9005
+@eng A North-South direction of the plane@rus Трасса Север-Юг~
+@eng The plane continues to the north and south
+@rus Опять все та же безграничная плоскость... на север и юг.
+Тебе становится тоскливо.
+~
+0 0 field
+D0 0
+На север Плоскость простирается насколько доступно глазу.
+~
+~
+Z -1 9012
+D2 0
+На юг Плоскость простирается насколько доступно глазу.
+~
+~
+Z -1 9003
+S
+#9006
+@eng A North-South stretch of the plane@rus Направление Север-Юг~
+@eng The plane continues to the north and the south
+@rus Плоскость простирается на юг и север.
+~
+0 0 field
+D0 0
+На север Плоскость простирается насколько доступно глазу.
+~
+~
+Z -1 9013
+D2 0
+На юг Плоскость простирается насколько доступно глазу.
+~
+~
+Z -1 9004
+S
+#9007
+@eng In the Tower of Nirvana@rus В Башне Нирваны~
+@eng Entering the tower, there seems to be enough light to see by, but 
+no source is visible.  The hall continues to the east, while a door 
+lies to the west.
+@rus Ты вошел в Башню. Здесь достаточно света, чтобы видеть, но совершенно
+непонятно откуда он исходит. Холл продолжается на восток, на западе дверь.
+~
+0 D inside
+D1 0
+Холл продолжается на восток.
+~
+~
+Z -1 9010
+D3 0
+Большая дверь.
+~
+door~
+AFZ -1 9013
+S
+#9008
+@eng A hallway in the Tower of Nirvana@rus Проход в Башне Нирваны~
+@eng You are in a east-west hallway in the tower.  to the west, the hall continues 
+and a door lies to the east.
+@rus Ты в восточнозападном проходе Башни. Ты можешь пойти на запад и выйти в 
+холл или через дверь на восток.
+~
+0 D inside
+D1 0
+Большая дверь веден на восток.
+~
+door~
+AFZ -1 9012
+D3 0
+Проход продолжается на запад.
+~
+~
+Z -1 9009
+S
+#9009
+@eng An east-west hallway in the Tower of Nirvana@rus Проход Восток-Запад~
+@eng The hallway continues to the east, and stretches to the west.
+@rus Проход идет с востока на запад... или с запада на восток...
+~
+0 D inside
+D1 0
+Проход продолжается на восток.
+~
+~
+Z -1 9008
+D3 0
+Проход продолжается на запад.
+~
+~
+Z -1 9011
+S
+#9010
+@eng An east-west passage in the Tower of Nirvana@rus Коридор восток-запад~
+~
+0 D inside
+D1 0
+Проход продолжается на восток.
+~
+~
+Z -1 9011
+D3 0
+Проход продолжается на восток.
+~
+~
+Z -1 9007
+S
+#9011
+@eng An intersection in the Tower of Nirvana@rus Пересечение проходов~
+@eng You are at an intersection where the east-west passage continues, but a large 
+passage leads to the north.
+@rus Ты на перекрестке. Большой коридор ведет на север, а старый проход
+продолжается на восток и запад.
+~
+0 D inside
+D0 0
+Большой коридор ведет на север и становится там шире.
+~
+~
+Z -1 9023
+D1 0
+Проход продолжается на восток.
+~
+~
+Z -1 9009
+D3 0
+Проход продолжается на запад.
+~
+~
+Z -1 9010
+S
+#9012
+@eng At the door to the Tower of Nirvana@rus Перед дверью в Башню~
+@eng You stand on the plane where a mighty door lies to the west. The 
+plane also continues north and southward.  There is a large sign 
+on the door.
+@rus Ты стоишь на Плоскости перед огромной дверью, закрывающей западное
+направление. Ты можешь идти по Плоскости на север или юг... или 
+пройти в дверь. Кстати, на ней большой знак ({Wsign{x).
+~
+0 0 field
+E ''
+sign~
+@eng WARNING!
+Only those brave of heart and high of level
+should attempt to enter the Tower of Nirvana.
+@rus {R               ВНИМАНИЕ!{x
+Только те кто храбры сердцем и достигли мастерства
+могут войти в Башню Нирваны. 
+~
+D0 0
+Плоскость простирается на север и границ не видно.
+~
+~
+Z -1 9014
+D2 0
+Плоскость простирается на юг и границ не видно.
+~
+~
+Z -1 9005
+D3 0
+Большая дверь закрывает проход.
+~
+door~
+AFZ -1 9008
+S
+#9013
+@eng At the door to the Tower of Nirvana@rus Перед дверью в Башню~
+@eng The plane continue to the north and south, while a mighty door lies to the 
+east. There is a sign on the door.
+@rus Ты стоишь на Плоскости перед огромной дверью, закрывающей восточное
+направление. Ты можешь идти по Плоскости на север или юг... или 
+пройти в дверь. Кстати, на ней большой знак ({Wsign{x).
+~
+0 0 field
+E ''
+sign~
+@eng The sign reads:
+WARNING!
+Only those brave of heart and high of level
+should attempt to enter the Tower of Nirvana.
+@rus {R               ВНИМАНИЕ!{x
+Только те кто храбры сердцем и достигли мастерства
+могут войти в Башню Нирваны.
+~
+D0 0
+Плоскость простирается на север и границ не видно.
+~
+~
+Z -1 9015
+D1 0
+Большая дверь закрывает проход.
+~
+door~
+AFZ 0 9007
+D2 0
+Плоскость простирается на юг и границ не видно.
+~
+~
+Z -1 9006
+S
+#9014
+@eng A north-south area of the Plane of Nirvana@rus Зона Север-Юг~
+@eng The plane continues to the north and southward.
+@rus Безграничная Плоскость простирается на север и юг.
+~
+0 0 field
+D0 0
+На севере продолжается Плоскость. А ты чего ждал?
+~
+~
+Z -1 9027
+D2 0
+На юг продолжается Плоскость. А ты чего ждал?
+~
+~
+Z -1 9012
+S
+#9015
+@eng A north-south area of the Plane of Nirvana@rus Зона Север-Юг~
+@eng The plane continues to the north and south.
+@rus Безграничная Плоскость простирается на север и юг.
+~
+0 0 field
+D0 0
+На севере продолжается Плоскость. А ты чего ждал?
+~
+~
+Z -1 9028
+D2 0
+На юге продолжается Плоскость. А ты чего ждал?
+~
+~
+Z -1 9013
+S
+#9016
+@eng Dead End@rus Тупик~
+@eng You stand at a dead end where the only exit appears to be west.
+@rus Ты оказался в тупике с единственным выходом - на запад.
+~
+0 D inside
+D3 0
+Проход ведет на запад.
+~
+~
+Z -1 9018
+S
+#9017
+@eng Dead End@rus Тупик~
+@eng You are at what appears to be a dead end.  The only exit is back east.
+@rus Ты оказался в тупике с единственным выходом - на восток.
+~
+0 D inside
+D1 0
+Проход ведет на восток.
+~
+~
+Z -1 9019
+S
+#9018
+@eng A Tertain's lair@rus Логово Тертайнов~
+@eng You quite possibly have made a terrible mistake coming in here.
+Exits lead east and west.
+@rus Не ислючено что сделал УЖАСНУЮ ошибку зайдя сюда... Ты думаешь, 
+что лучше бы уйти на восток или запад, лишь бы поскорее.
+~
+0 D inside
+D1 0
+Проход продолжается на восток.
+~
+~
+Z -1 9016
+D3 0
+На западном направлении ты видишь яркий свет.
+~
+~
+Z -1 9020
+S
+#9019
+@eng A Tertain's lair@rus Логово Тертайнов~
+@eng You might have made a terrible mistake coming into here.
+Exits lead east and west.
+@rus Не ислючено что сделал УЖАСНУЮ ошибку зайдя сюда... Ты думаешь, 
+что лучше бы уйти на восток или запад, лишь бы поскорее.
+~
+0 D inside
+D1 0
+На восточном направлении ты видишь яркий свет.
+~
+~
+Z -1 9020
+D3 0
+Проход продолжается на запад.
+~
+~
+Z -1 9017
+S
+#9020
+@eng The Lair of Primus@rus Логово Примуса~
+@eng You are in a large hall, with a massive pool of what appears to be pure energy 
+in the center of the room.  Exits lead in all the cardinal directions.  From 
+the pool rises the master of the Plane of Nirvana....
+@rus Ты в центре огромной комнаты, с большим бассейном в центре заполненным
+чистой энергией. Из него поднимается правитель Нирваны...
+Выходы ведут во все стороны.
+~
+0 D inside
+D0 0
+Проход ведет в неведомое.
+~
+~
+Z -1 9024
+D1 0
+Проход ведет в неведомое.
+~
+~
+Z -1 9018
+D2 0
+Проход ведет в неведомое.
+~
+~
+Z -1 9021
+D3 0
+Проход ведет в неведомое.
+~
+~
+Z -1 9019
+S
+#9021
+@eng A Tertain's lair@rus Логово Тертайнов~
+@eng Maybe coming here wasn't such a hot idea.  You feel very unwelcome here.  
+Exits lead north and south
+@rus Скорее всего заход сюда был хреновой идеей. Чуствуется что ты здесь
+нежеланный гость. Выходы ведут на север и юг.
+~
+0 D inside
+D0 0
+На северном направлении ты видишь яркий свет.
+~
+~
+Z -1 9020
+D2 0
+Проход ведет в неведомое.
+~
+~
+Z -1 9022
+S
+#9022
+@eng The office of a Quinton@rus Оффис Квинтона~
+@eng You have stumbled upon the office of a page to Primus.
+Scrolls lie about the room along with many strange objects...you can't imagine 
+what kind of creature would use them.  Exits lead in all the cardinal 
+directions.
+@rus Ты вошел в оффис советника Примуса. Свитки разбросаны по всей комнате вместе
+с другими странными предметами... ты не можешь даже представить кто 
+использует их. Выходы ведут во всех основных направлениях.
+~
+0 D inside
+D0 0
+Проход ведет на север и там ничего не видно.
+~
+~
+Z -1 9021
+D1 0
+Проход идет на восток. Ты чуствуешь, что ходить туда не стоит.
+~
+~
+Z -1 9046
+D2 0
+Проход идет на юг, в неизвестность.
+~
+~
+Z -1 9023
+D3 0
+Проход идет на запад, в неизвестность.
+~
+~
+Z -1 9053
+S
+#9023
+@eng A wide north-south passageway@rus Широкий проход север-юг~
+@eng you find yourself in a passage where the exits are north and south
+@rus Ты обнаруживаешь себя в проходе ведущем с севера на юг... или наоборот.
+~
+0 D inside
+D0 0
+На севере ты замечаешь пересечение проходов.
+~
+~
+Z -1 9022
+D2 0
+На юге что то похоже на слияние проходов.
+~
+~
+Z -1 9011
+S
+#9024
+@eng A Tertain's lair@rus Логово Тертайнов~
+@eng You find yourself in a lair of a Tertian.  Exits lead north and south.
+@rus Ты в логове Тертайнов. Выходы на север и юг.
+~
+0 D inside
+D0 0
+На севере ты замечаешь пересечение проходов.
+~
+~
+Z -1 9025
+D2 0
+На юге ты видишь яркий свет.
+~
+~
+Z -1 9020
+S
+#9025
+@eng A north south tunnel@rus Туннель север-юг~
+@eng You are in a passage where the only exits are north and south.
+@rus Ты в туннеле. Выбирай куда пойти - на юг или на север.
+~
+0 D inside
+D0 0
+Вдали на севере ты видишь дверь.
+~
+~
+Z -1 9026
+D2 0
+Смотря на юг ты смотришь в тьму.
+~
+~
+Z -1 9024
+D3 0
+~
+~
+Z 0 9039
+S
+#9026
+@eng An intersection of passages@rus Пересечение проходов~
+@eng You stand at an intersection.  Exits lead off to the east and south. 
+A door lies to the north
+@rus Ты на перепутье. Выходы на восток и юг. Северный проход закрыт дверью.
+~
+0 D inside
+D0 0
+Ты видишь массивную дверь.
+~
+door~
+AFZ 0 9031
+D1 0
+На востоке темный проход.
+~
+~
+Z -1 9032
+D2 0
+Смотря на юг ты смотришь в неизвестность.
+~
+~
+Z -1 9025
+S
+#9027
+@eng A change of direction@rus Смена направления~
+@eng The plane curves from the south to west
+@rus Плоскость изгибается с юга на запад.
+~
+0 0 field
+D2 0
+На юге бесконечная Плоскость.
+~
+~
+Z -1 9014
+D3 0
+На юге бесконечная Плоскость.
+~
+~
+Z -1 9030
+S
+#9028
+@eng A change of direction@rus Смена направления~
+@eng Here, the plane takes a turm from the south to heading east.
+@rus Плоскость поворачивает с юга на восток.
+~
+0 0 field
+D1 0
+Плоскость идет на восток, и конца как всегда не видно.
+~
+~
+Z -1 9029
+D2 0
+Плоскость идет на юг, и конца как всегда не видно.
+~
+~
+Z -1 9015
+S
+#9029
+@eng An east-west route on the Plane of Nirvana@rus Путь восток-запад~
+@eng Exits lead east and west.
+@rus Выходы ведут на восток и запад.
+~
+0 0 field
+D1 0
+Далеко на востоке ты видишь дверь.
+~
+~
+Z -1 9031
+D3 0
+Где то вдали ты видишь поворот на юг.
+~
+~
+Z -1 9028
+S
+#9030
+@eng An east-west route on the Plane of Nirvana@rus Путь восток-запад~
+@eng Exits lead east and west
+@rus Выходы ведут на восток и запад.
+~
+0 0 field
+D1 0
+Где то вдали ты замечаешь поворот.
+~
+~
+Z -1 9027
+D3 0
+Далеко на западе ты видишь дверь.
+~
+~
+Z -1 9031
+S
+#9031
+@eng A large door in the passage@rus Большая дверь в проходе~
+@eng The passages goes east and west, with a large door to the south.
+@rus Проход идет на запад и восток. На юг - большая дверь.
+~
+0 0 field
+D1 0
+Смотря на восток ты видишь продолжение прохода.
+~
+~
+Z -1 9030
+D2 0
+Большая дверь закрывает путь на юг.
+~
+door~
+AFZ 0 9026
+D3 0
+Смотря на запад ты видишь продолжение прохода.
+~
+~
+Z -1 9029
+S
+#9032
+@eng A Junction in the passage@rus Развилка~
+@eng Here, passages lead off in all cardinal directions.
+@rus Отсюда ты можешь пойти в любом из основных направлений.
+~
+0 D inside
+D0 0
+Где то вдали расположена маленькая комната.
+~
+~
+Z -1 9033
+D1 0
+Проход уходит в тьму.
+~
+~
+Z -1 9035
+D2 0
+На юге маленькая комната.
+~
+~
+Z -1 9034
+D3 0
+На западе ты видишь пересечение.
+~
+~
+Z -1 9026
+S
+#9033
+@eng The office of the Octon@rus Оффис Октона~
+@eng you are in a small room, the only exit is south.
+@rus Ты в маленькой комнате с единственным выходом на юг.
+~
+0 D inside
+D2 0
+Ты видишь пересечение.
+~
+~
+Z -1 9032
+S
+#9034
+@eng A small room@rus Маленькая комната~
+@eng The only exit is north
+@rus Единственный выход ведет на север.
+~
+0 D inside
+D0 0
+На севере ты видишь пересечение.
+~
+~
+Z -1 9032
+S
+#9035
+@eng A passageway@rus Проходы~
+@eng Exits lead in all cardinal directions.
+@rus Выходы на все основные направления.
+~
+0 D inside
+D0 0
+Посмотрев на север ты видишь комнату среднего размера.
+~
+~
+Z -1 9036
+D1 0
+На востоке ты видишь большую комнату.
+~
+~
+Z -1 9038
+D2 0
+Посмотрев на юг ты видишь комнату среднего размера.
+~
+~
+Z -1 9037
+D3 0
+На западе ты видишь пересечение.
+~
+~
+Z -1 9032
+S
+#9036
+@eng Lair of a Hexton@rus Логово Хекстона~
+@eng You are in a room that is in complete disrepair.  Items are thrown throughout 
+the room making them worthless piles of junk.
+The only exit is back south
+@rus В этой комнате творится полный бардак. Вещи разбросаны по всей комнате,
+хотя нет, они собраны в кучи бесполезного барахла. На стене висит плакат
+с Негрошварцем в роли Фумигатора. По углам валяются банки с надписью
+Rocket Fuel. Вместо пива у них наверно. Единственный выход - на юг.
+~
+0 D inside
+D2 0
+Там проход.
+~
+~
+Z -1 9035
+S
+#9037
+@eng Office of a Hexton@rus Оффис Хекстона~
+@eng A makeshift desk forms the center of this room.  The only exit is north.
+@rus Посередине комнаты стоит стол. На нем факс, куча телефонов и прочие
+признаки бюрократизма. На стене висит календарь 2000 года, испещренный
+пометками.
+~
+0 D inside
+D0 0
+На север ты видишь проход.
+~
+~
+Z -1 9035
+S
+#9038
+@eng Office of a Secundus@rus Оффис Секундуса~
+@eng You are standing in a office of one of the Viceroys of the Plane of Nirvana.  
+The occupant doesn't look real thrilled with your presence.  The only exits is 
+west.
+@rus Это оффис управляющего Плоскости Нирваны. На полу лежит красивый ковер, 
+сплетенный из проводочков и шлейфов. И где он такой надыбал? Единственный
+выход на запад.
+~
+0 D inside
+D3 0
+На западе длинный проход.
+~
+~
+Z -1 9035
+S
+#9039
+@eng A Junction in the hallway@rus Пересечение проходов~
+@eng Your are standing in a junction, exits lead in all the cardinal directions.
+@rus Ты стоишь на пересечении проходов, выходы ведут во все стороны. 
+Неожиданно ты слышишь таинственный шепот: "Виндовз маздай форева".
+Ты поражен глубоким смыслом этой фразы.
+~
+0 D inside
+D0 0
+Там маленькая комната.
+~
+~
+Z -1 9040
+D1 0
+~
+~
+Z 0 9025
+D2 0
+Там маленькая комната.
+~
+~
+Z -1 9041
+D3 0
+Продолжение прохода.
+~
+~
+Z -1 9042
+S
+#9040
+@eng Office of an Octon@rus Оффис Октона~
+@eng You see a messy room with papers scattered everywhere.
+The only exit leads back to the south
+@rus Эта комната завалена всякими бумажными документами. На безбумажную
+технологию у Октона наверное не хватает денег. Единственный выход
+ведет на юг.
+~
+0 D inside
+D2 0
+На юге пересечение проходов.
+~
+~
+Z -1 9039
+S
+#9041
+@eng Office of a Septon@rus Оффис Септона~
+@eng A neat and tidy room, it appear to be inhabited my a neatenss freak.  The only 
+exit lies to the north.
+@rus Очень маленькая комната, можно даже сказать крошечная. Единственный
+выход ведет на север.
+~
+0 D inside
+D0 0
+На севере пересечение проходов.
+~
+~
+Z -1 9039
+S
+#9042
+@eng An east-west passage@rus Восточно-западный проход~
+@eng In east west passage is here with exits in all of the cardinal directions.
+@rus Отсюда ты можешь пойти в любом направлении. Сначала подумай куда ты
+хочешь... а потом иди куда попало.
+~
+0 D inside
+D0 0
+На севере какая-то комната.
+~
+~
+Z -1 9043
+D1 0
+На востоке пересечение коридоров.
+~
+~
+Z -1 9039
+D2 0
+На юге комната средних размеров.
+~
+~
+Z -1 9044
+D3 0
+На западе расположена комната.
+~
+~
+Z -1 9045
+S
+#9043
+@eng The Barracks@rus Барраки~
+@eng A dusty room, with a almost untolerable odor, the barracks are being inspected 
+by a Hexton and his personal enterage.
+The only exit lies to the south.
+@rus Пыльная комната. Стены настолько покрыты грязью, что непонятно какого они
+цвета. Здесь живет Хекстон и его подчиненные. Единственный выход ведет 
+на юг.
+~
+0 D inside
+D2 0
+На юге пересеченние корридоров.
+~
+~
+Z -1 9042
+S
+#9044
+@eng The Commander's Post@rus Комната Командира~
+@eng You have stumbled on to the office of the Commander of the forces in the Plane 
+Of Nirvana.  The room is well furnished and a sense of courage and bravery 
+overtakes you as you enter the room.  The only exit lies to the north.
+@rus Это оффис Коммандующего Вооруженными Силами Плоскости Нирвана. Здесь
+царит порядок и чистота. Воздух пропитан атмосферой {Wхрабрости{x.
+Единственный выход ведет на север.
+~
+0 D inside
+D0 0
+To the north you can visualize a junction of passages.
+~
+~
+Z -1 9042
+S
+#9045
+@eng The chamber of the second Secundus@rus Комната Секундуса~
+@eng This huge room is furnished with the finest, and a personal legion guards the 
+Secundus. the only exit is to the east.
+@rus Огромная комната, красиво оформленная. Здесь живет Секундус. 
+Единственный вход на востоке.
+~
+0 D inside
+D1 0
+To the east you can see a junction
+~
+~
+Z -1 9042
+S
+#9046
+@eng A Passageway@rus Корридор~
+@eng Ты стоишь в хорошо освещенном корридоре. Вроде бы все тихо, но тебя
+заполняет чуство опасности. Отсюда можно пойти в люом основном направлении.
+@rus Ты стоишь в хорошо освещенном корридоре. Вроде бы все тихо, но тебя
+заполняет чуство опасности. Отсюда можно пойти в любом основном
+направлении.
+~
+0 D inside
+D0 0
+На севере видно небольшую комнату.
+~
+~
+Z -1 9047
+D1 0
+На востоке продолжается корридор.
+~
+~
+Z -1 9049
+D2 0
+Там видно какую-то комнату.
+~
+~
+Z -1 9048
+D3 0
+На западе большой туннель.
+~
+~
+Z -1 9022
+S
+#9047
+@eng Chamber of the Octon@rus Кабинет Октона~
+@eng You are in a well lit passage.  A sense of forboding danger envelopes you.  
+Exits lead in all cardinal directions.
+@rus Маленькая, хорошо обставленная комната. Все тихо и спокойно, но почему то
+тебя заполняет чуство страха. Единственный выход ведет на юг.
+~
+0 D inside
+D2 0
+На юге какойто корридор.
+~
+~
+Z -1 9046
+S
+#9048
+@eng Chamber of the Nonaton@rus Кабинет Нонатона~
+@eng A small room, sparsely furnished, it leaves you with a sense of fear.  The 
+only exit is to the south
+@rus Ты вошел в кабинет Надзирающего за законом и порядком. Так и хочется
+встать по стойке "смирно" и предъявить документы. Единственный выход
+ведет на север.
+~
+0 D inside
+D0 0
+На севере какойто корридор.
+~
+~
+Z -1 9046
+S
+#9049
+@eng End of the passageway@rus Конец корридора~
+@eng You have reached the end of a long east-west passage.  The passage contiues to 
+the west, and rooms lie to the north, south, and east.
+@rus Ты дошел до конца длинного прохода. Ты можешь идти на запад, или в любую
+из комнат - на север, юг или восток. Выбирай.
+~
+0 D inside
+D0 0
+На севере какаято комната.
+~
+~
+Z -1 9050
+D1 0
+На востоке большой кабинет.
+~
+~
+Z -1 9052
+D2 0
+На юге какая-то комната.
+~
+~
+Z -1 9051
+D3 0
+На западе тянется проход.
+~
+~
+Z -1 9046
+S
+#9050
+@eng Chamber of a Hexton@rus Кабинет Хекстона~
+@eng You have entered the chamber of a Hexton.  Trophies adorn the walls, some of 
+which are human. the only exit is to the south.
+@rus Ты вошел в кабинет Хекстона. По стенам развешаны всякие трофеи... некоторые
+из них сняты с человека... или были частью человека. Бррр.....
+Единственный выход на юг.
+~
+0 D inside
+D2 0
+На юге ты видишь корридор.
+~
+~
+Z -1 9049
+S
+#9051
+@eng Chamber of a Hexton@rus Комната Хекстона~
+@eng You have entered a room where you are not very popular. The only exit lies 
+northbound.
+@rus Похоже, в эту комнату редко кто заглядывает. Единственный выход ведет
+на север.
+~
+0 D inside
+D0 0
+На севере ты видишь корридор.
+~
+~
+Z -1 9049
+S
+#9052
+@eng Chamber of the Secudus@rus Комната Секундуса~
+@eng A large canvernous room, this chamber serves as the sleeping quarters for the 
+third Secudus, Viceroy to Primus. The only exit lies to the west.
+@rus Эта большая комната служит спальней Секундуса, третьего управляющего.
+Единственный выход ведет на запад.
+~
+0 D inside
+D3 0
+На западе ты видишь корридор.
+~
+~
+Z -1 9049
+S
+#9053
+@eng A passageway@rus Корридор~
+@eng You are in a passagway where you may go in any cardinal direction.
+@rus Ты стоишь в корридоре. Все тихо и спокойно. Можно пойти в любом
+из основных направлений.
+~
+0 D inside
+D0 0
+На севере маленькая комната.
+~
+~
+Z -1 9054
+D1 0
+На востоке корридор образует разветвление.
+~
+~
+Z -1 9022
+D2 0
+На юге ты видишь маленькую комнату.
+~
+~
+Z -1 9055
+D3 0
+На западе продолжается корридор.
+~
+~
+Z -1 9059
+S
+#9054
+@eng A small chamber@rus Маленькая комната~
+@eng You are in a small cramped chamber.  The only exit lies to the south.
+@rus Ты стоишь в маленькой комнате непонятного назначения. Единственный выходв
+ведет на юг.
+~
+0 D inside
+D2 0
+На юге какойто корридор.
+~
+~
+Z -1 9053
+S
+#9055
+@eng A cramped room@rus Тесная комната~
+@eng You are in a small, crowded room.  The only exit appears to lie to the north.
+@rus Ты в маленькой комнате. Единственный выход ведет на север.
+~
+0 D inside
+D0 0
+На севере какой-то корридор.
+~
+~
+Z -1 9053
+S
+#9056
+@eng A large room@rus Большая комната~
+@eng You have entered a room where you are not wanted.  The only exit lies to the 
+south.
+@rus Ты стоишь в большоей комнате и думаешь "А что я тут собственно делаю?" 
+Единственный выход ведет на юг.
+~
+0 D inside
+D2 0
+На юге выход в восточнозападный корридор.
+~
+~
+Z -1 9059
+S
+#9057
+@eng A room@rus Просто комната~
+@eng You have entered a room where there was obviously a hurried move going on.  
+The only exit lies to the north.
+@rus Ты стоишь в комнате. Ничего в ней особенного... кроме следов крови на полу.
+Выход на север.
+~
+0 D inside
+D0 0
+Там, на севере, какой-то проход.
+~
+~
+Z -1 9059
+S
+#9058
+@eng Chamber of The First Secundus@rus Комната Секундуса~
+@eng You have disturbed the rest of the First Viceroy to Primus the Prime, The 
+Secundus. He does not look like a happy camper. The only exit lies to the 
+east.
+@rus Ты находишься в комнате отдыха Первого Помощника Управляющего, Секундуса.
+Единственный выход на восток.
+~
+0 D inside
+D1 0
+На востоке корридор.
+~
+~
+Z -1 9059
+S
+#9059
+@eng Junction in the hallway@rus Развилка~
+@eng Exits lead off in all of the cardinal directions
+@rus Развилка. Выходы во все основные направления.
+~
+0 D inside
+D0 0
+На севере большая комната.
+~
+~
+Z -1 9056
+D1 0
+На востоке корридор.
+~
+~
+Z -1 9053
+D2 0
+На юге небольшая комната.
+~
+~
+Z -1 9057
+D3 0
+На западе огромная комната.
+~
+~
+Z -1 9058
+S
+#0
+
+#RESETS
+M 0 9001 9 9001 3	* quadrone (The Plane of Nirvana)
+M 0 9000 10 9002 2	* the tridrone (The Plane of Nirvana)
+M 0 9000 10 9003 2	* the tridrone (A Change in Direction)
+M 0 9002 6 9011 1	* the pentadrone (An intersection in the Tower of Nirvana)
+M 0 9001 9 9012 3	* quadrone (At the door to the Tower of Nirvana)
+M 0 9000 10 9013 2	* the tridrone (At the door to the Tower of Nirvana)
+M 0 9008 4 9016 1	* the quinton (Dead End)
+M 0 9008 4 9017 1	* the quinton (Dead End)
+M 0 9009 4 9018 1	* the tertian (A Tertain's lair)
+M 0 9009 4 9019 1	* the tertian (A Tertain's lair)
+M 0 9011 1 9020 1	* Primus (The Lair of Primus)
+E 0 9000 0 16		*	{WTHE {Wl{wo{Wn{wg {Ws{ww{Wo{wr{Wd{x: wielded
+M 0 9009 4 9021 1	* the tertian (A Tertain's lair)
+M 0 9008 4 9022 1	* the quinton (The office of a Quinton)
+M 0 9009 4 9024 1	* the tertian (A Tertain's lair)
+M 0 9008 4 9025 1	* the quinton (A north south tunnel)
+M 0 9000 10 9027 2	* the tridrone (A change of direction)
+M 0 9001 9 9028 3	* quadrone (A change of direction)
+M 0 9000 10 9029 2	* the tridrone (An east-west route on the Plane of Nirvana)
+M 0 9002 6 9031 1	* the pentadrone (A large door in the passage)
+M 0 9005 4 9033 1	* the octon (The office of the Octon)
+M 0 9006 2 9034 1	* the septon (A small room)
+M 0 9007 8 9036 1	* the hexton (Lair of a Hexton)
+M 0 9007 8 9037 1	* the hexton (Office of a Hexton)
+M 0 9002 6 9038 1	* the pentadrone (Office of a Secundus)
+M 0 9010 4 9038 1	* secundus (Office of a Secundus)
+O 0 9002 0 9038	* Gem (Office of a Secundus)
+M 0 9005 4 9040 1	* the octon (Office of an Octon)
+M 0 9006 2 9041 1	* the septon (Office of a Septon)
+M 0 9007 8 9043 1	* the hexton (The Barracks)
+M 0 9007 8 9044 1	* the hexton (The Commander's Post)
+M 0 9002 6 9045 1	* the pentadrone (The chamber of the second Secundus)
+M 0 9010 4 9045 1	* secundus (The chamber of the second Secundus)
+M 0 9005 4 9047 1	* the octon (Chamber of the Octon)
+M 0 9004 1 9048 1	* nonaton (Chamber of the Nonaton)
+G 0 9001 0		*	a luminescent moonstone
+M 0 9007 8 9050 1	* the hexton (Chamber of a Hexton)
+M 0 9007 8 9051 1	* the hexton (Chamber of a Hexton)
+M 0 9002 6 9052 1	* the pentadrone (Chamber of the Secudus)
+M 0 9010 4 9052 1	* secundus (Chamber of the Secudus)
+M 0 9005 4 9054 1	* the octon (A small chamber)
+M 0 9003 1 9055 1	* the decaton (A cramped room)
+M 0 9007 8 9056 1	* the hexton (A large room)
+M 0 9007 8 9057 1	* the hexton (A room)
+M 0 9002 6 9058 1	* the pentadrone (Chamber of The First Secundus)
+M 0 9010 4 9058 1	* secundus (Chamber of The First Secundus)
+S
+
+#OLIMITS
+O 9000 5	* {WTHE {Wl{wo{Wn{wg {Ws{ww{Wo{wr{Wd{x
+S
+
+#$

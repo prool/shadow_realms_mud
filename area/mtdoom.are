@@ -1,0 +1,4636 @@
+#AREADATA
+Name Kurgan Mount Doom~
+VNUMs 14700 14850
+Credits Yaegar~
+Security 5
+LevelRange 45 65
+End
+
+#MOBILES
+#14700
+lord krothgar~
+@eng the Lord Krothgar@rus ~~лорд~~ ~~Кротгар~~~
+@eng The Lord Krothgar glares balefully at you.
+@rus Лорд Кротгар зло смотрит на тебя.
+~
+@eng Krothgar, standing at over eight feet tall and clad in full spiked black
+plate mail, is an imposing... man. It is said his fists have the power to
+rend the very earth asunder if he is angered. It is small wonder the dark
+powers have chosen him as their fell agent on Anon.
+@rus Человек ростом выше восьми футов облачен в полный пластинчатый доспех
+с шипами. Цвет одежд и доспеха - черный. Производит впечатление... 
+Говорят, что если его как следует разозлить, лорд может перевернуть мир. 
+Ничего удивительного, что Темные Силы выбрали его своим представителем 
+в Аноне.
+~
+human~
+ABG CDEJNu -725 0
+65 0 50d10+8250 5d5+5000 11d5+35 pound
+35 35 35 5
+EFHIJKNU A C 0
+stand stand male 15
+0 0 medium unknown
+#14701
+death knight~
+@eng a death knight@rus ~~рыцарь~~ смерти~
+@eng A death knight gazes evilly at you.
+@rus Рыцарь смерти злобно уставился на тебя.
+~
+@eng This fellow and his comrades are servants of the demon lord Marmandes, and
+will take only his orders, despite the fact that Krothgar could probably
+crush him (and definitely them) with little effort. Krothgar tolerates their
+presence in honor of the alliance he has forged with the dark powers to
+facilitate the conquest of Anon.
+@rus Это существо и подобные ему служат лорду-демону Мармандису. Они покорны
+лишь его слову, несмотря на то, что Кротгар может уничтожить лорда-демона 
+(как и самих рыцарей) особо не напрягаясь. Кротгар терпит их пристуствие 
+в знак доброй воли союзным темным силам, которые помогают ему в завоевании 
+Анона.
+~
+human~
+ABG DJu -680 0
+56 0 50d10+5750 5d5+5000 10d4+24 punch
+26 26 26 2
+BCEGK A D H
+stand stand male 2
+0 0 medium unknown
+#14702
+iron golem~
+@eng an iron golem@rus ~~железный~~ ~~голем~~~
+@eng An iron golem stands ready to rend his master's enemies apart.
+@rus Железный голем готов разорвать на части врагов своего хозяина.
+~
+@eng This soulless automaton was created by Krothgar's fell scientist-mages to
+serve him as a bodyguard (for appearance's sake only- he scarcely has need
+of one) and an executioner. It will kill on a command.
+@rus Созданный магами учеными Кротгара бездушный автомат служит ему 
+телохранителем (одна видимость - лорд сам кого хочешь запугает до смерти) 
+и палачем. Без раздумий, повинуясь одному слову лорда, он убьет.
+~
+golem~
+ABG 0 0 0
+50 0 50d10+4250 5d5+5000 5d8+19 pound
+20 20 20 0
+EFNU 0 0 0
+stand stand male 0
+0 0 medium unknown
+#14703
+marmandes demon prince~
+@eng the demon prince Marmandes@rus ~~принц~~-~~демон~~ ~~Mармандис~~~
+@eng The demon prince Marmandes watches you curiously.
+@rus Принц-демон Мармандис с любопытсвом рассматривает тебя.
+~
+@eng Marmandes has been sent here by his evil masters to observe and aid their
+servant Krothgar, and as such he will prefer to avoid direct combat, being
+greatly weaker on this plane than on his native, and being eager to see how
+Krothgar performs. This does not mean that he will fail to defend himself
+to the best of his considerable abilities if the need arises.
+@rus Мармандис послан сюда Темными Силами для помощи и наблюдения за
+их верным слугой Кротгаром. Принц предпочитает не вступать в прямой бой, 
+чувствуя себя здесь много слабее, чем в родном плейне. Он лучше будет
+наблюдать, как с тобой расправляется Кротгар. Но это не значит, что 
+Мармандис не способен защитить себя, если возникнет такая необходимость.
+~
+unique~
+ABG CDEFJu -700 0
+60 0 50d10+6750 5d5+5000 8d6+28 pierce
+30 30 30 3
+EFIKU 0 H N
+stand stand male 7
+0 0 large unknown
+#14704
+axtraxes arch mage~
+@eng axtraxes~
+@eng A vile arch mage screams at your intrusion and attacks!
+@rus При твоем появлении злой архимаг вскрикивает и атакует!
+~
+@eng This foul-tempered, evil man is Krothgar's magical assistant and adviser,
+and in charge of the dark lord's impressive force of mages. He is infuriated
+at your untimely interruption and reacts aggressively.
+@rus Этот отвратительный снаружи и внутри человечек - волшебник и советник
+лорда Кротгара. Он так же главный среди магов темного лорда. Акстраксис 
+в ярости бросается на тебя - ты помешал ему в очень важный момент!
+~
+human~
+ABFGH DEJu -670 0
+54 0 50d10+5250 5d5+5000 7d6+22 punch
+24 24 24 1
+EFIKNU A C D
+stand stand male 9
+0 0 medium unknown
+#14705
+high priest~
+@eng an evil high priest@rus ~~верховный~~ ~~жрец~~~
+@eng An evil high priest is angered by your sacrilege!
+@rus Верховный жрец разъярен твоим святотатством!
+~
+@eng You have interrupted this foul priest of unspeakable gods during a very
+critical ceremony! He is extremely angry, and so will his worshippers be...
+He is a total fanatic and will battle to the death.
+@rus Ты прервал этого омерзительного служителя Непроизносимых Богов во время 
+проведения важнейшего ритуала! Он очень зол, впрочем, как и его 
+последователи...
+Жрец преисполнен фанатизма и будет сражаться до смерти.
+~
+human~
+ABFG DJu -670 0
+54 0 50d10+5250 5d5+5000 7d6+22 pound
+24 24 24 1
+CDEFIJKNQ 0 0 0
+stand stand male 5
+0 0 medium unknown
+#14706
+elite guard~
+@eng an elite guard@rus ~~элитный~~ ~~страж~~~
+@eng An elite guard attempts to prevent you proceeding further.
+@rus Элитный страж преграждает тебе дорогу.
+~
+@eng This fellow is clad in full body spiked black plate mail just like his lord,
+and carries a HUGE spiked morning star, which he swings casually like it was
+but a wooden stick. He cries out upon spotting you, and prepares for combat.
+@rus Страж, подобно своему лорду, облачен в полный пластинчатый доспех черного 
+цвета покрытый шипами и вооружен ОГРОМНЫМ моргенштерном, который он небрежно 
+подбрасываети ловит, как обыкновенную палку. Заметив тебя, он криком 
+оповещает остальных о твоем появлении и готовится к бою.
+~
+human~
+ABFG J -650 0
+50 0 50d10+4250 5d5+5000 5d8+19 pound
+20 20 20 0
+CDEFIJKQ 0 0 0
+stand stand male 6
+0 0 medium unknown
+#14707
+destrier~
+@eng a destrier@rus ~~боевой~~ ~~конь~~~
+@eng A destrier, mount of some evil knight, snorts angrily at you.
+@rus Боевой конь злобно фыркает на тебя.
+~
+@eng This mammoth horse must weigh double any other equine steed you have ever
+seen. Its jet black coat seems to glow with an inner evil, and you gasp in
+astonishment at the satanic gleam in its dark red eyes.
+@rus Над тобой нависает черная громада, весящая должно быть вдвое больше 
+любого першерона. От гладкой блестящей шкуры исходят эманации зла. 
+Темно-красные адские огоньки глаз мерцают из глубоких глазниц. 
+От ужаса у тебя перехватывает дыхание.
+~
+unique~
+ABG J -600 0
+40 0 15d10+1850 5d5+1000 4d8+13 charge
+13 13 13 -3
+FKU 0 0 0
+stand stand male 0
+0 0 medium unknown
+#14708
+evil priest~
+@eng an evil priest@rus ~~жрец~~ зла~
+@eng An evil priest screams in fanatical fury!
+@rus Жрец пронзительно кричит в фанатичной ярости!
+~
+@eng This foul creature is one of the evil priests of the dark lord, and he is
+keen to send your soul to him!
+@rus Это отвратительное существо - слуга Темных Богов, и его цель отправить
+еще одну душу прямо в Ад!
+~
+human~
+ABG J -600 0
+40 0 15d10+1850 5d5+1000 4d8+13 punch
+13 13 13 -3
+EFIKNU 0 0 0
+stand stand male 2
+0 0 medium unknown
+#14709
+scientist mage~
+@eng an evil scientist mage@rus ~~маг~~-~~ученый~~~
+@eng An evil scientist mage roars in fury as you spoil his experiment!
+@rus Маг-ученый в ярости! Ты испортил эксперимент!
+~
+@eng You have burst in at a very inappropriate time, and spoiled years of work.
+Good ;)
+
+However, the vile mage who is now drooling insanely seems a little upset...
+@rus Ты пришел в очень неподходящее время, и пустил коту под хвост годы работы.
+Здорово %)
+{x
+Отвратительный маг, безумно размахивающий руками и что-то выкрикивающий, 
+кажется немного расстроен...
+~
+human~
+ABFGH EJ -625 0
+45 0 25d10+3000 5d5+1000 3d12+14 punch
+15 15 15 -2
+FIKU A C 0
+stand stand male 3
+0 0 medium unknown
+#14710
+blackguard guard~
+@eng a member of the blackguard@rus ~~черногвардеец~~~
+@eng A member of the blackguard charges toward you.
+@rus Черногвардеец атакует тебЯ!
+~
+@eng This guard is a meber of the blackguard, the fanatical warriors who make up
+the bulk of Lord Krothgar's evil army.
+@rus Перед тобой один из стражей Черной Гвардии, жестоких и преданных своему 
+повелителю воинов, из которых в основном и состоит армия лорда Кротгара.
+~
+human~
+ABFG J -640 0
+48 0 25d10+3750 5d5+1000 6d6+18 pound
+18 18 18 -1
+CDEFIJKQ 0 0 0
+stand stand male 5
+0 0 medium unknown
+#14711
+red dragon~
+@eng a red dragon@rus {R~~красный~~{x {R~~дракон~~{x~
+@eng A red dragon prepares to incinerate you.
+@rus Красный дракон готов испепелить тебя.
+~
+@eng This dragon is one of Krothgar's five favorites, and is loyal to its master.
+Huge teeth protrude from a mouth capable of spewing forth destructive matter
+and baleful eyes gleam dangerously from above this maw directly at you. You
+regret your intrusion.
+@rus Одна из пяти любимых домашних зверюшек Кротгара. Фанатично предан 
+хозяину. Огромные зубы торчат из пасти, спопособной извергать потоки 
+пламени. Поверх выпирающей утробы мрачно поблескивают красные глазки. 
+Ты УЖЕ сожалеешь, что пришел сюда.
+~
+red dragon~
+ABFG DFu -685 0
+57 0 50d10+6000 5d5+5000 6d8+24 claw
+27 27 27 2
+CEFM 0 0 0
+stand stand male 10
+0 0 medium unknown
+#14712
+black dragon~
+@eng a black dragon@rus {D~~черный~~{x {D~~дракон~~{x~
+@eng A black dragon prepares to incinerate you.
+@rus Черный дракон готов испепелить тебя.
+~
+@eng This dragon is one of Krothgar's five favorites, and is loyal to its master.
+Huge teeth protrude from a mouth capable of spewing forth destructive matter
+and baleful eyes gleam dangerously from above this maw directly at you. You
+regret your intrusion.
+@rus Одна из пяти любимых домашних зверюшек Кротгара. Фанатично предан 
+хозяину. Огромные зубы торчат из пасти, спопособной извергать потоки 
+пламени. Поверх выпирающей утробы мрачно поблескивают красные глазки. 
+Ты УЖЕ сожалеешь, что пришел сюда.
+~
+black dragon~
+ABFG CF -640 0
+48 0 25d10+3750 5d5+1000 6d6+18 claw
+90 90 90 60
+CEFM 0 0 0
+stand stand male 10
+0 0 medium unknown
+#14713
+white dragon~
+@eng a white dragon@rus {W~~белый~~{x {W~~дракон~~{x~
+@eng A white dragon prepares to incinerate you.
+@rus Белый дракон готов испепелить тебя.
+~
+@eng This dragon is one of Krothgar's five favorites, and is loyal to its master.
+Huge teeth protrude from a mouth capable of spewing forth destructive matter
+and baleful eyes gleam dangerously from above this maw directly at you. You
+regret your intrusion.
+@rus Одна из пяти любимых домашних зверюшек Кротгара. Фанатично предан 
+хозяину. Огромные зубы торчат из пасти, спопособной извергать потоки 
+пламени. Поверх выпирающей утробы мрачно поблескивают красные глазки. 
+Ты УЖЕ сожалеешь, что пришел сюда.
+~
+white dragon~
+ABFG DFu -625 0
+45 0 25d10+3000 5d5+1000 8d4+16 claw
+15 15 15 -2
+CEFM 0 0 0
+stand stand male 10
+0 0 medium unknown
+#14714
+blue dragon~
+@eng a blue dragon@rus {B~~синий~~{x {B~~дракон~~{x~
+@eng A blue dragon prepares to incinerate you.
+@rus Синий дракон готов испепелить тебя.
+~
+@eng This dragon is one of Krothgar's five favorites, and is loyal to its master.
+Huge teeth protrude from a mouth capable of spewing forth destructive matter
+and baleful eyes gleam dangerously from above this maw directly at you. You
+regret your intrusion.
+@rus Одна из пяти любимых домашних зверюшек Кротгара. Фанатично предан 
+хозяину. Огромные зубы торчат из пасти, спопособной извергать потоки 
+пламени. Поверх выпирающей утробы мрачно поблескивают красные глазки. 
+Ты УЖЕ сожалеешь, что пришел сюда.
+~
+blue dragon~
+ABFG DFu -670 0
+54 0 50d10+5250 5d5+5000 7d6+22 claw
+24 24 24 1
+CEFM 0 0 0
+stand stand male 10
+0 0 medium unknown
+#14715
+green dragon~
+@eng a green dragon@rus {G~~зеленый~~{x {g~~дракон~~{x~
+@eng A green dragon prepares to incinerate you.
+@rus Зеленый дракон готов испепелить тебя.
+~
+@eng This dragon is one of Krothgar's five favorites, and is loyal to its master.
+Huge teeth protrude from a mouth capable of spewing forth destructive matter
+and baleful eyes gleam dangerously from above this maw directly at you. You
+regret your intrusion.
+@rus Одна из пяти любимых домашних зверюшек Кротгара. Фанатично предан 
+хозяину. Огромные зубы торчат из пасти, спопособной извергать потоки 
+пламени. Поверх выпирающей утробы мрачно поблескивают красные глазки. 
+Ты УЖЕ сожалеешь, что пришел сюда.
+~
+green dragon~
+ABFG DFu -655 0
+51 0 50d10+4500 5d5+5000 5d8+20 claw
+21 21 21 0
+CEFM 0 0 0
+stand stand male 10
+0 0 medium unknown
+#14716
+fire elemental~
+@eng a fire elemental@rus ~~огненный~~ ~~элементал~~~
+@eng A fire elemental burns everything in sight.
+@rus Элементал огня сжигает все на своем пути.
+~
+@eng This magically-summoned being serves the mages of the tower- sometimes.
+@rus Это призванное существо выполняет повеления магов башни - иногда.
+~
+unique~
+ABFG 0 0 0
+53 0 50d10+5000 5d5+5000 6d7+21 magic
+23 23 23 1
+EF H 0 0
+stand stand male 0
+0 0 medium unknown
+#14717
+efreeti~
+@eng an efreeti@rus ~~ифрит~~~
+@eng An efreeti hovers above an iron flask here.
+@rus Тело ифрита поднимается над металическим сосудом.
+~
+@eng This being, summoned from the Elemental Plane of Fire by the flask on the
+floor, is not happy, for the power of the flask has been exhausted and he
+has no way of returning home. He reacted by slaying first the summoner, and
+now he will try to slay you!
+@rus Это существо, призванное из Элементального Плейна Огня при помощи 
+стоящего на полу сосуда находится в очень дурном расположении духа. Мощь
+сосуда исчерпана, и теперь путь домой для ифрита закрыт. Перво-наперво
+ифрит уничтожил призвавшего его, а теперь попытается убить и тебя!
+~
+human~
+ABFG CJNT -645 0
+49 0 50d10+4000 5d5+1000 4d10+18 pound
+19 19 19 -1
+FIK H 0 0
+stand stand male 1
+0 0 medium unknown
+#14718
+shedu~
+@eng a shedu@rus шеду~
+@eng A shedu sits in a corner of this room.
+@rus Шеду сидит в углу комнаты.
+~
+@eng This unfortunate creature was captured by agents of Krothgar, who brought it
+here to amuse him. He occasionally spends time torturing it, but has grown
+bored and will slay it soon.
+@rus Это несчастное создание поймано слугами Кротгара и приведено сюда, чтобы
+развлекать лорда. Время от времени Кротгар подвергает шеду разнообразным 
+пыткам и мучениям, но похоже скоро пресытится этим и убьет его. 
+desc rus
+~
+human~
+ABG HJN 660 0
+52 0 50d10+4750 5d5+5000 6d7+20 pound
+22 22 22 0
+FIKU 0 0 0
+stand stand male 0
+0 0 medium unknown
+#14719
+illithid~
+@eng an evil illithid@rus ~~злой~~ ~~иллитид~~~
+@eng An evil illithid eyes your cranium off.
+@rus Злой иллитид останавливает на тебе взгляд.
+~
+@eng This foul mind flayer wants brains, and since Krothgar's followers aren't the
+brightest of creatures it is near starvation. You are a nice surprise...
+@rus Это отвратительный пожиратель разума жаждет мозгов, а так как большинство 
+последователей Кротгара не блещет интеллектом, то тварь находится на грани 
+истощения. Ты для нее - приятная неожиданность...
+~
+unique~
+ABFGH DFN -650 0
+50 0 50d10+4250 5d5+5000 5d8+19 charge
+20 20 20 0
+EFKU 0 0 0
+stand stand male 0
+0 0 medium unknown
+#14720
+slave~
+@eng a wretched slave@rus ~~невольник~~~
+@eng A wretched slave awaits sacrifice.
+@rus Невольник ожидает своей очереди быть принесенным в жертву.
+~
+@eng This pathetic wretch has lost all hope. Squatting naked and shivering in the
+corner of the cell he gibbers insanely and begs for mercy.
+@rus Этот несчастный утратил всякую надежду. Голый и дрожащий, скорчившись в углу,
+он то несет полную бессмыслицу, то со слезами молит тебя о пощаде.
+~
+human~
+ABH J 0 0
+10 0 2d7+121 10d25+200 2d4+2 punch
+-1 -1 -1 -7
+F 0 0 0
+stand stand male 0
+0 0 medium unknown
+#14721
+slave~
+@eng a wretched slave@rus ~~невольница~~~
+@eng A female slave will soon "service" Krothgar's legions.
+@rus Эта невольница скоро "послужит" легионам Кротгара.
+~
+@eng This pathetic wretch has lost all hope. Squatting naked and shivering in the
+corner of the cell she gibbers insanely and begs for mercy.
+@rus Эта несчастная утратила всякую надежду. Голая и дрожащая, скорчившись в углу,
+она то несет какую-то полную бессмыслицу, то со слезами молит тебя о пощаде.
+~
+human~
+ABH J 0 0
+10 0 2d7+121 10d25+200 2d4+2 slap
+-1 -1 -1 -7
+F 0 0 0
+stand stand female 0
+0 0 medium unknown
+#14722
+mutant~
+@eng a mutant@rus ~~мутант~~~
+@eng A hideous mutant drools and screams insanely.
+@rus Ужасный мутант издает пронзительный вой и булькает слюной.
+~
+@eng These unnatural beings are foul products of the insane experiments of the
+scientist mages upon captured slaves in an attempt to create the perfect
+fighting race, an experiment finally realised in Korgthar's elite guard.
+These failures have been condemned to a dismal life in the pits.
+@rus Это существо искусственного происхождения - результат безумных 
+экспериментов магов-ученых над захваченными в рабство в попытке 
+создать совершенную расу воинов. Конечный этап изысканий можно увидеть
+в элитной страже Кротгара. Неудачные же попытки обречены на существование
+в Яме.
+~
+human~
+ABFG FJ 0 0
+45 0 25d10+3000 5d5+1000 8d4+16 pound
+15 15 15 -2
+FIJKNU 0 0 0
+stand stand male 0
+0 0 medium unknown
+#14723
+hydra~
+@eng a twelve-headed hydra@rus ~~двенадцатиглавая~~ ~~гидра~~~
+@eng A 12 headed hydra roars at you.
+@rus Все двенадцать голов гидры рычат на тебя.
+~
+@eng This mighty creature has allied with Krothgar in exchange for a steady diet
+of humans and elves. It will fight ferociously to defend the home of its
+meal ticket.
+@rus Здоровенная зверюга верно служит Кротгару всего лишь за корм.
+Она упорно предпочитает диету из людей и эльфов. Свирепая гидра 
+будет до последнего защищать дом, где ее так чудесно кормят.
+~
+elf~
+ABFG 0 0 0
+52 0 50d10+4750 5d5+5000 6d7+20 charge
+22 22 22 0
+EFU 0 0 0
+stand stand female 0
+0 0 medium unknown
+#14724
+quasit~
+@eng a quasit@rus ~~бесенок~~~
+@eng A quasit squeaks aggressively at you.
+@rus Бесенок агрессивно пищит на тебя.
+~
+@eng This angry creature is the familiar of some mage or another. It is angered
+at being seen.
+@rus Этот маленький агрессор - фамилиар одного из магов Кротгара.
+Он бросается на всех, кого заметит.
+~
+unique~
+ABFGH BDFPQT -525 0
+25 0 5d10+550 5d5+1000 2d10+7 magic
+7 7 7 -4
+EFU 0 0 0
+stand stand male 0
+0 0 medium unknown
+#14725
+succubus~
+@eng a succubus@rus ~~суккуб~~~
+@eng A succubus smiles seductively at you.
+@rus Суккуб обольстительно улыбается тебе.
+~
+@eng This lustful demoness is the current concubine of Korgthar, though her
+appetite is insatiable and she is always on the lookout for new prey... err
+... lovers.
+@rus Это сладострастная демонесса - нынешняя любовница Кротгара. Однако ее 
+аппетит ненасытен, и суккуб постоянно выискивает себе новые жерт...рррр...
+постельных партнеров.
+~
+unique~
+ABGH DJTu -645 0
+49 0 50d10+4000 5d5+1000 4d10+18 pound
+19 19 19 -1
+EFIU 0 0 0
+stand stand female 4
+0 0 medium unknown
+#14726
+earth elemental~
+@eng an earth elemental@rus ~~элементал~~ земли~
+@eng An earth elemental smashes everything in sight.
+@rus Элементал земли крушит все на своем пути.
+~
+@eng This magically-summoned being serves the mages of the tower- sometimes.
+@rus Это призванное существо выполняет повеления магов башни - иногда.
+~
+unique~
+ABFG 0 0 0
+53 0 50d10+5000 5d5+5000 6d7+21 magic
+23 23 23 1
+EFU 0 0 0
+stand stand male 0
+0 0 medium unknown
+#14727
+water elemental~
+@eng a water elemental@rus ~~элементал~~ воды~
+@eng A water elemental inundates everything in sight.
+@rus Элементал воды затопляет все на своем пути.
+~
+@eng This magically-summoned being serves the mages of the tower- sometimes.
+@rus Это призванное существо выполняет повеления магов башни - иногда.
+~
+unique~
+ABFG 0 0 0
+53 0 50d10+5000 5d5+5000 6d7+21 magic
+23 23 23 1
+EFU I 0 0
+stand stand male 0
+0 0 medium unknown
+#14728
+air elemental~
+@eng an air elemental@rus ~~элементал~~ воздуха~
+@eng An air elemental blows over everything in sight.
+@rus Элементал воздуха сметает все на своем пути.
+~
+@eng This magically-summoned being serves the mages of the tower- sometimes.
+@rus Это призванное существо выполняет повеления магов башни - иногда.
+~
+unique~
+ABFG 0 0 0
+53 0 50d10+5000 5d5+5000 6d7+21 magic
+23 23 23 1
+EFU 0 0 0
+stand stand male 0
+0 0 medium unknown
+#14729
+hell hound hellhound~
+@eng a hellhound@rus ~~адская~~ ~~гончая~~~
+@eng A hellhound lopes toward you.
+@rus Адская гончая несется к тебе огромными прыжками.
+~
+@eng Breathing fire and reeking of brimstone, this unholy red-hued hound is indeed
+a terrible sight to behold.
+@rus Перед тобой крупная псина ярко-красной масти, настолько уродливо-ужасная,
+что ты невольно закрываешь глаза. Пламя вырывается из пасти гончей, обдавая
+тебя жаром и сильным запахом серы.
+~
+unique~
+AFG DJ -625 0
+45 0 25d10+3000 5d5+1000 8d4+16 magic
+15 15 15 -2
+EFU 0 0 0
+stand stand female 0
+0 0 medium unknown
+#14730
+fire giant~
+@eng a fire giant@rus ~~огненный~~ ~~великан~~~
+@eng A fire giant waves his sword menacingly at you.
+@rus Огненный великан угрожающе замахивается на тебя мечом.
+~
+@eng These fellows are guardians of the massive volcano known as Mount Doom, upon
+which rests the inpregnable fortress of their master, Lord Krothgar. They
+fight fearlessly to defend it.
+@rus Эти ребята патрулируют земли близ огромного вулкана, более известного 
+как Гора Смерти, на вершине которого расположена крепость их повелителя,
+лорда Кротгара. В битве они не знают страха.
+~
+fire giant~
+ABG J -655 0
+51 0 50d10+4500 5d5+5000 5d8+20 punch
+21 21 21 0
+CEFIKQ 0 D C
+stand stand male 2
+0 0 medium unknown
+#14731
+frost giant~
+@eng a frost giant@rus ~~ледяной~~ ~~великан~~~
+@eng A frost giant glares icily at you.
+@rus Ледяной великан холодно смотрит на тебя.
+~
+@eng These emissaries are here to form an alliance with the forces of Mount Doom.
+They do not take kindly to intrusions.
+@rus Послы прибыли сюда, чтобы заключить альянс с крепостью Горы Смерти.
+Они весьма неодобрительно относятся к твоему появлению здесь.
+~
+frost giant~
+ABFG J -640 0
+48 0 25d10+3750 5d5+1000 6d6+18 punch
+18 18 18 -1
+CEFIKQ 0 0 0
+stand stand male 2
+0 0 medium unknown
+#14732
+hill giant~
+@eng a hill giant@rus ~~горный~~ ~~великан~~~
+@eng A hill giant grunts at you.
+@rus Горный великан рычит на тебя.
+~
+@eng These fellows are guardians of the lands surrounding the massive volcano
+known as Mount Doom, upon which rests the inpregnable fortress of their
+master, Lord Krothgar. They fight fearlessly to defend it.
+@rus Эти ребята патрулируют земли близ огромного вулкана, более известного 
+как Гора Смерти, на вершине которого расположена крепость их повелителя,
+лорда Кротгара. В битве они не знают страха.
+~
+giant~
+ABFG J -625 0
+45 0 25d10+3000 5d5+1000 8d4+16 punch
+15 15 15 -2
+CEFIKQ 0 0 0
+stand stand male 2
+0 0 medium unknown
+#14733
+cloud giant~
+@eng a cloud giant@rus ~~облачный~~ ~~великан~~~
+@eng A cloud giant laughs mercilessly at you. Hmph.
+@rus Облачный великан безжалостно насмехается над тобой. Хммм.
+~
+@eng These emissaries are here to form an alliance with the forces of Mount Doom.
+They do not take kindly to intrusions.
+@rus Послы прибыли сюда, чтобы заключить альянс с крепостью Горы Смерти.
+Они весьма неодобрительно относятся к твоему появлению здесь.
+~
+giant~
+ABFG J -670 0
+54 0 50d10+5250 5d5+5000 7d6+22 punch
+24 24 24 1
+CEFIKQ 0 0 0
+stand stand male 2
+0 0 medium unknown
+#14734
+ogre~
+@eng an ogre servant@rus ~~огр~~-~~слуга~~~
+@eng An ogre servant serves the giant soldiers.
+@rus Слуга-огр прислуживает солдатам-гигантам.
+~
+@eng This fellow may seem huge to you, but by giant standards he's a veritable
+runt, as they never cease to point out to him as he makes his way about,
+serving food and drinks in between kicks to the head.
+@rus Он может показаться тебе огромным, но по меркам гигантов это настоящий 
+карлик, и они не стесняются указать ему на это лишний раз. Слуга пробирается
+между огромными солдатами, разнося еду и спиртное, награждаемый пинками и 
+затрещинами. 
+~
+human~
+ABGH J -400 0
+30 0 6d12+853 5d5+1000 4d6+8 punch
+9 9 9 -3
+CEFIK 0 0 0
+stand stand male 0
+0 0 medium unknown
+#14735
+ogre mage~
+@eng an ogre mage@rus ~~огр~~-~~маг~~~
+@eng An ogre mage glares suspicously at you.
+@rus Огр-маг с подозрением наблюдает за тобой.
+~
+@eng These eastern cousins of the ogres and giants of the west have been invited
+here to form an alliance with the troops of Krothgar. They are deeply
+suspicious of the arrangement, however, and view all comers with the same
+degree of caution, but not aggression.
+@rus Восточные родичи огров и гигантов запада, они прибыли сюда, чтобы
+заключить союз с Кротгаром. Маги с глубоким подозрением относятся к этому
+соглашению, но рассматривают всех с одинаковой осторожностью, не проявляя 
+агрессии первыми.
+~
+human~
+ABG DEJu -645 0
+49 0 50d10+4000 5d5+1000 4d10+18 punch
+19 19 19 -1
+EFIKQ 0 0 0
+stand stand male 4
+0 0 medium unknown
+#14736
+troll~
+@eng a troll@rus ~~тролль~~~
+@eng A troll foot soldier yawns loudly.
+@rus Тролль-солдат широко зевает.
+~
+@eng These grotesques were bred for combat, not sentry duty, and the boredom is
+almost killing them. They don't even notice your presence.
+@rus Эти гротескные монстры рождены для кровавой битвы, а не для 
+патрульно-сторожевой службы. Скука почти убивает их. Они даже не замечают 
+твоего присутствия.
+~
+troll~
+ABG 0 -640 0
+48 0 25d10+3750 5d5+1000 6d6+18 pound
+18 18 18 -1
+0 0 0 0
+stand stand male 1
+0 0 medium unknown
+#14737
+ettin~
+@eng an ettin@rus ~~эттин~~~
+@eng An ettin turns both its heads to stare at you.
+@rus Эттин повернул обе головы и смотрит на тебя.
+~
+@eng This two-headed giant is a guard of the more important inhabitants of the
+fortress. He takes his duties very seriously.
+@rus Двухголовый гигант охраняет наиболее важные комнаты крепости. Он 
+очень серьезно относится к этой обязанности.
+~
+giant~
+ABG J -660 0
+52 0 50d10+4750 5d5+5000 6d7+20 pound
+22 22 22 0
+CEFIKQ 0 0 0
+stand stand male 1
+0 0 medium unknown
+#14738
+chief assassin~
+@eng the chief assassin@rus ~~главная~~ ~~убийца~~~
+@eng The chief assassin smiles as she draws her swords.
+@rus Глава убийц, улыбаясь, обнажает свои мечи.
+~
+@eng This beauty is actually the lethal head of Krothgar's elite assassins, who
+have achieved more for his cause than a dozen armies. She asks for no quarter,
+and nor does she give any herself.
+@rus Эта ослепительная красотка на самом деле умная и смертоносная убийца,
+главная среди элитной группы убийц Кротгара, достигшей большего успеха,
+чем дюжина армий. Такая не попросит о пощаде, но и ее просить о милосердии 
+бесполезно. 
+~
+human~
+ABG DJN -665 0
+53 0 50d10+5000 5d5+5000 6d7+21 pound
+23 23 23 1
+CEFIK 0 0 0
+stand stand female 8
+0 0 medium unknown
+#14739
+assassin~
+@eng an assassin@rus ~~убийца~~~
+@eng An assassin prepares for combat.
+@rus Убийца готова к схватке.
+~
+@eng This woman is a member of Krothgar's assassin company, and has slain more
+men and women than any one hundred of his regular soldiers.
+@rus Эта женщина - одна из группы убийц Кротгара и на своем веку умертвила
+больше мужчин и женщин, чем любая сотня солдат его регулярной армии. 
+~
+human~
+ABFG J -635 0
+47 0 25d10+3500 5d5+1000 6d6+17 pound
+17 17 17 -2
+CEFIK 0 0 0
+stand stand female 3
+0 0 medium unknown
+#14740
+drow ambassador~
+@eng a drow ambassador@rus дроу-~~посол~~~
+@eng A drow ambassador snarls at you.
+@rus Посол рассерженно фыркает на тебя.
+~
+@eng This priestess is here to secure an alliance between her people and Krothgar's
+forces. She is not happy about your intrusion into this matter.
+@rus Эльфийская жрица здесь, чтобы обеспечить альянс между своими людьми и 
+силами Кротгара. Она недовольна твоим вторжением сюда.
+~
+human~
+ABFGH DEJu -650 0
+50 0 50d10+4250 5d5+5000 5d8+19 pound
+20 20 20 0
+CEFIKQ 0 0 0
+stand stand female 7
+0 0 medium unknown
+#14741
+warg~
+@eng a warg@rus ~~варг~~~
+@eng A hairy warg patrols for trespassers here.
+@rus Волосатый варг рыщет здесь в поисках вторженцев.
+~
+@eng This beast is a servant of the hill giants who patrol the plains of Doom.
+@rus Лохматый зверь в полосочку служит горным гигантам, патрулирующим 
+равнины Смерти.
+~
+human~
+AFG FJ -610 0
+42 0 25d10+2250 5d5+1000 3d12+14 punch
+14 14 14 -3
+CEFIK 0 0 0
+stand stand male 0
+0 0 medium unknown
+#14742
+ghoul~
+@eng a bloodthirsty ghoul@rus ~~кровожадный~~ ~~упырь~~~
+@eng A bloodthirsty ghoul slavers uncontrollably.
+@rus Кровожадный упырь истекает слюной.
+~
+@eng This hideous undead wants to feast on your flesh!
+@rus Отвратительная нежить желает отведать твоего мясца!
+~
+unique~
+AFG J -630 0
+46 0 25d10+3250 5d5+1000 6d6+16 drain
+16 16 16 -2
+EFK 0 0 0
+stand stand male 0
+0 0 medium unknown
+#14743
+vampire~
+@eng a vampire@rus ~~вампирша~~~
+@eng A vampire smiles at you...
+@rus Вампирша улыбается тебе...
+~
+@eng This vamp is treacherous and deadly. You can see why Krothgar likes having
+her around...
+@rus Эта женщина-вампир вероломна и смертельно опасна. Можно понять, почему 
+Кротгару нравится иметь ее под рукой...
+~
+human~
+ABGH DJTUu -660 0
+52 0 50d10+4750 5d5+5000 6d7+20 drain
+22 22 22 0
+EFIKNQ 0 0 0
+stand stand female 0
+0 0 medium unknown
+#14744
+lich~
+@eng an ancient lich@rus ~~древний~~ ~~лич~~~
+@eng An ancient lich awakens from his slumber and looks around.
+@rus Древний лич стряхнул многовековой сон и оглядывается по сторонам.
+~
+@eng Even the mages of Krothgar know not of the existence of this secret tomb.
+Buried within is the old lord of the Fortress, who was imprisoned in here
+by the forces of Good ages ago. And now you have woken him up. Way to go
+slick.
+@rus Даже маги Кротгара не знают о существовании этого тайного захоронения.
+Много веков назад силы Добра замуровали здесь старого лорда Крепости.
+Ты потревожил покой мертвого. Берегись! Путь к отступлению скользок!
+~
+human~
+ABG CDEFJNTu -700 0
+60 0 50d10+6750 5d5+5000 8d6+28 punch
+30 30 30 3
+CEFIKQ 0 0 0
+stand stand male 6
+0 0 medium unknown
+#14745
+stone golem~
+@eng a stone golem@rus ~~каменный~~ ~~голем~~~
+@eng A stone golem stands ready to rend his master's enemies apart.
+@rus Каменный голем готов разорвать на части врагов своего хозяина.
+~
+@eng This soulless automaton was created by Krothgar's fell evil priests to
+serve him as a bodyguard (for appearance's sake only- he scarcely has need
+of one) and an executioner. It will kill on a command.
+@rus Созданный магами учеными Кротгара бездушный автомат служит ему 
+телохранителем (одна видимость - лорд сам кого хочешь запугает до смерти) 
+и палачем. Без раздумий, повинуясь одному слову лорда, он убьет.
+~
+golem~
+ABG 0 0 0
+50 0 50d10+4250 5d5+5000 5d8+19 pound
+20 20 20 0
+EFNU 0 0 0
+stand stand male 0
+0 0 medium unknown
+#14746
+keeper~
+@eng The keeper of the mutant pit@rus ~~хранитель~~ Ямы~
+@eng The Keeper of the Mutant Pit snarls angrily at you.
+@rus Хранитель Ямы с мутантами с яростью рычит на тебя.
+~
+~
+unique~
+ABFG JN -630 0
+46 0 25d10+3250 5d5+1000 6d6+16 bite
+16 16 16 -2
+CEFIKQ 0 0 0
+stand stand male 1
+0 0 medium unknown
+#14747
+naga princess~
+@eng a naga princess@rus ~~принцесса~~-~~нага~~~
+@eng A princess of the Naga glares haughtily at you.
+@rus Принцесса Нагов высокомерно смеривает тебя взлядом.
+~
+@eng This snake with a woman's head seems unimpressed by your intrusion, but
+she refrains from attacking, hoping that the guards of the castle will see
+to you so she doesn't have to expend energy fighting.
+@rus Эта змея с очаровательной женской головкой не в восторге от твоего
+визита, но воздерживается от нападения, надеясь, что тебя заметят 
+стражники крепости, и ей не прийдется тратить время и энергию на бой
+с таким ничтожеством.
+~
+snake~
+ABDG DJu -655 0
+51 0 50d10+4500 5d5+5000 5d8+20 punch
+21 21 21 0
+EFIK L Q 0
+stand stand female 8
+0 0 medium unknown
+#0
+
+#OBJECTS
+#14700
+krothgar armor~
+@eng the armor of Lord Krothgar@rus ~~доспех~~ лорда Кротгара~
+@eng The armor of Lord Krothgar lies here.@rus put pot bag~
+steel~
+armor BEGHJL AD
+21 21 21 10 0
+65 25 130 P
+A
+1 1
+A
+19 3
+A
+20 1
+A
+20 1
+G male
+#14701
+krothgar sword~
+@eng the sword of Lord Krothgar@rus ~~меч~~ лорда Кротгара~
+@eng The sword of Lord Krothgar is here.@rus Меч лорда Кротгара лежит здесь.~
+steel~
+weapon BEGHJL AN
+sword 6 10 pierce 0
+65 792 130 P
+G male
+#14702
+krothgar shield~
+@eng the shield of Lord Krothgar@rus ~~щит~~ лорда Кротгара~
+@eng The shield of Lord Krothgar is here.@rus Щит лорда Кротгара лежит здесь.~
+steel~
+armor BEGHJL AJ
+21 21 21 10 0
+65 15 130 P
+A
+17 40
+A
+20 3
+A
+20 3
+G male
+#14703
+krothgar helm~
+@eng the cursed helm of Lord Krothgar@rus ~~проклятый~~ ~~шлем~~ лорда Кротгара~~~
+@eng The cursed helm of Lord Krothgar is here.@rus Проклятый шлем лорда Кротгара лежит здесь.~
+steel~
+armor BEGHJLM AE
+21 21 21 10 0
+65 5 130 P
+A
+3 -5
+A
+4 -5
+G male
+#14704
+two handed sword~
+@eng a two-handed sword@rus ~~двуручный~~ ~~меч~~~
+@eng A two-handed sword lies here.@rus Двуручный меч лежит здесь.~
+steel~
+weapon BEGJ ANP
+sword 6 10 crush F
+56 613 112 P
+G male
+#14705
+burnt helm~
+@eng a burnt helm@rus ~~обгоревший~~ ~~шлем~~~
+@eng A burnt helm painted with a hideous visage lies here.@rus Обгоревший шлем с нарисованным на нем ужасным лицом лежит здесь.~
+steel~
+armor BEGJM AE
+18 18 18 9 0
+56 5 112 P
+A
+14 5
+A
+12 20
+A
+13 20
+A
+17 10
+G male
+#14706
+iron fist~
+@eng the iron fist@rus ~~железный~~ ~~кулак~~~
+@eng The legendary iron fist lies here.@rus Легендарный железный кулак лежит здесь.~
+iron~
+armor BEGJM AH
+16 16 16 8 0
+50 10 100 P
+A
+17 10
+A
+19 8
+G female
+#14707
+barbed flail~
+@eng a demon's barbed flail@rus ~~цеп~~ демона~
+@eng A demon's barbed flail lies here.@rus Цеп с колючками, принадлежащий демону, лежит здесь.~
+steel~
+weapon BEGJ AN
+flail 8 4 whip EF
+60 384 120 P
+A
+18 5
+A
+19 6
+G male
+#14708
+flaming spear~
+@eng a flaming spear@rus ~~пылающее~~ ~~копье~~~
+@eng A flaming spear burns into the ground here.@rus Пылающее копье воткнуто в землю здесь.~
+steel~
+furniture ABEGJQ AO
+0 0 0 0 0
+20 5 40 P
+A
+18 4
+G none
+#14709
+staff power~
+@eng a staff of power@rus ~~жезл~~ могущества~
+@eng A staff of power has been left here.@rus Жезл могущества оставлен здесь.~
+wood~
+staff AG AO
+54 11 11 'energy drain' 0
+40 10 80 P
+A
+17 20
+G male
+#14710
+robes archmage~
+@eng robes of the archmage@rus ~~одежды~~ архимага~
+@eng The robes of the archmage are crumpled up in a corner here.@rus Смятые одежды архимага валяются здесь.~
+cloth~
+armor AG AK
+17 17 18 9 0
+54 5 108 P
+A
+12 50
+G none
+#14711
+vial dust~
+@eng a vial of magic dust@rus ~~пузырек~~ волшебной пыльцы~
+@eng A vial of magic dust is here.@rus Пузырек наполненный волшебной пыльцой стоит здесь.~
+glass~
+potion AG AO
+54 'heal' 'heal' 'heal' 'heal'
+20 3 40 P
+G male
+#14712
+dagger~
+@eng a sacrifical dagger@rus ~~жертвенный~~ ~~кинжал~~~
+@eng A sacrificial dagger is stuck in the ground here.@rus Жертвенный кинжал воткнут в землю здесь.~
+steel~
+weapon EJ AN
+dagger 5 6 pierce 0
+54 121 108 P
+G male
+#14713
+robes~
+@eng the high priest's robes@rus ~~одежды~~ верховного жреца~
+@eng The high priest's robes lie here.@rus Одежды верховного жреца лежат здесь.~
+cloth~
+armor EJ AK
+18 18 17 8 0
+54 5 108 P
+A
+4 1
+G none
+#14714
+mask~
+@eng the high priest's death mask@rus ~~маска~~ смерти верховного жреца~
+@eng The high priest's ceremonial mask is here.@rus Церимониальная маска верховного жреца лежит здесь.~
+cloth~
+armor EJ AV
+18 18 17 8 0
+54 3 108 P
+A
+12 100
+A
+13 20
+G female
+#14715
+spiked plate mail~
+@eng a suit of spiked plate mail@rus ~~пластинчатый~~ ~~доспех~~ с шипами~
+@eng A suit of spiked plate mail has been foolishly discarded here.@rus Пластинчатый доспех забыт здесь.~
+steel~
+armor BEJ AD
+16 17 17 8 0
+50 20 100 P
+A
+17 15
+G male
+#14716
+morning star~
+@eng a huge morning star@rus ~~огромный~~ ~~моргенштерн~~~
+@eng A huge morning star is buried in the ground here.@rus Огромный моргенштерн воткнут в землю.~
+wood steel~
+weapon BEGJ ANP
+mace 5 7 crush 0
+50 15 100 P
+A
+18 -5
+A
+19 10
+G male
+#14717
+helm~
+@eng a dark helm@rus ~~темный~~ ~~шлем~~~
+@eng A dark helm lies here.@rus Темный шлем лежит здесь.~
+steel~
+armor BEJ AE
+16 17 17 8 0
+50 5 100 P
+G male
+#14718
+dagger~
+@eng a sacrifical dagger@rus ~~жертвенный~~ ~~кинжал~~~
+@eng A sacrificial dagger is stuck in the ground here.@rus Жертвенный кинжал воткнут в землю здесь.~
+steel~
+weapon EJ AN
+dagger 4 7 pierce 0
+40 5 80 P
+G male
+#14719
+robes~
+@eng the priest's robes@rus ~~одежды~~ жреца~
+@eng The priest's robes lie here.@rus Одежды жреца лежат здесь.~
+cloth~
+armor EJ AK
+13 13 13 6 0
+40 5 80 P
+G none
+#14720
+mask~
+@eng the priest's death mask@rus ~~маска~~ смерти жреца~
+@eng The priest's ceremonial mask is here.@rus Церимониальная маска лежит здесь.~
+cloth~
+armor EJ AV
+13 13 13 6 0
+40 3 80 P
+G female
+#14721
+mage robes~
+@eng the mage's robes@rus ~~одежды~~ мага~
+@eng Some dirty robes covered in chemical stains lie here.@rus Грязные одежды, покрытые пятнами от химикалий, лежат здесь.~
+cloth~
+armor 0 AK
+15 15 14 7 0
+45 1 90 P
+G none
+#14722
+wand~
+@eng a magic wand@rus ~~волшебная~~ ~~палочка~~~
+@eng A magic wand is here.@rus Волшебная палочка лежит здесь.~
+unknown~
+wand AG AO
+45 9 9 'cure critical' 0
+25 4 50 P
+G female
+#14723
+elixir chemicals~
+@eng an elixir of noxious chemicals@rus ~~эликсир~~ из токсичных химикалий~
+@eng An elixir of noxious chemicals bubbles away here.@rus Эликсир из токсичных химикалий пузырится здесь.~
+glass~
+potion B AO
+45 'poison' 'weaken' 'acid blast' ''
+40 4 80 P
+G male
+#14724
+dragon scale~
+@eng a dragon scale@rus ~~чешуйка~~ дракона~
+@eng A huge dragon scale has been dropped here.@rus Огромная чешуйка дракона обронена здесь.~
+dragonskin~
+armor BEJ AJ
+15 15 15 7 0
+45 10 90 P
+A
+17 18
+A
+20 5
+G female
+#14725
+tooth~
+@eng a dragon tooth@rus ~~зуб~~ дракона~
+@eng A dragon's tooth lies here.@rus Драконий зуб лежит здесь.~
+bone~
+weapon BEJ AN
+exotic 5 5 pierce 0
+45 36 90 P
+G male
+#14726
+claw~
+@eng dragon claws@rus ~~когти~~ дракона~
+@eng A pair of dragon claws is here.@rus Пара когтей дракона лежат здесь.~
+bone~
+armor BEJ AH
+16 14 14 8 0
+45 10 90 P
+A
+19 4
+A
+18 4
+G none
+#14727
+hide~
+@eng a dragon hide@rus ~~шкура~~ дракона~
+@eng A dragon hide is piled up here.@rus Драконья шкура лежит здесь.~
+bone~
+armor BEJ AK
+15 15 15 8 0
+45 10 90 P
+A
+13 15
+A
+17 20
+A
+20 2
+A
+20 2
+G female
+#14728
+brazier~
+@eng a bronze brazier@rus ~~бронзовая~~ ~~жаровня~~~
+@eng A bronze brazier is here.@rus Бронзовая жаровня пылает здесь.~
+bronze~
+staff G AO
+53 1 1 'summon' 0
+40 4 80 P
+G female
+#14729
+flask~
+@eng an empty flask@rus ~~пустая~~ ~~фляга~~~
+@eng This flask has been drained of all magical properties.@rus Этот сосуд уже лишен всех магических свойств.~
+unknown~
+container 0 AO
+1 0 0 0 100
+1 500 2 P
+G female
+#14730
+manacles~
+@eng a pair of manacles@rus ~~пара~~ наручников~
+@eng A pair of manacles lies here.@rus Пара наручников лежат здесь.~
+iron~
+armor GM AI
+0 0 0 0 0
+10 5 20 P
+A
+2 -3
+A
+17 -10
+G female
+#14731
+robes~
+@eng an illithid's robes@rus ~~одежды~~ иллитида~
+@eng An illithid's robes lie here, discarded.@rus Одежды иллитида лежат здесь, брошенные.~
+wool~
+armor G AK
+16 16 18 8 0
+50 1 100 P
+A
+12 25
+G none
+#14732
+gem~
+@eng a gem@rus ~~самоцвет~~~
+@eng This gem pulses evilly.@rus Драгоценный камень пульсирует злом.~
+unknown~
+light AEJ AO
+0 0 112 0 0
+40 3 80 P
+A
+12 10
+A
+4 1
+A
+14 -5
+G male
+#14733
+chest~
+@eng a chest@rus ~~сундук~~~
+@eng A heavy chest rests here.@rus Тяжелый сундук стоит здесь.~
+steel~
+container 0 0
+10000 A 0 0 0
+1 0 2 P
+G male
+#14734
+treasure~
+@eng a great treasure@rus ~~огромное~~ ~~сокровище~~~
+@eng A great treasure lies here.@rus Огромное сокровище ждет тебя.~
+gold~
+money A A
+10 0 0 0 0
+0 100 50000 P
+G none
+#14735
+bed~
+@eng a luxurious bed@rus ~~роскошная~~ ~~кровать~~~
+@eng A luxurious bed sits here.@rus Роскошная кровать стоит здесь.~
+silver~
+furniture 0 0
+0 0 0 0 0
+1 0 2 P
+G female
+#14736
+silk~
+@eng some expensive silk@rus ~~дорогой~~ ~~шелк~~~
+@eng Some expensive silk has been left here.@rus Груда блестящего дорогого шелка лежит здесь.~
+silver~
+treasure 0 AK
+0 0 0 0 0
+10 1 100 P
+G male
+#14737
+stone~
+@eng a stone@rus ~~камень~~~
+@eng A stone is here.@rus Камень лежит здесь.~
+stone~
+staff G AO
+53 1 1 'summon' 0
+45 5 90 P
+G male
+#14738
+bowl~
+@eng a bowl@rus ~~кубок~~~
+@eng A bowl is here.@rus Кубок стоит здесь.~
+unknown~
+staff G AO
+53 1 1 'summon' 0
+45 5 90 P
+G male
+#14739
+censer~
+@eng a censer@rus ~~кадило~~~
+@eng A censer is here.@rus Кадило лежит здесь.~
+unknown~
+staff G AO
+53 1 1 'summon' 0
+45 5 90 P
+G none
+#14740
+spiked collar~
+@eng a spiked collar@rus ~~ошейник~~ с шипами~
+@eng A spiked collar rests here.@rus Шипастый ошейник лежит здесь.~
+leather~
+armor EM AC
+14 14 14 6 0
+42 5 84 P
+A
+19 4
+G male
+#14741
+sword~
+@eng a giant sword@rus ~~огромный~~ ~~меч~~~
+@eng A giant sword rests here.@rus Огромный меч лежит здесь.~
+steel~
+weapon 0 AN
+sword 4 8 crush 0
+45 319 90 P
+G male
+#14742
+rock~
+@eng a throwing rock@rus ~~метательный~~ ~~камень~~~
+@eng A throwing rock lies on the ground here.@rus Метательный камень лежит на земле.~
+stone~
+furniture 0 AO
+0 0 0 0 0
+45 15 90 P
+A
+18 -4
+A
+19 4
+G male
+#14743
+club~
+@eng a wooden club@rus ~~деревянная~~ ~~дубина~~~
+@eng A normal wooden club lies here.@rus Ничем не примечательная деревянная дубина лежит здесь.~
+wood~
+weapon 0 AN
+mace 4 8 pound 0
+45 293 90 P
+G female
+#14744
+collar~
+@eng a slave collar@rus ~~ошейник~~ раба~
+@eng A slave collar lies here.@rus Ошейник раба лежит здесь.~
+leather~
+armor M AC
+0 0 0 0 0
+10 1 20 P
+A
+2 -1
+A
+5 -1
+A
+13 -10
+A
+17 -10
+G male
+#14745
+glaive~
+@eng a glaive@rus ~~меч~~~
+@eng A glaive has been left propped up here.@rus Большой меч лежит здесь.~
+unknown~
+weapon G AN
+exotic 5 8 slash 0
+49 10 98 P
+G male
+#14746
+potion~
+@eng a magical potion@rus ~~волшебное~~ ~~снадобье~~~
+@eng A magical potion rolls around on the floor here.@rus Волшебное снадобье катается по полу, вырисовывая загадочные фигуры.~
+glass~
+potion G AO
+49 'armor' 'bless' 'shield' ''
+30 3 60 P
+G none
+#14747
+pole arm~
+@eng a pole arm@rus ~~алебарда~~~
+@eng A pole arm lies here.@rus Алебарда лежит здесь.~
+iron~
+weapon 0 AN
+polearm 6 6 crush 0
+48 218 96 P
+A
+18 -2
+A
+19 6
+G female
+#14748
+chainmail~
+@eng a suit of black chainmail@rus ~~черная~~ ~~кольчуга~~~
+@eng A tight-fitting suit of black chainmail lies here.@rus Черная кольчуга лежит здесь.~
+leather~
+armor EM AD
+16 16 17 8 0
+48 10 96 P
+A
+2 -2
+A
+17 20
+G female
+#14749
+black sword~
+@eng the black sword@rus ~~черный~~ ~~меч~~~
+@eng The black sword glows here.@rus Черный меч пылает здесь.~
+steel~
+weapon AEGJ AN
+sword 5 9 slash 0
+53 510 106 P
+G male
+#14750
+blue sword~
+@eng the blue sword@rus синий ~~меч~~~
+@eng The blue sword hums here.@rus Синий меч гудит здесь.~
+unknown~
+weapon BEGJ AN
+sword 5 7 slash 0
+53 520 106 P
+A
+19 8
+G male
+#14751
+black robes~
+@eng black robes@rus ~~черные~~ ~~одежды~~~
+@eng Some black robes with no special properties lie here.@rus Ничем непримечательные черные одежды лежат здесь.~
+steel~
+armor 0 AK
+15 15 14 7 0
+47 1 94 P
+E ''
+robes~
+@eng They look extraordinarily unencumbering.
+@rus Выглядят очень просторными.
+~
+G none
+#14752
+vial poison~
+@eng a vial of poison@rus ~~пузырек~~ яда~
+@eng A vial of poison is here.@rus Пузырек с ядом стоит здесь.~
+glass~
+potion 0 AO
+47 'blindness' 'poison' 'poison' ''
+30 3 60 P
+E ''
+vial poison~
+@eng It looks very deadly.
+@rus Выглядит смертельно ядовитой %).
+~
+G male
+#14753
+drow cloak~
+@eng a drow cloak@rus ~~плащ~~ дроу~
+@eng A black Drow cloak is crumpled on the floor here.@rus Черный плащ смят на полу.~
+leather~
+armor C AK
+16 16 17 8 0
+50 1 100 P
+A
+14 -3
+A
+2 1
+A
+18 1
+A
+20 1
+A
+20 1
+G male
+#14754
+drow boots~
+@eng a pair of drow boots@rus ~~пара~~ ботинок дроу~
+@eng A pair of black drow boots is here.@rus Пара черных ботинок дроу стоят здесь.~
+leather~
+armor C AG
+17 16 16 8 0
+50 1 100 P
+A
+14 10
+A
+17 5
+G female
+#14755
+drow chain chainmail~
+@eng a suit of drow chainmail@rus ~~кольчуга~~ дроу~
+@eng A suit of finely crafted adamantite chainmail is here.@rus Великолепно сделанная кольчуга из адамантита лежит здесь.~
+cloth~
+armor G AD
+17 17 16 8 0
+50 35 100 P
+A
+12 -70
+A
+13 50
+A
+12 -30
+A
+5 1
+A
+17 10
+G female
+#14756
+tentacle whip~
+@eng a greater tentacle whip@rus ~~хлыст~~ из огромных щупалец~
+@eng A rod with several writhing tentacles attached is here.
+@rus Несколько извивающихся щупалец прикреплены к рукояти хлыста.~
+leather~
+weapon G AN
+whip 6 3 whip 0
+50 10 100 P
+A
+18 4
+G male
+#14757
+tiara~
+@eng a tiara@rus ~~тиара~~~
+@eng A tiara lies here.@rus Тиара лежит здесь.~
+unknown~
+armor GJ AE
+17 17 16 7 0
+50 1 100 P
+A
+14 -3
+A
+4 1
+A
+12 25
+G female
+#14758
+key~
+@eng a door key@rus ~~ключ~~ от двери~
+@eng This key allows access to the upper levels.@rus Ключ, который позволяет проникнуть на верхние уровни, лежит здесь.~
+iron~
+key 0 AO
+0 0 0 0 0
+0 0 0 P
+G male
+#0
+
+#ROOMS
+#14700
+@eng Approaching the Plains of Mount Doom@rus Приближаясь к Горе Смерти~
+@eng You are heading directly toward Mount Doom, on a narrow path that leads to
+the desolate, monster-infested plains that surround it. This is the fell
+domain of Lord Krothgar, whose forbidding black fortress can be seen atop the
+peak of the extinct volcano called by humans Mount Doom. Armies of giants
+patrol the lower slopes, while evil mutants, mages and demons guard the
+fortress itself. Steeling yourself, you push on.
+@rus Ты направляешься прямо к Горе Смерти по узкой тропе, ведущей через 
+окружающие тебя бесплодные равнины, кишашие чудовищами. Это - владения 
+Лорда Кротгара, чья ужасная черная крепость видна на вершине пика 
+потухшего вулкана, называемого людьми Гора Смерти. Армии гигантов 
+патрулируют нижние склоны, в то время как саму крепость охраняют злые 
+мутанты, маги и демоны. 
+Укрепи свое сердце.
+~
+0 AC field
+D0 0
+~
+~
+Z -1 14704
+D2 0
+~
+~
+Z -1 6154
+S
+#14701
+@eng The Plains of Mount Doom@rus Равнины близ Горы Смерти~
+@eng A chill wind blows across the desolate wastes, and you shiver uncomfortably
+as you proceed. The bones of past adventurers lay scattered across the
+hard ground, among rusted weapons and shards of jagged rock that resemble
+teeth. It almost looks as if the very earth had devoured them. But the
+sudden howl of a warg (or a ghoul) alerts you to the very real dangers
+lurking nearby and you press on.
+@rus Холодный ветер гуляет по бесплодным равнинам, невольной дрожью пробирая тебя 
+до самых костей. Останки предшествующих тебе путников рассеяны по твердой 
+каменистой почве, вперемешку с ржавеющими обломками оружия и острыми выступами 
+скал, похожими на чьи-то зубы. Похоже, что сама земля поглотила несчастных. 
+Внезапно вой варга (или упыря) возвращает тебя к вполне реальным опасностям, 
+подстерегающим тебя неподалеку и заставляет ускорить шаг.
+~
+0 0 field
+D0 0
+~
+~
+Z -1 14708
+D1 0
+~
+~
+Z -1 14702
+S
+#14702
+@eng The Plains of Mount Doom@rus Равнины близ Горы Смерти~
+@eng A chill wind blows across the desolate wastes, and you shiver uncomfortably
+as you proceed. The bones of past adventurers lay scattered across the
+hard ground, among rusted weapons and shards of jagged rock that resemble
+teeth. It almost looks as if the very earth had devoured them. But the
+sudden howl of a warg (or a ghoul) alerts you to the very real dangers
+lurking nearby and you press on.
+@rus Холодный ветер гуляет по бесплодным равнинам, невольной дрожью пробирая тебя 
+до самых костей. Останки предшествующих тебе путников рассеяны по твердой 
+каменистой почве, вперемешку с ржавеющими обломками оружия и острыми выступами 
+скал, похожими на чьи-то зубы. Похоже, что сама земля поглотила несчастных. 
+Внезапно вой варга (или упыря) возвращает тебя к вполне реальным опасностям, 
+подстерегающим тебя неподалеку и заставляет ускорить шаг.
+~
+0 0 field
+D0 0
+~
+~
+Z -1 14709
+D1 0
+~
+~
+Z -1 14703
+D3 0
+~
+~
+Z -1 14701
+S
+#14703
+@eng The Plains of Mount Doom@rus Равнины близ Горы Смерти~
+@eng A chill wind blows across the desolate wastes, and you shiver uncomfortably
+as you proceed. The bones of past adventurers lay scattered across the
+hard ground, among rusted weapons and shards of jagged rock that resemble
+teeth. It almost looks as if the very earth had devoured them. But the
+sudden howl of a warg (or a ghoul) alerts you to the very real dangers
+lurking nearby and you press on.
+@rus Холодный ветер гуляет по бесплодным равнинам, невольной дрожью пробирая тебя 
+до самых костей. Останки предшествующих тебе путников рассеяны по твердой 
+каменистой почве, вперемешку с ржавеющими обломками оружия и острыми выступами 
+скал, похожими на чьи-то зубы. Похоже, что сама земля поглотила несчастных. 
+Внезапно вой варга (или упыря) возвращает тебя к вполне реальным опасностям, 
+подстерегающим тебя неподалеку и заставляет ускорить шаг.
+~
+0 0 field
+D0 0
+~
+~
+Z -1 14710
+D1 0
+~
+~
+Z -1 14704
+D3 0
+~
+~
+Z -1 14702
+S
+#14704
+@eng The Plains of Mount Doom@rus Равнины близ Горы Смерти~
+@eng A chill wind blows across the desolate wastes, and you shiver uncomfortably
+as you proceed. The bones of past adventurers lay scattered across the
+hard ground, among rusted weapons and shards of jagged rock that resemble
+teeth. It almost looks as if the very earth had devoured them. But the
+sudden howl of a warg (or a ghoul) alerts you to the very real dangers
+lurking nearby and you press on.
+@rus Холодный ветер гуляет по бесплодным равнинам, невольной дрожью пробирая тебя 
+до самых костей. Останки предшествующих тебе путников рассеяны по твердой 
+каменистой почве, вперемешку с ржавеющими обломками оружия и острыми выступами 
+скал, похожими на чьи-то зубы. Похоже, что сама земля поглотила несчастных. 
+Внезапно вой варга (или упыря) возвращает тебя к вполне реальным опасностям, 
+подстерегающим тебя неподалеку и заставляет ускорить шаг.
+~
+0 0 field
+D0 0
+~
+~
+Z -1 14711
+D1 0
+~
+~
+Z -1 14705
+D2 0
+~
+~
+Z -1 14700
+D3 0
+~
+~
+Z -1 14703
+S
+#14705
+@eng The Plains of Mount Doom@rus Равнины близ Горы Смерти~
+@eng A chill wind blows across the desolate wastes, and you shiver uncomfortably
+as you proceed. The bones of past adventurers lay scattered across the
+hard ground, among rusted weapons and shards of jagged rock that resemble
+teeth. It almost looks as if the very earth had devoured them. But the
+sudden howl of a warg (or a ghoul) alerts you to the very real dangers
+lurking nearby and you press on.
+@rus Холодный ветер гуляет по бесплодным равнинам, невольной дрожью пробирая тебя 
+до самых костей. Останки предшествующих тебе путников рассеяны по твердой 
+каменистой почве, вперемешку с ржавеющими обломками оружия и острыми выступами 
+скал, похожими на чьи-то зубы. Похоже, что сама земля поглотила несчастных. 
+Внезапно вой варга (или упыря) возвращает тебя к вполне реальным опасностям, 
+подстерегающим тебя неподалеку и заставляет ускорить шаг.
+~
+0 0 field
+D0 0
+~
+~
+Z -1 14712
+D1 0
+~
+~
+Z -1 14706
+D3 0
+~
+~
+Z -1 14704
+S
+#14706
+@eng The Plains of Mount Doom@rus Равнины близ Горы Смерти~
+@eng A chill wind blows across the desolate wastes, and you shiver uncomfortably
+as you proceed. The bones of past adventurers lay scattered across the
+hard ground, among rusted weapons and shards of jagged rock that resemble
+teeth. It almost looks as if the very earth had devoured them. But the
+sudden howl of a warg (or a ghoul) alerts you to the very real dangers
+lurking nearby and you press on.
+@rus Холодный ветер гуляет по бесплодным равнинам, невольной дрожью пробирая тебя 
+до самых костей. Останки предшествующих тебе путников рассеяны по твердой 
+каменистой почве, вперемешку с ржавеющими обломками оружия и острыми выступами 
+скал, похожими на чьи-то зубы. Похоже, что сама земля поглотила несчастных. 
+Внезапно вой варга (или упыря) возвращает тебя к вполне реальным опасностям, 
+подстерегающим тебя неподалеку и заставляет ускорить шаг.
+~
+0 0 field
+D0 0
+~
+~
+Z -1 14713
+D1 0
+~
+~
+Z -1 14707
+D3 0
+~
+~
+Z -1 14705
+S
+#14707
+@eng The Plains of Mount Doom@rus Равнины близ Горы Смерти~
+@eng A chill wind blows across the desolate wastes, and you shiver uncomfortably
+as you proceed. The bones of past adventurers lay scattered across the
+hard ground, among rusted weapons and shards of jagged rock that resemble
+teeth. It almost looks as if the very earth had devoured them. But the
+sudden howl of a warg (or a ghoul) alerts you to the very real dangers
+lurking nearby and you press on.
+@rus Холодный ветер гуляет по бесплодным равнинам, невольной дрожью пробирая тебя 
+до самых костей. Останки предшествующих тебе путников рассеяны по твердой 
+каменистой почве, вперемешку с ржавеющими обломками оружия и острыми выступами 
+скал, похожими на чьи-то зубы. Похоже, что сама земля поглотила несчастных. 
+Внезапно вой варга (или упыря) возвращает тебя к вполне реальным опасностям, 
+подстерегающим тебя неподалеку и заставляет ускорить шаг.
+~
+0 0 field
+D0 0
+~
+~
+Z -1 14714
+D3 0
+~
+~
+Z -1 14706
+S
+#14708
+@eng The Plains of Mount Doom@rus Равнины близ Горы Смерти~
+@eng A chill wind blows across the desolate wastes, and you shiver uncomfortably
+as you proceed. The bones of past adventurers lay scattered across the
+hard ground, among rusted weapons and shards of jagged rock that resemble
+teeth. It almost looks as if the very earth had devoured them. But the
+sudden howl of a warg (or a ghoul) alerts you to the very real dangers
+lurking nearby and you press on.
+@rus Холодный ветер гуляет по бесплодным равнинам, невольной дрожью пробирая тебя 
+до самых костей. Останки предшествующих тебе путников рассеяны по твердой 
+каменистой почве, вперемешку с ржавеющими обломками оружия и острыми выступами 
+скал, похожими на чьи-то зубы. Похоже, что сама земля поглотила несчастных. 
+Внезапно вой варга (или упыря) возвращает тебя к вполне реальным опасностям, 
+подстерегающим тебя неподалеку и заставляет ускорить шаг.
+~
+0 0 field
+D0 0
+~
+~
+Z -1 14715
+D1 0
+~
+~
+Z -1 14709
+D2 0
+~
+~
+Z -1 14701
+S
+#14709
+@eng The Foothills of Mount Doom@rus У подножья Горы Смерти~
+@eng You have come to the base of the mountain. From here you may continue to
+slowly make your way up the mountain, or head back to the eerie plains below.
+The ground here is rocky and treacherous, dotted by small crevices in the
+volcanic rock and jagged shards of granite protrustions. The wind is even
+stronger here than on the plains, and you fancy you can hear voices and
+screams.
+@rus Ты стоишь у подножья горы. Отсюда можно продолжить медленный подъем на гору
+или вернуться к жутким равнинам. Почва под твоими ногами скалиста и ненадежна, 
+усыпанная острыми осколками гранита. Тонкие трещины пронизывают вулканическую 
+скалу. Ветер даже сильнее, чем на равнинах. Сквозь его свист ты слышишь 
+чьи-то голоса и крики.
+~
+0 0 hills
+D0 0
+~
+~
+Z -1 14716
+D1 0
+~
+~
+Z -1 14710
+D2 0
+~
+~
+Z -1 14702
+D3 0
+~
+~
+Z -1 14708
+S
+#14710
+@eng The Foothills of Mount Doom@rus У подножья Горы Смерти~
+@eng You have come to the base of the mountain. From here you may continue to
+slowly make your way up the mountain, or head back to the eerie plains below.
+The ground here is rocky and treacherous, dotted by small crevices in the
+volcanic rock and jagged shards of granite protrustions. The wind is even
+stronger here than on the plains, and you fancy you can hear voices and
+screams.
+@rus Ты стоишь у подножья горы. Отсюда можно продолжить медленный подъем на гору
+или вернуться к жутким равнинам. Почва под твоими ногами скалиста и ненадежна, 
+усыпанная острыми осколками гранита. Тонкие трещины пронизывают вулканическую 
+скалу. Ветер даже сильнее, чем на равнинах. Сквозь его свист ты слышишь 
+чьи-то голоса и крики.
+~
+0 0 hills
+D0 0
+~
+~
+Z -1 14717
+D1 0
+~
+~
+Z -1 14711
+D2 0
+~
+~
+Z -1 14703
+D3 0
+~
+~
+Z -1 14709
+S
+#14711
+@eng The Foothills of Mount Doom@rus У подножья Горы Смерти~
+@eng You have come to the base of the mountain. From here you may continue to
+slowly make your way up the mountain, or head back to the eerie plains below.
+The ground here is rocky and treacherous, dotted by small crevices in the
+volcanic rock and jagged shards of granite protrustions. The wind is even
+stronger here than on the plains, and you fancy you can hear voices and
+screams.
+@rus Ты стоишь у подножья горы. Отсюда можно продолжить медленный подъем на гору
+или вернуться к жутким равнинам. Почва под твоими ногами скалиста и ненадежна, 
+усыпанная острыми осколками гранита. Тонкие трещины пронизывают вулканическую 
+скалу. Ветер даже сильнее, чем на равнинах. Сквозь его свист ты слышишь 
+чьи-то голоса и крики.
+~
+0 0 hills
+D0 0
+~
+~
+Z -1 14718
+D1 0
+~
+~
+Z -1 14712
+D2 0
+~
+~
+Z -1 14704
+D3 0
+~
+~
+Z -1 14710
+S
+#14712
+@eng The Foothills of Mount Doom@rus У подножья Горы Смерти~
+@eng You have come to the base of the mountain. From here you may continue to
+slowly make your way up the mountain, or head back to the eerie plains below.
+The ground here is rocky and treacherous, dotted by small crevices in the
+volcanic rock and jagged shards of granite protrustions. The wind is even
+stronger here than on the plains, and you fancy you can hear voices and
+screams.
+@rus Ты стоишь у подножья горы. Отсюда можно продолжить медленный подъем на гору
+или вернуться к жутким равнинам. Почва под твоими ногами скалиста и ненадежна, 
+усыпанная острыми осколками гранита. Тонкие трещины пронизывают вулканическую 
+скалу. Ветер даже сильнее, чем на равнинах. Сквозь его свист ты слышишь 
+чьи-то голоса и крики.
+~
+0 0 hills
+D0 0
+~
+~
+Z -1 14719
+D1 0
+~
+~
+Z -1 14713
+D2 0
+~
+~
+Z -1 14705
+D3 0
+~
+~
+Z -1 14711
+S
+#14713
+@eng The Foothills of Mount Doom@rus У подножья Горы Смерти~
+@eng You have come to the base of the mountain. From here you may continue to
+slowly make your way up the mountain, or head back to the eerie plains below.
+The ground here is rocky and treacherous, dotted by small crevices in the
+volcanic rock and jagged shards of granite protrustions. The wind is even
+stronger here than on the plains, and you fancy you can hear voices and
+screams.
+@rus Ты стоишь у подножья горы. Отсюда можно продолжить медленный подъем на гору
+или вернуться к жутким равнинам. Почва под твоими ногами скалиста и ненадежна, 
+усыпанная острыми осколками гранита. Тонкие трещины пронизывают вулканическую 
+скалу. Ветер даже сильнее, чем на равнинах. Сквозь его свист ты слышишь 
+чьи-то голоса и крики.
+~
+0 0 hills
+D0 0
+~
+~
+Z -1 14720
+D1 0
+~
+~
+Z -1 14714
+D2 0
+~
+~
+Z -1 14706
+D3 0
+~
+~
+Z -1 14712
+S
+#14714
+@eng The Plains of Mount Doom@rus Равнины близ Горы Смерти~
+@eng A chill wind blows across the desolate wastes, and you shiver uncomfortably
+as you proceed. The bones of past adventurers lay scattered across the
+hard ground, among rusted weapons and shards of jagged rock that resemble
+teeth. It almost looks as if the very earth had devoured them. But the
+sudden howl of a warg (or a ghoul) alerts you to the very real dangers
+lurking nearby and you press on.
+@rus Холодный ветер гуляет по бесплодным равнинам, невольной дрожью пробирая тебя 
+до самых костей. Останки предшествующих тебе путников рассеяны по твердой 
+каменистой почве, вперемешку с ржавеющими обломками оружия и острыми выступами 
+скал, похожими на чьи-то зубы. Похоже, что сама земля поглотила несчастных. 
+Внезапно вой варга (или упыря) возвращает тебя к вполне реальным опасностям, 
+подстерегающим тебя неподалеку и заставляет ускорить шаг.
+~
+0 0 field
+D0 0
+~
+~
+Z -1 14721
+D2 0
+~
+~
+Z -1 14707
+D3 0
+~
+~
+Z -1 14713
+S
+#14715
+@eng The Plains of Mount Doom@rus Равнины близ Горы Смерти~
+@eng A chill wind blows across the desolate wastes, and you shiver uncomfortably
+as you proceed. The bones of past adventurers lay scattered across the
+hard ground, among rusted weapons and shards of jagged rock that resemble
+teeth. It almost looks as if the very earth had devoured them. But the
+sudden howl of a warg (or a ghoul) alerts you to the very real dangers
+lurking nearby and you press on.
+@rus Холодный ветер гуляет по бесплодным равнинам, невольной дрожью пробирая тебя 
+до самых костей. Останки предшествующих тебе путников рассеяны по твердой 
+каменистой почве, вперемешку с ржавеющими обломками оружия и острыми выступами 
+скал, похожими на чьи-то зубы. Похоже, что сама земля поглотила несчастных. 
+Внезапно вой варга (или упыря) возвращает тебя к вполне реальным опасностям, 
+подстерегающим тебя неподалеку и заставляет ускорить шаг.
+~
+0 0 field
+D0 0
+~
+~
+Z -1 14722
+D1 0
+~
+~
+Z -1 14716
+D2 0
+~
+~
+Z -1 14708
+S
+#14716
+@eng The Foothills of Mount Doom@rus У подножья Горы Смерти~
+@eng You have come to the base of the mountain. From here you may continue to
+slowly make your way up the mountain, or head back to the eerie plains below.
+The ground here is rocky and treacherous, dotted by small crevices in the
+volcanic rock and jagged shards of granite protrustions. The wind is even
+stronger here than on the plains, and you fancy you can hear voices and
+screams.
+@rus Ты стоишь у подножья горы. Отсюда можно продолжить медленный подъем на гору
+или вернуться к жутким равнинам. Почва под твоими ногами скалиста и ненадежна, 
+усыпанная острыми осколками гранита. Тонкие трещины пронизывают вулканическую 
+скалу. Ветер даже сильнее, чем на равнинах. Сквозь его свист ты слышишь 
+чьи-то голоса и крики.
+~
+0 0 hills
+D0 0
+~
+~
+Z -1 14723
+D1 0
+~
+~
+Z -1 14717
+D2 0
+~
+~
+Z -1 14709
+D3 0
+~
+~
+Z -1 14715
+S
+#14717
+@eng The Upper Slopes of Mount Doom@rus Вверх по склону Горы Смерти~
+@eng You are steadily drawing near the summit. The ground has become quite smooth
+here, to the point of sliperiness, and you stop more than once to regain your
+footing on the glassy obsidian that coats the upper slopes. The fortress
+of Lord Krogthar looms closer than ever now, and you mentally prepare
+yourself for the the upcoming battles. The foes you have fought so far have
+been minor compared to those to come.
+@rus Ты постепенно приближаешься к вершине. Здесь очень скользко, почти 
+невозможно двигаться вперед, и ты уже не один раз останавливался, пытаясь 
+удержать равновесие на гладкой поверхности обсидиана и не скатиться вниз.
+Громада Крепости Лорда Кротгара нависает над тобой. Ты морально
+подготавливаешь себя к предстоящим схваткам. Противники, с которыми ты
+встречался раньше - беззубые младенцы по сравнению обитателями Крепости.
+~
+0 0 mountain
+D0 0
+~
+~
+Z -1 14724
+D1 0
+~
+~
+Z -1 14718
+D2 0
+~
+~
+Z -1 14710
+D3 0
+~
+~
+Z -1 14716
+S
+#14718
+@eng The Upper Slopes of Mount Doom@rus Вверх по склону Горы Смерти~
+@eng You are steadily drawing near the summit. The ground has become quite smooth
+here, to the point of sliperiness, and you stop more than once to regain your
+footing on the glassy obsidian that coats the upper slopes. The fortress
+of Lord Krogthar looms closer than ever now, and you mentally prepare
+yourself for the the upcoming battles. The foes you have fought so far have
+been minor compared to those to come.
+
+The fortress lies directly north of here.
+@rus Ты постепенно приближаешься к вершине. Здесь очень скользко, почти 
+невозможно двигаться вперед, и ты уже не один раз останавливался, пытаясь 
+удержать равновесие на гладкой поверхности обсидиана и не скатиться вниз.
+Громада Крепости Лорда Кротгара нависает над тобой. Ты морально
+подготавливаешь себя к предстоящим схваткам. Противники, с которыми ты
+встречался раньше - беззубые младенцы по сравнению обитателями Крепости.
+{x
+Крепость расположена прямо на север отсюда.
+~
+0 0 mountain
+D0 0
+@eng THE FORTRESS@rus КРЕПОСТЬ
+~
+~
+Z -1 14725
+D1 0
+~
+~
+Z -1 14719
+D2 0
+~
+~
+Z -1 14711
+D3 0
+~
+~
+Z -1 14717
+S
+#14719
+@eng The Upper Slopes of Mount Doom@rus Вверх по склону Горы Смерти~
+@eng You are steadily drawing near the summit. The ground has become quite smooth
+here, to the point of sliperiness, and you stop more than once to regain your
+footing on the glassy obsidian that coats the upper slopes. The fortress
+of Lord Krogthar looms closer than ever now, and you mentally prepare
+yourself for the the upcoming battles. The foes you have fought so far have
+been minor compared to those to come.
+@rus Ты постепенно приближаешься к вершине. Здесь очень скользко, почти 
+невозможно двигаться вперед, и ты уже не один раз останавливался, пытаясь 
+удержать равновесие на гладкой поверхности обсидиана и не скатиться вниз.
+Громада Крепости Лорда Кротгара нависает над тобой. Ты морально
+подготавливаешь себя к предстоящим схваткам. Противники, с которыми ты
+встречался раньше - беззубые младенцы по сравнению обитателями Крепости.
+~
+0 0 mountain
+D0 0
+~
+~
+Z -1 14726
+D1 0
+~
+~
+Z -1 14720
+D2 0
+~
+~
+Z -1 14712
+D3 0
+~
+~
+Z -1 14718
+S
+#14720
+@eng The Foothills of Mount Doom@rus У подножья Горы Смерти~
+@eng You have come to the base of the mountain. From here you may continue to
+slowly make your way up the mountain, or head back to the eerie plains below.
+The ground here is rocky and treacherous, dotted by small crevices in the
+volcanic rock and jagged shards of granite protrustions. The wind is even
+stronger here than on the plains, and you fancy you can hear voices and
+screams.
+@rus Ты стоишь у подножья горы. Отсюда можно продолжить медленный подъем на гору
+или вернуться к жутким равнинам. Почва под твоими ногами скалиста и ненадежна, 
+усыпанная острыми осколками гранита. Тонкие трещины пронизывают вулканическую 
+скалу. Ветер даже сильнее, чем на равнинах. Сквозь его свист ты слышишь 
+чьи-то голоса и крики.
+~
+0 0 hills
+D0 0
+~
+~
+Z -1 14727
+D1 0
+~
+~
+Z -1 14721
+D2 0
+~
+~
+Z -1 14713
+D3 0
+~
+~
+Z -1 14719
+S
+#14721
+@eng The Plains of Mount Doom@rus Равнины близ Горы Смерти~
+@eng A chill wind blows across the desolate wastes, and you shiver uncomfortably
+as you proceed. The bones of past adventurers lay scattered across the
+hard ground, among rusted weapons and shards of jagged rock that resemble
+teeth. It almost looks as if the very earth had devoured them. But the
+sudden howl of a warg (or a ghoul) alerts you to the very real dangers
+lurking nearby and you press on.
+@rus Холодный ветер гуляет по бесплодным равнинам, невольной дрожью пробирая тебя 
+до самых костей. Останки предшествующих тебе путников рассеяны по твердой 
+каменистой почве, вперемешку с ржавеющими обломками оружия и острыми выступами 
+скал, похожими на чьи-то зубы. Похоже, что сама земля поглотила несчастных. 
+Внезапно вой варга (или упыря) возвращает тебя к вполне реальным опасностям, 
+подстерегающим тебя неподалеку и заставляет ускорить шаг.
+~
+0 0 field
+D0 0
+~
+~
+Z -1 14728
+D2 0
+~
+~
+Z -1 14714
+D3 0
+~
+~
+Z -1 14720
+S
+#14722
+@eng The Plains of Mount Doom@rus Равнины близ Горы Смерти~
+@eng A chill wind blows across the desolate wastes, and you shiver uncomfortably
+as you proceed. The bones of past adventurers lay scattered across the
+hard ground, among rusted weapons and shards of jagged rock that resemble
+teeth. It almost looks as if the very earth had devoured them. But the
+sudden howl of a warg (or a ghoul) alerts you to the very real dangers
+lurking nearby and you press on.
+@rus Холодный ветер гуляет по бесплодным равнинам, невольной дрожью пробирая тебя 
+до самых костей. Останки предшествующих тебе путников рассеяны по твердой 
+каменистой почве, вперемешку с ржавеющими обломками оружия и острыми выступами 
+скал, похожими на чьи-то зубы. Похоже, что сама земля поглотила несчастных. 
+Внезапно вой варга (или упыря) возвращает тебя к вполне реальным опасностям, 
+подстерегающим тебя неподалеку и заставляет ускорить шаг.
+~
+0 0 field
+D0 0
+~
+~
+Z -1 14729
+D1 0
+~
+~
+Z -1 14723
+D2 0
+~
+~
+Z -1 14715
+S
+#14723
+@eng The Foothills of Mount Doom@rus У подножья Горы Смерти~
+@eng You have come to the base of the mountain. From here you may continue to
+slowly make your way up the mountain, or head back to the eerie plains below.
+The ground here is rocky and treacherous, dotted by small crevices in the
+volcanic rock and jagged shards of granite protrustions. The wind is even
+stronger here than on the plains, and you fancy you can hear voices and
+screams.
+@rus Ты стоишь у подножья горы. Отсюда можно продолжить медленный подъем на гору
+или вернуться к жутким равнинам. Почва под твоими ногами скалиста и ненадежна, 
+усыпанная острыми осколками гранита. Тонкие трещины пронизывают вулканическую 
+скалу. Ветер даже сильнее, чем на равнинах. Сквозь его свист ты слышишь 
+чьи-то голоса и крики.
+~
+0 0 hills
+D0 0
+~
+~
+Z -1 14730
+D1 0
+~
+~
+Z -1 14724
+D2 0
+~
+~
+Z -1 14716
+D3 0
+~
+~
+Z -1 14722
+S
+#14724
+@eng The Upper Slopes of Mount Doom@rus Вверх по склону Горы Смерти~
+@eng You are steadily drawing near the summit. The ground has become quite smooth
+here, to the point of sliperiness, and you stop more than once to regain your
+footing on the glassy obsidian that coats the upper slopes. The fortress
+of Lord Krogthar looms closer than ever now, and you mentally prepare
+yourself for the the upcoming battles. The foes you have fought so far have
+been minor compared to those to come.
+
+The Fortress lies directly east of here.
+@rus Ты постепенно приближаешься к вершине. Здесь очень скользко, почти 
+невозможно двигаться вперед, и ты уже не один раз останавливался, пытаясь 
+удержать равновесие на гладкой поверхности обсидиана и не скатиться вниз.
+Громада Крепости Лорда Кротгара нависает над тобой. Ты морально
+подготавливаешь себя к предстоящим схваткам. Противники, с которыми ты
+встречался раньше - беззубые младенцы по сравнению обитателями Крепости.
+{x 
+Крепость расположена прямо на восток отсюда.
+~
+0 0 mountain
+D0 0
+~
+~
+Z -1 14731
+D1 0
+@eng THE FORTRESSS@rus КРЕПОСТЬ
+~
+~
+Z -1 14725
+D2 0
+~
+~
+Z -1 14717
+D3 0
+~
+~
+Z -1 14723
+S
+#14725
+@eng Outside the Fortress of Lord Korgthar@rus Снаружи крепости лорда Кротгара~
+@eng You have finally reached the summit, and are standing beneath the gates of
+the Fortress, which you may climb up to by means of an iron staircase. You
+can sense many pairs of eyes upon you, and you wonder how far you will be
+permitted to go before Korgthar's forces combine and crush you.
+@rus Ты наконец достиг вершины и стоишь под воротами крепости, к которым 
+поднимается железная лестница. Ты чувствуешь на своем теле прикосновения
+тысяч глаз. Интересно, как далеко тебе разрешат пройти, прежде чем убьют, 
+раздавят и сравняют с землей?
+~
+0 0 mountain
+D0 0
+~
+~
+Z -1 14732
+D1 0
+~
+~
+Z -1 14726
+D2 0
+~
+~
+Z -1 14718
+D3 0
+~
+~
+Z -1 14724
+D4 0
+~
+~
+Z 0 14750
+S
+#14726
+@eng The Upper Slopes of Mount Doom@rus Вверх по склону Горы Смерти~
+@eng You are steadily drawing near the summit. The ground has become quite smooth
+here, to the point of sliperiness, and you stop more than once to regain your
+footing on the glassy obsidian that coats the upper slopes. The fortress
+of Lord Krogthar looms closer than ever now, and you mentally prepare
+yourself for the the upcoming battles. The foes you have fought so far have
+been minor compared to those to come.
+
+The Fortress lies due west of here.
+@rus Ты постепенно приближаешься к вершине. Здесь очень скользко, почти 
+невозможно двигаться вперед, и ты уже не один раз останавливался, пытаясь 
+удержать равновесие на гладкой поверхности обсидиана и не скатиться вниз.
+Громада Крепости Лорда Кротгара нависает над тобой. Ты морально
+подготавливаешь себя к предстоящим схваткам. Противники, с которыми ты
+встречался раньше - беззубые младенцы по сравнению обитателями Крепости.
+{x
+Крепость расположена прямо на запад отсюда.
+~
+0 0 mountain
+D0 0
+~
+~
+Z -1 14733
+D1 0
+~
+~
+Z -1 14727
+D2 0
+~
+~
+Z -1 14719
+D3 0
+@rus КРЕПОСТЬ
+~
+~
+Z -1 14725
+S
+#14727
+@eng The Foothills of Mount Doom@rus У подножья Горы Смерти~
+@eng You have come to the base of the mountain. From here you may continue to
+slowly make your way up the mountain, or head back to the eerie plains below.
+The ground here is rocky and treacherous, dotted by small crevices in the
+volcanic rock and jagged shards of granite protrustions. The wind is even
+stronger here than on the plains, and you fancy you can hear voices and
+screams.
+@rus Ты стоишь у подножья горы. Отсюда можно продолжить медленный подъем на гору
+или вернуться к жутким равнинам. Почва под твоими ногами скалиста и ненадежна, 
+усыпанная острыми осколками гранита. Тонкие трещины пронизывают вулканическую 
+скалу. Ветер даже сильнее, чем на равнинах. Сквозь его свист ты слышишь 
+чьи-то голоса и крики.
+~
+0 0 hills
+D0 0
+~
+~
+Z -1 14734
+D1 0
+~
+~
+Z -1 14728
+D2 0
+~
+~
+Z -1 14720
+D3 0
+~
+~
+Z -1 14726
+S
+#14728
+@eng The Plains of Mount Doom@rus Равнины близ Горы Смерти~
+@eng A chill wind blows across the desolate wastes, and you shiver uncomfortably
+as you proceed. The bones of past adventurers lay scattered across the
+hard ground, among rusted weapons and shards of jagged rock that resemble
+teeth. It almost looks as if the very earth had devoured them. But the
+sudden howl of a warg (or a ghoul) alerts you to the very real dangers
+lurking nearby and you press on.
+@rus Холодный ветер гуляет по бесплодным равнинам, невольной дрожью пробирая тебя 
+до самых костей. Останки предшествующих тебе путников рассеяны по твердой 
+каменистой почве, вперемешку с ржавеющими обломками оружия и острыми выступами 
+скал, похожими на чьи-то зубы. Похоже, что сама земля поглотила несчастных. 
+Внезапно вой варга (или упыря) возвращает тебя к вполне реальным опасностям, 
+подстерегающим тебя неподалеку и заставляет ускорить шаг.
+~
+0 0 field
+D0 0
+~
+~
+Z -1 14735
+D2 0
+~
+~
+Z -1 14721
+D3 0
+~
+~
+Z -1 14727
+S
+#14729
+@eng The Plains of Mount Doom@rus Равнины близ Горы Смерти~
+@eng A chill wind blows across the desolate wastes, and you shiver uncomfortably
+as you proceed. The bones of past adventurers lay scattered across the
+hard ground, among rusted weapons and shards of jagged rock that resemble
+teeth. It almost looks as if the very earth had devoured them. But the
+sudden howl of a warg (or a ghoul) alerts you to the very real dangers
+lurking nearby and you press on.
+@rus Холодный ветер гуляет по бесплодным равнинам, невольной дрожью пробирая тебя 
+до самых костей. Останки предшествующих тебе путников рассеяны по твердой 
+каменистой почве, вперемешку с ржавеющими обломками оружия и острыми выступами 
+скал, похожими на чьи-то зубы. Похоже, что сама земля поглотила несчастных. 
+Внезапно вой варга (или упыря) возвращает тебя к вполне реальным опасностям, 
+подстерегающим тебя неподалеку и заставляет ускорить шаг.
+~
+0 0 field
+D0 0
+~
+~
+Z -1 14736
+D1 0
+~
+~
+Z -1 14730
+D2 0
+~
+~
+Z -1 14722
+S
+#14730
+@eng The Foothills of Mount Doom@rus У подножья Горы Смерти~
+@eng You have come to the base of the mountain. From here you may continue to
+slowly make your way up the mountain, or head back to the eerie plains below.
+The ground here is rocky and treacherous, dotted by small crevices in the
+volcanic rock and jagged shards of granite protrustions. The wind is even
+stronger here than on the plains, and you fancy you can hear voices and
+screams.
+@rus Ты стоишь у подножья горы. Отсюда можно продолжить медленный подъем на гору
+или вернуться к жутким равнинам. Почва под твоими ногами скалиста и ненадежна, 
+усыпанная острыми осколками гранита. Тонкие трещины пронизывают вулканическую 
+скалу. Ветер даже сильнее, чем на равнинах. Сквозь его свист ты слышишь 
+чьи-то голоса и крики.
+~
+0 0 hills
+D0 0
+~
+~
+Z -1 14737
+D1 0
+~
+~
+Z -1 14731
+D2 0
+~
+~
+Z -1 14723
+D3 0
+~
+~
+Z -1 14729
+S
+#14731
+@eng The Upper Slopes of Mount Doom@rus Вверх по склону Горы Смерти~
+@eng You are steadily drawing near the summit. The ground has become quite smooth
+here, to the point of sliperiness, and you stop more than once to regain your
+footing on the glassy obsidian that coats the upper slopes. The fortress
+of Lord Krogthar looms closer than ever now, and you mentally prepare
+yourself for the the upcoming battles. The foes you have fought so far have
+been minor compared to those to come.
+@rus  
+Ты постепенно приближаешься к вершине. Здесь очень скользко, почти 
+невозможно двигаться вперед, и ты уже не один раз останавливался, пытаясь 
+удержать равновесие на гладкой поверхности обсидиана и не скатиться вниз.
+Громада Крепости Лорда Кротгара нависает над тобой. Ты морально
+подготавливаешь себя к предстоящим схваткам. Противники, с которыми ты
+встречался раньше - беззубые младенцы по сравнению обитателями Крепости.
+~
+0 0 mountain
+D0 0
+~
+~
+Z -1 14738
+D1 0
+~
+~
+Z -1 14732
+D2 0
+~
+~
+Z -1 14724
+D3 0
+~
+~
+Z -1 14730
+S
+#14732
+@eng The Upper Slopes of Mount Doom@rus Вверх по склону Горы Смерти~
+@eng You are steadily drawing near the summit. The ground has become quite smooth
+here, to the point of sliperiness, and you stop more than once to regain your
+footing on the glassy obsidian that coats the upper slopes. The fortress
+of Lord Krogthar looms closer than ever now, and you mentally prepare
+yourself for the the upcoming battles. The foes you have fought so far have
+been minor compared to those to come.
+
+The Fortress lies due south of here.
+@rus Ты постепенно приближаешься к вершине. Здесь очень скользко, почти 
+невозможно двигаться вперед, и ты уже не один раз останавливался, пытаясь 
+удержать равновесие на гладкой поверхности обсидиана и не скатиться вниз.
+Громада Крепости Лорда Кротгара нависает над тобой. Ты морально
+подготавливаешь себя к предстоящим схваткам. Противники, с которыми ты
+встречался раньше - беззубые младенцы по сравнению обитателями Крепости.
+{x
+Крепость расположена прямо на юг отсюда.
+~
+0 0 mountain
+D0 0
+~
+~
+Z -1 14739
+D1 0
+~
+~
+Z -1 14733
+D2 0
+@eng THE FORTRESS@rus КРЕПОСТЬ
+~
+~
+Z -1 14725
+D3 0
+~
+~
+Z -1 14731
+S
+#14733
+@eng The Upper Slopes of Mount Doom@rus Вверх по склону Горы Смерти~
+@eng You are steadily drawing near the summit. The ground has become quite smooth
+here, to the point of sliperiness, and you stop more than once to regain your
+footing on the glassy obsidian that coats the upper slopes. The fortress
+of Lord Krogthar looms closer than ever now, and you mentally prepare
+yourself for the the upcoming battles. The foes you have fought so far have
+been minor compared to those to come.
+@rus Ты постепенно приближаешься к вершине. Здесь очень скользко, почти 
+невозможно двигаться вперед, и ты уже не один раз останавливался, пытаясь 
+удержать равновесие на гладкой поверхности обсидиана и не скатиться вниз.
+Громада Крепости Лорда Кротгара нависает над тобой. Ты морально
+подготавливаешь себя к предстоящим схваткам. Противники, с которыми ты
+встречался раньше - беззубые младенцы по сравнению обитателями Крепости.
+~
+0 0 mountain
+D0 0
+~
+~
+Z -1 14740
+D1 0
+~
+~
+Z -1 14734
+D2 0
+~
+~
+Z -1 14726
+D3 0
+~
+~
+Z -1 14732
+S
+#14734
+@eng The Foothills of Mount Doom@rus У подножья Горы Смерти~
+@eng You have come to the base of the mountain. From here you may continue to
+slowly make your way up the mountain, or head back to the eerie plains below.
+The ground here is rocky and treacherous, dotted by small crevices in the
+volcanic rock and jagged shards of granite protrustions. The wind is even
+stronger here than on the plains, and you fancy you can hear voices and
+screams.
+@rus Ты стоишь у подножья горы. Отсюда можно продолжить медленный подъем на гору
+или вернуться к жутким равнинам. Почва под твоими ногами скалиста и ненадежна, 
+усыпанная острыми осколками гранита. Тонкие трещины пронизывают вулканическую 
+скалу. Ветер даже сильнее, чем на равнинах. Сквозь его свист ты слышишь 
+чьи-то голоса и крики.
+~
+0 0 hills
+D0 0
+~
+~
+Z -1 14741
+D1 0
+~
+~
+Z -1 14735
+D2 0
+~
+~
+Z -1 14727
+D3 0
+~
+~
+Z -1 14733
+S
+#14735
+@eng The Plains of Mount Doom@rus Равнины близ Горы Смерти~
+@eng A chill wind blows across the desolate wastes, and you shiver uncomfortably
+as you proceed. The bones of past adventurers lay scattered across the
+hard ground, among rusted weapons and shards of jagged rock that resemble
+teeth. It almost looks as if the very earth had devoured them. But the
+sudden howl of a warg (or a ghoul) alerts you to the very real dangers
+lurking nearby and you press on.
+@rus Холодный ветер гуляет по бесплодным равнинам, невольной дрожью пробирая тебя 
+до самых костей. Останки предшествующих тебе путников рассеяны по твердой 
+каменистой почве, вперемешку с ржавеющими обломками оружия и острыми выступами 
+скал, похожими на чьи-то зубы. Похоже, что сама земля поглотила несчастных. 
+Внезапно вой варга (или упыря) возвращает тебя к вполне реальным опасностям, 
+подстерегающим тебя неподалеку и заставляет ускорить шаг.
+~
+0 0 field
+D0 0
+~
+~
+Z -1 14742
+D2 0
+~
+~
+Z -1 14728
+D3 0
+~
+~
+Z -1 14734
+S
+#14736
+@eng The Plains of Mount Doom@rus Равнины близ Горы Смерти~
+@eng A chill wind blows across the desolate wastes, and you shiver uncomfortably
+as you proceed. The bones of past adventurers lay scattered across the
+hard ground, among rusted weapons and shards of jagged rock that resemble
+teeth. It almost looks as if the very earth had devoured them. But the
+sudden howl of a warg (or a ghoul) alerts you to the very real dangers
+lurking nearby and you press on.
+@rus Холодный ветер гуляет по бесплодным равнинам, невольной дрожью пробирая тебя 
+до самых костей. Останки предшествующих тебе путников рассеяны по твердой 
+каменистой почве, вперемешку с ржавеющими обломками оружия и острыми выступами 
+скал, похожими на чьи-то зубы. Похоже, что сама земля поглотила несчастных. 
+Внезапно вой варга (или упыря) возвращает тебя к вполне реальным опасностям, 
+подстерегающим тебя неподалеку и заставляет ускорить шаг.
+~
+0 0 field
+D0 0
+~
+~
+Z -1 14743
+D1 0
+~
+~
+Z -1 14737
+D2 0
+~
+~
+Z -1 14729
+S
+#14737
+@eng The Foothills of Mount Doom@rus У подножья Горы Смерти~
+@eng You have come to the base of the mountain. From here you may continue to
+slowly make your way up the mountain, or head back to the eerie plains below.
+The ground here is rocky and treacherous, dotted by small crevices in the
+volcanic rock and jagged shards of granite protrustions. The wind is even
+stronger here than on the plains, and you fancy you can hear voices and
+screams.
+@rus Ты стоишь у подножья горы. Отсюда можно продолжить медленный подъем на гору
+или вернуться к жутким равнинам. Почва под твоими ногами скалиста и ненадежна, 
+усыпанная острыми осколками гранита. Тонкие трещины пронизывают вулканическую 
+скалу. Ветер даже сильнее, чем на равнинах. Сквозь его свист ты слышишь 
+чьи-то голоса и крики.
+~
+0 0 hills
+D0 0
+~
+~
+Z -1 14744
+D1 0
+~
+~
+Z -1 14738
+D2 0
+~
+~
+Z -1 14730
+D3 0
+~
+~
+Z -1 14736
+S
+#14738
+@eng The Foothills of Mount Doom@rus У подножья Горы Смерти~
+@eng You have come to the base of the mountain. From here you may continue to
+slowly make your way up the mountain, or head back to the eerie plains below.
+The ground here is rocky and treacherous, dotted by small crevices in the
+volcanic rock and jagged shards of granite protrustions. The wind is even
+stronger here than on the plains, and you fancy you can hear voices and
+screams.
+@rus Ты стоишь у подножья горы. Отсюда можно продолжить медленный подъем на гору
+или вернуться к жутким равнинам. Почва под твоими ногами скалиста и ненадежна, 
+усыпанная острыми осколками гранита. Тонкие трещины пронизывают вулканическую 
+скалу. Ветер даже сильнее, чем на равнинах. Сквозь его свист ты слышишь 
+чьи-то голоса и крики.
+~
+0 0 hills
+D0 0
+~
+~
+Z -1 14745
+D1 0
+~
+~
+Z -1 14739
+D2 0
+~
+~
+Z -1 14731
+D3 0
+~
+~
+Z -1 14737
+S
+#14739
+@eng The Foothills of Mount Doom@rus У подножья Горы Смерти~
+@eng You have come to the base of the mountain. From here you may continue to
+slowly make your way up the mountain, or head back to the eerie plains below.
+The ground here is rocky and treacherous, dotted by small crevices in the
+volcanic rock and jagged shards of granite protrustions. The wind is even
+stronger here than on the plains, and you fancy you can hear voices and
+screams.
+@rus Ты стоишь у подножья горы. Отсюда можно продолжить медленный подъем на гору
+или вернуться к жутким равнинам. Почва под твоими ногами скалиста и ненадежна, 
+усыпанная острыми осколками гранита. Тонкие трещины пронизывают вулканическую 
+скалу. Ветер даже сильнее, чем на равнинах. Сквозь его свист ты слышишь 
+чьи-то голоса и крики.
+~
+0 0 hills
+D0 0
+~
+~
+Z -1 14746
+D1 0
+~
+~
+Z -1 14740
+D2 0
+~
+~
+Z -1 14732
+D3 0
+~
+~
+Z -1 14738
+S
+#14740
+@eng The Foothills of Mount Doom@rus У подножья Горы Смерти~
+@eng You have come to the base of the mountain. From here you may continue to
+slowly make your way up the mountain, or head back to the eerie plains below.
+The ground here is rocky and treacherous, dotted by small crevices in the
+volcanic rock and jagged shards of granite protrustions. The wind is even
+stronger here than on the plains, and you fancy you can hear voices and
+screams.
+@rus Ты стоишь у подножья горы. Отсюда можно продолжить медленный подъем на гору
+или вернуться к жутким равнинам. Почва под твоими ногами скалиста и ненадежна, 
+усыпанная острыми осколками гранита. Тонкие трещины пронизывают вулканическую 
+скалу. Ветер даже сильнее, чем на равнинах. Сквозь его свист ты слышишь 
+чьи-то голоса и крики.
+~
+0 0 hills
+D0 0
+~
+~
+Z -1 14747
+D1 0
+~
+~
+Z -1 14741
+D2 0
+~
+~
+Z -1 14733
+D3 0
+~
+~
+Z -1 14739
+S
+#14741
+@eng The Foothills of Mount Doom@rus У подножья Горы Смерти~
+@eng You have come to the base of the mountain. From here you may continue to
+slowly make your way up the mountain, or head back to the eerie plains below.
+The ground here is rocky and treacherous, dotted by small crevices in the
+volcanic rock and jagged shards of granite protrustions. The wind is even
+stronger here than on the plains, and you fancy you can hear voices and
+screams.
+@rus Ты стоишь у подножья горы. Отсюда можно продолжить медленный подъем на гору
+или вернуться к жутким равнинам. Почва под твоими ногами скалиста и ненадежна, 
+усыпанная острыми осколками гранита. Тонкие трещины пронизывают вулканическую 
+скалу. Ветер даже сильнее, чем на равнинах. Сквозь его свист ты слышишь 
+чьи-то голоса и крики.
+~
+0 0 hills
+D0 0
+~
+~
+Z -1 14748
+D1 0
+~
+~
+Z -1 14742
+D2 0
+~
+~
+Z -1 14734
+D3 0
+~
+~
+Z -1 14740
+S
+#14742
+@eng The Plains of Mount Doom@rus Равнины близ Горы Смерти~
+@eng A chill wind blows across the desolate wastes, and you shiver uncomfortably
+as you proceed. The bones of past adventurers lay scattered across the
+hard ground, among rusted weapons and shards of jagged rock that resemble
+teeth. It almost looks as if the very earth had devoured them. But the
+sudden howl of a warg (or a ghoul) alerts you to the very real dangers
+lurking nearby and you press on.
+@rus Холодный ветер гуляет по бесплодным равнинам, невольной дрожью пробирая тебя 
+до самых костей. Останки предшествующих тебе путников рассеяны по твердой 
+каменистой почве, вперемешку с ржавеющими обломками оружия и острыми выступами 
+скал, похожими на чьи-то зубы. Похоже, что сама земля поглотила несчастных. 
+Внезапно вой варга (или упыря) возвращает тебя к вполне реальным опасностям, 
+подстерегающим тебя неподалеку и заставляет ускорить шаг.
+~
+0 0 field
+D0 0
+~
+~
+Z -1 14749
+D2 0
+~
+~
+Z -1 14735
+D3 0
+~
+~
+Z -1 14741
+S
+#14743
+@eng The Plains of Mount Doom@rus Равнины близ Горы Смерти~
+@eng A chill wind blows across the desolate wastes, and you shiver uncomfortably
+as you proceed. The bones of past adventurers lay scattered across the
+hard ground, among rusted weapons and shards of jagged rock that resemble
+teeth. It almost looks as if the very earth had devoured them. But the
+sudden howl of a warg (or a ghoul) alerts you to the very real dangers
+lurking nearby and you press on.
+@rus Холодный ветер гуляет по бесплодным равнинам, невольной дрожью пробирая тебя 
+до самых костей. Останки предшествующих тебе путников рассеяны по твердой 
+каменистой почве, вперемешку с ржавеющими обломками оружия и острыми выступами 
+скал, похожими на чьи-то зубы. Похоже, что сама земля поглотила несчастных. 
+Внезапно вой варга (или упыря) возвращает тебя к вполне реальным опасностям, 
+подстерегающим тебя неподалеку и заставляет ускорить шаг.
+~
+0 0 field
+D1 0
+~
+~
+Z -1 14744
+D2 0
+~
+~
+Z -1 14736
+S
+#14744
+@eng The Plains of Mount Doom@rus Равнины близ Горы Смерти~
+@eng A chill wind blows across the desolate wastes, and you shiver uncomfortably
+as you proceed. The bones of past adventurers lay scattered across the
+hard ground, among rusted weapons and shards of jagged rock that resemble
+teeth. It almost looks as if the very earth had devoured them. But the
+sudden howl of a warg (or a ghoul) alerts you to the very real dangers
+lurking nearby and you press on.
+@rus Холодный ветер гуляет по бесплодным равнинам, невольной дрожью пробирая тебя 
+до самых костей. Останки предшествующих тебе путников рассеяны по твердой 
+каменистой почве, вперемешку с ржавеющими обломками оружия и острыми выступами 
+скал, похожими на чьи-то зубы. Похоже, что сама земля поглотила несчастных. 
+Внезапно вой варга (или упыря) возвращает тебя к вполне реальным опасностям, 
+подстерегающим тебя неподалеку и заставляет ускорить шаг.
+~
+0 0 field
+D1 0
+~
+~
+Z -1 14745
+D2 0
+~
+~
+Z -1 14737
+D3 0
+~
+~
+Z -1 14743
+S
+#14745
+@eng The Plains of Mount Doom@rus Равнины близ Горы Смерти~
+@eng A chill wind blows across the desolate wastes, and you shiver uncomfortably
+as you proceed. The bones of past adventurers lay scattered across the
+hard ground, among rusted weapons and shards of jagged rock that resemble
+teeth. It almost looks as if the very earth had devoured them. But the
+sudden howl of a warg (or a ghoul) alerts you to the very real dangers
+lurking nearby and you press on.
+@rus Холодный ветер гуляет по бесплодным равнинам, невольной дрожью пробирая тебя 
+до самых костей. Останки предшествующих тебе путников рассеяны по твердой 
+каменистой почве, вперемешку с ржавеющими обломками оружия и острыми выступами 
+скал, похожими на чьи-то зубы. Похоже, что сама земля поглотила несчастных. 
+Внезапно вой варга (или упыря) возвращает тебя к вполне реальным опасностям, 
+подстерегающим тебя неподалеку и заставляет ускорить шаг.
+~
+0 0 field
+D1 0
+~
+~
+Z -1 14746
+D2 0
+~
+~
+Z -1 14738
+D3 0
+~
+~
+Z -1 14744
+S
+#14746
+@eng The Plains of Mount Doom@rus Равнины близ Горы Смерти~
+@eng A chill wind blows across the desolate wastes, and you shiver uncomfortably
+as you proceed. The bones of past adventurers lay scattered across the
+hard ground, among rusted weapons and shards of jagged rock that resemble
+teeth. It almost looks as if the very earth had devoured them. But the
+sudden howl of a warg (or a ghoul) alerts you to the very real dangers
+lurking nearby and you press on.
+@rus Холодный ветер гуляет по бесплодным равнинам, невольной дрожью пробирая тебя 
+до самых костей. Останки предшествующих тебе путников рассеяны по твердой 
+каменистой почве, вперемешку с ржавеющими обломками оружия и острыми выступами 
+скал, похожими на чьи-то зубы. Похоже, что сама земля поглотила несчастных. 
+Внезапно вой варга (или упыря) возвращает тебя к вполне реальным опасностям, 
+подстерегающим тебя неподалеку и заставляет ускорить шаг.
+~
+0 0 field
+D1 0
+~
+~
+Z -1 14747
+D2 0
+~
+~
+Z -1 14739
+D3 0
+~
+~
+Z -1 14745
+S
+#14747
+@eng The Plains of Mount Doom@rus Равнины близ Горы Смерти~
+@eng A chill wind blows across the desolate wastes, and you shiver uncomfortably
+as you proceed. The bones of past adventurers lay scattered across the
+hard ground, among rusted weapons and shards of jagged rock that resemble
+teeth. It almost looks as if the very earth had devoured them. But the
+sudden howl of a warg (or a ghoul) alerts you to the very real dangers
+lurking nearby and you press on.
+@rus Холодный ветер гуляет по бесплодным равнинам, невольной дрожью пробирая тебя 
+до самых костей. Останки предшествующих тебе путников рассеяны по твердой 
+каменистой почве, вперемешку с ржавеющими обломками оружия и острыми выступами 
+скал, похожими на чьи-то зубы. Похоже, что сама земля поглотила несчастных. 
+Внезапно вой варга (или упыря) возвращает тебя к вполне реальным опасностям, 
+подстерегающим тебя неподалеку и заставляет ускорить шаг.
+~
+0 0 field
+D1 0
+~
+~
+Z -1 14748
+D2 0
+~
+~
+Z -1 14740
+D3 0
+~
+~
+Z -1 14746
+S
+#14748
+@eng The Plains of Mount Doom@rus Равнины близ Горы Смерти~
+@eng A chill wind blows across the desolate wastes, and you shiver uncomfortably
+as you proceed. The bones of past adventurers lay scattered across the
+hard ground, among rusted weapons and shards of jagged rock that resemble
+teeth. It almost looks as if the very earth had devoured them. But the
+sudden howl of a warg (or a ghoul) alerts you to the very real dangers
+lurking nearby and you press on.
+@rus Холодный ветер гуляет по бесплодным равнинам, невольной дрожью пробирая тебя 
+до самых костей. Останки предшествующих тебе путников рассеяны по твердой 
+каменистой почве, вперемешку с ржавеющими обломками оружия и острыми выступами 
+скал, похожими на чьи-то зубы. Похоже, что сама земля поглотила несчастных. 
+Внезапно вой варга (или упыря) возвращает тебя к вполне реальным опасностям, 
+подстерегающим тебя неподалеку и заставляет ускорить шаг.
+~
+0 0 field
+D1 0
+~
+~
+Z -1 14749
+D2 0
+~
+~
+Z -1 14741
+D3 0
+~
+~
+Z -1 14747
+S
+#14749
+@eng The Plains of Mount Doom@rus Равнины близ Горы Смерти~
+@eng A chill wind blows across the desolate wastes, and you shiver uncomfortably
+as you proceed. The bones of past adventurers lay scattered across the
+hard ground, among rusted weapons and shards of jagged rock that resemble
+teeth. It almost looks as if the very earth had devoured them. But the
+sudden howl of a warg (or a ghoul) alerts you to the very real dangers
+lurking nearby and you press on.
+@rus Холодный ветер гуляет по бесплодным равнинам, невольной дрожью пробирая тебя 
+до самых костей. Останки предшествующих тебе путников рассеяны по твердой 
+каменистой почве, вперемешку с ржавеющими обломками оружия и острыми выступами 
+скал, похожими на чьи-то зубы. Похоже, что сама земля поглотила несчастных. 
+Внезапно вой варга (или упыря) возвращает тебя к вполне реальным опасностям, 
+подстерегающим тебя неподалеку и заставляет ускорить шаг.
+~
+0 0 field
+D2 0
+~
+~
+Z -1 14742
+D3 0
+~
+~
+Z -1 14748
+S
+#14750
+@eng Inside the Fell Fortress@rus Внутри горной крепости~
+@eng You are standing inside the gates of the fortress, at a crossroads. The
+passages are remarkably plain for a den of evil- simply dressed grey flag
+stones on floor and walls, the monotony broken only by the occasional torch
+sconce or tattered tapestry. It is evident that this castle has known many
+inhabitants prior to its current ones.
+@rus Ты стоишь внутри ворот Крепости, на пересечении коридоров. Проходы
+для логовища Зла на редкость заурядны - унылые серые каменные пол и 
+стены, монотонность которых лишь изредка нарушает чадящий факел, подсвечник 
+или ветхий гобелен. Похоже,  замок сменил не одного владельца до теперешнего
+лорда.
+~
+0 D inside
+D0 0
+~
+~
+Z -1 14758
+D1 0
+~
+~
+Z -1 14751
+D2 0
+~
+~
+Z -1 14771
+D3 0
+~
+~
+Z -1 14763
+D5 0
+~
+~
+ABZ -1 14725
+S
+#14751
+@eng The Cell Block@rus Тюремный блок~
+@eng Here the prisoner of Krogthar are kept. There are not many cells, as the
+Lord Korgthar is not fond of taking prisoners (hassles, hassles...). If
+you think security is a little lax, think of what lurks outside to deter
+potentianl escapees...
+@rus Здесь содержатся пленники Кротгара. Камер не очень много, так как
+лорд не любит брать пленных (надоели хуже горькой редьки...). Можно 
+подумать, что заключенные плохо охраняются, если не вспоминать о том, 
+что ожидает потенциального беглеца в самой крепости...
+~
+0 AD inside
+D0 0
+~
+~
+ABZ 0 14752
+D1 0
+~
+~
+Z 0 14754
+D2 0
+~
+~
+ABZ 0 14753
+D3 0
+~
+~
+Z -1 14750
+S
+#14752
+@eng A Cell@rus В камере~
+@eng A dank, dismal affair with little in the way of bedding or toilet facilities.
+The stench is actually quite horrendous and you find yourself eager to leave.
+@rus Сырая темная комнатушка с минимумом удобств (грязная соломенная подстилка
+и дыра для отправления физических нужд). Вонь почти невыносима, и ты 
+стремишься как можно быстрее покинуть камеру.
+~
+0 AD inside
+D2 0
+~
+~
+ABZ 0 14751
+S
+#14753
+@eng A Cell@rus В камере~
+@eng A dank, dismal affair with little in the way of bedding or toilet facilities.
+The stench is actually quite horrendous and you find yourself eager to leave.
+@rus Сырая темная комнатушка с минимумом удобств (грязная соломенная подстилка
+и дыра для отправления физических нужд). Вонь почти невыносима, и ты 
+стремишься как можно быстрее покинуть камеру.
+~
+0 AD inside
+D0 0
+~
+~
+ABZ 0 14751
+S
+#14754
+@eng The Cell Block@rus Тюремный блок~
+@eng Here the prisoner of Krogthar are kept. There are not many cells, as the
+Lord Korgthar is not fond of taking prisoners (hassles, hassles...). If
+you think security is a little lax, think of what lurks outside to deter
+potentianl escapees...
+@rus Здесь содержатся пленники Кротгара. Камер не очень много, так как
+лорд не любит брать пленных (надоели хуже горькой редьки...). Можно 
+подумать, что заключенные плохо охраняются, если не вспоминать о том, 
+что ожидает потенциального беглеца в самой крепости...
+~
+0 AD inside
+D0 0
+~
+~
+ABZ 0 14755
+D1 0
+~
+~
+ABZ 0 14757
+D2 0
+~
+~
+ABZ 0 14756
+D3 0
+~
+~
+Z -1 14751
+S
+#14755
+@eng A Cell@rus В камере~
+@eng A dank, dismal affair with little in the way of bedding or toilet facilities.
+The stench is actually quite horrendous and you find yourself eager to leave.
+@rus Сырая темная комнатушка с минимумом удобств (грязная соломенная подстилка
+и дыра для отправления физических нужд). Вонь почти невыносима, и ты 
+стремишься как можно быстрее покинуть камеру.
+~
+0 AD inside
+D2 0
+~
+~
+ABZ 0 14754
+S
+#14756
+@eng A Cell@rus В камере~
+@eng A dank, dismal affair with little in the way of bedding or toilet facilities.
+The stench is actually quite horrendous and you find yourself eager to leave.
+@rus Сырая темная комнатушка с минимумом удобств (грязная соломенная подстилка
+и дыра для отправления физических нужд). Вонь почти невыносима, и ты 
+стремишься как можно быстрее покинуть камеру.
+~
+0 AD inside
+D0 0
+~
+~
+ABZ 0 14754
+S
+#14757
+@eng A Cell@rus В камере~
+@eng A dank, dismal affair with little in the way of bedding or toilet facilities.
+The stench is actually quite horrendous and you find yourself eager to leave.
+@rus Сырая темная комнатушка с минимумом удобств (грязная соломенная подстилка
+и дыра для отправления физических нужд). Вонь почти невыносима, и ты 
+стремишься как можно быстрее покинуть камеру.
+~
+0 AD inside
+D3 0
+~
+~
+ABZ 0 14754
+S
+#14758
+@eng Some Quarters@rus Покои~
+@eng You are standing before a solid wooden door that leads to the quarters of
+some of the many types of troops that serve Krothgar.
+@rus Ты стоишь перед массивной деревянной дверью, ведущей в покои людей
+из боевых отрядов Кротгара.
+~
+0 D inside
+D0 0
+~
+~
+ABZ 0 14759
+D2 0
+~
+~
+Z -1 14750
+S
+#14759
+@eng An Ante-Room@rus В прихожей~
+@eng You are standing in a well-furnished anteroom with doors leading in all four
+directions. No noise comes from behind any- they are quite solid and are
+effectively soundproof.
+@rus Ты стоишь в хорошо меблированной прихожей, от которой во все четыре 
+направления ведут двери. Ни звука не проникает не из-за одной из них -
+каждая из них достаточна массивна и поглощает звуки.
+~
+0 D inside
+D0 0
+~
+~
+ABZ 0 14761
+D1 0
+~
+~
+ABZ 0 14762
+D2 0
+~
+~
+ABZ 0 14758
+D3 0
+~
+~
+ABZ 0 14760
+S
+#14760
+@eng Assassins' Quarters@rus Покои убийц~
+@eng In this room reside some of the assassins that serve Korthgar. He may not
+be the brightest of tyrants, but Krothgar was smart enough to work out it was
+easier to send a single assassin to slay a king and collapse an empire than
+it was to conquer it by brute force. His assassins live in comfort, as he
+values them highly.
+@rus В этой комнате обитают некоторые из убийц, состоящие на службе у лорда 
+Кротгара. Он может быть не самый гениальный тиран, но достаточно умен,
+чтобы понять преимущество одиночного устранения главы государства для 
+обеспечения падения империи к его ногам, перед захватом страны грубой силой. 
+Роскошь и комфорт, окружающие тебя, говорят о том, что лорд ценит и 
+заботится о своих убийцах.
+~
+0 D inside
+D1 0
+~
+~
+ABZ 0 14759
+S
+#14761
+@eng The Chief Assassin's Quarters@rus Покои главы убийц~
+@eng You have entered the quarters of the Chief of Krothgar's ruthlessly
+efficient assassins, and caught her in flagrante delicto with two naked men
+strapped to racks. She swears and draws her swords, making no attempt to
+cover herself, slaying her slaves before moving to confront you.
+@rus Ты входишь в покои, принадлежащие главе действующей группы безжалостных
+убийц, и обнаруживаешь ее, так сказать, на месте преступления. Прекрасная 
+гибкая девушка находится между двумя обнаженными мужскими телами, 
+растянутыми на дыбах. Выругавшись, она обнажает меч. Девушку не беспокоит 
+собственная нагота. Перед тем как сразится с тобой, убийца безжалостно и 
+быстро умертвляет своих рабов.
+~
+0 D inside
+D2 0
+~
+~
+ABZ 0 14759
+S
+#14762
+@eng Assassins' Quarters@rus Покои убийц~
+@eng In this room reside some of the assassins that serve Korthgar. He may not
+be the brightest of tyrants, but Krothgar was smart enough to work out it was
+easier to send a single assassin to slay a king and collapse an empire than
+it was to conquer it by brute force. His assassins live in comfort, as he
+values them highly.
+@rus В этой комнате обитают некоторые из убийц, состоящие на службе у лорда 
+Кротгара. Он может быть не самый гениальный тиран, но достаточно умен,
+чтобы понять преимущество одиночного устранения главы государства для 
+обеспечения падения империи к его ногам, перед захватом страны грубой силой. 
+Роскошь и комфорт, окружающие тебя, говорят о том, что лорд ценит и 
+заботится о своих убийцах.
+~
+0 D inside
+D3 0
+~
+~
+ABZ 0 14759
+S
+#14763
+@eng Some Quarters@rus Покои~
+@eng You are standing before a solid wooden door that leads to the quarters of
+some of the many types of troops that serve Krothgar.
+@rus Ты стоишь перед массивной деревянной дверью, ведущей в покои людей
+из боевых отрядов Кротгара.
+~
+0 D inside
+D1 0
+~
+~
+Z 0 14750
+D3 0
+~
+~
+ABZ 0 14764
+S
+#14764
+@eng A Corridor@rus Коридор~
+@eng You are advancing along a dark corridor that leads to the quarters of Lord
+Krothgar's blackguard.
+@rus Ты идешь вдоль темного коридора, ведущего к комнатам Черной Гвардии 
+лорда Кротгара.
+~
+0 AD inside
+D0 0
+~
+~
+Z -1 14767
+D1 0
+~
+~
+ABZ 0 14763
+D2 0
+~
+~
+ABZ 0 14765
+S
+#14765
+@eng The Keeper's Chamber@rus Покои Хранителя~
+@eng Here resides the keeper of the Mutant Pit, where the failed experiments of
+the scientist mages are kept to do away with prisoners or insolent guards.
+He likes his job, and isn't about to let you hurt his mutants.
+@rus Здесь обитает Хранитель Ямы с мутантами, в которой содержатся неудавшиеся
+эксперименты магов-ученых. Яма также используется как своеобразный способ 
+казни преступников или преступивших границу дозволенного стражников. 
+Хранитель любит свою работу и не позволит тебе причинить его мутантам вред.
+~
+0 D inside
+D0 0
+~
+~
+ABZ 0 14764
+D5 0
+~
+~
+ABZ 0 14766
+S
+#14766
+@eng The Mutant Pit@rus Яма с Мутантами~
+@eng Ack! You're in the mutant pit! Surrounded by gore, excrement, mucous, vomit
+and the remains of dying mutants, you gag and choke and struggle to get out,
+only to find your way blocked by several mutants...
+@rus Ой! Ты свалился в яму с мутантами! Кровь, экскременты, слизь, блевотина 
+и останки дохлых мутантов окружают тебя. Ты задыхаешься и героически 
+подавляешь позывы к рвоте, только для того, чтобы обнаружить, что путь 
+тебе преграждает парочка не очень привлекательных мутантиков...
+~
+0 ADN inside
+D4 0
+~
+~
+ABZ 0 14765
+S
+#14767
+@eng A Corridor@rus Коридор~
+@eng You are advancing along a dark corridor that leads to the quarters of Lord
+Krothgar's blackguard.
+@rus Ты идешь вдоль темного коридора, ведущего к комнатам Черной Гвардии 
+лорда Кротгара.
+~
+0 AD inside
+D2 0
+~
+~
+Z 0 14764
+D3 0
+~
+~
+ABZ 0 14768
+S
+#14768
+@eng The Guard Common Room@rus Общая комната стражи~
+@eng Doors lead in all directions from this messy rec room. Blood, beer and food
+stain the straw-covered floor while decomposing human, orc and ogre corpse
+hang from hooks in the ceiling, evidently used as practice dummies.
+@rus От большой грязной комнаты во все стороны ведут двери. Кровь, пиво и 
+остатки пищи ровным слоем покрывают пол. С крюков на потолке свешиваются 
+разлагающиеся тела людей, орков и огров. Их явно используют в качестве
+манекенов для тренировок.
+~
+0 D inside
+D0 0
+~
+~
+ABZ 0 14770
+D1 0
+~
+~
+ABZ 0 14767
+D2 0
+~
+~
+ABZ 0 14769
+D3 0
+@eng This door reads- "Upper level access. Authorised personnel only!@rus Hа двери надпись- "Высший уровень доступа. Вход только по пропускам!"
+~
+door~
+ABCZ 14758 14779
+D5 0
+~
+~
+Z -1 14806
+S
+#14769
+@eng Guard Quarters@rus Комнаты стражи~
+@eng This rooms is full of messy bunks and snoring guards. Dice and cards are
+scattered across the filthy stone floor, and rats gnaw at the boots of the
+guards.
+@rus Комнаты заполнены грязными койками и храпящими стражниками. Карты и кости 
+разбросаны по пыльному каменному полу. Между обувью бегают крысы, чувствуя 
+себя здесь как дома.
+~
+0 AD inside
+D0 0
+~
+~
+ABZ 0 14768
+S
+#14770
+@eng Guard Quarters@rus Комнаты стражи~
+@eng This rooms is full of messy bunks and snoring guards. Dice and cards are
+scattered across the filthy stone floor, and rats gnaw at the boots of the
+guards.
+@rus Комнаты заполнены грязными койками и храпящими стражниками. Карты и кости 
+разбросаны по пыльному каменному полу. Между обувью бегают крысы, чувствуя 
+себя здесь как дома.
+~
+0 AD inside
+D2 0
+~
+~
+ABZ 0 14768
+S
+#14771
+@eng Guest Quarters@rus Комнаты для гостей~
+@eng Down this southern corridor lie the guest rooms, where the many emissaries
+from the powerful races Krothgar is attempting to gain as allies currently
+reside. They frown upon intruders...
+@rus Внизу этого южного коридора расположены комнаты для гостей, где проживают
+представители могущественных рас, пытающихся заключить взаимовыгодное
+соглашение с силами Кротгара. Они весьма недружелюбно относятся к незванным
+чужакам...
+~
+0 D inside
+D0 0
+~
+~
+Z -1 14750
+D2 0
+~
+~
+Z -1 14772
+S
+#14772
+@eng Guest Quarters@rus Комнаты для гостей~
+@eng Down this southern corridor lie the guest rooms, where the many emissaries
+from the powerful races Krothgar is attempting to gain as allies currently
+reside. They frown upon intruders...
+@rus Внизу этого южного коридора расположены комнаты для гостей, где проживают
+представители могущественных рас, пытающихся заключить взаимовыгодное
+соглашение с силами Кротгара. Они весьма недружелюбно относятся к незванным
+чужакам...
+~
+0 D inside
+D0 0
+~
+~
+Z -1 14771
+D1 0
+~
+~
+ABZ 0 14774
+D2 0
+~
+~
+Z -1 14775
+D3 0
+~
+~
+ABZ 0 14773
+S
+#14773
+@eng Guest Quarters@rus Комнаты для гостей~
+@eng These quarters are well-decorated, with well-preserved tapestries and rugs,
+and carved wooden furniture. Alliances with other powers are crucial to
+Krothgar's plans, and he is doing his best to impress his diabolical guests.
+@rus Комнаты со вкусом обставлены резной деревянной мебелью, украшены роскошными 
+коврами и гобеленами. Заключение союзных альянсов с другими силами очень 
+важны для планов Кротгара, и он старается произвести на своих гостей хорошее 
+впечатление.
+~
+0 D inside
+D1 0
+~
+~
+ABZ 0 14772
+S
+#14774
+@eng Guest Quarters@rus Комнаты для гостей~
+@eng These quarters are well-decorated, with well-preserved tapestries and rugs,
+and carved wooden furniture. Alliances with other powers are crucial to
+Krothgar's plans, and he is doing his best to impress his diabolical guests.
+@rus Комнаты со вкусом обставлены резной деревянной мебелью, украшены роскошными 
+коврами и гобеленами. Заключение союзных альянсов с другими силами очень 
+важны для планов Кротгара, и он старается произвести на своих гостей хорошее 
+впечатление.
+~
+0 D inside
+D3 0
+~
+~
+ABZ 0 14772
+S
+#14775
+@eng Guest Quarters@rus Комнаты для гостей~
+@eng Down this southern corridor lie the guest rooms, where the many emissaries
+from the powerful races Krothgar is attempting to gain as allies currently
+reside. They frown upon intruders...
+@rus Внизу этого южного коридора расположены комнаты для гостей, где проживают
+представители могущественных рас, пытающихся заключить взаимовыгодное
+соглашение с силами Кротгара. Они весьма недружелюбно относятся к незванным
+чужакам...
+~
+0 D inside
+D0 0
+~
+~
+Z -1 14772
+D1 0
+~
+~
+ABZ 0 14777
+D2 0
+~
+~
+ABZ 0 14778
+D3 0
+~
+~
+ABZ 0 14776
+S
+#14776
+@eng Guest Quarters@rus Комнаты для гостей~
+@eng These quarters are well-decorated, with well-preserved tapestries and rugs,
+and carved wooden furniture. Alliances with other powers are crucial to
+Krothgar's plans, and he is doing his best to impress his diabolical guests.
+@rus Комнаты со вкусом обставлены резной деревянной мебелью, украшены роскошными 
+коврами и гобеленами. Заключение союзных альянсов с другими силами очень 
+важны для планов Кротгара, и он старается произвести на своих гостей хорошее 
+впечатление.
+~
+0 D inside
+D1 0
+~
+~
+ABZ 0 14775
+S
+#14777
+@eng Guest Quarters@rus Комнаты для гостей~
+@eng These quarters are well-decorated, with well-preserved tapestries and rugs,
+and carved wooden furniture. Alliances with other powers are crucial to
+Krothgar's plans, and he is doing his best to impress his diabolical guests.
+@rus Комнаты со вкусом обставлены резной деревянной мебелью, украшены роскошными 
+коврами и гобеленами. Заключение союзных альянсов с другими силами очень 
+важны для планов Кротгара, и он старается произвести на своих гостей хорошее 
+впечатление.
+~
+0 D inside
+D3 0
+~
+~
+ABZ 0 14775
+S
+#14778
+@eng Guest Quarters@rus Комнаты для гостей~
+@eng These quarters are well-decorated, with well-preserved tapestries and rugs,
+and carved wooden furniture. Alliances with other powers are crucial to
+Krothgar's plans, and he is doing his best to impress his diabolical guests.
+@rus Комнаты со вкусом обставлены резной деревянной мебелью, украшены роскошными 
+коврами и гобеленами. Заключение союзных альянсов с другими силами очень 
+важны для планов Кротгара, и он старается произвести на своих гостей хорошее 
+впечатление.
+~
+0 D inside
+D0 0
+~
+~
+ABZ 0 14775
+S
+#14779
+@eng The Fortress@rus Крепость~
+@eng You have entered the restricted area. Staircases run up and down from here,
+and a narrow passage stretches away to the west.
+@rus Ты стоишь в тесном пространстве. Лестиница уходит вверх и вниз отсюда.
+Узкий проход тянется на запад.
+~
+0 D inside
+D1 0
+~
+~
+ABCZ 14758 14768
+D3 0
+~
+~
+Z -1 14780
+D4 0
+~
+~
+Z -1 14793
+D5 0
+~
+~
+Z -1 14787
+S
+#14780
+@eng A Narrow Corridor@rus Узкий коридор~
+@eng This corridor runs through the center of the Fortress to the mage towers,
+on the western wall of the fortress. A junction lies to the west.
+@rus Этот коридор ведет через центр крепости к башням магов на западной
+стене. Пересечение находится к западу.
+~
+0 D inside
+D1 0
+~
+~
+Z -1 14779
+D3 0
+~
+~
+Z -1 14781
+S
+#14781
+@eng A Junction@rus Пересечение~
+@eng You may head through doors to the north or south from here, or back east
+to the outer fortress. There is a sign on the south door, and a plaque on
+the northern.
+@rus Ты можешь проследовать через двери на север или юг отсюда, или вернуться
+на восток к выходу из крепости. На южной двери виден знак (sign), северную
+дверь украшает табличка (plaque).
+~
+0 D inside
+E ''
+sign~
+@eng The sign reads-
+
+        The Quarters of the Archmage. Please do not enter. Important
+        experiment in progress. Leave messages with the guards.
+
+        - Axtraxes.
+@rus {xЗнак гласит-
+{x
+{x        Покои Архимага. Просьба не входить. Идет важный эксперимент.
+{x        Оставьте свое сообщение охране.
+{x
+{x        -Акстраксис.
+~
+E ''
+plaque~
+@eng The plaque reads-
+
+       "T H E   E L E M E N T A L   L A B O R A T O R I E S "
+
+       Keep out!
+
+       - Axtraxes.
+@rus {xНа табличке надпись-
+{x
+{x       " Э Л Е М Е Н Т А Л Ь Н А Я    Л А Б О Р А Т О Р И Я "
+{x
+{x       Не входить!
+{x
+{x       - Акстраксис.
+~
+D0 0
+~
+~
+ABZ 0 14783
+D1 0
+~
+~
+Z -1 14780
+D2 0
+~
+~
+ABZ 0 14782
+S
+#14782
+@eng The Quarters of the Archmage@rus Покои верховного мага~
+@eng You have barged into the quarters of Axtraxes, arch mage of Krothgar, and
+ruined his experiment. He's BOUND to be upset.
+@rus Ты вторгся в покои Акстраксиса, верховного мага Кротгара, прервав ход 
+важного эксперимента. Он ОЧЕНЬ СИЛЬНО огорчен...
+~
+0 D inside
+D0 0
+~
+~
+ABZ 0 14781
+S
+#14783
+@eng The Elemental Laboratories@rus Элементальная лаборатория~
+@eng This vast room extends in all directions. You see vats, urns, beakers, jars,
+alembics and a hundred other items scattered about on desks, benches, chairs
+and floors. Everything appears rather damaged, as if someone (or something)
+has recently gone berserk in here...
+@rus Огромная комната простирается во всех направлениях.
+Перед тобой открывается зрелище чанов, урн, мензурок, пузырьков,
+перегонных кубов и пробирок, расставленных по столам, полкам, стульям
+и просто на полу. Все это находится в полном беспорядке, котлы перевернуты,
+на полу осколки. Похоже, кто-то побушевал здесь вволю...
+~
+0 D inside
+D0 0
+~
+~
+Z -1 14785
+D1 0
+~
+~
+Z -1 14786
+D2 0
+~
+~
+ABZ 0 14781
+D3 0
+~
+~
+Z -1 14784
+S
+#14784
+@eng Western End of the Lab@rus Западный конец лаборатории~
+@eng This vast room extends in all directions. You see vats, urns, beakers, jars,
+alembics and a hundred other items scattered about on desks, benches, chairs
+and floors. Everything appears rather damaged, as if someone (or something)
+has recently gone berserk in here...
+@rus Огромная комната простирается во всех направлениях.
+Перед тобой открывается зрелище чанов, урн, мензурок, пузырьков,
+перегонных кубов и пробирок, расставленных по столам, полкам, стульям
+и просто на полу. Все это находится в полном беспорядке, котлы перевернуты,
+на полу осколки. Похоже, кто-то побушевал здесь вволю...
+~
+0 D inside
+D1 0
+~
+~
+Z -1 14783
+S
+#14785
+@eng Northern End of the Lab@rus Северный конец лаборатории~
+@eng This vast room extends in all directions. You see vats, urns, beakers, jars,
+alembics and a hundred other items scattered about on desks, benches, chairs
+and floors. Everything appears rather damaged, as if someone (or something)
+has recently gone berserk in here...
+@rus Огромная комната простирается во всех направлениях.
+Перед тобой открывается зрелище чанов, урн, мензурок, пузырьков,
+перегонных кубов и пробирок, расставленных по столам, полкам, стульям
+и просто на полу. Все это находится в полном беспорядке, котлы перевернуты,
+на полу осколки. Похоже, кто-то побушевал здесь вволю...
+~
+0 D inside
+D2 0
+~
+~
+Z -1 14783
+S
+#14786
+@eng Eastern End of the Lab@rus Восточный конец лаборатории~
+@eng This vast room extends in all directions. You see vats, urns, beakers, jars,
+alembics and a hundred other items scattered about on desks, benches, chairs
+and floors. Everything appears rather damaged, as if someone (or something)
+has recently gone berserk in here...
+@rus Огромная комната простирается во всех направлениях.
+Перед тобой открывается зрелище чанов, урн, мензурок, пузырьков,
+перегонных кубов и пробирок, расставленных по столам, полкам, стульям
+и просто на полу. Все это находится в полном беспорядке, котлы перевернуты,
+на полу осколки. Похоже, кто-то побушевал здесь вволю...
+~
+0 D inside
+D3 0
+~
+~
+Z -1 14783
+S
+#14787
+@eng The Lower Chambers@rus Нижние Залы~
+@eng You have entered the lower levels of the Fortress, where hideous creatures
+lurk and evil priests engage in foul ceremonies to their demonic deities.
+@rus Ты забрел на нижние уровни крепости, где бродят ужасные твари,
+а злые священики совершают отвратительные ритуальные жертвоприношения 
+своим богам-демонам.
+~
+0 AD inside
+D1 0
+@eng You see an ancient crypt@rus Ты видишь перед собой древнюю усыпальницу.
+~
+crypt door~
+ABCZ 0 14788
+D2 0
+~
+~
+Z -1 14789
+D4 0
+~
+~
+Z -1 14779
+S
+#14788
+@eng An Ancient Crypt@rus Древняя усыпальница~
+@eng This crypt has remained untouched for centuries. It houses the remains of
+the foul lich king who once ruled this Fortress and much of the surrounding
+land under an iron fist (literally, Krothgar's golem now wears it). You
+better hope he stayed dead...
+@rus Это захоронение оставалось нетронутым много веков. Здесь хранятся останки
+отвратительного короля-лича, который когда-то правил крепостью и близлежащими
+железной рукой (Кстати сейчас ее носит голем Кротгара). Лучше надеяться,
+что король действительно мертв...
+~
+0 ADN inside
+D3 0
+~
+crypt door~
+Z 0 14787
+S
+#14789
+@eng The Unholy Temple@rus Темный храм~
+@eng You have entered the grounds of the unholy temple of the Fortress. Screaming
+virgins are torn asunder in foul rituals upon altars soaked with the blood
+of thousands of innocents while evil priests look on and pray for a visitation
+from their gods.
+@rus Ты ступаешь на землю Темного храма крепости. Воздух наполнен криками 
+девственниц, пытаемых на алтарях, густо орошенных кровью тысяч невинных 
+жертв. Жрецы внимательно наблюдают за ходом отвратительных ритуалов и молят
+своих богов снизойти. 
+~
+0 AD inside
+D0 0
+~
+~
+Z -1 14787
+D1 0
+~
+~
+Z -1 14792
+D2 0
+~
+~
+Z -1 14791
+D3 0
+~
+~
+Z -1 14790
+S
+#14790
+@eng The Unholy Temple@rus Темный храм~
+@eng You have entered the grounds of the unholy temple of the Fortress. Screaming
+virgins are torn asunder in foul rituals upon altars soaked with the blood
+of thousands of innocents while evil priests look on and pray for a visitation
+from their gods.
+
+The altar is directly before you, and you see the high priest standing
+behind it, about to sacrifice another virgin.
+@rus Ты ступаешь на землю Темного храма крепости. Воздух наполнен криками 
+девственниц, пытаемых на алтарях, густо орошенных кровью тысяч невинных 
+жертв. Жрецы внимательно наблюдают за ходом отвратительных ритуалов и молят
+своих богов снизойти. 
+{x
+Алтарь находится прямо перед тобой, и ты видишь верховного жреца, 
+стоящего за ним и занятого жертвоприношением очередной девственницы.
+~
+0 AD inside
+D1 0
+~
+~
+Z -1 14789
+S
+#14791
+@eng The Unholy Temple@rus Темный храм~
+@eng You have entered the grounds of the unholy temple of the Fortress. Screaming
+virgins are torn asunder in foul rituals upon altars soaked with the blood
+of thousands of innocents while evil priests look on and pray for a visitation
+from their gods. Down from here lairs Jher, ally of Krogthar.
+@rus Ты ступаешь на землю Темного храма крепости. Воздух наполнен криками 
+девственниц, пытаемых на алтарях, густо орошенных кровью тысяч невинных 
+жертв. Жрецы внимательно наблюдают за ходом отвратительных ритуалов и молят
+своих богов снизойти. 
+Внизу расположено логовище Джхера, союзника лорда Кротгара.
+~
+0 AD inside
+D0 0
+~
+~
+Z -1 14789
+D5 0
+~
+~
+Z -1 32700
+S
+#14792
+@eng The Hydra Lair@rus Логово гидры~
+@eng Here Krothgar keeps his hydra, which guards the treasure of the evil temple.
+It is a wild and ferocious beast, which will tear apart anything that enters
+its lair save Krothgar or the high priest.
+@rus Здесь Кротгар держит свою гидру, охраняющую сокровище храма Зла.
+Гидра - зверь дикий и свирепый, и разорвет на кусочки любого, кто сунется
+в ее логово, за исключением самого лорда и высших священников.
+~
+0 AD inside
+D3 0
+~
+~
+Z -1 14789
+S
+#14793
+@eng A Spiral Staircase@rus Спиральная лестница~
+@eng You are ascending a spiral staircase that winds up into the heights of the
+multitude of towers that adorn the heights of the Fortress.
+@rus Ты поднимаешься по спиральной лестнице, ведущей к множеству башен,
+украшающих верхние уровни крепости. 
+~
+0 D inside
+D4 0
+~
+~
+Z -1 14794
+D5 0
+~
+~
+Z -1 14779
+S
+#14794
+@eng A Landing@rus На площадке~
+@eng You have come to a landing, upon which are 4 doors leading in the cardinal
+directions. The staircase continues its climb in the center.
+@rus Ты стоишь на площадке с четырьмя дверями - на север, юг, запад и восток.
+По центру вверх уходит лестница.
+~
+0 D inside
+D0 0
+~
+~
+ABZ 0 14797
+D1 0
+~
+~
+ABZ 0 14798
+D2 0
+~
+~
+ABZ 0 14795
+D3 0
+~
+~
+ABZ 0 14796
+D4 0
+~
+~
+Z 0 14799
+D5 0
+~
+~
+Z 0 14793
+S
+#14795
+@eng A Bedchamber@rus Спальня~
+@eng You have entered a luxurious boudoir full of expensive furniture and a wide
+variety of perfumes, unguents and other cosmetics. Piles of clothing are
+piled on the floor, as if someone had but recently gone through them in
+search of an outfit.
+@rus Ты входишь в роскошный будуар, уставленный дорогой мебелью.
+Перед зеркалом стоит широкий ассортимент духов, кремов и другой косметики.
+Одежда грудой свалена на полу, как будто кто-то недавно перебирал ее,
+пытаясь отыскать что бы одеть.
+~
+0 D inside
+D0 0
+~
+~
+ABZ 0 14794
+S
+#14796
+@eng A Bedchamber@rus Спальня~
+@eng You have entered a luxurious boudoir full of expensive furniture and a wide
+variety of perfumes, unguents and other cosmetics. Piles of clothing are
+piled on the floor, as if someone had but recently gone through them in
+search of an outfit.
+@rus Ты входишь в роскошный будуар, уставленный дорогой мебелью.
+Перед зеркалом стоит широкий ассортимент духов, кремов и другой косметики.
+Одежда грудой свалена на полу, как будто кто-то недавно перебирал ее,
+пытаясь отыскать что бы одеть.
+~
+0 D inside
+D1 0
+~
+~
+ABZ 0 14794
+S
+#14797
+@eng A Hall@rus Зала~
+@eng You have entered a long dining hall filled with a huge table lined with
+high-backed chairs. Seated in these chairs are skeletons (the normal sort)
+clad in royal regalia- these are the many opponents that Krothgar has
+vanquished. He keeps their mortal remains here as trophies.
+@rus Ты входишь в длинную обеденную залу, заполненную огромным столом,
+вдоль которого в линию выставлены стулья с высокими спинками. Сидящие
+на этих стульях скелеты (обычного вида и размера) облачены в королевские
+регалии. Это множество имело неосторожность стать врагами Кротгара,
+и было им побеждены. Лорд хранит здесь их останки в качестве трофеев.
+~
+0 D inside
+D2 0
+~
+~
+ABZ 0 14794
+S
+#14798
+@eng A Bedchamber@rus Спальня~
+@eng You have entered a luxurious boudoir full of expensive furniture and a wide
+variety of perfumes, unguents and other cosmetics. Piles of clothing are
+piled on the floor, as if someone had but recently gone through them in
+search of an outfit.
+@rus Ты входишь в роскошный будуар, уставленный дорогой мебелью.
+Перед зеркалом стоит широкий ассортимент духов, кремов и другой косметики.
+Одежда грудой свалена на полу, как будто кто-то недавно перебирал ее,
+пытаясь отыскать что бы одеть.
+~
+0 D inside
+D3 0
+~
+~
+ABZ 0 14794
+S
+#14799
+@eng A Spiral Staircase@rus Спиральная лестница~
+@eng You are ascending a spiral staircase that winds up into the heights of the
+multitude of towers that adorn the heights of the Fortress.
+@rus Ты поднимаешься по спиральной лестнице, ведущей к множеству башен,
+украшающих верхние уровни крепости. 
+~
+0 D inside
+D4 0
+~
+~
+Z -1 14800
+D5 0
+~
+~
+Z -1 14794
+S
+#14800
+@eng The Throne Room@rus Тронная зала~
+@eng You have entered the Throne Room of Lord Krothgar. He sits here, upon his
+throne, located in the center of the 5 towers which emerge in all directions
+from this room. In each tower resides a powerful dragon, loyal allies of the
+Lord. Long wall hangings depict the many victories won by Krothgar, and
+in between them stand members of his elite guard, ready to defend their lord.
+@rus Ты входишь в тронную залу лорда Кротгара. В центре стоит трон, на котором
+восседает лорд. Во все стороны от залы расположены 5 башен. В каждой башне
+обитает по дракону, могущественному союзнику лорда. Стены украшены 
+изображениями несчетных побед Кротгара. Тут же стоят воины элитной гвардии,
+готовые защищать своего повелителя до последней капли крови. 
+~
+0 D inside
+D0 0
+~
+~
+Z -1 14801
+D1 0
+~
+~
+Z -1 14804
+D2 0
+~
+~
+Z -1 14803
+D3 0
+~
+~
+Z -1 14802
+D4 0
+~
+~
+Z -1 14805
+D5 0
+~
+~
+Z -1 14799
+S
+#14801
+@eng Dragon Tower@rus Драконья Башня~
+@eng In this tower rests a huge dragon, the largest of its kind. It will not
+appreciate being disturbed by a mortal such as yourself...
+@rus В этой башне живет огромный дракон, самый крупный представитель своего вида.
+И он явно не оценит, если его побеспокоит какой-нибудь жалкий смертный ...
+вроде тебя...
+~
+0 D inside
+D2 0
+~
+~
+Z -1 14800
+S
+#14802
+@eng Dragon Tower@rus Драконья Башня~
+@eng In this tower rests a huge dragon, the largest of its kind. It will not
+appreciate being disturbed by a mortal such as yourself...
+@rus В этой башне живет огромный дракон, самый крупный представитель своего вида.
+И он явно не оценит, если его побеспокоит какой-нибудь жалкий смертный ...
+вроде тебя...
+~
+0 D inside
+D1 0
+~
+~
+Z -1 14800
+S
+#14803
+@eng Dragon Tower@rus Драконья Башня~
+@eng In this tower rests a huge dragon, the largest of its kind. It will not
+appreciate being disturbed by a mortal such as yourself...
+@rus В этой башне живет огромный дракон, самый крупный представитель своего вида.
+И он явно не оценит, если его побеспокоит какой-нибудь жалкий смертный ...
+вроде тебя...
+~
+0 D inside
+D0 0
+~
+~
+Z -1 14800
+S
+#14804
+@eng Dragon Tower@rus Драконья Башня~
+@eng In this tower rests a huge dragon, the largest of its kind. It will not
+appreciate being disturbed by a mortal such as yourself...
+@rus В этой башне живет огромный дракон, самый крупный представитель своего вида.
+И он явно не оценит, если его побеспокоит какой-нибудь жалкий смертный ...
+вроде тебя...
+~
+0 D inside
+D3 0
+~
+~
+Z -1 14800
+S
+#14805
+@eng Dragon Tower@rus Драконья Башня~
+@eng In this tower rests a huge dragon, the largest of its kind. It will not
+appreciate being disturbed by a mortal such as yourself...
+@rus В этой башне живет огромный дракон, самый крупный представитель своего вида.
+И он явно не оценит, если его побеспокоит какой-нибудь жалкий смертный ...
+вроде тебя...
+~
+0 D inside
+D5 0
+~
+~
+Z -1 14800
+S
+#14806
+@eng Stables@rus Конюшни~
+@eng Here, the blackguard keep their steeds, evil destriers bred on the plains
+of Hel itself.
+@rus Здесь черногвардейцы держат своих скакунов, злобных боевых коней
+выращенных на просторах равнин самого Ада. 
+~
+0 AD inside
+D4 0
+~
+~
+Z -1 14768
+S
+#0
+
+#SPECIALS
+M 14701 spec_cast_judge	* a death knight
+M 14702 spec_executioner	* an iron golem
+M 14703 spec_cast_undead	* the demon prince Marmandes
+M 14704 spec_cast_mage	* axtraxes
+M 14705 spec_cast_cleric	* an evil high priest
+M 14706 spec_guard	* an elite guard
+M 14707 spec_fido	* a destrier
+M 14708 spec_cast_mage	* an evil priest
+M 14709 spec_cast_cleric	* an evil scientist mage
+M 14710 spec_guard	* a member of the blackguard
+M 14711 spec_breath_fire	* a red dragon
+M 14712 spec_breath_acid	* a black dragon
+M 14713 spec_breath_frost	* a white dragon
+M 14714 spec_breath_lightning	* a blue dragon
+M 14715 spec_breath_gas	* a green dragon
+M 14716 spec_breath_fire	* a fire elemental
+M 14717 spec_cast_mage	* an efreeti
+M 14718 spec_cast_cleric	* a shedu
+M 14722 spec_fido	* a mutant
+M 14723 spec_breath_any	* a twelve-headed hydra
+M 14724 spec_thief	* a quasit
+M 14725 spec_cast_undead	* a succubus
+M 14728 spec_breath_gas	* an air elemental
+M 14729 spec_breath_fire	* a hellhound
+M 14733 spec_cast_cleric	* a cloud giant
+M 14734 spec_janitor	* an ogre servant
+M 14735 spec_cast_mage	* an ogre mage
+M 14736 spec_fido	* a troll
+M 14737 spec_guard	* an ettin
+M 14738 spec_cast_mage	* the chief assassin
+M 14739 spec_thief	* an assassin
+M 14740 spec_cast_cleric	* a drow ambassador
+M 14741 spec_fido	* a warg
+M 14742 spec_fido	* a bloodthirsty ghoul
+M 14743 spec_cast_undead	* a vampire
+M 14744 spec_cast_mage	* an ancient lich
+M 14745 spec_executioner	* a stone golem
+M 14746 spec_poison	* The keeper of the mutant pit
+M 14747 spec_poison	* a naga princess
+S
+
+#RESETS
+D 0 14750 5 1	* Inside the Fell Fortress: door to the down: closed
+D 0 14751 0 1	* The Cell Block: door to the north: closed
+D 0 14751 2 1	* The Cell Block: door to the south: closed
+D 0 14752 2 1	* A Cell: door to the south: closed
+D 0 14753 0 1	* A Cell: door to the north: closed
+D 0 14754 0 1	* The Cell Block: door to the north: closed
+D 0 14754 1 1	* The Cell Block: door to the east: closed
+D 0 14754 2 1	* The Cell Block: door to the south: closed
+D 0 14755 2 1	* A Cell: door to the south: closed
+D 0 14756 0 1	* A Cell: door to the north: closed
+D 0 14757 3 1	* A Cell: door to the west: closed
+D 0 14758 0 1	* Some Quarters: door to the north: closed
+D 0 14759 0 1	* An Ante-Room: door to the north: closed
+D 0 14759 1 1	* An Ante-Room: door to the east: closed
+D 0 14759 2 1	* An Ante-Room: door to the south: closed
+D 0 14759 3 1	* An Ante-Room: door to the west: closed
+D 0 14760 1 1	* Assassins' Quarters: door to the east: closed
+D 0 14761 2 1	* The Chief Assassin's Quarters: door to the south: closed
+D 0 14762 3 1	* Assassins' Quarters: door to the west: closed
+D 0 14763 3 1	* Some Quarters: door to the west: closed
+D 0 14764 1 1	* A Corridor: door to the east: closed
+D 0 14764 2 1	* A Corridor: door to the south: closed
+D 0 14765 0 1	* The Keeper's Chamber: door to the north: closed
+D 0 14765 5 1	* The Keeper's Chamber: door to the down: closed
+D 0 14766 4 1	* The Mutant Pit: door to the up: closed
+D 0 14767 3 1	* A Corridor: door to the west: closed
+D 0 14768 0 1	* The Guard Common Room: door to the north: closed
+D 0 14768 1 1	* The Guard Common Room: door to the east: closed
+D 0 14768 2 1	* The Guard Common Room: door to the south: closed
+D 0 14768 3 2	* The Guard Common Room: door to the west: closed and locked
+D 0 14769 0 1	* Guard Quarters: door to the north: closed
+D 0 14770 2 1	* Guard Quarters: door to the south: closed
+D 0 14772 1 1	* Guest Quarters: door to the east: closed
+D 0 14772 3 1	* Guest Quarters: door to the west: closed
+D 0 14773 1 1	* Guest Quarters: door to the east: closed
+D 0 14774 3 1	* Guest Quarters: door to the west: closed
+D 0 14775 1 1	* Guest Quarters: door to the east: closed
+D 0 14775 2 1	* Guest Quarters: door to the south: closed
+D 0 14775 3 1	* Guest Quarters: door to the west: closed
+D 0 14776 1 1	* Guest Quarters: door to the east: closed
+D 0 14777 3 1	* Guest Quarters: door to the west: closed
+D 0 14778 0 1	* Guest Quarters: door to the north: closed
+D 0 14779 1 2	* The Fortress: door to the east: closed and locked
+D 0 14781 0 1	* A Junction: door to the north: closed
+D 0 14781 2 1	* A Junction: door to the south: closed
+D 0 14782 0 1	* The Quarters of the Archmage: door to the north: closed
+D 0 14783 2 1	* The Elemental Laboratories: door to the south: closed
+D 0 14787 1 2	* The Lower Chambers: door to the east: closed and locked
+D 0 14794 0 1	* A Landing: door to the north: closed
+D 0 14794 1 1	* A Landing: door to the east: closed
+D 0 14794 2 1	* A Landing: door to the south: closed
+D 0 14794 3 1	* A Landing: door to the west: closed
+D 0 14795 0 1	* A Bedchamber: door to the north: closed
+D 0 14796 1 1	* A Bedchamber: door to the east: closed
+D 0 14797 2 1	* A Hall: door to the south: closed
+D 0 14798 3 1	* A Bedchamber: door to the west: closed
+M 0 14741 8 14701 1	* a warg (The Plains of Mount Doom)
+E 0 14740 0 3		*	a spiked collar: around the neck
+M 0 14742 8 14704 1	* a bloodthirsty ghoul (The Plains of Mount Doom)
+M 0 14741 8 14707 1	* a warg (The Plains of Mount Doom)
+E 0 14740 0 3		*	a spiked collar: around the neck
+M 0 14732 8 14711 1	* a hill giant (The Foothills of Mount Doom)
+E 0 14743 0 16		*	a wooden club: wielded
+G 0 14742 0		*	a throwing rock
+M 0 14729 4 14718 1	* a hellhound (The Upper Slopes of Mount Doom)
+E 0 14740 0 3		*	a spiked collar: around the neck
+M 0 14742 8 14722 1	* a bloodthirsty ghoul (The Plains of Mount Doom)
+M 0 14732 8 14723 1	* a hill giant (The Foothills of Mount Doom)
+E 0 14743 0 16		*	a wooden club: wielded
+G 0 14742 0		*	a throwing rock
+M 0 14729 4 14724 1	* a hellhound (The Upper Slopes of Mount Doom)
+E 0 14740 0 3		*	a spiked collar: around the neck
+M 0 14729 4 14726 1	* a hellhound (The Upper Slopes of Mount Doom)
+E 0 14740 0 3		*	a spiked collar: around the neck
+M 0 14732 8 14727 1	* a hill giant (The Foothills of Mount Doom)
+E 0 14743 0 16		*	a wooden club: wielded
+G 0 14742 0		*	a throwing rock
+M 0 14742 8 14728 1	* a bloodthirsty ghoul (The Plains of Mount Doom)
+M 0 14730 2 14731 1	* a fire giant (The Upper Slopes of Mount Doom)
+E 0 14741 0 16		*	a giant sword: wielded
+G 0 14742 0		*	a throwing rock
+M 0 14729 4 14732 1	* a hellhound (The Upper Slopes of Mount Doom)
+E 0 14740 0 3		*	a spiked collar: around the neck
+M 0 14730 2 14733 1	* a fire giant (The Upper Slopes of Mount Doom)
+E 0 14741 0 16		*	a giant sword: wielded
+G 0 14742 0		*	a throwing rock
+M 0 14732 8 14739 1	* a hill giant (The Foothills of Mount Doom)
+E 0 14743 0 16		*	a wooden club: wielded
+G 0 14742 0		*	a throwing rock
+M 0 14741 8 14743 1	* a warg (The Plains of Mount Doom)
+E 0 14740 0 3		*	a spiked collar: around the neck
+M 0 14742 8 14746 1	* a bloodthirsty ghoul (The Plains of Mount Doom)
+M 0 14741 8 14749 1	* a warg (The Plains of Mount Doom)
+E 0 14740 0 3		*	a spiked collar: around the neck
+M 0 14720 8 14752 1	* a wretched slave (A Cell)
+E 0 14730 0 10		*	a pair of manacles: on the arms
+E 0 14744 0 3		*	a slave collar: around the neck
+M 0 14721 8 14753 1	* a wretched slave (A Cell)
+E 0 14730 0 10		*	a pair of manacles: on the arms
+E 0 14744 0 3		*	a slave collar: around the neck
+M 0 14720 8 14755 1	* a wretched slave (A Cell)
+E 0 14730 0 10		*	a pair of manacles: on the arms
+E 0 14744 0 3		*	a slave collar: around the neck
+M 0 14721 8 14756 1	* a wretched slave (A Cell)
+E 0 14730 0 10		*	a pair of manacles: on the arms
+E 0 14744 0 3		*	a slave collar: around the neck
+M 0 14718 1 14757 1	* a shedu (A Cell)
+E 0 14730 0 10		*	a pair of manacles: on the arms
+E 0 14744 0 3		*	a slave collar: around the neck
+M 0 14739 4 14760 1	* an assassin (Assassins' Quarters)
+E 0 14751 0 12		*	black robes: about the shoulders
+E 0 14752 0 17		*	a vial of poison: held in the hands
+M 0 14738 1 14761 1	* the chief assassin (The Chief Assassin's Quarters)
+E 0 14749 0 16		*	the black sword: wielded
+E 0 14750 0 18		*	the blue sword: floating nearby
+M 0 14739 4 14762 1	* an assassin (Assassins' Quarters)
+E 0 14751 0 12		*	black robes: about the shoulders
+E 0 14752 0 17		*	a vial of poison: held in the hands
+M 0 14746 1 14765 1	* The keeper of the mutant pit (The Keeper's Chamber)
+M 0 14722 6 14766 1	* a mutant (The Mutant Pit)
+M 0 14710 8 14768 1	* a member of the blackguard (The Guard Common Room)
+E 0 14715 0 5		*	a suit of spiked plate mail: on the body
+E 0 14716 0 16		*	a huge morning star: wielded
+E 0 14717 0 6		*	a dark helm: over the head
+G 0 14758 0		*	a door key
+M 0 14710 8 14769 1	* a member of the blackguard (Guard Quarters)
+E 0 14715 0 5		*	a suit of spiked plate mail: on the body
+E 0 14716 0 16		*	a huge morning star: wielded
+E 0 14717 0 6		*	a dark helm: over the head
+G 0 14758 0		*	a door key
+M 0 14710 8 14770 1	* a member of the blackguard (Guard Quarters)
+E 0 14715 0 5		*	a suit of spiked plate mail: on the body
+E 0 14716 0 16		*	a huge morning star: wielded
+E 0 14717 0 6		*	a dark helm: over the head
+G 0 14758 0		*	a door key
+M 0 14736 2 14771 1	* a troll (Guest Quarters)
+E 0 14747 0 16		*	a pole arm: wielded
+E 0 14748 0 5		*	a suit of black chainmail: on the body
+M 0 14731 3 14773 1	* a frost giant (Guest Quarters)
+E 0 14741 0 16		*	a giant sword: wielded
+G 0 14742 0		*	a throwing rock
+M 0 14733 1 14774 1	* a cloud giant (Guest Quarters)
+E 0 14741 0 16		*	a giant sword: wielded
+G 0 14742 0		*	a throwing rock
+M 0 14737 1 14775 1	* an ettin (Guest Quarters)
+E 0 14741 0 16		*	a giant sword: wielded
+G 0 14742 0		*	a throwing rock
+M 0 14735 2 14776 1	* an ogre mage (Guest Quarters)
+E 0 14745 0 16		*	a glaive: wielded
+G 0 14746 0		*	a magical potion
+M 0 14740 1 14777 1	* a drow ambassador (Guest Quarters)
+E 0 14753 0 12		*	a drow cloak: about the shoulders
+E 0 14754 0 8		*	a pair of drow boots: on the feet
+E 0 14755 0 5		*	a suit of drow chainmail: on the body
+E 0 14756 0 16		*	a greater tentacle whip: wielded
+E 0 14757 0 6		*	a tiara: over the head
+M 0 14747 1 14778 1	* a naga princess (Guest Quarters)
+M 0 14704 1 14782 1	* axtraxes (The Quarters of the Archmage)
+E 0 14709 0 17		*	a staff of power: held in the hands
+E 0 14710 0 12		*	robes of the archmage: about the shoulders
+G 0 14711 0		*	a vial of magic dust
+M 0 14716 1 14783 1	* a fire elemental (The Elemental Laboratories)
+G 0 14728 0		*	a bronze brazier
+M 0 14726 1 14784 1	* an earth elemental (Western End of the Lab)
+G 0 14737 0		*	a stone
+M 0 14709 3 14784 1	* an evil scientist mage (Western End of the Lab)
+E 0 14721 0 12		*	the mage's robes: about the shoulders
+E 0 14722 0 17		*	a magic wand: held in the hands
+G 0 14723 0		*	an elixir of noxious chemicals
+M 0 14727 1 14785 1	* a water elemental (Northern End of the Lab)
+G 0 14738 0		*	a bowl
+M 0 14709 3 14785 1	* an evil scientist mage (Northern End of the Lab)
+E 0 14721 0 12		*	the mage's robes: about the shoulders
+E 0 14722 0 17		*	a magic wand: held in the hands
+G 0 14723 0		*	an elixir of noxious chemicals
+M 0 14728 1 14786 1	* an air elemental (Eastern End of the Lab)
+G 0 14739 0		*	a censer
+M 0 14709 3 14786 1	* an evil scientist mage (Eastern End of the Lab)
+E 0 14721 0 12		*	the mage's robes: about the shoulders
+E 0 14722 0 17		*	a magic wand: held in the hands
+G 0 14723 0		*	an elixir of noxious chemicals
+M 0 14744 1 14788 1	* an ancient lich (An Ancient Crypt)
+M 0 14708 4 14789 1	* an evil priest (The Unholy Temple)
+E 0 14718 0 16		*	a sacrifical dagger: wielded
+E 0 14719 0 12		*	the priest's robes: about the shoulders
+E 0 14720 0 6		*	the priest's death mask: over the head
+M 0 14705 1 14790 1	* an evil high priest (The Unholy Temple)
+E 0 14712 0 16		*	a sacrifical dagger: wielded
+E 0 14713 0 12		*	the high priest's robes: about the shoulders
+E 0 14714 0 6		*	the high priest's death mask: over the head
+M 0 14708 4 14790 1	* an evil priest (The Unholy Temple)
+E 0 14718 0 16		*	a sacrifical dagger: wielded
+E 0 14719 0 12		*	the priest's robes: about the shoulders
+E 0 14720 0 6		*	the priest's death mask: over the head
+M 0 14708 4 14791 1	* an evil priest (The Unholy Temple)
+E 0 14718 0 16		*	a sacrifical dagger: wielded
+E 0 14719 0 12		*	the priest's robes: about the shoulders
+E 0 14720 0 6		*	the priest's death mask: over the head
+M 0 14723 1 14792 1	* a twelve-headed hydra (The Hydra Lair)
+O 0 14733 0 14792	* a chest (The Hydra Lair)
+P 0 14734 1 14733 1	* a chest: a great treasure
+M 0 14745 1 14793 1	* a stone golem (A Spiral Staircase)
+M 0 14702 1 14794 1	* an iron golem (A Landing)
+E 0 14706 0 9		*	the iron fist: on the hands
+M 0 14719 1 14795 1	* an evil illithid (A Bedchamber)
+E 0 14731 0 12		*	an illithid's robes: about the shoulders
+E 0 14732 0 17		*	a gem: held in the hands
+M 0 14725 1 14796 1	* a succubus (A Bedchamber)
+E 0 14736 0 12		*	some expensive silk: about the shoulders
+O 0 14735 0 14796	* a luxurious bed (A Bedchamber)
+M 0 14703 1 14797 1	* the demon prince Marmandes (A Hall)
+E 0 14707 0 16		*	a demon's barbed flail: wielded
+G 0 14708 0		*	a flaming spear
+M 0 14743 1 14798 1	* a vampire (A Bedchamber)
+E 0 14736 0 12		*	some expensive silk: about the shoulders
+M 0 14701 2 14799 1	* a death knight (A Spiral Staircase)
+E 0 14704 0 16		*	a two-handed sword: wielded
+E 0 14705 0 6		*	a burnt helm: over the head
+M 0 14700 1 14800 1	* the Lord Krothgar (The Throne Room)
+E 0 14700 0 5		*	the armor of Lord Krothgar: on the body
+E 0 14701 0 16		*	the sword of Lord Krothgar: wielded
+E 0 14702 0 11		*	the shield of Lord Krothgar: as a shield
+E 0 14703 0 6		*	the cursed helm of Lord Krothgar: over the head
+M 0 14706 4 14800 1	* an elite guard (The Throne Room)
+E 0 14715 0 5		*	a suit of spiked plate mail: on the body
+E 0 14716 0 16		*	a huge morning star: wielded
+E 0 14717 0 6		*	a dark helm: over the head
+M 0 14712 1 14801 1	* a black dragon (Dragon Tower)
+E 0 14724 0 11		*	a dragon scale: as a shield
+E 0 14725 0 16		*	a dragon tooth: wielded
+E 0 14726 0 9		*	dragon claws: on the hands
+E 0 14727 0 12		*	a dragon hide: about the shoulders
+M 0 14713 1 14802 1	* a white dragon (Dragon Tower)
+E 0 14724 0 11		*	a dragon scale: as a shield
+E 0 14725 0 16		*	a dragon tooth: wielded
+E 0 14726 0 9		*	dragon claws: on the hands
+E 0 14727 0 12		*	a dragon hide: about the shoulders
+M 0 14714 1 14803 1	* a blue dragon (Dragon Tower)
+E 0 14724 0 11		*	a dragon scale: as a shield
+E 0 14725 0 16		*	a dragon tooth: wielded
+E 0 14726 0 9		*	dragon claws: on the hands
+E 0 14727 0 12		*	a dragon hide: about the shoulders
+M 0 14715 1 14804 1	* a green dragon (Dragon Tower)
+E 0 14724 0 11		*	a dragon scale: as a shield
+E 0 14725 0 16		*	a dragon tooth: wielded
+E 0 14726 0 9		*	dragon claws: on the hands
+E 0 14727 0 12		*	a dragon hide: about the shoulders
+M 0 14711 1 14805 1	* a red dragon (Dragon Tower)
+E 0 14724 0 11		*	a dragon scale: as a shield
+E 0 14725 0 16		*	a dragon tooth: wielded
+E 0 14726 0 9		*	dragon claws: on the hands
+E 0 14727 0 12		*	a dragon hide: about the shoulders
+M 0 14707 4 14806 1	* a destrier (Stables)
+S
+
+#$

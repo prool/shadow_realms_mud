@@ -1,0 +1,24 @@
+#!/bin/sh
+#
+#	Add this in your cron list (Example every hour)...
+#
+
+BIN_MUDDY=mudsr
+MUDDIR=/home/mudsr/mud
+
+if /usr/bin/test -f $MUDDIR/tmp/muddy.pid; then
+	PID=`/bin/cat $MUDDIR/tmp/muddy.pid`
+	foo=`/bin/ps h -p $PID` 2> /dev/null;
+else
+	foo=""
+fi
+
+/bin/echo "Test mud: `date '+%m/%d/%y %H:%M:%S'`  Pid: $foo" > $MUDDIR/tmp/test_mud
+
+if /usr/bin/test -z "$foo"; then
+	/bin/rm -rf $MUDDIR/tmp/muddy.pid;
+        cd $MUDDIR/src;
+        /usr/bin/nohup $MUDDIR/src/startup &
+	/bin/echo "Mud not detected. Started...." | /bin/mail -s "Startup MUD" mudcore@nnov.net
+        /bin/echo "`date '+%m/%d/%y %H:%M:%S'` Mud not detected - started" >> $MUDDIR/log/cron.log;
+fi

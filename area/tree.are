@@ -1,0 +1,958 @@
+#AREADATA
+Name Yggdrasil~
+VNUMs 2900 2999
+Credits Glop~
+Security 5
+LevelRange 15 50
+ResetMessage @eng {wLight wind touch {gleaves{w of large {WTree{g.{x@rus {wЛегкий ветерок шелестит {gлистьями{w огромного {WДрева{x.~
+End
+
+#MOBILES
+#2900
+hollyphant~
+@eng a Hollyphant@rus святослон~
+@eng A Hollyphant is delivering a message here.
+@rus {WС{gвятосло{Wн{x несет послание.
+~
+@eng It looks like a large, winged, furry elephant.  It emits an aura of goodness.
+@rus Большой пушистый {Wслон{x с крыльями.
+Аура доброты окутывает его золотистым сиянием.
+~
+dragon~
+AG D 480 2900
+16 0 3d9+233 16d25+200 1d12+3 crush
+2 2 2 -5
+CDF 0 0 0
+stand stand male 16
+0 0 medium unknown
+#2901
+planetar~
+@eng a planetar@rus планетар~
+@eng A planetar is here watching out for his masters interest.
+@rus Планетар блюдет интересы своего повелителя.
+~
+@eng Humanoid in appearance, the planetar has wings and is
+hairless.  He is on a mission from his deity.
+@rus Планетар похож на безволосого крылатого человека. Он выполняет задание
+своего Бога.
+~
+human~
+ABG BCDH 550 2901
+30 0 6d12+778 30d25+200 5d4+7 punch
+9 9 9 -6
+CDFK 0 0 0
+stand stand either 5
+0 0 medium unknown
+#2902
+shedu~
+@eng a Shedu@rus Шеду~
+@eng A Shedu is here fighting evil.
+@rus Шеду борец со Злом рыщет здесь.
+~
+@eng Half man, half beast.  The Shedu is out looking for evil anywhere it may be 
+and it will hunt down until death is the result.
+@rus Получеловек-полузверь.
+Шеду ищет и преследует Зло повсюду до самой смерти.
+~
+human~
+AG F 525 2902
+130 100 50d10+30000 25d25+10000 22d15+50 pierce
+100 100 100 100
+CDFJK 0 G F
+stand stand either 7
+0 0 medium unknown
+L 'human lang'
+#2903
+dretch demon~
+@eng a dretch@rus дретч~
+@eng A dretch is here slobbering on you.
+@rus Дретч обильно истекает слюной при виде тебя.
+~
+@eng A pathetic, slobbering thing.  The dretch is constantly picked on by its more 
+powerful, demon brothers.
+@rus Слюнявая тварь, достойная лишь жалости. Демоны посильнее и покрупнее
+часто дразнят и обижают дретча. 
+~
+bear~
+ABGH DF -450 2903
+10 0 2d7+121 10d25+200 2d4+2 punch
+-1 -1 -1 -8
+CF 0 0 0
+stand stand either 5
+0 0 medium unknown
+#2904
+chasme fly demon~
+@eng a chasme@rus чазм~
+@eng A chasme is flying around here.
+@rus Чазм кружит в воздухе.
+~
+@eng The chasme or fly demon is half-human and half-fly.  They dont like anyone, 
+not even other demons.
+@rus Чазм (или демон летючий) это наполовину человек, наполовину муха. 
+Он не похож ни на одного демона из виденных тобой ранее.
+~
+human~
+ACG DF -500 2904
+20 0 3d9+308 20d25+200 3d4+4 pound
+4 4 4 -2
+CDEFIKN 0 0 C
+stand stand either 7
+0 0 medium unknown
+#2905
+babau ebony rus~
+@eng a babau@rus бабай~
+@eng A babau is standing here looking for food.
+@rus Бабай ищет здесь что-нибудь поесть.
+~
+@eng The babau or one-horned horror is a demon of considerable fright. He appears
+a skeleton with a black leather jumpsuit on.  He is constantly searching
+for flesh to eat.
+@rus Бабай (или однорогий ужас) - это демон, вселяющий в сердца ужас.
+Он похож на скелет, обтянутый черной кожей комбинезона. Бабай 
+постоянно голоден и ищет свежего мясца. Кем бы тут отобедать?
+~
+human~
+AG u -475 2905
+15 0 3d9+208 15d25+200 2d6+3 punch
+2 2 2 -7
+EF 0 0 0
+stand stand either 5
+0 0 medium unknown
+#2906
+yagnodemon demon~
+@eng a yagnodemon@rus ягнодемон~
+@eng A yagnodemon is here flexing his giant-sized arm.
+@rus Ягнодемон разминает свою гигантскую руку.
+~
+@eng The yagnodemon has one man-sized and one giant-sized arm. With the giant-sized 
+arm it can wield huge weapons.  He is not in a good mood right now.
+@rus У ягнодемона только одна рука нормальная. Вторая имеет потрясающие воображение размеры.
+В гигантской руке зажато огромное оружие. Похоже, сегодня ягнодемон не в настроении.
+~
+human~
+ACG DEF -525 2906
+25 0 5d10+500 25d25+200 4d4+6 smash
+7 7 7 -8
+DFJ 0 0 0
+stand stand either 7
+0 0 medium unknown
+#2907
+kostchtchie demon kost~
+@eng Kostchtchie@rus Костчши~
+@eng Kostchtchie is here resting on his journey of evil.
+@rus Костчши остановился отдохнуть на пути Зла.
+~
+@eng Kostchtchie a powerful demon lord is here.  Obviously derived from giant stock, 
+he is very powerful.  And he does not like to be interrupted.
+@rus Костчши - могущественный повелитель демонов. Очевидно, он родом c
+гигантского ствола. Он очень силен. Не рекомендуется становиться ему
+поперек дороги.
+~
+human~
+ABEFG DFu -600 2907
+40 0 15d10+1800 40d25+200 4d8+11 chill
+13 13 13 -4
+FI A 0 0
+stand stand either 10
+0 0 medium unknown
+#2908
+nabassu demon~
+@eng a nabassu@rus набассу~
+@eng A nabassu is here looking to upgrade his status.
+@rus Набассу стремится повысить свой статус.
+~
+@eng A tall, thin demon, the nabassu are very bat-like in appearance.  
+He seems to have an intense interest in you.
+@rus Высокий и изящный, набассу очень похож на летучую мышь. Он заинтересованно
+разглядывает тебя.
+~
+human~
+ACG D -475 2908
+15 0 2d10+190 15d25+200 1d10+3 slap
+1 1 1 -2
+FI 0 0 D
+stand stand either 7
+0 0 medium unknown
+#2909
+dragon cloud~
+@eng a cloud dragon@rus {C~~облачный~~{x {C~~дракон~~{x~
+@eng A cloud dragon is here wanting to be left alone.
+@rus {CДракон{x любуется проплывающими {Cо{cблакам{Cи{x.
+~
+@eng This dragon is as large as a red dragon, but does not like to get involved 
+in the struggle between good and evil.  It wants to be left alone.
+@rus {CДракон{c-{CО{cблак{Cо{c.
+{cСветло голубого оттенка летнего неба.
+{CО{cблачный {Cдракон{c. 
+{CДракон{c, витающий в {Cо{cблака{Cх{c.
+{cОн не желает бороться за {WДобро{c.
+{cОн не желает бороться за {DЗло{c.
+{cОн просто хочет, что бы его оставили в покое.{x
+{cЛюбоваться {Cо{cблакам{Cи{c.{x
+~
+dragon~
+ABG DFH 0 2909
+35 0 10d10+1100 35d25+200 4d7+9 bite
+11 11 11 -5
+FIKLN 0 0 0
+stand stand female 30
+0 0 large unknown
+#2910
+solar~
+@eng a solar@rus солнечник~
+@eng A solar is here contemplating the fight against evil.
+@rus Солнечник здесь, готовый к битве со Злом.
+~
+@eng A beautiful being, the solar is totally dedicated to the continuation 
+of the good beings.
+@rus Прекрасное создание, cолнечник, посвящает всю свою жизнь несению
+Добра в души всех встречаемых им созданий.
+~
+human~
+ABG CDFH 635 2910
+47 0 25d10+3500 47d25+200 8d4+16 slash
+17 17 17 0
+FI 0 0 0
+stand stand either 8
+0 0 medium unknown
+#2911
+wemic~
+@eng a wemic@rus вемик~
+@eng A wemic is hunting here.
+@rus Вемик охотится здесь.
+~
+@eng Part man, part lion, and part horse; the wemic is a creature 
+not to be taken lightly.
+@rus Частично человек, частично лев, в остальном вемик вылитая лошадь. 
+Вемик не выглядит существом, которое легко победить.
+~
+bear~
+AC F 100 2911
+10 0 2d7+121 10d25+200 2d4+2 punch
+-1 -1 -1 -8
+ABC 0 0 0
+stand stand either 8
+0 0 medium unknown
+#2912
+frost giant~
+@eng a frost giant@rus ~~инеистый~~ ~~великан~~~
+@eng A frost giant is here looking for treasure.
+@rus Инеистый великан бродит здесь в поисках сокровищ.
+~
+@eng Large members of the giant family, the frost giants are ravenous collectors 
+of treasure.  They dont like to share this treasure with anyone.
+@rus Самые большие из великанов - инеистые - рьяные любители и собиратели драгоценностей.
+Делиться с кем-либо они не желают.
+~
+giant~
+ABFG DF -300 2912
+25 0 5d10+550 25d25+200 2d10+7 grep
+7 7 7 -6
+FJKN A 0 0
+stand stand male 10
+0 0 large unknown
+#2913
+gorgimera~
+@eng a gorgimera@rus горгимера~
+@eng A gorgimera is here flexing its wings.
+@rus Горгимера размахивает крыльями.
+~
+@eng This three-headed monster is waiting to rip the head off of its latest victim
+to add to its collection.  Watch out for that breath attack.
+@rus Трехголовый монстр ждет следующую жертву, чтобы оторвать ей голову и 
+пополнить свою коллекцию. {WОстерегайся дыхания горгимеры!{x
+~
+dragon~
+ABFG D -500 2913
+20 0 3d9+300 20d25+200 2d8+2 claw
+4 4 4 -7
+FIKN A 0 0
+stand stand either 2
+0 0 large unknown
+#2914
+ratatosk~
+@eng Ratatosk@rus Рататоск~
+@eng Ratatosk is here delivering the Gods messages.
+@rus Рататоск разносит послания Богов.
+~
+@eng You see a giant squirrel carrying greetings and tidings from the various 
+deities residing in these realms.  He does not want to be delayed in his task.
+@rus Гигантская белка путешествующая по плейнам-реальностям, доставляя поздравления, 
+послания и вести Богов. Рататоск не потерпит задержек!
+~
+human~
+ACG CDFH 200 2914
+35 0 10d10+1300 35d25+200 4d7+11 punch
+11 11 11 -5
+CDEFJKN 0 0 0
+stand stand male 2
+0 0 large unknown
+#0
+
+#OBJECTS
+#2900
+polearm body wrecker~
+@eng a body-wrecker@rus ~~крушащая~~ тела~
+@eng A body-wrecker polearm lies here.@rus Алебарда "Крушащая Тела" лежит здесь.~
+steel~
+weapon 0 AN
+polearm 5 4 cleave 0
+23 270 46 G
+G female
+#2901
+hammer iron~
+@eng a huge hammer of cold iron@rus ~~огромный~~ ~~молот~~ из холодного железа~
+@eng A hammer of iron with silver and nickel detail lies here.@rus Железный молот со вставками из серебра и никеля лежит здесь.~
+iron~
+weapon EJ AN
+mace 5 7 pound 0
+38 250 76 G
+G male
+#2902
+bastard sword~
+@eng a holy bastard sword@rus ~~святой~~ ~~меч~~ отступника~
+@eng A beautiful sword lies on the ground here.@rus Прекрасный меч лежит на земле.~
+steel~
+weapon AGIK AN
+sword 5 3 pierce 0
+28 190 56 G
+A
+13 25
+A
+20 -2
+G male
+#2903
+looking glass~
+@eng a looking glass@rus ~~зеркальце~~~
+@eng A looking glass lies here.@rus Зеркальце блестит на земле.~
+glass~
+wand G AO
+20 7 7 'identify' 0
+8 20 16 G
+G none
+#2904
+cloudy staff~
+@eng a cloudy glass staff@rus {C~~облачный~~{x {c~~стеклянный~~{x {C~~посох~~{x~
+@eng A staff made of cloudy glass lies here.@rus Посох из облачного стекла лежит здесь.~
+glass~
+staff F AO
+40 8 8 'sleep' 0
+23 60 46 G
+G male
+#2905
+crystal sleeves~
+@eng a set of sleeves of crystal@rus ~~хрустальные~~ ~~нарукавники~~~
+@eng Some sleeves made of crystal lie here.@rus Нарукавники из хрусталя лежат здесь.~
+quartz~
+armor AFK AI
+13 13 13 2 2
+46 100 92 G
+A
+19 3
+A
+20 -2
+G none
+#2906
+sparkling green~
+@eng a sparkling green potion@rus {G~~искрящееся~~{x {G~~зеленое~~{x {G~~снадобье~~{x~
+@eng A green potion is lying here sparkling.@rus Зеленое снадобье искрится в лучах солнца.~
+energy~
+potion AG AO
+10 'detect invis' 'detect magic' 'detect poison' 'detect evil'
+23 10 10 G
+G none
+#2907
+paper triangle~
+@eng a paper triangle@rus ~~бумажный~~ ~~треугольник~~~
+@eng A piece of paper in the shape of a triangle is here.@rus Листок бумаги сложен в виде треугольника.~
+paper~
+scroll F A
+50 'armor' 'bless' 'fly' 'stone skin'
+22 12 44 G
+G male
+#2908
+hollyphant tusk~
+@eng a hollyphant tusk@rus ~~бивень~~ святослона~
+@eng A tusk of a hollyphant lies here.@rus Бивень святослона лежит на земле.~
+bone~
+wand AGK AO
+25 3 3 'haste' 0
+14 10 28 G
+G male
+#2909
+girth cast iron~
+@eng a cast iron girth@rus ~~заколдованный~~ ~~железный~~ ~~пояс~~~
+@eng A cast iron girth lies here.@rus Заколдованный железный пояс лежит здесь.~
+iron~
+armor BG AL
+9 9 9 1 3
+23 180 46 G
+A
+3 -4
+G male
+#2910
+sparkling pink~
+@eng a sparkling pink potion@rus {M~~искрящееся~~{x {M~~розовое~~{x {M~~снадобье~~{x~
+@eng A pink potion is lying here sparkling.@rus Розовое снадобье искрится в лучах солнца.~
+energy~
+potion AG A
+10 'detect invis' 'detect magic' 'detect poison' 'detect good'
+13 10 26 G
+G none
+#0
+
+#ROOMS
+#2900
+@eng The Entrance to Yggdrasil@rus Вход на Иггдрасиль~
+@eng This is the entrance to Yggdrasil, the World Ash.  Through
+this tree are conduits to many other planes of existence.
+     There is a small (Glowing) (Huming) tablet.
+@rus {x Этот путь ведет на {WИггдрасиль{x, {GЯ{gсень {GМ{gира{x. Упомянутое дерево пересекает множество
+других плоскостей существования.
+ 
+{w НебольшаЯ (Пылающая) (Жужжащая) табличка ({Wtablet{w) висит на стволе дерева{x.
+~
+0 0 forest
+E ''
+small tablet~
+@eng ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
++                                                                    +
++   This area has been groked, modified, debugged (?:) and adapted   +
++                     in friday's night, june'96                     +
++                           by jaceks                                +
++                                                                    +
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+@rus {/
+{x
+{w  _________________________________________
+{w || o                                   o ||              
+{w ||   Данное дерево было написано Glop    ||        
+{w ||                                       ||
+{w ||   адаптированный перевод осуществлен  ||                 
+{w ||                                       ||                
+{w ||              >>>-Cradya->             ||         
+{w ||                          &            || 
+{w || o  (c)DL                    Xok     o ||            
+{w ||_______________________________________||
+{x
+{x
+~
+D2 0
+~
+~
+Z -1 6346
+D4 0
+@eng You see the trunk rising up into the sky.
+@rus Ствол дерева поднимается в небо.
+~
+~
+Z -1 2901
+D5 0
+@eng You see the trunk descending down into the depths of the earth.
+@rus Древесный ствол уходит вниз, в глубь земли.
+~
+~
+Z -1 2907
+S
+#2901
+@eng The Trunk of Yggdrasil@rus Ствол Иггдрасиля~
+@eng You are traveling in Yggdrasil, the World Ash.  Who knows
+what other travelers you may encounter.
+@rus {x Ты путешествуешь по {WИггдрасилю{x, {GЯ{gсеню {GМ{gира{x. Кто знает, какие существа можно 
+ случайно встретить на нем...
+~
+0 0 forest
+D4 0
+@eng The trunk continues to go up here.
+@rus Ствол дерева поднимается в небо.
+~
+~
+Z -1 2902
+D5 0
+@eng The entrance to the tree is below.
+@rus Вход на дерево виден ниже.
+~
+~
+Z -1 2900
+S
+#2902
+@eng The Lower Trunk of Yggrasil@rus На Стволе Иггдрасиля~
+@eng You are in the lower reaches of Yggdrasil.  The tree top cannot be seen.
+Lesser astral travelers can be seen moving about.
+@rus {x Ты стоишь на нижних ветвях {WИггдрасиля{x. Верхушки дерева не видно. Мелкие 
+астральные путешественники снуют мимо тебя.
+~
+0 0 forest
+D0 0
+@eng A limb branches off in this direction.
+@rus Густые ветви тянутся в этом направлении.
+~
+~
+Z -1 2903
+D1 0
+@eng A limb branches off in this direction.
+@rus Густые ветви тянутся в этом направлении.
+~
+~
+Z -1 2906
+D2 0
+@eng A limb branches off in this direction.
+@rus Густые ветви тянутся в этом направлении.
+~
+~
+Z -1 2911
+D3 0
+@eng A limb branches off in this direction.
+@rus Густые ветви тянутся в этом направлении.
+~
+~
+Z -1 2905
+D4 0
+@eng The trunk continues up the tree.
+@rus Ствол дерева поднимается в небо.
+~
+~
+Z -1 2917
+D5 0
+@eng The way down the tree is this way.
+@rus Здесь можно спуститься с дерева.
+~
+~
+Z -1 2901
+S
+#2903
+@eng A Lower Branch of Yggdrasil@rus На Нижних Ветвях Иггдрасиля~
+@eng You are on a limb on the lower level of Yggdrasil.
+@rus {x Ты стоишь на нижних ветвях {WИггдрасиля{x. 
+~
+0 0 forest
+D2 0
+@eng The main trunk is in this direction.
+@rus Толстый ствол дерева.
+~
+~
+Z -1 2902
+S
+#2904
+@eng The Crest of Yggdrasil@rus На Вершине Иггдрасиля~
+@eng You are on the top of the World Ash.  You can see in the distance many
+realms and dimensions.  This is definitely a crossroads to the gods.
+@rus {x Ты стоишь на вершине {GЯ{gсеня {GМ{gира{x. Отсюда открывается вид на множество
+реальностей и измерений. Это действительно {WП{wерекресток {WБогов{x.
+~
+0 0 forest
+D5 0
+@eng The way down the trunk of Yggdrasil lies this way.
+@rus Путь по стволу {WИггдрасиля{x ведет вниз
+~
+~
+Z -1 2918
+S
+#2905
+@eng A Lower Branch of Yggdrasil@rus На Нижних Ветвях Иггдрасиля~
+@eng You are on a limb on the lower level of Yggdrasil.
+@rus {x Ты стоишь на нижних ветвях {WИггдрасиля{x. 
+~
+0 0 forest
+D1 0
+@eng The main trunk is in this direction.
+@rus Толстый ствол дерева.
+~
+~
+Z -1 2902
+S
+#2906
+@eng A Lower Branch of Yggdrasil@rus На Нижних Ветвях Иггдрасиля~
+@eng You are on a limb on the lower level of Yggdrasil.
+@rus {x Ты стоишь на нижних ветвях {WИггдрасиля{x. 
+~
+0 0 forest
+D3 0
+@eng The main trunk is in this direction.
+@rus Толстый ствол дерева.
+~
+~
+Z -1 2902
+S
+#2907
+@eng The Roots of Yggdrasil@rus Между Корнями Иггдрасиля~
+@eng You are under the ground among the roots of Yggdrasil.  You
+sense a greater preponderance of evil in this area.  Your
+fellow travelers also tend to be of the evil persuasion.
+@rus {x Ты стоишь в корнях огромного дерева. Множество странных созданий носится
+мимо, повергая тебя в изумление.
+~
+0 0 forest
+D0 0
+@eng The roots lead off in this direction.
+@rus Древесные корни тянутся в этом направлении.
+~
+~
+Z -1 2923
+D1 0
+@eng The roots lead off in this direction.
+@rus Древесные корни тянутся в этом направлении.
+~
+~
+Z -1 2909
+D2 0
+@eng The roots lead off in this direction.
+@rus Древесные корни тянутся в этом направлении.
+~
+~
+Z -1 2908
+D3 0
+@eng The roots lead off in this direction.
+@rus Древесные корни тянутся в этом направлении.
+~
+~
+Z -1 2910
+D4 0
+@eng The entrance to the tree is in this direction.
+@rus Вход на дерево.
+~
+~
+Z -1 2900
+D5 0
+@eng The deepest part of the tree is down here.
+@rus Корни уходят под землю.
+~
+~
+Z -1 2912
+S
+#2908
+@eng The Roots of Yggdrasil@rus Между Корнями Иггдрасиля~
+@eng You are in the roots of the great tree.  Many odd creatures
+can be seen and felt wandering in the area.
+@rus {x Ты стоишь в корнях огромного {WДрева{x. Множество странных созданий носится
+мимо, повергая тебя в изумление.
+~
+0 0 forest
+D0 0
+@eng The roots continue in this direction.
+@rus Древесные корни тянутся в этом направлении.
+~
+~
+Z -1 2907
+S
+#2909
+@eng The Roots of Yggdrasil@rus Между Корнями Иггдрасиля~
+@eng You are in the roots of the great tree.  Many odd creatures
+can be seen and felt wandering in the area.
+@rus {x Ты стоишь в корнях огромного {WДрева{x. Множество странных созданий носится
+мимо, повергая тебя в изумление.
+~
+0 0 forest
+D3 0
+@eng The roots continue in this direction.
+@rus Древесные корни тянутся в этом направлении.
+~
+~
+Z -1 2907
+S
+#2910
+@eng The Roots of Yggdrasil@rus Между Корнями Иггдрасиля~
+@eng You are in the roots of the great tree.  Many odd creatures
+can be seen and felt wandering in the area.
+@rus {x Ты стоишь в корнях огромного {WДрева{x. Множество странных созданий носится
+мимо, повергая тебя в изумление.
+~
+0 0 forest
+D1 0
+@eng The roots continue in this direction.
+@rus Древесные корни тянутся в этом направлении.
+~
+~
+Z -1 2907
+S
+#2911
+@eng A Lower Branch of Yggdrasil@rus На Нижних Ветвях Иггдрасиля~
+@eng You are on a limb on the lower level of Yggdrasil.
+@rus {x Ты стоишь на нижних ветвях {WИггдрасиля{x. 
+~
+0 0 forest
+D0 0
+@eng The main trunk is in this direction.
+@rus Толстый ствол дерева.
+~
+~
+Z -1 2902
+S
+#2912
+@eng The Deepest Roots of Yggdrasil@rus Между Глубоких Корней Иггдрасиля~
+@eng You are at the tree's deepest point.  Looking down from here
+you can almost see the foul and evil realms of the followers
+of evil.  You can faintly hear the screams of their tortured
+victims.
+@rus {x  Ты достиг самой глубоко закопаной части {WДрева{x. Внизу отсюда почти можно 
+рассмотреть отвратительные реальности, где обитают последователи Зла. 
+Слабые крики пытаемых жертв доносятся до твоего слуха.
+~
+0 0 forest
+D4 0
+@eng You see the roots of the tree continue in this direction.
+@rus Древесные корни тянутся в этом направлении.
+~
+~
+Z -1 2907
+S
+#2913
+@eng A Middle Branch of Yggdrasil@rus На Средних Ветвях Иггдрасиля~
+@eng You are on a limb on the middle level of Yggdrasil.
+@rus {x Ты стоишь на ветвях {WИггдрасиля{x, посередине между землей и небом.
+~
+0 0 forest
+D1 0
+@eng The main trunk is in this direction.
+@rus Продолжение ствола.
+~
+~
+Z -1 2917
+S
+#2914
+@eng A Middle Branch of Yggdrasil@rus На Средних Ветвях Иггдрасиля~
+@eng You are on a limb on the middle level of Yggdrasil.
+@rus {x Ты стоишь на ветвях {WИггдрасиля{x, посередине между землей и небом.
+~
+0 0 forest
+D2 0
+@eng The main trunk is in this direction.
+@rus Продолжение ствола.
+~
+~
+Z -1 2917
+S
+#2915
+@eng A Middle Branch of Yggdrasil@rus На Средних Ветвях Иггдрасиля~
+@eng You are on a limb on the middle level of Yggdrasil.
+@rus {x Ты стоишь на ветвях {WИггдрасиля{x, посередине между землей и небом.
+~
+0 0 forest
+D3 0
+@eng The main trunk is in this direction.
+@rus Продолжение ствола.
+~
+~
+Z -1 2917
+S
+#2916
+@eng A Middle Branch of Yggdrasil@rus На Средних Ветвях Иггдрасиля~
+@eng You are on a limb on the middle level of Yggdrasil.
+@rus {x Ты стоишь на ветвях {WИггдрасиля{x, посередине между землей и небом.
+~
+0 0 forest
+D0 0
+@eng The main trunk is in this direction.
+@rus Продолжение ствола.
+~
+~
+Z -1 2917
+M 182 H 264
+S
+#2917
+@eng The Middle Trunk of Yggrasil@rus На Стволе Иггдрасиля~
+@eng You are in the middle parts of Yggdrasil.  The tree top still cannot be seen.
+Many travelers are passing you in fulfillment of their quests.
+@rus {x Ты добрался до середины огромного ствола {WИггдрасиля{x, но верхушки дерева
+до сих пор не видать. Путешественники проходят-пролетают мимо тебя,
+следуя своим путям.
+~
+0 0 forest
+D0 0
+@eng A limb branches off in this direction.
+@rus Густые ветви тянутся в этом направлении.
+~
+~
+Z -1 2914
+D1 0
+@eng A limb branches off in this direction.
+@rus Густые ветви тянутся в этом направлении.
+~
+~
+Z -1 2915
+D2 0
+@eng A limb branches off in this direction.
+@rus Густые ветви тянутся в этом направлении.
+~
+~
+Z -1 2916
+D3 0
+@eng A limb branches off in this direction.
+@rus Густые ветви тянутся в этом направлении.
+~
+~
+Z -1 2913
+D4 0
+@eng The trunk continues towards the heavens.
+@rus Ствол дерева поднимается в небо.
+~
+~
+Z -1 2918
+D5 0
+@eng The way down the tree is this way.
+@rus Здесь можно спуститься с дерева.
+~
+~
+Z -1 2902
+S
+#2918
+@eng The Upper Trunk of Yggrasil@rus На Стволе ИггдрасилЯ~
+@eng You are in the topmost section of Yggdrasil.  The tree top is just above you.
+Great power can be sensed in this area. There is also goodness here.
+@rus {x Ты почти добрался до вершины {WИггдрасиля{x. Она шумит {Wс{wе{Wр{Wе{wб{Wр{wи{Wс{wт{Wо{wй{x листвой прямо над твоей головой.
+Огромная сила чувствуется в здешнем воздухе. И это сила - сила {WДобра{x.
+~
+0 0 forest
+D0 0
+@eng A limb branches off in this direction.
+@rus Густые ветви тянуться в этом направлении.
+~
+~
+Z -1 2921
+D1 0
+@eng A limb branches off in this direction.
+@rus Густые ветви тянуться в этом направлении.
+~
+~
+Z -1 2922
+D2 0
+@eng A limb branches off in this direction.
+@rus Густые ветви тянуться в этом направлении.
+~
+~
+Z -1 2919
+D3 0
+@eng A limb branches off in this direction.
+@rus Густые ветви тянуться в этом направлении.
+~
+~
+Z -1 2920
+D4 0
+@eng The top of the tree can be seen here.
+@rus Отсюда уже видно вершину дерева.
+~
+~
+Z -1 2904
+D5 0
+@eng The way down the tree is this way.
+@rus Здесь можно спуститься с дерева.
+~
+~
+Z -1 2917
+S
+#2919
+@eng An Upper Branch of Yggdrasil@rus На Верхних Ветвях Иггдрасиля~
+@eng You are on a limb on the upper level of Yggdrasil.
+@rus {x Ты стоишь на верхних ветвях {WИггдрасиля{x.
+~
+0 0 forest
+D0 0
+@eng The main trunk is in this direction.
+@rus Продолжение ствола.
+~
+~
+Z -1 2918
+S
+#2920
+@eng An Upper Branch of Yggdrasil@rus На Верхних Ветвях Иггдрасиля~
+@eng You are on a limb on the upper level of Yggdrasil.
+@rus {x Ты стоишь на верхних ветвях {WИггдрасиля{x.
+~
+0 0 forest
+D1 0
+@eng The main trunk is in this direction.
+@rus Продолжение ствола.
+~
+~
+Z -1 2918
+S
+#2921
+@eng An Upper Branch of Yggdrasil@rus На Верхних Ветвях Иггдрасиля~
+@eng You are on a limb on the upper level of Yggdrasil.
+@rus {x Ты стоишь на верхних ветвях {WИггдрасиля{x.
+~
+0 0 forest
+D2 0
+@eng The main trunk is in this direction.
+@rus Продолжение ствола.
+~
+~
+Z -1 2918
+S
+#2922
+@eng An Upper Branch of Yggdrasil@rus На Верхних Ветвях Иггдрасиля~
+@eng You are on a limb on the upper level of Yggdrasil.
+@rus {x Ты стоишь на верхних ветвях {WИггдрасиля{x.
+~
+0 0 forest
+D3 0
+@eng The main trunk is in this direction.
+@rus Продолжение ствола.
+~
+~
+Z -1 2918
+S
+#2923
+@eng The Roots of Yggdrasil@rus Между Корнями Иггдрасиля~
+@eng You are in the roots of the great tree.  Many odd creatures
+can be seen and felt wandering in the area.
+@rus {x Ты стоишь в корнях огромного {WДрева{x. Множество странных созданий носится
+мимо, повергая тебя в изумление.
+~
+0 0 forest
+D2 0
+@eng The roots continue in this direction.
+@rus Древесные корни тянутся в этом направлении.
+~
+~
+Z -1 2907
+S
+#0
+
+#SPECIALS
+M 2900 spec_cast_cleric	* a Hollyphant
+M 2901 spec_cast_mage	* a planetar
+M 2904 spec_cast_mage	* a chasme
+M 2906 spec_cast_mage	* a yagnodemon
+M 2907 spec_cast_undead	* Kostchtchie
+M 2908 spec_cast_mage	* a nabassu
+M 2909 spec_breath_gas	* a cloud dragon
+M 2910 spec_cast_cleric	* a solar
+M 2911 spec_thief	* a wemic
+M 2913 spec_breath_any	* a gorgimera
+S
+
+#RESETS
+M 0 2911 9 2901 1	* a wemic (The Trunk of Yggdrasil)
+G 0 2903 0		*	a looking glass
+M 0 2905 9 2903 2	* a babau (A Lower Branch of Yggdrasil)
+M 0 2904 8 2906 2	* a chasme (A Lower Branch of Yggdrasil)
+M 0 2903 9 2907 2	* a dretch (The Roots of Yggdrasil)
+M 0 2907 1 2908 1	* Kostchtchie (The Roots of Yggdrasil)
+E 0 2901 0 16		*	a huge hammer of cold iron: wielded
+M 0 2912 6 2910 2	* a frost giant (The Roots of Yggdrasil)
+G 0 2909 0		*	a cast iron girth
+M 0 2908 8 2911 2	* a nabassu (A Lower Branch of Yggdrasil)
+G 0 2910 0		*	a sparkling pink potion
+M 0 2913 2 2912 2	* a gorgimera (The Deepest Roots of Yggdrasil)
+M 0 2902 6 2913 1	* a Shedu (A Middle Branch of Yggdrasil)
+M 0 2900 6 2914 2	* a Hollyphant (A Middle Branch of Yggdrasil)
+G 0 2908 0		*	a hollyphant tusk
+M 0 2909 1 2915 1	* a cloud dragon (A Middle Branch of Yggdrasil)
+M 0 2912 6 2916 2	* a frost giant (A Middle Branch of Yggdrasil)
+G 0 2907 0		*	a paper triangle
+M 0 2911 9 2917 1	* a wemic (The Middle Trunk of Yggrasil)
+M 0 2914 1 2918 1	* Ratatosk (The Upper Trunk of Yggrasil)
+M 0 2902 3 2918 1	* a Shedu (The Upper Trunk of Yggrasil)
+M 0 2902 3 2919 1	* a Shedu (An Upper Branch of Yggdrasil)
+M 0 2902 3 2920 1	* a Shedu (An Upper Branch of Yggdrasil)
+G 0 2904 0		*	a cloudy glass staff
+M 0 2910 1 2921 1	* a solar (An Upper Branch of Yggdrasil)
+G 0 2905 0		*	a set of sleeves of crystal
+M 0 2901 1 2922 1	* a planetar (An Upper Branch of Yggdrasil)
+E 0 2902 0 16		*	a holy bastard sword: wielded
+M 0 2906 4 2923 2	* a yagnodemon (The Roots of Yggdrasil)
+E 0 2900 0 16		*	a body-wrecker: wielded
+S
+
+#$

@@ -1,0 +1,4 @@
+#!/bin/sh
+
+grep PC_Killed ../player/* | grep -v 'PC_Killed 0' | sed 's/PC_Killed//' | sed 's/..\/player\///' | sort +1 -nr
+

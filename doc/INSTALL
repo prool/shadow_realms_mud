@@ -1,0 +1,26 @@
+			*nix installation
+
+*) Extract muddy:
+	tar xfz mud.tar.gz
+
+*) Configure Makefile's in mud/src and in mud/src/lib. Read
+   this files and comment/uncomment require lines.
+
+*) Compile muddy libs:
+	cd mud/src/lib
+	make
+
+*) Compile muddy
+	cd mud/src
+	make
+
+*) Edit mud/src/startup and change "home" value to dir, which
+   be your muddy root
+
+*) Start muddy:
+	mud/src/startup
+
+*) Examine logfile in mud/log
+
+*) `telnet localhost 4000` and join ! :)
+

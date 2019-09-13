@@ -1,0 +1,1675 @@
+#AREADATA
+Name Miden'nir~
+VNUMs 3500 3599
+Credits Copper~
+Security 5
+LevelRange 10 30
+ResetMessage Порыв ветра обрушивается на тебя.~
+End
+
+#MOBILES
+#3500
+wyvern~
+@eng the wyvern@rus виверн~
+@eng A monstrous wyvern slowly circles just above your head.
+@rus Ужасный виверн медлено кружится у тебя над головой.
+~
+@eng This huge winged creature looks really menacing.  You are happy it doesn't
+APPEAR to be very hungry ... yet.
+@rus Это огромное летающее существо выглядит очень угрожающе. Вы счастливы,
+что оно не очень голодное ... пока.
+~
+wyvern~
+AGHR J -200 0
+25 2 5d10+350 5d30+500 5d3+5 bite
+5 4 5 6
+R 0 0 0
+stand stand either 8
+0 0 huge unknown
+#3501
+goblin mountain~
+@eng the goblin@rus гоблин~
+@eng A mountain goblin is wandering about, mumbling to himself.
+@rus Горный гоблин гуляет рядом, бормоча что-то про себя.
+~
+@eng You see before you a small and twisted creature with knotted muscles.
+@rus Вы видите перед собой маленькое и горбатое существо с напряженными
+мускулами.
+~
+goblin~
+AGT 0 -430 0
+10 1 1d20+120 6d25+200 1d12+2 punch
+4 6 4 9
+JKQR 0 0 0
+stand stand male 6
+0 0 small unknown
+M greet 3505 100~
+M entry 3507 100~
+#3502
+thief~
+@eng hidding thief@rus прячущийся вор~
+@eng hidding thief
+@rus Убийца приготовился напасть на свою жертву.
+~
+@eng Very agressive assassin
+@rus Хладнокровный убийца, поджидает здесь свою жертву.
+~
+human~
+ABH FQV 0 0
+28 0 2d30+504 4d25+200 2d7+15 stab
+8 8 8 10
+BFIJK 0 0 0
+stand stand male 50
+0 0 medium unknown
+M greet 3506 100~
+S 0 30 30 30 30 30 30
+#3503
+innkeeper~
+@eng the Innkeeper@rus Хозяин гостиницы~
+@eng The Innkeeper stands here, cleaning glasses.
+@rus Хозяин гостиницы стоит здесь, моет стаканы.
+~
+@eng The Innkeeper now spends most of his days waiting for customers, while the
+nights are spent watching out for goblins.  His inn is no longer the happy
+place that is used to be in days past.
+@rus Сейчас хозяин гостиницы тратит весь свой день в ожидании посетителей, а
+ночью наблюдает за гоблинами. Его гостиница больше не счастливое место, как
+в старые добрые времена.
+~
+human~
+ABT 0 450 0
+20 1 20d3+500 10d25+200 2d10+1 punch
+4 4 4 8
+FKLQ A CD 0
+stand stand male 10
+0 0 medium unknown
+M random 3503 100~
+M greet 3508 100~
+#3504
+bard~
+@eng the bard@rus бард~
+@eng A sullen bard is here, drinking away his problems.
+@rus Угрюмый бард здесь, пьющий из-за своих проблем.
+~
+@eng You can smell the alcohol on his breath from across the room.  This poor bard
+has been sitting here quite a while, drinking himself into oblivion.
+@rus Ты можешь почуствовать алкоголь от его дыхания из дальнего конца
+комнаты. Этот бедный бард сидит здесь долгое время и пьет в забвении. 
+~
+human~
+ABST D 440 0
+25 3 3d30+400 8d25+200 10d3+1 punch
+5 5 5 -2
+FIJKNQ 0 0 0
+sit sit male 8
+0 0 medium unknown
+#3505
+horseman dark~
+@eng the dark horseman@rus темный всадник~
+@eng A dark horseman is here, mounted on his black steed.
+@rus Темный всадник сидит на своем черном коне.
+~
+@eng The man is obviously an outlaw, and has no qualms about slashing you into
+little bits.
+@rus Человек объявленный вне закона, который может без угрызений совести
+порезать тебя на мелкие куски.  
+~
+human~
+AGHS P -440 0
+23 2 1d50+350 8d25+200 5d5+5 punch
+5 3 3 6
+BFJKQ 0 0 0
+stand stand male 8
+0 0 medium unknown
+#3506
+lieutenant goblin~
+@eng the goblin lieutenant@rus лейтенант гоблинов~
+@eng A goblin lieutenant stands here, attempting to get his men in order.
+@rus Лейтенант гоблинов стоит здесь, пытается найти своих подчиненных.
+~
+@eng The goblin lieutenant is rather angry, and looking for one of his men to
+beat up upon, but maybe you will do just fine ...
+@rus Лейтенант гоблинов довольно сердит, и ищет хотя бы одного из своих людей
+чтобы оторваться на нем, но возможно ты помешаешь этому ...
+~
+goblin~
+AGT 0 -435 0
+20 1 2d20+400 7d25+200 2d10+5 punch
+3 5 3 8
+DHKNQR 0 0 0
+stand stand male 7
+0 0 medium unknown
+M greet 3505 100~
+M entry 3507 100~
+#3507
+leader goblin~
+@eng the goblin leader@rus лидер гоблинов~
+@eng The goblin leader surveys the room.
+@rus Лидер гоблинов осматривает комнату.
+~
+@eng The leader doesn't look too happy that you have found him here.  He grabs
+for his shortsword and lunges for your neck.
+@rus Лидер не выглядит слишком счастливым от того, что вы нашли его здесь.
+Он вытаскивает свой короткий меч и замахивается над твоей шеей.
+~
+goblin~
+ACG 0 -445 0
+30 2 2d30+600 9d25+200 3d8+10 punch
+9 9 9 5
+CDFJKNQR 0 AL 0
+stand stand male 9
+0 0 medium unknown
+M greet 3505 100~
+M entry 3507 100~
+M random 3501 2~
+M random 3502 2~
+#0
+
+#OBJECTS
+#3500
+sword short~
+@eng a goblin's short sword@rus ~~короткий~~ ~~меч~~ гоблинов~
+@eng A rusted sword lies on the ground.@rus Ржавый меч лежит на земле.~
+iron~
+weapon 0 AN
+sword 4 3 stab 0
+15 40 20 A
+A
+19 3
+A
+18 -3
+E ''
+sword~
+@eng It looks heavier than your average short sword, but it could use some oiling.
+@rus Он выглядит более тяжелым чем ваш средний короткий меч, но это может
+даже лучше.
+~
+G male
+#3501
+spear long~
+@eng a long spear@rus ~~длинное~~ ~~копье~~~
+@eng A blackened spear with an evil-looking blade lies here.
+@rus Почерневшее копье со зло-выглядящим наконечником лежит здесь.~
+iron~
+weapon 0 AN
+spear 4 5 thrust F
+25 80 25 A
+A
+18 3
+A
+17 -2
+E ''
+spear~
+@eng This used to be a boar spear, but it has been used for more dangerous game.
+@rus Это копье для охоты на кабана, но оно используется для более опасной игры.~
+G none
+#3502
+helmet horned black~
+@eng a black horned helmet@rus ~~черный~~ ~~рогатый~~ ~~шлем~~~
+@eng A helmet with sharp black horns sits here.
+@rus Шлем с острыми черными рогами лежит здесь.~
+iron~
+armor 0 AE
+9 15 12 0 1
+15 30 20 A
+A
+19 1
+G male
+#3503
+cloak stained~
+@eng a stained travelling cloak@rus ~~запятнанный~~ ~~дорожный~~ ~~плащ~~~
+@eng A worn and stained cloak is crumpled up on the floor.
+@rus Изношенный и запятнанный плащ валяется на полу.~
+cloth~
+armor 0 AC
+16 24 32 0 1
+25 40 30 A
+A
+17 5
+G male
+#3504
+bracer leather enchanted~
+@eng an enchanted leather bracer@rus ~~улучшенные~~ ~~кожанные~~ ~~наручни~~~
+@eng A leather bracer with mystic symbols sits here.
+@rus Коженые наручни с мистическими символами лежат здесь.~
+leather~
+armor 0 AM
+6 12 12 6 0
+20 10 30 G
+A
+18 1
+E ''
+bracer~
+@eng This bracer is covered with runes of protection and luck in combat.
+@rus Эти наручни покрыты рунами защиты и удачи в бою.
+~
+G none
+#3505
+knife dagger~
+@eng a rune-covered knife@rus покрытый рунами нож~
+@eng A wide-bladed knife sits undisturbed on the floor.
+@rus Нож с широким лезвием лежит спокойно на полу.~
+mithril~
+weapon GK AN
+dagger 3 3 stab 0
+5 10 10 P
+A
+19 -3
+A
+18 1
+E ''
+knife dagger~
+@eng It's very sharp, you suspect this knife is more effective than many swords.
+It appears to be of elvish origins, and is made of finely crafted mithril,
+with a stylized ivory hilt.
+@rus Он очень острый, вы подозреваете, что этот нож более эффективен чем
+многие мечи. Он, кажется, эльфийского происхождения, и сделан из точно
+обработанного мифрила, с красивой рукояткой из слоновой кости.
+~
+G none
+#3507
+statue~
+@eng statue of warrior@rus ~~статуя~~ воина~
+@eng statue of unknow warrior@rus статуя неизвестног солдата~
+iron~
+trash 0 0
+0 0 0 0 0
+0 0 0 P
+G female
+#3508
+head leader~
+@eng Head of goblin leader@rus Голова лидера гоблинов.~
+@eng Head of goblin leader lies here.@rus Голова лидера гоблинов валяется тут.~
+unknown~
+trash Q A
+0 0 0 0 0
+1 5 0 P
+G female
+#0
+
+#ROOMS
+#3500
+@eng The Plains@rus Равнины~
+@eng You are standing on the plains. This is a vast desolate place where the
+wind can howl undisturbed since nothing but you bars its way. However you
+are not the first to wander here. Before you somebody has left a small path.
+The path looks rather bewildered and is not the kind of path to lead to
+anywhere significant or important but it seems to have made up its mind to
+enter the hills far away north.
+@rus Вы стоите на равнинах. Это обширное пустынное место, где ветер
+безмятежно гуляет с тех пор как вы пошли этим путем. Однако вы не
+первый, кто блуждает здесь. До вас кто-то оставили маленькую дорожку.
+Дорожка выглядит довольно глухой и это не вид дорожки, которая должна
+вести к чему нибудь существенному или важному, но это, кажется, единственная
+дорога чтобы войти в холмы далеко на севере.
+~
+0 0 city
+D0 3
+~
+~
+Z 0 4000
+D1 6
+~
+~
+Z -1 19001
+D2 3
+~
+~
+Z 0 3501
+S
+#3501
+@eng The Lane@rus Переулок~
+@eng You are strolling along a pleasant, shady lane. The road is lined on both
+sides by tall, stately trees which lend the scene with a sense of quiet
+serenity. You can follow the road north or south.
+@rus Вы прогуливаетесь по приятному, затененному переулку.  Дорога граничит с
+обеих сторон высокими, величественными деревьями, которые изображают тихую
+ясную картину.  Вы можете пойти по дороге на север или на юг.  
+~
+0 0 city
+D0 3
+~
+~
+Z 0 3500
+D2 3
+~
+~
+Z 0 3502
+S
+#3502
+@eng The Cross Roads@rus Перекресток~
+@eng Here, the great eastern road intersects with an older road between the mines
+of Moria and the ruined city of Thalos.  The outskirts of Midgaard lie to your
+west, and the highway continues the the east.  An old northern road leads to
+the dwarven kingdom and the abandoned mines of Moria, while the southern road
+shows the scars of the war which destroyed Thalos.
+@rus Здесь широкая Восточная дорога пересекается с более древней, соединяющей
+шахты Мориа и руины города Талос. Пригород Мидгаарда от вас на западе, на
+востоке - путь в Нью Талос. Старая Северная дорога ведет к королевству Дварфов
+и заброшенным шахтам Мориа, на юге - шрамы Великой Войны, которая разрушила
+Талос.
+~
+0 Z city
+D0 3
+An old road leads towards the abandoned mines of Moria and the Dwarven Kingom.
+~
+~
+Z 0 3501
+D1 2
+The road continues east, where you hear faint singing.
+~
+~
+Z 0 3525
+D2 2
+A once mighty road leads through the dwarf forest towards ruined Thalos.
+~
+~
+Z 0 5261
+D3 0
+The road leads west towards Midgaard.
+~
+~
+Z 0 3503
+S
+#3503
+@eng City Entrance@rus Пригород~
+@eng You stand on the outskirts of a large city - Midgaard; the capital of this
+land. The road leads east into the peace and quiet - and dangers - of the
+forest; and to the west it becomes the main street of the town; surrounded by
+a confusion of shops, bars, and market places.
+@rus Вы вошли в пригород большого города - Мидгаарда, столицы этого государства.
+На восток дорога уходит в тихий, мирный и опасный лесной массив, на западе
+плавно переходит в главную улицу города, окруженную магазинами, кабаками и
+рынками.
+~
+0 C city
+D1 0
+~
+~
+Z 0 3502
+D3 0
+~
+~
+Z 0 3053
+S
+#3505
+@eng The Trail to Miden'nir@rus Тропинка в Миденир~
+@eng You are in a light forest. A path leads south, but the passage to the
+east is easy enough. To the west, smoke can be seen rising above the
+treetops. The sprawl of Midgaard lies north of here.
+@rus Вы находитесь в светлом лесу.  Дорожка ведет юг, но проход на восток
+достаточно легок.  На западе можно заметить дым поднимающийся выше верхушек
+деревьев.  Мидгаард находится к северу от сюда.  
+~
+0 0 forest
+E ''
+credits credit author~
++-------------------------------------------------+
+| This area originally written for Copper II DIKU |
+|   by ?                                          |
+| Modifications and alterations for MERCmud DIKU  |
+|   by VampLestat                        1 JAN 93 |
+| Translate by Yunin A.A.(Revenger)               |
++-------------------------------------------------+
+~
+D0 15
+To the north, you see the southern gates of Midgaard.
+~
+~
+Z 0 3256
+D1 0
+More light forest.
+~
+~
+Z 0 3506
+D2 0
+This path cuts through the darkness of the Miden'nir.
+~
+~
+Z 0 3507
+D3 0
+The Woodsman's Inn.
+~
+~
+Z 0 3570
+S
+#3506
+@eng The Miden'nir@rus Миденир~
+@eng You are in a dark forest. To the east, mountains block passage. From
+here, only the lighter forest to the west or south offer a way to travel.
+@rus Вы находитесь в темном лесу. На востоке горы блокируют проход. Отсюда,
+можно пойти только на запад или юг в более светлый лес.
+~
+0 0 forest
+D1 0
+~
+~
+Z -1 3550
+D2 0
+The forest is darker to the south.
+~
+~
+Z 0 3509
+D3 0
+The forest gets lighter as you go west.
+~
+~
+Z 0 3505
+S
+#3507
+@eng The Miden'nir@rus Миденир~
+@eng The forest is deep here and the wind blows through the trees and
+through your hair. To the north, the forest gets lighter. However, the
+southern and western paths place you even deeper in the wood.
+@rus Густой лес здесь и ветер дует сквозь деревья и ваши волосы. На
+севере лес становится светлее. Однако, дорожки на юг и запад уводят вас
+глубже в лес.
+~
+0 0 forest
+D0 0
+The forest is lighter in this direction.
+~
+~
+Z 0 3505
+D2 0
+More and darker woods.
+~
+~
+Z 0 3510
+D3 0
+There is a small path leading west.
+~
+~
+Z 0 3508
+S
+#3508
+@eng On a Small Path@rus На узкой тропинке~
+@eng A path is here, leading east and south through the dark woods of
+Miden'nir. Mountains slash the scenery to the west of here.
+@rus Дорожка здесь, ведущая на восток и юг через темный лес Миденира.
+Горы режут пейзаж на западе.  
+~
+0 0 forest
+D1 0
+Wind-swept forest.
+~
+~
+Z 0 3507
+D2 0
+To the south, the trail continues.
+~
+~
+Z 0 3511
+S
+#3509
+@eng The Miden'nir@rus Миденир~
+@eng The trees of Miden'nir are lush and green, hiding the evil that lurks
+in these woods. The trees become too thick to the west, but you may go
+north, south or travel toward the mountains that lie east of here.
+@rus Деревья Миденира пышны и зелены, скрывая зло, которое скрывается в
+этом лесу. Деревья становятся очень толстыми на западе, но вы можете идти на
+север, юг или путешествовать к горам, которые лежат к востоку от сюда.
+~
+0 0 forest
+D0 0
+The trees lighten up a bit this way.
+~
+~
+Z 0 3506
+D1 0
+Huge grey mountains lie in this direction.
+~
+~
+Z 0 3512
+D2 0
+The forest continues.
+~
+~
+Z 0 3514
+S
+#3510
+@eng A Crossroads@rus Перекресток~
+@eng Here footworn paths meet leading north, south and east. The trees seem to
+be closing in on you at this point, and you can barely see the sky
+through the thick branches above your head.
+@rus Здесь протоптанные дорожки пересекаются с ведущими на север, юг и восток.
+Деревья, кажется, пересекаются над вами в этом пункте, и вы можете видеть небо
+только через густые заросли над вашей головой.  
+~
+0 0 forest
+D0 0
+Trees as far as the eye can see.
+~
+~
+Z 0 3507
+D1 0
+There is an especially dark part of the forest this way.
+~
+~
+Z 0 3514
+D2 0
+There is an especially dark section of forest this way.
+~
+~
+Z 0 3516
+S
+#3511
+@eng The Trail@rus Тропинка~
+@eng You are on a north-south trail through the woods. To the west, impassable
+mountains glare at you, and the thick woods and undergrowth prevent any
+movement to {mwest{x.
+@rus Вы находитесь на тропинке ведущей с севера на юг через лес. На западе
+бросаются в глаза непроходимые горы, толстый лес и подлесок мешающий
+любому движению на запад {m(west){x.
+~
+0 0 forest
+E ''
+west~
+@eng You see hidden way.
+@rus Ты видишь скрытый проход.
+~
+D0 0
+The trail bends to the north.
+~
+~
+Z 0 3508
+D2 0
+To the south, the path re-enters the forest.
+~
+~
+Z 0 3515
+D3 0
+~
+~
+NZ 0 201
+S
+#3512
+@eng The Miden'nir@rus Миденир~
+@eng The trees of Miden'nir are lush and green, hiding the evil that lurks
+in these woods. You can go north toward the mountains, or west to the
+forest, but the steep mountains prevent any movement east.
+@rus Деревья Миденира пышны и зелены, скрывая зло, которое скрывается в
+этом лесе. Вы можете идти на север к горам или на запад к лесу, но крутые
+горы мешают любому движению на восток.
+~
+0 0 forest
+D0 0
+~
+~
+Z -1 3550
+D2 0
+A light section of forest.
+~
+~
+Z 0 3513
+D3 0
+The forest continues here.
+~
+~
+Z 0 3509
+S
+#3513
+@eng The Miden'nir@rus Миденир~
+@eng The forest is dark, and becomes even darker west.  You sense
+that there is something evil hidden in these woods.  The forest gets
+lighter to the north.  The wind kicks up as you ponder your options.
+@rus Лес темен, и становится более темным на западе. Вы ощущаете что
+есть какое-то зло скрытое в этом лесе. Лес становится светлее на севере.
+Ветер подгоняет вас в выборе дальнейшего направления.
+~
+0 0 forest
+D0 0
+There is a small clearing to the north.
+~
+~
+Z 0 3512
+D1 0
+~
+~
+Z 0 29101
+D3 0
+It gets darker and thicker this way.
+~
+~
+Z 0 3514
+S
+#3514
+@eng Deep Forest@rus Глубокий лес~
+@eng It is quite dark here, forest surrounds you. With each step, the forest
+seems to close around you, and get darker and more foreboding.  It might just
+be time to head back to somewhere safe.
+@rus Здесь весьма темно, лес окружает вас. С каждым шагом лес, кажется,
+закрывается вокруг вас, и становится более темным и страшным. Может самое
+время вернуться назад туда где безопаснее.
+~
+0 0 forest
+D0 0
+More forest.
+~
+~
+Z 0 3509
+D1 0
+Lighter forest and mountains in the distance.
+~
+~
+Z 0 3513
+D2 0
+More trees.
+~
+~
+Z 0 3517
+D3 0
+The forest continues.
+~
+~
+Z 0 3510
+S
+#3515
+@eng Light Forest@rus Светлый лес~
+@eng The forest is light here and you can easily pick your way through the 
+trail.  To the east, the forest becomes thick and darker. South, the trail
+continues.
+@rus Лес освещен здесь и вы можете легко найти вашу дорогу по тропинке. На
+восток, лес становится толстым и более темным. Юг, тропинка продолжается.
+~
+0 0 forest
+D0 0
+A trail leading north-south.
+~
+~
+Z 0 3511
+D1 0
+The trees get thicker as you go east.
+~
+~
+Z 0 3516
+D2 0
+More trees and some small hills.
+~
+~
+Z 0 3518
+S
+#3516
+@eng Muddy Ground@rus Грязная земля~
+@eng The ground is quite muddy here and puddles are all around. Your boots
+make a disgusting SQUISH as you walk here. You can go in any of the
+four cardinal directions from here. Hopefully, it will be dryer.
+@rus Земля очень грязная здесь и повсюду лужи. Ваши ботинки отвратительно
+ХЛЮПАЮТ когда вы ходите тут. Вы можете идти в любом из четырех направлений
+отсюда. Хотелось бы надеяться, что там будет суше.
+~
+0 0 forest
+D0 0
+The Miden'nir continues.
+~
+~
+Z 0 3510
+D1 0
+More trees.
+~
+~
+Z 0 3517
+D2 0
+The trees get VERY thick to the south. You can barely see...
+~
+~
+Z 0 3519
+D3 0
+Some light trees and daylight.
+~
+~
+Z 0 3515
+S
+#3517
+@eng Near the Mountains@rus Около гор~
+@eng The most prominent feature here is the mountains that lie to the east.
+You can only go north and west from here as the rocks stop all other
+movement.
+@rus Наиболее видная особенность здесь - горы, которые лежат на востоке. Вы
+можете идти только на север и на запад отсюда, поскольку камни мешают любому
+другому движению.
+~
+0 0 forest
+D0 0
+Many trees to the north.
+~
+~
+Z 0 3514
+D3 0
+There is a bit of a slope downward to the west.
+~
+~
+Z 0 3516
+S
+#3518
+@eng The Fading Trail@rus Исчезающая тропинка~
+@eng The trail becomes nearly unpassable here. You can go north
+as the forest is relatively light. To the south, you can see a path.
+@rus Тропинка становится почти непроходимой здесь. Вы можете идти на
+север, поскольку лес - относительно свет. На юге вы можете видеть дорожку.
+~
+0 0 forest
+D0 0
+You can see a trail this way.
+~
+~
+Z 0 3515
+D2 0
+Dark forests.
+~
+~
+Z 0 3522
+S
+#3519
+@eng The Dark Path@rus Темный путь~
+@eng You are hemmed in by trees on either side of you.  The path
+continues north and south, and while is much to thick to explore west,
+you can head off into the woods to the east.
+@rus Вы зажаты деревьями с обеих сторон. Дорожка продолжается на север и
+юг, на запад пройти нельзя, но вы можете пойти в лес на востоке.
+~
+0 0 forest
+D0 0
+The forest gets lighter this way.
+~
+~
+Z 0 3516
+D1 0
+The forest continues.
+~
+~
+Z 0 3520
+D2 0
+There is a strong stench coming from this direction.
+~
+~
+Z 0 3521
+S
+#3520
+@eng The Dark Forest@rus Темный лес~
+@eng You stomp your way through the underbrush.  The dark forest of Miden'nir
+get pretty thick here, and the branches high above your head are so thick that
+they block out all direct sunlight.  While it is much too thick to go
+further east, you might be able to make your way though the forest to the
+south and west.
+@rus Вы продолжаете ваш путь через подлесок. Темный лес Миденира становится
+довольно густым здесь, и заросли высоко над вашей головой настолько густы,
+что не пропускают прямой солнечный свет. В то время как очень трудно идти дальше
+на восток, вы смогли бы проложить свой путь через лес на юг и запад.
+~
+0 0 forest
+D2 0
+The thick forest continues.
+~
+~
+Z 0 3523
+D3 0
+The thick forest continues.
+~
+~
+Z 0 3519
+S
+#3521
+@eng Carnage@rus Резня~
+@eng Here, you see a gruesome sight. Blood is everywhere... on the trees and
+soaked into the ground. Two carcasses lie in front of you, seeming to look
+up at you. The forest is impassible to the south, but the other directions
+look ok.
+@rus Здесь вы видите ужасный вид.  Кровь всюду ...  На деревьях и впитанная в
+землю.  Два трупа лежат перед вами, кажется, что они смотрят на вас.  Лес
+неприступен на юге, но другие направления выглядят проходимыми.  
+~
+0 A forest
+E ''
+carcass body corpse carcasses bodies corpses~
+@eng The corpses looked as if they have been pierced by a large, jagged
+spear. The damage these people sustained is simply amazing. Worse, the
+lips on the bodies are a light shade of blue, hinting at poison in
+their systems.
+@rus Трупы выглядят как будто они были проткнуты большим, зубчатым копьем.
+Повреждение, которое эти люди выдержали, просто удивительно. Худшее то, что
+губы у трупов носят легкий оттенок синего, намекая на яд.
+~
+D0 0
+Darkness...
+~
+~
+Z 0 3519
+D1 0
+Your light does not extend that far.
+~
+~
+Z 0 3523
+D3 0
+More dark forest.
+~
+~
+Z 0 3522
+S
+#3522
+@eng Deep in the Forest of Miden'nir@rus Глубоко в лесах Миденира~
+@eng There is a sickening stench here. It smells of blood and death.
+To the north, you catch glimpses of daylight. To the east, you
+simply cannot see. The trees are close and stifling.
+@rus Вызывающее отвращение зловоние здесь. Оно пахнет кровью и смертью.
+На севере вы ловите проблески дневного света. На востоке вы просто ни чего
+не можете видеть. Деревья близко и тут нечем дышать.
+~
+0 0 forest
+D0 0
+You see daylight and a trail to follow.
+~
+~
+Z 0 3518
+D1 0
+The stench seems to becoming from this direction.
+~
+~
+Z 0 3521
+S
+#3523
+@eng The Dark Forest@rus Темный лес~
+@eng The branches above you block out all direct sunlight, making the forest
+in this area rather dark.  The forest continues east, where it meets the
+mountains. The air is still and stuffy - a stench comes from the west and an
+ugly feeling causes the hair to rise on the back of your neck!
+@rus Заросли над вами блокируют весь прямой солнечный свет, делая лес в этой
+области довольно темным. Лес продолжается на восток, где встречается с
+горами. Воздух все еще душен - зловоние идет с запада, и плохое
+чувство заставляет ваши волосы вставать дыбом!
+~
+0 0 forest
+D0 0
+It appears to get much darker that direction.
+~
+~
+Z 0 3520
+D1 0
+~
+~
+Z -1 3551
+D3 0
+The sky becomes lighter in this direction.
+~
+~
+Z 0 3521
+S
+#3525
+@eng Along the Eastern Road@rus Восточная дорога~
+@eng You are walking along a well-travelled road between Midgaard and lands
+east.  A northern road crosses this one to the west, towards Midgaard.  You
+hear faint, happy singing to the north.
+@rus Вы идете по хорошо-протоптаной дороге между Мидгардом и восточными
+землями. Северные дороги пересекаются на западе перед Мидгардом. Вы слышите
+слабое, счастливое пение на севере.
+~
+0 0 city
+D0 2
+You see a faint trail, covered with tiny footprints. The singing grows louder.
+~
+~
+Z -1 101
+D1 4
+The road continues to the east.
+~
+~
+Z -1 3526
+D3 2
+You can see the crossroads.
+~
+~
+Z -1 3502
+S
+#3526
+@eng Along the Eastern Road@rus Восточная дорога~
+@eng You are travelling down the eastern road between Midgaard and the eastern
+lands.  The road back to Midgaard is west of you, and a heavily guarded
+checkpoint is east.  A beautiful grove of trees is north, and a dirt path 
+wanders off to the south.
+@rus Вы путешествуете вниз по восточной дороге между Мидгардом и восточными
+странами. Дорога назад к Мидгарду к западу от вас, а хорошо охраняемый
+контрольно-пропускной пункт на востоке. Красивая роща деревьев на севере, и
+грязная дорожка на юге.
+~
+0 0 city
+D0 2
+You see a beautiful, shady grove -- it looks like a peaceful place to relax.
+~
+~
+Z -1 8950
+D1 6
+The road continues west towards a guarded checkpoint.
+~
+~
+Z -1 3527
+D2 2
+A dirt path leads to the gnome village.
+~
+~
+Z -1 1501
+D3 4
+The road continues west towards midgaard.
+~
+~
+Z -1 3525
+S
+#3527
+@eng The Checkpoint@rus Контрольно-пропускной пункт~
+@eng You are met by a group of heavily armored knights.  They check you over
+for contraband, and then allow you to pass on.  One of the knights cautions to
+not stray into the desert, lest you lose your way.
+@rus Вас встречает группа тяжело бронированных рыцарей. Они ищут у вас
+контрабанду, и затем позволяют вам пройти. Один из рыцарей предостерегает,
+чтобы бы вы не попали в пустыню, если потеряете свой путь.
+~
+0 0 city
+D1 10
+The continues east towards New Thalos.
+~
+~
+Z -1 3528
+D3 6
+The road continues west towards midgaard.
+~
+~
+Z -1 3526
+S
+#3528
+@eng Along the Eastern Road@rus Восточная дорога~
+@eng You are walking along a well-travelled road, just east of a heavily 
+guarded checkpoint.  You have covered about half the distance between
+the city of Midgaard and New Thalos.  The air is getting drier and the heat
+more oppressive as you near the the barren wastes of the Sands of Sorrow.
+@rus Вы идете по хорошо-протоптанной дороге,но только к востоку от хорошо
+охраняемого контрольно-пропускного пункта. Вы покрыли приблизительно половину
+расстояния между городом Мидгардом и Новым Талосом. Воздух очень сухой
+и имеет высокую температуру с тех пор как вы оказались около бесплодной
+пустыни - Песков Печали.
+~
+0 0 city
+D1 15
+The road continues ahead, growing more arid as you near the desert.
+~
+~
+Z -1 3529
+D3 10
+You see a heavily guarded checkpoint to the west.
+~
+~
+Z -1 3527
+S
+#3529
+@eng Along the Eastern Road@rus Восточная дорога~
+@eng The tempatures are climbing as you near the Sands of Sorrow, a barren
+wasteland blasted by arcane powers.  Ahead of you, the road is partially
+buried by the creeping sands, and the air grows even hotter.
+@rus Температура начала подниматься, как только вы оказались около Песков
+Печали, бесплодной пустоши, образовавшейся из-за неизвестной силы. Перед
+Вами дорога частично засыпанная песками, и воздух становится еще более
+горячим.
+~
+0 0 city
+D1 10
+You see the Sands of Sorrow spilling over the road.
+~
+~
+Z -1 3530
+D3 15
+The road continues to the west, towards distant Midgaard.
+~
+~
+Z -1 3528
+S
+#3530
+@eng Near the Sands of Sorrow@rus Около Песков Печали~
+@eng The eastern road is losing ground to the creeping desert here.  You stagger
+in the growing heat, and wonder if you have enough water.  The endless waste
+of the Sands of Sorrows is south, and the road continues east and west.  The 
+sun paints illusions at the edge of your vision, one of them looks like a far 
+off city...
+@rus Восточная дорога здесь теряется в пустыне. Вы стоите в возрастающей
+температуре, и беспокоитесь имеете ли вы достаточно воды.
+Бесконечная пустыня Песков Печалей южнее, и дорога продолжается на восток
+и запад. Солнце рисует иллюзии перед вами, одна из них напоминает далекий
+город ...
+~
+0 0 desert
+D1 6
+The road ahead is almost lost in the desert.
+~
+~
+Z -1 3531
+D3 10
+You see a clearer section of road. 
+~
+~
+Z -1 3529
+S
+#3531
+@eng Near the Sands of Sorrow@rus Около Песков Печали~
+@eng The road is almost completely swallowed by the desert here.  The heat is
+sucking the life from your body, you wonder if it will ever end.  To your
+south, the Sands of Sorrow stretch on for miles, and to the east you think
+you see the towers of a magnificent city...or is it just a mirage?
+@rus Дорога здесь почти полностью засыпана песками. Жара высасывает жизнь из
+вас, вы задаетесь вопросом, кончится ли это  когда-нибудь. От вас на
+юг Пески Печали простираются на много миль, а на востоке вам кажется, что вы
+видите башни великолепного города ... или это только мираж?
+~
+0 0 desert
+D1 4
+You can barely make out enough road to follow.
+~
+~
+Z -1 3532
+D3 6
+The desert thins a little to the west.
+~
+~
+Z -1 3530
+S
+#3532
+@eng On the Outskirts of New Thalos@rus Предместья Нового Талоса~
+@eng The sun is hot enough to melt your armor, but salvation is at hand.  To the
+east, you see the mighty gates of New Thalos, one of the most prosperous cities
+of all of Muddy.  To the south, you see the endless wasteland of the Sands
+of Sorrows, and to the west you can barely make out a faint, but well-used,
+road leading to the City of Midgaard. 
+@rus Солнце достаточно горячо, чтобы спалить вашу броню, но спасение рядом.
+На востоке вы видите громадные ворота Нового Талоса, одного из наиболее
+преуспевающих городов всего Муда. На юге вы видите бесконечную пустошь
+Песков Печали, а на западе вы можете видеть незаметную, но хорошо-используемую
+дорогу ведущую в город Мидгард.
+~
+0 0 desert
+D1 2
+You see the west gate of New Thalos.
+~
+~
+Z -1 9669
+D3 4
+You see the road to Midgaard, covered with sand.
+~
+~
+Z -1 3531
+S
+#3550
+@eng At The Foot of The Mountains@rus У подножия гор~
+@eng You find yourself at the foot of the mountains, where it is much to steep
+to continue north or east.  You see the lush, green forest of Miden'nir to the
+south and west.
+@rus Вы оказались у подножия гор, они очень высоки на севере и востоке.
+Вы видите пышный и зеленый лес Миденира на юге и западе.
+~
+0 0 mountain
+D2 0
+The forest of Miden'nir spreads out before you.
+~
+~
+Z -1 3512
+D3 0
+The forest of Miden'nir spreads out before you.
+~
+~
+Z -1 3506
+S
+#3551
+@eng The Deep in the Forest of Miden'nir@rus Глубоко в лесах Миденира~
+@eng The branches above you block out all direct sunlight, making the forest
+in this area very dark.  The forest continues west, but mountains block
+further exploration in all other directions, except south, where you notice a
+small tunnel dug into the mountainside.
+@rus Заросли над вами блокируют прямой солнечный свет, делая лес здесь очень
+темным.  Лес продолжается на запад, но горы мешают иследовать все другие
+направления за исключением юга, где вы замечаете маленький туннель, вырытый
+прямо в горе.  
+~
+0 A forest
+D2 0
+~
+~
+Z -1 3552
+D3 0
+~
+~
+Z -1 3523
+S
+#3552
+@eng A Tunnel in the Mountains@rus Тунель в горах~
+@eng The walls of this tunnel were carved out many years ago by the goblins of
+this forest.  The floor is well worn, and continues south, into the
+mountain, or back north out into the forest.
+@rus Стены этого туннеля были выдолблены много лет назад гоблинами этого
+леса. Пол хорошо вытоптан и продолжается на юг - в гору, и назад на север - в лес.
+~
+0 A city
+D0 0
+Outside, you see the forest of Miden'nir.
+~
+~
+Z -1 3551
+D2 0
+The tunnel continues to the south.
+~
+~
+Z -1 3553
+S
+#3553
+@eng A Tunnel in the Mountains@rus Тунель в горах~
+@eng The tunnel gets lighter to the north, presumably leading out, while to
+the south the passage gets smaller and smaller.  A small alcove has been
+carved into the east wall.
+@rus Тунель становится светлее к северу, возможно он ведет наружу, в то время как
+на юге проход становится все меньше и меньше. Маленький альков был вырезан в
+восточной стене.
+~
+0 A city
+D0 0
+The tunnel gets wider in this direction.
+~
+~
+Z -1 3552
+D1 0
+You see a small alcove.
+~
+~
+Z -1 3554
+D2 0
+The tunnel gets smaller in this direction.
+~
+~
+Z -1 3555
+S
+#3554
+@eng A Small Alcove@rus Маленький альков~
+@eng A small alcove has been carved out here.  There are a bunch of twigs
+and leaves thrown into a pile here, probably serving as a bed.
+@rus Маленький альков был вырезан здесь. Cвязка хвороста и листьев
+набросана в груду здесь, вероятно она служит как кровать.
+~
+0 A city
+E ''
+twigs leaves bead~
+The twigs and leaves have all been piled together as a makeshift bed for
+some small humanoid.
+~
+D3 0
+You see the main passageway.
+~
+~
+Z -1 3553
+S
+#3555
+@eng A Tunnel in the Mountains@rus Тунель в горах~
+@eng As you explore further into the mountain side, the tunnel gets smaller and
+smaller to the south.  You almost have to hunch over to make your way thru
+this area.  A small archway to the south leads into a large chamber.
+@rus Поскольку вы идете все глубже в гору туннель становится все меньше и
+меньше на юге. Вы должны идти наугад, чтобы пройти через эту область.
+Маленький сводчатый проход на юге ведет в большую палату.
+~
+0 A city
+D0 0
+The tunnel continues north.
+~
+~
+Z -1 3553
+D2 0
+You see a small cavern.
+~
+~
+Z -1 3556
+S
+#3556
+@eng The Goblin Headquarters@rus Штаб гоблинов~
+@eng The tunnel widens into a large (well, large for goblins) cavern that
+serves as the living quarters for the goblins of Miden'nir.  The bones of
+numbers woodland creatures are strewn about the room, the remanents of a
+recent meal.
+@rus Туннель расширяется, превращаясь в большую (с точки зрения гоблинов)
+пещеру, которая служит жилищем для гоблинов Миденира. Посреди комнаты
+в большом числе валяются кости лесных зверей, это - остатки недавней трапезы.
+~
+0 A city
+D0 0
+The tunnel heads north.
+~
+~
+Z -1 3555
+D4 0
+The Entry to the Goblin Stronghold.
+~
+~
+Z -1 29001
+S
+#3570
+@eng The Front of the Inn@rus Перед гостиницей~
+@eng You are standing on a well-worn path which opens into a clearing.
+An old, wooden building is here with smoke billowing from its
+chimney. A painted sign is visible on the porch to the west. You
+could go north or south around the building or leave this place and
+return to the forest.
+@rus Вы стоите на хорошо протоптанной дорожке, которая ведет на открытое
+место. Здесь стоит старое, деревянное здание с дымоходом, из которого валит
+дым. Нарисованный знак виднеется на входе. Вы можете идти на север
+или юг - вокруг здания или оставить это место и возвратиться в лес.
+~
+0 0 forest
+E ''
+credits credit author~
++-------------------------------------------------+
+| This zone originally written for Copper II DIKU |
+|   by ?                                          |
+| Modification and alterations for MERCmud DIKU   |
+|   by VampLestat                        1 JAN 93 |
+| Translated by Yunin A.A.(Revenger)              |
++-------------------------------------------------+
+~
+E ''
+sign~
+The sign reads:
+   The Woodsman
+~
+D0 0
+You can go north around the inn.
+~
+~
+Z 0 3571
+D1 0
+Back through the trees to the Miden'nir.
+~
+~
+Z 0 3505
+D2 0
+You can go south around the inn.
+~
+~
+Z 0 3572
+D3 0
+The front door of the inn beckons.
+~
+~
+Z 0 3574
+S
+#3571
+@eng North of the Inn@rus Севернее гостиницы~
+@eng You are standing north of the inn. Things don't look much different
+from this angle.  The air here is filled with smells of smoke and cooking.
+South, the front porch is waiting for you... or you can see if there is
+a back door.
+@rus Вы стоите севернее гостиницы. Вещи не выглядят по другому с этой точки
+зрения. Воздух здесь заполнен запахами и дымом из кухни. На юге главный вход
+ожидает вас ... или вы ищите черный ход?
+~
+0 0 forest
+D2 0
+You see the front of the Inn.
+~
+~
+Z -1 3570
+S
+#3572
+@eng South of the Inn@rus Южнее гостиницы~
+@eng You are standing south of the inn.  You could easily go north and enter
+through the front door, or west and to the rear of the establishment.  You
+here some muffled cries from a tiny trail leading south of here.
+@rus Вы стоите южнее гостиницы. Вы могли бы спокойно пойти на север и войти
+через переднюю дверь, или на запад к тылу здания. Вы слышите какие то
+приглушенные крики с маленькой тропинки, ведущей на юг от сюда.
+~
+0 0 forest
+D0 0
+This way leads to the front of the inn.
+~
+~
+Z 0 3570
+D2 0
+The trail heads south.
+~
+~
+Z 0 3575
+D3 0
+This way leads to the back of the inn.
+~
+~
+Z 0 3573
+S
+#3573
+@eng Behind the Inn@rus Позади гостиницы~
+@eng You now stand behind the inn. The smell here is not so pleasant as
+the keeper and his help throw a good deal of garbage here. A couple of
+piles of rubbish are to the west, but you will smell the worse for
+meddling there. As a clean alternative, you can go north or east around
+the inn.
+@rus Сейчас вы стоите позади гостиницы. Запах здесь не столь приятен, так
+как хозяин и его помошники выбрасывают много мусора здесь. Пара груд мусора
+на западе, но вы будете пахнуть еще хуже, если пойдете туда. Но есть
+альтернатива - вы можете пойти на север или восток вокруг гостиницы.
+~
+0 0 forest
+D1 0
+You can go around the inn this way.
+~
+~
+Z 0 3572
+D3 0
+Only rats and fool adventurers play in garbage.
+~
+~
+Z 0 3578
+S
+#3574
+@eng The Woodsman Inn@rus Лесная гостиница~
+@eng You are in the common room of the Woodsman Inn. A thin haze of smoke sits
+in the air here. The Inn is often empty, as the forest has become overrun by
+goblins as of late, and it is no longer safe in these parts. The bar is just
+north of here. If you'd rather have your own table, one is empty to the
+south.
+@rus Вы находитесь в комнате отдыха Лесной Гостиницы. Плотный туман дыма
+висит в воздухе здесь. Гостиница часто пуста, поскольку лес в последнее
+время стал наводненным гоблинами, и больше не безопасно в этих краях.
+Бар к северу от сюда. Если вам нужен стол, то один пустой на юге.
+~
+0 CD city
+D0 0
+The bar is here, manned by the innkeeper.
+~
+~
+Z 0 3576
+D1 0
+You can leave now and return to fresher air.
+~
+~
+Z 0 3570
+D2 0
+An empty table is a rare commodity.
+~
+~
+Z 0 3579
+D3 0
+~
+~
+Z 0 3577
+S
+#3575
+@eng The Ambush Point@rus Место засады~
+@eng This is a overgrown foot-trail south of the inn. It leads west, but you
+would be hard pressed to follow it far. A number of bushes are trampled on
+and some medium sized branches have been knocked down.  Obviously there has
+been a battle here rather recently.
+@rus Это заросшая тропинка к югу от гостиницы. Она ведет на запад, но вы были бы
+сильно зажаты кустами, если пошли бы по ней далеко. Множество кустарников
+растоптано тут и некоторые ветки были сбиты. Очевидно тут довольно недавно
+было сражение.
+~
+0 0 forest
+D0 0
+The inn lies to the north.
+~
+~
+Z 0 3572
+D3 0
+A trail thru the woods.
+~
+~
+Z 0 3581
+S
+#3576
+@eng The Bar@rus Бар~
+@eng This is where people use to come and enjoy the food, drink and hospitality
+of the innkeeper, but as of late, he only serves the few adventurers that
+manage to survive a trip thru the forest. You can leave south and return to the
+common room.
+@rus Тут место куда люди приходят, чтобы наслаждаться едой, спиртными
+напитками и гостеприимством владельца гостиницы, но последний обслуживает
+немногих авантюристов, которые могут пережить поездку через лес.
+Вы можете пойти на юг и вернуться в комнату отдыха.
+~
+0 0 city
+D2 0
+You may retreat south back to the common room.
+~
+~
+Z 0 3574
+S
+#3577
+@eng The Bard's Table@rus Стол Барда~
+@eng You are in a darker corner in the Inn.  A large round table with a few
+wooden chairs sits here.  There is a large stain on the table, the remnants
+of a spilled drink.
+@rus Вы находитесь в самом темном углу гостиницы. Большой круглый стол и
+несколько деревянных стульев стоят здесь. На столе большое пятно, остатки
+пролитого спиртного напитка.
+~
+0 D city
+D1 0
+You see the main floor of the Inn to the east.
+~
+~
+Z 0 3574
+S
+#3578
+@eng Garbage dump@rus Свалка~
+@eng You stand knee deep in garbage.  YECCH!!! It smells terrible and who knows
+what vermin live in these piles of filth ...
+@rus Вы стоите по колено в мусоре. ФУУУ!!! Он пахнет ужасно и
+кто знает какие паразиты живут в этих грудах мусора ...
+~
+0 0 forest
+D1 0
+You can return to cleaner lands this way.
+~
+~
+Z 0 3573
+S
+#3579
+@eng A Quieter Section of the Inn@rus Тихая часть гостиницы~
+@eng There seems to be no one in this end of the Woodsman, probably a safe place
+to rest and lick your wounds ...
+@rus Кажется нету никого в этой части гостиницы, вероятно это безопасное
+место, чтобы отдохнуть и облизать ваши раны ...
+~
+0 D inside
+D0 0
+You see the common room.
+~
+~
+Z 0 3574
+S
+#3581
+@eng On the Trail of the Horsemen@rus На дороге всадников~
+@eng The path continues east and west of here.  You notice fresh tracks in
+the soft ground that show the horsemen fled to the west.
+@rus Путь продолжается на восток и на запад. Вы замечаете свежие следы
+на мягкой земле, которые говорят о том, что  всадники сбежали на запад.
+~
+0 0 forest
+D1 0
+Back to ambush point.
+~
+~
+Z 0 3575
+D3 0
+The trail continues.
+~
+~
+Z -1 3582
+S
+#3582
+@eng On the Trail of the Horsemen@rus На дороге всадников~
+@eng The path continues east and south.  You notice fresh tracks in
+the soft ground that show the horsemen turned, and fled south.
+@rus Путь продолжается на восток и юг. Вы замечаете свежие следы на
+мягкой земле, которые говорят о том, что всадники повернули и сматались
+на юг.
+~
+0 0 forest
+D1 0
+The trail continues.
+~
+~
+Z 0 3581
+D2 0
+The tracks lead south.
+~
+~
+Z -1 3583
+S
+#3583
+@eng On the Trail of the Horsemen@rus На дороге всадников~
+@eng The trail of the horsemen continues east and north along this path through
+the forest.  The tracks are still fresh, so they must be near.
+@rus Дорога всадников продолжается на восток и север через лес. Следы всадников
+все еще свежие, и значит они могут быть рядом. 
+~
+0 0 forest
+D0 0
+The trail continues.
+~
+~
+Z -1 3582
+D3 0
+The tracks lead east.
+~
+~
+Z -1 3584
+S
+#3584
+@eng A Dead End Trail@rus Конец дороги~
+@eng The path comes to an abrupt end here, as the trees close around you and
+make any further exploration impossible.  Fresh tracks cover the ground, and
+end right here.  The horsemen must be nearby.
+@rus Дорожка резко заканчивается тут, деревья закрываются вокруг вас и делают
+любое дальнейшее исследование невозможным. Свежие следы покрывают землю,
+и заканчиваются прямо здесь. Всадники должны быть рядом.
+~
+0 0 forest
+D1 0
+Back to along the trail.
+~
+~
+Z 0 3583
+S
+#3585
+@eng alley before castle@rus аллея перед крепостью~
+@eng  
+@rus Ты стоиш на мощоной кирпичом дорожке ведущей к родовому поместью Трогов. По её краям возвышаются вековые деревья,
+впереди дорожка расширяется образуя площадку со статуей (statue) вокруг ты не видиш не души, но судя по ухоженности,
+за замком явно кто-то следит. В этом месте ты чуствуеш себя в безопасности и хотя сдесь явственно чуствуется присутствие
+духов павших в боях воинов, сложно представить кровь в этом месте. 
+~
+0 CH inside
+S
+#0
+
+#SPECIALS
+M 3500 spec_poison	* the wyvern
+S
+
+#RESETS
+M 0 3501 10 3506 2	* the goblin (The Miden'nir)
+E 0 3500 0 16		*	a goblin's short sword: wielded
+E 0 3074 0 7		*	a long scale mail skirt: on the legs
+M 0 3501 10 3509 2	* the goblin (The Miden'nir)
+E 0 3500 0 16		*	a goblin's short sword: wielded
+E 0 3072 0 5		*	a scale mail jerkin: on the body
+M 0 3501 8 3512 2	* the goblin (The Miden'nir)
+E 0 3500 0 16		*	a goblin's short sword: wielded
+E 0 3045 0 5		*	a scale mail jacket: on the body
+M 0 3501 10 3512 2	* the goblin (The Miden'nir)
+E 0 3500 0 16		*	a goblin's short sword: wielded
+E 0 3502 0 6		*	a black horned helmet: over the head
+E 0 3075 0 8		*	a pair of reinforced boots: on the feet
+M 0 3501 10 3513 2	* the goblin (The Miden'nir)
+E 0 3500 0 16		*	a goblin's short sword: wielded
+E 0 3077 0 10		*	a pair of scale mail sleeves: on the arms
+M 0 3500 2 3521 2	* the wyvern (Carnage)
+M 0 3500 2 3521 2	* the wyvern (Carnage)
+M 0 3506 4 3551 2	* the goblin lieutenant (The Deep in the Forest of Miden'nir)
+E 0 3502 0 6		*	a black horned helmet: over the head
+E 0 3500 0 16		*	a goblin's short sword: wielded
+E 0 3072 0 5		*	a scale mail jerkin: on the body
+M 0 3501 10 3556 2	* the goblin (The Goblin Headquarters)
+E 0 3500 0 16		*	a goblin's short sword: wielded
+E 0 3076 0 9		*	a pair of reinforced gloves: on the hands
+M 0 3506 4 3556 2	* the goblin lieutenant (The Goblin Headquarters)
+E 0 3500 0 16		*	a goblin's short sword: wielded
+E 0 3502 0 6		*	a black horned helmet: over the head
+E 0 3072 0 5		*	a scale mail jerkin: on the body
+M 0 3507 1 3556 1	* the goblin leader (The Goblin Headquarters)
+E 0 3072 0 5		*	a scale mail jerkin: on the body
+E 0 3501 0 16		*	a long spear: wielded
+E 0 3502 0 6		*	a black horned helmet: over the head
+G 0 3508 1		*	Head of goblin leader
+M 0 3502 1 3575 1	* hidding thief (The Ambush Point)
+M 0 3503 1 3576 1	* the Innkeeper (The Bar)
+M 0 3504 1 3577 1	* the bard (The Bard's Table)
+E 0 3505 0 16		*	a rune-covered knife: wielded
+M 0 3505 4 3583 2	* the dark horseman (On the Trail of the Horsemen)
+E 0 3503 0 3		*	a stained travelling cloak: around the neck
+E 0 3022 0 16		*	a long sword: wielded
+M 0 3505 4 3584 2	* the dark horseman (A Dead End Trail)
+E 0 3504 0 14		*	an enchanted leather bracer: on the left wrist
+E 0 3022 0 16		*	a long sword: wielded
+O 0 3507 0 3585	* statue of warrior (alley before castle)
+S
+
+#MOBPROGS
+#3501
+if rand 50
+yell Сожгем гостиницу!
+~
+#3502
+if rand 50
+yell Хочу пива!
+~
+#3503
+if mobhere goblin
+yell На гостиницу напали!
+kill goblin
+endif
+~
+#3504
+yell Убьем хозяина гостиницы!
+hunt innkeeper
+kill innkeeper
+~
+#3505
+if isgood $n
+murder $n
+endif
+~
+#3506
+if class $n thief
+say Проходи брат.
+break
+else
+say Умри!
+mob speckill $n
+endif
+~
+#3507
+if isgood $r
+murder $r
+endif
+~
+#3508
+if isgood $n
+if level $n < 25
+say Спасибо добрый герой!
+say Принеси мне голову лидера гоблинов и я отблагодарю тебя.
+endif
+endif
+~
+#3509
+if isgood $n
+if level $n < 25
+say Thanx hero!
+cast sanctuary $n
+cast bless $n
+endif
+endif
+~
+#0
+
+#$

@@ -1,0 +1,31 @@
+#RACE
+Name dark-elf~
+Aff infrared sneak~
+Res mental~
+Vuln iron~
+Form edible sentient biped mammal~
+Parts head arms legs heart brains guts hands feet fingers ear eye~
+Slang 'elvish lang'
+End
+
+#PCRACE
+Shortname D-Elf~
+Points 500
+Class 'witch' 100
+Class 'cleric' 100
+Class 'thief' 100
+Class 'warrior' 100
+Class 'anti-paladin' 100
+Class 'ninja' 100
+Class 'warlock' 100
+Class 'necromancer' 100
+Skill 'black shroud' 29
+Stats -2 4 0 2 -2 3
+MaxStats 18 24 21 24 16 25
+Size medium
+HPBonus -10
+ManaBonus 20
+RestrictAlign evil~
+End
+
+#$

@@ -1,0 +1,6006 @@
+#AREADATA
+Name Isles~
+VNUMs 16900 17300
+Credits Lok~
+Security 5
+LevelRange 40 90
+ResetMessage @eng {WY{wou feel {Ws{wal{Wt {wsea breeze on your {Ws{wkin{w.{x@rus {WС{wолёны{Wй {wвоздух {Wм{wор{Wя {wкасается твоего {Wл{wиц{Wа{w.{x~
+End
+
+#MOBILES
+#17011
+pirate guard~
+@eng the pirate guard@rus ~~пират~~-~~часовой~~~
+@eng A grubby sailor armed with a cutlass growls at you!
+@rus Оборванный моряк размахивает абордажной саблей и рычит на тебя!
+~
+@eng The pirate guard is clothed in rags, and smells badly.
+@rus Пират одет в лохмотья и воняет просто отвратительно.
+~
+human~
+AFGT 0 300 0
+46 0 25d10+3250 5d5+1000 6d6+16 pound
+16 16 16 -2
+CDEIKTU 0 0 0
+stand stand male 3
+0 0 medium unknown
+#17012
+shipwright pirate~
+@eng the shipwright@rus ~~корабел~~~
+@eng A shipwright is here, repairing a trireme.
+@rus Корабел занят ремонтом триремы здесь.
+~
+@eng The shipwright is stripped to the waist, and is sweating profusely.
+@rus Корабел по пояс обнажен и от тяжелой работы весь вспотел.
+~
+human~
+ABGe 0 850 0
+95 0 50d10+18000 5d5+5000 14d16+78 pound
+71 71 71 37
+CEFIK 0 0 0
+stand stand male 5
+0 0 medium unknown
+#17013
+savage jungle~
+@eng the jungle savage@rus ~~дикарь~~~
+@eng A jungle savage is here, thinking about cannibalism.
+@rus Глядя на тебя дикарь, похоже, думает о завтраке.
+~
+@eng The jungle savage is clad in a thong and wields a crude spear.
+@rus Наготу аборигена джунглей прикрывает только травяная юбочка да
+грубое копье в руках.
+~
+human~
+AFGT 0 0 0
+40 0 15d10+1850 5d5+1000 4d8+13 claw
+13 13 13 -3
+0 0 0 0
+stand stand male 0
+0 0 medium unknown
+#17014
+chieftain chief savage~
+@eng Chief Unga-Bunga@rus ~~вождь~~ ~~Унга~~-~~Бунга~~~
+@eng A savage chieftain is here dressed in a cape of bird feathers!
+@rus Вождь дикарей облаченный в накидку из птичьих перьев стоит тут!
+~
+@eng Chief Unga-bunga is a strong man, having consumed many monkey 
+brains over his long life. He like the rest of his subjects, is
+scantily clad.
+@rus Вождь Унга-Бунга очень сильный мужчина, съевший за свою долгую жизнь не 
+один десяток обезьяних мозгов. Как и все его племя, одет вождь весьма скудно. 
+~
+human~
+ABFGT 0 630 0
+46 0 25d10+3250 5d5+1000 6d6+16 punch
+16 16 16 -2
+0 0 0 0
+stand stand male 5
+0 0 medium unknown
+#17015
+pirate sleeping~
+@eng the sleepy pirate@rus ~~сонный~~ ~~пират~~~
+@eng A pirate is here, sleeping off another wild drunk.
+@rus Пират кивает носом после обильного возлияния.
+~
+@eng The pirate stinks with the smell of his own vomit.
+@rus Весь в блевотине собственного происхождения, пират обоняется раньше, чем
+попадает в поле твоего зрения.
+~
+human~
+AG 0 600 0
+40 0 15d10+1850 5d5+1000 4d8+13 pound
+13 13 13 -3
+EFIU 0 0 0
+stand stand male 4
+0 0 medium unknown
+#17016
+pirate drunken~
+@eng the drunken pirate@rus ~~пьяный~~ ~~пират~~~
+@eng A drunken pirate staggers toward you.
+@rus Вдрызг набравшийся пират, покачиваясь, приближается к тебе.
+~
+@eng The pirate smells of rum, and is dressed in rags.
+@rus Одетый в лохмотья пират насквозь пропитан ромом.
+~
+human~
+AG 0 300 0
+42 0 25d10+2250 5d5+1000 3d12+14 pound
+14 14 14 -3
+EFIU 0 0 0
+stand stand male 4
+0 0 medium unknown
+#17017
+princess smallbody woman~
+@eng Princess Smallbody@rus ~~маленькая~~ ~~принцесса~~~
+@eng A woman dressed in rags and smelling of sewage claims royal lineage.
+@rus Вонючая оборванка пытается убедить тебя, что она - принцесса.
+~
+@eng Princess Smallbody is in sad sad shape. Her father wrote her off as
+damaged goods when this band of pirates captured her, and so her ransom
+was never paid. One-eye in his anger cast the princess in this prison
+until her manner changed.
+@rus Маленькая принцесса находится в весьма незавидном положении. Ее отец
+предпочел счесть ее погибшей, чем платить требуемый пиратами выкуп.
+Одноглазый в ярости бросил принцессу в темницу...
+~
+human~
+ABG J 600 0
+40 0 15d10+1850 5d5+1000 4d8+13 slap
+13 13 13 -3
+EIKU 0 0 0
+stand stand female 0
+0 0 medium unknown
+#17018
+navigator man~
+@eng the navigator@rus ~~штурман~~~
+@eng A man is here sighting his sextant on the sun.
+@rus Высокий широкоплечий мужчина ловит секстантом солнечные лучи.
+~
+@eng The navigator is dressed in silken clothing. He was a prize from one
+of One-eye's raids, and has served his lord well. He hopes one day 
+that he can make a break for it on a raid.
+@rus Одежды на штурмане из шелка. Этот человек был захвачен во время одного 
+из пиратских рейдов Одноглазого, и сослужил хорошую службу своему новому 
+хозяину. Но в глубине души он надеется однажды улучить момент и, 
+воспользовавшись неразберихой во время рейда или абордажа, бежать.
+~
+human~
+ABG 0 200 0
+48 0 25d10+3750 5d5+1000 6d6+18 pound
+18 18 18 -1
+EIKU 0 0 0
+stand stand male 7
+0 0 medium unknown
+#17019
+one-eye man pirate lord~
+@eng One-eye, the pirate lord@rus ~~Одноглазый~~, ~~лорд~~-~~пират~~~
+@eng The pirate lord of this isle booms a 'Kill them' at you!
+@rus Лорд-пират этого острова показывает на тебя пальцем. {\ Лорд-пират произносит "{GУбить его!{x"
+~
+@eng One-eye is a man of medium build and grey sideburns. He is well dressed
+and wears the proverbial patch over one eye. However, he uses this patch
+as a prop to make himself appear rougher than he actually is. His skin
+is a weathered brown from many, many voyages.
+@rus Мужчина среднего роста и крепкого телосложения с седыми бакенбардами. 
+Хорошо сшитая одежда облегает фигуру. Один из глаз закрыт черной повязкой. 
+Однако, похоже, что он использует ее только для создания имиджа безжалостного 
+пирата, а не из-за проблем со зрением.
+Кожа Одноглазого под солнцем и морским ветром приобрела темно-коричневый 
+оттенок.
+~
+human~
+ABFGT 0 650 0
+50 0 50d10+4250 5d5+5000 5d8+19 pound
+20 20 20 0
+EIKU 0 0 0
+stand stand male 10
+0 0 medium unknown
+#17020
+maiden bond~
+@eng a bond maiden@rus ~~пленная~~ ~~дева~~~
+@eng A maiden dressed in rags is here, servicing the whims of her master.
+@rus Девушка в лохмотьях исполнит любой каприз своего повелителя.
+~
+@eng The bond maiden is tied to the throne, and looks broken. You look into her
+eyes and see a little hope remains, hope that one day she will be rescued
+or her ransom paid.
+@rus Пленница прикована к трону. Весь ее вид говорит о покорности.
+Но в глубине глаз ты обнаруживаешь отчаянную надежду. Надежду на то, что 
+настанет день,  и свобода прийдет. Так или иначе.
+~
+human~
+ABG 0 200 0
+30 0 6d12+853 5d5+1000 4d6+8 slap
+9 9 9 -3
+EIKU 0 0 0
+stand stand female 0
+0 0 medium unknown
+#17021
+kracken~
+@eng the kracken@rus ~~кракен~~~
+@eng A giant black tentacled creature churns the water here.
+@rus Огромная черная тварь пенит воду бесчисленными щупальцами.
+~
+@eng The kracken has been trained by the Redbeard to expect food with the 
+arrival of a boat. He usually tosses the kracken a huge load of fish
+and the beast lets him pass. Others, however, are ignorant of this
+practice, and tend to get eaten.
+@rus Этот кракен привык получать пищу с проплывающих мимо судов Красной Бороды.
+Пират обычно бросает кракену много рыбы, и монстр позволяет ему плыть дальше. 
+Другие, однако, не осведомленные о практикующемся обычае, бывают съедены.
+~
+unique~
+ACF E 650 0
+50 0 50d10+4250 5d5+5000 5d8+19 claw
+20 20 20 0
+KU 0 0 0
+stand stand male 0
+0 0 medium unknown
+#17022
+guard dock~
+@eng the dock guard@rus ~~сторож~~ доков~
+@eng A burly man is here guarding the docks.
+@rus Здоровенный верзила охраняет портовые доки.
+~
+@eng The dock guard is dressed in light leather armor and coif, and appears
+to be alert and well rested.
+@rus Портовый сторож одет в легкие доспехи и шапочку из кожи. Выглядит он 
+хорошо отдохнувшим и находится в состоянии полной боевой готовности.
+~
+human~
+ABGT 0 100 0
+54 0 50d10+5250 5d5+5000 7d6+22 pound
+24 24 24 1
+QTV 0 0 0
+stand stand male 4
+0 0 medium unknown
+#17023
+snake black~
+@eng the black snake@rus ~~чёрная~~ ~~змея~~~
+@eng A black snake is here, hiding in the sand.
+@rus Чёрная змея, извиваясь, скользит по песку.
+~
+@eng The black snake is some 10' long, and has broad, iron hard scales.
+@rus Чёрная змея около 10 футов длиной, и покрыта крупной, прочной как сталь
+чешуей.
+~
+snake~
+A Q 0 0
+54 0 50d10+5250 5d5+5000 7d6+22 bite
+24 24 24 1
+FH L 0 0
+stand stand female 0
+0 0 medium unknown
+#17024
+crab black~
+@eng the black crab@rus ~~чёрный~~ ~~краб~~~
+@eng A black crab is here, eating a dead fish.
+@rus Чёрный краб поедает мертвую рыбу.
+~
+@eng The black crab measures 2' from tip to tip, and has serrated pinchers.
+Its eyestalks rise some 3' off the ground, orienting and peering in your
+direction.
+@rus Чёрный краб около 2 футов в диаметре, и вооружен парой огромных зазубренных
+клешней. Стебельки глаз обозревают окрестности с высоты трех футов, 
+искоса наблюдая за каждым твоим движением.
+~
+unique~
+A P 0 0
+50 0 50d10+4250 5d5+5000 5d8+19 slice
+20 20 20 0
+0 0 0 0
+stand stand male 0
+0 0 medium unknown
+#17025
+worm lava~
+@eng the lava worm@rus ~~лавовый~~ ~~червь~~~
+@eng A small rivulet of molten lava runs here.
+@rus Тонкий ручеек расплавленной лавы струится рядом.
+~
+@eng The lava worm is a creature of magic, having been created
+by Pele to seek out the gems of the earth and bring them
+to him. He forged the worm from metal and magic. The worm appears
+molten, but is really so hot from being in the fire that the
+rock upon which it slithers turns into a molten liquid on its skin.
+@rus Лавовый червь - волшебное существо, созданное Пеле, чтобы находить 
+в подземных глубинах и приносить ему драгоценные камни. Божество выковало
+червя из металла с помощью магии. Он -  словно расплавленный ручеек, и 
+действительно настолько раскален, что скала от прикосновения его чешуи 
+превращается в кипящую жидкость.
+~
+unique~
+A 0 100 0
+56 0 50d10+5750 5d5+5000 10d4+24 magic
+26 26 26 2
+0 0 0 0
+stand stand male 2
+0 0 medium unknown
+#17026
+lizard lava~
+@eng the lava lizard@rus ~~лавовый~~ ~~ящер~~~
+@eng A man-sized fire-red lizard is here basking on a rock.
+@rus Огненно-красный ящер длиной с человеческий рост греется на камне.
+~
+@eng The lava lizard frequents the lava flows, as they are a 
+place where the lizard can gather warmth for its dives deep
+underwater. The lizard has the coloration it does to blend
+in with the lava, and camouflage it from large predatory birds
+like the terrible Rocs (which thankfully have migrated North
+for the season)
+@rus Лавововых ящеров довольно часто можно обнаружить среди потоков лавы, 
+поскольку это единственное место, где они могут накопить достаточное 
+количество энергии и тепла для глубоководных погружений. Окрас ящеров
+позволяет им оставаться незамеченными на раскаленной поверхности лавы и 
+избегать внимания крупных хищников, например - птиц Рух 
+(к счастью в это время года они улетают на север).
+~
+lizard~
+A 0 0 0
+54 0 50d10+5250 5d5+5000 7d6+22 slash
+24 24 24 1
+U 0 0 0
+stand stand male 0
+0 0 medium unknown
+#17027
+pirate snarling~
+@eng the snarling pirate@rus ~~угрюмый~~ ~~пират~~~
+@eng A snarling pirate is here, ready to pillage your corpse.
+@rus Насупленный пират здесь, как всегда готов обобрать твой труп.
+~
+@eng The snarling pirate wears at best leather protective clothing
+and appears to be shaved and well groomed.
+@rus Насуплено-ворчливый пират одет в кожаную одежду-доспехи лучшего качества, 
+аккуратно причесан и гладко выбрит.
+~
+unique~
+AF 0 200 0
+56 0 50d10+5750 5d5+5000 10d4+24 none
+26 26 26 2
+0 0 0 0
+stand stand male 5
+0 0 medium unknown
+#17028
+redbeard pirate~
+@eng Redbeard@rus ~~Красная~~ ~~Борода~~~
+@eng A tall, angular man with a red beard (well groomed) is here.
+@rus Высокий худощавый мужчина с огненно-красной бородой стоит здесь.
+~
+@eng Redbeard has prospered on fire island through his wits and organization.
+He holds his men to a higher standard then the rest of the pirate scum
+which sails the seas. He has a funny looking eyepiece.
+@rus Красная Борода стал глаавным на Огненном острове благодаря своему острому 
+уму и организационным способностям. Люди этого лорда отличаются от
+остального пиратского сброда, как внешним видом, так и уровнем дисциплины 
+и на суше, и на море. 
+Он также обладатель забавного окуляра.
+~
+human~
+AB D 400 0
+60 0 50d10+6750 5d5+5000 8d6+28 pound
+30 30 30 3
+0 0 0 0
+stand stand male 11
+0 0 medium unknown
+#17029
+lalila elf prince~
+@eng Lalila, the Elven Prince@rus ~~Лалайла~~, ~~принц~~ эльфов~
+@eng A pale, malnourished elf is here, begging for food.
+@rus Бледный, на грани голодной смерти эльф молит о корочке хлеба.
+~
+@eng Lalila thanks you for his rescue. In exchange for his life he tells you
+of a place called hell reef, where you can hear the ghostly siren, is 
+where he was shipwrecked and he lost his flaming belt. He was using the belt 
+for warmth when he was captured by Redbeard, and brought here for ransom.
+@rus Лалайла благодарит тебя за свое спасение. В обмен на свою жизнь он 
+рассказывает тебе о месте, именуемом Адский Риф, где можно услышать
+песню призрачных сирен, где потерпел крушение корабль принца, и где он
+потерял свой огненный пояс. Он использовал пояс чтобы согреться, когда был 
+грубо схвачен людьми Красной Бороды и доставлен сюда с целью получения 
+выкупа.
+~
+elf~
+ABT 0 680 0
+56 0 50d10+5750 5d5+5000 10d4+24 pound
+26 26 26 2
+S 0 0 0
+stand stand male 0
+0 0 medium unknown
+#17030
+pele god fire~
+@eng Pele, god of fire@rus Пеле, ~~божество~~ Огня~
+@eng A towering otherworldly figure stands here, immersed in fire.
+@rus Огромная потусторонняя фигура стоит здесь, горя, но не сгорая.
+~
+@eng Pele is the fire god, and calls this lonely spot his home. He has
+little interest in the affairs of men, dwarves, elves, etc. He 
+stands some 20' tall, and is made entirely of flame.
+@rus Пеле - Божество Пламени, почитающее этот отдаленный от цивилизации остров 
+своим домом. Ему малоинтересны дела людей, дварфов и эльфов (впрочем, 
+и других рас). 
+Рост божества около 20 футов, а плоть его - чистый яростный пламень.
+~
+unique~
+ABT DFHJ 0 0
+64 0 50d10+8000 5d5+5000 8d7+34 wrath
+34 34 34 4
+CEFIK H 0 0
+stand stand none 20
+0 0 medium unknown
+#17031
+mizzenmast pirate lord~
+@eng Mizzenmast@rus ~~Миззенмаст~~~
+@eng A short, squat, balding pirate is reclining here in a hammock.
+@rus Невысокий, коренастый лысеющий пират развалился в гамаке.
+~
+@eng Mizzenmast, the 3rd Pirate Lord is a firm believer in non-
+exertion, and the economy of effort. Sooner or later it will wash
+ashore is his motto. He is in his late 40's, on the downward slide
+from a once profitable career. He knows enough to delegate his work 
+to others, and leaves all the major thinking to Shifty.
+@rus Миззенмаст, 3-й лорд-пират, не любит напрягаться без повода
+и является убежденным сторонником экономии усилий. "Раньше или поздже
+волны все выбросят на берег" - вот его девиз. Возраст его близится к 
+пятому десятку, а счастливая звезда клонится к горизонту. 
+ Миззенмаст склонен переложить тяжесть решений на чужие плечи, и доверяет
+большую часть дел  Ловкачу.
+~
+human~
+AB 0 750 0
+70 0 50d10+9750 5d5+5000 8d10+40 pound
+40 40 40 6
+CEFIK 0 0 0
+stand stand male 11
+0 0 medium unknown
+#17032
+shifty trader man~
+@eng Shifty the trader@rus ~~Ловкач~~, ~~торгаш~~~
+@eng A man in shackles lies here in agony.
+@rus Закованный в кандалы человек бьется в агонии здесь.
+~
+@eng Shifty has once again ticked off his lord Mizzenmast, who in turn has
+shackled him here in the storage area to impress upon him the importance
+of fealty. Shifty is weak from hunger, and his soiled finery speaks for
+his recent fall from grace.
+@rus Ловкач разгневал лорда Миззенмаста, который заковал его в кандалы 
+и запер здесь с целью внушения должного уважения к вассальным обязанностям
+и почтения к своему хозяину. Ловкач ослаб от голода, а запачканная одежда 
+из тонкой и дорогой ткани говорит о его недавнем (но увы ! закончившемся) 
+фаворе.
+~
+human~
+ABe 0 875 0
+95 0 50d10+22500 5d5+5000 12d15+68 pound
+71 71 71 37
+CEFIK 0 0 0
+stand stand male 1
+0 0 medium unknown
+#17033
+pirate bandy legged~
+@eng the bandy legged pirate@rus ~~кривоногий~~ ~~пират~~~
+@eng A bandy legged pirate staggers on his sea legs.
+@rus Кривоногий пират, покачиваясь, приближается к тебе.
+~
+@eng The pirate is unbalanced due to his long journeys at sea. He is clad in
+cloth jerkin and leggings, and swings his cutlass with years of experience.
+@rus Пират после продолжительного плавания нетвердо ступает по поверхности
+земли. На нем одеты полотняные штаны и рубаха, в руке зажата абордажная 
+сабля, причем уверенность, с которой он ее держит свидетельствует о 
+многолетнем опыте владения подобным оружием.
+~
+human~
+AF 0 200 0
+66 0 50d10+8500 5d5+5000 7d9+36 pound
+36 36 36 5
+CEFIKV 0 0 0
+stand stand male 4
+0 0 medium unknown
+#17034
+stiggs cabin boy~
+@eng Stiggs, the cabin boy@rus ~~Стиггс~~, ~~каютный~~~
+@eng A young boy is here, rushing about on some kind of errand.
+@rus Молодой парень проносится мимо тебя, спеша по чьему-то поручению.
+~
+@eng Stiggs was waylaid in a coastal city by Mizzenmast's crew. He has been
+brainwashed over time that the pirate's life is the best life there is.
+Right now Stiggs is in a hurry to prepare shark stew for his Lords snack.
+@rus Команда Миззенмаста подобрала Стиггса в небольшом городке на побережье. 
+Некоторое время он даже верил, что пиратская жизнь это захватывающее
+дух романтическое приключение. Теперь приключением для Стиггса 
+служит готовка акульей похлебки на обед лорду-пирату.
+~
+human~
+AB 0 100 0
+64 0 50d10+8000 5d5+5000 8d7+34 pound
+34 34 34 4
+CEFIKV 0 0 0
+stand stand male 1
+0 0 medium unknown
+#17035
+shark tiger~
+@eng the tiger shark@rus ~~тигровая~~ ~~акула~~~
+@eng A shark with strange broad stripes is snacking on your leg.
+@rus Широкополосатая акула клацает зубами у твоей ноги.
+~
+@eng The tiger shark is thick and squatish in appearance. You think its jaws 
+would make a fine trophy.
+@rus Тигровая акула кажется толстой и неповоротливой, но твое мнение о ее
+скоростных данных не мешает ей передвигаться молниеносно быстро. 
+Думается, челюсти такой рыбки станут достойным украшением любой коллекции.
+Только, пойди ее поймай....
+~
+fish~
+A 0 0 0
+68 0 50d10+9000 5d5+5000 7d10+38 bite
+38 38 38 6
+0 0 0 0
+stand stand female 0
+0 0 medium unknown
+#17036
+shark white great~
+@eng the great white shark@rus ~~большая~~ ~~белая~~ ~~акула~~~
+@eng A 20' long shark is cruising here to the theme from Jaws.
+@rus Двадцатифутовая акула плавает тут, словно призрак страшилки "Челюсти".
+~
+@eng Yes, our good old buddy the great white has scented your foul trail of
+Ofcol in the water, and found it pleasing enough to pursue across the
+great expanse of water.
+@rus Ага! Твоя старая, добрая, большая и очень белая приятельница почуяла след 
+на воде у самого Офкола, и нашла достаточно соблазнительным, чтобы пересечь 
+ради тебя весь этот огромный водный простор.
+~
+fish~
+A 0 0 0
+70 0 50d10+9750 5d5+5000 8d10+40 bite
+40 40 40 6
+0 0 0 0
+stand stand female 0
+0 0 medium unknown
+#17037
+shark mako~
+@eng the mako shark@rus ~~акула~~-мако~
+@eng A slender, fast swimming shark swims for your leg!
+@rus Стройная акула стремительно приближается к твоей ноге!
+~
+@eng The mako shark, when you come down to it, makes a fine meal. Please feel
+free to sample its lovingly prepared body parts after the combat. No, 
+you should drink white wine with Mako.
+@rus У этой акулы, когда (и если) ее убить, превосходное сочное мясо.
+Не бойся ошибиться после битвы в выборе лакомства для своего
+желудка. Ты просто обязан посмаковать белое вино с мясом мако.
+~
+fish~
+A 0 0 0
+60 0 50d10+6750 5d5+5000 8d6+28 bite
+30 30 30 3
+0 0 0 0
+stand stand female 0
+0 0 medium unknown
+#17038
+shark hammerhead~
+@eng the hammerhead shark@rus ~~рыба~~-~~молот~~~
+@eng Hey look at the weird head on that shark!
+@rus Глянь-ка на причудливую форму головы этой акулы!
+~
+@eng The hammerhead shark is swimming slowly along at a great depth, oblivious
+to your presence.
+@rus Акула с головой в форме молота медленно проплывает в глубине вод, 
+равнодушная к факту твоего существования.
+~
+fish~
+A 0 0 0
+66 0 50d10+8500 5d5+5000 7d9+36 bite
+36 36 36 5
+0 0 0 0
+stand stand female 0
+0 0 medium unknown
+#17039
+shark blue~
+@eng the blue shark@rus ~~голубая~~ ~~акула~~~
+@eng A torpedo shaped shark cruises along here.
+@rus Торпедоподобная акула направляется к тебе.
+~
+@eng The blue shark having just had a fine dinner of mortal body parts, is out
+for its leisurely evening swim. Maybe if you throw fresh blood in the water
+you can get its attention.
+@rus Голубая акула только что откушала частями мертвых человеческих тел, и 
+теперь совершает неторопливую вечернюю прогулку-плавание. Однако, если
+ты выпустишь в воду немного свежей крови, у тебя есть все шансы привлечь 
+ее внимание...
+~
+fish~
+A 0 0 0
+62 0 50d10+7250 5d5+5000 6d9+32 bite
+32 32 32 4
+0 0 0 0
+stand stand female 0
+0 0 medium unknown
+#17040
+clam giant~
+@eng Did I say coral? I meant clam@rus Я сказал ~~коралл~~? Я имел в виду ~~моллюск~~~
+@eng A huge white hunk of coral rests on the bottom.
+@rus Огромная ветвь белого коралла неподвижно застыла на дне.
+~
+@eng The giant clam is closed and content at the bottom of this warm tropical
+sea. I wonder what's inside?
+@rus Створки гигантского моллюска, лежащего на дне теплого тропического моря,
+плотно закрыты. Интересно, что там внутри?
+~
+giant~
+AB Q 0 0
+70 0 50d10+9750 5d5+5000 8d10+40 pound
+40 40 40 6
+EF 0 0 0
+stand stand male 0
+0 0 medium unknown
+#17041
+hawkwoman hawk woman~
+@eng the hawkwoman@rus ~~женщина~~-~~ястреб~~~
+@eng A woman with giant gray wings soars here.
+@rus Женщина парит в воздухе на огромных серых крыльях.
+~
+@eng The hawkwoman, like all of her kind wears a beaked helm, chain leggings
+and is naked from the waist up. Yes, she is well endowed. She wields 
+the talons of the hawkpeople, gloves with spikes protruding from the 
+fingers.
+@rus Женщина-ястреб, подобно остальным представителям своего рода, обнажена выше 
+пояса. На голове ее шлем, украшенный острым клювом, на ногах - кольчужные
+штаны. Вооружение ее прекрасно в своей простоте: "когти" ястребиного народа-
+перчатки с выдвигающимися из кончиков пальцев лезвиями.
+~
+song bird~
+A 0 0 0
+70 0 50d10+9750 5d5+5000 8d10+40 claw
+40 40 40 6
+EI 0 0 0
+stand stand female 2
+0 0 medium unknown
+#17042
+hawkman hawk man~
+@eng the hawkman@rus ~~человек~~-~~ястреб~~~
+@eng A hawkman dives at you for the attack!
+@rus Человек-ястреб стремительно пикирует на тебя!
+~
+@eng The hawkman, like all of his kind wears a beaked helm, chain leggings,
+and is naked from the waist up. He wears the talons of the hawkpeople,
+a glove fitted with spikes on the fingers. Huge grey wings grow from his
+back, which when extended span 12' from tip to tip.
+@rus Человек-ястреб, подобно остальным представителям своего рода, выше пояса
+обнажен. На голове его шлем, украшенный острым клювом, на ногах - кольчужные
+штаны. Вооружение его - "когти" ястребиного народа: перчатки, на кончиках
+пальцах которых выдвижные острые лезвия. Из спины человекоястреба растут 
+огромные серые крылья, размах которых достигает двенадцати футов.
+~
+song bird~
+AF 0 0 0
+72 0 50d10+10250 5d5+5000 8d11+42 claw
+42 42 42 7
+EI 0 0 0
+stand stand male 2
+0 0 medium unknown
+#17043
+hawklord hawk lord man~
+@eng the hawklord@rus ~~лорд~~-~~ястреб~~~
+@eng A hawkman in golden armor soars calmly over the land.
+@rus Человек-ястреб в золотой броне невозмутимо парит над землей.
+~
+@eng The hawklord, when you greet him, eyes you carefully. Then slowly, but 
+with increasing vigor he starts a tale of how his people were driven
+from their land by Lord Vulture. He warns you of the terrible Terra-kan,
+a land roving birdlike creature which roams the surface of the island.
+@rus Лорд-ястреб оценивающе смотрит на тебя. Потом медленно, но постепенно 
+увлекаясь, рассказывает, как его люди были согнаны со своих земель 
+Лордом Стервятником. Он также предупреждает тебя о ужасном создании - 
+терра-кане, передвигающемся по земле и похожем на птицу, который рыскает
+по острову в поисках жертвы.
+~
+song bird~
+A J 100 0
+74 0 50d10+10700 5d5+5000 9d10+44 claw
+44 44 44 8
+EI 0 0 0
+stand stand male 5
+0 0 medium unknown
+#17044
+terra-kan bird terra kan~
+@eng the terra-kan@rus терра-~~кан~~~
+@eng A man sized wingless bird hunts here.
+@rus Бескрылая птица ростом со взрослого человека охотится здесь.
+~
+@eng The terra-kan has black plumage, a huge hooked beak, and two terrible 
+talons. It moves by bounding in great leaps from place to place, often
+landing on its unsuspecting prey's back. Its squawk begins as a low warble
+and finishes with a rapid burst of CAW, caw-CAW, CAH!.
+@rus Терра-кан имеет блестящее черное оперение, огромный крючковатый клюв
+и два ужасных когтя-лезвия. Он(а) передвигается с места на место громадными
+прыжками, часто приземляясь на спину ничего не подозревающей жертве.
+Пронзительный крик пернатого монстра начинается как низкая трель по 
+нарастающей превращающаяся в хриплое карканье, заканчиваясь истеричным 
+"КАР, кар-кАР, КАААААР!"
+~
+song bird~
+A F 0 0
+76 0 50d10+11500 5d5+5000 12d12+56 claw
+46 46 46 9
+EI 0 0 0
+stand stand either 0
+0 0 medium unknown
+#17045
+pirate gambling~
+@eng the gambling pirate@rus ~~азартный~~ ~~игрок~~~
+@eng A pirate is here, tossing his fate with dice.
+@rus Пират испытывает удачу, бросая на стол игральные кости.
+~
+@eng The pirate is playing a game involving 3 dice called 'bones' in which
+the highest total wins, with the variant that 2 of a kind forfeits your
+roll, and 3 of a kind gets a bonus roll added. He is so involved in the
+game that he did not notice you enter.
+@rus Пират увлечен игрой, в которой используется три кубика, называемые
+"кости", и в которой побеждает наибольшая сумма граней, причем два 
+совпадения уменьшают количество очков, а третье - добавляют бонус. 
+Он так поглощен игрой, что не замечает, как ты входишь.
+~
+human~
+A 0 200 0
+74 0 50d10+10700 5d5+5000 9d10+44 pound
+44 44 44 8
+EFIJ 0 0 0
+stand stand male 5
+0 0 medium unknown
+#17046
+mate first pirate~
+@eng the first mate@rus ~~первый~~ ~~помощник~~~
+@eng A pirate in the tattered remains of a uniform, glares at your intrusion.
+@rus Пират в рваных останках формы, наблюдает за твоим вторжением.
+~
+@eng The first mate once was an officer in the navy of Freeport, who in his 
+later years took to skimming from the war fund. One day justice caught 
+up with him and he was captured and shipped back to port. However, on the 
+way, his ship was captured by Lord Vulture, who recognized potential in 
+his captive. The mate has served Lord Vulture well, informing him of 
+standard military moves of the navy.
+@rus Первый помощник когда-то служил офицером ВМС Вольного Порта, откуда отбыл, 
+прихватив денюжки военного фонда. Но длинная рука закона отыскала офицера, 
+поймала и отправила обратно в город для вынесения окончательного решения 
+трибунала. На полпути корабль захватили люди лорда-пирата Стервятника. 
+Лорд разглядел во взятом в плен военном преступнике недюжинный потенциал. 
+Помощник уже не раз сослужил хорошую службу Стервятнику, сообщая о способах
+ведения боя флота Вольного Порта.
+~
+human~
+AF 0 780 0
+76 0 50d10+11500 5d5+5000 10d10+46 pound
+46 46 46 9
+EFIJ 0 0 0
+stand stand male 6
+0 0 medium unknown
+#17047
+pirate elite~
+@eng the elite pirate@rus ~~элитный~~ ~~пират~~~
+@eng A well-armed, sharply uniformed pirate is here, guarding the hall.
+@rus Хорошо вооруженный, одетый с иголочки пират здесь, охраняет залу.
+~
+@eng The elite pirate is dressed in a black uniform with polished silver
+buttons and buckles. He wields a military saber with a precision you have
+seldom seen.
+@rus Пират, принадлежащий к элите пиратского общества, облачен в черную
+форму с блестящими серебряными пуговицами и пряжками. Своей саблей
+военного образца он владеет с редким мастерством.
+~
+human~
+AF DF 400 0
+76 0 50d10+11500 5d5+5000 10d10+46 slash
+46 46 46 9
+EFIJ 0 0 0
+stand stand male 5
+0 0 medium unknown
+#17048
+alindra slave woman~
+@eng Alindra of Dunkeldorf@rus ~~Алиндра~~ ~~Дюнкельдорфская~~~
+@eng A beautiful human woman reclines in silk here.
+@rus Прекрасная женщина нежится на шелковой постели.
+~
+@eng Alindra of Dunkeldorf is at the ripe age of23. She tells you a sad tale of  
+how she was captured by Lord Vulture on her trip to Freeport. What is even
+more sad is that Alindra over her years of captivity has fallen in love
+with Vulture, in spite of his villainy.
+@rus Алиндра Дюнкельдорфская в самом расцвете своих 23 лет. Если ты согласен 
+выслушать, она расскажет о своем пленении лордом-пиратом Стервятником 
+во время поездки в Вольный Порт. Что самое грустное в этой истории - 
+за долгие годы плена Алиндра полюбила пиратского лорда, несмотря на всю 
+его жестокость и подлость.
+~
+human~
+AB 0 300 0
+70 0 50d10+9750 5d5+5000 8d10+40 slap
+40 40 40 6
+EFIJ 0 0 0
+stand stand female 0
+0 0 medium unknown
+#17049
+mutton chef pirate~
+@eng Mutton the chef@rus ~~Баран~~, шеф-~~повар~~~
+@eng A greasy, fat, hairy-backed pirate is here cooking up the daily swill.
+@rus Жирный, со спиной поросшей волосами пират готовит ежедневное варево.
+~
+@eng Mutton has simple tastes in life. Leftovers and more leftovers, and 
+licking the stirring spoon. He doesn't say much, because he is too busy
+drooling into the stew. He does seem to be unusually sweaty though.
+@rus Барану в этой жизни для счастья требуется совсем немного. Объедки,
+остатки, огрызки да украдкой облизать ложку, которой перемешивается
+приготавливаемая пища. Он немногословен, поскольку слишком поглощен
+пусканием слюней в кипящую похлебку. Шеф-повар необычайно тучен и чрезвычайно
+потен. 
+~
+human~
+AB V 0 0
+74 0 50d10+10700 5d5+5000 9d10+44 pound
+44 44 44 8
+EFIJ 0 0 0
+stand stand male 2
+0 0 medium unknown
+#17050
+vulture lord~
+@eng Lord Vulture@rus ~~Стервятник~~, ~~лорд~~-~~пират~~~
+@eng A giant, black skinned man glares at you with coal black eyes.
+@rus Высокий темнокожий мужчина рассматривает тебя угольно-черными глазами.
+~
+@eng Lord Vulture is a master criminal, with a calculating evil that makes
+your skin crawl. He is dressed in black silk, which nicely sets off
+his closely trimmed black beard and mustache. On each of his fingers
+is a signet ring of some captain he has defeated. He sizes you up
+and says `Obviously you are the caliber of soldier I need. Will you
+join me and become richer than your wildest dreams?'
+@rus Лорд-пират Стервятник - птица высокого полета в преступном мире.
+Излучаемое им зло почти физически ощущается, покрывая твою кожу
+бегающими мурашками. Он одет в черный шелк, хорошо сочетающийся с
+которотко подстриженными черными бородой и усами. На каждом из его
+пальцев красуется кольцо-печатка одного из капитанов, побежденных им.
+Лорд окидывает тебя внимательным взлядом и произносит: "{GПохоже, ты
+тот человек, который мне нужен. Присоединяйся ко мне и станешь богаче, 
+чем в самых своих смелых мечтаниях!{x"
+~
+human~
+AB B 800 0
+80 0 50d10+13500 5d5+5000 13d9+50 pound
+50 50 50 13
+EFIJ 0 0 0
+stand stand male 11
+0 0 medium unknown
+#17051
+orca~
+@eng the orca@rus ~~орка~~~
+@eng An orca is here, hunting the along the break in the ice.
+@rus Орка охотится вдоль кромки льда.
+~
+@eng The orca is large, black, and white, and is not a nice little fishy
+like Free Willy.
+@rus Орка крупная, черно-белая монстрятина, отнюдь не похожая на симпатягу
+кита Вилли. Пасть ее полна острых блестящих зубов, маленькие глазки
+смотрят недружелюбно. Похоже, ты ей не нравишься...
+~
+fish~
+A 0 0 0
+80 0 50d10+13500 5d5+5000 13d9+50 bite
+50 50 50 13
+0 0 0 0
+stand stand female 0
+0 0 medium unknown
+#17052
+roc great northern bird~
+@eng the great northern roc@rus ~~большая~~ ~~северная~~ ~~птица~~ Рух~
+@eng A hawklike bird with a 50' wingspan soars here.
+@rus Похожая на ястреба птица с размахом крыльев 50 футов парит в воздухе.
+~
+@eng The great northern roc, unlike its brethren, isn't enchanted 
+with an unnatural sanctuary spell. Its plumage matches the
+landscape, making it look like a snow hill when it lands.
+@rus Большая северная птица Рух в отличие от своих собратьев не окружена
+белой аурой заклинания. Окраска оперения повторяет пейзажи основного 
+ареала обитания, что делает птицу после приземления похожей на огромный 
+сугроб снега.
+~
+song bird~
+AB 0 0 0
+80 0 50d10+13500 5d5+5000 13d9+50 claw
+50 50 50 13
+V 0 0 0
+stand stand female 0
+0 0 medium unknown
+#17053
+pack howling wolf~
+@eng the howling wolf pack@rus ~~стая~~ воющих волков~
+@eng A howling, ravening pack of white furred wolves hunts here.
+@rus Воюще-рыщущая стая белых и пушистых волков охотится здесь.
+~
+@eng The wolves dine on seals and caribou normally, but you will 
+do in a pinch.
+@rus Обычно волки питаются тюленями да оленями, но ты неожиданно приятное 
+разнообразие их рациона.
+~
+wolf~
+ABF 0 0 0
+82 0 50d10+14500 5d5+5000 10d12+52 bite
+52 52 52 15
+EV 0 0 0
+stand stand female 0
+0 0 medium unknown
+#17054
+bear cave~
+@eng the towering cave bear@rus ~~громадный~~ ~~пещерный~~ ~~медведь~~~
+@eng A mound of pelts is stacked here.
+@rus Меховая гора возникает перед тобой.
+~
+@eng The cave bear rears up and stands on its hind legs snarling.
+It is an impressive specimen. It is here, hibernating. Maybe
+you should let it sleep.
+@rus Пещерный медведь, рыча от ярости, поднимается на задние лапы.
+Размеры зверя производят впечатление. Должно быть это его зимняяя берлога. 
+И что уж наверняка, лучше бы ты оставил его спать и дальше...
+~
+bear~
+AB 0 0 0
+82 0 50d10+14500 5d5+5000 10d12+52 claw
+52 52 52 15
+CFV 0 0 0
+stand stand male 0
+0 0 medium unknown
+#17066
+pirate~
+@eng the pirate in fur skins@rus ~~пират~~ в меховых одеждах~
+@eng `Yo Ho Ho' cries a pirate in fur skins as he sees you.
+@rus '{MЙо Хо Хо!{x' вопит пират в меховых одеждах, пока ты разглядываешь его.
+~
+@eng The pirate is well armed and dangerous. 
+@rus Пират вооружен и опасен. 
+~
+human~
+AT 0 400 0
+84 0 50d10+15500 5d5+5000 9d14+54 pound
+54 54 54 18
+DEGKL 0 0 0
+stand stand none 4
+0 0 medium unknown
+#17067
+guard pirate~
+@eng the lurking guard@rus ~~затаившийся~~ ~~часовой~~~
+@eng A pirate guard lurks in the shadows here.
+@rus Пират-часовой неподвижно застыл в тенях.
+~
+@eng The guard is lean, alert, hardened, and itching for
+a fight.
+@rus Часовой подтянут, бдителен, закален и жаждет схватки.
+~
+human~
+AFT DFQ 800 0
+80 0 50d10+13500 5d5+5000 13d9+50 pound
+50 50 50 13
+EIJKTU 0 0 0
+stand stand male 3
+0 0 medium unknown
+#17068
+pirate~
+@eng the helmsman@rus ~~кормчий~~~
+@eng A pirate wise in the ways of the sea studies you.
+@rus Пират знающий все о морских путях и течениях изучает тебя.
+~
+@eng The helmsman is the best there is. He has successfully
+navigated the narrow ice channels around the iceberg
+innumerable times.
+@rus Перед тобой лучший из здешних кормчих. Он бесконечно может описывать на 
+корабле круги вокруг айсберга, настолько близко, что ты, протянув руку
+с палубы, сможешь коснуться льда горы.
+~
+human~
+AT 0 840 0
+88 0 50d10+17500 5d5+5000 10d15+58 pound
+58 58 58 24
+EFIK 0 0 0
+stand stand male 6
+0 0 medium unknown
+#17069
+cutter pirate~
+@eng Cutter, the 5th Pirate Lord@rus ~~Резак~~, ~~лорд~~-~~пират~~~
+@eng A pirate bearing the cold of winter studies his charts here.
+@rus Пират одетый зимнюю меховую одежду изучает здесь карты.
+~
+@eng Cutter looks up from his charts and says, `Ah, at last we 
+meet. I was told by an envoy of One-eye to expect you.
+I don't suppose you would consider just taking the gold 
+and leaving, since you will probably die if you challenge me.'
+When you don't respond, Cutter replies, `very well, lets
+have at it', and he downs a purple potion.
+@rus Резак смотрит на тебя поверх карт и произносит:
+"{GВот мы и встретились. Одноглазый предупреждал, что ты прийдешь.
+Я даже не допускаю мысли, что ты пришел просто забрать золото и покинуть 
+мою скромную обитель. Поскольку ты наверняка умрешь, в процессе сравнения 
+наших сил.{x"
+В ответ на твое молчание, Резак продолжает:
+"{GВеликолепно. Тогда приступим.{x"
+И одним глотком осушает фиолетовое зелье.
+~
+human~
+ABT H 850 0
+90 0 50d10+18500 5d5+5000 17d9+60 pound
+60 60 60 27
+CDEFIJK 0 0 0
+stand stand male 10
+0 0 medium unknown
+#17070
+prisoner~
+@eng the frozen captive@rus ~~дрожащий~~ ~~пленник~~~
+@eng A prisoner shivers in the cold here.
+@rus Пленник трясется от холода здесь.
+~
+@eng The frozen captive is so gratified by your kindness that
+she tells you a story. ` A long time ago, Lok started this
+area, and had major writers block. Well, Simba sort of 
+nudged him and he broke out of his block. With Rainman
+doing the main debugging and alot of dark beer, this
+area was created for your amusement. The secret to sailing
+is that all simple seas never border on grounding reefs.
+If you are in shallows type exit after each move to look 
+for shoals ( they wont show in the night ). There is a main
+clockwise current running in the high seas, so don't sleep
+on the high seas, or you will drift.. There are alot of 
+clues throughout isles so don't just powermud and miss all.
+Lok charmed me so you wouldn't just mindlessly butcher me.'
+@rus Это синее, дрожащее существо неопределенного пола, так благодарно
+тебе за доброту, что с ходу выкладывает следующее:
+'Давным давно, когда Лок только приступил к созданию этих островов, Симба 
+подтолкнул его, и блокнот Лока порвался, а листки рассыпались и 
+частично потерялись. Потом же, выпив с Рейнманом не один десяток пинт
+темного пива, он таки создал это место, дабы развеять твою тоску и скуку. 
+Секрет плавания в том, что видимые острова, на самом деле совсем не острова. 
+Если ты находишься в месте с небольшим количеством выходов набирай exit 
+после каждого шага, и ты рано или поздно увидишь берег (Ночью, правда, этот 
+замечательный способ не работает). Существует так же сильное морское течение, 
+по спирали часовой стрелки охватывающее все моря, поэтому будь бдителен и не 
+дай себе утонуть. На островах много секретов - ищи их и будешь вознагражден. 
+Лок заколдовал меня, поэтому убивать меня от нечего делать не рекомендуется.
+%)' 
+~
+human~
+ABT 0 800 0
+80 0 50d10+13500 5d5+5000 13d9+50 pound
+50 50 50 13
+CEFIJK 0 0 0
+stand stand none 0
+0 0 medium unknown
+#0
+
+#OBJECTS
+#17011
+tree banana~
+@eng the banana tree@rus ~~банановое~~ ~~дерево~~~
+@eng A banana tree is here, burdened with nice ripe fruit.
+@rus Банановое дерево склонилось к земле под тяжесть спелых плодов.~
+wood~
+container 0 0
+300 0 0 100 100
+0 0 0 P
+E ''
+fruit~
+@eng Have you had your potassium today?
+~
+G none
+#17012
+bananas bunch~
+@eng a bunch of bananas@rus ~~гроздь~~ бананов~
+@eng A ripe bunch of bananas is here- where is the monkey?
+@rus Гроздь спелых бананов здесь - а где же обезьяна?~
+food~
+food 0 A
+AC AC 0 0 0
+0 2 0 P
+G female
+#17013
+sign warning~
+@eng a wooden sign@rus ~~деревянный~~ ~~знак~~~
+@eng A wooden sign is nailed in the ground here.
+@rus Деревянный знак воткнут в землю здесь.~
+wood~
+trash 0 0
+0 0 0 0 0
+0 0 0 P
+E ''
+sign wooden~
+@eng **********************
+*      KEEP OUT      *
+* or ye head be mine * 
+*       One-Eye      *
+**********************
+@rus {x
+ ___________________
+^                   ^
+^     НЕ ВХОДИ!     ^
++                   +
++  или твоя голова  +
++   станет добычей  + 
+|     ОДНОГЛАЗОГО   |
++___________________+
+^                   ^
+^                   ^
+-                   -
+~
+G male
+#17014
+mallet wooden~
+@eng a wooden mallet@rus ~~деревянный~~ ~~молоток~~~
+@eng A wooden mallet is here.
+@rus Деревянный молоток лежит здесь.~
+wood~
+weapon 0 AN
+exotic 8 7 crush 0
+90 324 180 P
+A
+18 -1
+A
+19 -1
+E ''
+mallet wooden~
+@eng This mallet looks like it was meant for hammering
+pegs, and not for combat.
+@rus Молоток выглядит инструментом для вбивания кольев, а не грозным
+оружием.
+~
+G none
+#17015
+robe feather~
+@eng a feather robe@rus ~~одеяние~~ из перьев~
+@eng A robe maid of brilliant tropical bird plumage is here.
+@rus Одеяние из сверкающего оперения тропической птицы лежит здесь.~
+unknown~
+armor 0 AK
+15 15 15 7 0
+46 8 92 P
+E ''
+robe feather~
+@eng It sure is pretty.
+@rus Оно действительно прекрасно.
+~
+G none
+#17016
+bottle rum~
+@eng a bottle of rum@rus ~~бутыль~~ рома~
+@eng You see a have full bottle of rum here, going to waste.
+@rus Бутыль полная рома стоит перед тобой, пропадая впустую.~
+glass~
+drink 0 A
+6 6 'rum' 0 0
+0 3 0 P
+G female
+#17017
+laid~
+@eng LAID!@rus ~~клад~~!~
+@eng Are you going to get lucky?
+@rus Неужели тебе повезло найти КЛАД?!~
+gold~
+money 0 A
+40 0 0 0 0
+0 3 0 P
+G male
+#17018
+sextant~
+@eng a sextant@rus ~~секстант~~~
+@eng A beautiful gilded sextant lies here.
+@rus Красивый позолоченный секстант лежит здесь.~
+vellum~
+scroll 0 AO
+25 'locate object' '' '' ''
+20 1 40 P
+E ''
+sextant~
+@eng Upon closer examination, you see that the sextant has an inscription
+on the side. It reads 'Recite these words on what you need, and at 
+last I will be freed'
+@rus При более тщательном изучении сбоку на секстанте обнаруживается надпись:
+'Прочти эти слова на то, что тебе нужно, и я обрету свободу'
+~
+G male
+#17019
+girdle might~
+@eng the {Ggirdle{x of {Rmight{x@rus {G~~пояс~~{x {Rсилы{x~
+@eng A well crafted weapons belt is lying here.
+@rus Оружейный пояс великолепной работы лежит здесь.~
+mithril~
+armor G AL
+17 16 16 8 0
+50 40 100 P
+A
+12 -100
+A
+2 1
+A
+4 -2
+A
+3 -2
+A
+1 2
+A
+5 2
+A
+19 10
+E 'common lang'
+belt girdle might~
+@eng An inscription on the girdle reads:
+------------------------------------
+In the morning and in the night
+In the dark, and in the light
+There is no wrong, there is no right
+All there is, is triumphant might 
+------------------------------------
+@rus Надпись на поясе гласит:
+------------------------------------
+Среди дня и посредь ночи
+На свету или во тьме
+Правых и виновных нет
+Перед лицом великой мощи
+------------------------------------
+~
+G male
+#17020
+gauntlets accuracy~
+@eng gauntlets of accuracy@rus ~~рукавицы~~ меткости~
+@eng A pair of gauntlets with arrows on them lies here.
+@rus Пара рукавиц с изображением стрелок лежит здесь.~
+leather~
+armor G AH
+17 16 16 10 0
+50 2 100 P
+A
+18 5
+E ''
+arrows arrow gauntlets~
+@eng The arrows are branded in the leather, and align along
+the thumbs.
+@rus На кожаной поверхности рукавиц выжженны стрелки, направленные вдоль
+больших пальцев.
+~
+G none
+#17021
+key iron~
+@eng an iron key@rus ~~железный~~ ~~ключ~~~
+@eng An iron key is here.
+@rus Железный ключ здесь.~
+iron~
+key 0 AO
+0 0 0 0 0
+0 1 0 P
+G male
+#17022
+pool lava~
+@eng a lava pool@rus {W~~озерцо~~{x {Rлавы{x~
+@eng A pool of lava is bubbling here.
+@rus Озерцо лавы кипит здесь.~
+unknown~
+trash AQ A
+0 0 0 0 0
+0 0 0 P
+E ''
+lava pool~
+@eng It is so hot your eyes are watering.
+@rus Озерцо раскалено так, что глаза от жара невольно наполняются слезами.
+~
+G none
+#17023
+cutlass sword~
+@eng a cutlass@rus ~~абордажная~~ ~~сабля~~~
+@eng An arm-length curved sword is here.
+@rus Изогнутый меч длиной с человеческое предплечье лежит здесь.~
+steel~
+weapon 0 AN
+sword 7 5 slash 0
+54 421 108 P
+G female
+#17024
+eye kracken krackens kracken's~
+@eng the kracken's eye@rus ~~глаз~~ кракена~
+@eng A large eyeball of some sea creature is rotting on the ground.
+@rus Большой глаз какой-то морской твари разлагается на земле.~
+flesh~
+staff CEJ AO
+25 10 10 'detect invis' 0
+25 1 50 P
+E ''
+eye eyeball~
+@eng You stare into the eye, and you feel an ancient evil try to
+wrest control of your mind away from you. You win and break
+your gaze.
+@rus Ты рассматриваешь находку, но внезапно чувствуешь, как древнее зло пытается 
+захватить контроль над твоим разумом. Но ты не какой-то слабак! С трудом 
+отводишь взгляд...
+~
+G male
+#17025
+armbands volcanoes~
+@eng Armbands of the {RV{Yo{Rl{Yc{Ra{Yn{Ro{Ye{Rs{x@rus ~~нарукавники~~ {RВ{Yу{Rл{Yк{Rа{Yн{Rа{x~
+@eng Armbands made of {Rf{yi{rr{ye{x are smoldering on the ground.@rus Нарукавники из яркого {Rо{yг{Yн{Rя{x тлеют на земле.~
+fire~
+armor AGQ AI
+25 25 25 25 0
+64 5 1250 P
+A
+13 100
+E ''
+fire~
+@eng The armbands are burning brightly.  
+@rus Нарукавники горят прозрачно-ярким пламенем.
+~
+G none
+#17026
+chest bronze~
+@eng a huge bronze chest@rus ~~огромный~~ ~~бронзовый~~ ~~сундук~~~
+@eng A huge bronze chest is here.
+@rus Огромный бронзовый сундук стоит здесь.~
+bronze~
+container G 0
+200 0 0 100 100
+500 0 1000 P
+G male
+#17027
+javelin~
+@eng a javelin@rus ~~метательное~~ ~~копье~~~
+@eng A well balanced javelin is here.
+@rus Хорошо сбалансированное метательное копье лежит здесь.~
+unknown~
+armor 0 AO
+20 20 20 10 0
+60 3 120 P
+A
+18 7
+G none
+#17028
+cloak looting~
+@eng the cloak of looting@rus ~~плащ~~ мародерства~
+@eng You see a suspicious looking cloak here. Hmmm.
+@rus Подозрительный плащ валяется на земле. Хмммм.~
+cloth~
+armor FG AK
+20 20 20 10 0
+60 4 120 P
+A
+6 -1
+A
+2 1
+A
+17 30
+E ''
+cloak~
+@eng Yes, you have seen a thief wearing this once before.
+@rus Да, ты определенно видел похожий плащ на каком-то воре.
+~
+G male
+#17029
+blood ettins ettin ettin's~
+@eng Ettin's blood@rus ~~кровь~~ эттина~
+@eng A jar of blood is here
+@rus Пузырек наполненный кровью стоит здесь.~
+glass~
+potion FG A
+30 'sanctuary' 'stone skin' 'shield' 'armor'
+20 3 40 P
+G female
+#17030
+hoard pirate pirate's~
+@eng the pirate's hoard@rus ~~пиратская~~ ~~добыча~~~
+@eng You see a big old fucking pile o' loot!
+@rus Ты видишь большую охуенную кучу денег! *Ебааать!*~
+gold~
+money 0 A
+25 1 0 0 0
+0 30 0 P
+G female
+#17031
+pants sharkskin~
+@eng sharkskin pants@rus ~~штаны~~ из шкуры акулы~
+@eng A pair of pants cut from the skin of a fish lie here.
+@rus Пара штанов сшитых из рыбьей кожи лежит здесь.~
+snakeskin~
+armor G AF
+23 24 23 20 0
+70 4 140 P
+A
+17 20
+A
+19 6
+E ''
+pants sharkskin~
+@eng Upon closer examination, you notice a tag on the waistline. It reads
+' Mizzenmast, my friend, who brought me a white sharks eye, I have
+ bewitched these pants to give you great might and valor in combat.
+ Wear them well. - Merlin'
+@rus При более тщательном изучении, ты замечаешь небольшой ярлычок на поясе. 
+На нем надпись:
+ 'Миззенмаст, друг мой, принесший мне глаз большой белой акулы, я наложил
+  на эти штаны чары, чтобы в бою Вы бы были еще отважнее и сильнее.
+  Носите их на здоровье. - Мерлин '
+~
+G none
+#17032
+crossbow poison~
+@eng a crossbow of poison@rus ~~арбалет~~ отравы~
+@eng You see a nasty looking hand crossbow with black gummed quarrels here.
+@rus На земле лежит небольшой арбалет с отравленными болтами.~
+wood~
+wand 0 AO
+35 30 30 'poison' 0
+25 5 50 P
+E ''
+crossbow~
+@eng The crossbow has been lovingly crafted from a fine ebony, and bears
+a strange black metal for the bow itself. The quarrels are also made
+of the same black metal.
+@rus Арбалет любовно вырезан из прекрасного черного дерева, с использованием
+странного черного металла для спускового механизма. Болты сделаны из того 
+же металла. Острия арбалетных болтов смазаны смолянистой черной жидкостью.
+~
+G male
+#17033
+orb nullifier~
+@eng the nullifier orb@rus ~~шар~~-~~аннигилятор~~~
+@eng A round sphere on the ground is swallowing all the light around it.
+@rus Шар на земле поглощает весь свет вокруг себя.~
+glass~
+wand C AO
+40 20 20 'dispel magic' 0
+30 3 60 P
+E ''
+orb nullifier~
+@eng You try to peer closely at the orb, but it is just a vague black shape.
+Holding it in your hand, you can feel its smooth, spherical shape.
+@rus Ты пытаешься получше рассмотреть это, но оно - лишь расплывчатая
+дрожащая черная дыра на грани восприятия. Но держа ее в руке, ты 
+ощущаешь гладкую поверхность сферической формы.
+~
+G male
+#17034
+chest padlocked~
+@eng a padlocked chest@rus ~~запертый~~ ~~сундук~~~
+@eng A heavy padlocked chest is here.
+@rus Тяжелый сундук заперт на висячий замок здесь.~
+iron~
+container 0 0
+200 0 0 50 100
+0 0 0 P
+E ''
+chest~
+@eng Upon close examination, you see no way of opening this chest short of the
+key.
+@rus После тщательного изучения, ты понимаешь, что открыть этот сундук можно 
+только имея от него ключ.
+~
+G male
+#17035
+key metal~
+@eng a metal key@rus ~~металлический~~ ~~ключ~~~
+@eng A metal key lies here.
+@rus Металлический ключ лежит здесь.~
+metal~
+key 0 A
+0 0 0 0 0
+0 1 0 P
+E ''
+key metal~
+@eng The key is small, perhaps it might open a padlock.
+@rus Ключ маленький, возможно от какого-нибудь сундука.
+~
+G male
+#17036
+waverunner boat~
+@eng an outrigger called 'Waverunner'@rus {c~~лодка~~{x '{C~~Бегущая~~{c по {CВ{cол{Cн{cам{x'~
+@eng An outrigger canoe with a sky blue sail is here, provisioned for adventure.
+@rus {CЛ{cод{Cк{cа{x с парусом {Cнебесно{c-{Cголубого{x {cцвета{x ждет своего часа приключений.~
+wood~
+boat T 0
+CDEGHIK 0 0 0 0
+20 30 40 P
+G female
+#17037
+lantern watchman's watchman watchamans~
+@eng a watchman's lantern@rus ~~фонарик~~ сторожа~
+@eng A watchman's lantern is here, giving off a bright white light.
+@rus Фонарик сторожа окружает кольцо яркого белого света.~
+oil~
+light A AO
+0 0 50 0 0
+20 5 40 P
+A
+9 -50
+E ''
+lantern~
+@eng You get the feeling that this lantern used to be able to do lots
+of amazing things.
+@rus У тебя возникает чувство, что с помощью этого фонарика можно 
+сделать множество удивительных вещей.
+~
+G male
+#17038
+pearl giant~
+@eng a giant pearl@rus ~~огромная~~ ~~жемчужина~~~
+@eng A giant pearl lies forgotten in the sand.
+@rus Огромная жемчужина сверкает в песке.~
+diamond~
+treasure 0 A
+FJKLO 0 0 0 0
+10 1 100 P
+E ''
+pearl giant~
+@eng The pearl is perfectly formed, and is and sprays a rainbow of colors
+off of its shiny surface.
+@rus Жемчужина идеально круглой формы, и радуга всеми цветами играет
+на перламутре.
+~
+G female
+#17039
+hammock hemp~
+@eng a hemp hammock@rus ~~гамак~~~
+@eng A hemp hammock is here, stretched between 2 sunken poles.
+@rus Плетенный из конопляной пеньки гамак натянут между двумя столбами.~
+unknown~
+furniture 0 A
+A 0 L CFG 0
+5 0 10 P
+E ''
+hemp hammock~
+@eng The hammock has an inviting sag, and it beckons to you.
+@rus Гамак гостеприимно наклонен в твою сторону.
+~
+G male
+#17040
+doubloons booty~
+@eng doubloons and booty@rus ~~дублоны~~ и ~~трофеи~~~
+@eng You see a trove of doubloons and booty!
+@rus Добытые неправедным путем дублоны и иные трофеи манят к себе!~
+gold~
+money 0 A
+50 0 0 0 0
+0 30 0 P
+G none
+#17041
+key golden hawk~
+@eng a golden hawk key@rus ~~золотой~~ ~~ключ~~ в виде ястреба~
+@eng A golden hawk key lies here.
+@rus Золотой ключ в виде ястреба лежит здесь.~
+gold~
+key 0 A
+0 0 0 0 0
+1 0 2 P
+E ''
+key golden hawk~
+@eng The key is made entirely of gold, and has the head of a hawk
+on it.
+@rus Ключ сделан полностью из золота, с кольцом в виде расправившего крылья 
+ястреба.
+~
+G male
+#17042
+stone floating~
+@eng a floating stone@rus ~~летающий~~ ~~камень~~~
+@eng A stone is here, floating in mid-air!
+@rus Камень парит в воздухе здесь!~
+stone~
+map GP AO
+0 0 0 0 0
+10 3 20 P
+E ''
+stone floating~
+@eng The stone is of a strange material you have rarely seen.
+@rus Этот камень - самый странный минерал из когда-либо виденных тобой.
+~
+G male
+#17043
+robe hawklord hawk lord~
+@eng the vest of the Hawklord@rus ~~жилет~~ Лорда Ястреба~
+@eng A vest made of a bright blue fine chain mesh hovers here.
+@rus Жилет из плотной ярко-голубой кольчужной сетки парит здесь.~
+unknown~
+container GP AK
+100 0 0 10 75
+74 5 148 P
+A
+14 -1
+A
+18 5
+A
+19 6
+A
+17 20
+E ''
+vest hawk lord hawklord~
+@eng The blue mesh seems to attract metal object on your body.
+In fact, you can attach small throwing items onto it.
+@rus Голубая сетка похоже притягивает к твоему телу металлические предметы.
+~
+G male
+#17044
+winch ladder~
+@eng a winch ladder@rus ~~подъемная~~ ~~лестница~~~
+@eng A winch with a long rope ladder is here.
+@rus Лебедка с длинной веревочной лестницей стоит здесь.~
+wood~
+furniture 0 0
+0 0 0 0 0
+0 0 0 P
+E ''
+winch~
+@eng You examine the rope ladder on the winch and estimate it 
+can go down 500'.
+@rus Веревочная лестница позволяет спустится вниз на 500 футов.
+~
+G female
+#17045
+gizzard~
+@eng a gizzard@rus ~~желудок~~~
+@eng A raw gizzard is on the ground, being consumed by ants.
+@rus Сырой желудок лежит на земле, поедаемый чёрными муравьями.~
+food~
+pill 0 A
+35 'heal' '' '' ''
+25 2 50 P
+G male
+#17046
+chest iron bound~
+@eng an iron bound chest@rus ~~окованный~~ железом ~~сундук~~~
+@eng A massive iron bound chest is here.
+@rus Тяжелый сундук окованный железом стоит здесь.~
+iron~
+container 0 0
+501 0 0 100 100
+0 0 0 P
+E ''
+chest iron~
+@eng Engraved on a band in the corner are the words:
+`Secure Chest TM by Beich'
+@rus На железной ленте на углу сундука выгравировано:
+`Надежность Сундуков от Бейч'
+~
+G male
+#17047
+silver mountain~
+@eng a mountain of silver@rus ~~гора~~ {Wсеребра{x~
+@eng A mountain of silver is here. Take it and be rich!
+@rus Гора серебра сверкает здесь. Подними ее и стань богатым!~
+silver~
+money 0 A
+15 0 0 0 0
+0 500 0 P
+E ''
+silver mountain~
+@eng The silver coins are from many different mints and eras.
+@rus Серебряные монеты отличаются временем и местом чеканки. Попробуй найди две
+одинаковые!
+~
+G female
+#17048
+mug everfull~
+@eng the everfull mug@rus всегда ~~полная~~ ~~кружка~~~
+@eng A bottomless glass of ale is here, waiting to slake your thirst.
+@rus Бездонный сосуд с элем здесь, готов утолить твою жажду.~
+glass~
+drink G AO
+100 100 'ale' 0 0
+1 5 2 P
+E ''
+mug everfull~
+@eng The ale is a light orange color with a hint of fuggles hops in
+its aroma.
+@rus Эль светло-янтарного цвета с особыми пряными нотками аромата.
+~
+G female
+#17049
+wings lord vulture's vulture vultures~
+@eng Lord Vulture's wings@rus ~~крылья~~ лорда-пирата Стервятника~
+@eng Wings from an ENORMOUS black bird lie well preserved on the ground.
+@rus Крылья ОГРОМНОЙ чёрной птицы аккуратно сложены на земле.~
+unknown~
+armor FG AI
+26 26 26 20 0
+80 50 160 P
+A
+19 8
+A
+18 4
+E ''
+wings~
+@eng Upon closer examination, you see that the wings have a support harness
+which straps to your biceps.
+@rus Присмотревшись внимательней ты обнаруживаешь специальные крепления, 
+позволяющие привязать крылья к твоим бицепсам.
+~
+G none
+#17050
+eye eagle~
+@eng the eye of the eagle@rus ~~глаз~~ орла~
+@eng You see a smooth amber stone with a single black spot lying on the ground.
+@rus Гладкий янтарь с черной точкой зрачка лежит на земле.~
+food~
+staff G AO
+40 40 40 'infravision' 0
+40 1 80 P
+E ''
+eye~
+@eng The eye has a fascinating depth to it. The black spot seems to drink in
+the light around it.
+@rus Глубина этого глаза зачаровывает. Черная точка зрачка как будто затягивает
+и поглощает вокруг себя свет.
+~
+G male
+#17051
+dagger throwing~
+@eng a throwing dagger@rus ~~кинжал~~ для метания~
+@eng A well balanced blue metal throwing dagger is here.
+@rus Сбалансированный метательный кинжал из голубоватого металла здесь.~
+metal~
+weapon GQ AN
+dagger 5 6 pierce 0
+50 31 100 P
+E ''
+metal dagger blue~
+@eng The blue metal seems to stick to other metal objects.
+@rus Голубой металл как будто липнет к другим металлическим предметам.
+~
+G male
+#17052
+grog mug~
+@eng a mug of grog@rus ~~кружка~~ грога~
+@eng A foaming mug of grog is here, ready to take the chill off..
+@rus Кружка пенящегося грога здесь, готова согреть тебя.~
+unknown~
+potion G AO
+40 'refresh' 'harm' 'remove curse' ''
+30 3 60 P
+G female
+#17053
+cloak fur skin~
+@eng a fur skin cloak@rus ~~меховой~~ ~~плащ~~~
+@eng A white fur skin cloak is here.
+@rus Плащ из белого меха здесь.~
+fur~
+armor 0 AK
+26 26 26 20 0
+80 7 160 P
+G male
+#17054
+vest fur skin~
+@eng a fur skin vest@rus ~~меховой~~ ~~жилет~~~
+@eng A white fur skin vest is here.
+@rus Жилет из белого меха лежит здесь.~
+fur~
+armor 0 AT
+26 26 26 20 0
+80 5 160 P
+G male
+#17055
+leggings fur skin~
+@eng fur skin leggings@rus ~~меховые~~ ~~штаны~~~
+@eng Some white fur skin leggings are here.
+@rus Штаны сшитые из белого меха лежат здесь.~
+fur~
+armor 0 AF
+25 27 27 20 0
+80 8 160 P
+G none
+#17056
+buckler spiked~
+@eng a spiked buckler@rus ~~круглый~~ ~~щит~~ с шипами~
+@eng A spiked buckler is here.
+@rus Круглый щит покрытый острыми шипами лежит здесь.~
+unknown~
+armor 0 AJ
+27 25 26 18 0
+80 1 160 P
+A
+17 10
+A
+19 7
+G male
+#17057
+icicle~
+@eng an icicle@rus {W~~сосулька~~{x~
+@eng An icicle lies on the floor, melting.
+@rus Сосулька лежит на полу, тая.~
+ice~
+wand G AO
+40 5 5 'frost breath' 0
+70 2 140 P
+G female
+#17058
+pool melting~
+@eng the melting pool@rus ~~лужа~~ талой воды~
+@eng A pool of melting ice and frigid water is here.
+@rus Лужа тающего льда и талой воды здесь.~
+ice~
+fountain 0 0
+1000 1000 'water' 0 0
+0 0 0 P
+G female
+#17059
+garrote wire~
+@eng a garrote wire@rus ~~гаротта~~~
+@eng A long piece of wire lies on the ground.
+@rus Длинный кусок шнура лежит на земле.~
+metal~
+weapon 0 AN
+exotic 5 9 grep 0
+80 63 160 P
+G female
+#17060
+stone ghost~
+@eng the ghost stone@rus ~~призрачный~~ ~~камень~~~
+@eng (TRANSLUCENT) A stone lies on the ground here.
+@rus ({DПРОЗРАЧНО{x) Камень лежит здесь на земле.~
+stone~
+wand G AN
+40 5 5 'pass door' 0
+40 1 80 P
+G male
+#17061
+battle axe two handed~
+@eng a mighty two handed battle axe@rus ~~двуручный~~ ~~боевой~~ ~~топор~~~
+@eng A mighty two handed battle axe lies neglected in the dirt.
+@rus Большой двуручный боевой топор небрежно брошен в грязь.~
+steel~
+weapon 0 AN
+axe 6 10 chop DEF
+88 664 176 P
+G male
+#17062
+armor frost~
+@eng frost armor@rus ~~ледяная~~ ~~броня~~~
+@eng A suit of armor fashioned from ice lies melting on the ground.
+@rus Броня из сверкающего льда тает на земле.~
+ice~
+armor FG AD
+32 31 31 24 0
+90 50 180 P
+A
+1 -3
+A
+14 -20
+A
+5 3
+A
+18 7
+A
+19 7
+A
+20 10
+E ''
+armor frost~
+@eng The armor is made from interlocking bands of ice, which overlap
+in a scale like fashion. The armor is cold to touch.
+@rus Броня сделана из полос льда, наложенных друг на друга подобно драконьей 
+чешуе. Прикосновение к поверхности льда обжигаюше холодно.
+~
+G female
+#17063
+Frostbite sword winter~
+@eng "Frostbite" sword of winter@rus '{C~~Ледяной~~{x {c~~укус~~{x', {W~~меч~~{x {Cзимы{x~
+@eng A long bastard sword made of ice lies here melting.
+@rus {cДлинный {Wмеч{c-{Wбастард{x сделанный изо {Cльда{x лежит здесь, тая.~
+ice~
+weapon DFL AN
+sword 10 6 bite B
+90 30 180 P
+A
+22 -25
+A
+14 -20
+A
+20 5
+E ''
+frostbite sword winter~
+@eng You run your eyes along the frosty edge of the great blade of ice. Chills
+run through you as you think of the unbearable cold you would feel as
+this slid through your body.
+@rus Глаза скользят вдоль кромки острого сверкающего лезвия легендарного 
+ледяного клинка. Оцепенение охватывает душу и тело, будто порыв леденящего, 
+пронизывающего до костей ветра настиг тебя в летний зной.
+~
+G male
+#17064
+bag gold~
+@eng a bag of gold@rus ~~сумка~~ {Yзолота{x~
+@eng A heavy bulging bag of gold lies here.
+@rus Тяжелая сумка полная золота лежит здесь.~
+leather~
+money 0 A
+40 0 0 0 0
+0 30 0 P
+G female
+#17065
+bag silver~
+@eng a bag of silver@rus ~~сумка~~ {Wсеребра{x~
+@eng A heavy bulging bag of silver lies here.
+@rus Тяжелая сумка полная серебра лежит здесь.~
+leather~
+money 0 A
+50 0 0 0 0
+0 30 0 P
+G female
+#17066
+bag gems~
+@eng a bag of gems@rus ~~сумка~~ {Mса{Wмо{mцв{Wет{Mов{x~
+@eng A heavy bulging bag of gems lies here.
+@rus Тяжелая сумка полная самоцветов лежит здесь.~
+leather~
+money 0 A
+30 0 0 0 0
+0 30 0 P
+G female
+#17067
+bag jewelry~
+@eng a bag of jewelry@rus ~~сумка~~ {Cд{Gр{Wа{Gг{Cо{Gц{Wе{Gнн{Cо{Gс{Wт{Gе{Cй{x~
+@eng A heavy bulging bag of jewelry lies here.
+@rus Тяжелая сумка полная драгоценностей лежит здесь.~
+leather~
+money 0 A
+20 0 0 0 0
+0 30 0 P
+G female
+#17068
+eye evil~
+@eng the evil eye@rus ~~злой~~ ~~глаз~~~
+@eng A bloody eye lies here.
+@rus Кроваво-красный глаз лежит здесь.~
+unknown~
+wand EG AO
+45 15 15 'sleep' 0
+40 1 80 P
+G male
+#17069
+map hell's reef~
+@eng a map to Hell's Reef@rus ~~карта~~ Адовых Рифов~
+@eng A map lies rolled up on the ground.
+@rus Свернутая карта лежит на земле.~
+leather~
+trash 0 A
+0 0 0 0 0
+2 0 0 P
+E ''
+map hell's reef~
+@eng >From southpoint, go 4n and 3w. There ye shall find a great treasure.
+@rus >От крайней южной точки, 4 шага на север и 3 на запад. Здесь зарыто
+огромное сокровище.
+~
+G female
+#17070
+bonfire roaring~
+@eng a roaring bonfire@rus ~~пылающий~~ ~~костёр~~~
+@eng A roaring bonfire blazes brightly here.
+@rus Ревущее пламя костра образует круг яркого света.~
+unknown~
+trash ABQ 0
+0 0 0 0 0
+0 0 0 P
+G male
+#0
+
+#ROOMS
+#16900
+@eng Under water@rus Под водой~
+@rus Вы опустильсь на дно реки. Здесь много ила и грязи.
+Вам бы надо по быстрее подняться на верх, а то можете умереть.
+~
+0 0 underwater
+D0 31
+~
+~
+Z 0 16901
+D4 0
+~
+~
+Z 0 17277
+S
+#16901
+@eng Under water@rus Под водой~
+@rus Вы опустильсь на дно реки. Здесь много ила и грязи.
+Вам бы надо по быстрее подняться на верх, а то можете умереть.
+~
+0 0 underwater
+D2 30
+~
+~
+Z 0 16900
+D3 32
+~
+~
+Z 0 16902
+D4 0
+~
+~
+Z 0 17274
+S
+#16902
+@eng Under water@rus Под водой~
+@rus Вы опустильсь на дно реки. Здесь много ила и грязи.
+Вам бы надо по быстрее подняться на верх, а то можете умереть.
+~
+0 0 underwater
+D1 30
+~
+~
+Z 0 16901
+D4 0
+~
+~
+Z 0 17271
+S
+#16903
+@eng Under water@rus Под водой~
+@rus Вы опустильсь на дно реки. Здесь много ила и грязи.
+Вам бы надо по быстрее подняться на верх, а то можете умереть.
+~
+0 0 underwater
+D4 0
+~
+~
+Z 0 17194
+S
+#16904
+@eng Under water@rus Под водой~
+@rus Вы опустильсь на дно реки. Здесь много ила и грязи.
+Вам бы надо по быстрее подняться на верх, а то можете умереть.
+~
+0 0 underwater
+D4 0
+~
+~
+Z 0 17233
+S
+#16905
+@eng Under water@rus Под водой~
+@rus Вы опустильсь на дно реки. Здесь много ила и грязи.
+Вам бы надо по быстрее подняться на верх, а то можете умереть.
+~
+0 0 underwater
+D4 0
+~
+~
+Z 0 17231
+S
+#16906
+@eng Under water@rus Под водой~
+@rus Вы опустильсь на дно реки. Здесь много ила и грязи.
+Вам бы надо по быстрее подняться на верх, а то можете умереть.
+~
+0 0 underwater
+D4 0
+~
+~
+Z 0 17228
+S
+#16907
+@eng Under water@rus Под водой~
+@rus Вы опустильсь на дно реки. Здесь много ила и грязи.
+Вам бы надо по быстрее подняться на верх, а то можете умереть.
+~
+0 0 underwater
+D4 0
+~
+~
+Z 0 17225
+S
+#16908
+@eng Under water@rus Под водой~
+@rus Вы опустильсь на дно реки. Здесь много ила и грязи.
+Вам бы надо по быстрее подняться на верх, а то можете умереть.
+~
+0 0 underwater
+D4 0
+~
+~
+Z 0 17222
+S
+#17171
+@eng On the Beach@rus На Берегу~
+@eng You stand on the beach. Raider ships have been beached further up, 
+towards the jungle, where a small hut is located. A dense tropical
+jungle surrounds you.
+@rus Ты стоишь на морском берегу. Корабли-рейдеры (ships) вытащены из воды 
+поближе к джунглям. В тени деревьев прячется маленькая хижина (hut). 
+Густые тропические заросли окружают тебя.
+~
+0 0 hills
+E ''
+hut~
+@eng You look inside the hut. It contains the hammers, saws, brushes, 
+pots of pitch, rope, and other carpentry tools.
+@rus Ты заглядываешь внутрь хижины. На земляном полу разбросаны
+молотки, пилы, кисти, котелки со смолой, веревки и разнообразные 
+плотницкие инструменты. 
+~
+E ''
+ships~
+@eng The ships look like they have been beached for a few days. There is 
+a rope winch system whereby they have been hoisted up the beach. Roller
+logs are piled near the winch for future use.
+@rus Суда, похоже, стоят здесь уже несколько дней. Рядом видна
+система лебедок с веревками, с помощью которых корабли выволокли
+на берег. Неподалеку от лебедки аккуратно сложены бревна.
+~
+D0 0
+@eng The jungle@rus Джунгли
+~
+~
+Z -1 17175
+D1 0
+@eng The plains@rus Равнины
+~
+~
+Z -1 335
+D3 0
+@eng The jungle@rus Джунгли
+~
+~
+Z -1 17172
+S
+#17172
+@eng In the Jungle@rus В джунглях~
+@eng You are in a dense tropical jungle. Towering trees block out the sun 
+with a palm canopy. Around you are stumps and piles of delimbed trees.
+A small path winds into the jungle.
+@rus Ты стоишь среди густых тропических зарослей джунглей. Переплетение
+ветвей и листье огромных деревьев образуют навес, не дающий солнечному
+свету даже коснуться земли. Вокруг видны свежие пни (stumps) и очищенные 
+от сучьев бревна. Едва заметная тропа уходит вглубь джунглей.
+~
+0 0 forest
+E ''
+stumps piles trees delimbed~
+@eng After examining the stumps and piles of lumber, you conclude that
+fairly recently there was a large cutting of lumber. Mostly hardwoods
+are gone.
+@rus После изучения пней и бревен, ты приходишь к выводу, что совсем 
+недавно тут имела место крупномасштабная вырубка леса. Наиболее твердые 
+породы деревьев исчезли, оставив пеньки напоминанием своего существования.
+~
+D0 0
+@eng The jungle@rus Джунгли
+~
+~
+Z -1 17174
+D1 0
+@eng The beach@rus Берег
+~
+~
+Z -1 17171
+S
+#17173
+@eng In the Jungle@rus В джунглях~
+@eng You are in a dense tropical jungle, on a cliff overlooking a wide sea.
+The green ocean crashes on the rocks far below. Around you some of the 
+trees have buckets on them. A path leads back into the jungle.
+@rus Ты идешь по густым тропическим джунглям, по краю обрыва, с которого
+открывается великолепный вид на бескрайние морские просторы. Зеленые
+океанские волны разбиваются о скалы далеко внизу. К некоторым из деревьев
+прикреплены ведра (buckets). Тропа уходит вглубь джунглей.
+~
+0 0 forest
+E ''
+buckets trees~
+@eng You look in the buckets. Sap flows from a spout which has been hammered
+deep into the tree. The sap which is in the bucket is black and very 
+sticky. You think it might make a good pitch for an ocean going vessel.
+@rus Ты заглядываешь в ведра. В них по желобку, вбитому глубоко в древесину
+стекает сок . Жидкость в ведрах черная и очень липкая. Наверно, такой сок
+хорош для просмаливания бортов кораблей, бороздящих океанские просторы.
+~
+D1 0
+@eng The jungle@rus Джунгли
+~
+~
+Z -1 17174
+D5 0
+~
+~
+Z -1 17183
+S
+#17174
+@eng In the Jungle@rus В джунглях~
+@eng You are in a dense tropical jungle at a junction of paths. You squat 
+and look at the trail and see the fairly recent prints of a wild boar.
+The heavy humidity of the jungle is making you sweat profusely.
+@rus Ты стоишь в густых тропических джунглях на пересечении троп.
+Присев на корточки, ты замечаешь на одной из троп довольно свежие
+отпечатки копыт дикого кабана. Тяжелым влажным воздухом трудно дышать.
+Ты с ног до головы покрыт потом.
+~
+0 0 forest
+D1 0
+@eng The jungle@rus Джунгли
+~
+~
+Z -1 17175
+D2 0
+@eng The jungle@rus Джунгли
+~
+~
+Z -1 17172
+D3 0
+@eng The jungle@rus Джунгли
+~
+~
+Z -1 17173
+S
+#17175
+@eng In the Jungle@rus В джунглях~
+@eng You are following a dirt path though a dense tropical jungle. Around you 
+fruit is plentiful. A parrot above you caws as you stop.
+@rus Ты продираешься узкой земляной тропой сквозь густые заросли джунглей.
+Деревья вокруг сгибаются под тяжестью спелых ароматных фруктов. 
+Над твоей головой раздается пронзительный крик попугая (parrot).
+~
+0 0 forest
+E ''
+parrot bird~
+@eng You stop and listen to the parrot. It says '*caw* Come along little
+princess *caw*, we have a nice little brig for ya *caw*'
+@rus Ты останавливаешься и слушаешь болтовню птицы. Среди щелкающих звуков
+ты разбираешь: 
+'Иди мимо маленькой принцессы, мы имеем небольшой симпатичный кораблик 
+для тебя!'
+~
+D0 0
+@eng The jungle@rus Джунгли
+~
+~
+Z -1 17176
+D2 0
+@eng The jungle@rus Джунгли
+~
+~
+Z -1 17171
+D3 0
+@eng The jungle@rus Джунгли
+~
+~
+Z -1 17174
+S
+#17176
+@eng In the Jungle@rus В джунглях~
+@eng You are in a dense jungle. The overgrowth is terrible. You hate to
+think about what lives in the thorn thicket to the east. The trail 
+stretches north and south.
+@rus Вокруг тебя густые джунгли. Быстрота их роста потрясает и ужасает.
+Одна мысль о том, что живет в колючих зарослях кустарника (thicket) 
+на востоке, тебе приводит тебя в полуобморочное состояние. 
+Тропа тянется с севера на юг.
+~
+0 0 forest
+E ''
+thorn thicket~
+@eng You notice on closer inspection that the thorn thicket is nothing
+more than a barricade of thorns, cleverly camouflaged.
+@rus При более тщательном изучении заметно, что колючие заросли ни что иное,
+как хорошо замаскированная баррикада из веток.
+~
+D0 0
+@eng The jungle@rus Джунгли
+~
+~
+Z -1 17178
+D1 0
+@eng The thorn thicket@rus колючие заросли
+~
+barricade thicket~
+ABZ 0 17177
+D2 0
+@eng The jungle@rus Джунгли
+~
+~
+Z -1 17175
+S
+#17177
+@eng At the Mouth of a Cave@rus Жерло пещеры~
+@eng You have followed a trail to a mountain. Above you there is
+a mouth of a cave.
+@rus Ты следуешь по тропе, ведущей в горы. 
+Над тобой чернеет жерло пещеры (cave).
+~
+0 C forest
+E ''
+cave~
+@eng You stare intently at the cave for a while. There is smoke coming out 
+of a hole in the rock above the cave, indicating inhabitation.
+@rus Некоторое время ты внимательно осматриваешь пещеру.
+Дым, поднимающийся из отверстия в скале, свидетельствует, что она обитаема.
+~
+D3 0
+@eng The jungle@rus Джунгли
+~
+barricade thorn thicket~
+ABZ 0 17176
+D4 0
+@eng The cave@rus Пещера
+~
+~
+Z -1 17183
+S
+#17178
+@eng In the Jungle@rus В джунглях~
+@eng You are on a trail in a dense jungle, in front of a stake with a skull
+attached to it. The path continues along the trail.
+@rus Ты стоишь на тропе в густых тропических зарослях. Впереди виднеется
+кол с насаженным на него оскалившимся черепом (skull). Тропа идет дальше.
+~
+0 C forest
+E ''
+stake skull~
+@eng The skull upon closer inspection, is too small for a man, and has
+the sloping brow ridge of a monkey.
+@rus При более близком взгляде на череп оказывается, что тот слишком мал, 
+чтобы принадлежать человеку и имеет обезьяньи низкие надбровные дуги.
+~
+D2 0
+@eng The jungle@rus Джунгли
+~
+~
+Z -1 17176
+D3 0
+@eng The jungle@rus Джунгли
+~
+~
+Z -1 17179
+S
+#17179
+@eng In the Savage Camp@rus В лагере дикарей~
+@eng You have blundered into the camp of several savages. Rude huts and lean-to's 
+are erected in a circular clearing. There is a central fire, upon which some
+animal is being roasted.
+@rus Ты наткнулся на лагерь дикарей. Грубые хижины и навесы разбросаны по круглой 
+поляне. В центре пылает костер (fire), на котором жарится какое-то животное.
+~
+0 0 forest
+E ''
+animal fire~
+@eng There is a monkey roasting on the fire.
+@rus На огне жарится обезьяна.
+~
+D1 0
+@eng The Jungle@rus Джунгли
+~
+~
+Z -1 17178
+D2 0
+@eng The savage camp@rus Лагерь дикарей
+~
+~
+Z -1 17180
+D3 0
+@eng The savage camp@rus Лагерь дикарей
+~
+~
+Z -1 17182
+S
+#17180
+@eng In the Savage Camp@rus В лагере дикарей~
+@eng You have blundered into the camp of several savages. Rude huts and lean-to's 
+are erected in a circular clearing. A tree is being hollowed out for a canoe 
+with fire and shell axes.
+@rus Ты наткнулся на лагерь дикарей. Грубые хижины и навесы разбросаны по 
+круглой поляне. Ствол дерева выдолблен топорами и выжжен огнем в форме 
+грубого каное (canoe). 
+~
+0 0 forest
+E ''
+canoe tree~
+@eng The canoe has a long way to go.
+@rus Это каное прослужит долго.
+~
+D0 0
+@eng The savage camp@rus Лагерь дикарей
+~
+~
+Z -1 17179
+D3 0
+@eng The savage camp@rus Лагерь дикарей
+~
+~
+Z -1 17181
+S
+#17181
+@eng In the Savage Camp@rus В лагере дикарей~
+@eng You have blundered into the camp of several savages. Rude huts and lean-to's
+are erected in a circular clearing. Fish is being dried over a smoky pit.
+@rus Ты наткнулся на лагерь дикарей. Грубые хижины и навесы разбросаны по круглой 
+поляне. Над ямой (pit), из которой поднимается дым, сушится рыба.
+~
+0 0 forest
+E ''
+smoky pit fish~
+@eng The fish looks like its tarpon.
+@rus Рыба, сушащаяся над ямой, похожа на тарпона.
+~
+D0 0
+@eng The savage camp@rus Лагерь дикарей
+~
+~
+Z -1 17182
+D1 0
+@eng The savage camp@rus Лагерь дикарей
+~
+~
+Z -1 17180
+S
+#17182
+@eng In the Savage Camp@rus В лагере дикарей~
+@eng You have blundered into the camp of several savages. Rude huts and lean-to's 
+are erected in a circular clearing. Women are fashioning baskets here.
+@rus Ты наткнулся на лагерь дикарей. Грубые хижины и навесы разбросаны по круглой 
+поляне. Сидящие тут же женщины (women) заняты плетением корзин.
+~
+0 0 hills
+E ''
+women baskets~
+@eng Several fat, toothless, naked women are twisting palm fronds into baskets.
+@rus Несколько толстых, беззубых, абсолютно голых женщин плетут корзины из 
+пальмовых побегов.
+~
+D1 0
+@eng The savage camp@rus Лагерь дикарей
+~
+~
+Z -1 17179
+D2 0
+@eng The savage camp@rus Лагерь дикарей
+~
+~
+Z -1 17181
+S
+#17183
+@eng At the Cave Entryway@rus Вход в пещеру~
+@eng You are at the entryway to a vast cave, crammed to the ceiling with 
+miscellaneous cargo boxes. Pallets lie here and there, marking each pirates
+own little area. A trail winds down the mountain, or you can go further
+into the cave.
+@rus Вдоль стен длинного коридора, ведущего к пещере, под самый потолок 
+нагромождены друг на друга разнообразные коробки и ящики с грузом. 
+То здесь, то там валяются соломенные тюфяки, выделяя каждому пирату 
+собственное место для отдыха. 
+Один конец тропы спускается к подножию горы, другой уводит вглубь пещеры.
+~
+0 0 field
+D0 0
+@eng The entryway@rus Вход
+~
+~
+Z -1 17184
+D1 0
+@eng Inside the cave@rus Внутри пещеры
+~
+~
+Z -1 17187
+D2 0
+@eng The entryway@rus Вход
+~
+~
+Z -1 17185
+D4 0
+~
+~
+Z -1 17173
+D5 0
+@eng Down the trail@rus Вниз по тропе
+~
+~
+Z -1 17177
+S
+#17184
+@eng At the Cave Entryway@rus Вход в пещеру~
+@eng You are at the entryway to a vast cave, crammed to the ceiling with 
+miscellaneous cargo boxes. Pallets lie here and there, marking each pirates
+own little area.
+@rus Вдоль стен длинного коридора, ведущего к пещере, под самый потолок 
+нагромождены друг на друга разнообразные коробки и ящики с грузом. 
+То здесь, то там валяются соломенные тюфяки, выделяя каждому пирату 
+собственное место для отдыха. 
+~
+0 0 field
+D1 0
+@eng Inside the cave@rus Внутри пещеры
+~
+~
+Z -1 17186
+D2 0
+@eng The entryway@rus Вход
+~
+~
+Z -1 17183
+S
+#17185
+@eng At the Cave Entryway@rus Вход в пещеру~
+@eng You are at the entryway to a vast cave, crammed to the ceiling with 
+miscellaneous cargo boxes. Pallets lie here and there, marking each pirates
+own little area.
+@rus Вдоль стен длинного коридора, ведущего к пещере, под самый потолок 
+нагромождены друг на друга разнообразные коробки и ящики с грузом. 
+То здесь, то там валяются соломенные тюфяки, выделяя каждому пирату 
+собственное место для отдыха. 
+~
+0 0 field
+D0 0
+@eng The entryway@rus Вход
+~
+~
+Z -1 17183
+D1 0
+@eng Inside the cave@rus В пещере
+~
+~
+Z -1 17188
+S
+#17186
+@eng Inside the Cave@rus В пещере~
+@eng You are inside the pirates cave. Around you the riches of many a raid
+lie piled in heaps. Drunken pirates cavort and sing bawdy songs. Torches
+cast menacing shadows on the ceiling.
+@rus Ты попал в логово пиратов. Богатства, нажитые бесчисленными неправедными 
+путями, свалены в груды вокруг тебя. Пьяные пираты буянят вокруг, распивая
+ром и распевая похабно-пошлые песни. На потолке танцуют причудливо-уродливые 
+тени в колеблющемся пламени факелов.
+~
+0 D inside
+D1 0
+@eng Inside the cave@rus В пещере
+~
+~
+Z -1 17189
+D2 0
+@eng Inside the cave@rus В пещере
+~
+~
+Z -1 17187
+D3 0
+@eng The entryway@rus Вход
+~
+~
+Z -1 17184
+S
+#17187
+@eng Inside the Cave@rus В пещере~
+@eng You are inside the pirates cave. Around you the riches of many a raid
+lie piled in heaps. Drunken pirates cavort and sing bawdy songs. A huge
+sunken fire pit roars here.
+@rus Ты попал в логово пиратов. Богатства, нажитые бесчисленными неправедными 
+путями, свалены в груды вокруг тебя. Пьяные пираты буянят вокруг, распивая
+ром и распевая похабно-пошлые песни. Огромная глубокая яма заполненная 
+ревущим пламенем здесь.
+~
+0 D inside
+D0 0
+@eng Inside the cave@rus В пещере
+~
+~
+Z -1 17186
+D1 0
+@eng Inside the cave@rus В пещере
+~
+~
+Z -1 17190
+D2 0
+@eng Inside the cave@rus В пещере
+~
+~
+Z -1 17188
+D3 0
+@eng The entryway@rus Вход
+~
+~
+Z -1 17183
+S
+#17188
+@eng Inside the Cave@rus В пещере~
+@eng You are inside the pirates cave. Around you the riches of many a raid
+lie piled in heaps. Drunken pirates cavort and sing bawdy songs. Torches
+cast menacing shadows on the ceiling.
+@rus Ты попал в логово пиратов. Богатства, нажитые бесчисленными неправедными 
+путями, свалены в груды вокруг тебя. Пьяные пираты буянят вокруг, распивая
+ром и распевая похабно-пошлые песни. На потолке танцуют причудливо-уродливые 
+тени в колеблющемся пламени факелов.
+~
+0 D inside
+D0 0
+@eng Inside the cave@rus В пещере
+~
+~
+Z -1 17187
+D1 0
+@eng Inside the cave@rus В пещере
+~
+~
+Z -1 17191
+D3 0
+@eng The entryway@rus Вход
+~
+~
+Z -1 17185
+S
+#17189
+@eng Inside the Cave@rus В пещере~
+@eng You are inside the pirates cave. Around you the riches of many a raid
+lie piled in heaps. Drunken pirates cavort and sing bawdy songs. Torches
+cast menacing shadows on the ceiling.
+@rus Ты попал в логово пиратов. Богатства, нажитые бесчисленными неправедными 
+путями, свалены в груды вокруг тебя. Пьяные пираты буянят вокруг, распивая
+ром и распевая похабно-пошлые песни. На потолке танцуют причудливо-уродливые 
+тени в колеблющемся пламени факелов.
+~
+0 D inside
+D2 0
+@eng Inside the cave@rus В пещере
+~
+~
+Z -1 17190
+D3 0
+@eng Inside the cave@rus В пещере
+~
+~
+Z -1 17186
+S
+#17190
+@eng At the Throne of the Pirate Lord@rus У трона лорда-пирата~
+@eng You stand before the throne of the Pirate Lord. Slave women are chained
+at the feet of the throne to serve the every whim of their lord. The
+throne rests on a beautiful oriental carpet. Behind the throne, iron rungs
+go upward into a shaft above.
+@rus Ты стоишь перед огромным троном. Рабыни, прикованные к его подножью,
+и служат исполнению любого мимолетного каприза своего повелителя.
+На полу постелен прекрасный восточный ковер (carpet).
+За спинкой трона вверх уходят железные ступени.
+~
+0 D inside
+E ''
+carpet oriental~
+@eng As you examine the carpet, you discover a secret trap door!
+@rus Более внимательнее присмотревшись к ковру, ты обнаруживаешь секретный 
+люк-ловушку!
+~
+D0 0
+@eng Inside the cave@rus В пещере
+~
+~
+Z -1 17189
+D2 0
+@eng Inside the cave@rus В пещере
+~
+~
+Z -1 17191
+D3 0
+@eng Inside the cave@rus В пещере
+~
+~
+Z -1 17187
+D4 0
+@eng Up the iron rungs@rus Вверх по железным ступеням
+~
+~
+Z -1 17193
+D5 0
+@eng Into the dark hole@rus В темную дыру
+~
+carpet oriental rug secret trap door~
+ABZ 0 17192
+S
+#17191
+@eng Inside the Cave@rus В пещере~
+@eng You are inside the pirates cave. Around you the riches of many a raid
+lie piled in heaps. Drunken pirates cavort and sing bawdy songs. Torches
+cast menacing shadows on the ceiling.
+@rus Ты попал в логово пиратов. Богатства, нажитые бесчисленными неправедными 
+путями, свалены в груды вокруг тебя. Пьяные пираты буянят вокруг, распивая 
+ром и распевая похабно-пошлые песни. На потолке танцуют причудливо-уродливые 
+тени в колеблющемся пламени факелов.
+~
+0 D inside
+D0 0
+@eng Inside the cave@rus В пещере
+~
+~
+Z -1 17190
+D2 0
+~
+~
+Z -1 17195
+D3 0
+~
+~
+Z -1 17188
+S
+#17192
+@eng Inside the Dark Prison@rus В темнице~
+@eng You stand ankle deep in festering refuse. The sludge reeks and stains
+the walls. In the corner an attempt has been made to make a pallet high
+enough to stay out of the sewage.
+@rus Сырое, мрачное и отвратительное со всех сторон место. 
+Ноги утопают в гниющих отходах по щиколотку. В комнате воняет, на стенах 
+покрытых плесенью, пятна. В углу соломенный тюфяк, который попытались 
+разместить достаточно высоко, чтобы его не доставали сточные воды.
+~
+0 AD inside
+D4 0
+@eng Out of the hole@rus Дыра наверх
+~
+trapdoor trap door rug oriental carpet~
+ABZ 0 17190
+S
+#17193
+@eng Atop the Mountain@rus На вершине горы~
+@eng You stand high atop the mountain, overlooking the seas of the pirate
+lords. The wind blows through your hair, cleansing the foul odors you
+have had to endure. Waves break on the rocks around the tropical island.
+To the west, you see a small tribal camp, with warriors dancing around 
+the fires.
+@rus Ты стоишь на вершине горы, обозревая водные пространства морей, где
+властвуют пиратские лорды-пираты. Ветер шевелит волосы, унося отвратительную 
+вонь, идущую снизу. Волны разбиваются о скалы вокруг тропического острова. 
+К западу расположен небольшой лагерь дикарей. Там вокруг огня костров 
+танцуют тени воинов.
+~
+0 0 mountain
+D5 0
+@eng Down the iron rungs@rus Вниз по железным ступеням
+~
+~
+Z -1 17190
+S
+#17194
+@eng In a Quiet Cove@rus В тихой бухте~
+@eng You sail on a quiet cove, where the waters are a brilliant turquoise.
+To the south of you the cove enters a dark cave in the looming black 
+mountain. The water is so clear, you can see the bottom.
+@rus Ты плывешь по водам тихой бухты, цвет волн которых - сверкание бирюзы.
+На юге бухта уходит вглубь темной пещеры в черной горе.
+Вода так кристально прозрачна, что без труда можно разглядеть 
+дно (bottom) моря. Блестящие стайки рыбьей мелюзги с быстротой молнии 
+носятся туда-сюда.
+~
+0 0 water
+E ''
+bottom~
+@eng Peering deep into the water, you see orange, red and yellow sea urchins
+on the bottom.
+@rus Слабое течение шевелит оранжевых, красных и желтых морских ежей на дне.
+~
+D0 10
+~
+~
+Z 0 17235
+D2 0
+@eng Into the cave@rus В пещере
+~
+~
+Z -1 17211
+D5 0
+~
+~
+Z 0 16903
+S
+#17195
+@eng On a Black Sand Beach@rus Берег чёрного песка~
+@eng You stand on an exotic black sand beach. There is no vegetation on this
+island, for as far as you can see. To the south of you a black mountain
+looms. The sand is soft, and your feet sink deeply into its warmth.
+@rus Ты стоишь на необычном берегу, покрытом песком черного цвета.
+Ни одного кустика растительности не видно на этом острове.
+К югу вырисовываются очертания высокой черной горы. Песок мягок,
+и при каждом шаге твои ноги по лодыжку погружаются в глубину его тепла.
+~
+0 0 field
+D0 0
+~
+~
+Z -1 17191
+D2 0
+@eng The mountain@rus Гора
+~
+~
+Z -1 17197
+D3 0
+@eng The beach@rus Берег
+~
+~
+Z -1 17196
+S
+#17196
+@eng On a Black Sand Beach@rus Берег чёрного песка~
+@eng You stand on an exotic black sand beach. There is no vegetation on this
+island, for as far as you can see. To the south and east of you a 
+black mountain looms. Waves curl on a reef 150' off shore, and gently
+roll in to crash at your feet.
+@rus Ты стоишь на необычном берегу, покрытом песком черного цвета.
+Ни одного кустика растительности не видно вокруг.
+К юго-востоку от тебя вырисовываются очертания высокой черной горы. 
+Волны разбиваются о риф в 150 футах от берега и нежно облизывают твои ступни.
+~
+0 0 field
+D1 0
+@eng The beach@rus Берег
+~
+~
+Z -1 17195
+D2 0
+@eng The beach@rus Берег
+~
+~
+Z -1 17203
+S
+#17197
+@eng Climbing the Black Mountain@rus Вверх по чёрной горе~
+@eng You are climbing on the steep slopes of a black rock mountain. Hot searing
+gas bursts from vents around you. From this vantage you have a commanding
+view of the seas and black sand beach.
+@rus Ты взбираешься по крутому каменистому склону черной горы.
+Иссушающе горячие потоки воздуха поднимаются вверх. Иногда, рядом на
+поверхность земли вырывается газ. Отсюда открывается вид на море (view) 
+и на черный песок побережья.
+~
+0 0 mountain
+E ''
+seas view~
+@eng Off in the distance you watch a pirate ship board a merchant galley.
+The fighting is fast and furious, but soon over. The pirates leave 
+trundling their prize aboard, and leave the galley to sink in flaming
+ruin.
+@rus На некотором расстоянии перед тобой разворачивается картина абордажа 
+торгового судна. Происходящая схватка носит характер ожесточенный 
+и кровавый, но очень быстро заканчивается. Захватив добычу, пираты покидают 
+палубу, оставляя охваченный пламенем корабль погружаться в морские пучины.
+~
+D0 0
+@eng The beach@rus Берег
+~
+~
+Z -1 17195
+D1 0
+@eng The mountain@rus Гора
+~
+~
+Z -1 17198
+D2 0
+@eng The mountain@rus Гора
+~
+~
+Z -1 17205
+D3 0
+@eng The beach@rus Берег
+~
+~
+Z -1 17203
+S
+#17198
+@eng Climbing the Black Mountain@rus Вверх по чёрной горе~
+@eng You are climbing on the steep slopes of a black rock mountain. Hot searing
+gas bursts from vents around you. To the south of you, you can climb up and
+over the rim of the black mountain. To the north stretches a calm cove.
+@rus Ты взбираешься по крутому каменистому склону черной горы.
+Иссушающе горячие потоки воздуха поднимаются вверх. Иногда, рядом на
+поверхность земли вырывается газ. На юге склон идет вверх, резко обрываясь 
+в пропасть. Здесь можно заглянуть через край, постоять, подумать о смысле 
+жизни. 
+На север тянется тихая бухта.
+~
+0 0 mountain
+D1 0
+@eng The mountain@rus Гора
+~
+~
+Z -1 17199
+D2 0
+@eng Over the rim@rus Над обрывом
+~
+~
+Z -1 17210
+D3 0
+@eng The mountain@rus Гора
+~
+~
+Z -1 17197
+S
+#17199
+@eng Climbing the Black Mountain@rus Вверх по чёрной горе~
+@eng You are climbing on the steep slopes of a black rock mountain. Hot searing
+gas bursts from vents around you. From this vantage you have a commanding
+view of the red hot lava flows. The lava seems to be flowing steadily from
+two main fissures, and winds its way to the sea to cool in a roaring hiss.
+@rus Ты взбираешься по крутому каменистому склону черной горы.
+Иссушающе горячие потоки воздуха поднимаются вверх. Иногда, рядом на
+поверхность земли вырывается газ. С этого места открывается впечетляющий 
+вид на раскаленные потоки красной лавы. Похоже, лава сочится из двух больших
+трещин в горной породе и стекает вниз к морю, где с оглушающим шипением
+смешивается с водой.
+~
+0 0 mountain
+D0 0
+@eng The lava flows@rus Потоки лавы
+~
+~
+Z -1 17200
+D1 0
+@eng The lava flows@rus Потоки лавы
+~
+~
+Z -1 17202
+D2 0
+@eng The mountain@rus Гора
+~
+~
+Z -1 17209
+D3 0
+@eng The mountain@rus Гора
+~
+~
+Z -1 17198
+S
+#17200
+@eng Walking the Lava Flows@rus По поверхности лавы~
+@eng You are walking the shiny black lava flows that flow from the mountain
+down into the sea, being careful to avoid the gas vents and hot lava.
+There are plenty of exits into the mountain, but none of them look safe.
+@rus Ты идешь по блестящей черной поверхности застывшей лавы, вытекающей
+из горы и спускающейся к самому морю. Следует быть внимальным и не 
+терять бдительности, чтобы избегать внезапно взрывающихся струй газа 
+и маленьких извержений кипящей лавы. Вглубь горы ведут множество 
+проходов (exits), но не один из них не кажется безопасным.
+~
+0 0 field
+E ''
+exits~
+@eng You look into one of the fissures, and watch two lava worms mating.
+@rus Вглядевшись в одну из трещин, ты видишь переплетенный клубок из двух лавовых
+червей.
+~
+D1 0
+@eng The lava flows@rus Потоки лавы
+~
+~
+Z -1 17201
+D2 0
+@eng Up the mountain@rus Вверх по горному склону
+~
+~
+Z -1 17199
+S
+#17201
+@eng Walking the Lava Flows@rus По поверхности лавы~
+@eng You are walking the shiny black lava flows that flow from the mountain
+down into the sea, being careful to avoid the gas vents and hot lava.
+There are plenty of exits into the mountain, but none of them look safe.
+At the waters edge the red hot lava boils the surrounding ocean in a
+deafening roar.
+@rus Ты идешь по блестящей черной поверхности застывшей лавы, вытекающей
+из горы и спускающейся к самому морю. Следует быть внимальным и не 
+терять бдительности, чтобы избегать внезапно взрывающихся струй газа 
+и маленьких извержений кипящей лавы. Вглубь горы ведут множество 
+проходов, но не один из них не кажется достаточно надежным и безопасным. 
+Там, где лава соприкасается с водой, окружающее море кипит и пузырится, 
+наполняя воздух оглушающим ревом.
+~
+0 0 field
+D1 0
+~
+~
+Z 0 17247
+D2 0
+@eng The lava flows@rus Потоки лавы
+~
+~
+Z -1 17202
+D3 0
+@eng The lava flows@rus Потоки лавы
+~
+~
+Z -1 17200
+S
+#17202
+@eng Walking the Lava Flows@rus По поверхности лавы~
+@eng You are walking the shiny black lava flows that flow from the mountain
+down into the sea, being careful to avoid the gas vents and hot lava.
+There are plenty of exits into the mountain, but none of them look safe.
+@rus Ты идешь по блестящей черной поверхности застывшей лавы, вытекающей
+из горы и спускающейся к самому морю. Следует быть внимальным и не 
+терять бдительности, чтобы избегать внезапно взрывающихся струй (vents) 
+газа и маленьких извержений кипящей лавы. Вглубь горы ведут множество 
+проходов, но не один из них не кажется достаточно безопасным.
+~
+0 0 field
+E ''
+vents~
+@eng You stand for a while and watch a gas vent. Gas seems to steadily emit
+in a low hiss, and occasionally bursts out in a deadly jet.
+@rus Некоторое время ты стоишь и наблюдаешь за вырывающейся струей газа.
+Газ выходит из земли с низким шипением, время от времени вспыхивая 
+и взрываясь.
+~
+D0 0
+@eng The lava flows@rus Потоки лавы
+~
+~
+Z -1 17201
+D3 0
+@eng Up the mountain@rus Вверх по склону
+~
+~
+Z -1 17199
+S
+#17203
+@eng On a Black Sand Beach@rus Берег чёрного песка~
+@eng You stand on an exotic black sand beach. There is no vegetation on this
+island, for as far as you can see. To the east of you a black mountain
+looms. The dappled sunlight makes its way through the cool palm canopy
+to gently warm the soft black sand. You dream of that lover you once had 
+in a far off city, and wish they could have been here now.
+@rus Ты стоишь на необычном берегу, покрытом песком черного цвета.
+Ни одного кустика растительности не видно на этом острове.
+К востоку от тебя вырисовываются очертания черной горы.Солнечный свет 
+проникает сквозь создающий прохладу навес из пальмовых листьев и нежно 
+согревает мягкий песок. Незаметно для себя ты погружаешься в грезы о 
+любимом(ой), оставшемся(ейся) в далеком отсюда городе, желая, чтобы 
+он(она) был(а) сейчас рядом. 
+~
+0 0 field
+D0 0
+@eng The beach@rus Берег
+~
+~
+Z -1 17196
+D1 0
+@eng The mountain@rus Гора
+~
+~
+Z -1 17197
+D2 0
+@eng The beach@rus Берег
+~
+~
+Z -1 17204
+S
+#17204
+@eng On a Black Sand Beach@rus Берег чёрного песка~
+@eng You stand on an exotic black sand beach. There is no vegetation on this
+island, for as far as you can see. To the east of you a black mountain
+looms. To the west you see a sea that there may be sharks.
+@rus Ты стоишь на необычном берегу, покрытом песком черного цвета.
+Ни одного кустика растительности не видно на этом острове.
+На востоке вырисовываются очертания черной горы. На западе ты видишь
+море, в котором, вероятно, куча акул.
+~
+0 0 field
+D0 0
+@eng The beach@rus Берег
+~
+~
+Z -1 17203
+D1 0
+@eng The mountain@rus Гора
+~
+~
+Z -1 17205
+D3 0
+@eng On the seas surrounding an atoll@rus Моря вокруг кораллового рифа
+~
+~
+Z -1 17221
+S
+#17205
+@eng Climbing the Black Mountain@rus Вверх по чёрной горе~
+@eng You are climbing on the steep slopes of a black rock mountain. Hot searing
+gas bursts from vents around you. Below you and to the west are the black
+sand beaches. If you climb up to the east, you can go over the rim. You 
+don't know if you will be able to come back though.
+@rus Ты взбираешься по крутому каменистому склону черной горы.
+Иссушающе горячие потоки воздуха поднимаются вверх. Иногда, рядом на
+поверхность земли вырывается газ. Внизу и на западе тянутся черные пески 
+побережья. Если подняться по склону на восток, то, похоже, можно перебраться
+на другую сторону пропасти. Хотя, удастся ли вернуться назад, неизвестно. 
+~
+0 0 mountain
+D0 0
+@eng The mountain@rus Гора
+~
+~
+Z -1 17197
+D1 0
+@eng Over the rim@rus Над пропастью
+~
+~
+Z -1 17210
+D2 0
+@eng The mountain@rus Гора
+~
+~
+Z -1 17206
+D3 0
+@eng The beach@rus Берег
+~
+~
+Z -1 17204
+S
+#17206
+@eng Climbing the Black Mountain@rus Вверх по чёрной горе~
+@eng You are climbing on the steep slopes of a black rock mountain. Hot searing
+gas bursts from vents around you. The mountain drops steeply into a churning
+sea below, much too dangerous to descend. Wind whips around the mountain
+into your face. You think that if you could just hold open your cloak, you
+could fly away, across the sea.
+@rus Ты взбираешься по крутому каменистому склону черной горы.
+Иссушающе горячие потоки воздуха поднимаются вверх. Иногда, рядом на
+поверхность земли вырывается газ. Склон горы почти отвесно спускается 
+в бурное море. Вниз пути нет. Сильный ветер дует в лицо. Кажется, если 
+распахнуть и приподнять полы плаща, просто улетишь прочь, через бескрайние 
+водные просторы.
+~
+0 0 mountain
+D0 0
+@eng The mountain@rus Гора
+~
+~
+Z -1 17205
+D1 0
+@eng The mountain@rus Гора
+~
+~
+Z -1 17207
+S
+#17207
+@eng Climbing the Black Mountain@rus Вверх по чёрной горе~
+@eng You are climbing on the steep slopes of a black rock mountain. Hot searing
+gas bursts from vents around you. The mountain drops steeply into a churning
+sea below, much too dangerous to descend. Down and to your north, you can
+make out the glowing red crater floor of the heart of the black mountain.
+You see a path going downward.
+@rus Ты взбираешься по крутому каменистому склону черной горы.
+Иссушающе горячие потоки воздуха поднимаются вверх. Иногда, рядом на
+поверхность земли вырывается газ. Склон горы почти отвесно спускается 
+в бурное море. Вниз пути нет. На север и вниз пылает огнем дно кратера 
+- сердце черной горы.
+Тропа ведет туда.
+~
+0 0 mountain
+D0 0
+@eng The crater@rus Кратер
+~
+~
+Z -1 17210
+D1 0
+@eng The mountain@rus Гора
+~
+~
+Z -1 17208
+D3 0
+@eng The mountain@rus Гора
+~
+~
+Z -1 17206
+S
+#17208
+@eng Climbing the Black Mountain@rus Вверх по чёрной горе~
+@eng You are climbing on the steep slopes of a black rock mountain. Hot searing
+gas bursts from vents around you. The mountain drops steeply into a churning
+sea below, much too dangerous to descend. Far below a blowhole spurts over
+and over with the rhythm of the sea.
+@rus Ты взбираешься по крутому каменистому склону черной горы.
+Иссушающе горячие потоки воздуха поднимаются вверх. Иногда, рядом на
+поверхность земли вырывается газ. Склон горы почти отвесно спускается 
+в бурное море. Вниз пути нет.  Далеко внизу разбиваются о скалы волны, 
+донося до твоего слуха ритм дыхания моря.
+~
+0 0 mountain
+D0 0
+@eng The mountain@rus Гора
+~
+~
+Z -1 17209
+D3 0
+@eng The mountain@rus Гора
+~
+~
+Z -1 17207
+S
+#17209
+@eng Climbing the Black Mountain@rus Вверх по чёрной горе~
+@eng You are climbing on the steep slopes of a black rock mountain. Hot searing
+gas bursts from vents around you. The mountain drops steeply into a churning
+sea below, much too dangerous to descend. You can climb up to your west
+and go over the rim of the mountain. Terns fly in ever ascending spirals,
+gliding on the hot updraft of the mountain.
+@rus Ты взбираешься по крутому каменистому склону черной горы.
+Иссушающе горячие потоки воздуха поднимаются вверх. Иногда, рядом на
+поверхность земли вырывается газ. Склон горы почти отвесно спускается 
+в бурное море. Вниз пути нет. На западе ты можешь вскарабкаться вверх и 
+пройти по кромке горного обрыва. Птицы, подхваченные горячим дыханием горы, 
+поднимаются вверх, следуя невидимым виткам спирали.
+~
+0 0 mountain
+D0 0
+@eng The mountain@rus Гора
+~
+~
+Z -1 17199
+D2 0
+@eng The mountain@rus Гора
+~
+~
+Z -1 17208
+D3 0
+@eng Over the rim@rus Над пропастью
+~
+~
+Z -1 17210
+S
+#17210
+@eng The Crater@rus Кратер~
+@eng You have climbed into the crater. Around you lava bubbles and boils. There
+is a series of high spots which you may step on which take you south to
+a path up the mountain, or down a shaft in the center. It is hard to breathe
+here in the noxious gasses of the volcano.
+@rus Ты спустился внутрь кратера. Вокруг кипит и пузырится раскаленная лава.
+На стене видна цепочка выступов, по которой можно на юге подняться наверх, 
+или спуститься еще ниже вниз по шахте. Из-за ядовитых газов здесь тяжело 
+дышать.
+~
+0 0 field
+D2 0
+@eng Up the southern path@rus Вверх по южной стене
+~
+~
+Z -1 17207
+D5 0
+@eng Down a shaft@rus Вниз по шахте
+~
+hatch~
+Z 0 17218
+S
+#17211
+@eng In the Watery Cave@rus В водяной пещере~
+@eng You float on a quiet cove inside a cave. Light from the northern exit
+bounces off the lapping waves and dances along the cavern ceiling. Docked
+are two triremes, showing the scars of many a battle. A stone staircase 
+winds upwards into the mountain.
+@rus Ты плывешь по водам тихой бухты внутри пещеры. Свет, идущий от выхода(входа) 
+на севере, отражается от плещущихся волн и танцует на потолке пещеры. На якоре
+покачиваются две триремы (triremes), на которых заметны следы ожесточенных 
+сражений. Каменная лестница поднимается вверх внутрь горы.
+~
+0 0 water
+E ''
+trireme triremes~
+@eng The vessels are well guarded by a force of some 30 odd men. You think
+better of it, and leave well enough alone.
+@rus Суда хорошо охраняются приблизительно тремя десятками странного вида людей.
+Похоже, лучшее, что ты можешь сделать - оставить их в покое.
+~
+D0 10
+@eng The cove@rus Бухта
+~
+~
+Z -1 17194
+D4 10
+@eng Up the stairs@rus Вверх по лестнице
+~
+~
+Z -1 17212
+D5 0
+~
+~
+Z 0 16903
+S
+#17212
+@eng In the Pirates Cavern@rus В пиратской пещере~
+@eng You are in the caverns inhabited by the pirates of Fire Island. The walls
+bear torch sconces, which light everything in a flickering orange glow. Warm
+air circulates to you from the south. From below you can hear the sounds of
+water. The natural passage seems to have been widened with mining tools, and
+braced with wooden timbers.
+@rus Ты находишься в пещерах, где обитают пираты Огненного Острова.
+На стенах прикреплены факелы, озаряющие все вокруг колеблющимся оранжевым 
+светом. Теплый воздух доносится с юга. Внизу слышен шум текущей воды. 
+Естественные проходы расширены и укреплены деревянными брусьями. 
+~
+0 D inside
+D1 0
+@eng Caverns@rus Пещеры
+~
+~
+Z -1 17213
+D2 0
+@eng In the Pirates Cavern@rus В пещерах пиратов
+~
+~
+Z -1 17215
+D3 0
+@eng Caverns@rus Пещеры
+~
+gate~
+ABCZ 17021 17214
+D5 0
+@eng Down the winding stone staircase@rus Вниз по спиральной каменной лестнице
+~
+~
+Z -1 17211
+S
+#17213
+@eng In the Cargo Cavern@rus В пещере-складе~
+@eng You stand in the dimly lit cargo cavern, where boxes and crates of various
+goods have been racked and stacked in orderly rows. All of the boxes bear
+the stamp of different owners, never having reached their intended 
+destinations.
+@rus Ты стоишь в тускло освещенной пещере, которая похоже представляет собой 
+склад. Коробки и ящики с различными товарами упакованы и сложены аккуратными 
+рядами. На каждой из коробок проставлено имя владельца, но никому из 
+них уже не суждено увидеть свой груз.
+~
+0 D inside
+E ''
+stamps boxes crates stamp box crate~
+@eng You read the dwarven markings of one box. It reads 'Deliver to
+Thraxton of Urnst'. You pry it open and find a small barrel of beer.
+@rus На одной из коробок дварфийские письмена складываются в следующую надпись:
+'Для Тракстона от Урнста'. 
+Ты отрываешь крышку и обнаруживаешь внутри маленький пивной бочонок.
+~
+D3 0
+@eng Caverns@rus Пещеры
+~
+~
+Z -1 17212
+S
+#17214
+@eng In the Armory@rus Арсенал~
+@eng You are in the pirates armory, where bows, cutlasses, leather armor and 
+the like have been stored for future use. Most of the weapons seem to be
+
+of poor quality, except for a few which stand out.
+@rus Ты стоишь в оружейной пиратов, где хранится луки, абордажные сабли, кожаные
+доспехи и подобная амуниция. Большинство оружия плохого качества, за
+редким исключением, которое бросается в глаза своим изяществом и мастерством 
+исполнения.
+~
+0 D field
+D1 0
+@eng Caverns@rus Пещеры
+~
+gate~
+ABCZ 17021 17212
+S
+#17215
+@eng In the Pirates Cavern@rus В пиратской пещере~
+@eng You are in the caverns inhabited by the pirates of Fire Island. The walls
+bear torch sconces, which light everything in a flickering orange glow. Warm
+air circulates to you from the south. The natural passage seems to have 
+been widened with mining tools, and braced with wooden timbers. There is
+a painting on the wall.
+@rus Ты находишься в пещерах, где обитают пираты Огненного острова.
+На стенах прикреплены факелы, озаряющие все колеблющимся оранжевым 
+светом. Теплый воздух доносится с юга. Естественные проходы расширены 
+и укреплены деревянными брусьями. На стене нарисована картина (painting).
+~
+0 D inside
+E ''
+painting wall~
+@eng The painting is of a never ending forest of old hardwoods. Elves climb
+the limbs, and swing from long rope platforms from tree to tree. The
+painting is titled 'Ellnallhalla by Lalila'
+@rus Картина изображает величественный древний лес.
+Эльфы карабкаются по его толстым ветвям и перепрыгивают с дерева на дерево 
+с помощью длинных веревок. 
+Подпись под картиной гласит "Эллналлхалла Лалайлы"
+~
+D0 0
+@eng Caverns@rus Пещеры
+~
+~
+Z -1 17212
+D2 0
+@eng Caverns@rus Пещеры
+~
+~
+Z -1 17216
+S
+#17216
+@eng In the Pirates Cavern@rus В пиратской пещере~
+@eng You are in the caverns inhabited by the pirates of Fire Island. The walls
+bear torch sconces, which light everything in a flickering orange glow. Warm
+air circulates to you from the east. The natural passage seems to have 
+been widened with mining tools, and braced with wooden timbers.
+@rus Ты находишься в пещерах, где обитают пираты Огненного Острова.
+На стенах прикреплены факелы, озаряющие все колеблющимся оранжевым 
+светом. Теплый воздух доносится с востока. Естественные проходы 
+расширены и укреплены деревянными брусьями. 
+~
+0 D inside
+D0 0
+@eng Caverns@rus Пещеры
+~
+~
+Z -1 17215
+D1 0
+@eng Caverns@rus Пещеры
+~
+~
+Z -1 17217
+S
+#17217
+@eng In the Pirates Cavern@rus В пиратской пещере~
+@eng You are in the caverns inhabited by the pirates of Fire Island. The walls
+bear torch sconces, which light everything in a flickering orange glow. Warm
+air circulates to you from the south. The natural passage seems to have been 
+widened with mining tools, and braced with wooden timbers. To the south you
+hear the sounds of laughter.
+@rus Ты находишься в пещерах, где обитают пираты Огненного Острова.
+На стенах прикреплены факелы, озаряющие все колеблющимся оранжевым 
+светом. Теплый воздух доносится с юга. Естественные проходы  
+расширены и укреплены деревянными брусьями. С юга слышен смех. 
+~
+0 D inside
+D2 0
+@eng Caverns@rus Пещеры
+~
+~
+Z -1 17218
+D3 0
+@eng Caverns@rus Пещеры
+~
+~
+Z -1 17216
+S
+#17218
+@eng In the Hall of the Pirate Lord@rus В холле лорда-пирата~
+@eng You stand in the hall of the pirate lord. Above on a dias is a desk and
+a chair. Where you are is a table with 9 chairs around it. On the walls
+are charts of the seas, and various mounted fish. To the east is a barracks
+area, and to the west is an iron gate. Stairs wind upwards into a shaft
+from which hot air emanates. It is up these stairs that most of the pirates
+scurry when you enter the room.
+@rus Ты стоишь в большом холле лорда-пирата. На небольшом возвышении
+поставлены письменный стол и стул. Рядом с тобой другой стол, окруженный
+девятью креслами. Стены украшают разнообразные карты морей, схемы течений 
+и чучела пойманных рыб. К западу видны железные ворота, на востоке находятся 
+казармы. Лестница поднимается вверх в отверстие, из которого поступает 
+горячий воздух. На этой-то лестнице и толпится большинство пиратов, когда 
+ты входишь.
+~
+0 D inside
+D0 0
+~
+~
+Z 0 17217
+D1 0
+@eng The barracks@rus Казармы
+~
+~
+Z -1 17219
+D3 0
+@eng A dark cavern@rus Темная пещера
+~
+gate~
+ABCZ 17021 17220
+D4 0
+@eng A winding staircase@rus Спиральная лестница
+~
+~
+Z -1 17210
+S
+#17219
+@eng The Barracks@rus Казармы~
+@eng You are in the barracks of the pirates. Bunk beds line the walls in rows.
+Each bed is numbered by a charcoal mark. The beds are neat. At the foot of
+each bed is a trunk, also numbered, matching the bed. The bedding looks 
+fresh and free of insects.
+@rus Ты находишься в пиратских казармах. Двухъярусные кровати тянутся
+вдоль стен. Каждая из кроватей пронумерована древесным углем.
+Все они аккуратно застелены. У подножья каждой стоит тумбочка с тем же 
+номером, что и на кровати. Постельное белье выглядит свежим и свободным 
+от насекомых.
+~
+0 D inside
+D3 0
+@eng The hall@rus Холл
+~
+~
+Z -1 17218
+S
+#17220
+@eng A Dark Cave@rus Темная пещера~
+@eng You stand in a dimly lit dark cave. There is a cot in the corner, and 
+a trunk on the floor. The room is very hot, oppressively so. The walls 
+bear strange scratches.
+@rus Ты стоишь в темной пещере. Источник тусклого света, позволяющего
+хоть что-то различать находится повсюду. В углу стоит койка.
+На полу валяется толстое бревно, по видимому используемое для сиденья. 
+Здесь очень жарко, что угнетающе действует на тебя. 
+На стенах заметны странные царапины (scratches).
+~
+0 AD inside
+E ''
+walls wall scratches scratch~
+@eng The scratches upon closer examination under a light, actually are a sketch
+of an old growth forest.
+@rus При более пристальном изучении под светом, царапины оказываются
+просто отметинами от растущих ветвей деревьев.
+~
+D1 0
+@eng The hall@rus Холл
+~
+gate~
+ABCZ 17021 17218
+S
+#17221
+@eng On the Seas Surrounding an Atoll@rus В морях окружающих коралловый риф~
+@eng You have sailed into seas surrounding a rocky atoll. The surf crashes
+on the sharp jagged rocks, preventing a landing.
+@rus Ты плывешь вокруг скалистого атолла (atoll). Волны разбиваются об острые 
+зубья скал, мешая высадке. 
+~
+0 0 water
+E ''
+atoll~
+@eng You shimmy up your mast and look at the atoll. The atoll is a circular
+island with a quiet lagoon in the middle. The only way into the central
+lagoon appears to be via the north end of the atoll. In the lagoon, you
+can easily recognize the masts of several docked ships, and you see
+houses on stilts.
+@rus Ты поднимаешься на мачту и внимательно осматриваешь коралловый риф.
+Он представляет собой круглый остров с тихой лагуной посередине.
+Единственный вход в лагуну расположен на северной стороне дуги атолла.
+В водах лагуны видны верхушки мачт стоящих на якоре кораблей, а так же 
+дома на сваях.
+~
+D1 13
+On the black sand beach~
+~
+Z -1 17204
+D2 14
+@eng Sailing around the atoll@rus Моря вокруг кораллового рифа
+~
+~
+Z -1 17222
+D5 0
+~
+~
+Z 0 16908
+S
+#17222
+@eng On the Seas Surrounding an Atoll@rus В морях окружающих коралловый риф~
+@eng You have sailed into seas surrounding a rocky atoll. The surf crashes
+on the sharp jagged rocks, preventing a landing. Sharks abound in these
+waters.
+@rus Ты плывешь вокруг скалистого атолла (atoll). Волны разбиваются об острые 
+зубья скал, мешая высадке. Эти воды кишат акулами.
+ 
+~
+0 0 water
+E ''
+atoll~
+@eng You shimmy up your mast and look at the atoll. The atoll is a circular
+island with a quiet lagoon in the middle. The only way into the central
+lagoon appears to be via the north end of the atoll. In the lagoon, you
+can easily recognize the masts of several docked ships, and you see
+houses on stilts.
+@rus Ты поднимаешься на мачту и внимательно осматриваешь коралловый риф.
+Он представляет собой круглый остров с тихой лагуной посередине.
+Единственный вход в лагуну расположен на северной стороне дуги атолла.
+В водах лагуны видны верхушки мачт стоящих на якоре кораблей, а так же 
+дома на сваях.
+~
+D0 14
+@eng Sailing around the atoll@rus Моря вокруг кораллового рифа
+~
+~
+Z -1 17221
+D3 13
+@eng Sailing around the atoll@rus Моря вокруг кораллового рифа
+~
+~
+Z -1 17223
+D5 0
+~
+~
+Z 0 16908
+S
+#17223
+@eng On the Seas Surrounding an Atoll@rus В морях окружающих коралловый риф~
+@eng You have sailed into seas surrounding a rocky atoll. The surf crashes
+on the sharp jagged rocks, preventing a landing. You think you see the
+glint of gold on the rocks, but when you blink, its gone.
+@rus Ты плывешь вокруг скалистого атолла (atoll). Волны разбиваются об острые 
+зубья скал, мешая высадке. Похоже, ты заметил блеск золота между скал, но 
+когда на минутку отвлекся, отблеск исчез.
+~
+0 0 water
+E ''
+atoll~
+@eng You shimmy up your mast and look at the atoll. The atoll is a circular
+island with a quiet lagoon in the middle. The only way into the central
+lagoon appears to be via the north end of the atoll. In the lagoon, you
+can easily recognize the masts of several docked ships, and you see
+houses on stilts.
+@rus Ты поднимаешься на мачту и внимательно осматриваешь коралловый риф.
+Он представляет собой круглый остров с тихой лагуной посередине.
+Единственный вход в лагуну расположен на северной стороне дуги атолла.
+В водах лагуны видны верхушки мачт стоящих на якоре кораблей, а так же 
+дома на сваях.
+~
+D1 13
+@eng Sailing around the atoll@rus Моря вокруг кораллового рифа
+~
+~
+Z -1 17222
+D3 14
+@eng Sailing around the atoll@rus Моря вокруг кораллового рифа
+~
+~
+Z -1 17224
+D5 0
+~
+~
+Z 0 16908
+S
+#17224
+@eng On the Seas Surrounding an Atoll@rus В морях окружающих коралловый риф~
+@eng You have sailed into seas surrounding a rocky atoll. The surf crashes
+on the sharp jagged rocks, preventing a landing. Large single clawed
+crabs cover the rocks.
+@rus Ты плывешь вокруг скалистого атолла (atoll). Волны разбиваются об острые 
+зубья скал, мешая высадке. Большие крабы с одной клешней у каждого 
+шевелящимся ковром укрывают поверхность скал. 
+~
+0 0 water
+E ''
+atoll~
+@eng You shimmy up your mast and look at the atoll. The atoll is a circular
+island with a quiet lagoon in the middle. The only way into the central
+lagoon appears to be via the north end of the atoll. In the lagoon, you
+can easily recognize the masts of several docked ships, and you see
+houses on stilts.
+@rus Ты поднимаешься на мачту и внимательно осматриваешь коралловый риф.
+Он представляет собой круглый остров с тихой лагуной посередине.
+Единственный вход в лагуну расположен на северной стороне дуги атолла.
+В водах лагуны видны верхушки мачт стоящих на якоре кораблей, а так же 
+дома на сваях.
+~
+D0 13
+@eng Sailing around the atoll@rus Моря вокруг кораллового рифа
+~
+~
+Z -1 17225
+D1 14
+@eng Sailing around the atoll@rus Моря вокруг кораллового рифа
+~
+~
+Z -1 17223
+D5 0
+~
+~
+Z 0 16907
+S
+#17225
+@eng On the Seas Surrounding an Atoll@rus В морях окружающих коралловый риф~
+@eng You have sailed into seas surrounding a rocky atoll. The surf crashes
+on the sharp jagged rocks, preventing a landing. You trail your toe along
+in the water and feel a westerly current.
+@rus Ты плывешь вокруг скалистого атолла (atoll). Волны разбиваются об острые 
+зубья скал, мешая высадке. Твои ноги по щиколотку погружены в воду, и ты 
+чувствуешь западное течение. 
+~
+0 0 water
+E ''
+atoll~
+@eng You shimmy up your mast and look at the atoll. The atoll is a circular
+island with a quiet lagoon in the middle. The only way into the central
+lagoon appears to be via the north end of the atoll. In the lagoon, you
+can easily recognize the masts of several docked ships, and you see
+houses on stilts.
+@rus Ты поднимаешься на мачту и внимательно осматриваешь коралловый риф.
+Он представляет собой круглый остров с тихой лагуной посередине.
+Единственный вход в лагуну расположен на северной стороне дуги атолла.
+В водах лагуны видны верхушки мачт стоящих на якоре кораблей, а так же 
+дома на сваях.
+~
+D2 14
+@eng Sailing around the atoll@rus Моря вокруг кораллового рифа
+~
+~
+Z -1 17224
+D3 13
+@eng Sailing around the atoll@rus Моря вокруг кораллового рифа
+~
+~
+Z -1 17226
+D5 0
+~
+~
+Z 0 16907
+S
+#17226
+@eng On the Seas Surrounding an Atoll@rus В морях окружающих коралловый риф~
+@eng You have sailed into seas surrounding a rocky atoll. The surf crashes
+on the sharp jagged rocks, preventing a landing. There on the rocks is
+what remains of a shattered galley.
+@rus Ты плывешь вокруг скалистого атолла (atoll). Волны разбиваются об острые 
+зубья скал, мешая высадке. На камнях виден полусгнивший остов разбитого судна.
+~
+0 0 water
+E ''
+atoll~
+@eng You shimmy up your mast and look at the atoll. The atoll is a circular
+island with a quiet lagoon in the middle. The only way into the central
+lagoon appears to be via the north end of the atoll. In the lagoon, you
+can easily recognize the masts of several docked ships, and you see
+houses on stilts.
+@rus Ты поднимаешься на мачту и внимательно осматриваешь коралловый риф.
+Он представляет собой круглый остров с тихой лагуной посередине.
+Единственный вход в лагуну расположен на северной стороне дуги атолла.
+В водах лагуны видны верхушки мачт стоящих на якоре кораблей, а так же 
+дома на сваях.
+~
+D0 13
+@eng Sailing around the atoll@rus Моря вокруг кораллового рифа
+~
+~
+Z -1 17227
+D1 14
+@eng Sailing around the atoll@rus Моря вокруг кораллового рифа
+~
+~
+Z -1 17225
+D5 0
+~
+~
+Z 0 16907
+S
+#17227
+@eng On the Seas Surrounding an Atoll@rus В морях окружающих коралловый риф~
+@eng You have sailed into seas surrounding a rocky atoll. The surf crashes
+on the sharp jagged rocks, preventing a landing. You watch the gulls
+peck apart some jelly creature on the rocks.
+@rus Ты плывешь вокруг скалистого атолла (atoll). Волны разбиваются об острые 
+зубья скал, мешая высадке. На камнях чайки клюют какое-то полупрозрачное
+желеобразное существо. Наверное, оно мертво.
+~
+0 0 water
+E ''
+atoll~
+@eng You shimmy up your mast and look at the atoll. The atoll is a circular
+island with a quiet lagoon in the middle. The only way into the central
+lagoon appears to be via the north end of the atoll. In the lagoon, you
+can easily recognize the masts of several docked ships, and you see
+houses on stilts.
+@rus Ты поднимаешься на мачту и внимательно осматриваешь коралловый риф.
+Он представляет собой круглый остров с тихой лагуной посередине.
+Единственный вход в лагуну расположен на северной стороне дуги атолла.
+В водах лагуны видны верхушки мачт стоящих на якоре кораблей, а так же 
+дома на сваях.
+~
+D0 13
+@eng Sailing around the atoll@rus Моря вокруг кораллового рифа
+~
+~
+Z -1 17228
+D2 14
+@eng Sailing around the atoll@rus Моря вокруг кораллового рифа
+~
+~
+Z -1 17226
+D5 0
+~
+~
+Z 0 16906
+S
+#17228
+@eng On the Seas Surrounding an Atoll@rus В морях окружающих коралловый риф~
+@eng You have sailed into seas surrounding a rocky atoll. The surf crashes
+on the sharp jagged rocks, preventing a landing. Here the waves are 
+choppy and you taste the salt spray on your lips.
+@rus Ты плывешь вокруг скалистого атолла (atoll). Волны разбиваются об острые 
+зубья скал, мешая высадке. Порывистый ветер вздымает волны, и ты чувствуешь 
+соленый вкус моря на своих губах.
+~
+0 0 water
+E ''
+atoll~
+@eng You shimmy up your mast and look at the atoll. The atoll is a circular
+island with a quiet lagoon in the middle. The only way into the central
+lagoon appears to be via the north end of the atoll. In the lagoon, you
+can easily recognize the masts of several docked ships, and you see
+houses on stilts.
+@rus Ты поднимаешься на мачту и внимательно осматриваешь коралловый риф.
+Он представляет собой круглый остров с тихой лагуной посередине.
+Единственный вход в лагуну расположен на северной стороне дуги атолла.
+В водах лагуны видны верхушки мачт стоящих на якоре кораблей, а так же 
+дома на сваях.
+~
+D1 14
+@eng Sailing around the atoll@rus Моря вокруг кораллового рифа
+~
+~
+Z -1 17229
+D2 13
+@eng Sailing around the atoll@rus Моря вокруг кораллового рифа
+~
+~
+Z -1 17227
+D5 0
+~
+~
+Z 0 16906
+S
+#17229
+@eng On the Seas Surrounding an Atoll@rus В морях окружающих коралловый риф~
+@eng You have sailed into seas surrounding a rocky atoll. The surf crashes
+on the sharp jagged rocks, preventing a landing. Refuse floats in the
+water, drifting alongside the boat.
+@rus Ты плывешь вокруг скалистого атолла (atoll). Волны разбиваются об 
+острые зубья скал, мешая высадке. В воде, скользя вдоль бортов, плавает 
+мусор (refuse).
+~
+0 0 water
+E ''
+atoll~
+@eng You shimmy up your mast and look at the atoll. The atoll is a circular
+island with a quiet lagoon in the middle. The only way into the central
+lagoon appears to be via the north end of the atoll. In the lagoon, you
+can easily recognize the masts of several docked ships, and you see
+houses on stilts.
+@rus Ты поднимаешься на мачту и внимательно осматриваешь коралловый риф.
+Он представляет собой круглый остров с тихой лагуной посередине.
+Единственный вход в лагуну расположен на северной стороне дуги атолла.
+В водах лагуны видны верхушки мачт стоящих на якоре кораблей, а так же 
+дома на сваях.
+~
+E ''
+refuse~
+@eng You pull a bottle out of the refuse, and notice a message inside. Excitedly
+you open it up to find an old weathered parchment, only a fragment of which
+you can read. It says '......and it is rumored she went down fully laden on
+thunder reef....'
+@rus Среди плавающего мусора обнаруживается бутылку, внутри которой видна 
+записка. В волнении ты откупориваешь бутылку и извлекаешь на свет старый 
+и испорченный морской водой пергамент, на котором можно разобрать только 
+отдельные фрагменты:
+'...и влекомая слухами и полностью нагруженная она села на громовой риф...'
+~
+D0 13
+@eng Sailing around the atoll@rus Моря вокруг кораллового рифа
+~
+~
+Z -1 17230
+D3 14
+@eng Sailing around the atoll@rus Моря вокруг кораллового рифа
+~
+~
+Z -1 17228
+D5 0
+~
+~
+Z 0 16906
+S
+#17230
+@eng On the Seas Surrounding an Atoll@rus В морях окружающих коралловый риф~
+@eng You have sailed into seas surrounding a rocky atoll. The surf crashes
+on the sharp jagged rocks, preventing a landing. You get the feeling you
+have been here before.
+@rus Ты плывешь вокруг скалистого атолла (atoll). Волны разбиваются об острые 
+зубья скал, мешая высадке. Такое впечатление, что ты тут уже был прежде.
+~
+0 0 water
+E ''
+atoll~
+@eng You shimmy up your mast and look at the atoll. The atoll is a circular
+island with a quiet lagoon in the middle. The only way into the central
+lagoon appears to be via the north end of the atoll. In the lagoon, you
+can easily recognize the masts of several docked ships, and you see
+houses on stilts.
+@rus Ты поднимаешься на мачту и внимательно осматриваешь коралловый риф.
+Он представляет собой круглый остров с тихой лагуной посередине.
+Единственный вход в лагуну расположен на северной стороне дуги атолла.
+В водах лагуны видны верхушки мачт стоящих на якоре кораблей, а так же 
+дома на сваях.
+~
+D1 14
+@eng The lagoon entrance@rus Вход в лагуну
+~
+~
+Z -1 17231
+D2 13
+@eng Sailing around the atoll@rus Моря вокруг кораллового рифа
+~
+~
+Z -1 17229
+D5 0
+~
+~
+Z 0 16905
+S
+#17231
+@eng At the Lagoon Entrance@rus Вход в лагуну~
+@eng You have sailed into seas surrounding a rocky atoll. The surf crashes
+on the sharp jagged rocks, preventing a landing. The lagoon opens up to
+the south, and a mild current pulls you that way.
+@rus Воды лагуны окружены стенами кораллового рифа (atoll). Волны прибоя 
+с силой разбиваются о острые скалы, не давая тебе высадится на берег.
+На юге открывается лагуна, и мягкое течение подталкивает туда твое судно.
+~
+0 0 water
+E ''
+atoll~
+@eng You shimmy up your mast and look at the atoll. The atoll is a circular
+island with a quiet lagoon in the middle. The only way into the central
+lagoon appears to be via the north end of the atoll. In the lagoon, you
+can easily recognize the masts of several docked ships, and you see
+houses on stilts.
+@rus Ты поднимаешься на мачту и внимательно осматриваешь коралловый риф.
+Он представляет собой круглый остров с тихой лагуной посередине.
+Единственный вход в лагуну расположен на северной стороне дуги атолла.
+В водах лагуны видны верхушки мачт стоящих на якоре кораблей, а так же 
+дома на сваях.
+~
+D1 13
+@eng Sailing around the atoll@rus Моря вокруг кораллового рифа
+~
+~
+Z -1 17232
+D2 13
+@eng Into the lagoon@rus В лагуне
+~
+~
+Z -1 17236
+D3 14
+@eng Sailing around the atoll@rus Моря вокруг кораллового рифа
+~
+~
+Z -1 17230
+D5 0
+~
+~
+Z 0 16905
+S
+#17232
+@eng On the Seas Surrounding an Atoll@rus В морях окружающих коралловый риф~
+@eng You have sailed into seas surrounding a rocky atoll. The surf crashes
+on the sharp jagged rocks, preventing a landing. What was that sailing
+song anyway?
+@rus Ты плывешь вокруг скалистого атолла (atoll). Волны разбиваются об острые 
+зубья скал, мешая высадке. 
+Не затянуть ли песню о море?
+~
+0 0 water
+E ''
+atoll~
+@eng You shimmy up your mast and look at the atoll. The atoll is a circular
+island with a quiet lagoon in the middle. The only way into the central
+lagoon appears to be via the north end of the atoll. In the lagoon, you
+can easily recognize the masts of several docked ships, and you see
+houses on stilts.
+@rus Ты поднимаешься на мачту и внимательно осматриваешь коралловый риф.
+Он представляет собой круглый остров с тихой лагуной посередине.
+Единственный вход в лагуну расположен на северной стороне дуги атолла.
+В водах лагуны видны верхушки мачт стоящих на якоре кораблей, а так же 
+дома на сваях.
+~
+D2 14
+@eng Sailing around the atoll@rus Моря вокруг кораллового рифа
+~
+~
+Z -1 17233
+D3 14
+@eng Sailing around the atoll@rus Моря вокруг кораллового рифа
+~
+~
+Z -1 17231
+D5 0
+~
+~
+Z 0 16904
+S
+#17233
+@eng On the Seas Surrounding an Atoll@rus В морях окружающих коралловый риф~
+@eng You have sailed into seas surrounding a rocky atoll. The surf crashes
+on the sharp jagged rocks, preventing a landing. There, crawling over
+the rotting carcass of a human, is a dis-Z, a rare offensive scavenger.
+@rus Ты плывешь вокруг скалистого атолла (atoll). Волны разбиваются об острые 
+зубья скал, мешая высадке. Между разлагающимися останками человека
+ползает ранее невиданный тобою монстрик-падальщик. 
+~
+0 0 water
+E ''
+atoll~
+@eng You shimmy up your mast and look at the atoll. The atoll is a circular
+island with a quiet lagoon in the middle. The only way into the central
+lagoon appears to be via the north end of the atoll. In the lagoon, you
+can easily recognize the masts of several docked ships, and you see
+houses on stilts.
+@rus Ты поднимаешься на мачту и внимательно осматриваешь коралловый риф.
+Он представляет собой круглый остров с тихой лагуной посередине.
+Единственный вход в лагуну расположен на северной стороне дуги атолла.
+В водах лагуны видны верхушки мачт стоящих на якоре кораблей, а так же 
+дома на сваях.
+~
+D0 13
+@eng Sailing around the atoll@rus Моря вокруг кораллового рифа
+~
+~
+Z -1 17232
+D1 14
+@eng Sailing around the atoll@rus Моря вокруг кораллового рифа
+~
+~
+Z -1 17234
+D5 0
+~
+~
+Z 0 16904
+S
+#17234
+@eng On the Seas Surrounding an Atoll@rus В морях окружающих коралловый риф~
+@eng You have sailed into seas surrounding a rocky atoll. The surf crashes
+on the sharp jagged rocks, preventing a landing. All of this salt water
+is making you thirsty.
+@rus Ты плывешь вокруг скалистого атолла. Волны разбиваются об острые зубья скал,
+мешая высадке. Соленый морской ветер вызывает жажду.
+~
+0 0 water
+E ''
+atoll~
+@eng You shimmy up your mast and look at the atoll. The atoll is a circular
+island with a quiet lagoon in the middle. The only way into the central
+lagoon appears to be via the north end of the atoll. In the lagoon, you
+can easily recognize the masts of several docked ships, and you see
+houses on stilts.
+@rus Ты поднимаешься на мачту и внимательно осматриваешь коралловый риф.
+Он представляет собой круглый остров с тихой лагуной посередине.
+Единственный вход в лагуну расположен на северной стороне дуги атолла.
+В водах лагуны видны верхушки мачт стоящих на якоре кораблей, а так же 
+дома на сваях.
+~
+D2 13
+@eng Sailing around the atoll@rus Моря вокруг кораллового рифа
+~
+~
+Z -1 17235
+D3 14
+@eng Sailing around the atoll@rus Моря вокруг кораллового рифа
+~
+~
+Z -1 17233
+D5 0
+~
+~
+Z 0 16904
+S
+#17235
+@eng On the Seas Surrounding an Atoll@rus В морях окружающих коралловый риф~
+@eng You have sailed into seas surrounding a rocky atoll. The surf crashes
+on the sharp jagged rocks, preventing a landing. For some reason the 
+fish are milling around here.
+@rus Ты плывешь вокруг скалистого атолла (atoll). Волны разбиваются об острые 
+зубья скал, мешая высадке. Многочисленные стаи рыб вертятся тут по 
+непонятной причине.
+~
+0 0 water
+E ''
+atoll~
+@eng You shimmy up your mast and look at the atoll. The atoll is a circular
+island with a quiet lagoon in the middle. The only way into the central
+lagoon appears to be via the north end of the atoll. In the lagoon, you
+can easily recognize the masts of several docked ships, and you see
+houses on stilts.
+@rus Ты поднимаешься на мачту и внимательно осматриваешь коралловый риф.
+Он представляет собой круглый остров с тихой лагуной посередине.
+Единственный вход в лагуну расположен на северной стороне дуги атолла.
+В водах лагуны видны верхушки мачт стоящих на якоре кораблей, а так же 
+дома на сваях.
+~
+D0 0
+@eng Sailing around the atoll@rus Моря вокруг кораллового рифа
+~
+~
+Z -1 17234
+D2 0
+~
+~
+Z 0 17194
+S
+#17236
+@eng In the Quiet Lagoon@rus В тихой лагуне~
+@eng Your boat gently rocks in the quiet lagoon of the atoll. Around you
+are docked the ships of the pirate lords. Each ship is tied to a 
+pile sunk deep into the lagoon, and rope bridges connect all into
+a makeshift wharf. To the south are several huts on stilts, connected
+by rope bridges. The waters are calm enough to swim in here.
+@rus Лодка мягко касается дна тихой лагуны внутри кольца рифа.
+Вокруг пришвартованы корабли лордов-пиратов. Каждое судно
+привязано к бревну, глубоко вбитому в почву. Веревки соединяют их в 
+своеобразную паутинную верфь. На юге видны несколько хижин на сваях, 
+между которыми тянутся веревочные мосты. Волны здесь не так сильны и 
+позволяют кораблям войти в гавань.
+~
+0 0 water
+D0 14
+@eng Out of the lagoon@rus Выход из лагуны
+~
+~
+Z -1 17231
+D2 8
+@eng The shacks on stilts@rus Дома на сваях
+~
+~
+Z -1 17237
+D5 0
+~
+~
+Z 0 16905
+S
+#17237
+@eng In the Central Shack@rus В центральной хижине~
+@eng You have climbed a rope bridge and entered the central shack of 
+the pirates complex. Below you though the cracks in the flooring 
+you can see the waves lapping at the support piles. To the west 
+is a barred shack, and to the east, you can make out the shack
+which houses most of the pirates. To the south, a large house stands
+on stilts.
+@rus Вскорабкавшись по веревочному мосту, ты входишь в хижину, расположенную 
+в центре этого пиратского комплекса. Под собой, сквозь трещины в полу,
+видно как волны жадным языком облизывают поддерживающие строение бревна.
+На западе видна хижина с решетками на окнах, к востоку - хижина, в которой 
+проживает большинство пиратов. К югу стоит большой дом на сваях.
+~
+0 0 inside
+D0 0
+@eng The docks@rus Доки
+~
+~
+Z -1 17236
+D1 0
+@eng The barracks@rus Казармы
+~
+~
+Z -1 17238
+D2 0
+@eng The house on stilts@rus Дом на сваях
+~
+~
+ABZ -1 17240
+D3 0
+@eng The barred shack@rus Хижина с решетками
+~
+~
+ABZ -1 17239
+S
+#17238
+@eng The Barracks@rus Казармы~
+@eng You are in the large series of shacks in which the crew rests. Walls
+of this shack are of bamboo, and a palm frond thatch roof has been 
+hastily constructed and poorly maintained. From below you can hear the
+surf pounding against the piles.
+@rus Ты стоишь в одной из множества соединяющихся друг с другом хижин,
+в которых отдыхает после и перед рейдами команда. Стены хижины сделаны 
+из бамбука, а крыша преставляет собой навес из соломы и пальмовых ветвей. 
+Строение производит впечатление непрочного и возведенного на скорую руку.
+Внизу слышен рокот прибоя, бьющегося о сваи.
+~
+0 0 inside
+D3 0
+@eng The central shack@rus Хижина в центре
+~
+~
+Z -1 17237
+S
+#17239
+@eng Inside the Barred Shack@rus Внутри хижины с решетками на окнах~
+@eng You stand in a shack on piles, crammed to the ceiling with cargo from
+many a raid. Chests, crates, bolts of cloth, furs, weapons, plates, and
+a vast array of other items fills this area. Shackles have been affixed
+to the wooden frame of the hut. Flies buzz around in lazy circles.
+@rus Ты стоишь в хижине, где горы товара, захваченного в набегах, поднимаются 
+к самому потолку. Сундуки, корзины, тюки ткани, меха, оружие, доспехи и 
+множество других предметов буквально заполняют помещение. К деревянной раме 
+дверного проема прикованы кандалы. Мухи, жужжа, лениво летают по кругу.
+~
+0 0 inside
+D1 0
+@eng The central shack@rus Хижина в центре
+~
+~
+ABZ -1 17237
+S
+#17240
+@eng Inside the House on Stilts@rus Внутри дома на сваях~
+@eng You have entered the house of the pirate lord. On the walls are momentos 
+of his various raids. Here a sword. There a skirt. From the ceiling, a flag.
+Hides of many different animals are nailed to the walls and floor. Maps
+lie in rolls in an open chest. A low bunk is set against the far wall.
+@rus Ты входишь в дом лорда-пирата. На стенах развешаны трофеи из его 
+многочисленных набегов. Вот меч. Вот кольчужная юбка. С потолка свисает
+флаг (flag). На полу и стенах - шкуры всяких зверей. Некоторые из
+них тебе даже знакомы. Свернутые в рулоны карты лежат в открытом сундуке.
+Низкая кровать стоит возле дальней стены.
+~
+0 D inside
+E ''
+flag~
+@eng The flag is that of Antharia.
+@rus На полотнище флага вышит герб Антарии.
+~
+D0 0
+@eng The central shack@rus Хижина в центре
+~
+~
+ABZ -1 17237
+S
+#17241
+@eng In the Air Beneath the Flying Mountain@rus В воздухе под летучей горой~
+@eng You soar in the turbulent air beneath the flying mountain. Wind
+whips and whistles in fierce blasting gusts sending you in all 
+directions.
+@rus Ты паришь в воздухе под летучей горой. Ветер завывает и свистит,
+резкими потоками швыряя тебя из стороны в сторону.
+~
+0 V air
+D0 0
+@eng In the air@rus В воздухе
+~
+~
+Z -1 17244
+D1 0
+@eng In the air@rus В воздухе
+~
+~
+Z -1 17242
+D2 0
+@eng In the air@rus В воздухе
+~
+~
+Z -1 17244
+D3 0
+@eng In the air@rus В воздухе
+~
+~
+Z -1 17243
+D4 0
+@eng In the air@rus В воздухе
+~
+~
+Z -1 17245
+D5 0
+@eng On the water@rus В воздухе
+~
+~
+Z -1 6114
+S
+#17242
+@eng In the Air Beneath the Flying Mountain@rus В воздухе под летучей горой~
+@eng You soar in the turbulent air beneath the flying mountain. Wind
+whips and whistles in fierce blasting gusts sending you in all 
+directions.
+@rus Ты паришь в воздухе под летучей горой. Ветер завывает и свистит,
+резкими потоками швыряя тебя из стороны в сторону.
+~
+0 V air
+D0 0
+@eng In the air@rus В воздухе
+~
+~
+Z -1 17245
+D1 0
+@eng In the air@rus В воздухе
+~
+~
+Z -1 17243
+D2 0
+@eng In the air@rus В воздухе
+~
+~
+Z -1 17245
+D3 0
+@eng In the air@rus В воздухе
+~
+~
+Z -1 17241
+D4 0
+@eng In the air@rus В воздухе
+~
+~
+Z -1 17246
+D5 0
+@eng In the air@rus В воздухе
+~
+~
+Z -1 17244
+S
+#17243
+@eng In the Air Beneath the Flying Mountain@rus В воздухе под летучей горой~
+@eng You soar in the turbulent air beneath the flying mountain. Wind
+whips and whistles in fierce blasting gusts sending you in all 
+directions.
+@rus Ты паришь в воздухе под летучей горой. Ветер завывает и свистит,
+резкими потоками швыряя тебя из стороны в сторону.
+~
+0 V air
+D0 0
+@eng In the air@rus В воздухе
+~
+~
+Z -1 17246
+D1 0
+@eng In the air@rus В воздухе
+~
+~
+Z -1 17241
+D2 0
+@eng In the air@rus В воздухе
+~
+~
+Z -1 17246
+D3 0
+@eng In the air@rus В воздухе
+~
+~
+Z -1 17242
+D4 0
+@eng In the air@rus В воздухе
+~
+~
+Z -1 17244
+D5 0
+@eng In the air@rus В воздухе
+~
+~
+Z -1 17245
+S
+#17244
+@eng In the Air Beneath the Flying Mountain@rus В воздухе под летучей горой~
+@eng You soar in the turbulent air beneath the flying mountain. Wind
+whips and whistles in fierce blasting gusts sending you in all 
+directions.
+@rus Ты паришь в воздухе под летучей горой. Ветер завывает и свистит,
+резкими потоками швыряя тебя из стороны в сторону.
+~
+0 V air
+D0 0
+@eng In the air@rus В воздухе
+~
+~
+Z -1 17241
+D1 0
+@eng In the air@rus В воздухе
+~
+~
+Z -1 17245
+D2 0
+@eng In the air@rus В воздухе
+~
+~
+Z -1 17241
+D3 0
+@eng In the air@rus В воздухе
+~
+~
+Z -1 17246
+D4 0
+@eng In the air@rus В воздухе
+~
+~
+Z -1 17242
+D5 0
+@eng In the air@rus В воздухе
+~
+~
+Z -1 17243
+S
+#17245
+@eng In the Air Beneath the Flying Mountain@rus В воздухе под летучей горой~
+@eng You soar in the turbulent air beneath the flying mountain. Wind
+whips and whistles in fierce blasting gusts sending you in all 
+directions.
+@rus Ты паришь в воздухе под летучей горой. Ветер завывает и свистит,
+резкими потоками швыряя тебя из стороны в сторону.
+~
+0 V air
+D0 0
+@eng In the air@rus В воздухе
+~
+~
+Z -1 17242
+D1 0
+@eng In the air@rus В воздухе
+~
+~
+Z -1 17246
+D2 0
+@eng In the air@rus В воздухе
+~
+~
+Z -1 17242
+D3 0
+@eng In the air@rus В воздухе
+~
+~
+Z -1 17244
+D4 0
+@eng In the air@rus В воздухе
+~
+~
+Z -1 17243
+D5 0
+@eng In the air@rus В воздухе
+~
+~
+Z -1 17241
+S
+#17246
+@eng In the Air Beneath the Flying Mountain@rus В воздухе под летучей горой~
+@eng You soar in the turbulent air beneath the flying mountain. Wind
+whips and whistles in fierce blasting gusts sending you in all 
+directions.
+@rus Ты паришь в воздухе под летучей горой. Ветер завывает и свистит,
+резкими потоками швыряя тебя из стороны в сторону.
+~
+0 V air
+D0 0
+@eng In the air@rus В воздухе
+~
+~
+Z -1 17243
+D1 0
+@eng In the air@rus В воздухе
+~
+~
+Z -1 17244
+D2 0
+@eng In the air@rus В воздухе
+~
+~
+Z -1 17243
+D3 0
+@eng In the air@rus В воздухе
+~
+~
+Z -1 17245
+D4 0
+@eng In the calm air@rus В застывшем воздухе
+~
+~
+Z -1 17247
+D5 0
+@eng In the air@rus В воздухе
+~
+~
+Z -1 17242
+S
+#17247
+@eng In the Calm Air Beneath the Flying Mountain@rus В застывшем воздухе под летучей горой~
+@eng You soar effortlessly in the calm air beneath the flying mountain.
+Below you through the turbulent winds lies the sea. Here in the
+thick rock of the mountain you sea caves which serve as nests for
+the hawkmen which terrorize the area.
+@rus Ты легко паришь в неподвижном воздухе под летучей горой. Внизу сквозь 
+восходящие потоки видно воды моря. Здесь же, в толщине скал можно заметить 
+пещеры, в которых живут и гнездятся люди-ястребы, местные разбойники, 
+держащие в страхе окрестности.
+~
+0 0 air
+D0 0
+@eng In the calm air@rus В застывшем воздухе
+~
+~
+Z -1 17248
+D1 0
+@eng In the calm air@rus В застывшем воздухе
+~
+~
+Z -1 17250
+D3 0
+~
+~
+Z 0 17201
+D5 0
+@eng In the turbulent air@rus В восходящих потоках воздуха
+~
+~
+Z -1 17246
+S
+#17248
+@eng In the Calm Air Beneath the Flying Mountain@rus В застывшем воздухе под летучей горой~
+@eng You soar effortlessly in the calm air beneath the flying mountain.
+Below you through the turbulent winds lies the sea. You notice a 
+strange inscription on the rock.
+@rus Ты легко паришь в неподвижном воздухе под летучей горой. Внизу сквозь 
+восходящие потоки видно воды моря. 
+Ты замечаешь на скале странную надпись (inscription).
+~
+0 0 air
+E ''
+inscription strange rock~
+@eng Carved into the rock in wizard runes is the following:
+` BEWARE-Enchanted Lodestone: I was on holiday on this 
+deserted island, practicing on my enchantment spells, 
+when in the middle of casting, I was rudely interrupted by
+a mystic summons. The interruption threw my spell off target
+and onto the island itself. With a wrenching crunch the whole
+island rose from the sea to the position you find it now. 
+Intrigued by the phenomena I took a sample of the rock back
+to my shack in the Forest Arden, where I determined by 
+methods of alchemy that the island had rich deposits of
+lodestone, which when subjected to enchantment magic, flies.
+I have used this discovery to create several floating trinkets
+which impart the ability of flying to the recipient. Beware
+for I know not how long this enchantment will last. - MERLIN'
+@rus Вырезанные на камне волшебные руны гласят следующее:
+'ОСТОРОЖНО ! Лодестоун
+Я был на выходных на этом пустынном острове, совершенствуя магическое 
+исскуство, когда в середине заклинания был грубо прерван мистическим призывом.
+Это отбросило мое заклинания с цели на поверхность самого острова. 
+С ужасным хрустом весь остров оторвался и поднялся над морем в то парящее 
+положение, в котором находится и поныне. Заинтригованный этим явлением, я взял 
+образцы скальной породы, чтобы исследовать его с помощью алхимических методов 
+в своей хижине в Арденском лесу. Опыты показали, что остров богат залежами 
+лодестоуна, который при воздействии на него магией, поднимается в воздух. 
+Я воспользовался этим открытием, чтобы создать несколько летающих безделушек.
+Будьте осторожны 
+- 
+я не знаю как долго будет продолжаться действие моего заклинания. 
+                                                                - Мерлин'
+~
+D1 0
+@eng In the calm air@rus В застывшем воздухе
+~
+~
+Z -1 17249
+D2 0
+@eng In the calm air@rus В застывшем воздухе
+~
+~
+Z -1 17247
+S
+#17249
+@eng In the Calm Air Beneath the Flying Mountain@rus В застывшем воздухе под летучей горой~
+@eng You soar effortlessly in the calm air beneath the flying mountain.
+Below you through the turbulent winds lies the sea. Here, much to
+your irritation, hangs the dangling end of the rope ladder.
+@rus Ты легко паришь в неподвижном воздухе под летучей горой. Внизу сквозь 
+восходящие потоки видно воды моря. К своему величайшему раздражению,
+здесь ты замечаешь конец свешивающейся вниз веревочной лестницы.
+~
+0 0 air
+D2 0
+@eng In the calm air@rus В застывшем воздухе
+~
+~
+Z -1 17250
+D3 0
+@eng In the calm air@rus В застывшем воздухе
+~
+~
+Z -1 17248
+D4 0
+@eng Up the rope ladder@rus Вверх по веревочной лестнице
+~
+~
+Z -1 17251
+S
+#17250
+@eng In the Calm Air Beneath the Flying Mountain@rus В застывшем воздухе под летучей горой~
+@eng You soar effortlessly in the calm air beneath the flying mountain.
+Below you through the turbulent winds lies the sea. About you, cradled
+in iron chain slings which run up to a massive winch mechanism are
+three triremes.
+@rus Ты легко паришь в неподвижном воздухе под летучей горой. Внизу сквозь 
+восходящие потоки видно воды моря. Возле тебя, покачиваясь на звеньях 
+железной цепи, поднимающейся наверх массивным механизмом лебедки, стоят 
+три триремы.
+~
+0 0 air
+D0 0
+@eng In the calm air@rus В застывшем воздухе
+~
+~
+Z -1 17249
+D3 0
+@eng In the calm air@rus В застывшем воздухе
+~
+~
+Z -1 17247
+S
+#17251
+@eng On the Flying Mountain@rus На летучей горе~
+@eng You stand on the firm ground of the flying mountain. You are so high
+that clouds drift across the island like thick fog banks. Far below 
+you shines the seas of the Pirate Lords. In the center of the island
+stands a granite keep. A winch with a rope ladder offers passage downward.
+@rus Под тобой наконец-то твердая земля летающей горы. Здесь так высоко, что 
+облака, дрейфующие вокруг, окружают остров подобно берегам густого тумана.
+Далеко внизу блестят воды морей лордов-пиратов. В центре острова
+высится гранитная крепость. Лебедка с веревочной лестницей позволяет
+спуститься вниз.
+~
+0 0 field
+D0 0
+@eng On the flying island@rus На летучем острове
+~
+~
+Z -1 17252
+D2 10
+@eng Taking the winch all the way down to the sea@rus Держась за веревку весь спуск до моря
+~
+winch ladder rope~
+Z -1 6118
+D5 0
+~
+~
+Z -1 17249
+S
+#17252
+@eng On the Flying Mountain@rus На летучей горе~
+@eng You stand on the firm ground of the flying mountain. You are so high
+that clouds drift across the island like thick fog banks. To the north
+of you is the granite keep, and south, at the island's edge, is a rope
+winch.
+@rus Под тобой наконец-то твердая земля летающей горы. Здесь так высоко, что 
+облака, дрейфующие вокруг, окружают остров подобно берегам густого тумана.
+На север от тебя возвышается гранитная крепость, на юге край острова,
+с которого свисает веревочная лестница.
+~
+0 0 field
+D0 0
+@eng On the flying island@rus На летучем острове
+~
+~
+Z -1 17256
+D1 0
+@eng On the flying island@rus На летучем острове
+~
+~
+Z -1 17253
+D2 0
+@eng On the flying island@rus На летучем острове
+~
+~
+Z -1 17251
+D3 0
+@eng On the flying island@rus На летучем острове
+~
+~
+Z -1 17254
+S
+#17253
+@eng On the Flying Mountain@rus На летучей горе~
+@eng You stand on the firm ground of the flying mountain. You are so high
+that clouds drift across the island like thick fog banks. Far below 
+you shines the seas of the Pirate Lords. In the center of the island
+stands a granite keep. Off in the distance you here the squawk of a
+very large bird.
+@rus Под тобой наконец-то твердая земля летающей горы. Здесь так высоко, что 
+облака, дрейфующие вокруг, окружают остров подобно берегам густого тумана.
+В центре острова воздвигнута гранитная крепость. Вдалеке раздается
+крик очень большой птицы.
+~
+0 0 field
+D0 0
+@eng On the flying island@rus На летучем острове
+~
+~
+Z -1 17258
+D3 0
+@eng On the flying island@rus На летучем острове
+~
+~
+Z -1 17252
+S
+#17254
+@eng On the Flying Mountain@rus На летучей горе~
+@eng You stand on the firm ground of the flying mountain. You are so high
+that clouds drift across the island like thick fog banks. Far below 
+you shines the seas of the Pirate Lords. In the center of the island
+stands a granite keep. Off in the distance you here the squawk of a
+very large bird.
+@rus Под тобой наконец-то твердая земля летающей горы. Здесь так высоко, что 
+облака, дрейфующие вокруг, окружают остров подобно берегам густого тумана.
+Далеко внизу сверкают воды морей лордов-пиратов. В центре острова
+воздвигнута гранитная крепость. Внезапно вдалеке раздается пронзительный
+крик очень большой птицы.
+~
+0 0 field
+D0 0
+@eng On the flying island@rus На летучем острове
+~
+~
+Z -1 17255
+D1 0
+@eng On the flying island@rus На летучем острове
+~
+~
+Z -1 17252
+S
+#17255
+@eng On the Flying Mountain@rus На летучей горе~
+@eng You stand on the firm ground of the flying mountain. You are so high
+that clouds drift across the island like thick fog banks. Far below 
+you shines the seas of the Pirate Lords. In the center of the island
+stands a granite keep. Off in the distance you here the squawk of a
+very large bird.
+@rus Под тобой наконец-то твердая земля летающей горы. Здесь так высоко, что 
+облака, дрейфующие вокруг, окружают остров подобно берегам густого тумана.
+Далеко внизу сверкают воды морей лордов-пиратов. В центре острова
+воздвигнута гранитная крепость. Внезапно вдалеке раздается пронзительный
+крик очень большой птицы.
+~
+0 0 field
+D1 0
+@eng On the flying island@rus На летучем острове
+~
+~
+Z -1 17256
+D2 0
+@eng On the flying island@rus На летучем острове
+~
+~
+Z -1 17254
+S
+#17256
+@eng On the Flying Mountain@rus На летучей горе~
+@eng You stand on the firm ground of the flying mountain. You are so high
+that clouds drift across the island like thick fog banks. Up a wide 
+paved ramp stands the looming hold of the 4th Pirate Lord.
+@rus Под тобой наконец-то твердая земля летающей горы. Здесь так высоко, что 
+облака, дрейфующие вокруг, окружают остров подобно берегам густого тумана.
+Широкая дорога поднимается к внушительных размеров крепости четвертого 
+лорда-пирата.
+~
+0 0 field
+D0 0
+@eng On the flying island@rus На летучем острове
+~
+~
+Z -1 17257
+D1 0
+@eng On the flying island@rus На летучем острове
+~
+~
+Z -1 17258
+D2 0
+@eng On the flying island@rus На летучем острове
+~
+~
+Z -1 17252
+D3 0
+@eng On the flying island@rus На летучем острове
+~
+~
+Z -1 17255
+D4 0
+@eng Up the ramp to the keep@rus К крепости вверх по склону
+~
+~
+Z -1 17259
+S
+#17257
+@eng On the Flying Mountain@rus На летучей горе~
+@eng You stand on the firm ground of the flying mountain. You are so high
+that clouds drift across the island like thick fog banks. Far below 
+you shines the seas of the Pirate Lords. In the center of the island
+stands a granite keep. Off in the distance you here the squawk of a
+very large bird.
+@rus Под тобой наконец-то твердая земля летающей горы. Здесь так высоко, что 
+облака, дрейфующие вокруг, окружают остров подобно берегам густого тумана.
+Далеко внизу сверкают воды морей лордов-пиратов. В центре острова
+расположена гранитная крепость. Внезапно вдалеке раздается пронзительный
+крик очень большой птицы.
+~
+0 0 field
+D2 0
+@eng On the flying island@rus На летучем острове
+~
+~
+Z -1 17256
+S
+#17258
+@eng On the Flying Mountain@rus На летучей горе~
+@eng You stand on the firm ground of the flying mountain. You are so high
+that clouds drift across the island like thick fog banks. Far below 
+you shines the seas of the Pirate Lords. In the center of the island
+stands a granite keep. Off in the distance you here the squawk of a
+very large bird.
+@rus Под тобой наконец-то твердая земля летающей горы. Здесь так высоко, что 
+облака, дрейфующие вокруг, окружают остров подобно берегам густого тумана.
+Далеко внизу сверкают воды морей лордов-пиратов. В центре острова
+расположена гранитная крепость. Внезапно вдалеке раздается пронзительный
+крик очень большой птицы.
+~
+0 0 field
+D2 0
+@eng On the flying island@rus На летучем острове
+~
+~
+Z -1 17253
+D3 0
+@eng On the flying island@rus На летучем острове
+~
+~
+Z -1 17256
+S
+#17259
+@eng At the Gates to the Keep@rus У крепостных ворот~
+@eng You stand at the top of a long paved ramp. To the south of you is the
+massive wooden gate to the keep. After examination of the door you can 
+open it if you slide a slender object through the gap and lift the
+bar. Fortunately for you a long slender bar has been left lying on the
+ground next to you.
+@rus Ты стоишь наверху длинного, мощенного камнем склона. К югу расположены
+массивные деревянные врата крепости (keep). При изучении их дверей 
+выясняется, что их можно открыть, просунув какой-нибудь тонкий предмет в 
+щель и приподняв засов с той стороны. Тебе повезло - тонкий длинный прут 
+оставлен лежать на земле прямо у твоих ног.
+~
+0 0 hills
+E ''
+keep hold~
+@eng The keep is a simple block design, with four walls and iron barred windows.
+Above you is a second floor.
+@rus Крепость представляет собой мрачное строение из больших каменных блоков, 
+с четырьмя стенами и окнами, забранными решетками. Над тобой расположен 
+второй этаж.
+~
+D2 0
+@eng Inside the keep@rus Внутри крепости
+~
+door~
+ABZ 0 17260
+D5 0
+@eng Down the ramp@rus Вниз по склону
+~
+~
+Z -1 17256
+S
+#17260
+@eng Inside the Hold of the Pirate Lord@rus Внутри крепости лорда-пирата~
+@eng You are in a long hallway inside the hold. Granite walls rise up around you.
+Torches flicker and gutter in iron holders. Several doors line the hall. Far
+to your south is a massive double door. To your north is the keep entrance.
+@rus Ты стоишь в длинном коридоре внутри крепости. Вокруг тебя поднимаются
+гранитные стены. Факелы мерцают, угасая в железных кольцах. Вдоль
+стены тянется несколько дверей. Вдалеке на юге видны массивные створки 
+других дверей. К северу вход в крепость.
+~
+0 D inside
+D0 0
+@eng Outside the keep@rus Снаружи крепости
+~
+door~
+ABZ -1 17259
+D1 0
+@eng A room@rus Комната
+~
+door~
+ABZ -1 17261
+D2 0
+@eng Down the hall@rus Вниз по коридору
+~
+~
+Z -1 17263
+D3 0
+@eng A room@rus Комната
+~
+door~
+ABZ -1 17262
+S
+#17261
+@eng A Room in the Hold@rus Комната в крепости~
+@eng You are in a sparsely furnished room, obviously occupied by men at arms.
+Low pallets are on the north and south walls. A small fire glows in
+a pit in the room center, and the smoke winds its way upward and out
+a high iron barred window. Near the window is a platform from which
+an archer could stand and fire.
+@rus Ты стоишь в скудно меблированной комнате, должно быть занимаемой
+военными. Низкие койки стоят вдоль северной и южной стен. В яме в центре
+комнаты пылает небольшой костер, дым от которого поднимается вверх и вылетает
+через высокое, забранное железными прутьями окно. Возле окна расположена 
+площадка для лучников.
+~
+0 D inside
+D3 0
+@eng A door@rus дверь
+~
+door~
+ABZ -1 17260
+S
+#17262
+@eng A Room in the Hold@rus Комната в крепости~
+@eng You are in a sparsely furnished room, obviously occupied by men at arms.
+Low pallets are on the north and south walls. A small fire glows in
+a pit in the room center, and the smoke winds its way upward and out
+a high iron barred window. Near the window is a platform from which
+an archer could stand and fire.
+@rus Ты стоишь в скудно меблированной комнате, должно быть занимаемой
+военными. Низкие койки стоят вдоль северной и южной стен. В яме в центре
+комнаты пылает небольшой костер, дым от которого поднимается вверх и вылетает
+через высокое, забранное железными прутьями окно. Возле окна расположена 
+площадка для лучников.
+~
+0 D inside
+D1 0
+@eng A door@rus дверь
+~
+door~
+ABZ -1 17260
+S
+#17263
+@eng Inside the Hold of the Pirate Lord@rus Внутри крепости лорда-пирата~
+@eng You are in a long hallway inside the hold. Granite walls rise up around you.
+Torches flicker and gutter in iron holders. Several doors line the hall. To
+your south is a massive double door. To your north is the keep entrance.
+@rus Ты стоишь в длинном коридоре внутри крепости. Вокруг тебя поднимаются
+гранитные стены. Факелы мерцают, угасая в железных кольцах. Вдоль
+стены тянется несоколько дверей. К югу от тебя массивные створки других
+дверей. На севере вход в крепость.
+~
+0 D inside
+D0 0
+@eng Up the hall@rus Вверх по коридору
+~
+~
+Z -1 17260
+D1 0
+@eng A room@rus Комната
+~
+door~
+ABZ -1 17264
+D2 0
+@eng Down the hall@rus Вниз по коридору
+~
+~
+Z -1 17266
+D3 0
+@eng A room@rus Комната
+~
+door~
+ABZ -1 17265
+S
+#17264
+@eng A Room in the Hold@rus Комната в крепости~
+@eng You are in a sparsely furnished room, obviously occupied by men at arms.
+Low pallets are on the north and south walls. A small fire glows in
+a pit in the room center, and the smoke winds its way upward and out
+a high iron barred window. Near the window is a platform from which
+an archer could stand and fire.
+@rus Ты стоишь в скудно меблированной комнате, должно быть занимаемой
+военными. Низкие койки стоят вдоль северной и южной стен. В яме в центре
+комнаты пылает небольшой костер, дым от которого поднимается вверх и вылетает
+через высокое, забранное железными прутьями окно. Возле окна расположена 
+площадка для лучников.
+~
+0 D inside
+D3 0
+@eng A door@rus дверь
+~
+door~
+ABZ -1 17263
+S
+#17265
+@eng A Room in the Hold@rus Комната в крепости~
+@eng You are in a sparsely furnished room, obviously occupied by men at arms.
+Low pallets are on the north and south walls. A small fire glows in
+a pit in the room center, and the smoke winds its way upward and out
+a high iron barred window. Near the window is a platform from which
+an archer could stand and fire.
+@rus Ты стоишь в скудно меблированной комнате, должно быть занимаемой
+военными. Низкие койки стоят вдоль северной и южной стен. В яме в центре
+комнаты пылает небольшой костер, дым от которого поднимается вверх и вылетает
+через высокое, забранное железными прутьями окно. Возле окна расположена 
+площадка для лучников.
+~
+0 D inside
+D1 0
+@eng A door@rus дверь
+~
+door~
+ABZ -1 17263
+S
+#17266
+@eng Inside the Hold of the Pirate Lord@rus Внутри крепости лорда-пирата~
+@eng You are in a long hallway inside the hold. Granite walls rise up around you.
+Torches flicker and gutter in iron holders. Several doors line the hall. Far
+to your north is the keep entrance. Immediately south is a large pair of 
+doors.
+@rus Ты стоишь в длинном коридоре внутри крепости. Вокруг тебя поднимаются
+гранитные стены. Факелы мерцают, угасая в железных кольцах. Вдоль
+стены тянется несоколько дверей. Довольно далеко к северу расположен
+вход в крепость. Прямо перед тобой на юг массивные створки дверей.
+~
+0 D inside
+D0 0
+@eng Up the hall@rus Вверх по склону
+~
+~
+Z -1 17263
+D1 0
+@eng A room@rus Комната
+~
+door~
+ABZ -1 17267
+D2 0
+@eng Through the double doors@rus Через створки дверей
+~
+doors double~
+ABCZ 17041 17269
+D3 0
+@eng A room@rus Комната
+~
+door~
+ABZ -1 17268
+S
+#17267
+@eng A Room in the Hold@rus Комната в крепости~
+@eng You are in a sparsely furnished room, obviously occupied by men at arms.
+Low pallets are on the north and south walls. A small fire glows in
+a pit in the room center, and the smoke winds its way upward and out
+a high iron barred window. Near the window is a platform from which
+an archer could stand and fire.
+@rus Ты стоишь в скудно меблированной комнате, должно быть занимаемой
+военными. Низкие койки стоят вдоль северной и южной стен. В яме в центре
+комнаты пылает небольшой костер, дым от которого поднимается вверх и вылетает
+через высокое, забранное железными прутьями окно. Возле окна расположена 
+площадка для лучников.
+~
+0 D inside
+D3 0
+@eng A door@rus дверь
+~
+door~
+ABZ -1 17266
+S
+#17268
+@eng A Room in the Hold@rus Комната в крепости~
+@eng You are in a sparsely furnished room, obviously occupied by men at arms.
+Low pallets are on the north and south walls. A small fire glows in
+a pit in the room center, and the smoke winds its way upward and out
+a high iron barred window. Near the window is a platform from which
+an archer could stand and fire.
+@rus Ты стоишь в скудно меблированной комнате, должно быть занимаемой
+военными. Низкие койки стоят вдоль северной и южной стен. В яме в центре
+комнаты пылает небольшой костер, дым от которого поднимается вверх и вылетает
+через высокое, забранное железными прутьями окно. Возле окна расположена 
+площадка для лучников.
+~
+0 D inside
+D1 0
+@eng A door@rus дверь
+~
+door~
+Z -1 17266
+S
+#17269
+@eng In the Vast Hall of the Pirate Lord@rus В большой зале лорда-пирата~
+@eng You stand in the vast hall of the 4th Pirate Lord. Tables are grouped
+in the northern section, upon which are heaped the scraps and leftovers
+of a recent meal. Two stone hearths are ablaze on the eastern and western
+ends with bonfires. The south end is an elevated dias with a table and
+a long couch upon which lies several beautiful slaves. A stone staircase 
+is accessible through the south end of the hall.
+@rus Ты стоишь в большой зале четвертого лорда-пирата. Столы сгруппированы 
+в северной части комнаты. На них свалены всякие отходы и остатки недавней 
+трапезы. Два каменных очага пылают кострами у восточной и западной стены.
+В южном конце залы небольшое возвышение, на котором стоят стол и длинная
+кушетка. На кушетке лежат несколько красивых рабынь. В южном конце
+залы также видна каменная лестница.
+~
+0 D inside
+D0 0
+@eng Into the hallway@rus В коридоре
+~
+door double~
+ABCZ 17261 17266
+D4 0
+@eng Up the stairs@rus Вверх по лестнице
+~
+~
+Z -1 17270
+S
+#17270
+@eng In the Private Quarters of the Pirate Lord@rus Личные аппартаменты лорда-пирата~
+@eng Here, at the top of the stairway, on the entire second floor is the
+private quarters of the Pirate Lord. On the eastern and western walls
+fires blaze. To the south is the canopied bed of the Lord, and here
+at the northern end, is the screened off section of his female slaves.
+Articles of conquest fill the room, and the floor is of polished stone.
+@rus Здесь, наверху лестницы расположены личные аппартаменты лорда-пирата,
+занимающие весь второй этаж. У восточной и на западной стены горит огонь.
+На юге расположена кровать лорда, укрытая роскошным балдахином.
+В северном углу, где стоишь ты, находится отгороженная секция для
+невольниц-наложниц. Трофеи побед лорда-пирата заполняют комнату.
+Пол выполнен из полированного камня.
+~
+0 D inside
+D4 0
+~
+~
+Z 0 17271
+D5 0
+@eng Down the stairs@rus Вниз по лестнице
+~
+~
+Z -1 17269
+S
+#17271
+@eng Sailing the Sea of Ice@rus Плавание по Ледовитому морю~
+@eng You are sailing the sea of ice. The channel is poor at best, with
+ice pressing in on all sides. Far to your east is a huge iceberg. 
+The wind whips along unhindered across the flat ice, chilling you 
+to the core.
+@rus Ты плывешь по морю льда. Полосу воды, по которой движется лодка, в лучшем 
+случае можно назвать узкой. Глыбы льда сдвигаются все теснее, грозя 
+раздавить борта как яичную скорлупу. Далеко на востоке сверкает глыба 
+айсберга. Ничем не сдерживаемый ветер метет снежную пыль по поверхности 
+льда, пробирая тебя до самых костей.
+~
+0 0 water
+D0 13
+@eng The sea of ice@rus Море льда
+~
+~
+Z -1 17272
+D2 14
+~
+~
+Z 0 3201
+D5 0
+~
+~
+Z 0 16902
+S
+#17272
+@eng Sailing the Sea of Ice@rus Плавание по Ледовитому морю~
+@eng You are sailing the sea of ice. The channel is poor at best, with
+ice pressing in on all sides. Large footprints lead off towards a
+snowbank. The wind whips along unhindered across the flat ice, 
+chilling you to the core.
+@rus Ты плывешь по морю льда. Полосу воды, по которой движется лодка, в лучшем 
+случае можно назвать узкой. Глыбы льда сдвигаются все теснее, грозя 
+раздавить борта как яичную скорлупу. Прямо перед тобой на берегу в снегу
+отпечатались огромные следы. Ничем не сдерживаемый ветер метет снежную 
+пыль по поверхности льда, пробирая тебя до самых костей.
+~
+0 0 water
+D1 13
+@eng The sea of ice@rus Море льда
+~
+~
+Z -1 17273
+D2 0
+@eng The sea of ice@rus Море льда
+~
+~
+Z -1 17271
+D5 0
+~
+~
+Z 0 16901
+S
+#17273
+@eng Sailing the Sea of Ice@rus Плавание по Ледовитому морю~
+@eng You are sailing the sea of ice. The channel is poor at best, with
+ice pressing in on all sides. Far to your south is a huge iceberg. 
+The wind whips along unhindered across the flat ice, chilling you 
+to the core.
+@rus Ты плывешь по морю льда. Полосу воды, по которой движется лодка, в лучшем 
+случае можно назвать узкой. Глыбы льда сдвигаются все теснее, грозя 
+раздавить борта как яичную скорлупу. Далеко на юге сверкает глыба 
+айсберга. Ничем не сдерживаемый ветер метет снежную пыль по поверхности 
+льда, пробирая тебя до самых костей.
+~
+0 0 water
+D1 13
+@eng The sea of ice@rus Море льда
+~
+~
+Z -1 17274
+D3 14
+@eng The sea of ice@rus Море льда
+~
+~
+Z -1 17272
+D5 0
+~
+~
+Z 0 16901
+S
+#17274
+@eng Sailing the Sea of Ice@rus Плавание по Ледовитому морю~
+@eng You are sailing the sea of ice. The channel is poor at best, with
+ice pressing in on all sides. White seals lie in droves on the shore. 
+The wind whips along unhindered across the flat ice, chilling you 
+to the core.
+@rus Ты плывешь по морю льда. Полосу воды, по которой движется лодка, в лучшем 
+случае можно назвать узкой. Глыбы льда сдвигаются все теснее, грозя 
+раздавить борта как яичную скорлупу. Белые тюлени отдельными стадами 
+лежат на берегу. Ничем не сдерживаемый ветер метет снежную пыль по 
+поверхности льда, пробирая тебя до самых костей. 
+~
+0 0 water
+D2 13
+@eng The sea of ice@rus Море льда
+~
+~
+Z -1 17275
+D3 14
+@eng The sea of ice@rus Море льда
+~
+~
+Z -1 17273
+D5 0
+~
+~
+Z 0 16901
+S
+#17275
+@eng Sailing the Sea of Ice@rus Плавание по Ледовитому морю~
+@eng You are sailing the sea of ice. The channel is poor at best, with
+ice pressing in on all sides. Far to your west is a huge iceberg. 
+The wind whips along unhindered across the flat ice, chilling you 
+to the core.
+@rus Ты плывешь по морю льда. Полосу воды, по которой движется лодка, в лучшем 
+случае можно назвать узкой. Глыбы льда сдвигаются все теснее, грозя 
+раздавить борта как яичную скорлупу. Далеко на западе сверкает глыба 
+айсберга. Ничем не сдерживаемый ветер метет снежную пыль по поверхности 
+льда, пробирая тебя до самых костей.
+~
+0 0 water
+D0 13
+@eng The sea of ice@rus Море льда
+~
+~
+Z -1 17274
+D2 14
+@eng The sea of ice@rus Море льда
+~
+~
+Z -1 17276
+D5 0
+~
+~
+Z 0 16900
+S
+#17276
+@eng Sailing the Sea of Ice@rus Плавание по Ледовитому морю~
+@eng You are sailing the sea of ice. The channel is poor at best, with
+ice pressing in on all sides. The iceberg looms closer with each day. 
+The wind whips along unhindered across the flat ice, chilling you 
+to the core.
+@rus Ты плывешь по морю льда. Полосу воды, по которой движется лодка, в лучшем 
+случае можно назвать узкой. Глыбы льда сдвигаются все теснее, грозя 
+раздавить борта как яичную скорлупу. Айсберг все ближе и больше с каждым 
+днем. Ничем не сдерживаемый ветер метет снежную пыль по поверхности 
+льда, пробирая тебя до самых костей.
+~
+0 0 water
+D0 13
+@eng The sea of ice@rus Море льда
+~
+~
+Z -1 17275
+D3 10
+@eng The sea of ice@rus Море льда
+~
+~
+Z -1 17277
+D5 0
+~
+~
+Z 0 16900
+S
+#17277
+@eng Sailing the Sea of Ice@rus Плавание по Ледовитому морю~
+@eng You are sailing the sea of ice. Ahead the narrow channel widens next
+to a very large iceberg. Ice shears in sheets from the iceberg to crash
+with a thunderous roar into the frosty sea. You think you can make out 
+a dark watery cave leading into the iceberg.
+@rus Ты плывешь по морю льда. Впереди узкого канала, по которому ты плывешь,
+возвышается очень большой айсберг.  Глыбы льда отваливаются от его
+поверхности и с ужасающим ревом падают в море. Похоже, ты
+различаешь темную, заполненную водой пещеру, идущую вглубь айсберга.
+~
+0 0 water
+D0 13
+@eng Into the cave@rus В пещере
+~
+~
+Z -1 17278
+D1 10
+@eng The sea of ice@rus Море льда
+~
+~
+Z -1 17276
+D5 0
+~
+~
+Z 0 16900
+S
+#17278
+@eng Inside the Iceberg@rus Внутри айсберга~
+@eng You have sailed into the heart of the iceberg, out of the frosty wind.
+You feel warmth returning to your bones, and you welcome the quiet 
+splendor of the ice interior. Next to you in the cave are several triremes
+anchored at bay. You anchor and hop down onto the hard packed ice, 
+following a trail of footprints to a dead end passage. Puzzled, you get on
+your hands and knees, and feel the outline of an ice trap door beneath you.
+@rus Ты забрался в самое сердце айсберга. Ветер стих. Ты чувствуешь давно
+забытое тепло возвращаеющееся в твое тело, и с радостью осматриваешь
+блестящий ледяной интерьер. Рядом с тобой в пещере на якоре стоят
+несколько трирем. Ты тоже бросаешь якорь, сходишь на твердую
+ледяную поверхность, и, идя по следам, упираешься в глухую стену. 
+Озадаченный, ты опускаешься на колени, и руками чувствуешь очертания 
+ледяного люка.
+~
+0 0 water
+D2 0
+@eng The sea of ice@rus Море льда
+~
+~
+Z -1 17277
+D5 0
+@eng Through the trap door@rus Через люк
+~
+ice trap door~
+ABZ -1 17279
+S
+#17279
+@eng Sliding Down an Icy Shoot@rus Скольжение по ледяному спуску~
+@eng WHEEEEEEEEE! You are sliding head over heels down an icy shoot, which winds
+downward in a counterclockwise spiral. There is no stopping and no turning 
+around.
+@rus Ийееее! Ты кубарем скатываешься-скользишь по ледяному спуску, свивающемуся 
+против часовой стрелки в спираль. Нет никакой возможности затормозить и 
+оглянуться по сторонам.
+~
+0 AD inside
+D3 0
+@eng The icy shoot@rus Ледяной склон
+~
+~
+Z -1 17280
+S
+#17280
+@eng Sliding Down an Icy Shoot@rus Скольжение по ледяному спуску~
+@eng WHEEEEEEEEE! You are sliding head over heels down an icy shoot, which winds 
+downward in a counterclockwise spiral. There is no stopping and no turning 
+around.
+@rus Ийееее! Ты кубарем скатываешься-скользишь по ледяному спуску, свивающемуся 
+против часовой стрелки в спираль. Нет никакой возможности затормозить и 
+оглянуться по сторонам.
+~
+0 AD inside
+D2 0
+@eng The icy shoot@rus Ледяной склон
+~
+~
+Z -1 17281
+S
+#17281
+@eng Sliding Down an Icy Shoot@rus Скольжение по ледяному спуску~
+@eng WHEEEEEEEEE! You are sliding head over heels down an icy shoot, which winds 
+downward in a counterclockwise spiral. There is no stopping and no turning 
+around.
+@rus Ийееее! Ты кубарем скатываешься-скользишь по ледяному спуску, свивающемуся 
+против часовой стрелки в спираль. Нет никакой возможности затормозить и 
+оглянуться по сторонам.
+~
+0 AD inside
+D1 0
+@eng The icy shoot@rus Ледяной склон
+~
+~
+Z -1 17282
+S
+#17282
+@eng Sliding Down an Icy Shoot@rus Скольжение по ледяному спуску~
+@eng WHEEEEEEEEE! You are sliding head over heels down an icy shoot, which winds 
+downward in a counterclockwise spiral. There is no stopping and no turning 
+around.
+@rus Ийееее! Ты кубарем скатываешься-скользишь по ледяному спуску, свивающемуся 
+против часовой стрелки в спираль. Нет никакой возможности затормозить и 
+оглянуться по сторонам.
+~
+0 ADFI inside
+D5 0
+@eng The icy shoot@rus Ледяной склон
+~
+~
+Z -1 17283
+S
+#17283
+@eng Sliding Down an Icy Shoot@rus Скольжение по ледяному спуску~
+@eng WHEEEEEEEEE! You are sliding head over heels down an icy shoot, which winds 
+downward in a counterclockwise spiral. There is no stopping and no turning 
+around.
+@rus Ийееее! Ты кубарем скатываешься-скользишь по ледяному спуску, свивающемуся 
+против часовой стрелки в спираль. Нет никакой возможности затормозить и 
+оглянуться по сторонам.
+~
+0 AD inside
+D2 0
+@eng The icy shoot@rus Ледяной склон
+~
+~
+Z -1 17284
+S
+#17284
+@eng Sliding Down an Icy Shoot@rus Скольжение по ледяному спуску~
+@eng WHEEEEEEEEE! You are sliding head over heels down an icy shoot, which winds 
+downward in a counterclockwise spiral. There is no stopping and no turning 
+around.
+@rus Ийееее! Ты кубарем скатываешься-скользишь по ледяному спуску, свивающемуся 
+против часовой стрелки в спираль. Нет никакой возможности затормозить и 
+оглянуться по сторонам.
+~
+0 AD inside
+D1 0
+@eng The icy shoot@rus Ледяной склон
+~
+~
+Z -1 17285
+S
+#17285
+@eng Sliding Down an Icy Shoot@rus Скольжение по ледяному спуску~
+@eng WHEEEEEEEEE! You are sliding head over heels down an icy shoot, which winds 
+downward in a counterclockwise spiral. There is no stopping and no turning 
+around.
+@rus Ийееее! Ты кубарем скатываешься-скользишь по ледяному спуску, свивающемуся 
+против часовой стрелки в спираль. Нет никакой возможности затормозить и 
+оглянуться по сторонам.
+~
+0 AD inside
+D0 0
+@eng The icy shoot@rus Ледяной склон
+~
+~
+Z -1 17286
+S
+#17286
+@eng Sliding Down an Icy Shoot@rus Скольжение по ледяному спуску~
+@eng WHEEEEEEEEE! You are sliding head over heels down an icy shoot, which winds 
+downward in a counterclockwise spiral. There is no stopping and no turning 
+around.
+@rus Ийееее! Ты кубарем скатываешься-скользишь по ледяному спуску, свивающемуся 
+против часовой стрелки в спираль. Нет никакой возможности затормозить и 
+оглянуться по сторонам.
+~
+0 AD inside
+D5 0
+@eng The icy shoot@rus Ледяной склон
+~
+~
+Z -1 17287
+S
+#17287
+@eng Sliding Down an Icy Shoot@rus Скольжение по ледяному спуску~
+@eng WHEEEEEEEEE! You are sliding head over heels down an icy shoot, which winds 
+downward in a counterclockwise spiral. There is no stopping and no turning 
+around.
+@rus Ийееее! Ты кубарем скатываешься-скользишь по ледяному спуску, свивающемуся 
+против часовой стрелки в спираль. Нет никакой возможности затормозить и 
+оглянуться по сторонам.
+~
+0 AD inside
+D2 0
+@eng The icy shoot@rus Ледяной склон
+~
+~
+Z -1 17288
+S
+#17288
+@eng Sliding Down an Icy Shoot@rus Скольжение по ледяному спуску~
+@eng WHEEEEEEEEE! You are sliding head over heels down an icy shoot, which winds 
+downward in a counterclockwise spiral. There is no stopping and no turning 
+around.
+@rus Ийееее! Ты кубарем скатываешься-скользишь по ледяному спуску, свивающемуся 
+против часовой стрелки в спираль. Нет никакой возможности затормозить и 
+оглянуться по сторонам.
+~
+0 AD inside
+D1 0
+@eng The icy shoot@rus Ледяной склон
+~
+~
+Z -1 17289
+S
+#17289
+@eng Sliding Down an Icy Shoot@rus Скольжение по ледяному спуску~
+@eng WHEEEEEEEEE! You are sliding head over heels down an icy shoot, which winds 
+downward in a counterclockwise spiral. There is no stopping and no turning 
+around.
+@rus Ийееее! Ты кубарем скатываешься-скользишь по ледяному спуску, свивающемуся 
+против часовой стрелки в спираль. Нет никакой возможности затормозить и 
+оглянуться по сторонам.
+~
+0 AD inside
+D0 0
+@eng The icy shoot@rus Ледяной склон
+~
+~
+Z -1 17290
+S
+#17290
+@eng In the Great Ice Cavern@rus Внутри большой ледяной пещеры~
+@eng You stand in a huge ice cavern, the ceiling is some 80' above you. In the 
+center of the cavern, a bonfire roars, making the stalactites and stalagmites 
+leap and lurch as if the entire cavern were a demons mouth laughing at you.
+@rus Ты стоишь в огромной ледяной пещере. Потолок нависает над твоей головой 
+на 80 футов выше пола. В центре пещеры, пылает ревущее пламя костра, и 
+в свете его сталактиты со сталагмитами как будто движутся, превращая вход
+в пещеру в злую ухмылку смеющегося над тобой демона.
+~
+0 D forest
+D0 0
+@eng In the great ice cavern@rus Большая ледяная пещера
+~
+~
+Z -1 17291
+D1 0
+@eng In the great ice cavern@rus Большая ледяная пещера
+~
+~
+Z -1 17295
+S
+#17291
+@eng In the Great Ice Cavern@rus Внутри большой ледяной пещеры~
+@eng You stand in a huge ice cavern, the ceiling is some 80' above you. In the 
+center of the cavern, a bonfire roars, making the stalactites and stalagmites 
+leap and lurch as if the entire cavern were a demons mouth laughing at you.
+@rus Ты стоишь в огромной ледяной пещере. Потолок нависает над твоей головой 
+на 80 футов выше пола. В центре пещеры, пылает ревущее пламя костра, и 
+в свете его сталактиты со сталагмитами как будто движутся, превращая вход
+в пещеру в злую ухмылку смеющегося над тобой демона.
+~
+0 D forest
+D0 0
+@eng In the great ice cavern@rus Большая ледяная пещера
+~
+~
+Z -1 17292
+D1 0
+@eng In the great ice cavern@rus Большая ледяная пещера
+~
+~
+Z -1 17294
+D2 0
+@eng In the great ice cavern@rus Большая ледяная пещера
+~
+~
+Z -1 17290
+S
+#17292
+@eng In the Great Ice Cavern@rus Внутри большой ледяной пещеры~
+@eng You stand in a huge ice cavern, the ceiling is some 80' above you. In the 
+center of the cavern, a bonfire roars, making the stalactites and stalagmites 
+leap and lurch as if the entire cavern were a demons mouth laughing at you.
+@rus Ты стоишь в огромной ледяной пещере. Потолок нависает над твоей головой 
+на 80 футов выше пола. В центре пещеры, пылает ревущее пламя костра, и 
+в свете его сталактиты со сталагмитами как будто движутся, превращая вход
+в пещеру в злую ухмылку смеющегося над тобой демона.
+~
+0 D forest
+D1 0
+@eng In the great ice cavern@rus Большая ледяная пещера
+~
+~
+Z -1 17293
+D2 0
+@eng In the great ice cavern@rus Большая ледяная пещера
+~
+~
+Z -1 17291
+S
+#17293
+@eng In the Great Ice Cavern@rus Внутри большой ледяной пещеры~
+@eng You stand in a huge ice cavern, the ceiling is some 80' above you. In the 
+center of the cavern, a bonfire roars, making the stalactites and stalagmites 
+leap and lurch as if the entire cavern were a demons mouth laughing at you.
+@rus Ты стоишь в огромной ледяной пещере. Потолок нависает над твоей головой 
+на 80 футов выше пола. В центре пещеры, пылает ревущее пламя костра, и 
+в свете его сталактиты со сталагмитами как будто движутся, превращая вход
+в пещеру в злую ухмылку смеющегося над тобой демона.
+~
+0 D forest
+D1 0
+@eng In the great ice cavern@rus Большая ледяная пещера
+~
+~
+Z -1 17296
+D2 0
+@eng In the great ice cavern@rus Большая ледяная пещера
+~
+~
+Z -1 17294
+D3 0
+@eng In the great ice cavern@rus Большая ледяная пещера
+~
+~
+Z -1 17292
+S
+#17294
+@eng At the Bonfire in the Great Ice Cavern@rus Внутри большой ледяной пещеры. Возле костра~
+@eng You stand next to a roaring bonfire in the great ice cavern. Logs some ten 
+feet in length are stacked crosswise to a height of 5'. The flames warm and 
+light the cavern, and most importantly, your backside. Bedrolls are cast 
+about the fire, and primitive shelving has been carved into the surrounding 
+stalagmites. The heat from the fire is so great that it has melted the ice into
+a pool of water.
+@rus Ты стоишь возле пылающего костра в ледяной пещере огромных размеров.
+Поленья длиной несколько метров сложены в большое кострище. Пламя 
+согревает и освещает пещеру, и, что более важно, твою спину. Возле костра 
+брошены подушки, а в скале вырезаны грубые полки, окруженные сталагмитами. 
+Жар огня так силен, что лед тает, образуя небольшой пруд с водой.
+~
+0 D forest
+D0 0
+@eng In the great ice cavern@rus Большая ледяная пещера
+~
+~
+Z -1 17293
+D1 0
+@eng In the great ice cavern@rus Большая ледяная пещера
+~
+~
+Z -1 17297
+D2 0
+@eng In the great ice cavern@rus Большая ледяная пещера
+~
+~
+Z -1 17295
+D3 0
+@eng In the great ice cavern@rus Большая ледяная пещера
+~
+~
+Z -1 17291
+S
+#17295
+@eng In the Great Ice Cavern@rus Внутри большой ледяной пещеры~
+@eng You stand in a huge ice cavern, the ceiling is some 80' above you. In the 
+center of the cavern, a bonfire roars, making the stalactites and stalagmites 
+leap and lurch as if the entire cavern were a demons mouth laughing at you.
+@rus Ты стоишь в огромной ледяной пещере. Потолок нависает над твоей головой 
+на 80 футов выше пола. В центре пещеры, пылает ревущее пламя костра, и 
+в свете его сталактиты со сталагмитами как будто движутся, превращая вход
+в пещеру в злую ухмылку смеющегося над тобой демона.
+~
+0 D forest
+D0 0
+@eng In the great ice cavern@rus Большая ледяная пещера
+~
+~
+Z -1 17294
+D1 0
+@eng In the great ice cavern@rus Большая ледяная пещера
+~
+~
+Z -1 17298
+D3 0
+@eng In the great ice cavern@rus Большая ледяная пещера
+~
+~
+Z -1 17290
+S
+#17296
+@eng In the Great Ice Cavern@rus Внутри большой ледяной пещеры~
+@eng You stand in a huge ice cavern, the ceiling is some 80' above you. In the 
+center of the cavern, a bonfire roars, making the stalactites and stalagmites 
+leap and lurch as if the entire cavern were a demons mouth laughing at you.
+@rus Ты стоишь в огромной ледяной пещере. Потолок нависает над твоей головой 
+на 80 футов выше пола. В центре пещеры, пылает ревущее пламя костра, и 
+в свете его сталактиты со сталагмитами как будто движутся, превращая вход
+в пещеру в злую ухмылку смеющегося над тобой демона.
+~
+0 D forest
+D2 0
+@eng In the great ice cavern@rus Большая ледяная пещера
+~
+~
+Z -1 17297
+D3 0
+@eng In the great ice cavern@rus Большая ледяная пещера
+~
+~
+Z -1 17293
+S
+#17297
+@eng In the Great Ice Cavern@rus Внутри большой ледяной пещеры~
+@eng Here a long wooden table and benches has been placed to serve as the dining 
+are for the men. Food is stored in hollowed stalagmites. Two smaller fires 
+blaze on either side of the bench.
+@rus Длинный деревянный стол и несколько скамей используются пиратами для 
+ежедневных трапез. Пищевые запасы хранятся в углублениях сталагмитов.
+Два небольших костра пылают по обе стороны скамьи.
+~
+0 D forest
+D0 0
+@eng In the great ice cavern@rus Большая ледяная пещера
+~
+~
+Z -1 17296
+D1 0
+@eng A thin sheet of ice@rus Тонкий слой льда
+~
+ice~
+ABCFZ -1 17299
+D2 0
+@eng In the great ice cavern@rus Большая ледяная пещера
+~
+~
+Z -1 17298
+D3 0
+@eng In the great ice cavern@rus Большая ледяная пещера
+~
+~
+Z -1 17294
+S
+#17298
+@eng In the Great Ice Cavern@rus Внутри большой ледяной пещеры~
+@eng You stand in a huge ice cavern, the ceiling is some 80' above you. In the 
+center of the cavern, a bonfire roars, making the stalactites and stalagmites 
+leap and lurch as if the entire cavern were a demons mouth laughing at you.
+@rus Ты стоишь в огромной ледяной пещере. Потолок нависает над твоей головой 
+на 80 футов выше пола. В центре пещеры, пылает ревущее пламя костра, и 
+в свете его сталактиты со сталагмитами как будто движутся, превращая вход
+в пещеру в злую ухмылку смеющегося над тобой демона.
+~
+0 D forest
+E ''
+runes wall~
+@eng Thraxton was here.
+@rus Здесь был Тракстон
+~
+D0 0
+@eng In the great ice cavern@rus Большая ледяная пещера
+~
+~
+Z -1 17297
+D3 0
+@eng In the great ice cavern@rus Большая ледяная пещера
+~
+~
+Z -1 17295
+S
+#17299
+@eng In the Ice Hall of the Pirate Lord@rus В Ледяной Зале лорда-пирата~
+@eng You have invaded the private hall of the Pirate Lord. Here, in this smaller 
+cavern, the walls have been covered with tapestries of depicting woodland 
+hunting scenes. A canopied bed is on the eastern half of the room, and a desk 
+on the western half. Two fires are lit here, well illuminating the room. 
+Carpeting covers the floor shorn of its stalagmites. Your spells flicker and 
+dim here. A rope ladder leads up.
+@rus Ты вторгся в личные покои лорда-пирата. Здесь, в меньшей пещере,
+стены покрыты гобеленами, изображающими сцены охоты в лесу.
+Кровать с балдахином занимает восточную половину комнаты, стол
+стоит на западной. Костры заливают комнату ярким светом.
+Из-под ковровых покрытий торчат острые сталагмиты. 
+Твое волшебство здесь становится слабым и едва-едва мерцает.
+Веревочная лестница (rope) поднимется вверх.
+~
+0 DN field
+E ''
+ladder rope~
+@eng You will kick yourself when you climb this ladder.
+@rus Пробуя подняться по лестнице, ты упрёшься головой в потолок.
+~
+D1 0
+@eng Inside the iceberg@rus Внутри айсберга
+~
+~
+Z -1 17278
+D3 0
+@eng A thin sheet of ice@rus Тонкий слой льда
+~
+ice~
+ABCFZ -1 17297
+S
+#0
+
+#SPECIALS
+M 17024 spec_fido	* the black crab
+M 17025 spec_breath_fire	* the lava worm
+M 17030 spec_breath_fire	* Pele, god of fire
+M 17035 spec_fido	* the tiger shark
+M 17036 spec_fido	* the great white shark
+M 17037 spec_fido	* the mako shark
+M 17038 spec_fido	* the hammerhead shark
+M 17039 spec_fido	* the blue shark
+M 17050 spec_cast_mage	* Lord Vulture
+S
+
+#RESETS
+D 0 17176 1 1	* In the Jungle: door to the east: closed
+D 0 17177 3 1	* At the Mouth of a Cave: door to the west: closed
+D 0 17190 5 1	* At the Throne of the Pirate Lord: door to the down: closed
+D 0 17192 4 1	* Inside the Dark Prison: door to the up: closed
+D 0 17212 3 2	* In the Pirates Cavern: door to the west: closed and locked
+D 0 17214 1 2	* In the Armory: door to the east: closed and locked
+D 0 17218 3 2	* In the Hall of the Pirate Lord: door to the west: closed and locked
+D 0 17220 1 2	* A Dark Cave: door to the east: closed and locked
+D 0 17237 2 1	* In the Central Shack: door to the south: closed
+D 0 17237 3 1	* In the Central Shack: door to the west: closed
+D 0 17239 1 1	* Inside the Barred Shack: door to the east: closed
+D 0 17240 0 1	* Inside the House on Stilts: door to the north: closed
+D 0 17259 2 1	* At the Gates to the Keep: door to the south: closed
+D 0 17260 0 1	* Inside the Hold of the Pirate Lord: door to the north: closed
+D 0 17260 1 1	* Inside the Hold of the Pirate Lord: door to the east: closed
+D 0 17260 3 1	* Inside the Hold of the Pirate Lord: door to the west: closed
+D 0 17261 3 1	* A Room in the Hold: door to the west: closed
+D 0 17262 1 1	* A Room in the Hold: door to the east: closed
+D 0 17263 1 1	* Inside the Hold of the Pirate Lord: door to the east: closed
+D 0 17263 3 1	* Inside the Hold of the Pirate Lord: door to the west: closed
+D 0 17264 3 1	* A Room in the Hold: door to the west: closed
+D 0 17265 1 1	* A Room in the Hold: door to the east: closed
+D 0 17266 1 1	* Inside the Hold of the Pirate Lord: door to the east: closed
+D 0 17266 2 2	* Inside the Hold of the Pirate Lord: door to the south: closed and locked
+D 0 17266 3 1	* Inside the Hold of the Pirate Lord: door to the west: closed
+D 0 17267 3 1	* A Room in the Hold: door to the west: closed
+D 0 17269 0 2	* In the Vast Hall of the Pirate Lord: door to the north: closed and locked
+D 0 17278 5 1	* Inside the Iceberg: door to the down: closed
+D 0 17297 1 2	* In the Great Ice Cavern: door to the east: closed and locked
+D 0 17299 3 2	* In the Ice Hall of the Pirate Lord: door to the west: closed and locked
+M 0 17012 1 17171 1	* the shipwright (On the Beach)
+E 0 17014 0 16		*	a wooden mallet: wielded
+M 0 17011 2 17174 1	* the pirate guard (In the Jungle)
+O 0 17011 0 17175	* the banana tree (In the Jungle)
+P 0 17012 0 17011 1	* the banana tree: a bunch of bananas
+M 0 17011 2 17176 1	* the pirate guard (In the Jungle)
+O 0 17013 0 17177	* a wooden sign (At the Mouth of a Cave)
+M 0 17013 2 17180 1	* the jungle savage (In the Savage Camp)
+M 0 17014 1 17181 1	* Chief Unga-Bunga (In the Savage Camp)
+E 0 17015 0 12		*	a feather robe: about the shoulders
+M 0 17013 2 17182 1	* the jungle savage (In the Savage Camp)
+M 0 17015 1 17185 1	* the sleepy pirate (At the Cave Entryway)
+M 0 17016 3 17186 1	* the drunken pirate (Inside the Cave)
+G 0 17016 0		*	a bottle of rum
+M 0 17016 3 17187 1	* the drunken pirate (Inside the Cave)
+G 0 17016 0		*	a bottle of rum
+M 0 17016 3 17188 1	* the drunken pirate (Inside the Cave)
+G 0 17016 0		*	a bottle of rum
+M 0 17020 1 17190 1	* a bond maiden (At the Throne of the Pirate Lord)
+M 0 17019 1 17190 1	* One-eye, the pirate lord (At the Throne of the Pirate Lord)
+E 0 17019 0 13		*	the {Ggirdle{x of {Rmight{x: around the waist
+E 0 17020 0 9		*	gauntlets of accuracy: on the hands
+M 0 17017 1 17192 1	* Princess Smallbody (Inside the Dark Prison)
+G 0 17017 0		*	LAID!
+M 0 17018 1 17193 1	* the navigator (Atop the Mountain)
+G 0 17018 0		*	a sextant
+M 0 17021 1 17194 1	* the kracken (In a Quiet Cove)
+G 0 17024 0		*	the kracken's eye
+M 0 17023 1 17196 1	* the black snake (On a Black Sand Beach)
+M 0 17025 3 17198 1	* the lava worm (Climbing the Black Mountain)
+M 0 17026 2 17200 1	* the lava lizard (Walking the Lava Flows)
+O 0 17022 0 17201	* a lava pool (Walking the Lava Flows)
+M 0 17026 2 17202 1	* the lava lizard (Walking the Lava Flows)
+O 0 17022 0 17202	* a lava pool (Walking the Lava Flows)
+M 0 17024 1 17204 1	* the black crab (On a Black Sand Beach)
+M 0 17025 3 17206 1	* the lava worm (Climbing the Black Mountain)
+M 0 17025 3 17208 1	* the lava worm (Climbing the Black Mountain)
+M 0 17030 1 17210 1	* Pele, god of fire (The Crater)
+E 0 17025 0 10		*	Armbands of the {RV{Yo{Rl{Yc{Ra{Yn{Ro{Ye{Rs{x: on the arms
+M 0 17022 1 17211 1	* the dock guard (In the Watery Cave)
+E 0 17023 0 16		*	a cutlass: wielded
+O 0 17023 0 17214	* a cutlass (In the Armory)
+O 0 17027 0 17214	* a javelin (In the Armory)
+M 0 17027 3 17215 1	* the snarling pirate (In the Pirates Cavern)
+E 0 17023 0 16		*	a cutlass: wielded
+M 0 17027 3 17217 1	* the snarling pirate (In the Pirates Cavern)
+E 0 17023 0 16		*	a cutlass: wielded
+M 0 17028 1 17218 1	* Redbeard (In the Hall of the Pirate Lord)
+E 0 17027 0 17		*	a javelin: held in the hands
+E 0 17028 0 12		*	the cloak of looting: about the shoulders
+G 0 17021 0		*	an iron key
+M 0 17027 3 17219 1	* the snarling pirate (The Barracks)
+E 0 17023 0 16		*	a cutlass: wielded
+M 0 17029 1 17220 1	* Lalila, the Elven Prince (A Dark Cave)
+O 0 17026 0 17220	* a huge bronze chest (A Dark Cave)
+P 0 17030 0 17026 1	* a huge bronze chest: the pirate's hoard
+P 0 17029 0 17026 1	* a huge bronze chest: Ettin's blood
+M 0 17037 2 17222 1	* the mako shark (On the Seas Surrounding an Atoll)
+M 0 17039 2 17224 1	* the blue shark (On the Seas Surrounding an Atoll)
+M 0 17035 1 17229 1	* the tiger shark (On the Seas Surrounding an Atoll)
+M 0 17036 1 17231 1	* the great white shark (At the Lagoon Entrance)
+M 0 17038 1 17232 1	* the hammerhead shark (On the Seas Surrounding an Atoll)
+M 0 17039 2 17233 1	* the blue shark (On the Seas Surrounding an Atoll)
+M 0 17037 2 17235 1	* the mako shark (On the Seas Surrounding an Atoll)
+M 0 17034 1 17236 1	* Stiggs, the cabin boy (In the Quiet Lagoon)
+E 0 17037 0 0		*	a watchman's lantern: as a light
+O 0 17036 0 17236	* an outrigger called 'Waverunner' (In the Quiet Lagoon)
+P 0 17033 0 17034 1	* a padlocked chest: the nullifier orb
+M 0 17033 3 17237 1	* the bandy legged pirate (In the Central Shack)
+M 0 17033 3 17238 1	* the bandy legged pirate (The Barracks)
+M 0 17032 1 17239 1	* Shifty the trader (Inside the Barred Shack)
+O 0 17034 0 17239	* a padlocked chest (Inside the Barred Shack)
+P 0 17040 0 17034 1	* a padlocked chest: doubloons and booty
+M 0 17031 1 17240 1	* Mizzenmast (Inside the House on Stilts)
+E 0 17031 0 7		*	sharkskin pants: on the legs
+E 0 17032 0 17		*	a crossbow of poison: held in the hands
+G 0 17035 0		*	a metal key
+O 0 17039 0 17240	* a hemp hammock (Inside the House on Stilts)
+M 0 17040 1 17240 1	* Did I say coral? I meant clam (Inside the House on Stilts)
+G 0 17038 0		*	a giant pearl
+M 0 17041 1 17241 1	* the hawkwoman (In the Air Beneath the Flying Mountain)
+M 0 17042 3 17242 1	* the hawkman (In the Air Beneath the Flying Mountain)
+M 0 17042 3 17246 1	* the hawkman (In the Air Beneath the Flying Mountain)
+M 0 17043 1 17247 1	* the hawklord (In the Calm Air Beneath the Flying Mountain)
+E 0 17043 0 12		*	the vest of the Hawklord: about the shoulders
+P 0 17051 0 17043 1	* the vest of the Hawklord: a throwing dagger
+P 0 17051 0 17043 1	* the vest of the Hawklord: a throwing dagger
+P 0 17051 0 17043 1	* the vest of the Hawklord: a throwing dagger
+M 0 17042 3 17248 1	* the hawkman (In the Calm Air Beneath the Flying Mountain)
+O 0 17042 0 17248	* a floating stone (In the Calm Air Beneath the Flying Mountain)
+O 0 17044 0 17251	* a winch ladder (On the Flying Mountain)
+M 0 17044 4 17253 1	* the terra-kan (On the Flying Mountain)
+G 0 17045 0		*	a gizzard
+M 0 17044 4 17254 1	* the terra-kan (On the Flying Mountain)
+G 0 17045 0		*	a gizzard
+M 0 17044 4 17255 1	* the terra-kan (On the Flying Mountain)
+G 0 17045 0		*	a gizzard
+M 0 17044 4 17258 1	* the terra-kan (On the Flying Mountain)
+G 0 17045 0		*	a gizzard
+M 0 17045 6 17261 1	* the gambling pirate (A Room in the Hold)
+M 0 17045 6 17261 1	* the gambling pirate (A Room in the Hold)
+M 0 17045 6 17265 1	* the gambling pirate (A Room in the Hold)
+M 0 17045 6 17265 1	* the gambling pirate (A Room in the Hold)
+M 0 17047 1 17266 1	* the elite pirate (Inside the Hold of the Pirate Lord)
+M 0 17045 6 17267 1	* the gambling pirate (A Room in the Hold)
+M 0 17045 6 17267 1	* the gambling pirate (A Room in the Hold)
+M 0 17046 1 17268 1	* the first mate (A Room in the Hold)
+G 0 17041 0		*	a golden hawk key
+M 0 17049 1 17269 1	* Mutton the chef (In the Vast Hall of the Pirate Lord)
+M 0 17048 1 17270 1	* Alindra of Dunkeldorf (In the Private Quarters of the Pirate Lord)
+M 0 17050 1 17270 1	* Lord Vulture (In the Private Quarters of the Pirate Lord)
+E 0 17049 0 10		*	Lord Vulture's wings: on the arms
+E 0 17050 0 17		*	the eye of the eagle: held in the hands
+O 0 17046 0 17270	* an iron bound chest (In the Private Quarters of the Pirate Lord)
+P 0 17047 0 17046 1	* an iron bound chest: a mountain of silver
+P 0 17048 0 17046 1	* an iron bound chest: the everfull mug
+M 0 17051 1 17272 1	* the orca (Sailing the Sea of Ice)
+M 0 17052 1 17274 1	* the great northern roc (Sailing the Sea of Ice)
+M 0 17053 1 17276 1	* the howling wolf pack (Sailing the Sea of Ice)
+M 0 17054 1 17278 1	* the towering cave bear (Inside the Iceberg)
+M 0 17066 3 17290 1	* the pirate in fur skins (In the Great Ice Cavern)
+E 0 17053 0 12		*	a fur skin cloak: about the shoulders
+E 0 17054 0 5		*	a fur skin vest: on the body
+E 0 17055 0 7		*	fur skin leggings: on the legs
+E 0 17056 0 11		*	a spiked buckler: as a shield
+E 0 17057 0 17		*	an icicle: held in the hands
+M 0 17066 3 17293 1	* the pirate in fur skins (In the Great Ice Cavern)
+E 0 17053 0 12		*	a fur skin cloak: about the shoulders
+E 0 17054 0 5		*	a fur skin vest: on the body
+E 0 17055 0 7		*	fur skin leggings: on the legs
+E 0 17056 0 11		*	a spiked buckler: as a shield
+E 0 17057 0 17		*	an icicle: held in the hands
+M 0 17070 1 17294 1	* the frozen captive (At the Bonfire in the Great Ice Cavern)
+O 0 17058 0 17294	* the melting pool (At the Bonfire in the Great Ice Cavern)
+O 0 17070 0 17294	* a roaring bonfire (At the Bonfire in the Great Ice Cavern)
+M 0 17067 1 17295 1	* the lurking guard (In the Great Ice Cavern)
+E 0 17053 0 12		*	a fur skin cloak: about the shoulders
+E 0 17054 0 5		*	a fur skin vest: on the body
+E 0 17055 0 7		*	fur skin leggings: on the legs
+E 0 17059 0 16		*	a garrote wire: wielded
+M 0 17068 1 17297 1	* the helmsman (In the Great Ice Cavern)
+E 0 17053 0 12		*	a fur skin cloak: about the shoulders
+E 0 17054 0 5		*	a fur skin vest: on the body
+E 0 17055 0 7		*	fur skin leggings: on the legs
+E 0 17056 0 11		*	a spiked buckler: as a shield
+E 0 17061 0 16		*	a mighty two handed battle axe: wielded
+E 0 17060 0 17		*	the ghost stone: held in the hands
+M 0 17066 3 17298 1	* the pirate in fur skins (In the Great Ice Cavern)
+E 0 17053 0 12		*	a fur skin cloak: about the shoulders
+E 0 17054 0 5		*	a fur skin vest: on the body
+E 0 17055 0 7		*	fur skin leggings: on the legs
+E 0 17056 0 11		*	a spiked buckler: as a shield
+E 0 17057 0 17		*	an icicle: held in the hands
+M 0 17069 1 17299 1	* Cutter, the 5th Pirate Lord (In the Ice Hall of the Pirate Lord)
+E 0 17053 0 12		*	a fur skin cloak: about the shoulders
+E 0 17062 0 5		*	frost armor: on the body
+E 0 17055 0 7		*	fur skin leggings: on the legs
+E 0 17056 0 11		*	a spiked buckler: as a shield
+E 0 17063 0 16		*	"Frostbite" sword of winter: wielded
+E 0 17060 0 17		*	the ghost stone: held in the hands
+G 0 17068 0		*	the evil eye
+O 0 17064 0 17299	* a bag of gold (In the Ice Hall of the Pirate Lord)
+O 0 17065 0 17299	* a bag of silver (In the Ice Hall of the Pirate Lord)
+O 0 17066 0 17299	* a bag of gems (In the Ice Hall of the Pirate Lord)
+O 0 17067 0 17299	* a bag of jewelry (In the Ice Hall of the Pirate Lord)
+O 0 17069 0 17299	* a map to Hell's Reef (In the Ice Hall of the Pirate Lord)
+S
+
+#SHOPS
+17012 13 22 0 0 0 125 75 0 23 0 ~
+17032 8 0 0 0 0 125 75 0 23 0 ~
+0
+
+#OLIMITS
+O 17019 1	* the {Ggirdle{x of {Rmight{x
+O 17025 1	* Armbands of the {RV{Yo{Rl{Yc{Ra{Yn{Ro{Ye{Rs{x
+O 17063 3	* "Frostbite" sword of winter
+S
+
+#OMPROGS
+O 17025 wear_prog wear_prog_armbands	* `Armbands of the {RV{Yo{Rl{Yc{Ra{Yn{Ro{Ye{Rs{x'
+O 17025 remove_prog remove_prog_armbands	* `Armbands of the {RV{Yo{Rl{Yc{Ra{Yn{Ro{Ye{Rs{x'
+O 17025 fight_prog fight_prog_armbands	* `Armbands of the {RV{Yo{Rl{Yc{Ra{Yn{Ro{Ye{Rs{x'
+S
+
+#$

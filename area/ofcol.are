@@ -1,0 +1,298 @@
+#AREADATA
+Name Ofcol~
+VNUMs 5500 5599
+Credits Alfa~
+Security 5
+LevelRange 1 100
+End
+
+#OBJECTS
+#5500
+leggings iron~
+@eng iron leggings@rus ~~железные~~ ~~поножи~~~
+@eng A iron leggings lies here.@rus Железные поножи лежат тут.~
+unknown~
+armor G AF
+15 15 15 10 0
+50 3 500 P
+A
+2 1
+A
+13 20
+G none
+#5501
+armour iron~
+@eng iron armour@rus ~~железная~~ ~~броня~~~
+@eng An iron armour lies here.@rus Железная броня лежит здесь.~
+iron~
+armor G AD
+20 20 20 15 0
+50 10 500 P
+A
+1 1
+A
+13 20
+A
+19 6
+G female
+#5502
+sleeves iron~
+@eng iron sleeves@rus ~~железные~~ ~~наручи~~~
+@eng An iron sleeves lies here.@rus Железные наручи лежат тут.~
+iron~
+armor G AI
+15 15 15 10 0
+50 4 500 P
+A
+2 1
+A
+13 20
+G none
+#5503
+shield iron~
+@eng iron shield@rus ~~железный~~ ~~щит~~~
+@eng An iron shield lies here.@rus Железный щит лежит здесь.~
+iron~
+armor G AJ
+18 18 18 15 0
+50 8 500 P
+A
+19 5
+A
+13 20
+A
+17 20
+G male
+#5504
+bow wooden~
+@eng wooden bow@rus ~~деревянный~~ ~~лук~~~
+@eng Wooden bow lies here.@rus Деревянный лук лежит здесь.~
+wood~
+weapon B AN
+bow 7 7 none 0
+50 1 1000 P
+G male
+#0
+
+#ROOMS
+#5550
+Village street~
+@eng You stand at the small village street in Ofcol.
+From here you see small houses and only few people.
+North of here the village street continues up to the small
+square where some people are gathered as always.
+@rus Ты стоишь на маленькой деревенской улице (street) в Ofcol.
+Отсюда видны невысокие здания и совсем немного людей.
+Улица ведет на север (north), пока не упираеться в маленькую
+площадь, где как всегда толпиться народ.
+~
+0 0 city
+D0 0
+@eng You look up the village street noticing nothing special at all.
+@rus Ты осматриваешь деревенскую улицу и не видишь ничего особенного.
+~
+~
+Z -1 5551
+D2 0
+@eng The wide road leads south here towards the T-crossing.
+@rus Широкая дорога лежит на юг(south) там находится перекресток(T-crossing).
+~
+~
+Z -1 314
+S
+#5551
+@eng Village street@rus Деревенская улица~
+@eng You are standing on the village street of Ofcol.
+East from here is a small alley and north you enter the village
+square. Towards the south you can leave Ofcol.
+@rus Ты стоишь на улице деревни Ofcol.
+К востоку (east) отсюда маленький переулок, а на севере (north) - 
+деревенская площадь. Чтобы покинуть Ofcol идите на юг (south).
+~
+0 0 city
+D0 0
+@eng The village square is as usual not overcrowded.
+@rus На площади, как обычно, немного народу.
+~
+~
+Z -1 5552
+D1 0
+@eng The small alley looks relative peaceful.
+@rus Маленький переулок выглядит относительно мирным.
+~
+~
+Z -1 5553
+D2 0
+@eng You see the village street eventually becoming the wide road.
+@rus Ты стоишь на улице, которая назаметно переходит в широкую дорогу.
+~
+~
+Z -1 5550
+S
+#5552
+Village square~
+@eng The village square is a place where inhabitants of Ofcol gather
+to talk, trade and sell items and just have a good time.
+You see a small shop to the west and the local inn to the north.
+If you leave south you go to village street.
+@rus Деревенская площадь - место, где жители Ofcol собираються чтобы
+пообщаться, продать и купить что-нибудь, или просто хорошо провести время.
+Ты видишь маленький магазин на западе (west) и таверну на севере (north). 
+Если Ты пойдешь на юг (south), то выйдешь на деревенскую улицу.
+~
+0 0 city
+D0 0
+@eng You see a local inn called 'The Ofcol Local Inn'. Looks nice.
+@rus Ты видишь таверну 'The Ofcol Local Inn'. Выглядит превосходно.
+~
+~
+Z -1 5556
+D2 0
+@eng You see the village street of Ofcol.
+@rus Ты видишь улицу деревни Ofcol.
+~
+~
+Z -1 5551
+D3 0
+@eng A small shop with the sign 'Luxan's Mixed goods' hanging in front of it.
+@rus Маленький магазин с вывеской 'Luxan's Mixed goods'.
+~
+~
+Z -1 5555
+S
+#5553
+The small alley~
+@eng You are in a small, quiet alley.  From here you see the village street
+to the west and a small room lies to the south.
+@rus Ты находишься в маленьком, тихом переулке. Отсюда Ты видишь деревенскую 
+улицу на западе (west) и маленькую комнату на юге (south).
+~
+0 0 city
+D1 0
+@eng You see a big intersection.
+@rus Ты видишь большой перкресток.
+~
+~
+Z 0 601
+D2 0
+@eng It looks like the future site of a training room.
+@rus Она выглядит как the future site of a training room.
+~
+~
+Z -1 5554
+D3 0
+@eng You notice nothing but the village street.
+@rus Ты видишь только деревенскую улицу.
+~
+~
+Z -1 5551
+S
+#5554
+The future training room~
+@eng This is the future site of a training room.  The only exit is north
+leading to the small alley.
+@rus This is the future site of a training room.  Единственный выход - 
+на север (north), в маленький переулок.
+~
+0 D city
+D0 0
+@eng You are able to see the small alley, really not very interesting.
+@rus Ты видишь маленький переулок, на самом деле не очень интересный.
+~
+~
+Z -1 5553
+S
+#5555
+Luxan's mixed shop~
+@eng You are standing in a small shop, filled with all kinds of goods.
+Here you might be able to find just the thing you're looking for.
+The only exit is east to village square.
+@rus Ты стоишь в маленьком магазине, заполненном всеми видами товаров.
+Здесь Ты можешь найти все, что ищешь.
+К востоку (east) - единственный выход на деревескую площадь.
+~
+0 D city
+D1 0
+@eng The village square is as usual not overcrowded.
+@rus На площади, как обычно, немного народу.
+~
+~
+Z -1 5552
+S
+#5556
+The Local Inn~
+@eng You are in the local inn, where the peaceful citizens of Ofcol
+gather to have a drink or 5 if they have dry throats.
+You can't help thinking that Ofcol is a dry city, when you see the
+many people here.
+The only exit is south to the village square.
+@rus Ты находишься в местной гостинице, где мирные граждане Ofcol собираются, 
+чтобы промочить горло после трудного дня. Ты не можешь остановиться на 
+мысли, что Ofcol - глухая окраина, когда видишь так много людей.
+На юге (south) - деревенская площадь.
+~
+0 D city
+D2 0
+@eng The village square is as usual not overcrowded.
+@rus На площади, как обычно, немного народу.
+~
+~
+Z -1 5552
+S
+#5577
+Ravan's hideout~
+@eng This place is a small, cosy place where no one disturbs you all
+the time. The room has little decoration except for some pictures
+on the wall.
+You notice that there are no exits from this room.
+@rus Это - маленькое удобное местечко, где никто тебя не потревожит. 
+Комната неплохо художественно оформлена (decoration) 
+картинами (pictures), висящими на стене.
+Ты невидишь ни одного выхода из комнаты.
+~
+0 C inside
+E ''
+friend friends~
+@eng The list include such prominent names as : God, Lottie, Kurgan,
+Ezzard, Mike, Sprocket and Stormbringer.
+@rus Список включает такие имена, как: God, Lottie, Kurgan,
+Ezzard, Mike, Sprocket and Stormbringer.
+~
+E ''
+foe foes enemies~
+@eng There is only one picture yet... Dim.
+It pictures him hanging from a gallow, north of the town.
+It has the letters R.I.P. inscripted underneath.
+@rus Здесь только одна картина пока...
+Она изображает его висяшего на виселице, на севере города.
+на нем выгровировано R.I.P. - Покойся С Миром.
+~
+E ''
+pictures picture decoration~
+@eng These pictures show the friend's and foe's of Ravan.
+They are easy to separate, as most of the foe's have the letters
+R.I.P. inscripted underneath them.
+@rus Эти картины показывают друзей(friend's) и врагов(foe's) Raven'a.
+Они легко различимы, так как на большинстве врагов выгравировано
+R.I.P. - Покойся С Миром.
+~
+S
+#0
+
+#RESETS
+M 0 303 5 5550 3	* the citizen (Village street)
+G 0 5500 0		*	iron leggings
+M 0 304 5 5552 3	* the citizen (Village square)
+E 0 3020 0 16		*	a dagger: wielded
+M 0 304 5 5553 3	* the citizen (The small alley)
+M 0 306 1 5555 1	* Luxan (Luxan's mixed shop)
+G 0 304 0		*	wild flowers
+G 0 3030 0		*	a torch
+M 0 303 5 5556 3	* the citizen (The Local Inn)
+M 0 308 1 5556 1	* the Innkeeper (The Local Inn)
+G 0 3000 0		*	a barrel of beer
+G 0 3001 0		*	a bottle of beer
+M 0 350 1 5577 1	* the pet dragon (Ravan's hideout)
+S
+
+#$

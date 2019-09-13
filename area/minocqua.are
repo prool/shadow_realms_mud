@@ -1,0 +1,1912 @@
+#AREADATA
+Name Lake Minocqua~
+VNUMs 50200 50400
+Credits Ignition~
+Security 5
+LevelRange 40 60
+Flags closed noquest~
+End
+
+#MOBILES
+#50200
+test~
+test~
+test is here
+~
+~
+human~
+A 0 0 0
+45 0 25d10+3000 1d1+1000 8d4+16 stab
+3 3 3 3
+0 0 0 0
+stand stand male 0
+0 0 medium unknown
+#0
+
+#OBJECTS
+#50236
+tree wood~
+@eng The Greater drought tree@rus Большое засохшее дерево~
+@eng The Greater drought tree stands in the middle of clearing.@rus Большое засохшее дерево стоит посреди поляны.~
+wood~
+container 0 0
+1000 0 0 100 100
+50 100 0 P
+G none
+#0
+
+#ROOMS
+#50200
+@eng A small path in the dense forest@rus Тропинка через густой лес ~
+~
+0 0 forest
+D2 0
+~
+~
+Z 0 50201
+S
+#50201
+@eng A small path in the dense forest@rus Тропинка через густой лес ~
+~
+0 0 forest
+D0 0
+~
+~
+Z 0 50200
+D2 0
+~
+~
+Z 0 50202
+S
+#50202
+@eng A small path in the dense forest@rus Тропинка через густой лес ~
+~
+0 0 forest
+D0 0
+~
+~
+Z 0 50201
+D2 0
+~
+~
+Z 0 50203
+S
+#50203
+@eng A small path in the dense forest@rus Тропинка через густой лес~
+~
+0 0 forest
+D0 0
+~
+~
+Z 0 50202
+D2 0
+~
+~
+Z 0 50204
+S
+#50204
+@eng Small glade@rus Маленькая полянка~
+~
+0 0 forest
+D0 0
+~
+~
+Z 0 50203
+D3 0
+~
+~
+Z 0 50205
+S
+#50205
+@eng A small path in the forest@rus Тропинка через лес ~
+~
+0 0 forest
+D1 0
+~
+~
+Z 0 50204
+D2 0
+~
+~
+Z 0 50206
+S
+#50206
+@eng A small path in the forest@rus Тропинка через лес ~
+~
+0 0 forest
+D0 0
+~
+~
+Z 0 50205
+D2 0
+~
+~
+Z 0 50207
+S
+#50207
+@eng Edge of the forest@rus Опушка леса~
+~
+0 0 forest
+D0 0
+~
+~
+Z 0 50206
+D1 0
+~
+~
+Z 0 50208
+D3 0
+~
+~
+Z 0 50337
+S
+#50208
+@eng Road along lake@rus Дорога вдоль озера~
+~
+0 0 inside
+D1 0
+~
+~
+Z 0 50209
+D3 0
+~
+~
+Z 0 50207
+S
+#50209
+@eng Before house of fisherman@rus Перед домом рыбака~
+~
+0 0 inside
+D1 0
+~
+~
+Z 0 50211
+D2 0
+~
+~
+Z 0 50210
+D3 0
+~
+~
+Z 0 50208
+S
+#50210
+@eng House of fisherman@rus Дом рыбака~
+~
+0 0 inside
+D0 0
+~
+~
+Z 0 50209
+S
+#50211
+@eng Road along lake@rus Дорога вдоль озера~
+~
+0 0 inside
+D1 0
+~
+~
+Z 0 50212
+D3 0
+~
+~
+Z 0 50209
+S
+#50212
+@eng Road along lake@rus Дорога вдоль озера~
+~
+0 0 inside
+D0 0
+~
+~
+Z 0 50213
+D3 0
+~
+~
+Z 0 50211
+S
+#50213
+@eng Edge of the forest@rus Опушка леса~
+~
+0 0 inside
+D0 0
+~
+~
+Z 0 50214
+D1 0
+~
+~
+Z 0 50215
+D2 0
+~
+~
+Z 0 50212
+S
+#50214
+~
+~
+0 0 inside
+D2 0
+~
+~
+Z 0 50213
+S
+#50215
+@eng Edge of the forest@rus Опушка леса~
+~
+0 0 inside
+D1 0
+~
+~
+Z 0 50216
+D3 0
+~
+~
+Z 0 50213
+S
+#50216
+@eng Edge of the forest@rus Опушка леса~
+~
+0 0 inside
+D0 0
+~
+~
+Z 0 50217
+D2 0
+~
+~
+Z 0 50221
+D3 0
+~
+~
+Z 0 50215
+S
+#50217
+@eng Path in light woods@rus Тропинка в редком лесу~
+~
+0 0 inside
+D0 0
+~
+~
+Z 0 50218
+D2 0
+~
+~
+Z 0 50216
+S
+#50218
+@eng Clearing in the light woods@rus Лесная поляна~
+~
+0 0 inside
+D1 0
+~
+~
+Z 0 50219
+D2 0
+~
+~
+Z 0 50217
+S
+#50219
+@rus Ate observable path in the woods~
+~
+0 0 inside
+D0 0
+~
+~
+Z 0 50220
+D3 0
+~
+~
+Z 0 50218
+S
+#50220
+@eng Near parched well@rus У пересохшего колодца~
+~
+0 0 inside
+D2 0
+~
+~
+Z 0 50219
+D5 0
+~
+~
+Z 0 50340
+S
+#50221
+@eng Road along lake@rus Дорога вдоль озера~
+~
+0 0 inside
+D0 0
+~
+~
+Z 0 50216
+D1 0
+~
+~
+Z 0 50222
+S
+#50222
+@eng A small clearing@rus Небольшая полянка~
+~
+0 0 inside
+D1 0
+~
+~
+Z 0 50223
+D2 0
+~
+~
+Z 0 50225
+D3 0
+~
+~
+Z 0 50221
+S
+#50223
+@eng Mountain path in woods@rus Горная тропинка в лесу~
+~
+0 0 inside
+D0 0
+~
+~
+Z 0 50224
+D3 0
+~
+~
+Z 0 50222
+S
+#50224
+@eng Spider's den@rus Логово паука~
+~
+0 0 inside
+D2 0
+~
+~
+Z 0 50223
+S
+#50225
+@eng Road along lake@rus Дорога вдоль озера~
+~
+0 0 inside
+D0 0
+~
+~
+Z 0 50222
+D2 0
+~
+~
+Z 0 50226
+S
+#50226
+@eng Road along lake@rus Дорога вдоль озера~
+~
+0 0 inside
+D0 0
+~
+~
+Z 0 50225
+D2 0
+~
+~
+Z 0 50227
+S
+#50227
+@eng Road along lake@rus Дорога вдоль озера~
+~
+0 0 inside
+D0 0
+~
+~
+Z 0 50226
+D1 0
+~
+~
+Z 0 50228
+S
+#50228
+@eng Edge of the forest@rus Опушка леса~
+~
+0 0 inside
+D1 0
+~
+~
+Z 0 50229
+D2 0
+~
+~
+Z 0 50231
+D3 0
+~
+~
+Z 0 50227
+S
+#50229
+~
+~
+0 0 inside
+D0 0
+~
+~
+Z 0 50230
+D3 0
+~
+~
+Z 0 50228
+S
+#50230
+~
+~
+0 0 inside
+D2 0
+~
+~
+Z 0 50229
+S
+#50231
+@eng Edge of the forest@rus Опушка леса~
+~
+0 0 inside
+D0 0
+~
+~
+Z 0 50228
+D2 0
+~
+~
+Z 0 50232
+S
+#50232
+@eng Edge of the forest@rus Опушка леса~
+~
+0 0 inside
+D0 0
+~
+~
+Z 0 50231
+D2 0
+~
+~
+Z 0 50233
+S
+#50233
+@eng Edge of the forest@rus Опушка леса~
+~
+0 0 inside
+D0 0
+~
+~
+Z 0 50232
+D1 0
+~
+~
+Z 0 50234
+D3 0
+~
+~
+Z 0 50237
+S
+#50234
+@eng Path in the woods@rus Лесная тропинка~
+~
+0 0 inside
+D1 0
+~
+~
+Z 0 50235
+D3 0
+~
+~
+Z 0 50233
+S
+#50235
+@eng Path in thicket a wood@rus Тропинка в чащу леса~
+~
+0 0 inside
+D2 0
+~
+~
+Z 0 50236
+D3 0
+~
+~
+Z 0 50234
+S
+#50236
+@eng Near drought tree@rus У засохшего дерева~
+~
+0 0 inside
+D0 0
+~
+~
+Z 0 50235
+S
+#50237
+@eng Road along lake@rus Дорога вдоль озера~
+~
+0 0 inside
+D1 0
+~
+~
+Z 0 50233
+D2 0
+~
+~
+Z 0 50238
+S
+#50238
+@eng Road along lake@rus Дорога вдоль озера~
+~
+0 0 inside
+D0 0
+~
+~
+Z 0 50237
+D2 0
+~
+~
+Z 0 50239
+S
+#50239
+@eng Road along lake@rus Дорога вдоль озера~
+~
+0 0 inside
+D0 0
+~
+~
+Z 0 50238
+D2 0
+~
+~
+Z 0 50240
+S
+#50240
+@eng A small clearing@rus НебольшаЯ полянка~
+~
+0 0 inside
+D0 0
+~
+~
+Z 0 50239
+D1 0
+~
+~
+Z 0 50241
+D3 0
+~
+~
+Z 0 50243
+S
+#50241
+~
+~
+0 0 inside
+D2 0
+~
+~
+Z 0 50242
+D3 0
+~
+~
+Z 0 50240
+S
+#50242
+~
+~
+0 0 inside
+D0 0
+~
+~
+Z 0 50241
+S
+#50243
+@eng Road along lake@rus Дорога вдоль озера~
+~
+0 0 inside
+D1 0
+~
+~
+Z 0 50240
+D2 0
+~
+~
+Z 0 50244
+S
+#50244
+@eng Road along lake@rus Дорога вдоль озера~
+~
+0 0 inside
+D0 0
+~
+~
+Z 0 50243
+D3 0
+~
+~
+Z 0 50245
+S
+#50245
+@eng Road along lake@rus Дорога вдоль озера~
+~
+0 0 inside
+D1 0
+~
+~
+Z 0 50244
+D2 0
+~
+~
+Z 0 50246
+S
+#50246
+@eng Road along lake@rus Дорога вдоль озера~
+~
+0 0 inside
+D0 0
+~
+~
+Z 0 50245
+D2 0
+~
+~
+Z 0 50247
+S
+#50247
+@eng Undergrowth@rus Подлесок~
+~
+0 0 inside
+D0 0
+~
+~
+Z 0 50246
+D1 0
+~
+~
+Z 0 50248
+D3 0
+~
+~
+Z 0 50251
+S
+#50248
+~
+~
+0 0 inside
+D2 0
+~
+~
+Z 0 50249
+D3 0
+~
+~
+Z 0 50247
+S
+#50249
+~
+~
+0 0 inside
+D0 0
+~
+~
+Z 0 50248
+D1 0
+~
+~
+Z 0 50250
+S
+#50250
+~
+~
+0 0 inside
+D3 0
+~
+~
+Z 0 50249
+D5 0
+~
+~
+Z 0 50339
+S
+#50251
+@eng Road along lake@rus Дорога вдоль озера~
+~
+0 0 inside
+D1 0
+~
+~
+Z 0 50247
+D2 0
+~
+~
+Z 0 50252
+S
+#50252
+@eng Road along lake@rus Дорога вдоль озера~
+~
+0 0 inside
+D0 0
+~
+~
+Z 0 50251
+D2 0
+~
+~
+Z 0 50253
+S
+#50253
+@eng Road along lake@rus Дорога вдоль озера~
+~
+0 0 inside
+D0 0
+~
+~
+Z 0 50252
+D2 0
+~
+~
+Z 0 50254
+S
+#50254
+@eng Small glade@rus Маленькая поляна~
+~
+0 0 forest
+D0 0
+~
+~
+Z 0 50253
+D2 0
+~
+~
+Z 0 50255
+D3 0
+~
+~
+Z 0 50260
+S
+#50255
+~
+~
+0 0 inside
+D0 0
+~
+~
+Z 0 50254
+D1 0
+~
+~
+Z 0 50256
+S
+#50256
+~
+~
+0 0 inside
+D2 0
+~
+~
+Z 0 50257
+D3 0
+~
+~
+Z 0 50255
+S
+#50257
+~
+~
+0 0 inside
+D0 0
+~
+~
+Z 0 50256
+D2 0
+~
+~
+Z 0 50258
+S
+#50258
+~
+~
+0 0 inside
+D0 0
+~
+~
+Z 0 50257
+D1 0
+~
+~
+Z 0 50259
+S
+#50259
+~
+~
+0 0 inside
+D3 0
+~
+~
+Z 0 50258
+S
+#50260
+@eng Edge of the forest@rus Опушка леса~
+~
+0 0 inside
+D1 0
+~
+~
+Z 0 50254
+D3 0
+~
+~
+Z 0 50261
+S
+#50261
+@eng Edge of the forest@rus Опушка леса~
+~
+0 0 inside
+D1 0
+~
+~
+Z 0 50260
+D2 0
+~
+~
+Z 0 50262
+D3 0
+~
+~
+Z 0 50263
+S
+#50262
+~
+~
+0 0 inside
+D0 0
+~
+~
+Z 0 50261
+S
+#50263
+@eng Edge of the forest@rus Опушка леса~
+~
+0 0 inside
+D1 0
+~
+~
+Z 0 50261
+D3 0
+~
+~
+Z 0 50264
+S
+#50264
+@eng Edge of the forest@rus Опушка леса~
+~
+0 0 inside
+D0 0
+~
+~
+Z 0 50265
+D1 0
+~
+~
+Z 0 50263
+S
+#50265
+@eng Road along lake@rus Дорога вдоль озера~
+~
+0 0 inside
+D2 0
+~
+~
+Z 0 50264
+D3 0
+~
+~
+Z 0 50266
+S
+#50266
+@eng Road along lake@rus Дорога вдоль озера~
+~
+0 0 inside
+D1 0
+~
+~
+Z 0 50265
+D3 0
+~
+~
+Z 0 50267
+S
+#50267
+@eng Fork of roads@rus Развилка дорог~
+~
+0 0 inside
+D0 0
+~
+~
+Z 0 50301
+D1 0
+~
+~
+Z 0 50266
+D3 0
+~
+~
+Z 0 50268
+S
+#50268
+@eng Edge of a forest@rus Опушка леса~
+~
+0 0 inside
+D1 0
+~
+~
+Z 0 50267
+D2 0
+~
+~
+Z 0 50269
+S
+#50269
+@eng Path in wood@rus Тропа в лесу~
+~
+0 0 inside
+D0 0
+~
+~
+Z 0 50268
+D2 0
+~
+~
+Z 0 50270
+S
+#50270
+@eng A little observable path through forest@rus Чуть заметная тропинка через лес~
+~
+0 0 inside
+D0 0
+~
+~
+Z 0 50269
+D3 0
+~
+~
+Z 0 50271
+S
+#50271
+@eng A little observable path through forest@rus Чуть заметная тропинка через лес~
+~
+0 0 inside
+D1 0
+~
+~
+Z 0 50270
+D2 0
+~
+~
+Z 0 50272
+S
+#50272
+@eng A little observable path through forest@rus Чуть заметная тропинка через лес~
+~
+0 0 inside
+D0 0
+~
+~
+Z 0 50271
+D2 0
+~
+~
+Z 0 50273
+D3 0
+~
+~
+Z 0 50276
+S
+#50273
+@eng Thicket a wood@rus Чаща леса~
+~
+0 0 inside
+D0 0
+~
+~
+Z 0 50272
+D1 0
+~
+~
+Z 0 50274
+S
+#50274
+@eng Thicket a wood@rus Чаща леса~
+~
+0 0 inside
+D2 0
+~
+~
+Z 0 50275
+D3 0
+~
+~
+Z 0 50273
+S
+#50275
+@eng Glade in wood@rus Поляна в лесу~
+~
+0 0 inside
+D0 0
+~
+~
+Z 0 50274
+S
+#50276
+@eng Timber Wilderness@rus Лесная Глушь~
+~
+0 0 inside
+D1 0
+~
+~
+Z 0 50272
+D3 0
+~
+~
+Z 0 50277
+S
+#50277
+@eng Timber Wilderness@rus Лесная Глушь~
+~
+0 0 inside
+D1 0
+~
+~
+Z 0 50276
+D3 0
+~
+~
+Z 0 50278
+S
+#50278
+@eng Bright spot in trees@rus Просвет в деревьях~
+~
+0 0 inside
+D0 0
+~
+~
+Z 0 50281
+D1 0
+~
+~
+Z 0 50277
+D2 0
+~
+~
+Z 0 50279
+S
+#50279
+@eng Rarewood@rus Редколесье~
+~
+0 0 inside
+D0 0
+~
+~
+Z 0 50278
+D3 0
+~
+~
+Z 0 50280
+S
+#50280
+@eng Edge of a forest@rus Опушка леса~
+~
+0 0 inside
+D1 0
+~
+~
+Z 0 50279
+S
+#50281
+@eng Thick forest@rus Густой лес~
+~
+0 0 inside
+D2 0
+~
+~
+Z 0 50278
+D3 0
+~
+~
+Z 0 50282
+S
+#50282
+@eng Thick forest@rus Густой лес~
+~
+0 0 inside
+D1 0
+~
+~
+Z 0 50281
+D3 0
+~
+~
+Z 0 50283
+S
+#50283
+@eng Cursed woods @rus ПроклЯтый лес~
+~
+0 0 inside
+D0 0
+~
+~
+Z 0 50284
+D1 0
+~
+~
+Z 0 50282
+S
+#50284
+@eng Cursed woods @rus Проклятый лес~
+~
+0 0 inside
+D0 0
+~
+~
+Z 0 50285
+D2 0
+~
+~
+Z 0 50283
+S
+#50285
+@eng Cursed woods@rus Проклятый лес~
+~
+0 0 inside
+D1 0
+~
+~
+Z 0 50286
+D2 0
+~
+~
+Z 0 50284
+S
+#50286
+@eng Thick forest@rus Густой лес~
+~
+0 0 inside
+D0 0
+~
+~
+Z 0 50287
+D3 0
+~
+~
+Z 0 50285
+S
+#50287
+@eng Thick forest@rus Густой лес~
+~
+0 0 inside
+D0 0
+~
+~
+Z 0 50288
+D2 0
+~
+~
+Z 0 50286
+S
+#50288
+@eng Thick forest@rus Густой лес~
+~
+0 0 inside
+D0 0
+~
+~
+Z 0 50289
+D2 0
+~
+~
+Z 0 50287
+S
+#50289
+@eng Thick forest@rus Густой лес~
+~
+0 0 inside
+D1 0
+~
+~
+Z 0 50291
+D2 0
+~
+~
+Z 0 50288
+D3 0
+~
+~
+Z 0 50290
+S
+#50290
+@eng Timber dead end@rus Лесной тупик~
+~
+0 0 inside
+D1 0
+~
+~
+Z 0 50289
+S
+#50291
+@eng Creek in wood@rus Ручей в лесу~
+~
+0 0 inside
+D1 0
+~
+~
+Z 0 50292
+D3 0
+~
+~
+Z 0 50289
+S
+#50292
+@eng Bright spot in trees@rus Просвет в деревьях~
+~
+0 0 inside
+D0 0
+~
+~
+Z 0 50293
+D2 0
+~
+~
+Z 0 50296
+D3 0
+~
+~
+Z 0 50291
+S
+#50293
+@eng Rarewood@rus Редколесье~
+~
+0 0 inside
+D0 0
+~
+~
+Z 0 50294
+D2 0
+~
+~
+Z 0 50292
+S
+#50294
+@eng Rarewood@rus Редколесье~
+~
+0 0 inside
+D2 0
+~
+~
+Z 0 50293
+D3 0
+~
+~
+Z 0 50295
+S
+#50295
+@eng Sage's house@rus Дом мудреца~
+~
+0 0 inside
+D1 0
+~
+~
+Z 0 50294
+S
+#50296
+@eng Timber Wilderness@rus Лесная Глушь~
+~
+0 0 inside
+D0 0
+~
+~
+Z 0 50292
+D1 0
+~
+~
+Z 0 50297
+S
+#50297
+@eng A little observable path through forest@rus Чуть заметная тропинка через лес~
+~
+0 0 inside
+D1 0
+~
+~
+Z 0 50298
+D3 0
+~
+~
+Z 0 50296
+S
+#50298
+@eng A little observable path through forest@rus Чуть заметная тропинка через лес~
+~
+0 0 inside
+D1 0
+~
+~
+Z 0 50299
+D3 0
+~
+~
+Z 0 50297
+S
+#50299
+@eng Timber glade@rus Лесная поляна~
+~
+0 0 inside
+D1 0
+~
+~
+Z 0 50300
+D3 0
+~
+~
+Z 0 50298
+S
+#50300
+@eng Fork of roads@rus Развилка дорог~
+~
+0 0 inside
+D0 0
+~
+~
+Z 0 50302
+D2 0
+~
+~
+Z 0 50301
+D3 0
+~
+~
+Z 0 50299
+S
+#50301
+@eng Shaky bridge@rus Шаткий мотик~
+~
+0 0 inside
+D0 0
+~
+~
+Z 0 50300
+D2 0
+~
+~
+Z 0 50267
+S
+#50302
+@eng Road along lake@rus Дорога вдоль озера~
+~
+0 0 inside
+D0 0
+~
+~
+Z 0 50303
+D2 0
+~
+~
+Z 0 50300
+S
+#50303
+@eng Road along lake@rus Дорога вдоль озера~
+~
+0 0 inside
+D2 0
+~
+~
+Z 0 50302
+D3 0
+~
+~
+Z 0 50304
+S
+#50304
+@eng Edge of the forest@rus Опушка леса~
+~
+0 0 inside
+D1 0
+~
+~
+Z 0 50303
+D3 0
+~
+~
+Z 0 50305
+S
+#50305
+@eng In the forest@rus В лесу~
+~
+0 0 inside
+D0 0
+~
+~
+Z 0 50306
+D1 0
+~
+~
+Z 0 50304
+S
+#50306
+@eng In the forest@rus В лесу~
+~
+0 0 inside
+D0 0
+~
+~
+Z 0 50307
+D2 0
+~
+~
+Z 0 50305
+S
+#50307
+@eng In the forest@rus В лесу~
+~
+0 0 inside
+D1 0
+~
+~
+Z 0 50308
+D2 0
+~
+~
+Z 0 50306
+S
+#50308
+@eng Edge of the forest@rus Опушка леса~
+~
+0 0 inside
+D0 0
+~
+~
+Z 0 50309
+D3 0
+~
+~
+Z 0 50307
+S
+#50309
+@eng Road along lake@rus Дорога вдоль озера~
+~
+0 0 inside
+D0 0
+~
+~
+Z 0 50310
+D2 0
+~
+~
+Z 0 50308
+S
+#50310
+@eng Road along lake@rus Дорога вдоль озера~
+~
+0 0 inside
+D2 0
+~
+~
+Z 0 50309
+D3 0
+~
+~
+Z 0 50311
+S
+#50311
+@eng Edge of the forest@rus Опушка леса~
+~
+0 0 inside
+D0 0
+~
+~
+Z 0 50312
+D1 0
+~
+~
+Z 0 50310
+S
+#50312
+@eng Edge of the forest@rus Опушка леса~
+~
+0 0 inside
+D0 0
+~
+~
+Z 0 50313
+D2 0
+~
+~
+Z 0 50311
+S
+#50313
+@eng Before marsh@rus Перед болотом~
+~
+0 0 inside
+D0 0
+~
+~
+Z 0 50326
+D2 0
+~
+~
+Z 0 50312
+D3 0
+~
+wall~
+Z 0 50314
+S
+#50314
+@eng Marsh bushes@rus Болотные заросли~
+~
+0 0 inside
+D1 0
+~
+~
+Z 0 50313
+D3 0
+~
+~
+Z 0 50315
+S
+#50315
+@eng Marsh bushes@rus Болотные заросли~
+~
+0 0 forest
+D0 3
+~
+~
+Z 0 50322
+D1 2
+~
+~
+Z 0 50314
+D2 3
+~
+~
+Z 0 50316
+S
+#50316
+@eng Marsh quagmire@rus Болотная трясина~
+~
+0 0 forest
+D0 3
+~
+~
+Z 0 50315
+D3 4
+~
+~
+Z 0 50317
+S
+#50317
+@eng Marsh quagmire@rus Болотная трясина~
+~
+0 0 forest
+D1 0
+~
+~
+Z 0 50316
+D3 0
+~
+~
+Z 0 50318
+S
+#50318
+@eng Marsh quagmire@rus Болотная трясина~
+~
+0 0 forest
+D0 0
+~
+~
+Z 0 50319
+D1 0
+~
+~
+Z 0 50317
+S
+#50319
+@eng Marsh quagmire@rus Болотная трясина~
+~
+0 0 forest
+D0 0
+~
+~
+Z 0 50320
+D2 0
+~
+~
+Z 0 50318
+D3 0
+~
+~
+Z 0 50323
+S
+#50320
+@eng Marsh quagmire@rus Болотная трясина~
+~
+0 0 forest
+D1 0
+~
+~
+Z 0 50321
+D2 0
+~
+~
+Z 0 50319
+S
+#50321
+@eng Marsh quagmire@rus Болотная трясина~
+~
+0 0 forest
+D1 4
+~
+~
+Z 0 50322
+D3 0
+~
+~
+Z 0 50320
+S
+#50322
+@eng Marsh quagmire@rus Болотная трясина~
+~
+0 0 forest
+D2 3
+~
+~
+Z 0 50315
+D3 4
+~
+~
+Z 0 50321
+S
+#50323
+@eng Enourmous oak on the marsh@rus Огромный дуб на на болоте~
+~
+0 NX forest
+D1 0
+~
+~
+Z 0 50319
+D4 0
+~
+~
+Z 0 50324
+S
+#50324
+@eng On branches of oak@rus На ветках дуба~
+~
+0 NX forest
+D4 0
+~
+~
+Z 0 50325
+D5 0
+~
+~
+Z 0 50323
+S
+#50325
+@eng On top of oak@rus На макушке дуба~
+~
+0 NX forest
+D5 0
+~
+~
+Z 0 50324
+S
+#50326
+@eng Edge of the forest@rus Опушка леса~
+~
+0 0 inside
+D1 0
+~
+~
+Z 0 50327
+D2 0
+~
+~
+Z 0 50313
+S
+#50327
+@eng Edge of the forest@rus Опушка леса~
+~
+0 0 inside
+D0 0
+~
+~
+Z 0 50328
+D3 0
+~
+~
+Z 0 50326
+S
+#50328
+@eng Edge of the forest@rus Опушка леса~
+~
+0 0 inside
+D0 0
+~
+~
+Z 0 50329
+D2 0
+~
+~
+Z 0 50327
+S
+#50329
+@eng Crossroad@rus Перекресток~
+~
+0 0 inside
+D0 0
+~
+~
+Z 0 50333
+D1 0
+~
+~
+Z 0 50335
+D2 0
+~
+~
+Z 0 50328
+D3 0
+~
+~
+Z 0 50330
+S
+#50330
+@eng Path in wood@rus Тропа в лесу~
+~
+0 0 inside
+D1 0
+~
+~
+Z 0 50329
+D3 0
+~
+~
+Z 0 50331
+S
+#50331
+@eng Path in wood@rus Тропа в лесу~
+~
+0 0 inside
+D0 0
+~
+~
+Z 0 50332
+D1 0
+~
+~
+Z 0 50330
+S
+#50332
+@eng Bear's den@rus Логово медведя~
+~
+0 0 inside
+D2 0
+~
+~
+Z 0 50331
+S
+#50333
+@eng Path in wood@rus Тропа в лесу~
+~
+0 0 inside
+D0 0
+~
+~
+Z 0 50334
+D2 0
+~
+~
+Z 0 50329
+S
+#50334
+@eng Beautiful waterfall@rus Прекрасный водопад~
+~
+0 0 inside
+D2 0
+~
+~
+Z 0 50333
+S
+#50335
+@eng Lane beside lake@rus Тропинка у озера~
+~
+0 0 inside
+D1 0
+~
+~
+Z 0 50336
+D3 0
+~
+~
+Z 0 50329
+S
+#50336
+@eng Lane beside lake@rus Тропинка у озера~
+~
+0 0 inside
+D0 0
+~
+~
+Z 0 50337
+D3 0
+~
+~
+Z 0 50335
+D5 0
+~
+~
+Z 0 50338
+S
+#50337
+@eng Edge of the forest@rus Опушка леса~
+~
+0 0 inside
+D1 0
+~
+~
+Z 0 50207
+D2 0
+~
+~
+Z 0 50336
+S
+#50338
+@eng Trap-pit@rus Яма-ловушка~
+~
+0 ACT inside
+S
+#50339
+~
+~
+0 0 inside
+S
+#50340
+@eng Well@rus Колодец~
+~
+0 0 inside
+D4 0
+~
+~
+Z 0 50220
+D5 0
+~
+~
+Z 0 50341
+S
+#50341
+@eng Well@rus Колодец~
+~
+0 0 inside
+D4 0
+~
+~
+Z 0 50340
+D5 0
+~
+~
+Z 0 50342
+S
+#50342
+@eng Bottom of well@rus Дно колодца~
+~
+0 0 inside
+D4 0
+~
+~
+Z 0 50341
+S
+#0
+
+#RESETS
+O 0 50236 0 50236	* The Greater drought tree (Near drought tree)
+S
+
+#$

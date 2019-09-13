@@ -1,0 +1,74 @@
+The Mud Client Compression Protocol
+This is a work in progress (see footer for last modification date) and is essentially a rewrite and cleanup of the older description of the protocol. Originally, this page described a new version -- version 2.1 -- but I've since been convinced that there's not enough benefit to outweigh the complexity 2.1 requires. Feedback appreciated. 
+
+Servers that maintain long-lived connections to clients and send compressible data (for example, MUD servers) may find it useful to trade CPU usage for a reduction in bandwidth by compressing outgoing data. MCCP is a protocol for achieving this by negotiating the use of compression over a Telnet-style connection. 
+
+This document provides a technical description of version 2 of the protocol. For more detailed examples and sample code, see the MCCP homepage. 
+Overview
+
+MCCP is implemented as a Telnet option [RFC854, RFC855]. The server and client negotiate the use of MCCP as they would any other telnet option. Once agreement has been reached on the use of the option, option subnegotiation is used to determine acceptable compression methods to use, and to indicate the start of a compressed data stream. 
+Versioning
+
+Two versions of MCCP are described in this document. 
+
+MCCP 1 is the earliest version of the protocol. It is negotiated via the COMPRESS (85) option, and uses an invalid (unterminated) subnegotiation sequence to indicate the start of a compression stream. New implementations should NOT support version 1 only; they may support version 1 as a compatibility feature in addition to version 2 support. 
+
+MCCP 2 is essentially identical to version 1 in operation, with two differences. Firstly, the COMPRESS2 (86) option is negotiated instead of COMPRESS. Secondly, the subnegotiation sequence used to signal the start of a compression stream is correctly terminated. 
+
+
+Option Negotiation
+
+Option negotiation nominally follows the usual telnet option negotiation protocol, but due to the need to support older versions of the protocol in parallel with current versions, there are a few oddities. 
+
+In theory, option negotiation is symmetric: compression may be negotiated individually in both directions. In practice, it is unlikely that there will be much benefit to clients compressing their outgoing data stream, as it is likely to be much smaller than the returning stream. However, if desired the client can do compression, and act as the "server" in the following discussion. 
+
+MUD servers that don't implement option negotiation are widespread, and the COMPRESS and COMPRESS2 options are printable ASCII characters. Sending an unprompted COMPRESS or COMPRESS2 sequence to a server may interfere with other data being sent in this case. It is recommended that clients do not send these sequences except in response to an option negotiation request. Initial option negotiation should always start from the server side. 
+
+Servers supporting both COMPRESS2 and COMPRESS should offer COMPRESS2 before COMPRESS. Clients supporting both COMPRESS2 and COMPRESS should refuse COMPRESS if they have previously accepted COMPRESS2. This ensures that COMPRESS2 is negotiated in preference to COMPRESS in the case where both ends of the connection support both COMPRESS and COMPRESS2. 
+Server Commands
+
+IAC WILL COMPRESS indicates the sender supports version 1 of the protocol, and is willing to compress data it sends. 
+
+IAC WILL COMPRESS2 indicates the sender supports version 2, and is willing to compress data it sends. 
+
+IAC WONT COMPRESS indicates the sender refuses to compress data using version 1. 
+
+IAC WONT COMPRESS2 indicates the sender refuses to compress data using version 2. 
+Client Commands
+
+IAC DO COMPRESS indicates the sender supports version 1 of the protocol, and is willing to decompress data received. 
+
+IAC DO COMPRESS2 indicates the sender supports version 2 or above, and is willing to decompress data received. 
+
+IAC DONT COMPRESS indicates the sender refuses to support version 1. If compression was previously negotiated and is currently being used, the server should terminate compression. 
+
+IAC DONT COMPRESS2 indicates the sender refuses to support version 2. If compression was previously negotiated and is currently being used, the server should terminate compression. 
+
+
+Version 1 subnegotiation
+
+Once a client and server have agreed to do version 1 (via a IAC WILL COMPRESS / IAC DO COMPRESS exchange), the server may begin compression at any time by sending a IAC SB COMPRESS WILL SE sequence, immediately followed by the start of the compressed stream. Note that this sequence is not a valid subnegotiation sequence!. 
+Version 2 subnegotiation
+
+Once a client and server have agreed to do version 2 or above (via a IAC WILL COMPRESS2 / IAC DO COMPRESS2 exchange), the server may begin compression at any time by sending a IAC SB COMPRESS2 IAC SE sequence, immediately followed by the start of the compressed stream. 
+Compression stream format
+
+For all versions described in this document, the format of the actual compression stream is the same. Immediately after the end of the subnegotiation sequence that indicates compression is starting (this varies between version 1 and version 2), a zlib stream ([RFC1950]; see also the zlib homepage) begins. 
+
+Once compression is established, all normal telnet communication takes place "within" the compressed stream. That is, instead of communicating directly with the network, the telnet implementation should communicate with the compression system. Telnet command sequences (IAC ...) are compressed like any other data. IAC bytes within the resulting compressed stream are not escaped in any way. 
+
+The side performing compression may terminate compression at any point by sending an orderly stream end (Z_FINISH). Following this, the connection continues as a normal telnet connection. 
+
+If any stream errors are seen on the decompressing side, they should be treated as fatal errors, closing the connection. It is unlikely that the compressing side will be transmitting useful information after a compression error. 
+Interaction with ENCRYPT, AUTHENTICATION
+
+In cases where some form of encryption has been negotiated via the ENCRYPT [RFC2946] or AUTHENTICATION [RFC2941] options, the outgoing stream should always be compressed before being encrypted. Compressing an encrypted stream is usually pointless as good encryption systems will produce streams that are effectively random and incompressible. 
+
+When compression is negotiated and enabled after encryption, this is straightforward: when compression is begun, the resulting compressed stream is encrypted and sent. 
+
+When encryption is negotiated and enabled after compression, the compressing side should ensure that the compression stream is flushed (that is, the decompressor can recover all compressed output up until that point based on bytes sent over the network) at a point just before the encrypted stream begins. This avoids the situation where some data that the decompressing side requires to determine the start of the encrypted stream is buffered in the compression system and consequently is (incorrectly) encrypted before sending. 
+Command names and values
+Option values 
+COMPRESS: 85
+COMPRESS2: 86
+

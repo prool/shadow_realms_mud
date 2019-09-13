@@ -1,0 +1,760 @@
+#AREADATA
+Name New Gerighelm~
+VNUMs 34500 34699
+Security 5
+LevelRange 0 0
+Flags noquest~
+End
+
+#MOBILES
+#34500
+crier~
+@eng crier@rus ~~Глашатай~~~
+@eng Crier tell new laws
+@rus Глашатый зачитывает приказ лорда.
+~
+Он слуга лорда.
+~
+human~
+A 0 475 0
+40 20 6d9+1200 0d0+0 3d5+40 slash
+5 6 6 6
+0 0 C 0
+stand stand male 10
+0 0 medium unknown
+L 'human lang'
+#34501
+gatekeeper~
+@eng GateKeeper@rus ~~Хранитель~~ ворот~
+@eng GateKeeper is standing here
+@rus Хранитель ворот наблюдает за тобой.
+~
+@rus Он занимаетсохраной ворот уже давно.
+По его внешнему виду можно сказать, что он неплохой боец.
+~
+human~
+AGTi 0 475 0
+40 20 9d18+3000 0d0+0 3d7+16 pound
+45 30 40 40
+CFKP 0 0 0
+stand sit male 15
+0 0 medium unknown
+L 'human lang'
+#34502
+man~
+@eng Citizen@rus ~~Горожанин~~~
+@eng Citizen walking along the street
+@rus Горожанин идет по улице.
+~
+@rus Горожанин довольно скромно одет.
+Увидев вас он отходит в сторону.
+~
+human~
+A 0 475 0
+35 10 2d9+400 0d0+0 2d8+15 punch
+18 18 18 18
+0 0 0 0
+stand stand male 5
+0 0 medium unknown
+L 'human lang'
+#34503
+guard~
+@eng Guard of Gerighelm@rus ~~Страж~~ Геригхельма~
+@eng Guard of Gerighelm look around
+@rus Страж Геригхельма наблюдает за происходим
+~
+@rus Это новые стражи города.
+~
+human~
+AT 0 475 0
+45 38 10d12+3400 0d0+0 5d8+50 slash
+40 40 40 40
+CFIKP 0 0 0
+stand sit male 13
+0 0 medium unknown
+L 'human lang'
+S 3 0 0 0 0 0 0
+#34504
+bodyguard~
+@eng Large bodyguad@rus Огромный телохранитель~
+@eng Large bodyguard is standing along your way
+@rus Огромный телохранитель стоит на твоем пути.
+~
+@rus Огромный телохранитель пристально наблюдает за вами.
+Ведь он заинтересован в порке на улицах города и в безопастности граждан.
+~
+human~
+AT 0 475 0
+55 90 9d15+5800 0d0+0 10d6+110 slice
+50 55 60 60
+CFKP 0 0 0
+stand stand male 20
+0 0 large unknown
+L 'human lang'
+S 15 0 0 0 0 0 0
+#34505
+citizen~
+@eng Citizen@rus ~~Богатый~~ ~~горожанин~~~
+@eng Citizen walking at the square
+@rus Богатый горожанин стоит на площади.
+~
+@rus Перед вами стоит мужчина, хорошо одетый,
+Увидев вас он отходит в сторону.
+~
+human~
+A 0 475 0
+60 70 16d9+5200 0d0+0 8d12+80 punch
+50 50 50 50
+CF 0 0 0
+stand stand male 30
+0 0 medium unknown
+L 'human lang'
+S 10 0 0 0 0 0 0
+#34506
+rich citizen~
+~
+~
+~
+elf~
+AR 0 475 0
+80 150 10d14+10000 4d10+600 8d17+120 magic
+40 40 50 60
+0 0 0 0
+stand stand male 0
+0 0 medium unknown
+L 'elvish lang'
+S 20 0 0 0 0 0 0
+#34550
+boguard~
+@eng Bodyguard of Lord@rus Телохранитель лорда ~
+@eng Lord's bodyguard looking for safety.
+@rus Телохранитель лорда наблюдает за безопастностью
+~
+@rus Огромный телохранитель наблюдает за тобой.
+~
+human~
+AT 0 0 0
+54 0 0d0+0 0d0+0 0d0+0 crush
+40 40 40 40
+CFKP 0 0 0
+stand stand none 18
+0 0 medium unknown
+L 'human lang'
+S 10 0 0 0 0 0 0
+#34560
+mage~
+@eng Mage of Blues Mountains@rus Маг Синих гор~
+@eng Mage of Blues Mountains guarding citizens.
+@rus Маг Синих гор охраняет покой горожан.
+~
+@rus Могущественный маг призван охранять Геригхельм.
+Он новый служитель лорда.
+~
+elf~
+AR 0 475 0
+59 20 6d12+3000 9d10+400 5d8+40 magic
+30 15 15 15
+0 0 0 0
+stand stand male 26
+0 0 medium unknown
+L 'elvish lang'
+S 30 0 0 0 0 0 0
+#0
+
+#OBJECTS
+#34500
+armor plate~
+@eng Armor plate@rus пластинчатые доспехи~
+@eng Armor plate lying and shining there.@rus Пластинчатый доспех лежит на полу и сверкает~
+unknown~
+armor A AK
+20 20 20 15 0
+40 120 20 P
+A
+19 2
+A
+18 2
+A
+17 10
+G male
+#34501
+helm top~
+@eng Top-helm@rus ~~шлем~~ стража~
+@eng Top-helm of Keeper lying on the floor@rus Шлем Стража лежит на полу~
+iron~
+armor 0 AE
+15 15 15 15 0
+40 30 20 P
+A
+19 4
+A
+18 2
+A
+17 10
+G male
+#34502
+gloves~
+@eng Armed gloves@rus ~~латные~~ ~~перчатки~~~
+@eng Armed gloves lying at the ground@rus Латные перчатки лежат на земле~
+iron and leather~
+armor 0 AH
+10 10 10 10 0
+40 10 13 P
+A
+14 -10
+A
+1 1
+G none
+#34503
+jacket~
+@eng Leather jacket@rus ~~стеганый~~ ~~поддоспешник~~~
+@eng Leather jacket was droppes by someone@rus Стеганый поддоспешник валяется без присмотра~
+unknown~
+armor 0 AT
+16 16 16 8 0
+40 30 15 P
+A
+12 -50
+A
+17 15
+A
+18 5
+G none
+#34504
+boots~
+@eng Heavy armed boots@rus ~~теплые~~ ~~кованые~~ ~~ботинки~~~
+@eng Heavy armed boots@rus Теплые кованые ботинки оставлены тут кем-то~
+leather~
+armor 0 AG
+20 21 13 12 0
+40 80 23 P
+A
+18 2
+A
+19 4
+G none
+#34505
+axe~
+@eng Two-handed axe@rus ~~двуручная~~ ~~секира~~~
+@eng Large two-handed axe lies on a floor@rus Двуручная секира валяется на полу~
+iron~
+weapon A AN
+axe 4 6 cleave F
+40 120 10 P
+A
+19 4
+A
+2 -1
+A
+18 2
+A
+1 1
+G male
+#34550
+mask~
+@eng Mask of Bodyguard@rus ~~Маска~~ ~~телохранителя~~~
+@eng Bodyguard's mask lies on a ground@rus Маска телохранителя валяется на земле.~
+unknown~
+armor 0 AV
+15 15 15 10 0
+50 20 10 P
+A
+19 3
+A
+18 2
+G none
+#34551
+dagger~
+@eng {gDagger{x of {bBlues Mountains Mage{x@rus {gКинжал {bМага Синих гор{x~
+@eng {gDagger{x of {bBlues Mountains Mage{x floating here.@rus {gКинжал {bМага Синих гор{x парит над дорогой~
+unknown~
+weapon A AN
+dagger 6 7 pierce 0
+65 45 20 P
+G male
+#34552
+armplates~
+@eng Armplates of bodyguard@rus ~~Наплечники~~ ~~телохранителя~~~
+@eng Armplates of bodyguard@rus Наплечники телохранителя лежат на полу.~
+unknown~
+armor 0 AI
+15 15 15 15 0
+50 40 14 P
+A
+5 1
+A
+17 20
+A
+12 -50
+G none
+#0
+
+#ROOMS
+#34500
+@eng Central street.@rus Центральная улица.~
+@eng You are standing on a central street of Gerighelm.
+It was been build recently.
+There very clear and beautyfull.
+@rus Вы идете по центральной улице Геригхельма. Кругом полно разного народу.
+Эта улица была совсем недавно отстроена. Поэтому тут так чисто и красиво.
+~
+0 0 city
+D0 0
+~
+~
+Z 0 34509
+D2 0
+~
+~
+Z 0 34501
+S
+#34501
+@eng Central street.@rus Центральная улица.~
+@eng You are standing on a central street of Gerighelm.
+It was been build recently. If you go to the south, you will stand at the Central Square.]
+There very clear and beautyfull.
+@rus Вы идете по центральной улице Геригхельма. Кругом полно разного народу.
+Эта улица была совсем недавно отстроена. Поэтому тут так чисто и красиво.
+Здесь немного шумно. Если немного пройти на юг, то можно попасть на главную площадь.
+~
+0 0 city
+D0 0
+~
+~
+Z 0 34500
+D2 0
+~
+~
+Z 0 34502
+S
+#34502
+@eng Central street.@rus Центральная улица.~
+@eng You are standing on a central street of Gerighelm.
+It was been build recently. If you go to the south, you will stand at the Central Square.]
+@rus Вы идете по центральной улице Геригхельма. Кругом полно разного народу.
+Эта улица была совсем недавно отстроена. Поэтому тут так чисто и красиво.
+Здесь немного шумно. Если немного пройти на юг, то можно попасть на главную площадь.
+~
+0 0 city
+D0 1
+~
+~
+Z 0 34501
+D2 0
+~
+~
+Z 0 34503
+S
+#34503
+@eng Central street.@rus Центральная улица.~
+@eng You are standing on a central street of Gerighelm.
+It was been build recently. If you go to the south, you will stand at the Central Square.]
+There very clear and beautyfull.
+@rus Вы идете по центральной улице Геригхельма. Кругом полно разного народу.
+Эта улица была совсем недавно отстроена. Поэтому тут так чисто и красиво.
+Здесь немного шумно. Если немного пройти на юг, то можно попасть на главную площадь.
+~
+0 0 city
+D0 1
+~
+~
+Z 0 34502
+D2 0
+~
+~
+Z 0 34504
+S
+#34504
+@eng Near Central Square@rus Возле Центральной площади.~
+@eng You are standing near Central Square.
+@rus Вы стоите радом с центральной площадью Геригхельма.
+Горожане оглядываются на вас. Они удивлены, ведь в город с оружием вход запрещен.
+На юге видна толпа людей, они о чем то совещаются.
+~
+0 0 city
+D0 1
+~
+~
+Z 0 34503
+D2 0
+~
+~
+Z 0 34505
+S
+#34505
+@eng Central Square@rus Центральная Площадь~
+@eng You are going at the Central Square
+@rus Вы находитесь На Главной площади Геригхельма.
+Прохожие заметив у вас в руках оружие обходят вас стороной.
+На западе вы замечаете несколько странно одетых человек.
+~
+0 0 city
+D0 1
+~
+~
+Z 0 34504
+D1 1
+~
+~
+Z 0 34507
+D2 1
+~
+~
+Z 0 34508
+D3 1
+~
+~
+Z 0 34506
+S
+#34506
+@eng Central Square@rus Центральная Площадь~
+@eng You are standing at the north-west of Central Square.
+@rus Вы находитесь на северо- западе Центральной Площади.
+Недалеко от вас стоят богато одетые люди. Рядом с ними стоят люди в плащах.
+Услышав какой-то непонятный звук, вы поднимаете голову и видите над собой Золотого дракона.
+~
+0 0 city
+D1 0
+~
+~
+Z 0 34505
+D2 0
+~
+~
+Z 0 34510
+S
+#34507
+@eng Central Square@rus Центральная Площадь~
+@eng You are standing at the north- east of Central Square.
+@rus Стража подозрительно смотрит на вас. Возле статуи сидит эльф и что-то читает.
+Несколько богатых граждан прогуливаются тут.
+~
+0 0 city
+D2 0
+~
+~
+Z 0 34511
+D3 0
+~
+~
+Z 0 34505
+S
+#34508
+@eng Central Square@rus Центральная Площадь~
+@eng You are standing in heart of Square.
+@rus Вы стоите в самом центре Главной площади.
+Слуга лорда читает его очередной указ. У фонтана сидят несколько вельмож.
+Стража неодобрительно смотрит на вас.
+~
+0 0 city
+D0 0
+~
+~
+Z 0 34505
+D1 1
+~
+~
+Z 0 34511
+D2 1
+~
+~
+Z 0 34512
+D3 1
+~
+~
+Z 0 34510
+S
+#34509
+@eng Enter to Gerighelm@rus Вход в Геригхельм.~
+@eng You are situated near gates of Gerighelm.
+@rus Вы находитесь на входе в Геригхельм. Возле ворот полно стражи.
+На юг ведет широкая дорога. На запад и восток- дороги поменьше.
+Похоже, что город возвели заново.
+~
+0 0 city
+D0 0
+~
+~
+Z 0 7563
+D2 0
+~
+~
+Z 0 34500
+D3 5
+~
+~
+Z 0 7564
+S
+#34510
+@eng Central Square@rus Центральная площадь.~
+@eng You are standing at the west of Central Square.
+@rus Вы находитесь на западе Центральной площади, здесь стоит статуя давно- забытому богу.
+Менестрель поет здесь свои песни на радость народу.
+Граждане собрались возле него и слушают песни, стража следит за появлением извесных воришек.
+~
+0 0 city
+D0 1
+~
+~
+Z 0 34506
+D1 0
+~
+~
+Z 0 34508
+D2 1
+~
+~
+Z 0 34513
+S
+#34511
+@eng Central Square@rus Центральная площадь.~
+@eng You are going along east part o Central Square.
+@rus Дальше, на востоке, виднеется замок лорда Геригхельма. В этой части площади стоят 2 его рыцаря.
+Что-то вас ослепляет, и вы видите, что это статуя самого лорда отлитая из серебра.
+~
+0 0 city
+D0 1
+~
+~
+Z 0 34507
+D1 8
+~
+~
+Z 0 34517
+D2 1
+~
+~
+Z 0 34514
+D3 0
+~
+~
+Z 0 34508
+S
+#34512
+@eng Central Square@rus Центральная площадь.~
+@eng You are going at the south part of Central Square.
+@rus Вы идете вдоль южной части Центральной площади.
+Вокруг вас летают птицы, и вы понимаете, что парк находится недалеко отсюда.
+Стражники совершенно безразлично отнеслись к вам.
+Недалеко от вас шепчутся темные личности.
+~
+0 0 city
+D0 0
+~
+~
+Z 0 34508
+D1 1
+~
+~
+Z 0 34514
+D2 3
+~
+~
+Z 0 34515
+D3 1
+~
+~
+Z 0 34513
+S
+#34513
+@eng Central Square@rus Центральная Площадь~
+@rus Вы находитесь на юго-западе Центральной площади.
+Тут вы видите слуг Герцога Геригхельма, они, что-то бурно обсуждают.
+Чуть далее гуляет какой-то рыцарь.
+~
+0 0 city
+D0 0
+~
+~
+Z 0 34510
+D1 0
+~
+~
+Z 0 34512
+S
+#34514
+@eng Central Square@rus Центральная Площадь~
+@rus Вы находитесь на юго-востоке Центральной площади.
+Недалеко вас стоят рыцари Азерота. Они обсуждают нашестви орков.
+~
+0 0 city
+D0 0
+~
+~
+Z 0 34511
+D3 0
+~
+~
+Z 0 34512
+S
+#34515
+@eng Southen road@rus Южная дорога~
+@rus Вы идете по южной дороге. На севере видна Центральная площадь.
+Вдоль улицы видны жилые дома, Эта улица одна из самых многолюдных, ведь недалеко отсюда рынок.
+Горожане недоверчиво смотрят на вас.
+~
+0 0 city
+D0 0
+~
+~
+Z 0 34512
+S
+#34516
+@eng Southen Road@rus Южнадорога~
+~
+0 0 inside
+S
+#34517
+@eng Road to the Castle@rus Дорога к замку~
+@rus Вы идете по дороге ведущей в замок Лорда. Кругом читота. 
+Вокруг вас летают птицы. Тут царит поразительная чистота.
+На западе- центральная площадь. На востоке- ворота Замка.
+~
+0 0 city
+D1 8
+~
+~
+Z 0 34518
+D3 8
+~
+~
+Z 0 34511
+S
+#34518
+@eng Gates to Castle@rus Ворота в замок~
+@rus Вы стоите перед воротами нового замка в Геригхельме. 
+Замок огромен. Его построили для сбора войск. Это последний оплот перед Мидгардом.
+Перед воротами вы видите 3-х латников и их капитана. Это одни из самых сильных воинов Геригхельма.
+~
+0 0 city
+D0 0
+~
+~
+Z 0 34519
+D3 8
+~
+~
+Z 0 34517
+S
+#34519
+@eng Guard Post@rus Сторожевой пункт~
+@rus Вы стоите в проеме ворот. Несколько стражей нацелили на вас арбалеты.
+~
+0 0 city
+D0 2
+~
+~
+Z 0 34520
+D2 1
+~
+~
+Z 0 34518
+S
+#34520
+@eng Castle square@rus Замковая площадь~
+@rus Вы стоите на замковой площади. На западе видна площадка для смотра войск.
+На востоке вы можете прогуляться по замковой стене.
+За вами до сих пор наблюдают стражи. Здесь не видно горожан- одни воины...
+~
+0 0 city
+D2 2
+~
+~
+Z 0 34519
+D3 0
+~
+~
+Z 0 34521
+S
+#34521
+@eng Area for Forces@rus Площадка для смотра войск~
+@rus Вы стоите на площадке для смотра войск. Вас окружают несколько рыцарей.
+Вы вооружены, но не являетесь солдатом Геригхельма.
+Они просят Вас пройти с ними.
+~
+0 0 city
+D1 2
+~
+~
+Z 0 34520
+S
+#34522
+~
+~
+0 0 inside
+S
+#34523
+~
+~
+0 0 inside
+S
+#34524
+~
+~
+0 0 inside
+S
+#34525
+~
+~
+0 0 inside
+S
+#34526
+~
+~
+0 0 inside
+S
+#34527
+~
+~
+0 0 inside
+S
+#34528
+~
+~
+0 0 inside
+S
+#34529
+~
+~
+0 0 inside
+S
+#34530
+~
+~
+0 0 inside
+S
+#0
+
+#RESETS
+M 0 34502 3 34500 3	* Citizen (Central street.)
+M 0 34502 1 34500 1	* Citizen (Central street.)
+M 0 34502 5 34501 1	* Citizen (Central street.)
+M 0 34502 5 34501 1	* Citizen (Central street.)
+M 0 34502 5 34501 1	* Citizen (Central street.)
+M 0 34503 2 34501 1	* Guard of Gerighelm (Central street.)
+M 0 34503 1 34501 1	* Guard of Gerighelm (Central street.)
+M 0 34500 1 34508 1	* crier (Central Square)
+M 0 34560 1 34508 1	* Mage of Blues Mountains (Central Square)
+E 0 34551 0 16		*	{gDagger{x of {bBlues Mountains Mage{x: wielded
+M 0 34504 1 34508 1	* Large bodyguad (Central Square)
+E 0 34550 0 23		*	Mask of Bodyguard: worn on face
+E 0 34552 0 10		*	Armplates of bodyguard: on the arms
+M 0 34501 1 34509 1	* GateKeeper (Enter to Gerighelm)
+E 0 34500 0 12		*	Armor plate: about the shoulders
+E 0 34501 0 6		*	Top-helm: over the head
+E 0 34505 0 16		*	Two-handed axe: wielded
+E 0 34504 0 8		*	Heavy armed boots: on the feet
+E 0 34503 0 4		*	Leather jacket: on the body (shirt)
+E 0 34502 0 9		*	Armed gloves: on the hands
+S
+
+#OLIMITS
+O 34551 2	* {gDagger{x of {bBlues Mountains Mage{x
+S
+
+#MOBPROGS
+#34500
+~
+#0
+
+#$

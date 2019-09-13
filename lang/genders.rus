@@ -1,0 +1,802 @@
+#RULE
+Name облачный~
+BaseLen 6
+Form 1 -ая~
+Form 2 -ое~
+End
+
+#RULE
+Name дал~
+BaseLen 3
+Form 1 -a~
+Form 2 -~
+End
+
+#RULE
+Name защищенный~
+BaseLen 8
+Form 1 -ая~
+Form 2 -ое~
+Form 3 -ые~
+End
+
+#RULE
+Name выучил~
+BaseLen 6
+Form 1 -а~
+Form 2 -о~
+End
+
+#RULE
+Name шлепнул~
+BaseLen 7
+Form 1 -а~
+Form 2 -о~
+Form 3 -и~
+End
+
+#RULE
+Name расслабился~
+BaseLen 9
+Form 1 -ась~
+Form 2 -ось~
+Form 3 -ись~
+End
+
+#RULE
+Name красноглазый~
+BaseLen 10
+Form 1 -ая~
+Form 2 -ое~
+Form 3 -ые~
+End
+
+#RULE
+Name сделал~
+BaseLen 6
+Form 1 -а~
+Form 2 -о~
+End
+
+#RULE
+Name наполнился~
+BaseLen 8
+Form 1 -ась~
+Form 2 -ось~
+Form 3 -ись~
+End
+
+#RULE
+Name Твой~
+BaseLen 2
+Form 1 -ая~
+Form 2 -ое~
+End
+
+#RULE
+Name видимый~
+Form 1 видимая~
+End
+
+#RULE
+Name Домашний~
+BaseLen 6
+Form 1 -ая~
+Form 2 -ее~
+Form 3 -ие~
+End
+
+#RULE
+Name оглушённый~
+Form 0 оглушённое~
+Form 1 оглушённый~
+Form 2 оглушённая~
+End
+
+#RULE
+Name небольшой~
+BaseLen 7
+Form 1 -ая~
+Form 2 -ое~
+End
+
+#RULE
+Name мертв~
+BaseLen 5
+Form 1 -а~
+Form 2 -о~
+Form 3 -ы~
+End
+
+#RULE
+Name огромный~
+BaseLen 6
+Form 1 -ая~
+Form 2 -ое~
+Form 3 -ые~
+End
+
+#RULE
+Name привязал~
+BaseLen 8
+Form 1 -а~
+Form 2 -о~
+Form 3 -и~
+End
+
+#RULE
+Name рабочий~
+BaseLen 5
+Form 1 -ая~
+Form 2 -ее~
+Form 3 -ие~
+End
+
+#RULE
+Name заинтересован~
+BaseLen 13
+Form 1 -а~
+Form 2 -о~
+End
+
+#RULE
+Name убил~
+Form 0 убило~
+Form 1 убил~
+Form 2 убила~
+End
+
+#RULE
+Name приподнял~
+BaseLen 7
+Form 1 -яла~
+Form 2 -яло~
+End
+
+#RULE
+Name отважный~
+Form 1 отважная~
+End
+
+#RULE
+Name перестал~
+BaseLen 8
+Form 1 -а~
+Form 2 -о~
+Form 3 -и~
+End
+
+#RULE
+Name лизнул~
+BaseLen 6
+Form 1 -a~
+Form 2 -~
+End
+
+#RULE
+Name вышел~
+BaseLen 5
+Form 1 -а~
+Form 2 -о~
+End
+
+#RULE
+Name хорош~
+BaseLen 5
+Form 1 -а~
+Form 2 -о~
+End
+
+#RULE
+Name хотел~
+BaseLen 5
+Form 1 -а~
+Form 2 -~
+End
+
+#RULE
+Name окровавленный~
+BaseLen 11
+Form 1 -ая~
+Form 2 -ое~
+End
+
+#RULE
+Name погас~
+BaseLen 5
+Form 1 -ла~
+Form 2 -ло~
+Form 3 -ли~
+End
+
+#RULE
+Name магический~
+BaseLen 8
+Form 1 -ая~
+Form 2 -ее~
+Form 3 -ие~
+End
+
+#RULE
+Name ему~
+BaseLen 1
+Form 1 -й~
+Form 2 -му~
+End
+
+#RULE
+Name парящий~
+BaseLen 5
+Form 1 -ая~
+Form 2 -ое~
+End
+
+#RULE
+Name такой~
+BaseLen 3
+Form 1 -ая~
+Form 2 -ое~
+Form 3 -ие~
+End
+
+#RULE
+Name способен~
+BaseLen 6
+Form 1 -на~
+End
+
+#RULE
+Name городской~
+BaseLen 7
+Form 1 -ая~
+Form 2 -ое~
+End
+
+#RULE
+Name хищный~
+BaseLen 4
+Form 1 -ая~
+Form 2 -ое~
+End
+
+#RULE
+Name пьян~
+Form 0 пьяно~
+Form 1 пьян~
+Form 2 пьяна~
+End
+
+#RULE
+Name бесшумный~
+BaseLen 7
+Form 1 -ая~
+Form 2 -ое~
+Form 3 -ые~
+End
+
+#RULE
+Name верующий~
+BaseLen 6
+Form 1 -ая~
+Form 2 -ее~
+Form 3 -ие~
+End
+
+#RULE
+Name прогорел~
+BaseLen 8
+Form 1 -a~
+Form 2 -о~
+Form 3 -и~
+End
+
+#RULE
+Name одинок~
+BaseLen 6
+Form 1 -a~
+Form 2 -~
+End
+
+#RULE
+Name собрался~
+BaseLen 6
+Form 1 -ась~
+Form 2 -ся~
+End
+
+#RULE
+Name домовой~
+BaseLen 5
+Form 1 -ая~
+Form 2 -ое~
+End
+
+#RULE
+Name разлагается~
+BaseLen 7
+Form 1 -ется~
+Form 2 -ется~
+Form 3 -ются~
+End
+
+#RULE
+Name нехороший~
+BaseLen 7
+Form 1 -ая~
+Form 2 -ее~
+Form 3 -ие~
+End
+
+#RULE
+Name упустил~
+BaseLen 7
+Form 1 -а~
+Form 2 -о~
+End
+
+#RULE
+Name улыбнулся~
+BaseLen 7
+Form 1 -ась~
+Form 2 -ось~
+End
+
+#RULE
+Name принесен~
+BaseLen 8
+Form 1 -а~
+Form 2 -о~
+End
+
+#RULE
+Name элементал~
+BaseLen 9
+Form 1 -а~
+Form 2 -о~
+Form 3 -и~
+End
+
+#RULE
+Name белый~
+BaseLen 3
+Form 1 -ая~
+Form 2 -ое~
+End
+
+#RULE
+Name пылевой~
+BaseLen 5
+Form 1 -ая~
+Form 2 -ое~
+Form 3 -ие~
+End
+
+#RULE
+Name попытался~
+BaseLen 7
+Form 1 -ась~
+Form 2 -ся~
+End
+
+#RULE
+Name насчитал~
+BaseLen 8
+Form 1 -а~
+End
+
+#RULE
+Name подчинённый~
+BaseLen 9
+Form 1 -ая~
+Form 2 -ое~
+End
+
+#RULE
+Name должен~
+Form 1 должна~
+Form 2 должно~
+End
+
+#RULE
+Name разделал~
+BaseLen 8
+Form 1 -а~
+End
+
+#RULE
+Name уклонился~
+BaseLen 7
+Form 1 -ась~
+Form 2 -ось~
+End
+
+#RULE
+Name остался~
+BaseLen 5
+Form 1 -ась~
+Form 2 -ось~
+End
+
+#RULE
+Name невидимый~
+BaseLen 7
+Form 1 -ая~
+Form 2 -ое~
+Form 3 -ые~
+End
+
+#RULE
+Name наполнен~
+BaseLen 8
+Form 1 -а~
+Form 2 -о~
+Form 3 -ы~
+End
+
+#RULE
+Name железный~
+BaseLen 6
+Form 1 -ая~
+Form 2 -ое~
+End
+
+#RULE
+Name обещал~
+BaseLen 4
+Form 1 -ала~
+Form 2 -ало~
+End
+
+#RULE
+Name сбежал~
+BaseLen 6
+Form 1 -а~
+Form 2 -о~
+Form 3 -и~
+End
+
+#RULE
+Name него~
+Form 1 нее~
+Form 2 него~
+End
+
+#RULE
+Name изогнутый~
+BaseLen 7
+Form 1 -ая~
+Form 2 -ое~
+End
+
+#RULE
+Name плачущий~
+BaseLen 6
+Form 1 -ая~
+Form 2 -ее~
+Form 3 -ие~
+End
+
+#RULE
+Name Бессмертный~
+BaseLen 9
+Form 1 -ая~
+Form 2 -ое~
+End
+
+#RULE
+Name выглядит~
+BaseLen 6
+Form 1 -ит~
+Form 2 -ит~
+Form 3 -ят~
+End
+
+#RULE
+Name стал~
+BaseLen 4
+Form 1 -а~
+Form 2 -о~
+End
+
+#RULE
+Name сосновый~
+BaseLen 6
+Form 1 -ая~
+Form 2 -ое~
+End
+
+#RULE
+Name повернул~
+BaseLen 8
+Form 1 -а~
+Form 2 -о~
+Form 3 -и~
+End
+
+#RULE
+Name кожаный~
+BaseLen 5
+Form 1 -ая~
+Form 2 -ое~
+Form 3 -ые~
+End
+
+#RULE
+Name упал~
+BaseLen 4
+Form 1 -а~
+Form 2 -о~
+End
+
+#RULE
+Name зеленый~
+BaseLen 5
+Form 1 -ая~
+Form 2 -ое~
+End
+
+#RULE
+Name насадил~
+BaseLen 7
+Form 1 -а~
+Form 2 -о~
+Form 3 -и~
+End
+
+#RULE
+Name им~
+Form 1 ей~
+End
+
+#RULE
+Name нашел~
+Form 1 нашла~
+Form 2 нашло~
+End
+
+#RULE
+Name оглушенный~
+BaseLen 8
+Form 1 -ая~
+Form 2 -ое~
+Form 3 -ые~
+End
+
+#RULE
+Name он~
+Form 1 она~
+Form 2 оно~
+End
+
+#RULE
+Name создал~
+Form 1 создала~
+End
+
+#RULE
+Name ушел~
+BaseLen 2
+Form 1 -ла~
+Form 2 -ло~
+End
+
+#RULE
+Name нормальный~
+BaseLen 8
+Form 1 -ая~
+Form 2 -ое~
+End
+
+#RULE
+Name каменный~
+BaseLen 6
+Form 1 -ая~
+Form 2 -ое~
+Form 3 -ые~
+End
+
+#RULE
+Name приготовил~
+Form 1 приготовила~
+End
+
+#RULE
+Name вооруженный~
+BaseLen 9
+Form 1 -ая~
+End
+
+#RULE
+Name самого~
+BaseLen 3
+Form 1 -у~
+Form 2 -ого~
+End
+
+#RULE
+Name фиолетовый~
+BaseLen 8
+Form 1 -ая~
+Form 2 -ое~
+End
+
+#RULE
+Name книжный~
+BaseLen 5
+Form 1 -ая~
+Form 2 -ое~
+Form 3 -ые~
+End
+
+#RULE
+Name туалетный~
+BaseLen 7
+Form 1 -ая~
+Form 2 -ое~
+End
+
+#RULE
+Name успокоился~
+BaseLen 8
+Form 1 -ась~
+End
+
+#RULE
+Name выполнил~
+BaseLen 8
+Form 1 -а~
+Form 2 -о~
+End
+
+#RULE
+Name сексуален~
+BaseLen 6
+Form 1 -льна~
+Form 2 -льно~
+End
+
+#RULE
+Name переместил~
+BaseLen 10
+Form 1 -а~
+Form 2 -о~
+End
+
+#RULE
+Name великий~
+BaseLen 5
+Form 1 -ая~
+Form 2 -ее~
+Form 3 -ие~
+End
+
+#RULE
+Name злой~
+BaseLen 2
+Form 0 -ой~
+Form 1 -а~
+Form 2 -о~
+End
+
+#RULE
+Name пришел~
+BaseLen 4
+Form 1 -ла~
+Form 2 -ло~
+End
+
+#RULE
+Name ащищенный~
+BaseLen 7
+Form 1 -ая~
+Form 2 -ое~
+Form 3 -ые~
+End
+
+#RULE
+Name адамантитовый~
+BaseLen 11
+Form 1 -ая~
+Form 2 -ое~
+End
+
+#RULE
+Name чист~
+BaseLen 4
+Form 1 -а~
+Form 2 -о~
+End
+
+#RULE
+Name темный~
+BaseLen 4
+Form 1 -ая~
+Form 2 -ое~
+End
+
+#RULE
+Name ОБЕЗОРУЖИЛ~
+BaseLen 10
+Form 1 -А~
+Form 2 -О~
+Form 3 -И~
+End
+
+#RULE
+Name обезоружил~
+BaseLen 10
+Form 1 -а~
+Form 2 -о~
+Form 3 -и~
+End
+
+#RULE
+Name зеркальный~
+BaseLen 8
+Form 1 -ая~
+Form 2 -ое~
+End
+
+#RULE
+Name пушистый~
+BaseLen 6
+Form 1 -ая~
+Form 2 -ое~
+End
+
+#RULE
+Name ранен~
+BaseLen 5
+Form 1 -а~
+Form 2 -о~
+End
+
+#RULE
+Name бедненьким~
+BaseLen 8
+Form 1 -ой~
+Form 2 -им~
+End
+
+#RULE
+Name пошел~
+Form 1 пошла~
+Form 2 пошло~
+End
+
+#RULE
+Name его~
+Form 1 ее~
+Form 2 его~
+Form 3 их~
+End
+
+#RULE
+Name неоновый~
+BaseLen 6
+Form 1 -ая~
+Form 2 -ое~
+End
+
+#RULE
+Name нашёл~
+Form 0 нашло~
+Form 1 нашёл~
+Form 2 нашла~
+End
+
+#RULE
+Name самом~
+BaseLen 4
+Form 1 -й~
+Form 2 -м~
+End
+
+#RULE
+Name потерял~
+Form 0 потерял~
+Form 1 потеряла~
+Form 2 потеряло~
+End
+
+#$

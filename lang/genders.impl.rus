@@ -1,0 +1,61 @@
+#RULE
+Name -ый~
+BaseLen -2
+Form 1 -ая~
+Form 2 -ое~
+Form 3 -ые~
+End
+
+#RULE
+Name -ий~
+BaseLen -2
+Form 1 -ая~
+Form 2 -ее~
+Form 3 -ие~
+End
+
+#RULE
+Name -ой~
+BaseLen -2
+Form 1 -ая~
+Form 2 -ое~
+Form 3 -ие~
+End
+
+#RULE
+Name -ил~
+Form 1 -а~
+Form 2 -о~
+Form 3 -и~
+End
+
+#RULE
+Name -ул~
+Form 1 -а~
+Form 2 -о~
+Form 3 -и~
+End
+
+#RULE
+Name -ял~
+Form 1 -а~
+Form 2 -о~
+Form 3 -и~
+End
+
+#RULE
+Name -лен~
+BaseLen -3
+Form 1 -льна~
+Form 2 -льно~
+Form 3 -льны~
+End
+
+#RULE
+Name -ал~
+Form 1 -а~
+Form 2 -о~
+Form 3 -и~
+End
+
+#$

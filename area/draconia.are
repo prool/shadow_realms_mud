@@ -1,0 +1,1843 @@
+#AREADATA
+Name Dragon Tower~
+VNUMs 2200 2299
+Credits Wench~
+Security 5
+LevelRange 5 54
+End
+
+#MOBILES
+#2200
+hatchling dragon baby~
+@eng the dragon hatchling@rus Младенец дракона~
+@eng A dragon hatchling is here, chewing on a bone.
+@rus Младенец дракона здесь жует кости.
+~
+@eng This small dragon hisses at you as you enter the room.  Although it is only a
+few feet long, its sharp teeth make you think twice about petting it.
+@rus Дракон начинает шипет на Вас, как только Вы входите в комнату.
+Хоть это и младенец, но Вы понимаете, что его острые зубы наточены про Вашу душу.
+~
+dragon~
+ABG 0 -435 0
+7 0 2d6+85 7d25+200 1d8+1 none
+-4 -4 -4 -9
+EFNU 0 0 0
+stand stand none 7
+0 0 medium unknown
+F res H
+F vul I
+#2201
+draconian~
+@eng the Draconian@rus Драконид~
+@eng The Draconian is standing here.
+@rus Драконид стоит здесь
+~
+@eng This horrible creature is a bizarre cross between a man and a dragon.  He 
+has black scales and a seven foot wingspan.  He scowls at you and hefts his 
+spear as you enter the room.
+@rus Очень странное создание, смесь дракона и человека. Размах его крыльев семь футов, у него черная чешуя
+Завидев Вас он нахмурился и стал поигрывать своим копьем.
+~
+human~
+ABCF D -465 0
+13 0 2d10+170 13d25+200 2d5+3 none
+1 1 1 -8
+EFNU 0 0 0
+stand stand male 13
+0 0 medium unknown
+#2202
+lord crypt master~
+@eng the dragon master@rus Повелитель драконов~
+@eng The lord of this crypt is here.
+@rus Владыка склепа стоит здесь
+~
+@eng He doesn't look happy to see you.
+@rus Он не рад Вас видеть.
+~
+human~
+ABCF T -535 0
+27 0 5d10+650 27d25+200 5d4+7 none
+8 8 8 -6
+EFNU 0 0 0
+stand stand male 26
+0 0 medium unknown
+#2203
+mage wizard~
+@eng a powerful mage@rus Могущественный маг~
+@eng A man is here, studying some books.
+@rus Здесь находится человек, изучающий какие-то книги.
+~
+@eng A powerful looking mage is standing in this room studying his spells.  You are
+surprised at the fact that he is human, and realize that he must be very
+powerful to have been accepted by the creatures which live here.
+@rus Могущественный маг стоит в комнате и учит заклинания.
+Вы удивляетесь тому что он человек. Видимо он очень
+крут, раз был принят существами, живущими здесь.
+~
+human~
+ABR BDu -510 0
+22 0 4d10+360 22d25+200 2d7+5 none
+5 5 5 -3
+FU 0 0 0
+stand stand male 22
+0 0 medium unknown
+#2204
+cleric draconian~
+@eng the holy Draconian@rus Святой драконид~
+@eng A Draconian is here, deep in thought.          
+@rus Драконид стоит в задумчивости.
+~
+@eng A Draconian stands here, dressed in simple robes.  Around his neck you 
+notice a golden medallion in the shape of a five headed dragon.  
+@rus Драконид стоит здесь, одетый только в простую робу.
+У него на шее Вы замечаете золотой медальон, в форме пяти голов драконов.
+~
+human~
+ABCFQ Du -510 0
+22 0 5d10+400 22d25+200 2d8+6 none
+5 5 5 -5
+EIKU 0 0 0
+stand stand male 22
+0 0 medium unknown
+#2205
+king draconian~
+@eng the Draconian King@rus Король драконидов~
+@eng A Draconian wearing fine clothes is here, pondering his greatness.          
+@rus Хорошо одетый драконид стоит, наслаждаясь своим величием.
+~
+@eng The king of the draconians sits here on a golden throne.  He looks as 
+though he could crush your head with a single blow.  Yet you sense that he 
+is controlled by a greater power. 
+@rus Король драконидов восседает на золотом троне. Он смотрит на Вас, хотя мог бы проломить Вам голову.
+Вы ощущаете его мощь.
+~
+human~
+ABC Du -530 0
+26 0 5d10+600 26d25+200 3d7+7 none
+7 7 7 -6
+EFNU 0 0 0
+stand stand male 25
+0 0 medium unknown
+#2206
+concubine draconian~
+@eng a concubine@rus Любовница~
+@eng A concubine is resting here. 
+@rus Здесь отдыхает любовница Короля.
+~
+@eng This is a concubine of the king.  She is lounging here, wearing nothing at 
+all.  You find yourself strangely repulsed as she draws a knife and 
+prepares to defend herself. 
+@rus Это любовница короля. Она обнажена и желанна. Вы сильно удивлены, 
+потому что она схватила нож и приготовилась защищаться.
+~
+human~
+AB 0 -430 0
+6 0 2d7+71 6d25+200 1d7+1 none
+-4 -4 -4 -9
+EFNU 0 0 0
+stand stand female 6
+0 0 medium unknown
+#2207
+bodyguard draconian~
+@eng A bodyguard@rus Телохранитель~
+@eng A bodyguard is here, staring at you menacingly. 
+@rus Телохранитель мрачно разглядывает вас.
+~
+@eng This creature has devoted its life to defending the king.  Your intrusion has
+not pleased it.
+@rus Это существо посвятило всю свою жизнь защите короля. Ваше вторжение ему 
+сильно не нравится.
+~
+human~
+ABF CDF -490 0
+18 0 3d9+283 18d25+200 2d7+4 none
+3 3 3 -7
+EFNU 0 0 0
+stand stand male 18
+0 0 medium unknown
+#2220
+tiamat dragon~
+@eng Tiamat@rus Тиамат~
+@eng A five headed dragon hisses at you as you enter this room.
+@rus Пятиглавый дракон зашипел как только вы вошли в комнату.
+~
+@eng You see before you the master of this Tower, Tiamat.  She frowns at you as she
+prepares to make you pay for your insolence ... with your lives!
+@rus Перед вами владелица этой Башни Тиамат. Она нахмурившись разглядывает
+вас. Вы заплатите за дерзкое вторжение жизнью!!!
+~
+human~
+ABCF DFTV -660 0
+52 0 50d10+5500 52d25+200 6d7+20 none
+22 22 22 -2
+EFNU A CD 0
+stand stand female 38
+0 0 medium unknown
+#2221
+dragon red~
+@eng the Great Red Dragon@rus {RВеликий Красный Дракон{x~
+@eng A red dragon is here, contemplating your existence. 
+@rus Огромный Красный Дракон рассматривает вас.
+~
+@eng This huge red dragon dominates the chamber.  As you turn to flee, he grins at
+you and invites you to stay ... forever! 
+@rus Этот Великий Красный Дракон возвышается над вами. Заметив, что
+вы хотите сбежать, он усмехается и предлагает вам остаться здесь
+НАВСЕГДА!!!
+~
+dragon~
+ABCF DF -670 0
+54 60 25d10+8000 22d9+900 11d11+26 none
+85 85 85 24
+EFNR H 0 0
+stand stand male 39
+0 0 medium unknown
+F res H
+#2222
+dragon black~
+@eng the Great Black Dragon@rus {DВеликий Черный Дракон{x~
+@eng A black dragon is here, laughing at your insolence. 
+@rus Черный дракон насмехается над твоей беспомощностью.
+~
+@eng This huge black wyrm laughs at your puny weapons.  You realize that he is not
+going to roll over and die for you.
+@rus Большой черный дракон смеются над твоим оружием. Ты понимаешь, что его
+будет не легко одолеть.
+~
+dragon~
+ABCF DF -600 0
+40 40 15d10+3700 19d9+400 5d9+13 none
+19 19 19 1
+EFNR K 0 J
+stand stand male 32
+0 0 medium unknown
+F res H
+F vul I
+#2223
+dragon white~
+@eng the Great White Dragon@rus {WВеликий Белый Дракон{x~
+@eng A white dragon is here, waiting for you. 
+@rus Белый дракон ждет когда ты приблизишься.
+~
+@eng This dragon towers over you.  Recalling your previous experiences with white
+dragons, you are not afraid.  She smiles at you and says 'I think you will find
+me a greater challenge than my offspring.'
+@rus Этот дкакон возвышается перед вами. Вспоминая свой предведуший опыт
+общения с белыми драконами, вы не боитесь. Она улыбается вам и говорит:
+'Я думаю, что я более достойный противник, чем мои подчиненные'
+~
+dragon~
+ABCF DF -595 0
+39 20 10d10+3500 18d9+400 3d20+12 none
+12 12 12 -5
+EFNR I 0 H
+stand stand female 32
+0 0 medium unknown
+F res H
+F vul I
+#2225
+dragon green~
+@eng the Ancient Green Dragon@rus {G~~великий~~ ~~зеленый~~ ~~дракон~~{x~
+@eng A green dragon is here, looking distraught. 
+@rus Зеленый дракон выглядит безумным.
+~
+@eng This huge beast appears to be the most directly related to the draconians. 
+She looks at you with sorrow in her eyes and says 'You have slaughtered my 
+children.  Prepare to die.'
+@rus Это огромный зверь более похож на дракона. Она смотрит на тебя с печалью в глазах
+и сообщает: 'Вы убивали моих детей - приготовьтесь к смерти'
+~
+dragon~
+ABCF DF -635 0
+47 70 25d10+6000 20d9+800 4d8+24 none
+34 34 34 10
+EFNR L 0 A
+stand stand female 36
+0 0 medium unknown
+F res H
+F vul I
+#2226
+hydra~
+@eng a large hydra@rus Большая гидра~
+@eng A hydra is here, blocking the doorway. 
+@rus Большая гидра перегородила проход.
+~
+@eng A hydra is here, guarding the entrance to a sealed vault.  You have the feeling
+it isn't happy to see you.
+@rus Большая гидра охраняет вход в запечатанное хранилище. У вас плохое предчувствие.
+~
+human~
+ABCF DF -490 0
+18 0 3d9+283 18d25+200 2d7+4 none
+3 3 3 -7
+EFNU 0 0 0
+stand stand none 18
+0 0 medium unknown
+#2227
+slave human~
+@eng A human slave@rus Раб-человек~
+@eng A Human slave is here, hard at work.          
+@rus Раб-человек делает тяжелую работу.
+~
+@eng He looks like he's under a lot of stress.  He would probably like it if you
+left him alone.
+@rus Он выглядит очень измученным. Как бы ему хотелось, чтобы его оставили в покое.
+~
+human~
+ABS DF 0 0
+5 0 2d7+46 5d25+200 1d5+1 none
+-6 -6 -6 -9
+BEFJNU 0 0 0
+stand stand male 5
+0 0 medium unknown
+#2240
+zombie draconian~
+@eng a Draconian zombie@rus Зомби-дракон~
+@eng A Draconian zombie is here, staring at nothing in particular.
+@rus Зомби-дракон пристально смотрит в пустоту.
+~
+@eng This used to be one of the warriors of this tribe.  He was denied his final
+rest, however, and now guards this corridor tirelessly as a zombie.
+@rus Это обычный воин. Ему было отказано в покое после смерти и теперь
+он без устали охраняет корридор.
+~
+human~
+ABCF DFJ -400 0
+9 0 2d6+110 9d25+200 1d8+2 none
+-2 -2 -2 -8
+EFNU 0 0 0
+stand stand none 9
+0 0 medium unknown
+#2241
+dragon phase~
+@eng the phase dragon@rus Дракон Фазы~
+@eng A Phase Dragon is darting around the room.          
+@rus Дракон Фазы крутится по комнате.
+~
+@eng This small dragon looks like he's up to no good. 
+@rus От этого маленького дракона не стоит ожидать ничего хорошего.
+~
+dragon~
+ACFGH DF -300 0
+10 0 2d7+121 10d25+200 2d4+2 none
+-1 -1 -1 -8
+EFNR 0 0 0
+stand stand male 10
+0 0 medium unknown
+#2242
+fool draconian~
+@eng the draconian fool@rus Дракон-дурак~
+@eng A Fool is here, making fun of you.          
+@rus Дурак прикалывается над вами.
+~
+@eng This dragon man looks VERY foolish, dressed in a green and blue striped 
+suit.  As you enter the room, he points at you and laughs. 
+@rus Этот дракон выглядят ОЧЕНЬ глупым, в зелено-синем полосатом жакете.  Как 
+только Вы входите в комнату, он указывает на Вас и смеется.
+~
+human~
+AGHS DF 0 0
+5 0 2d7+46 5d25+200 1d5+1 none
+-6 -6 -6 -9
+BEFJNU 0 0 0
+stand stand male 5
+0 0 medium unknown
+#2243
+queen draconian~
+@eng the Draconian Queen@rus Королева Драконов~
+@eng A Female Draconian sits, here, looking very important.          
+@rus Женщина Дракон важно восседает здесь.
+~
+@eng This draconian looks VERY busy as she orders her slaves around.  You think 
+it might be a good idea to leave her alone. 
+@rus Этот дракон выглядят ОЧЕНЬ занятым рабами.  Вы думаете что оставить
+ее одну - это хорошая идея.
+~
+human~
+ABC DFu -500 0
+20 0 3d9+333 20d25+200 2d8+5 none
+4 4 4 -7
+EFNU 0 0 0
+stand stand female 20
+0 0 medium unknown
+#0
+
+#OBJECTS
+#2200
+spear jagged~
+@eng a jagged spear@rus Зубчатое копье~
+@eng A jagged spear has been left here.@rus Зубчатое копье лежит здесь.~
+wood steel~
+weapon 0 AN
+spear 2 7 thrust 0
+10 150 20 P
+G none
+#2201
+dagger silver~
+@eng a silver dagger@rus ~~серебряный~~ ~~кинжал~~~
+@eng A silver dagger is lying here.@rus Серебряный кинжал лежит здесь.~
+silver~
+weapon 0 AN
+dagger 4 2 pierce 0
+22 55 44 P
+A
+20 2
+G male
+#2202
+tooth knife dragon~
+@eng a dragon's tooth knife@rus Нож из зуба дракона~
+@eng A dangerous looking knife made from a dragon's tooth has been left here.@rus Опасный нож, сделанный из зуба дракона, лежит здесь.~
+bone~
+weapon 0 AN
+dagger 5 4 pierce 0
+30 80 60 P
+G none
+#2203
+bracelet dragon~
+@eng a dragon skin bracelet@rus Браслет из шкуры дракона~
+@eng A scaly bracelet lies on the ground.@rus Чешуйчатый браслет лежит на земле.~
+dragonskin~
+armor 0 AM
+6 6 6 3 0
+15 100 30 P
+G none
+#2204
+belt silk black~
+@eng a black silk belt@rus Черный шелковый пояс~
+@eng A black belt made of the finest silk is hanging here.@rus Черная лента, сделанная из тонкого шелка, висит здесь.~
+silk~
+armor 0 AL
+6 6 6 2 0
+17 250 34 P
+A
+5 1
+G none
+#2210
+belt silk white~
+@eng a white silk belt@rus Белый шелковый пояс~
+@eng A white belt made of the finest silk is hanging here.@rus Белая лента, сделанная из тонкого шелка, висит здесь.~
+silk~
+armor 0 AL
+6 6 6 2 0
+17 250 34 P
+A
+1 1
+G none
+#2211
+bracelet platinum~
+@eng a platinum bracelet.@rus Платиновый браслет~
+@eng A tarnished platinum bracelet has been dropped here.@rus Тускнеющий браслет из платины брошен здесь.~
+platinium~
+armor A AM
+7 7 7 0 0
+20 50 40 P
+G none
+#2220
+symbol holy~
+@eng a holy symbol@rus Святой символ~
+@eng A golden holy symbol is here.@rus Золотой святой символ находится здесь.~
+gold~
+jewelry A ACO
+0 0 0 0 0
+10 20 100 P
+A
+12 15
+G none
+#2221
+robe black~
+@eng a plain black robe@rus Черный халат~
+@eng A black robe is hanging on a hook on the wall.@rus Черный халат висит на стене.~
+leather~
+armor 0 AK
+5 5 5 0 0
+21 30 42 P
+A
+19 2
+G none
+#2222
+sword emerald~
+@eng an emerald sword@rus Изумрудная сабля~
+@eng An emerald long sword is leaning against the wall.@rus Изумрудная длинная сабля находится около стены.~
+steel~
+weapon 0 AN
+sword 5 4 slash D
+28 240 56 P
+G none
+#2223
+club stone~
+@eng a stone club@rus Каменная дубина~
+@eng A heavy looking stone club is here.@rus Тяжелая каменная дубинка валяется здесь.~
+stone~
+weapon 0 AN
+mace 3 6 crush 0
+18 180 36 P
+G none
+#2224
+ring diamond~
+@eng a diamond ring@rus Алмазное кольцо~
+@eng A diamond ring lies gleaming on the ground.@rus Алмазное кольцо поблескивает на земле.~
+diamond~
+jewelry 0 AB
+0 0 0 0 0
+37 60 370 P
+A
+19 3
+A
+18 3
+G none
+#2230
+ring copper~
+@eng a copper ring@rus Медное кольцо~
+@eng A copper ring is here.@rus На земле валяется медное кольцо.~
+copper~
+jewelry 0 AB
+0 0 0 0 0
+15 10 150 P
+A
+4 1
+G none
+#2231
+key steel~
+@eng a steel key@rus стальной ключ~
+@eng A steel key.@rus Стальной ключ на земле.~
+steel~
+key 0 A
+0 0 0 0 0
+0 10 0 P
+G none
+#2232
+key ruby~
+@eng a ruby key@rus Рубиновый ключ~
+@eng A ruby key.@rus Рубиновый ключ на земле.~
+ruby~
+key 0 A
+0 0 0 0 0
+0 10 0 P
+G none
+#2233
+key white~
+@eng a white key@rus Белый ключ~
+@eng A white key.@rus Белый ключ на земле.~
+ivory~
+key 0 A
+0 0 0 0 0
+0 10 0 P
+G none
+#2234
+key grey~
+@eng a grey key@rus Серый ключ~
+@eng A grey key is resting on the ground here.@rus Серый ключ на земле.~
+wood~
+key 0 A
+0 0 0 0 0
+0 10 0 P
+G none
+#2237
+key stone~
+@eng a stone key@rus Каменный ключ~
+@eng A stone key.@rus Каменный ключ на земле.~
+stone~
+key 0 A
+0 0 0 0 0
+0 10 0 P
+G none
+#2240
+key black~
+@eng a black key@rus Черный ключ~
+@eng A black key.@rus Черный ключ на земле.~
+onyx~
+key 0 A
+0 0 0 0 0
+0 10 0 P
+G none
+#2241
+key platinum~
+@eng a platinum key@rus Платиновый ключ~
+@eng A platinum key.@rus Платиновый ключ на земле.~
+platinium~
+key 0 A
+0 0 0 0 0
+0 10 0 P
+G none
+#2242
+shield crested~
+@eng a crested shield@rus Щит с гербом~
+@eng A large crested shield draws your attention.@rus Большой щит с гербом привлек ваше внимание.~
+steel~
+armor 0 AJ
+8 8 8 3 0
+25 200 50 P
+A
+5 1
+G none
+#2243
+wand golden~
+@eng a golden wand@rus Золотая палочка~
+@eng A golden wand has been dropped here.@rus Золотая палочка брошена тут.~
+gold~
+wand A AO
+25 10 10 'dispel magic' 0
+14 50 28 P
+G none
+#2244
+staff silver~
+@eng a silver staff@rus Серебряный посох~
+@eng A silver staff.@rus Серебряный посох на земле.~
+silver~
+staff AG AO
+25 20 20 'faerie fog' 0
+14 50 28 P
+G none
+#2245
+staff dragon~
+@eng the staff of the dragon@rus Посох дракона~
+@eng A powerful oak staff has been left here.@rus Мощный дубовый посох забыт здесь.~
+oak~
+staff AG AO
+25 10 10 'call lightning' 0
+15 50 30 P
+G none
+#2246
+mail scale~
+@eng scale mail@rus Броня~
+@eng A set of scale mail has been abandoned here.@rus Комплект брони забыт здесь.~
+steel~
+armor A AD
+8 8 8 0 0
+25 200 50 P
+G none
+#2250
+staff black~
+@eng a black staff@rus Черный посох~
+@eng You notice the faint outline of a staff.@rus Вы обращаете внимание на украшеный резьбой посох.~
+onyx~
+staff AJ AO
+30 3 3 'energy drain' 0
+14 250 28 P
+G none
+#2251
+potion cyan~
+@eng a cyan potion@rus Голубое зелье~
+@eng A small cyan potion has been left here.@rus Голубое зелье оставлено здесь.~
+glass~
+potion 0 A
+30 'blindness' 'harm' '' ''
+9 10 18 P
+G none
+#2252
+potion magenta~
+@eng a magenta potion@rus Розовое зелье~
+@eng A magenta potion.@rus Розовое зелье оставлено здесь.~
+glass~
+potion H A
+30 'cure critical' 'protection evil' '' ''
+7 10 14 P
+G none
+#2254
+gauntlets spiked~
+@eng a pair of spiked gauntlets@rus Пара перчаток с шипами.~
+@eng A pair of spiked gauntlets.@rus Пара перчаток с шипами.~
+iron~
+armor AG AH
+4 4 4 0 0
+20 100 40 P
+A
+1 1
+A
+19 2
+G none
+#2260
+scimitar golden~
+@eng a golden scimitar@rus Золотой ятаган~
+@eng A golden scimitar.@rus Золотой ятаган на земле.~
+gold~
+weapon A AN
+sword 3 4 slash 0
+16 100 32 P
+G none
+#2261
+brooch diamond~
+@eng a diamond brooch@rus Алмазная брошь~
+@eng A diamond brooch.@rus Алмазная брошь на земле.~
+diamond~
+jewelry G AC
+0 0 0 0 0
+25 20 250 P
+A
+12 25
+G none
+#2270
+scroll~
+@eng a runed scroll@rus Свиток с рунами~
+@eng A runed scroll.@rus Свиток с рунами забыт кем-то.~
+vellum~
+scroll G AO
+30 'armor' 'protection evil' 'shield' ''
+12 10 24 P
+G none
+#2271
+gloves dragon~
+@eng a pair of dragon skin gloves@rus Перчатки из кожи дракона~
+@eng A pair of dragon skin gloves are lying on the ground.@rus Пара перчаток из кожи дракона лежит на земле.~
+dragonskin~
+armor 0 AH
+6 6 6 3 0
+17 50 34 P
+A
+2 1
+G none
+#2275
+helm dragon~
+@eng a helm of dragon kind@rus Шлем короля драконов~
+@eng A helm made of a dragon's skull is lying on the ground.@rus Шлем, сделанный из черепа дракона, лежит на земли.~
+dragonskin~
+armor 0 AE
+10 10 10 5 0
+35 150 70 P
+A
+13 15
+G none
+#2276
+fur cloak~
+@eng a fur cloak@rus Меховой плащ~
+@eng A large mound of fur is lying here.@rus Большая гора меха лежит на земле.~
+fur~
+armor 0 AK
+6 6 6 1 0
+16 100 32 P
+A
+13 10
+A
+1 1
+G none
+#2280
+leggings dragon scale~
+@eng a pair of dragon scale leggings@rus Леггинсы дракона~
+@eng A pair of dragon scale leggings is lying on the ground.@rus Леггинсы дракона лежат на земле.~
+dragonskin~
+armor 0 AF
+7 7 7 3 0
+20 150 40 P
+G none
+#2281
+sleeves dragon scale~
+@eng a set of dragon scale sleeves@rus Нарукавники дракона~
+@eng A set of dragon scale sleeves is lying on the ground.@rus Нарукавники дракона лежат на земле.~
+dragonskin~
+armor 0 AI
+7 7 7 3 0
+20 120 40 P
+G none
+#2285
+whip dragon tail~
+@eng a dragon tailed whip@rus Хлыст дракона~
+@eng A dragon tailed whip is lying on the ground.@rus Хлыст дракона лежит на земле.~
+dragonskin~
+weapon BJ AN
+whip 4 5 whip 0
+24 140 48 P
+G none
+#2286
+hammer copper~
+@eng a copper hammer@rus Медный молоток~
+@eng A copper hammer is lying on the ground.@rus Медный молоток забыт на земле.~
+copper wood~
+weapon 0 AN
+mace 4 3 crush 0
+15 120 30 P
+G none
+#2287
+dagger silver~
+@eng a silver dagger@rus Серебряный кинжал~
+@eng A silver dagger is lying here.@rus Серебряный кинжал лежит здесь.~
+silver~
+weapon 0 AN
+dagger 2 3 pierce 0
+5 101 10 P
+G none
+#2299
+key gold tarnished~
+@eng a tarnished gold key@rus Тускнеющий золотой ключ~
+@eng A tarnished gold key lies here.@rus Тускнеющий золотой ключ лежит здесь.~
+gold~
+key 0 A
+0 0 0 0 0
+0 10 0 P
+G none
+#0
+
+#ROOMS
+#2201
+@eng The Tower Gates@rus Врата Башни~
+@eng You are at the entrance to a tall tower.  Lightning flashes periodically and
+it is raining.  You think it might be a good idea to turn back into the grove.
+@rus Вы стоите перед входом в Башню. Переодически видны вспышки молнии, идет дождь.
+Вам кажется, что лучше было бы убежать обратно в рощу.
+~
+0 A city
+E ''
+gate~
+@eng The gate is tall and secure.  Whoever built it values privacy.
+@rus Ворота высоки и надежны. Кто бы их не строил, он высоко ценил безопасность.
+~
+D0 0
+You see a large steel gate.  Beyond is the Foyer of the Tower.
+~
+gate steel~
+ABCZ 2231 2202
+D1 0
+The shadows cloud your vision.
+~
+~
+Z 0 1304
+S
+#2202
+@eng The Foyer@rus Фойе~
+@eng This is the entrance to the Tower.  The hallway continues to the north,
+leading towards a staircase.  You notice a grim painting on the wall,  and 
+quickly look away.
+@rus Вы стоите у входа в Башню. На север, к лестнице, тянется прихожая.
+Стены украшены мрачными картинами({Dpainting{x), разлядев их Вы хотите убежать.
+~
+0 CD inside
+E ''
+painting~
+@eng This painting depicts the grisly death of a foolish human.  You hope you do 
+not share his fate.
+@rus Эта картина изображает смерть дурацких людишек. Наивно думать, что вы
+не разделите с ними судьбу.
+~
+D0 0
+You see a long hallway. 
+~
+~
+Z -1 2203
+D2 0
+You see the gate. 
+~
+~
+ABZ -1 2201
+S
+#2203
+@eng Hallway@rus Прихожая~
+@eng This hallway seems to stretch on forever.  You notice a stairway in  
+the distance. 
+@rus Эта прихожая простирается в бесконечность. Вдалеке Вы видите лестницу.
+~
+0 D inside
+D0 0
+The hall continues. 
+~
+~
+Z -1 2204
+D2 0
+You see the foyer. 
+~
+~
+Z -1 2202
+S
+#2204
+@eng Hallway@rus Прихожая~
+@eng You trudge down the hallway.  You notice doors to the east and west. 
+@rus Вы тащитесь вниз по  прихожей. На западе и востоке видны двери.
+~
+0 D inside
+E ''
+inscription~
+@eng It says "STORAGE"
+@rus 'Хранение'
+~
+E ''
+sign~
+@eng The sign says "NURSERY" in bold letters.     
+@rus Красивая табличка с надписью '{WДетская{x'.
+~
+D0 0
+The hall continues. 
+~
+~
+Z -1 2207
+D1 0
+You see a door.  You notice a sign. 
+~
+door~
+ABZ -1 2205
+D2 0
+The hall continues.
+~
+~
+Z -1 2203
+D3 0
+You see an oak door.  There is an inscription on it. 
+~
+oak~
+ABZ -1 2206
+S
+#2205
+@eng Nursery@rus Детская~
+@eng It looks like a tornado has been through here.  Toys are scattered everywhere,
+and a small group of dragon hatchlings are fighting over a bone. 
+@rus Судя по всему здесь прошел смерч. Игрушки раскиданы в беспорядке.
+Небольшая группа маленьких драконов борються над костью.
+~
+0 D city
+D1 0
+~
+~
+Z 0 2223
+D3 0
+You see the hallway. 
+~
+~
+ABZ -1 2204
+S
+#2206
+@eng Storage Room@rus Хранилище.~
+@eng This room is covered with dust, it looks as if no one has been here in ages.
+@rus В этой комнате очень много пыли({Ddust{x), похоже здесь давно никто не был.
+~
+0 D city
+E ''
+dust~
+@eng As you look closely at the dust, you notice the outline of a trapdoor!       
+@rus Как вы видите, все в пыли. Но вы замечаете крышку люка.
+~
+D1 0
+You see the hallway. 
+~
+~
+ABZ -1 2204
+D5 0
+You see nothing special. 
+~
+trapdoor~
+Z -1 2208
+S
+#2207
+@eng End of the Hallway@rus Конец прихожей~
+@eng You have finally reached the end of the hallway.  A huge staircase leads up.
+You see a sign at the base of the staircase. 
+@rus Вы достигли конца прихожей. Лестница ведет наверх.
+У основания лестницы видна табличка(sign).
+~
+0 D inside
+E ''
+sign~
+@eng The sign reads:
+    This area is kind of tough.  You probably shouldn't go up these stairs 
+    alone if you are under 18th level, or at all if you under 14th level.  
+    Have fun! -- Wench
+@rus Знак гласит :
+'Это область жесткого добра. Вам лучше не подниматься по этой лестнице 
+одному, если вы не достигли 18 уровня, и тем более, если вы меньше 14. 
+Желаю удачи! -- Распутная девка'
+~
+D2 0
+The hall continues. 
+~
+~
+Z -1 2204
+D4 0
+The second floor.
+~
+~
+Z -1 2210
+S
+#2208
+@eng Guardian's Room@rus Комната охраны.~
+@eng You climb down the rickety stairs and find yourself face to face with a 
+gargantuan hydra.  How fast can you climb UP stairs? 
+@rus Вы спустились вниз по хрупкой лестнице и узрели перед собой гигантскую гидру (hydra).
+Любопытно, как быстро вы подниметесь обратно?
+~
+0 D city
+D2 0
+A large grey door.
+~
+grey~
+Z 2234 2209
+D4 0
+You see the storage room. 
+~
+door trap trapdoor~
+Z -1 2206
+S
+#2209
+@eng The Treasure Room@rus Сокровищница~
+@eng You have made it past the hydra into the vault.  You are astounded by 
+the treasure here.  Not only are you now rich, you can probably rest here
+safely.  The west wall seems to have a large door made entirely of ruby.
+@rus Вы прошли мимо гидры и попали в хранилище. Вся комната завалена 
+драгоценностями. Теперь Вы богаты и можете спокойно отдохнуть.
+Дорогу на запад закрывает большая дверь из рубина.
+~
+0 CD city
+D0 0
+You see nothing special. 
+~
+grey~
+AFZ 2234 2208
+D3 0
+You see a ruby door!
+~
+door ruby~
+ABCFZ 2232 2218
+S
+#2210
+@eng The Second Floor@rus Второй этаж.~
+@eng You have made it up to the second floor.  You hear hissing and see several
+dragon men rushing you.  You wonder how long you will be staying here.
+@rus Вы поднялись на второй этаж. Моментально до вас донеслось шипение 
+и вы узрели драконьих слуг, бегущих на Вас. Интересно, как долго Вы 
+здесь продержитесь.
+~
+0 D city
+D2 0
+You see the court.
+~
+~
+Z 1 2211
+D5 0
+You see the first floor.
+~
+~
+Z -1 2207
+S
+#2211
+@eng The Court@rus Суд~
+@eng You have entered what seems to be a large court.  The people guarding it
+don't seem happy to see you ...
+@rus Вы вошли в здание суда. Охрана очень недовольна вашим появлением.
+~
+0 D city
+D0 0
+You see nothing special.
+~
+~
+Z -1 2210
+D1 0
+You see a wooden door. 
+~
+door wooden~
+Z -1 2212
+D2 0
+You see the court.
+~
+~
+Z -1 2213
+S
+#2212
+@eng Hall O' Pleasure@rus Комната удовольствий.~
+@eng You stop dead in your tracks as you enter this ornately decorated room - it
+is populated with the king's harem.  
+@rus Вы вошли в комнату и замерли, словно мертвый. Это очень красиво
+оформленая комната, в ней располагается гарем короля.
+~
+0 D city
+D3 0
+You see the Court.
+~
+~
+Z -1 2211
+S
+#2213
+@eng The Court@rus Суд~
+@eng You are continuing down the hall.  To the east and west you see ornate doors.
+@rus Зал продолжается вниз. На востоке и западе видны украшеные двери.
+~
+0 0 city
+D0 0
+You see the court.
+~
+~
+Z -1 2211
+D1 0
+You see a black door.
+~
+door black~
+ABCZ 2240 2214
+D2 0
+You see the court.
+~
+~
+Z -1 2216
+D3 0
+You see a white door.
+~
+door white~
+ABCZ 2233 2215
+S
+#2214
+@eng The Library@rus Библиотека~
+@eng You have entered a huge room, filled with books.  A peaceful man is
+sitting at a table, studying.
+@rus Вы вошли в большую комнату наполненную книгами. Мирно настроенный человек сидит за столом,
+он что-то учит.
+~
+0 D city
+D3 0
+You see the court.
+~
+door black~
+ABCZ 2240 2213
+S
+#2215
+@eng The Sanctum@rus Убежище~
+@eng This small room is modestly decorated with small dragon icons.  Its sole
+occupant is deep in thought.
+@rus Маленькая комнатушка украшена изображениями дракона. Он очень задумчив.
+~
+0 D city
+D1 0
+You see the Court.
+~
+door white~
+ABCZ 2233 2213
+S
+#2216
+@eng The Court Ends@rus Комната судьи-драконида~
+@eng You have reached the end of the court.  A huge Draconian is sitting in a
+chair here.  As you enter, he motions with his hand and you are rushed by three
+of his bodyguards.
+@rus Вы зашли в комнату судьи-драконида, он сидит на стуле. 
+По его приказу к вам направляется охрана, с недобрыми выражениями лиц.
+~
+0 D city
+D0 0
+You see the court.
+~
+~
+Z -1 2213
+D1 0
+You see a private chamber.
+~
+~
+Z -1 2217
+S
+#2217
+@eng bedroom@rus Спальня~
+@eng This is the personal room of the draconian king.  It is not empty.
+@rus Это личные покои короля драконидов. Они не пусты.
+~
+0 D city
+D3 0
+You see Court.
+~
+~
+Z -1 2216
+S
+#2218
+@eng Entrance to the Crypt@rus Вход в склеп~
+@eng You have entered a large room which smells heavily of reptile.  You wonder
+what awaits you here.
+@rus Вы вошли в большую комнату, с сильным запахом рептилий.
+Вам интересно, что ожидает Вас здесь.
+~
+0 D city
+D1 0
+You see the Treasure Vault.
+~
+door ruby~
+ABCFZ 2232 2209
+D3 0
+You see the Crypt.
+~
+~
+Z -1 2219
+S
+#2219
+@eng Crypt@rus Склеп~
+@eng You are in a large room which continues to the west.  You notice many
+coffins here.  Open coffins reveal remains of something other than man.  
+The smell of reptile is very strong here.
+@rus Вы попали в большую комнату, уходящую на запад. Тут стоит много гробов.
+Останки в открытых гробах явно не человеческие. Здесь очень силен запах рептилий.
+~
+0 D city
+D1 0
+You see the entrance.
+~
+~
+Z -1 2218
+D3 0
+You see nothing special.
+~
+~
+Z -1 2222
+S
+#2220
+@eng The Lair@rus Берлога~
+@eng You have entered a large room dominated by a great white dragon.  It growls
+at you before it attacks.
+@rus Вы вошли в огромную комнату в которой живет громадный белый дракон.
+Он рычит на вас, желая атаковать.
+~
+0 D city
+D2 0
+You the cave opening.
+~
+~
+Z 0 2235
+S
+#2221
+@eng A Lair@rus Берлога~
+@eng You have entered a large room dominated by a great black dragon.  It looks
+as though it is amused by your presence.
+@rus Вы вошли в комнату с большим черным драконом. Ему смешно ваше присутсвие здесь...
+~
+0 D city
+D0 0
+You the cave opening.
+~
+~
+Z 0 2241
+S
+#2222
+@eng The Crypt Ends@rus Конец склепа~
+@eng You have come to the end of the Crypt.  It seems deserted.  There is a 
+strange coffin lying against the wall.
+@rus Вы добрались до конца склепа. Здесь абсолютно пусто.
+Напротив стены стоит странный гроб(coffin).
+~
+0 D city
+E ''
+coffin~
+@eng A coffin lies a against the east wall.  It is closed.
+@rus Гроб стоит около восточной стены. Он закрыт.
+~
+D1 0
+You see the Crypt.
+~
+~
+Z -1 2219
+D3 0
+~
+coffin~
+ABCZ 0 2232
+S
+#2223
+@eng Entrance to the Great Hall@rus Вход в большой зал~
+@eng You have entered a huge hall.  It has been carefully decorated with
+beautiful tapestries depicting a great battle between dragons and men.  The
+dragons appear to be the victors.
+@rus Вы вошли в большой холл. Он красиво украшен гобеленами.
+На гобеленах изображена битва между людьми и драконами, драконы побеждают.
+~
+0 D city
+D1 0
+The Hall continues.
+~
+~
+ABCZ 2237 2224
+D3 0
+~
+~
+Z 0 2205
+S
+#2224
+@eng The Great Hall@rus Большой зал.~
+@eng You are working your way down the Hall.  To the north, you notice a smaller
+passageway, while the main hall continues to the east.
+@rus Вы продолжаете свой путь вниз, по большому залу. На север видна
+маленькая дорожка, а зал продолжается и уходит дальше на восток.
+~
+0 D city
+D0 0
+You see a narrow passageway.
+~
+~
+Z -1 2225
+D1 0
+You see the Hall.
+~
+~
+Z -1 2229
+D3 0
+~
+~
+ABCZ 2237 2223
+S
+#2225
+@eng A Narrow Passageway@rus Узкий проход~
+@eng This Passageway branches off from the main hall and leads somewhere ... where?
+@rus Этот проход ведет из главного холла, но вот куда???
+~
+0 D city
+D0 0
+You see a large Lair.  It looks dangerous.
+~
+~
+Z -1 2226
+D2 0
+You see the great hall.
+~
+~
+Z -1 2224
+S
+#2226
+@eng Lair@rus Берлога~
+@eng You have entered a large lair with bones strewn about the ground.  You
+notice the source of these as you come face to face with a rather large red
+dragon.  You notice a trap door in the floor.
+@rus Вы вошли в большую комнату, в коией весь пол усыпан костьми твоих предшественников.
+Войдя вы узрели пред собой лик большого красного дракона. На полу Вы заметили люк.
+~
+0 D city
+D2 0
+The narrow passageway.
+~
+~
+Z -1 2225
+D5 0
+You see a trap door.
+~
+door trap trapdoor~
+Z -1 2227
+S
+#2227
+@eng Underground Tunnel@rus Подземный туннель~
+@eng You have entered an underground tunnel.  It is dark and dirty, and you find
+yourself wishing you were back in Midgaard.
+@rus Вы вошли в подземный туннель. Тут темно и грязно, Вы жалеете что покинули Мидгаард.
+~
+0 AD field
+D0 0
+You see the tunnel.
+~
+~
+Z -1 2228
+D4 0
+You see the red dragon's lair.
+~
+door trap trapdoor~
+Z -1 2226
+S
+#2228
+@eng Underground Tunnel@rus Подземный туннель~
+@eng This tunnel has come to a dead end.  You feel nervous about being trapped here.
+@rus Вы зашли в тупик. Вы боитесь, что здесь и настанет ваш конец...
+~
+0 ACD field
+D2 0
+You see the tunnel.
+~
+~
+Z -1 2227
+S
+#2229
+@eng The Great Hall Ends.@rus Конец большого зала.~
+@eng You have come to the end of the great hall.  You see before you a huge
+golden door, it must be at least twenty feet tall!  It has beautiful etchings
+of dragons.  You see a sign on the door.
+@rus Вы достигли конца большого зала. Перед Вами золотая дверь высотой футов 20.
+На двери есть знак(sign)
+~
+0 D city
+E ''
+sign~
+@eng Congratulations on making it this far!  Watch out, it gets a little
+    nasty here... :) - Wench
+@rus Поздравляем! Вы добрались...  Впереди вас ждут... только неприятности.
+Распутная девка.
+~
+D1 0
+You see a great golden door.
+~
+door great golden~
+ABCFZ 2299 2230
+D3 0
+You see the hall.
+~
+~
+Z -1 2224
+S
+#2230
+@eng THE Lair@rus Берлога~
+@eng You have entered a huge lair.  You feel that something big lives here or at least did.  The golden door lies back to the west.
+@rus Вы вошли в огромную пещеру. Вы чувствуете что кто-то большой живет здесь... или по
+крайней мере жил. Единственный выход из логова позади Вас, на западе.
+~
+0 D field
+D3 0
+You see a great golden door.
+~
+door golden great~
+ABCFZ 2299 2229
+S
+#2231
+@eng The End...@rus Конец...~
+@eng You have reached the final lair.  It is dominated by a huge five headed
+dragon.  You suddenly realize that you have SERIOUS problems...
+@rus Вы дошли до конца пещеры. Тут сидит пятиголовый дракон. У Вас СЕРЬЕЗНЫЕ проблемы...
+~
+0 D field
+D2 0
+You see the top of the mountain.
+~
+~
+AFZ 2241 2243
+S
+#2232
+@eng Stairwell@rus Лестничная клетка~
+@eng This is an old decrepit stairwell that leads to the wine cellar.  It looks
+like it hasn't been used for decades.  Well, at least not by anything living.
+@rus Вы находитесь на старой лестничной клетке, ведущей к винному погребу.
+Похоже, что она давно не использовалась. Хорошо, что здесь никто не поселился.
+~
+0 D field
+D1 0
+The crypt~
+~
+Z 0 2222
+D5 0
+A wine cellar~
+~
+Z 0 2233
+S
+#2233
+@eng Wine cellar@rus Винный погреб~
+@eng This is the old wine cellar of the Dragon Tower.  The shelves are empty.
+Nothing living has been in here for a long time.  You see a tunnel leading
+off to the east and boy does it smell bad.  Kinda of like rotting flesh.
+@rus Старый винный погреб в Башне Драконов. Полки пусты. Никто из смертных
+давно здесь не был. Но по желанию Богов здесь появляется вино, и они
+сидят, вспоминая ушедших собратьев. Тоннель ведет на восток.
+Когда-то здесь любили быть {WReist{x и {WTwohalf{x старые Боги, если ты вслушаешься,
+то услышишь эхо их пьяных воплей, оставшихся с прежних времен.
+~
+0 A field
+D1 0
+A tunnel
+~
+~
+Z 0 2234
+D4 0
+The stairwell
+~
+~
+Z 0 2232
+S
+#2234
+@eng Tunnel@rus Тоннель~
+@eng This tunnel seems to stretch for miles.  You try to distinguish the end but
+your eyes soon tire from the strain.  The smell here has increased two fold.
+The tunnel continues to go to the east.  The wine cellar lies back to the 
+west.
+@rus Тоннель по которому ты идешь тянется на много миль. Как ты не 
+вглядываешься вдаль, тебе не удается различить его конец. Тоннель 
+тянется на восток. Позади, на западе виден винный погреб.
+~
+0 AI field
+D0 0
+A cave opening
+~
+~
+Z 0 2235
+D1 0
+A tunnel
+~
+~
+Z 0 2236
+D3 0
+A tunnel
+~
+~
+Z 0 2233
+S
+#2235
+@eng A cave opening@rus Открытая пещера~
+@eng You stand at the opening of a giant cave.  There are many bones strewn across
+the room.  Some human, some indistinguishable.  It smells very bad in here.
+You can hear movement in the cave to the north.  The tunnel goes back to the
+south.
+@rus Вы стоите в открытой гигантской пещере. Много костей разбросано по полу.
+Некоторые из них человеческие, некоторые нет. Как здесь воняет! На севере
+пещеры слышатся чьи-то шаги. Туннель тянется на юг.
+~
+0 AI field
+D0 0
+The lair
+~
+~
+Z 0 2220
+D2 0
+The tunnel
+~
+~
+Z 0 2234
+S
+#2236
+@eng The End of the tunnel@rus Конец тоннеля~
+@eng You have finally come to the end of the tunnel.  Back to the west lies
+the miles of tunnels you have walked through.  You see the faint outline of
+a trapdoor above you.  A bridge over an underground river lies to the south.
+@rus И все же вы добрались до конца тоннеля. На запад простираются многие
+мили тоннеля. В потолке над вами виднеются слабые очертания люка.
+Мост над подземной рекой на юг от вас.
+~
+0 AI field
+D2 0
+bridge
+~
+~
+Z 0 2237
+D3 0
+The tunnel
+~
+~
+Z 0 2234
+D4 0
+trapdoor
+~
+~
+Z 0 2202
+S
+#2237
+@eng The Bridge@rus Мост~
+@eng You are walking along an old wooden bridge.  Its not that secure.  You 
+might want to hurry along.  To the south, on the other side of the bridge,
+lies a small opening.
+@rus Вы идете по старому деревянному мосту. Он раскачивается под вашими
+ногами и вы пытаетесь побыстрее его миновать. На юге видно маленькое
+отверстие.
+~
+0 AD field
+D0 0
+The tunnel end
+~
+~
+Z 0 2236
+D2 0
+A small opening
+~
+~
+Z 0 2238
+S
+#2238
+@eng A small opening@rus Маленькая прогалина~
+@eng You are standing in a small opening.  To the north lies the old wooden
+bridge.  To your south the you can see a clearing.  You can see sunlight
+again.  What a welcome relief!
+@rus Вы стоите на маленькой прогалине. На севере находится старый деревянный мост.
+На юге видна полянка. Ты снова видишь солнечный свет. Какое облегчение!
+~
+0 AD field
+D0 0
+bridge
+~
+~
+Z 0 2237
+D2 0
+clearing
+~
+~
+Z 0 2239
+S
+#2239
+@eng Clearing@rus Полянка~
+@eng You stand out in a clearing.  Mountains are all around you.  There is a 
+well in the middle of the clearing.  Lying against the well is a sign.  A
+path leads up the mountain.  The small opening is back to the north.
+@rus Вы стоите на полянке. Вокруг Вас горы. В центре поляны пересохший 
+колодец(well). На колодце Вы различаете полустертую надпись(sign).
+Тропинка поднимается в гору. Маленькая прогалина видна на севере.
+прогалина видна на севере.
+~
+0 0 field
+E ''
+sign~
+@eng The sign reads:
+         This is a bottomless pit cleverly disguised as a well.  People have
+fallen in and never been heard from again.  Trust me, you don't want to go 
+down there.
+                        The All Powerful Well Keeper
+@rus Табличка гласит:
+{w     Эта бездонная шахта умело замаскирована под колодец. Никто из 
+спустившихся в нее не возвращался. Я не думаю, что вы хотите попасть в нее.
+{w                   ВСЕМОГУЩИЙ Хранитель Скважины.
+~
+E ''
+well~
+@eng You peer over the side of the well.  It looks VERY, VERY deep.  It appears
+to be ENDLESS.
+@rus Вы осторожно подходите к краю и заглядываете вниз. Глубоко.... 
+очень глубоко... Он идет в БЕСКОНЕЧНОСТЬ...
+~
+D0 0
+the small opening
+~
+~
+Z 0 2238
+D4 0
+A path
+~
+~
+Z 0 2240
+D5 0
+The well
+~
+~
+Z 0 2244
+S
+#2240
+@eng A path@rus Горная тропинка~
+@eng This path leads up the side of the mountain.  A clearing lies below you.
+There is a cave opening to the west.  The path continues up the mountain.
+@rus По этой тропинке Вы поднимаетесь в горы. Под Вами виднеется полянка.
+На западе вход в пещеру. Тропинка продолжает подниматься наверх.
+~
+0 0 field
+D3 0
+cave opening
+~
+~
+Z 0 2241
+D4 0
+the path continues
+~
+~
+Z 0 2242
+D5 0
+clearing
+~
+~
+Z 0 2239
+S
+#2241
+@eng A cave opening@rus Открытая пещера~
+@eng You stand before a huge cave opening.  You hearing heavy breathing from
+within the cave.  There are a few skeletons lying about.  The cave lies to 
+the south.  The path is back to the east.
+@rus Вы стоите в открытой гигантской пещере. Из нее слышится чье-то тяжелое дыхание.
+Несколько скелетов лежат неподалеку. Пещера тянется на юг, а тот путь, по которому
+Вы пришли на восток.
+~
+0 0 field
+D1 0
+the path
+~
+~
+Z 0 2240
+D2 0
+A lair
+~
+~
+Z 0 2221
+S
+#2242
+@eng The path continues@rus Продолжение пути~
+@eng The path continues up the mountain to the top.  The path also goes down.
+Thats it, nothing more to see.
+@rus Дорога ведет все в верх, в горы. Так же можно вернуться обратно вниз.
+Больше ничего не видно.
+~
+0 0 field
+D4 0
+top of the mountain
+~
+~
+Z 0 2243
+D5 0
+path
+~
+~
+Z 0 2240
+S
+#2243
+@eng The top of the mountain@rus Вершина горы~
+@eng You are standing at the top of the mountain.  It feels more like the top of
+the world.  To your north lies a huge platinum door.  You hear very pronounced
+grumbling from behind the doors.  It sounds like something huge and hungry.
+But if you don't have the key you don't have to worry because you can't get in.
+If you do have the key I would suggest not going in.  Some believe the Five
+Headed dragon Tiamat was imprisoned here by the gods.  But who believes in 
+fairy tales.  Well, if you're scared, you can always go down the mountain.
+@rus Стоя на вершине горы, вы ощущаете себя на вершине мира. На севере
+громадная платиновая дверь(door platinum). За ней слышится приглушенное
+ворчание, чего-то большого и голодного. Без ключа туда не войти, а 
+вот если ключ есть... то лучше не стоит его использовать. Легенды гласят,
+что Богами там заключен Великий Дракон Тиамат. Но кто верит рассказам 
+Доброго Фея? А если вы ему верите, то бегите вниз с горы, пока он не 
+пробудился.
+~
+0 0 field
+E ''
+door platinum~
+@eng A huge platinum door separates you from harm@rus Большая платиновая дверь защищает вас.
+~
+D0 0
+The platinum door
+~
+door platinum~
+ABCFZ 2241 2231
+D5 0
+The path continues
+~
+~
+Z 0 2242
+S
+#2244
+@eng Well@rus Колодец~
+@eng O
+ h
+   !
+     N
+      o
+       !
+   I warned you!  You have fallen into the bottomless pit.  You life flashes
+right before your eyes.  Pretty pathetic isn't it?  Next time you'll know
+to listen to the God of Laughs.
+@rus O
+{w !
+{w  Н
+{w   e
+{w    т
+{w     !
+Я предупреждал Вас! Вы рухнули в глубокий колодец. Пред вами предстала вся ваша жизнь.
+Красивые воспоминания... не так ли? В следующий раз вы прислушаетесь к голосу Бога Смеха!!!
+~
+0 BC inside
+S
+#0
+
+#SPECIALS
+M 2200 spec_breath_any	* the dragon hatchling
+M 2203 spec_cast_mage	* a powerful mage
+M 2204 spec_cast_cleric	* the holy Draconian
+M 2205 spec_breath_any	* the Draconian King
+M 2220 spec_breath_any	* Tiamat
+M 2221 spec_breath_fire	* the Great Red Dragon
+M 2222 spec_breath_acid	* the Great Black Dragon
+M 2223 spec_breath_frost	* the Great White Dragon
+M 2225 spec_breath_gas	* the Ancient Green Dragon
+M 2226 spec_poison	* a large hydra
+M 2227 spec_thief	* A human slave
+M 2240 spec_cast_undead	* a Draconian zombie
+M 2241 spec_breath_gas	* the phase dragon
+M 2242 spec_thief	* the draconian fool
+M 2243 spec_breath_any	* the Draconian Queen
+S
+
+#RESETS
+D 0 2201 0 2	* The Tower Gates: door to the north: closed and locked
+D 0 2202 2 1	* The Foyer: door to the south: closed
+D 0 2204 1 1	* Hallway: door to the east: closed
+D 0 2204 3 1	* Hallway: door to the west: closed
+D 0 2205 3 1	* Nursery: door to the west: closed
+D 0 2206 1 1	* Storage Room: door to the east: closed
+D 0 2209 3 2	* The Treasure Room: door to the west: closed and locked
+D 0 2213 1 2	* The Court: door to the east: closed and locked
+D 0 2213 3 2	* The Court: door to the west: closed and locked
+D 0 2214 3 2	* The Library: door to the west: closed and locked
+D 0 2215 1 2	* The Sanctum: door to the east: closed and locked
+D 0 2218 1 2	* Entrance to the Crypt: door to the east: closed and locked
+D 0 2222 3 2	* The Crypt Ends: door to the west: closed and locked
+D 0 2223 1 2	* Entrance to the Great Hall: door to the east: closed and locked
+D 0 2224 3 2	* The Great Hall: door to the west: closed and locked
+D 0 2229 1 2	* The Great Hall Ends.: door to the east: closed and locked
+D 0 2230 3 2	* THE Lair: door to the west: closed and locked
+D 0 2243 0 2	* The top of the mountain: door to the north: closed and locked
+M 0 2200 12 2201 1	* the dragon hatchling (The Tower Gates)
+G 0 2231 0		*	a steel key
+M 0 2200 12 2202 1	* the dragon hatchling (The Foyer)
+M 0 2200 12 2203 2	* the dragon hatchling (Hallway)
+M 0 2200 12 2203 2	* the dragon hatchling (Hallway)
+M 0 2201 7 2203 2	* the Draconian (Hallway)
+E 0 2200 0 16		*	a jagged spear: wielded
+M 0 2201 7 2204 3	* the Draconian (Hallway)
+E 0 2200 0 16		*	a jagged spear: wielded
+M 0 2201 7 2204 3	* the Draconian (Hallway)
+E 0 2200 0 16		*	a jagged spear: wielded
+M 0 2201 7 2204 3	* the Draconian (Hallway)
+E 0 2200 0 16		*	a jagged spear: wielded
+M 0 2200 12 2205 4	* the dragon hatchling (Nursery)
+M 0 2200 12 2205 4	* the dragon hatchling (Nursery)
+M 0 2200 12 2205 4	* the dragon hatchling (Nursery)
+M 0 2200 12 2205 4	* the dragon hatchling (Nursery)
+M 0 2200 12 2206 1	* the dragon hatchling (Storage Room)
+M 0 2200 12 2207 1	* the dragon hatchling (End of the Hallway)
+M 0 2227 5 2207 2	* A human slave (End of the Hallway)
+M 0 2226 1 2208 1	* a large hydra (Guardian's Room)
+G 0 2234 0		*	a grey key
+G 0 2243 0		*	a golden wand
+G 0 2223 0		*	a stone club
+E 0 2244 0 17		*	a silver staff: held in the hands
+M 0 2201 7 2210 2	* the Draconian (The Second Floor)
+E 0 2200 0 16		*	a jagged spear: wielded
+M 0 2207 20 2210 5	* A bodyguard (The Second Floor)
+E 0 2286 0 16		*	a copper hammer: wielded
+M 0 2207 20 2211 5	* A bodyguard (The Court)
+E 0 2286 0 16		*	a copper hammer: wielded
+M 0 2207 20 2211 5	* A bodyguard (The Court)
+E 0 2260 0 16		*	a golden scimitar: wielded
+M 0 2206 5 2212 5	* a concubine (Hall O' Pleasure)
+E 0 2287 0 16		*	a silver dagger: wielded
+M 0 2206 5 2212 5	* a concubine (Hall O' Pleasure)
+G 0 2233 0		*	a white key
+E 0 2287 0 16		*	a silver dagger: wielded
+M 0 2206 5 2212 5	* a concubine (Hall O' Pleasure)
+G 0 2240 0		*	a black key
+E 0 2287 0 16		*	a silver dagger: wielded
+M 0 2206 5 2212 5	* a concubine (Hall O' Pleasure)
+E 0 2287 0 16		*	a silver dagger: wielded
+M 0 2203 1 2214 1	* a powerful mage (The Library)
+E 0 2223 0 12		*	a stone club: about the shoulders
+E 0 2250 0 17		*	a black staff: held in the hands
+G 0 2251 0		*	a cyan potion
+E 0 2261 0 3		*	a diamond brooch: around the neck
+M 0 2242 5 2214 1	* the draconian fool (The Library)
+M 0 2204 1 2214 1	* the holy Draconian (The Library)
+E 0 2220 0 3		*	a holy symbol: around the neck
+E 0 2211 0 14		*	a platinum bracelet.: on the left wrist
+E 0 2210 0 13		*	a white silk belt: around the waist
+G 0 2270 0		*	a runed scroll
+G 0 2252 0		*	a magenta potion
+M 0 2205 1 2216 1	* the Draconian King (The Court Ends)
+E 0 2222 0 16		*	an emerald sword: wielded
+E 0 2276 0 12		*	a fur cloak: about the shoulders
+E 0 2242 0 11		*	a crested shield: as a shield
+E 0 2254 0 9		*	a pair of spiked gauntlets: on the hands
+G 0 2232 0		*	a ruby key
+M 0 2207 20 2216 5	* A bodyguard (The Court Ends)
+M 0 2207 20 2216 5	* A bodyguard (The Court Ends)
+M 0 2207 20 2216 5	* A bodyguard (The Court Ends)
+M 0 2242 5 2216 4	* the draconian fool (The Court Ends)
+M 0 2242 5 2216 4	* the draconian fool (The Court Ends)
+M 0 2243 1 2217 1	* the Draconian Queen (bedroom)
+E 0 2203 0 14		*	a dragon skin bracelet: on the left wrist
+E 0 2204 0 13		*	a black silk belt: around the waist
+E 0 2201 0 16		*	a silver dagger: wielded
+M 0 2227 5 2217 4	* A human slave (bedroom)
+M 0 2227 5 2217 4	* A human slave (bedroom)
+M 0 2241 2 2217 2	* the phase dragon (bedroom)
+M 0 2240 8 2218 2	* a Draconian zombie (Entrance to the Crypt)
+M 0 2240 8 2218 2	* a Draconian zombie (Entrance to the Crypt)
+M 0 2240 8 2219 2	* a Draconian zombie (Crypt)
+M 0 2240 8 2219 2	* a Draconian zombie (Crypt)
+M 0 2223 1 2220 1	* the Great White Dragon (The Lair)
+E 0 2246 0 5		*	scale mail: on the body
+M 0 2222 1 2221 1	* the Great Black Dragon (A Lair)
+E 0 2280 0 7		*	a pair of dragon scale leggings: on the legs
+M 0 2202 1 2222 1	* the dragon master (The Crypt Ends)
+E 0 2202 0 16		*	a dragon's tooth knife: wielded
+E 0 2281 0 10		*	a set of dragon scale sleeves: on the arms
+E 0 2271 0 9		*	a pair of dragon skin gloves: on the hands
+M 0 2221 1 2226 1	* the Great Red Dragon (Lair)
+E 0 2275 0 6		*	a helm of dragon kind: over the head
+E 0 2245 0 17		*	the staff of the dragon: held in the hands
+G 0 2299 0		*	a tarnished gold key
+M 0 2225 1 2230 1	* the Ancient Green Dragon (THE Lair)
+G 0 2241 0		*	a platinum key
+G 0 2285 0		*	a dragon tailed whip
+E 0 2261 0 3		*	a diamond brooch: around the neck
+M 0 2220 1 2231 1	* Tiamat (The End...)
+M 0 2240 8 2232 1	* a Draconian zombie (Stairwell)
+M 0 2240 8 2233 1	* a Draconian zombie (Wine cellar)
+M 0 2240 8 2234 1	* a Draconian zombie (Tunnel)
+M 0 2240 8 2236 1	* a Draconian zombie (The End of the tunnel)
+M 0 2200 12 2239 1	* the dragon hatchling (Clearing)
+M 0 2200 12 2241 1	* the dragon hatchling (A cave opening)
+S
+
+#$

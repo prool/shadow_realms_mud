@@ -1,0 +1,182 @@
+#AREADATA
+Name Gods~
+Builders spinal~
+VNUMs 500 599
+Credits Spinal~
+Security 9
+LevelRange 0 0
+ResetMessage @eng The GODS look at you.@rus Ты чуствуешь, как на тебя смотрят боги.~
+End
+
+#MOBILES
+#500
+ehrumen god~
+@eng The Ehrumen@rus Ехрумен~
+@eng Mighty god stay here.
+@rus Могущественный бог стоит тут.
+~
+~
+human~
+Ao 0 0 0
+0 0 0d0+0 0d0+0 0d0+0 none
+0 0 0 0
+0 0 0 0
+stand stand male 0
+0 0 medium unknown
+F for AHMV
+F par ABCDEFGHIJK
+#501
+goktengri god~
+@eng The Goktengri@rus Гоктенгри~
+@eng Mighty god stay here.
+@rus Могущественный бог стоит тут.
+~
+~
+human~
+Ao 0 0 0
+0 0 0d0+0 0d0+0 0d0+0 none
+0 0 0 0
+0 0 0 0
+stand stand male 0
+0 0 medium unknown
+F for AHMV
+F par ABCDEFGHIJK
+#502
+eros god~
+@eng The Eros@rus Эрос~
+@eng Mighty god stay here.
+@rus Могущественный бог стоит тут.
+~
+~
+human~
+Ao 0 0 0
+0 0 0d0+0 0d0+0 0d0+0 none
+0 0 0 0
+0 0 0 0
+stand stand male 0
+0 0 medium unknown
+F for AHMV
+F par ABCDEFGHIJK
+#503
+krolm god~
+@eng The Krolm@rus Крольм~
+@eng Mighty god stay here.
+@rus Могущественный бог стоит тут.
+~
+~
+human~
+Ao 0 0 0
+0 0 0d0+0 0d0+0 0d0+0 none
+0 0 0 0
+0 0 0 0
+stand stand male 0
+0 0 medium unknown
+F for AHMV
+F par ABCDEFGHIJK
+#504
+atum-ra god~
+@eng The Atum-Ra@rus Атум-Ра~
+@eng Mighty god stay here.
+@rus Могущественный бог стоит тут.
+~
+~
+human~
+Ao 0 0 0
+0 0 0d0+0 0d0+0 0d0+0 none
+0 0 0 0
+0 0 0 0
+stand stand male 0
+0 0 medium unknown
+F for AHMV
+F par ABCDEFGHIJK
+#505
+seth god~
+@eng The Seth@rus Сет~
+@eng Mighty god stay here.
+@rus Могущественный бог стоит тут.
+~
+~
+human~
+Ao 0 0 0
+0 0 0d0+0 0d0+0 0d0+0 none
+0 0 0 0
+0 0 0 0
+stand stand male 0
+0 0 medium unknown
+F for AHMV
+F par ABCDEFGHIJK
+#0
+
+#OBJECTS
+#500
+love potion~
+the love potion~
+The love potion lies here.~
+glass~
+potion 0 A
+100 'love potion' '' '' ''
+0 1 1000 P
+G none
+#501
+abysmality~
+@eng {Babysmality{x@rus {BАбисмалити{x~
+@eng Canteen without bottom lies here.@rus Бездонный сосуд лежит здесь.~
+kender's skin~
+drink RYa AP
+-1 2147483647 'compote' 0 0
+1 10 2 P
+G none
+#502
+fial light~
+the infinity {Wfial{x of light~
+The infinity {Wfial{x of light lies here.~
+glass~
+light GIORY A
+0 0 -1 0 0
+1 20 1000 P
+G none
+#0
+
+#ROOMS
+#500
+@eng Ehrumen room@rus Комната Ехрумена~
+~
+0 DHKNOX inside
+S
+#501
+@eng Goktengri room@rus Комната Гоктенгри~
+~
+0 DHKNOX inside
+S
+#502
+@eng Eros room@rus Комната Эроса~
+~
+0 DHKNOX inside
+S
+#503
+@eng Krolm room@rus Комната Крольма~
+~
+0 DHKNOX inside
+S
+#504
+@eng Atum-Ra room@rus Комната Атум-Ра~
+~
+0 DHKNOX inside
+S
+#505
+@eng Seth room@rus Комната Сета~
+~
+0 DHKNOX inside
+S
+#0
+
+#RESETS
+M 0 500 1 500 1	* The Ehrumen (Ehrumen room)
+M 0 501 1 501 1	* The Goktengri (Goktengri room)
+M 0 502 1 502 1	* The Eros (Eros room)
+M 0 503 1 503 1	* The Krolm (Krolm room)
+M 0 504 1 504 1	* The Atum-Ra (Atum-Ra room)
+M 0 505 1 505 1	* The Seth (Seth room)
+S
+
+#$

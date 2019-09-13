@@ -1,0 +1,1161 @@
+#AREADATA
+Name Shadow Realms Helps~
+VNUMs 0 0
+Credits 'cure p~
+Security 2
+LevelRange 0 0
+End
+
+#HELPS
+-1 WIZLIST~
+{x         {C________{x          ************************         {C________{x
+{x       {C/+_+_+_+_+_\{x   **  {GThe Gods of Shadow Realms{x  **   {C/+_+_+_+_+_\{x
+{x       {C\__________/{x        ************************       {C\__________/{x
+{w         |{yXXXX{Y::{w|                                           |{yXXXX{Y::{w|
+{w         |{yXXX{Y::{yX{w|                 {WHIGH {W[{R101{W]{w                |{yXXX{Y::{yX{w|
+{w         |{yXX{Y::{yXX{w|             ******************            |{yXX{Y::{yXX{w|
+{w         |{yX{Y::{yXXX{w|                    {WXor{w                    |{yX{Y::{yXXX{w|
+{w         |{Y::{yXXXX{w|                                           |{Y::{yXXXX{w|
+{w         |{yX{Y::{yXXX{w|             {GImplementors {W[{R100{W]{w            |{yX{Y::{yXXX{w|
+{w         |{yXX{Y::{yXX{w|             ******************            |{yXX{Y::{yXX{w|
+{x         |{yXXX{Y::{yX{x|                 {WBellionore                |{yXXX{Y::{yX{x|
+{w         |{yXXXX{Y::{w|                                           |{yXXXX{Y::{w|
+{w         |{yXXX{Y::{yX{w|               {GCreators {W[{R99{W]{w               |{yXXX{Y::{yX{w|
+{w         |{yXX{Y::{yXX{w|             ******************            |{yXX{Y::{yXX{w|
+{x         |{yX{Y::{yXXX{x|                  {WRemirran{x                 |{yX{Y::{yXXX{x|
+{x         |{Y::{yxXXX{x|                   {WTazard{x                  |{Y::{yxXXX{x|
+{w         |{yX{Y::{yXXX{w|                                           |{yX{Y::{yXXX{w|
+{x {Y/<<>>\/<<>>\/<<>>\/<<>>\{x      {GSupremacies{x {W[{R98{W]{x     {Y/<<>>\/<<>>\/<<>>\/<<>>\{x
+{x {Y\<<>>/\<<>>/\<<>>/\<<>>/{x     ******************    {Y\<<>>/\<<>>/\<<>>/\<<>>/{x
+{w        |.  {R++{x  .|                  {WAlpha{x                  |.  {R++{x  .|{x
+{w        |.  {R**{w  .|                                         |.  {R**{w  .|
+{w        |.  {R++{w  .|               {GDeities {W[{R97{W]{w              |.  {R++{w  .|
+{w        |.  {R**{w  .|            ******************           |.  {R**{w  .|
+{w        |.  {R++{x  .|               {WCradya Taelas{x             |.  {R++{x  .|{x
+{w        |.  {R**{w  .|                                         |.  {R**{w  .|
+{w        |.  {R++{w  .|                 {GGods {W[{R96{W]{w               |.  {R++{w  .|
+{w        |.  {R**{w  .|            ******************           |.  {R**{w  .|
+{x        |.  {R++{x  .|              {WJennifer{x  {WAhau{x             |.  {R++{x  .|
+{x        |.  {R**{x  .|                                         |.  {R**{x  .|
+{x        |.  {R++{x  .|              {GImmortals{x {W[{R95{W]{x             |.  {R++{x  .|
+{x        |.  {R**{x  .|            ******************           |.  {R**{x  .|
+{w        |.  {R++{w  .|                                         |.  {R++{w  .|
+{x        |.  {R**{x  .|               {GDemiGods{x {W[{R94{W]{x             |.  {R**{x  .|
+{w        |.  {R++{w  .|            ******************           |.  {R++{w  .|
+{x        |.  {R**{x  .|                 {WBaltazar{x                |.  {R**{x  .|
+{x        |.  {R++{x  .|                                         |.  {R++{x  .|
+{x        |.  {R**{x  .|                {GAngels{x {W[{R93{W]{x              |.  {R**{x  .|
+{x        |.  {R++{x  .|            ******************           |.  {R++{x  .|
+{w        |.  {R**{x  .|                  {WShico{x                  |.  {R**{x  .|{x
+{w        |.  {R++{x  .|                                         |.  {R++{x  .|{x
+{w        |.  {R**{w  .|                                         |.  {R**{w  .|
+{w        |.  {R++{w  .|               {GAvatars {W[{R92{W]{w              |.  {R++{w  .|
+{w        |.  {R**{w  .|            ******************           |.  {R**{w  .|
+{w        |.  {R++{x  .|                                         |.  {R++{x  .|{x
+{w         \.    ./                                           \.    ./{x
+{x          \.  ./                                             \.  ./
+{x           \../                                               \../
+            \/                                                 \/
+ 
+~
+-1 ANATOLIA~
+. 
+      ANATOLIA started in early September 1996, using Rom2.4 code. In
+June of 1997, ANATOLIA II was started, eventually replacing the original
+ANATOLIA.
+
+The following people contributed to the ANATOLIA flavor of the ROM base
+code:
+
+Addition of New Areas --
+        Ibrahim Canpunar, Serdar Bulut and Murat Bicer
+
+Revision of New Areas --
+        Ibrahim Canpunar
+
+Revision and Addition of New Helps --
+        Ibrahim Canpunar and Serdar Bulut
+
+Additional Maps --
+        Ibrahim Canpunar
+
+Ideas and playtesting --
+    So many dedicated mudders around the world. Especially Amac Ural,
+Mustafa Ongel, Ibrahim Uzel, Rasit Gumus, David Heide.
+
+Complete C Code --
+        chiefly by Serdar Bulut,
+        with major contributions by Murat Bicer,
+        and also Ibrahim Canpunar and Devrim Baris Acar. 
+
+Used snippets (Available on internet) --
+        Quest Code (c) 1996 Ryan Addams (moongate@@moongate.ams.com)
+        Some snippets by Erwin S. Andreasen. erwin@@pip.dknet.dk
+~
+-1 ROM~
+ROM started in early February 1993, using Merc 1.0 code. In July of 1993,  
+ROM II was started, eventually replacing the original ROM.  ROM was up for
+a little over a year, after which the code (version 2.3) was released,
+and various other ROM muds were started, including Rivers of Mud under
+a new management (Zump's ROM), at rom.org 9000.
+
+Alander's current project is Tesseract, the latest version of the ROM code.
+It can be found at hypercube.org 9000.
+
+The following people contributed to the ROM flavor of the merc base code:
+
+Socials --
+    Kelsey and Liralen
+
+New, Improved Valhalla --
+    Liralen
+
+Puff's new special proc and improved poofin/poofout code --
+    Seth
+
+Maps and map shop --
+    Ezra, Regnan (Olympus)
+
+Nirvana zone --
+    Forstall (mobiles rewritten by Alander)
+
+Mob Factory --
+    Pinkfloyd (originally written for ROM, mobiles rewritten by Alander)
+
+Geographically correct Midgaard (tm) --
+    Alander
+
+Ideas and playtesting --
+    Thousands of dedicated mudders around the world
+
+Beta testing --
+    Ken Blosser, Doug Araya, and Sherene Neil all helped with bug reports
+    and suggestions, saving a lot of headaches
+
+New Thalos area was donated by Onivel of Jedi, who was also the originator
+of the ASCII flags used in the zone files
+
+ROM 2.4 was developed during my time with Moosehead mud, and the release
+shares many of the features I wrote while I was there.  Additional code
+was written by Seth Scott (the new poofin/poofout), and many contributions
+and ideas from the Merc list were used. 
+
+The new features of 2.4 were largely produced in bull sessions with
+Gabrielle (my wife) and Brian Moore, without whom this release wouldn't
+have happened.  In particular, the new privacy code, furniture, and
+wiznet are largely the results of Gabrielle's ideas.
+
+Changes to the standard diku mob and object format, as well as the changes
+to Merc 2.1 source code, were done by Alander over many a late night of
+hair-pulling. Hope you enjoy it.
+
+(my apologies if anyone was forgotten in this list)
+~
+-1 IMMORTAL IMMORT GOD WIZARD WIZ~
+'Immortal' (often, simply, 'immort') refers to players who have reached
+the highest attainable levels in the game.  Here, anyone of level 92
+or higher is an 'immortal.'  Immortals are capable of exceeding the
+usual game rules, in more drastic and pervasive ways as levels increase;
+examples range from teleportation and invisibility to mortal sight to
+creation of objects, removal of a player's privileges (channels,
+ability to move, or even ability to log in), and ability to promote
+players to immortality.
+
+Since immortals can wreak havoc with game balance, they are (ideally)
+a carefully-chosen and policed group.  An absolute rule of immortal
+behavior is that no immortal can aid or assist any player without
+explicit permission from the higher ranks; in other words, please
+don't ask an immortal to help you kill a mob, gather EQ, etc, or
+you'll likely be either politely or rudely refused, or referred to
+this file.
+
+The duties of immortals, and even the very reasons for their existence,
+are topics of continual and heated debate in various MUD forums, and are
+fraught with misconceptions, poor examples, and outrageous hypocrisies. :)
+~
+-1 ALL SOCIALS~
+This is a complete list of socials for this MUD:
+Compiled originally by: Sara
+accuse       adjust      air          apologize     applaud     babble
+bark         bcatch      beckon       beer          bearhug     beg
+bird         bkiss       bleed        blink         blush       boast
+boggle       bonk        bounce       bow           brb         burp
+cackle       caress      charge       cheer         chuckle     clap
+claw         collapse    comfort      comb          cough       cover
+cower        cringe      criticize    cry           cuddle      curse
+curtsey      dance       daydream     drool         duck        embrace
+explode      eyebrow     faint        fart          flare       flash
+flex         flinch      flip         flirt         flutter     fondle
+french       frown       fume         gasp          giggle      glare
+goose        grimace     grin         groan         grope       grovel
+growl        grumble     hand         head          hiccup      highfive
+hop          howl        hug          hush          ignore      innocent
+insane       judge       kiss         knee          laugh       lick
+love         lust        massage      meditate      moan        moon
+mosh         mutter      nibble       nod           nudge       nuzzle
+pant         passout     pat          peck          pie         pinch
+pissed       plead       point        poke          ponder      pout
+pray         propose     puke         punch         purr        ramble
+raspberry    rofl        roll         rub           ruffle      run
+scratch      scream      serenade     shake         shiver      shrug
+sigh         sing        slap         slobber       smile       smirk
+snap         snarl       sneeze       snicker       sniff       snore
+snort        snowball    snuggle      sob           spam        spank
+spit         squeal      squeeze      squirm        stare       stretch
+strip        stroke      strut        sulk          swoon       tackle
+tease        thank       threaten     tickle        tip         tongue
+twiddle      type        undress      view          wave        whine
+whistle      wiggle      wince        wink          wonder      worry
+worship      yawn        yeehaw       yodel         rose        laces
+tank         starve      aargh        homework      puff        differ
+yae          lightbulb   voodoo       ogg           confused    beam
+bite         discodance  scuff        whap          lag         chortle
+zerbert      twitch
+ 
+~
+-1 MERC~
+This mud is based on Merc 2.2, created by Furey, Hatchet, and Kahn.  
+Merc 2.1 is available as Merc_22.tar.gz from ftp.game.org 
+
+Thanks to ...
+  ... Diku Mud for starting it all.
+  ... The Free Software Foundation and DJ Delorie for kick-ass tools.
+  ... Copper Mud and Alfa Mud for releasing their code and worlds.
+  ... Aod of Generic for ... well, everything.  You're a hoopy frood, Aod.
+  ... Alander for many ideas and contributions.
+  ... John Brothers of Silly for permission to use Silly code and worlds.
+  ... Zrin for administering the mailing list.
+  ... Abaddon for proofreading our comm.c.
+  ... Hind, Quin, Vic, Diavolo, Oleg, Trienne, and others for porting help.
+  ... Diavolo, Grodyn, Morgenes, and others for code and bug fixes.
+  ... Raff, Doctor, VampLestat, Nirrad, Tyrst, PinkF, Chris, Glop for worlds.
+  ... the players and imps of Mud Dome, Final Mud, Mud Lite, Vego Mud, Rivers
+      of Mud, Ruhr Mud, and Mystic Realms for bug reports, ideas, new code,
+      and hours of enjoyment.
+
+~
+-1 MAP MAPS~
+Thanks to Ezra for drawing the originals of several maps on ROM.
+~
+-1 GREETING~
+{x          .     .
+    ...  :``..':
+     : ````.'   :''::'                                     _=_
+   ..:..  :     .'' :            __                       ( _ )
+``.    `:    .'     :           (  `\    ________________/'(_)`\_______________
+    :    :   :        :          \   ~~~~~~ ____________   __   __   ____________~~
+     :   :   :         :          )>  _               ~~-~~  ~~-~~  ~~-~~
+     :    :   :        :         <(  (_)   @@}--> S H A D O W   R E A L M S <--{{@@
+{x      :    :   :..''''``::.        \               Now code by Xor.
+       : ...:..'     .''           |      Original DikuMUD by Hans Staerfeldt,
+       .'   .'  .::::'             |  Katja Nyboe, Tom Madsen, Michael Seifert,
+      :..'''``:::::::              |   and Sebastian Hammer. Based on MERC 2.1
+      '         `::::              |  __   code by Hatchet, Furey, and Kahn.
+                  `::.             | (  )   ROM 2.4 copyright (c) 1993-1995
+                   `::             |  \    Russ Taylor. ANATOLIA 2.1 by 1997
+                    :::.           |   )    Serdar BULUT, Ibrahim CANPUNAR,
+         ,,:,:,::.   ::'`   .-:~~:-._\  (     Murat BICER, Devrim Baris ACAR.
+{x       ..'      `:.: ::   :'       .|   \,/    Sog code by fjoe and efdi.
+{x      .:        .:``:::  :       .: |   /`\    UicMud code by Reist, Lom.
+{x      .:    ..''     :::.'    :':    \         ___   (SR 1998 - 2000)  ___
+       : .''         .:: : : '       `\  /====~~   ~~=====\       /=====~~   ~~====
+        :          .'`::               \(                )/~~^~~\(
+                      ::                `                '     `
+[ Network provided by TTKNN. http://www.ttknn.net/ ({Cmud.nnov.net{x) ]
+~
+-2 MOTD~
+@eng This is a Roleplaying, PlayerKilling and Adventure MUD.
+* You are responsible for knowing the rules (type 'rules').  Ignorance of 
+  the rules is no excuse.
+* Important commands: help, commands, news, notes.
+* Read all helps. So many things are changed relatively before.
+* Added multi-config language support command. See '{Cconfig language{x' command.
+* Added short mode for flags. See '{Cconfig toggle{x' command.
+* {CChat{x channel added. Use it to communicate with other players.
+* {RShout{x channel is reserved for emergency purposes only!
+* {CGossip{x and {Cmusic{x channels added.
+* Use '{Cbug{x' command or mail to {Cmud@@nnov.net{x for bug reports
+  and suggestions.
+* win1251 users, see '{CHELP WIN1251{x'.
+* Check out our homepage at {Chttp://mud.nnov.net/{x
+* Check U connection {Cmud.nnov.net{x or {C81.18.129.6{x
+{x  or {Cmud.nnov.ru{x
+@rus Это МУД, где можно убивать других игроков в рамках закона.
+* Вы обязаны знать правила игры (для их изучения наберите rules). 
+  Незнание законов не освобождает от ответственности за их невыполнение.
+* Важные команды: help, commands, news, notes.
+* Внимательно ознакомьтесь с help'ами. Изменения происходят постоянно!
+* МУД поддерживает русский язык во всех кодировках. Изучите команду {Cconfig language{x.
+* Возможно различное представление описаний. Смотри команду {Cconfig toggle{x.
+* Канал {Rgossip{x предназначен для экстренных целей. Не засоряйте его!
+* Используйте канал {Cchat{x для внеигрового общения.
+* {Cshout{x и {Cmusic{x существуют для общения персонажей, а не реальных игроков.
+* Используйте команду {Cbug{x или пишите по адресу {Cmud@@nnov.net{x
+  для сообщения об ошибках кода.
+* Пользующиеся таблицей win1251, прочитайте '{CHELP WIN1251{x'
+* Посетите нашу страницу {Chttp://mud.nnov.net/{x
+* Постоянно ищем тех, кто готов помочь процветанию этого мира. Хотите стать
+  бессмертным -- мы рассмотрим вашу просьбу (note to imm).
+~
+92 IMOTD~
+@eng Welcome Immortal!
+
+You are responsible for following the laws of immortal behavior. These can
+be found by typing 'help laws' or 'help commandments'.
+
+* Excessive loading is not allowed, and is grounds for deletion.
+* Asking for promotion is grounds for instant deletion.
+* Type 'help jobs' to get some idea of what you should be doing.
+* Remember you can RENAME players with unwanted nick names.
+@rus Здравствуй, Бессмертный.
+Не забудь правила и обязаности, которые ты должен соблюдать:
+          help 'law' или help 'commandments'.
+Твое пребывание здесь должно быть ради игроков мира, поэтому
+стремись соблюдать правила приличия. Отношение игроков к тебе
+говорит о том, что ты сделал для этого мира, а так же как ты
+сам к ним относишься (если ты не умеешь общаться просто
+уйди в wizinv).
+   При создании мира придерживайся определенных стандартов
+(help 'CREATE WORLD'), не делай 'оверов', пытайся делать мир
+интересным, проверяй свои изменеия сам (не заставляй других
+'иммов' отвлекаться на твои ошибки), доделывай начатую работу,
+не забывай 'убирать' за собой после 'экспериметов' (лучше
+делать их в арии "В помощь Иммам")
+{W   Давайте сделаем этот мир своим вторым домом !{x
+ 
+~
+92 COMMANDMENTS 'GOD RULES'~
+.
+                          The Rules of ANATOLIA 
+ 
+1)  Do not kill mortals, do not kill mortals, do not kill mortals.
+    This includes transferring/summoning them to aggressive mobs.
+ 
+2)  Do not cheat for ANY mortal in ANY way, especially your own. 
+    Unless of course you LIKE deletion. Yes this includes tanking,
+    healing/restoring, casting protection spells <armor, sanct>,    
+    and softening up or altering mobs.
+ 
+3)  Do not transfer or summon mobs to mortals or mortals to mobs.
+    They have legs, if they want to kill a mob, they can easilly
+    go there themselves.
+ 
+4)  DO NOT kill the shopkeepers for any reason at ALL.
+ 
+5)  DO NOT use reboot.  <--- Note, simple English.
+ 
+6)  Do not give out free equipment.  You don't need to win brownie
+    points with the mortals.  Quest are fine but handing out items
+    isn't.
+ 
+7)  A note on quests: Quests are a good thing, more or less, BUT 
+    do not give out overly extravagant prizes.  Exercise some 
+    common sense here folks.  Do not load items more than 4 levels
+    below their normal level (i.e. no level 5 ogre gauntlets).
+ 
+8)  Do not undermine the authority of a higher level god.  If you 
+    see that someone has been frozen or nochannelled do not restore
+    their priveleges.  They are being punished for a reason.
+ 
+9)  Do not try to overrule each other.  
+ 
+10) Trusted mortals:  Do not use your god powers to help your mortal
+    character.  If you do, your trust will be taken away.
+
+11) Take care of limited objects and quests.
+
+~
+0 SUICIDE DELETE~
+@eng Use the delete command to erase unwanted characters, so the name will be
+available for use.  This command must be typed twice to delete a character,
+and you cannot be forced to delete.  Typing delete with an argument will
+return your character to 'safe' status if you change your mind after the
+first delete.
+@rus {G========================================================================{x
+
+С помощью этой команды вы сможете удалить своего чара. После удаления 
+этим именем может воспользоваться любой. При удалении вы должны будете
+ввести пароль и только после этого он удалится.
+ 
+{G========================================================================{x
+ 
+~
+0 HEALER~
+@eng The healer decided to grab a quick buck, and now charges for his heals.  Some
+services are still free to players of level 10 or below, however.  To see
+a full listing of the healer's services, type 'heal' at his residence. To
+receive healing, bring plenty of money, and type 'heal <spell>'.
+@rus {G==============================================================================={x
+
+Лекарь предлагает вам свои услуги по лечению и повышению ваших умений, и
+просит деньги за свою помощь.  Некоторые из его услуг бесплатны для игроков
+ниже 10 уровня (просто стойте рядом с ним, и он наложит на вас эти
+заклинания).  Для того, чтобы посмотреть полный список предлагаемых им
+услуг, наберите команду {cheal{x, стоя возле него.  Для того, чтобы
+излечиться или повысить при помощи его заклинаний свои способности, вы
+должны иметь необходимую сумму денег.  Если они у вас есть, наберите {cheal
+<заклинание>{x.  
+ 
+{G==============================================================================={x
+~
+92 CLONE~
+Syntax:
+  clone obj <object>
+  clone mob <mobile>
+  clone <name>
+
+The clone command duplicates an object or mobile.  The level of item or mobile
+that may be cloned depends on your level.  The target object or mob must be in
+the same room as you, or in your posession.  Strung and set information is
+preserved by clone, as well as any spell effects and container contents or
+mobile inventory, except for items which are too high for you to clone.  
+Strung extended descriptions on objects are not kept, however.
+~
+0 SKILLS SPELLS~
+@eng Syntax:
+skill
+skill <MinLevel> <MaxLevel>
+
+The skills and spells commands are used to display your character's list
+of available skills (or spells, as the case may be).  They are listed in
+order of level, with mana cost (for spells) or percentage (for skills)
+listed where applicable.
+@rus {G================================================================================{x
+ 
+Синтаксис: {cskill{x
+Синтаксис: {cskill <Минимальный уровень> <Максимальный уровень>{x
+ 
+Команды {cskill{x и {cspell{x используются для отображения списка доступных
+вашему персонажу умений и заклинаний. Они отсортированы по уровню, также
+показывается манна (только у заклинаний), процент прокачки (в скобках пишется 
+реальный процент на данный момент, зависит от мудрости, {cbless{x, {ccurse{x),
+максимальный процент и сложность прокачки.
+ 
+{G================================================================================{x
+~
+0 OUTFIT~
+@eng The outfit command, usable by levels 5 and below, equips your character with
+a new set of sub issue gear (banner, weapon, helmet, shield, and vest), 
+courtesy of the Mayor's warehouses.  Only empty equipment slots are affected.
+@rus {G==============================================================================={x
+ 
+Синтаксис: {coutfit{x
+ 
+Этой командой могут пользоваться игроки ниже 5 уровя. С помощью нее они могут 
+получить свое первоначальное снаряжение. Вам будет вручено только то снаряжение
+которое на вас еще не надето.
+ 
+{G==============================================================================={x
+~
+0 AUTO AUTOLIST AUTOLOOT AUTOGOLD AUTOLOOK AUTOSAC AUTOEXIT AUTOASSIST AUTOSPLIT~
+@eng ROM uses varies automatic actions, to ease the boredom of always splitting
+gold and sacrificing corpses.  The commands are as follows:
+
+autolist  : list all automatic actions
+autoloot  : take all equipment from dead mobiles
+autogold  : take all gold from dead mobiles
+autolook  : automagically look in corpse after combat
+autosac   : sacrifice dead monsters (if autoloot is on, only empty corpses)
+autoexit  : display room exits upon entering a room
+autosplit : split up spoils from combat among your group members
+autoassit : makes you help group members in combat
+
+Typing a command sets the action , typing it again removes it. 
+ 
+@rus {G=============================================================================={x
+
+Когда вы входите в комнату или полсе боя могут быть включены следующие
+автоматические режимы.
+ 
+{cautolist{x     :посмотреть список и положение автоматических режимов.
+{cautoassist{x   :автоматически вступать в бой, если в бой вступает кто-нибудь 
+{x              из вашей группы.
+{cautoexit{x     :При входе в комнату вы видите все возможные выходы.
+{cautogold{x     :Автоматически забирать деньги из трупов убитых вами мобов.
+{cautolook{x     :Автоматически просматривать содержимое трупов убитых при 
+{x              окончании боя.
+{cautoloot{x     :Забирать все вещи из трупов убитых вами существ.
+{cautosac{x      :Приносить в жертву богам все, что осталось от убитого вами
+{x              существа.
+{cautosplit{x    :Делить деньги, которые вы достали из трупа убитого вами
+{x              существа поровну на всех членов группы.
+{cautoscalp{x    :Автоматически делать скальпы убитых вами существ.
+{cmental{x       :При включенной защите вас не могут призвать те, кто 
+{x              находится вне вашего PK. Тем же, кто у вас в PK находится,
+{x              будет гораздо труднее это сделать. При выключенной защите вас
+{x              смогут призвать все, кто находится в вашем PK или выше.
+{cnofol {x       :Если вы набрали команду {cnofol{x, то никто более не сможет
+{x              последовать за вами.
+ 
+{G==============================================================================={x
+~
+-1 COUNT~
+The count command displays the number of people (that you can see) logged
+into the mud.  It also displays the highest number observed that day, if
+it is higher.
+~
+-1 GATE~
+@eng {G============================================================================={x
+
+Syntax: {ccast 'gate' <mob/char>{x
+
+The gate spell is a powerful transportation magic that opens up a portal 
+between your character and another person or creature somewhere else in the
+world.  This portal will transport you and any pet you might have, but not
+other members of your group.  Monsters recieve a save against gate, and
+monster or players more than 3 levels higher than you can not be gated to at 
+all.  God rooms, private rooms, and no recall rooms cannot be gated to, and
+no recall rooms cannot be gated out of.  Finally, any god or hero is also 
+immune to gate, as well as in player who has no summon set. 
+ 
+{G============================================================================={x
+@rus {G========================================================================================{x
+ 
+Синаксис: {ccast 'gate' <имя моба/чара>{x
+ 
+Заклинание 'врата' - мощное волшебство транспортирования, которое открывает дверь между вами
+и другим чаром или мобом где-то в мире. Это заклинание транспортирует Вас и ваше домашнее
+животное, но не членов Вашей группы. Врата не создаются, если чар/моб защищен к магии, или
+чар/моб значительно выше Вас уровнем.
+Врата также не создаются в комнаты Богов, и комнаты в которых не работает {crecall{x, также
+врата не создаются, когда Вы находитесь в комнате, в которой не работает {crecall{x.
+Для использования этого заклинания необходимо надеть кольцо телепортации,
+которое продает волшебник в Мидгарде.
+ 
+{G========================================================================================{x
+ 
+~
+-1 'ASTRAL WALK'~
+@eng The astral walk spell is a powerful transportation magic that opens up a 
+portal between your character and another person or creature somewhere
+else in the world. This portal will transport you and any pet you might
+have, but not other members of your group.  Monsters recieve a save
+against astral walk, and monster or players more than 3 levels higher than
+you can not be astral walked to at all.  God rooms, private rooms, and no
+recall rooms cannot be astral walked to, and no recall rooms cannot be
+astral walked out of. Finally, any god or hero is also immune to walk, as
+well as in player who has no summon set. 
+@rus {G========================================================================{x
+
+Синтаксис: {ccast 'astral walk' <цель>{x
+ 
+Это заклинание позволЯет вам перемещатсЯ к заданному мобу вместе со
+своей зверушкой ( не чармисом ).
+Вы не сможете перенестись к мобу (игроку) , который больше вас на 3 левела.
+Также вы не сможете путешествовать в (из) комнаты с флагами god rooms,private room,
+и norecall room.
+Помните что вы не сможете перенестись к Богам , ГероЯм и к чарам у которых не стоит
+nosum on.
+ 
+{G========================================================================{x
+ 
+~
+-1 'MIST WALK'~
+The mist walk spell is a powerful transportation magic that opens up a 
+portal between your character and another person or creature somewhere
+else in the world.  This portal will transport only you, but not
+your pet or other members of your group.  Monsters recieve a save
+against mist walk, and monster or players more than 5 levels lower than
+you can not be mist walked to at all.  God rooms, private rooms, and no
+recall rooms cannot be mist walked to, and no recall rooms cannot be mist
+walked out of.  Finally, any god or hero is also immune to mist walk, as
+well as in player who has no summon set. 
+~
+-1 'SOLAR FLIGHT'~
+@eng {G============================================================================={x
+
+Syntax: {ccast 'solar flight' <target>{x
+
+The solar flight spell is a powerful transportation magic that opens up a 
+portal between your character and another person or creature somewhere
+else in the world.  This portal will transport only you, but not
+your pet or other members of your group.  Monsters recieve a save
+against solar flight, and monster or players more than 1 levels higher
+than you can not be solar flighted to at all.  God rooms, private rooms,
+and no recall rooms cannot be solar flighted to, and no recall rooms
+cannot be solar flighted out of.  Finally, any god or hero is also immune
+to solar flight, as well as in player who has no summon set. And ofcourse
+you need the sun light to cast this spell effectively.
+ 
+{G============================================================================={x
+@rus {G============================================================================={x
+ 
+Синтаксис: {ccast 'solar flight' <цель>{x
+ 
+Это заклинание очень похоже на gate (см. {chelp gate{x). Отличие в том,
+что оно работает только при солнечном свете, то есть днем.
+ 
+{G============================================================================={x
+~
+-1 AFFECTS AFFECT RAFFECT RAFFECTS~
+@eng Affect command is used to show all the spells affecting your character. At
+low levels, only the spell name will be displayed, at higher levels the
+effects and duration of the spell will also be shown.  Spell effects
+are no longer shown on score (this can be changed by using 'show' command).
+
+
+Raffect command is used to show all the spells affecting the rooms. At
+low levels, only the spell name will be displayed, at higher levels the
+effects and duration of the spell will also be shown.  Spell effects
+are no longer shown on score (this can be changed by using 'show' command).
+@rus {G==============================================================================={x
+
+Синтаксис:  {caffect{x
+{c            raffect{x
+
+С помощью команды {caffect{x вы свожете посмотреть список заклинаний, 
+наложенных на вас. С 20 уровня вы сможете узнать, на сколько и что изменяет
+то или иное заклинание, и на сколько часов.
+Команда {craffect{x показывает, какие заклинания наложены на комнату.
+ 
+{G==============================================================================={x
+~
+-1 LANG LANGUAGE~
+@eng Language command is used to switch native language.
+Use '{Cconfig language help{w' to list supported languages.
+@rus Сообщения получаемые тобой во время игры могут быть на русском или
+английском языках. Выбрать его можно при создании героя.
+Узнать какой язык вы используете можно используя команду {cconfig lang{x.
+Язык можно менять и во время игры. Достаточно набрать {cconf lang rus{x
+или {cconf lang eng{x и, соответственно, изменить язык на нужный.
+~
+91 'CREATE WORLD OBJECTS'~
+{w*) Обязательно указывайте в short eng англйское имя, которое есть в
+   name (список имен), иначе при lang rus не будет указываться в
+   скобках eng_name
+*) Стоимость вещи в зависимости от обстоятельств, но
+{x   примерно cost(silver) = 10 + level_obj * 4 (armor, weapon)
+{x            cost(silver) = Food_hours / 5 (food)
+{x            cost(silver) = 3 + level_obj * 4 (potions, scrolls..)
+            cost(silver) = 5 + level_obj * 2 (pills)
+            cost(silver) = timer / 2 (light)
+{x            cost(silver) = 1 + (даёт параметры ? level * 4 : 0) +
+{x            (110 - URANGE(0, weight_mult, 109))^(weight_mult > 15 ? 2 : 3)
+{x             / (weight_mult > 50 ? 10 : 5) + capacity / 3 + Weight / 20
+{x             + (burnproof ? 50 : 0) + (closable with key ? 20 : 0)       <- Бред Ксора
+{x         1 Food_hours - это 2 hunger pointa.
+{x         1 Full_hours - это 2 full pointa.
+*) Матерьял в коде учитываеться. Вот список учитываемых материалов:
+   silver gold iron mithril adamantite steel lead bronze copper brass
+   platinium titanium aliminum
+   wood ebony ice energy hardwood softwood flesh silk wool cloth fur
+   water ice oak
+   steel iron brass ivory copper diamond pearl gem ruby lead obsidian
+   wood oak hardwood softwood silver iron metal glass
+*) Armor_Class (AC) расчитывайте чтоб чар имел на уровень в среднем
+{x   ac = 100 - 8 * level_char (у ac_exotic ac = 100 - 7 * level_char)
+*) average (средний damage) у оружия (зависящий от X dice Y + Z) расчитывайте
+{x   чтоб он был примерно 1 - 20  level'a: до 16
+{x                        выше 20 level'a: level_weapon * 0.75
+*) HITROLL: чтоб у чара был примерно равен его level'у (у thief и ninja побольше)
+*) DAMROLL: ну это почти прямое прибавление к damage, поэтому примерно у чара
+   должен быть равен level * 1.5 (без affect'ов)
+*) Внимание! Старайтесь не делать универсальных вещей (то есть например
+     прибавляют много hitroll и damroll). Например очень хорошо сочетаються
+     damroll и STR, hitroll и DEX, hp и CON; но учтите что это сильные вещи
+{x     и не прибавляйте много... Не должны существовать ЛУЧШИЕ вещи !!!
+     Например, хочешь ты много DAMROLL - одеваешь соотв-ие вещи но hitroll
+     и INT будет страдать (и не только). Очень красиво смотряться вещи которые
+     хорошо прибавляют один параметр, но отнимают другой(ие). Изобретайте, но
+     не делайте "оверов" !!!!
+*) SVS: стремитесь чтоб у чара было в среднем: svs = - 0.85 * level_char
+*) Добавляйте параметры вне зависимости от уровня... Я думаю будет неплохо,
+   если игрок будет стоять перед выбором: надеть шмотку 85 level'а прибавляю-
+   щую hitroll, damroll и ac по его уровню или шмотку 70 level'a имеющую
+   меньшие параметры, но добавляющую 3 STR... Так будет интересней.
+*) Вес(weight) вещи тоже играет немаловажную роль!  Итак, немного формул по этому
+{x   поводу:
+{x   20 weight = 1 КГ
+{w    Возможно поднимаемый вес определяеться формулой: 250 * str, но учтите, что на
+{x   самом деле все определяеться по таблице (tables.c -> str_app[]), и эта формула
+{x   не совсем точна. Максимальный вес оружия для чара такой: str * 28, но
+{x   опять же это приближенная формула (tables.c -> str_app[] для точных цифр).
+{w   1 золотая(gold) монетка весит (2/5), а 1 серебрянная(silver) - (1/10).
+Вырезка из tables.c
+Damroll MaxWeight WeaponWeight Strenght
+ -12,  0,  0 ,  /* 0  */
+ -10,  3,  1 ,  /* 1  */
+ -9,   3,  2 ,
+ -8,  10,  3 ,  /* 3  */
+ -6,  25,  4 ,
+ -5,  55,  5 ,  /* 5  */
+ -3,  80,  6 ,
+ -2,  90,  7 ,
+ -1, 100,  8 ,
+  0, 100,  9 ,
+  0, 115, 10 ,  /* 10  */
+  0, 115, 11 ,
+  0, 130, 12 ,
+  1, 130, 13 ,  /* 13  */
+  2, 140, 14 ,
+  3, 150, 15 ,  /* 15  */
+  4, 165, 16 ,
+  5, 180, 22 ,
+  7, 200, 25 ,  /* 18  */
+  8, 225, 30 ,
+ 10, 250, 35 ,  /* 20  */
+ 11, 300, 40 ,
+ 12, 350, 45 ,
+ 13, 400, 50 ,
+ 14, 450, 55 ,
+ 16, 500, 60 ,  /* 25 */
+ 17, 550, 65 ,
+ 18, 600, 70 ,
+ 20, 650, 75 ,
+ 21, 700, 80 ,
+ 23, 750, 85 ,   /* 30   */
+ 25, 800, 90 ,
+ 27, 850, 95 ,
+ 30, 900, 100 /* 33 */
+Максимальный переносимый вес считается: (MaxWeight*10)+level*25
+Максимальный вес оружия: WeaponWeight*10
+~
+0 NAME~
+@eng In order to create a role-playing and adventure atmosphere throughout the
+Shadow Realms, you must choose a name accordingly explained below:
+ 
+ACCEPTABLE:                                                                     
+1)  Proper names, medieval or modern. i.e  (Takasi, Mitra)                      
+2)  Created names with a medieval or fictional sound.  (Priatros, Sansoles)
+ 
+UNACCEPTABLE:                                                                   
+1)  Vulgar or sexually suggestive names.  (No examples needed)                  
+2)  Nouns which are names of animals.  (Horse, Doll)                            
+3)  Strings of random characters.  (Asdfg, Qwdldkf)                             
+4)  Titles which imply rank or privelege.   (Lord, Sir,...)                     
+5)  Scientific phrases, words. (Proof, Logic, Electrics...)                     
+6)  Object names. (Necklace, Staff, Sword etc)                                  
+7)  Compound names. (FarmerJoe, Maryjane etc.)
+ 
+Anyway, immortals may ask you to choose another name if they consider your name inappropriate.
+ 
+If your name fits above restrictions, type Y. Otherwise choose another name.    
+Last decision depend upon Immortals of Shadow Realms. Do you accept?
+@rus Ограничение на используемые имена:
+Для создания и поддержания атмосферы приключений и ролевой игры
+вы должны выбрать имя удовлетворяющее нижеописанным ограничениям.
+   Приемлимые имена:
+1) Обычные, в средневековом или современном стиле (например Takasi, Mitra)
+2) Вымышленные имена в средневековом стиле ( например Priatros, Sansoles)
+   Неприемлимые имена:
+1) Вульгарные, пошлые и матерные - как русские, так и английские.
+2) Существительные являющиеся названиями чего-либо (Doll, Horse, Warlock)
+3) Строки случайных символов, (Asdfg, Qwdldkf, Qwerty)
+4) Титулы, означающие ранг или привелегии (Lord, Sir, Don, etc)
+5) Научно-технические термины и фразы (Proof, Logic, Electrics, etc)
+6) Имена обьектов (Necklace, Staff, Sword, etc)
+7) Различные отглагольные образования (Killer, Follower, etc)
+8) Существительные русского языка, написанные транслитом (Stol, Derevo, Termit etc.)
+9) Названия существующих географических субъектов(названия областей, штатов, рек etc)
+10) Внимание! Не рекомендуется использовать для своих альтов похожие (почти идентичные) имена
+или похожие на имена других игроков. БОГАМ ЭТО НЕ ПОНРАВИТСЯ!
+11) Боги оставляют за собой право не одобрить выбранное Вами имя. Повторное создание персонажа
+с неодобренным и измененным именем приводит к игнорированию его просьб вплоть до delete.
+Если Вы затрудняетесть в выборе подходящего имени, нажмите сейчас N
+и когда у Вас вновь спросят имя, наберите help.
+Если выбранное Вами имя находится среди допустимых - нажмите Д (Y).
+В противном случае пожалуйста нажмите N и выберите другое имя.
+~
+0 'CREATE WORLD'~
+Пока пусто но скоро заполню (Xor)
+Смотри:   help 'CREATE WORLD OBJECTS'
+          help 'CREATE WORLD MOBS'
+          help 'CREATE WORLD ROOMS'
+~
+0 'CREATE WORLD MOBS'~
+См. help mob_ac
+~
+0 INTELLIGENCE~
+@eng {G=========================================================================={x
+
+Intelligence is a major stat for an arcane spell-casters, such as
+{cwarlock{x or {cwitch{x.  Mage with high intelligence casts more powerful
+spells.  Intelligence influences speed of learning new skills and spells. 
+With high intelligence one gains more mana for each level-up.  
+ 
+{G=========================================================================={x
+@rus {G=========================================================================={x
+
+Интеллект - это основной параметр для магов. Маг с большим интеллектом
+накладывает более мощные заклинания, чем маг с маленьким.
+Интеллект влияет на процент прокачки умений или заклинаний при тренеровке.
+И умный игрок повышает свои умения и заклинания быстрее тупого.
+Более того, чем выше интеллект, тем больше маны дают за каждый уровень.
+ 
+{G=========================================================================={x
+~
+0 HITROLL~
+@rus {G=========================================================={x
+
+Чем больше у вас {chitroll{xа, тем меньше урона противник
+блокирует своим {cARMOR CLASS{xом.
+ 
+{G=========================================================={x
+~
+0 DAMROLL~
+@rus {G================================================================={x
+
+{cDAMROLL{x - это шипы на броне, острые края на других вещях,
+даже не имея силы вы можете хорошо биться с большим {cDAMROLL{xом.
+ 
+{G================================================================={x
+~
+0 'CURE DISEASE'~
+@eng {G================================================================================={x
+ 
+Syntax: {ccast 'cure disease' <target>{x
+ 
+This spell removes from the purpose of a spell a plague.
+ 
+{G================================================================================={x
+@rus {G================================================================================={x
+ 
+Синтаксис: {ccast 'cure disease' <цель>{x
+ 
+Это заклинание снимает с цели заклинания чуму({cplague{x). 
+ 
+{G================================================================================={x
+~
+0 CORRUPTION~
+@eng {G===================================================================================={x
+ 
+Syntax: {ccast 'corruption' <victim>{x
+ 
+This spell causes a bleeding in a victim (8 times for a tic).
+ 
+{G===================================================================================={x
+@rus {G===================================================================================={x
+ 
+Синтаксис: {ccast 'corruption' <жертва>{x
+ 
+Это заклинание вызывает кровотечение у жертвы (8 раз за тик).
+ 
+{G===================================================================================={x
+~
+0 'ATTRACT OTHER'~
+@eng {G====================================================================================={x
+ 
+Syntax: {ccast 'attract other' <victim>{x
+ 
+The spell of vampires, is very similar on charm person (look help {c'charm person'{x). 
+In that, this spell it is possible to apply difference only on char/mob an opposite sex.
+ 
+{G====================================================================================={x
+@rus {G====================================================================================={x
+ 
+Синтаксис: {ccast 'attract other' <жертва>{x
+ 
+Заклинание вампиров, очень похоже на чарм (смотреть {c help 'charm person'{x).
+Отличие в том, это заклинание можно применять только на чаров/мобов противоположного пола.
+ 
+{G====================================================================================={x
+~
+0 'LIFE STREAM'~
+@eng {G=========================================================================={x
+ 
+Syntax: {ccast 'life stream' <target>{x
+
+This powerful spell cleric's, curing plenty of lifes. (approximately level*5)
+ 
+{G=========================================================================={x
+@rus {G=========================================================================={x
+
+Синтаксис: {ccast 'life stream' <цель>{x
+ 
+Это мощное заклинание клериков, излечивающее большое количество жизней
+(примерно уровень*5).
+ 
+{G=========================================================================={x
+~
+0 'BLADE BARRIER'~
+@eng {G====================================================================={x
+ 
+Syntax: {ccast 'blade barrier' <victim>{x
+ 
+This spell creates magic knifes which put damages to the opponent
+(amount of knifes varies from 2 up to 4).
+ 
+{G====================================================================={x
+@rus {G====================================================================={x
+ 
+Синтаксис: {ccast 'blade barrier' <жертва>{x
+ 
+Это заклинание создает магические ножи, которые наносят повреждения противнику
+(количество ножей меняется от 2 до 4).
+ 
+{G====================================================================={x
+~
+0 'BENEDICTION'~
+@eng {G====================================================================={x
+ 
+Syntax: {ccast 'benediction' <target>{x
+ 
+This powerful spell cleric's. It strongly lifts Hitroll, Saves vs Spell, and 
+also raises a level on one or two. If caster and the purpose of a spell 
+have chosen both way of evil/good/neutral the level raises on 2. If caster
+and the purpose have chosen different ways (for example: caster has chosen 
+a way of goods, and the purpose - a way of evil) this spell will not conceive
+effect.If everything else the level rises on one item.
+If everything else the level rises on one item.
+ 
+{G====================================================================={x
+@rus {G====================================================================================={x
+ 
+Синтаксис: {ccast 'benediction' <цель>{x
+ 
+Это мощное заклинание клериков. Оно сильно поднимает  {cHitroll{x, {cSaves vs Spell{x,
+а также повышает уровень на один или два. Если кастующий и цель заклинания
+выбрали оба путь зла/добра/нейтральный, то уровень повышается на 2. Если кастующий
+и цель выбрали разные пути(например: кастующий выбрал путь добра, а цель - путь зла), 
+то это заклинание не возымеет эффекта. Если же все остальное, то уровень поднимается
+на один пункт.
+ 
+{G====================================================================================={x
+~
+0 'BLESS WEAPON'~
+@eng {G====================================================================================={x
+ 
+Syntax: {ccast 'bless weapon' <weapon>{x
+ 
+This spell blesss the weapon. The blessed weapon sometimes puts the big damages 
+to the one who has chosen a way of evil.
+ 
+{G====================================================================================={x
+@rus {G====================================================================================={x
+ 
+Синтаксис: {ccast 'bless weapon' <оружие>{x
+ 
+Это заклинание благословляет оружие. Благословенное оружие иногда наносит большие
+повреждения тому, кто выбрал путь зла.
+ 
+{G====================================================================================={x
+~
+0 'ANATHEMA'~
+@eng {G================================================================================={x
+ 
+Syntax: {ccast 'anathema' <victim>{x
+ 
+This powerful spell cleric - masters. It lowers a level of the opponent 
+on 1 or 2 items, reduces Hitroll, Saves vs Spell and lowers force 
+of spells at the enemy. If conjuring and a victim both have chosen a way of 
+evil/good/neutral this spell will not work. If conjuring and a victim
+go in the opposite ways the spell has the maximal effect. If everything 
+else the effect twice is less.
+ 
+{G================================================================================={x
+@rus {G==========================================================================={x
+ 
+Синтаксис: {ccast 'anathema' <жертва>{x
+ 
+Это мощное заклинание Клерика - мастера. Оно понижает уровень противника на
+заклинаний у врага. Если заклинающий и жертва оба выбрали путь
+зла/добра/нейтральный, то это заклинание несработает. Если заклинающий
+и жертва идут противоположными путями, то заклинание имеет
+максимальный эффект. Если же все остальное, то эффект в два раза меньше.
+ 
+{G==========================================================================={x
+~
+0 'DESERT FIST'~
+@eng {G=============================================================================={x
+ 
+Syntax: {ccast 'desert fist' <victim>{x
+ 
+Magic impact which can hang up affect 'sand storm' on a victim. ({chelp 'sand storm'{x)
+Operates only in arias of type: deserts, mountains, hills. 
+ 
+{G=============================================================================={x
+@rus {G=============================================================================={x
+ 
+Синтаксис: {ccast 'desert fist' <жертва>{x
+ 
+Магический удар, который может повесить аффект 'sand storm' на жертву. (смотреть 
+{chelp 'sand storm'{x). Действует только в ариях типа: пустыни, горы, холмы.
+ 
+{G=============================================================================={x
+~
+0 'GALVANIC WHIP'~
+@rus {G========================================================================{x
+ 
+Синтаксис: {ccast 'galvanic whip' <цель>{x
+ 
+Ведьма может молниеносно создать электрический хлыст и ударить им врага,
+нанося повреждение.
+ 
+{G========================================================================{x
+ 
+~
+0 'INSPIRE'~
+@eng {G======================================================================={x
+ 
+Syntax: {ccast 'inspire'{x
+ 
+This spell puts affect 'bless' (look {c'bless'{x) on your group.
+ 
+{G======================================================================={x
+@rus {G======================================================================={x
+ 
+Синтаксис: {ccast 'inspire'{x
+ 
+Это заклинание благословляет всю твою группу (смотреть {chelp 'bless'{x).
+ 
+{G======================================================================={x
+~
+0 'RESTORING LIGHT'~
+@eng {G==================================================================================={x
+ 
+Syntax: {ccast 'restoring light' <target>{x
+ 
+This spell translates mana casters in life of on whom casts this spell (1:1).
+Also this spell removes from the target spells such as: blindness, plague, poison,
+curse.
+ 
+{G==================================================================================={x
+@rus {G==================================================================================={x
+ 
+Синтаксис: {ccast 'restoring light' <цель>{x
+
+Это заклинание переводит ману кастующего в жизни того, на кого кастуют это заклинание(1:1).
+Также это заклинание снимает заклятия, такие как: слепота({chelp blindness{x),чума({chelp plague{x),
+яд ({chelp poison{x), проклятие({chelp curse{x).
+ 
+{G==================================================================================={x
+~
+0 'PRAY'~
+@eng {G=================================================================={x
+ 
+Look russian variant.
+ 
+{G=================================================================={x
+@rus {G=========================================================================={x
+ 
+Синтаксис: {ccast 'pray' <цель>{x
+
+Это мощное заклинание клериков, которое повышает все статистики на 1 или 2,
+в зависимости от силы клерика(магической силы).
+ 
+{G=========================================================================={x
+~
+0 'MASS SANCTUARY'~
+@eng {G=================================================================={x
+ 
+Look russian variant.
+ 
+{G=================================================================={x
+@rus {G=================================================================={x
+ 
+Синтаксис: {ccast 'mass sanctuary'{x
+ 
+Это заклинание накладывает аффект sanctuary (см. {chelp sanctuary{x) на Вашу группу.
+ 
+{G=================================================================={x
+~
+0 'TROLLISH VIGOR'~
+@eng {G=================================================================={x
+ 
+Look russian variant.
+ 
+{G=================================================================={x
+@rus {G=================================================================={x
+ 
+Синтаксис: {ccast 'trollish vigor' <цель>{x
+ 
+Это заклинание клериков, которое увеличивает телосложение на некоторое время.
+(см. {chelp constitution{x).
+ 
+{G=================================================================={x
+~
+0 'MASS HEALING'~
+@eng {G=================================================================={x
+ 
+Look russian variant.
+ 
+{G=================================================================={x
+@rus {G=================================================================={x
+ 
+Синтаксис: {ccast 'mass healing'{x
+ 
+Это заклинание клериков лечит (см. {chelp heal{x) Вашу группу.
+ 
+{G=================================================================={x
+~
+0 'SAGACITY'~
+@eng {G=================================================================={x
+ 
+Look russian variant.
+ 
+{G=================================================================={x
+@rus {G=================================================================={x
+ 
+Синтаксис: {ccast 'sagacity' <цель>{x
+ 
+Это заклинание клериков повышает мудрость (см. {chelp wisdom{x) на некоторое время.
+ 
+{G=================================================================={x
+~
+0 'GROUP DEFENSE'~
+@eng {G===================================================={x
+ 
+Look russian variant.
+ 
+{G===================================================={x
+@rus {G====================================================================={x
+ 
+Синтаксис: {ccast 'group defense'{x
+ 
+Это заклинание кладет аффекты {carmor{x (-20Ac) и {cshield{x(-20Ac) на Вашу группу.
+ 
+{G====================================================================={x
+~
+0 'PIERCING PAIN'~
+@eng {G====================================================================={x
+ 
+Look russian variant
+ 
+{G====================================================================={x
+@rus {G====================================================================={x
+ 
+Опытные воры на высоких уровнях могут нанести точный удар, который
+увеличивает повреждение и может повесить аффект {ccorruption{x.
+ 
+{G====================================================================={x
+~
+0 'DUAL BACKSTAB'~
+@eng {G====================================================================={x
+ 
+Look russian variant.
+ 
+{G====================================================================={x
+@rus {G====================================================================={x
+ 
+Это умение воров позволяет провести не один, а два мощнейших удара({c help backstab{x).
+ 
+{G====================================================================={x
+~
+0 'SECOND DAGGER'~
+@eng {G============================================================================{x
+ 
+Look russian variant.
+@rus {G============================================================================{x
+ 
+Это умение воров похоже на {csecond weapon{x. Отличие в том, что во вторую
+руку можно взять только нож.
+ 
+{G============================================================================{x
+~
+0 'KNIFE'~
+@eng {G============================================================================{x
+ 
+Look russian variant.
+ 
+{G============================================================================{x
+@rus {G============================================================================{x
+ 
+Это умение похоже на {cbackstab{x. Отличие в том, что {cknife{x  можно провести,
+если у противника меньше 90%, а {cbackstab{x нет. Соответственно {cknife{x
+бьет слабее, чем {cbackstab{x
+ 
+{G============================================================================{x
+~
+-1 $~
+
+#$

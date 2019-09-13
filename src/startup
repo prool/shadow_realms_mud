@@ -1,0 +1,169 @@
+#!/bin/sh
+umask 0002
+
+#
+# locale settings
+LANG=ru_RU.KOI8-R
+LC_CTYPE=ru_RU.KOI8-R
+LC_NUMERIC=POSIX
+LC_TIME=POSIX
+LC_COLLATE=ru_RU.KOI8-R
+LC_MONETARY=ru_RU.KOI8-R
+LC_MESSAGES=ru_RU.KOI8-R
+LC_PAPER=ru_RU.KOI8-R
+LC_NAME=ru_RU.KOI8-R
+LC_ADDRESS=ru_RU.KOI8-R
+LC_TELEPHONE=ru_RU.KOI8-R
+LC_MEASUREMENT=ru_RU.KOI8-R
+LC_IDENTIFICATION=ru_RU.KOI8-R
+LC_ALL=
+
+#
+#export LD_PRELOAD=lib/libmuddy.so
+
+ulimit -c unlimited
+
+#
+# mud home -- all other paths and filenames are relative from $home
+#home=/usr/local/sr
+#home=/home/xor/devel/mud/cVS/mud
+#home=~/mud
+home=/home/mudsr/mud
+libpath=${home}/src/lib
+
+#
+# logging control
+# index=1000
+
+#
+# mud binary executable
+muddy=src/mudsr
+
+#
+# shutdown flag file
+shutdown=tmp/shutdown
+
+#
+# corefile name
+core=core
+
+#
+# port for bind
+#port="-p 4000 -i 4001"
+port=""
+
+#	For clean shutdown muddy
+mudpid="tmp/muddy.pid"
+ShutdownMud() {
+	trap '' 1 2 3 9 15
+	cd $home;
+	if [ -f "$mudpid" ] ; then
+		echo "Cleanup muddy..."
+		kill `cat $mudpid`
+		if [ -f log/currlog ] ; then
+			echo "startup [`date`]: get kill signal" >> log/currlog
+		fi
+		rm -f tmp/shutdown
+		exit 1
+	else
+		echo "Can't find $mudpid"
+	fi
+}
+
+##############################################################################
+# let's go
+#
+
+trap ShutdownMud 1 2 3 9 15
+#
+#
+cd $home
+
+# Set limits.
+if [ -e tmp/shutdown ]; then
+	rm -f tmp/shutdown
+fi
+
+while [ 1 ]; do
+	if [ -e log/currlog ]; then
+		index=`/usr/bin/head -1 log/currlog`
+		/bin/mv -f log/currlog log/$index.slog >/dev/null 2>&1
+		/bin/mv -f tmp/debug.log log/debug.$index >/dev/null 2>&1
+		index=`echo $index + 1 | bc`
+	else
+		index=1000
+	fi
+	
+	while [ 1 ]; do
+		logfile=$index.slog
+		if [ -e log/$logfile ]; then
+			index=`echo $index + 1 | bc`
+		else
+			break
+		fi
+	done 
+
+#	touch log/$logfile
+#	rm -f log/log
+#	ln -s $logfile log/log
+
+	/bin/rm -f log/currlog
+	/bin/touch log/currlog
+	/bin/echo "$index" >> log/currlog
+	/bin/echo "^^^^^^  - current index of log" >> log/currlog
+
+#	$LD_LIBRARY_PATH_OLD=$LD_LIBRARY_PATH
+	LD_EXIST_MUDDY=`echo $LD_LIBRARY_PATH|grep ${libpath}`
+	if [ -z $LD_EXIST_MUDDY ] ; then
+		if [ -z $LD_LIBRARY_PATH ] ; then
+			export LD_LIBRARY_PATH="${libpath}"
+		else
+			export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:${libpath}
+		fi
+	fi
+#	export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:lib
+
+#	$muddy -u mud -a -d 11 $port >>log/currlog 2>&1 &
+	$muddy -u mud -a $port >>log/currlog 2>&1 &
+	wait $!
+	exitcode=$?
+
+#	export LD_LIBRARY_PATH=$LD_LIBRARY_PATH_OLD
+	
+#	cp log/log log/$logfile
+
+	othercore=core.????
+
+	if [ -e $core -o -e $othercore ]; then
+		if [ -e $othercore ]; then
+			/bin/mv $othercore core >/dev/null 2>&1
+		fi
+
+		avail=`df -k $home | tail -1 | awk '{ print $4 }'`
+		chmod g+rw $core
+		if [ $avail -gt 65535 ]; then
+			echo "startup [`date`]: Coredumped!!! Move $core corefiles/core.$index" >> log/currlog
+			mv $core corefiles/core.$index >/dev/null 2>&1
+			ln $muddy corefiles/muddy.$index
+		else
+			echo "startup [`date`]: Coredumped!!!" >> log/currlog
+			echo "startup [`date`]: Low space (${avail}k) on disk: corefile not renamed" >> log/currlog
+			sleep 3
+		fi
+	fi
+
+	if [ -e tmp/shutdown ]; then
+		rm -f tmp/shutdown
+		echo "startup [`date`]: find tmp/shutdown... exit" >> log/currlog
+		echo "startup [`date`]: exitcode = $exitcode" >> log/currlog
+		exit 0
+	fi
+	
+	if [ $exitcode -ne 0 ]; then
+		echo "startup [`date`]: exitcode $exitcode - exit" >> log/currlog
+		/bin/mv -f tmp/debug.log log/debug.$index 2>/dev/null
+		exit 1
+	fi
+	sleep 15
+done
+

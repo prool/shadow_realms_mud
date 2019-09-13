@@ -1,0 +1,5712 @@
+#AREADATA
+Name Hell~
+VNUMs 10400 10599
+Credits Strahd~
+Security 5
+LevelRange 32 56
+ResetMessage @eng You hear some screaming noises...@rus Ты слышишь ужасные вопли...~
+End
+
+#MOBILES
+#10401
+guardian стражник охранник~
+@eng the Guardian of Hell@rus Охранник Ада~
+@eng A Guardian of Hell stands here, keeping you the Hell out.
+@rus Охранник {rАда{z (guard) стоит здесь, не выпуская тебя из {RАда{z.
+~
+@eng The guardian is a stone devil, a hideous creation from the dark laboratories
+of Hell.  Its black eyes stare into your soul with a hunger that makes you
+shiver.  The guardian stands motionless before you.  Its rough grey skin
+looks impervious to normal weapons.
+@rus Охранник - каменный черт, уродливое создание из темных лабораторий {rАда{z.
+Его {Dчерные{z глаза пристально смотрят на твою душу с жадностью, заставляя
+тебя дрожать.  Он стоит перед тобой абсолютно неподвижно.  Его грубая серая
+кожа выглядит непробиваемой для обычного оружия.
+~
+unique~
+ABFe DFJV -625 0
+45 0 25d10+3000 45d25+200 8d4+16 none
+18 18 18 -3
+EFNU 0 0 0
+stand stand none 35
+AHMV ABCDEFGHIJK gargantuan unknown
+#10402
+pile coins куча монет~
+@eng the pile of gold coins@rus куча {Yзолотых{z монет~
+@eng A pile of gold coins lies on the ground.
+@rus На земле лежит куча {Yзолотых{z монет (coins).
+~
+@eng A large sparkly pile of gold coins.
+@rus Большая сверкающая куча {Yзолотых{z монет.
+~
+human~
+ABS DFJ -550 0
+30 0 6d12+778 30d25+200 5d6+15 none
+9 9 9 -4
+BEFJNU 0 0 0
+stand stand none 27
+0 0 gargantuan unknown
+#10403
+male dee demon мужчина ди демон~
+@eng the male Dee@rus мужчина Ди~
+@eng The male demon Dee lies on the bed, waiting to please you.
+@rus Мужчина (male) демон Ди лежит на постели, чтобы удовлетворить тебя.
+~
+@eng This is the most handsome male you have ever seen.  The well-defined
+muscles on his naked body make your mouth water.
+@rus Это один из самых красивых мужчин, которых ты когда-либо видел.  Хорошо
+сложенные мускулы на его голом теле заставляют тебя пускать слюнки.  
+~
+unique~
+ABF JV -600 0
+40 0 15d10+1850 40d25+200 5d8+20 none
+15 15 15 -4
+EFNU 0 0 0
+stand stand male 32
+AHMV ABCDEFGHIJK gargantuan unknown
+#10404
+female dee demon женщина ди демон~
+@eng the female Dee@rus женщина Ди~
+@eng The female demon Dee lies on the bed, waiting to please you.
+@rus Женщина (female) демон Ди лежит на постели, чтобы удовлетворить тебя.
+~
+@eng This is the most beautiful female you have ever seen. The curves of her
+naked body make you sweat and babble uncontrollably.
+@rus Это самая красивая женщина, которую ты когда-либо видел.  Изгибы ее
+обнаженного тела заставляют тебя потеть и неутно дрожать.  
+~
+human~
+ABF JV -600 0
+40 0 15d10+1850 40d25+200 5d8+20 none
+15 15 15 -5
+EFNU 0 0 0
+stand stand female 32
+0 0 gargantuan unknown
+#10405
+bar gold слиток золота~
+@eng the gold bar@rus {Yзолотой{z слиток~
+@eng A shiny gold bar lies on the ground.
+@rus Сверкающий {Yзолотой{z слиток (bar) лежит на земле.
+~
+@eng This gold bar must be worth bucks!
+@rus Этот {Yзолотой{z слиток должно быть стоит уйму баксов.
+~
+human~
+ABS DFJ -585 0
+37 0 10d70+500 37d25+200 5d8+19 none
+13 13 13 -3
+BEFJNU 0 0 0
+stand stand none 31
+0 0 gargantuan unknown
+#10406
+chicken pot pie пирожок с курицей~
+@eng a scrumptious chicken pot pie@rus пышный пирожок с курицей~
+@eng A yummy looking chicken pot pie is here.
+@rus Аппетитно выглядящий куриный пирожок (pie).
+~
+@eng You see a golden-crusted pot pie filled with chicken and vegetables.
+@rus Ты видишь пирожок с золотой корочкой, наполненный курицей и овощами.
+~
+human~
+AB J -610 0
+42 0 25d10+2250 42d25+200 3d12+14 none
+14 14 14 -4
+EFNU 0 0 0
+stand stand none 33
+0 0 gargantuan unknown
+#10407
+beef pot pie пирожок мясо~
+@eng a yummy beef pot pie@rus аппетитный мясной пирожок~
+@eng A yummy looking beef pot pie is here.
+@rus Аппетитно выглядящий мясной пирожок (pie).
+~
+@eng You see a golden-crusted pot pie filled with beef and vegetables.
+@rus Ты видишь пирожок с золотистой корочкой, наполненный мясом и овощами.
+~
+human~
+AB J -610 0
+42 0 25d10+2250 42d25+200 3d12+18 none
+14 14 14 -4
+EFNU 0 0 0
+stand stand none 33
+0 0 gargantuan unknown
+#10408
+vegetable pot pie пирожок овощ~
+@eng a yummy vegetable pot pie@rus аппетитный овощной пирожок~
+@eng A yummy looking vegetable pot pie is here.
+@rus Аппетитно выглядящий овощной пирожок (pie).
+~
+@eng You see a golden-crusted pot pie filled with vegetables.
+@rus Ты видишь пирожок с золотистой корочкой, наполненный овощами.
+~
+human~
+AB J -610 0
+42 0 25d10+2250 42d25+200 3d12+14 none
+14 14 14 -4
+EFNU 0 0 0
+stand stand none 33
+0 0 gargantuan unknown
+#10409
+damned soul проклятая душа~
+@eng a damned soul@rus проклятая душа~
+@eng A damned soul wanders aimlessly here.
+@rus Проклятая душа (soul) бесцельно блуждает вокруг.
+~
+@eng You see the faint silhouette of a person. Looking closely at it, you can barely 
+make out features that would identify it as the person it was in life.
+@rus Ты видишь едва различимый силует человека.  Внимательнее пригладываясь к
+нему, ты с трудом можешь представить кем мог быть этот человек, когда был
+живым.  
+~
+human~
+AGQ J -560 0
+32 0 10d10+1000 32d25+200 5d6+15 none
+10 10 10 -4
+EIKU 0 0 0
+stand stand none 28
+0 0 gargantuan unknown
+#10410
+tortured soul пытаемая душа~
+@eng a tortured soul@rus пытаемая душа~
+@eng A tortured soul screams out in pain.
+@rus Пытаемая душа (soul) кричит от боли.
+~
+@eng You see a unrecognizable person going through unheard-of and
+indescribable torture. It screams out at you in pain and terror.
+@rus Ты видишь непонятную особу идущую черз неслыханные и неописуемые пытки.
+Она кричит тебе в боли и ужасе.
+~
+human~
+ABR J -570 0
+34 0 10d10+1100 34d25+200 4d6+9 none
+11 11 11 0
+FU 0 0 0
+stand stand none 29
+0 0 gargantuan unknown
+#10411
+half-eaten person полу-съеденная особа~
+@eng the half-eaten person@rus полу-съеденная особа~
+@eng A half-eaten person lies here, writhing in agony.
+@rus Полу-съеденная особа (person) лежит здесь, корчась в агонии.
+~
+@eng This poor soul looks as if he has been chewed on and spit out.  He writhes
+He is in agony and terror as he gasps frantically for Death to answer his
+desperate plea...
+@rus Эта бедная душа выглядит так, как будто она была пожевана и выплюнута.
+Она корчится в агонии и ужасе, она задыхается в смертельной лихорадке, чтоб
+доказать ее безнадежное существование.
+~
+human~
+ABD JV -630 0
+46 0 25d10+3250 46d25+200 6d6+16 none
+17 17 17 -3
+EFNU 0 0 0
+stand stand none 35
+0 0 gargantuan unknown
+#10412
+living wall живая стена~
+@eng the living wall@rus живая стена~
+@eng A wall stands here. Its surface seems to move and come to life...
+@rus Здесь стоит стена (wall). Ее поверхность похоже движется и оживает...
+~
+@eng The wall consists of greying and sinewy flesh - faces, hands,
+broken bones, feet, and toes jutting from the surface. You hear low moans
+of horror, pain, and sorrow issuing from within.
+@rus Стена состоит из разлагающейся и гниющей плоти - лиц, рук, сломаных
+костей, ног, ступней и пальцев, торчащих с поверхности. Ты слышишь тихие
+вздохи ужаса, боли и скорби, исходящих изнутри.
+~
+unique~
+AB JV -665 0
+53 0 50d10+6500 50d10+100 6d7+21 none
+30 30 30 10
+EFNU 0 0 0
+stand stand none 39
+0 0 gargantuan unknown
+#10413
+skeletal warrior скелет воин~
+@eng skeletal warrior@rus воин-скелет~
+@eng A skeletal warrior wanders the planes of Hell.
+@rus Воин-скелет (warrior) блуждает по просторам Ада.
+~
+@eng Rotting flesh and gore drop from the bones of this creature.
+Its decaying eyes stare at you intently as it sees only your
+delicious and juicy brain.
+@rus Гниющая плоть и {rкровь{z падают с костей данного создания.
+Его разлагающиеся глаза пристально уставились на тебя, когда
+они видият только твой вкусный и сочный мозг.
+~
+human~
+AD JV -575 0
+35 0 10d10+1300 35d25+200 4d7+11 none
+12 12 12 -4
+EFNU 0 0 E
+stand stand none 30
+0 0 gargantuan unknown
+#10414
+bloody severed arm кровавая отрубленная рука~
+@eng bloody severed arm@rus ~~кровавая~~ ~~отрубленная~~ ~~рука~~~
+@eng A bloody severed arm lies here.
+@rus Здесь лежит кровавая отрубленная рука (arm).
+~
+@eng The bloody arm of some poor, luckless individual.  The stench of the
+gore-covered limb makes you want to retch.
+@rus Кровавая рука какого-то бедного, неудачника. От смрада покрытой кровью
+конечности тебя начинает рвать.
+~
+human~
+AB J -565 0
+33 0 10d10+1100 33d25+200 6d4+10 none
+11 11 11 -5
+EFNU 0 0 0
+stand stand none 29
+0 0 gargantuan unknown
+#10415
+bloody severed foot кровавая отрубленная нога~
+@eng bloody severed foot@rus ~~кровавая~~ ~~отрубленная~~ ~~нога~~~
+@eng A bloody severed foot lies here.
+@rus Здесь лежит кровавая отрубленная нога (foot).
+~
+@eng This bloody foot definitely wasn't a lucky one.
+@rus Эта кровавая нога принадлежит другому не более счастливому.
+~
+human~
+AB J -565 0
+33 0 10d10+1100 33d25+200 6d4+10 none
+11 11 11 -5
+EFNU 0 0 0
+stand stand none 29
+0 0 gargantuan unknown
+#10416
+bloody severed nose кровавый отрубленный нос~
+@eng bloody severed nose@rus ~~кровавый~~ ~~отрубленный~~ ~~нос~~~
+@eng A bloody severed nose lies here.
+@rus Здесь лежит кровавый отрбубленный нос (nose).
+~
+@eng I wonder how the person that lost this smells...Hopefully not as bad as
+this nose does...
+@rus Интересно, как особа, которая потеряла своё обоняние... Hадо надеяться
+не так плохо, как этот нос может...
+~
+human~
+AB J -565 0
+33 0 10d10+1100 33d25+200 6d4+10 none
+11 11 11 -5
+EFNU 0 0 0
+stand stand none 29
+0 0 gargantuan unknown
+#10417
+blood кровь~
+@eng the blood from the fountain@rus {rкровь{z из фонтана~
+@eng The blood in the fountain gurgles merrily.
+@rus {rКровь{z (blood) из фонтана весело булькает.
+~
+@eng You see gallons and gallons of thick red blood gurgling in the fountain.
+@rus Ты видишь галлоны и галлоны густой {rкрасной крови{z булькающей в фонтане.
+~
+human~
+AB J -625 0
+45 0 25d10+3000 45d25+200 8d4+16 none
+15 15 15 -4
+EFNU 0 0 0
+stand stand none 35
+0 0 gargantuan unknown
+#10418
+lost soul потерявшаяся душа~
+@eng the lost soul@rus потерявшаяся душа~
+@eng A lost soul stands here looking lost.
+@rus Потерянная душа (soul) стоит здесь, выглядя потерянной.
+~
+@eng This soul is definitely clueless to as where he is. He holds a ticket
+that reads #14349023402342039840293481234900049.
+@rus Эта душа несомненно не понимает где она находится. Она держит билет
+на котором написано #14349023402342039840293481234900049.
+~
+human~
+ABR J -620 0
+44 0 25d10+2500 44d25+200 4d8+14 none
+15 15 15 2
+FU 0 0 0
+stand stand none 34
+0 0 gargantuan unknown
+#10419
+crispy critter жарящееся существо~
+@eng the crispy critter@rus жарящееся существо~
+@eng A crispy critter is here, being burned to death.
+@rus Жарящееся существо (critter) здесь, горит в предсметных муках.
+~
+@eng This was once a person.  Now it is only a charred and smoking hulk that
+is being burned for eternity.  It screams out as the flames lick at its
+body and devour its flesh...
+@rus Это когда-то было человеком.  Теперь это только обгоревший и дымящийся
+кусок который будет вечно гореть.  Он вскрикивает, когда пламя лижет его тело
+и поглощает его плоть...
+~
+human~
+AB J -620 0
+44 0 25d10+2750 44d25+200 8d4+15 none
+15 15 15 -4
+EFNU 0 0 0
+stand stand none 34
+0 0 gargantuan unknown
+#10420
+pile bones skeleton куча костей скелет~
+@eng pile of bones@rus куча костей~
+@eng A decaying pile of bones lies on the ground.
+@rus Разлагающая куча (pile) костей лежит на земле.
+~
+@eng Stringy bits of flesh blow gently in the breeze. The bones rattle as you walk
+by them.
+@rus Волокнистые куски плоти меделенно сдуваются ветром. Кости трещат, когда ты
+проходишь по ним.
+~
+human~
+AB J -585 0
+37 0 10d10+1500 37d25+200 3d10+12 none
+12 12 12 -5
+EFNU 0 0 E
+stand stand none 31
+0 0 gargantuan unknown
+#10421
+manes sub-demon манес полу-демон~
+@eng the manes@rus манес~
+@eng A manes wanders the planes of Hell, looking for something to kill.
+@rus Манес (manes) блуждает по просторам Ада, ища что-нибудь, чтоб убить.
+~
+@eng A gruesome sub-demon who used to be mortal, this is a semi-intelligent
+creature who attacks, with nails and teeth, anyone it encounters.  It is
+often fed upon by demon lords and princes.  Its green-and-red blotched
+skin gives it a diseased and decaying look.  It somewhat resembles a
+shadow or a ghost.
+@rus Отвратительный небольшой демон, который сделан чтоб быть беспощадным, это
+полу-умное создание, которое атакует когтями и зубами первого встречного. 
+Он обычно используется лордами и принцами демонов.  Кожа у него
+{gзелено{z-{rкрасной{z раскраски и имеет больной и жалкий вид.  Он иногда похож на
+призрака или приведение.  
+~
+human~
+AH JV -575 0
+35 0 10d10+1300 35d25+200 4d7+11 none
+11 11 11 -5
+EFNU 0 0 0
+stand stand none 30
+0 0 gargantuan unknown
+#10422
+prisoner raiden заключенный рейден~
+@eng the prisoner Raiden@rus заключенный Рейден~
+@eng The prisoner of Hell, Raiden sits here for eternity.
+@rus Заключенный Ада, Рейден (raiden) вечно сидит здесь.
+~
+@eng This is a sad individual. He smells strongly of the rotten food that has been
+thrown at him. He sits here chained to the wall, banished to Hell forever by
+the gods.
+@rus Это унылый тип.  От него пахнет гнилой едой, которая бросается ему.  Он
+сидит прикованный к стене, навечно изганный в Ад богами.  
+~
+human~
+AB J -575 0
+35 0 10d10+1300 35d25+200 4d7+11 none
+11 11 11 -5
+EFNU 0 0 0
+stand stand male 30
+0 0 gargantuan unknown
+#10423
+prisoner hell ада заключенная~
+@eng a prisoner in Hell@rus заключенная в Аду~
+@eng A sad looking individual sits here, awaiting torture.
+@rus Мрачно выглядящая женщина (prisoner) сидит здесь, в ожидание пыток.
+~
+@eng She is sad-looking, indeed:  cuts and scrapes all over her.  Many scars
+and burns cover her face and arms.  The appalling condition of her once-lovely
+breasts makes you avert your eyes.
+@rus Она очень мрачно выглядит, действительно: порезано и оборвано все вокруг
+нее.  Множество рубцов и ожегов покрывают ее лицо и руки.  Её ужасное
+состояние, когда-то прекрасное, заставляет тебя отворачиваться.  
+~
+human~
+AB JV -590 0
+38 0 10d10+1600 38d25+200 5d6+12 none
+13 13 13 -5
+EFNU 0 0 0
+stand stand female 31
+0 0 gargantuan unknown
+#10424
+prisoner hell заключенный ада~
+@eng a prisoner in Hell@rus заключенный в Аду~
+@eng A sad looking individual sits here ,awaiting torture.
+@rus Мрачно выглядящий тип (prisoner) сидит здесь, в ожидание пыток.
+~
+@eng He is sad-looking, indeed:  cuts and scrapes all over him.  Many scars
+and burns cover his face and arms.  One of his arms is broken at the
+elbow and hangs limply by his side.
+@rus Он очень мрачно выглядит, действительно: порезано и оборвано все вокруг
+нее.  Множество рубцов и ожегов покрывают его лицо и руки.  Его ужасное
+состояние, когда-то прекрасное, заставляет тебя отворачиваться.
+~
+human~
+AB JV -590 0
+38 0 10d10+1600 38d25+200 5d6+12 none
+13 13 13 -5
+EFNU 0 0 0
+stand stand male 31
+0 0 gargantuan unknown
+#10425
+demonguard demon guard стражник охранник демон~
+@eng demonguard@rus демон-охранник~
+@eng A demonguard patrols the planes of Hell.
+@rus Охранник Ада охраняет просторы Ада.
+~
+@eng This very large demon stands before you, licking his daggerlike teeth.
+Yellow spittle runs down the scales of his blackened skin.
+@rus Очень большой демон стоит перед тобой, облизывая свои зубы, похожие на
+клинки.  {YЖелтые{z слюни текут с зубов по его {Dчерной{z коже.  
+~
+human~
+AFG J -600 0
+40 0 15d10+1850 40d25+200 4d8+13 none
+13 13 13 -5
+EFNU 0 0 0
+stand stand none 32
+0 0 gargantuan unknown
+#10426
+burning fool горящий идиот~
+@eng the burning fool@rus горящий идиот~
+@eng A burning fool is here, crisping away.
+@rus Горящий идиот стоит здесь, весело потрескивая.
+~
+@eng You can barely make out anything on it. All you can make out are the flames 
+of Hell consuming it, and the smell of burning flesh.
+@rus Ты можешь отчетливо все различить.  Но все, что ты видишь - Адское пламя
+поедающее его, и запах горящей плоти...  
+~
+human~
+AB J -610 0
+42 0 25d10+2250 42d25+200 3d12+14 none
+14 14 14 -4
+EFNU 0 0 0
+stand stand none 33
+0 0 gargantuan unknown
+#10427
+construction worker male рабочий строительный мужчина~
+@eng male construction worker@rus стоительный рабочий~
+@eng A construction worker is here, welding pipework.
+@rus Строительный рабочий (worker) здесь, варящий фейерверки.
+~
+@eng He is the typical construction worker:  T-shirt, jeans, yellow hard hat.
+As you look closer at the hard hat, you notice that it says:
+             '4th DEMONsion Construction Co.'
+@rus Он - обычный строительный рабочий: спецовка, джинсы, желтая каска.  Когда
+ты внимательней присматриваешься к каске, то замечаешь, надпись '4th
+DEMONsion Construction Co.  ' 
+~
+human~
+AB JV -625 0
+45 0 25d10+3000 45d25+200 8d4+16 none
+15 15 15 -4
+EFNU 0 0 0
+stand stand male 35
+0 0 gargantuan unknown
+#10428
+construction worker female РАБОЧИЙ СТРОИТЕЛЬНЫЙ ЖЕНЩИНА~
+@eng the female construction worker@rus стоительная рабочая~
+@eng A construction worker, is here working riviting framework.
+@rus Строительная рабочая (worker) здесь, крепит подпорки.
+~
+@eng She is the typical construction worker:  T-shirt, jeans, yellow hard hat.
+As you look closer at the hard hat, you notice that it says:
+             '4th DEMONsion Construction Co.'
+@rus Она - обычный строительный рабочий: спецовка, джинсы, желтая каска.  Когда
+ты внимательней присматриваешься к каске, то замечаешь, надпись '4th
+DEMONsion Construction Co.  ' 
+~
+human~
+AB JV -630 0
+46 0 25d10+3250 46d25+200 6d6+16 none
+16 16 16 -4
+EFNU 0 0 0
+stand stand female 35
+0 0 gargantuan unknown
+#10430
+fire devil ОГНЕННЫЙ ДЬЯВОЛ~
+@eng the fire devil@rus {rогненный{z дьявол~
+@eng A fire devil stands here with a box of matches, lighting up poor souls.
+@rus Дьявол огня (devil) стоит здесь с коробкой спичек, поджигая бедные души.
+~
+@eng It is an indescribably grotesque creature.  Its pale, green-yellow skin
+erupts with blisters and puss.  As you look at it, it smiles at you with
+sharp, blood-covered teeth.  This is definitely a face only a mother could
+love.
+@rus Это неописуемое обсурдное создание.  Оно слабое, с зелено-желтой кожей,
+покрытой пузырями.  Когда ты смотришь на него, оно улыбается тебе острыми
+{rкровавыми{z зубами.  Это несомненно лицо матери, которая должна любить.
+~
+human~
+AB J -650 0
+50 0 40d10+4000 50d25+200 5d8+19 none
+18 18 18 -3
+EFNU 0 0 0
+stand stand none 37
+0 0 gargantuan unknown
+#10431
+oldstyle wall fire~
+@eng the wall of fire@rus the wall of fire~
+@eng A wall of fire is here, creeping slowly across the room.
+@rus Стена {Yогня{x (wall) медленно двигается поперек комнаты.
+~
+@eng It is simply a large, door-sized wall of fire.  It slowly inches across the
+room, burning everything in its path, including the poor souls that are chained
+to the various posts around the room.
+@rus Огромная стена {Yогня{x медленно двигается поперек комнаты сжигая все на
+своем пути включая бедные души, которые мечутся по комнате.  
+~
+human~
+AB JTV -630 0
+46 0 25d10+3250 46d25+200 6d6+16 none
+16 16 16 -4
+EFNU 0 0 0
+stand stand none 35
+0 0 gargantuan unknown
+#10432
+oldstyle hell hound~
+@eng the hell hound@rus the hell hound~
+@eng A hell hound runs freely through the halls of hell.
+@rus Дьявольская гончая (hound), мчится к тебе через отромные залы ада.
+~
+@eng This freak of a canine is rusty red to red-brown in color. Its eyes glow a
+ghastly red. Its sooty black teeth and tongue are covered with green spittle
+that runs down its dung covered coat.
+@rus Эта ужасная собака покрыта коричневой шерстью с красными подпалинами.  Ее
+глаза пылают ярко-красным цветом.  С языка и зубов стекает ядовитая слюна,
+которая при попадении на твою кожу оставляет ужасные ожоги.  
+~
+human~
+ABD DFJ -625 0
+45 0 25d10+3000 45d25+200 8d4+16 none
+15 15 15 -4
+EFNU 0 0 0
+stand stand none 35
+0 0 gargantuan unknown
+#10433
+oldstyle frozen body~
+@eng the frozen body@rus the frozen body~
+@eng A frozen body lies on the ground.
+@rus Замороженое тело (body) валяется на полу.
+~
+@eng As you look at the corpse, you recoil when you see that its eyes still
+move.  They stare intently from its bluish face, as if pleading for your
+help.
+@rus Ты смотришь на труп.  НЕТ, ЭТО НЕ ТРУП!  Его глаза смотрят на тебя
+пристальным взглядом, как будто просят о помощи.  Так помоги ему, избавь
+беднягу от мучений.
+~
+human~
+AB J -635 0
+47 0 25d10+3500 47d25+200 6d6+17 none
+17 17 17 -4
+EFNU 0 0 0
+stand stand none 36
+0 0 gargantuan unknown
+#10434
+oldstyle ice devil~
+@eng the ice devil@rus the ice devil~
+@eng A Greater Ice Devil stands here, cheerfully freezing souls.
+@rus Великий {CЛедяной{x Дьявол (devil) стоит тут, тщательно замораживая души.
+~
+@eng This devil is a mix of bug, bird, humanoid, and who knows what else.
+Its multi-faceted eyes stare everywhere. It goes about its business of 
+slowly and painfully freezing the damned souls, quickly thawing them
+and then starting over. Every couple of minutes, it takes time out to 
+break an appendage off a nearby soul and beat the soul with it.
+@rus Этот Дьявол семесь жука, птицы, человека и еще непонятно кого.  Его
+многоликая голова видет все, что происходит вокруг.  Он стараткльно делает
+свое дело, медленно и болезнено замораживает проклятые души.  
+~
+human~
+AB JTV -670 0
+54 0 50d10+5500 54d25+200 6d8+20 none
+22 22 22 -2
+EFNU 0 0 0
+stand stand none 39
+0 0 gargantuan unknown
+#10435
+oldstyle trapped soul ice~
+@eng the trapped soul@rus the trapped soul~
+@eng A soul trapped under the ice gasps desperately for air.
+@rus Душа (soul), заточенная во льдах, пытается сделать глоток воздуха.
+~
+@eng This poor soul has been incased in ice, almost as though it were caught
+under an iceflow.  It will desperately gasp for air for a few minutes,
+then will seem to die briefly.  Always, it is restored and begins thrashing
+about again.
+@rus Бедная душа заточена во льду.  Она отчаянно пытается глотнуть немного
+воздуха в течение нескольких минут, затем она умирает.  И через некоторое
+время все повторяется снова.  Какие немыслимые муки.  
+~
+human~
+AB J -650 0
+50 0 50d10+4000 50d25+200 5d8+18 none
+19 19 19 -3
+EFNU 0 0 0
+stand stand none 37
+0 0 gargantuan unknown
+#10436
+oldstyle half frozen body~
+@eng the half frozen body@rus the half frozen body~
+@eng A half frozen body hangs on a meat hook.
+@rus Наполовину замороженное тело (rozen body) весит на мясном крюке.
+~
+@eng A large meat hook is imbedded deep within the back of the corpse. You
+see small white maggots eating away at the body. The flesh seems to
+move and wriggle with a life of its own...
+@rus Большой мясной крюк вставлен глубоко в правы бок этого бедняги.  Ты
+видишь, маленькие червячки объедают его внутренние органы.  Тело пытается
+сорваться с крюка, но тщетно┘ 
+~
+human~
+AB J -655 0
+51 0 50d10+5000 51d25+200 5d8+20 none
+21 21 21 -3
+EFNU 0 0 0
+stand stand none 38
+0 0 gargantuan unknown
+#10437
+oldstyle killer penguin~
+@eng the killer penguin@rus the killer penguin~
+@eng A small penguin waddles around on the ice.
+@rus Маленький пингвин (penguin) ходит вперевалочку по-кругу.
+~
+@eng What a cute little penguin! Wait, why is it looking at you that way?
+HEY! Penguins don't have teeth!
+@rus Милый маленткий пингвин!  Почему он смотрит в твою сторону?  Эй, ведь
+пингвины не имеют зубов, правда?  
+~
+human~
+ABFR J -660 0
+52 0 50d10+4700 52d9+100 4d10+18 none
+21 21 21 5
+FU 0 0 0
+stand stand none 38
+0 0 gargantuan unknown
+#10438
+oldstyle I-scream worker~
+@eng the I-scream worker@rus the I-scream worker~
+@eng An I-scream worker runs from machine to machine.
+@rus Работник (worker) фабрики мороженного бегает от машины к машине.
+~
+@eng It moves about so frantically that you can't really get a chance to look at it.
+It runs about screaming, 'I SCREAM, YOU SCREAM!
+
+WE ALL SCREAM FOR I SCREAM!!!'
+
+@rus Он двигается настолько быстро, что ты не можешь толком его рассмотреть. 
+Он бегает и постоянно кричит, ' Я КРИЧУ, ТЫ КРИЧИШЬ!  ВСЕ МЫ КРИЧИМ, БОЛЬШЕ
+МОРОЖЕНОГО!!!  ' 
+~
+human~
+AB J -660 0
+52 0 50d10+4700 52d25+200 6d7+20 none
+22 22 22 -2
+EFNU 0 0 0
+stand stand none 38
+0 0 gargantuan unknown
+#10439
+oldstyle Ice Screamer~
+@eng the Ice Screamer@rus the Ice Screamer~
+@eng An Ice Screamer is yelling into empty cartons.
+@rus Крикливый Продавец (Screamer) Мороженного орет в пустые коробки
+~
+@eng He is dressed in a white jumpsuit with the words,
+
+'Eye Spleen I Screamery'
+
+written on it in large, yellow letters.
+@rus Он одет в белую спецовку с надписью на спине ' Злобная фабрика
+мороженного ' Слова написаны большими желтыми буквами.  
+~
+human~
+AB JV -660 0
+52 0 50d10+4700 52d25+200 6d7+20 none
+22 22 22 -2
+EFNU 0 0 0
+stand stand none 38
+0 0 gargantuan unknown
+#10440
+oldstyle Construction Foreman Demonic~
+@eng the Demonic Foreman@rus the Demonic Foreman~
+@eng A Demonic Foreman sits here, looking at blueprints.
+@rus Демонический (Demonic) Диспетчер сидит здесь, смотря на свои проекты.
+~
+@eng This huge demon has somehow managed to fit himself into
+a oversized, orange jumpsuit. The words,
+
+'4th DEMONsion Construction Co.' are written on the 
+back in large, black letters.
+He seems none too happy to see you.
+@rus Этот огромный демон как-то сумел запихнуть себя в этот оранжевый комбинезон. Слова, 
+ 
+' 4-ая ДЕМОНическая Компания Строительства '
+ 
+написана на спине, большими черными буквами. Он кажется не слишком счастливом видеть тебя.
+~
+human~
+ABFGT DFJV -665 0
+53 0 50d10+5100 53d25+200 6d7+21 none
+23 23 23 -2
+EFNU 0 0 0
+stand stand male 39
+0 0 gargantuan unknown
+#10441
+oldstyle Secretary of Hell~
+@eng Secretary of Hell@rus Secretary of Hell~
+@eng The Secretary of Hell sits here, watching the phones ring.
+@rus Секретарь (Secretary) Ада сидит за столом и отвечат на телефонные звонки.
+~
+@eng This very sexy secretary seems to be just sitting here amusing herself
+by watching the little lights on the telephone blink. She is oblivious
+to your presence and seems fascinated by the phones.
+@rus Очень сексуальная секретарша, сидит здесь и с забавным видом, наблюдая,
+как мигают маленькие огоньки на телефонах.  Она настолько заворожена своими
+телефонами, что не замечает твоего присутствия 
+~
+human~
+AB DFJ -630 0
+46 0 25d10+3250 46d25+200 6d6+16 none
+15 15 15 -4
+EFNU 0 0 0
+stand stand female 35
+0 0 gargantuan unknown
+#10442
+oldstyle office worker hell~
+@eng office worker from Hell@rus office worker from Hell~
+@eng An office worker from Hell is looking for a boss to piss off.
+@rus Рабочий (worker) офиса Ада в ярости ищет своего босса.
+~
+@eng Just looking at him makes your blood boil. 
+AAAAAAAAAAaaaaaaaaaaaarrrrrrrrgggggghhhhh!!!!!!!!!!!
+@rus Один взгляд на него заставляет кровь кипеть в твоих жилах.  
+~
+human~
+ABS DFJ -640 0
+48 0 25d10+3750 48d25+200 6d6+18 none
+17 17 17 -2
+BEFJNU 0 0 0
+stand stand none 36
+0 0 gargantuan unknown
+#10443
+oldstyle records worker~
+@eng records worker@rus records worker~
+@eng A records worker is here, filing bad reports.
+@rus Рабочий (worker) отдела отчетов, записывает что-то в журнал.
+~
+@eng You see a rather plain-looking office personel here, filing paperwork on
+someone.
+@rus Рабочий отдела отчетов, пишет кляузу на одного из работников.
+~
+human~
+AB DFJ -640 0
+48 0 25d10+3750 48d25+200 8d4+18 none
+17 17 17 -2
+EFNU 0 0 0
+stand stand none 36
+0 0 gargantuan unknown
+#10444
+oldstyle santa claus~
+@eng Santa Claus@rus Santa Claus~
+@eng Santa Claus is here, checking on who has been naughty...
+@rus {WСанта {RКлаус{x (Santa Claus) тут, ищет непослушных детишек.
+~
+@eng It's a jolly old man, with red cheeks and a roly-poly belly and a laugh
+as jolly as you can get. Must be Santa Claus!
+@rus Это - веселый старик, с красными щеками, пухлым животом и веселым смехом
+сажает к себе на колени детишек и разговаривает с ними.  Должен быть Санта
+Клаус!  
+~
+human~
+AB DFJ -640 0
+48 0 25d10+3750 48d25+200 6d6+18 none
+17 17 17 -4
+EFNU 0 0 0
+stand stand male 36
+0 0 gargantuan unknown
+#10445
+oldstyle high priest ell~
+@eng High Priest of Hell@rus High Priest of Hell~
+@eng The High Priest of Hell is here, eating 'I Scream'.
+@rus Архижрец (priest) Ада стоит тут и есть мороженое.
+~
+@eng The dark, black robes hide most of his features, but you can nearly make
+out his emaciated face beneath the hood.
+@rus Черные одежды полностью скрывают его, но из-под капюшона видна нижняя
+часть его лица.  
+~
+human~
+ABFQ DFJV -680 0
+56 0 50d10+6000 53d9+100 6d8+21 none
+23 23 23 1
+EIKU 0 0 0
+stand stand male 40
+0 0 gargantuan unknown
+#10446
+oldstyle bowl blood~
+@eng a bowl of blood@rus a bowl of blood~
+@eng A bowl of blood sits on the altar.
+@rus Шар (bowl) {rкрови{x сидит на алтаре.
+~
+@eng It is a wooden bowl filled with blood and bits of flesh.
+@rus Это - деревянный шар, заполненный кровью и частицами тел.
+~
+human~
+ABF DFJ -660 0
+52 0 50d10+4700 52d25+200 6d7+20 none
+22 22 22 -1
+EFNU 0 0 0
+stand stand none 38
+0 0 gargantuan unknown
+#10447
+oldstyle jury member~
+@eng jury member@rus jury member~
+@eng A jury member sits here with a "Guilty" sign, waiting for the trial to begin.
+@rus Член жюри (jury) сидит здесь с грусным видом, ожидая начала испытания.
+~
+@eng It seems to be a lesser demon disguised as mortal. Fair trial?  Not likely.
+@rus Кажется, есть меньший демон, замаскированный под смертного.  Справедливое
+ли это испытание?  Вряд ли.  
+~
+human~
+AB DFJ -630 0
+46 0 25d10+3250 46d25+200 6d6+16 none
+13 13 13 -5
+EFNU 0 0 0
+stand stand none 35
+0 0 gargantuan unknown
+#10448
+oldstyle Judge Whopper~
+@eng Judge Whopper@rus Judge Whopper~
+@eng Judge Whopper sits here, trying to think of a painful sentence.
+@rus Судья Вуппер (Whopper) сидит тут пытаясь придумать новые пытки
+~
+@eng This is the High Judge of Hell. He has never found anyone innocent
+and is notorious for his painful and harsh punishments.
+@rus Перед тобой Высшый судья Ада.  Он еще никого не оправдал.  Все, кто
+попадал к нему на суд, кончали жизнь в камере пыток!  
+~
+human~
+AB DFJV -680 0
+56 0 50d10+6000 50d9+100 5d8+20 none
+22 22 22 -2
+EFNU 0 0 0
+stand stand none 40
+0 0 gargantuan unknown
+#10449
+oldstyle lawyer hell~
+@eng Lawyer from Hell@rus Lawyer from Hell~
+@eng The Lawyer from Hell sits here, playing games on his laptop computer.
+@rus Адвокат (Lawyer) из Ада сидит здесь, играется в игрушке на своем лаптопе.
+~
+@eng Slimy, sleezy, and with very sharp teeth... A lawyer all right...
+@rus Слизистый, скользкий, и с очень острыми зубами...  Адвокат всегда прав...  
+~
+human~
+AB DFJV -660 0
+52 0 50d10+4700 52d25+200 8d7+20 none
+22 22 22 -2
+EFNU 0 0 0
+stand stand none 38
+0 0 gargantuan unknown
+#10450
+complaints officer oldstyle~
+@eng Complaints Officer@rus Complaints Officer~
+@eng The Complaints Officer is here, watching her favorite soap opera.
+@rus Чиновник по приему жалоб здесь, смотрит по телеку свою любимую мыльную оперу.
+~
+@eng She seems not to notice you, but is absorbed in her favorite soap,
+'As The Hell Burns'
+
+@rus Она, кажется, не замечает тебя.  Хе, потому что поглощена целиком своей
+любимой мыльной оперой, 'В Аду тоже плачут' 
+~
+human~
+AB DFJV -670 0
+54 0 50d10+5500 54d25+200 5d8+22 none
+23 23 23 -3
+EFNU 0 0 0
+stand stand female 39
+0 0 gargantuan unknown
+#10451
+oldstyle bastard hiramoto~
+@eng bastard hiramoto@rus ~~подлец~~ ~~Хирамото~~~
+@eng The Bastard Hiramoto stands here, trying to learn Kung Fu from a book.
+@rus Подлец Хирамото (Hiramoto) стоит здесь, пытаясь научиться Кунг Фу из книг.
+~
+@eng He looks at you and says, 'I think my Kung Fu is no good'
+and then goes back to practicing.
+
+He is known to buy anything, and to sell anything sold to him.
+@rus Он смотрит на тебя и говорит, 'я думаю, что мой Кунг Фу еще не слишком хорош' и опять возвращается к обучению.
+ 
+Хирамото старый спекулянт┘ Перепродает купленное, скупает ворованное.
+~
+human~
+ABe DFJV -670 0
+54 0 50d10+5500 50d10+100 6d8+20 none
+21 21 21 -3
+EFNU 0 0 0
+stand stand male 39
+0 0 gargantuan unknown
+#10452
+oldstyle maintenance worker~
+@eng maintenance worker@rus maintenance worker~
+@eng A maintenance worker is here, fixing stuff.
+@rus Работник (worker) технической службы тут, чинит что-то.
+~
+@eng He is in a yellow jumpsuit with a large nuclear-warning symbol on the back.
+@rus Он одет в желтый комбинезон со знаком радиации на спине.
+~
+human~
+AB DFJ -660 0
+52 0 50d10+5000 52d25+200 5d8+20 none
+21 21 21 -3
+EFNU 0 0 0
+stand stand none 38
+0 0 gargantuan unknown
+#10453
+oldstyle weeds~
+@eng weeds@rus weeds~
+@eng A weed is growing out of the cement.
+@rus Сорняки (weeds) тянут свои ветви из-под асфальта.
+~
+@eng You see a nasty yellow-and-purple weed.
+@rus Ты видишь противный желто-фиолетовый сорняк.
+~
+human~
+AB DFJ -630 0
+46 0 25d10+3250 46d25+200 5d7+17 none
+13 13 13 -5
+EFNU 0 0 0
+stand stand none 35
+0 0 gargantuan unknown
+#10454
+oldstyle stanley~
+@eng Stanley@rus Stanley~
+@eng Stanley stands here, waiting to sell you one of his wonderful figurines. 
+@rus Стэнли (Stanley) стоит здесь, ожидая, что ты купишь одну из его замечательных статуэток.
+~
+@eng He is a crafty old fart who looks about 1000 years old, but his figurines
+are pretty well-known.  He was rumored to have disappeared around Solace 100
+years ago.
+@rus Он - лукавый старый пердун, ему уже около тысячи лет.  Однако его
+статуэтки очень известны.  По слухам, он исчез в окрестностях Солэйса около
+100 лет назад.  
+~
+human~
+ABe DFJ -670 0
+54 0 50d10+10000 54d25+200 7d6+22 none
+24 24 24 -2
+EFNU 0 0 0
+stand stand male 39
+0 0 gargantuan unknown
+#10455
+oldstyle half eaten horse carcass~
+@eng horse carcass@rus horse carcass~
+@eng A half-eaten horse carcass is here being digested. 
+@rus Полусъеденный труп лошади (horse) тут разлагается.
+~
+@eng This is what used to be a horse.  Hmm, maybe - it's hard to tell.  Half
+of it has been digested already.
+@rus В это трудно поверить, но когда-то, это было лошадью.  Половина этоу туши
+уже прогнила.  
+~
+human~
+AB DFJ -665 0
+53 0 50d10+5100 53d25+200 5d8+22 none
+21 21 21 -3
+EFNU 0 0 0
+stand stand none 39
+0 0 gargantuan unknown
+#10456
+oldstyle stomach dragon~
+@eng stomach dragon@rus stomach dragon~
+@eng A stomach dragon is here, digesting Big Mouth's food.
+@rus Дракон-желудок (dragon) тут, пережевывая части теля своим огромным ртом.
+~
+@eng A large, brown-and-green, slime-covered reptile, its function seems to be
+to move to each food item and barf acid all over it.
+@rus Большая, коричнево-зеленая, покрытая слизью рептилия.  Похоже что ее
+функция заключается в том, чтобы перемещаться от одного куска тела к другому
+и оставлять после себя кислотный след.  
+~
+human~
+AB DFJ -665 0
+53 0 50d10+5100 53d25+200 5d8+22 none
+21 21 21 -3
+EFNU 0 0 0
+stand stand none 39
+0 0 gargantuan unknown
+#10457
+oldstyle rancid turkey leg~
+@eng rancid turkey leg@rus rancid turkey leg~
+@eng A rancid turkey leg sits in a pool of slime.
+@rus Протухшая нога (leg) валяется в луже слизи.
+~
+@eng It's one of those really nasty pieces of food in the refrigerator that
+disappears, and you wonder if it just walked away....
+@rus Эта ужасная вещь служит для кого-то едой.  Она выпала из рефрижератора,
+который исчезает в дали.  
+~
+human~
+AB DFJ -665 0
+53 0 50d10+5100 53d25+200 5d8+22 none
+21 21 21 -3
+EFNU 0 0 0
+stand stand none 39
+0 0 gargantuan unknown
+#10458
+oldstyle reactor specialist~
+@eng reactor specialist@rus reactor specialist~
+@eng A reactor specialist sits here, checking on the reactor core.
+@rus Физик-атомщик (reactor) сидит здесь, проверяет ядро реактора.
+~
+@eng He is dressed in a black jumpsuit with a large nuclear-warning symbol on
+the back.
+@rus Он одет в черный комбинезон с большим знаком радиации на спине.
+~
+human~
+AB DFJ -665 0
+53 0 50d10+5100 53d25+200 5d8+22 none
+21 21 21 -3
+EFNU 0 0 0
+stand stand male 39
+0 0 gargantuan unknown
+#10459
+oldstyle reactor worker~
+@eng reactor worker@rus reactor worker~
+@eng A reactor worker sits here, monitoring various screens.
+@rus Работник (worker) ректора тут, наблюдает за мониторами.
+~
+@eng He is dressed in a black jumpsuit with a large lighting bolt symbol on
+the back.
+@rus Он одет в черный комбинезон с большим знаком радиации на спине.
+~
+human~
+AB DFJ -665 0
+53 0 50d10+5100 53d25+200 5d8+22 none
+21 21 21 -3
+EFNU 0 0 0
+stand stand male 39
+0 0 gargantuan unknown
+#10460
+oldstyle homer simpson~
+@eng Homer Simpson@rus Homer Simpson~
+@eng Homer Simpson sits here, eating donuts.
+@rus Папаша Гомер (Homer) сидит тут и пожирает пончики.
+~
+@eng A balding fat man with jelly stains on his uniform.
+
+He suddenly spills his coffee and shouts out, 'DOH!'
+Warning lights blink rapidly as the coffee shorts out the control panel.
+Homer calmly stands up, unplugs the control panel, and sits down
+for a nap.
+@rus Лысеющий жирный человек, с каплей желе на его униформе.  Вдруг он
+проливает кофе на себя и выкрикивает, ' БЛЯ!  ' Вдруг огоньки пульта
+начинают истерично мигать, видимо случилась неполадка.  Но Гомер спокоен как
+танк, выключает пульт и устраивается в кресле подремать.  
+~
+human~
+AB DFJ -665 0
+53 0 50d10+5100 53d25+200 6d8+20 none
+21 21 21 -3
+EFNU 0 0 0
+stand stand male 39
+0 0 gargantuan unknown
+#10461
+oldstyle devil's food cake~
+@eng devil's food cake@rus devil's food cake~
+@eng A nice slice of devil's food cake is here, waiting to be eaten.
+@rus Дьявольски аппетитный ломтик пирога (cake), ждет пока ты его съешь.
+~
+@eng Mmmmmm...Don't you just want to take a bite?
+@rus Неужели ты не хочешь меня попробовать?
+~
+human~
+AB DFJ -665 0
+53 0 50d10+5100 53d25+200 5d8+22 none
+21 21 21 -3
+EFNU 0 0 0
+stand stand none 39
+0 0 gargantuan unknown
+#10462
+oldstyle mad cook~
+@eng mad cook@rus mad cook~
+@eng A mad cook is here, cooking up a storm.
+@rus Безумный повар (cook), варит свои безумное блюда.
+~
+@eng He spots you and screams, 'Git awa froom mi food!  I'll kill you!'
+@rus Он замечает тебя и вопит 'Атайди от катла, да?'
+~
+human~
+AB DFJ -665 0
+53 0 50d10+5100 53d25+200 5d8+22 none
+21 21 21 -3
+EFNU 0 0 0
+stand stand male 39
+0 0 gargantuan unknown
+#10463
+oldstyle frantic lady~
+@eng frantic lady@rus frantic lady~
+@eng A frantic lady is here, looking in vain for a sale and tearing her hair out.
+@rus Ужасная дама (lady), бегает тут, кричит и рвет на голове волосы.
+~
+~
+human~
+AG JV -630 0
+46 0 25d10+3250 46d25+200 6d6+16 none
+14 14 14 -4
+EFNU 0 0 0
+stand stand female 35
+0 0 gargantuan unknown
+#10464
+oldstyle nuclear technician~
+@eng nuclear technician@rus nuclear technician~
+@eng A nuclear technician is here, fiddling with his rad suit.
+@rus Техник-ядерщик (nuclear) здесь, одевается в комбинезон.
+~
+~
+human~
+AB DFJ -670 0
+54 0 50d10+5250 54d25+200 7d6+22 none
+23 23 23 -3
+EFNU 0 0 0
+stand stand male 39
+0 0 gargantuan unknown
+#10465
+oldstyle stray proton~
+@eng stray proton@rus stray proton~
+@eng A stray proton is here, whizzing about.
+@rus Беспризорный протон (proton) здесь,  жужжит и искриться.
+~
+~
+human~
+AB DFJ -670 0
+54 0 50d10+5500 54d25+200 5d8+23 none
+23 23 23 -3
+EFNU 0 0 0
+stand stand none 39
+0 0 gargantuan unknown
+#10466
+oldstyle radiation~
+@eng radiation@rus radiation~
+@eng The radiation in the room does unknown things to you.
+@rus Радиация (radiation) в комнате, происходит что-то непонятное
+~
+~
+human~
+AB DFJ -670 0
+54 0 50d10+5500 54d25+200 5d8+23 none
+23 23 23 -3
+EFNU 0 0 0
+stand stand none 39
+0 0 gargantuan unknown
+#10467
+oldstyle chief engineer hell~
+@eng the Chief Engineer of Hell@rus the Chief Engineer of Hell~
+@eng The Chief Engineer of Hell is here, playing with the panic button.
+@rus Главный инженер (Chief) Ада тут, играется с кнопками на пульте управления.
+~
+@eng He kinda reminds you of an old Bart Simpson.  He seems to be enjoying
+the panic button at the moment, chuckling happily as workers on the
+reactor floor below frantically check dials and gauges, while lights
+are flashing and sirens are screaming in the background.
+@rus Хм...  Почему-то он напоминает тебе Барта Симпсона, только постарше.  Ему
+просто нравится давить на кнопки на своем пульте.  В то время как рабочие в
+реакторном помещении, ниже, отчаянно пытаются исправить то, что он натворил.
+Лампочки мигают, сирена орет, кое где уже начал появляться огонь.  
+~
+human~
+AB DFJV -680 0
+56 0 50d10+6000 50d10+100 6d7+24 none
+24 24 24 -2
+EFNU 0 0 0
+stand stand male 40
+0 0 gargantuan unknown
+#10468
+oldstyle Greater Fire Demon~
+@eng the Greater Fire Demon@rus the Greater Fire Demon~
+@eng A Greater Fire Demon stands here, laughing at each scream he hears..
+@rus Великий огненный демон (Fire Demon) стоит тут, смеется над каждым криком который слышит.
+~
+@eng This large, black-scaled demon laughs merrily as he watches poor souls
+scream out in pain. He pokes and picks at the flesh of the damned who
+were unlucky enough to be tortured close to him.  His black-taloned
+nails rip slowly through their flesh as he cackles with glee at the
+sounds of their unending pain...
+@rus Этот большой, черный чешуйчатый демон истерично смеется, над бедными
+душами, которые кричат и корчатся от боли.  Он проклинает всех, кто оказался
+слишком близко к нему.  Его черные, острые как лезвия когти медленно
+врезаются и разрывают плоть страдальцев.  Ему это доставляет истинное
+удовольствие.  
+~
+human~
+AB DFJ -670 0
+54 0 50d10+5500 54d25+200 5d8+22 none
+21 21 21 -3
+EFNU 0 0 0
+stand stand none 39
+0 0 gargantuan unknown
+#10469
+oldstyle frozen side beef~
+@eng side of frozen beef@rus side of frozen beef~
+@eng A frozen side of beef hangs on a hook.
+@rus Замороженный кусок говядины (beef) висит на крюке.
+~
+@eng This enormous carcass looks as if it came from a small dragon or a very
+large cow.
+@rus Кажется этот кусочек отрезали от ОГРОМНОЙ коровы, или маленького дракона.  
+~
+human~
+AB J -640 0
+48 0 25d10+3750 48d25+200 6d6+18 none
+15 15 15 -4
+EFNU 0 0 0
+stand stand none 36
+0 0 gargantuan unknown
+#10470
+oldstyle guard dog~
+@eng guard dog@rus guard dog~
+@eng A guard dog sits here, guarding the break room.
+@rus Сторожевой пес (dog) сидит тут, охраняя комнату отдыха.
+~
+@eng A vicious-looking pit bull / demon-dog mix is here, slobbering on the donuts.
+@rus Мощный питбуль, помесь собаки и демона. Слюна, противно стекающая изо рта... фу
+~
+human~
+ABD JV -650 0
+50 0 50d10+4000 50d25+200 5d8+19 none
+18 18 18 -4
+EFNU 0 0 0
+stand stand none 37
+0 0 gargantuan unknown
+#10471
+oldstyle juicy steak~
+@eng juicy steak@rus juicy steak~
+@eng A mouth-watering, juicy steak is here, steaming.
+@rus Аппетитный, сочный бифштекс (steak) здесь, шаволится.
+~
+@eng Mmmmmmm.....Steak....Mmmmmm...You feel your mouth start to water.
+@rus Ммммммм.....Мясо....Вкуснятина.... Слюньки текут!
+~
+human~
+AB DFJ -670 0
+54 0 50d10+5500 54d25+200 7d6+22 none
+23 23 23 0
+EFNU 0 0 0
+stand stand none 39
+0 0 gargantuan unknown
+#0
+
+#OBJECTS
+#10401
+trident wicked трезубец дьявольский~
+@eng a wicked-looking trident@rus дьявольски выглядящий трезубец~
+@eng A wicked-looking trident is stuck into the ground.@rus Дьявольски выглядящий трезубец (trident) воткнут в землю.~
+iron~
+weapon AEGJ AJN
+spear 1 1 stab F
+45 70 90 P
+A
+19 3
+A
+18 3
+A
+2 1
+G none
+#10402
+whip black leather хлыст черный кожаный~
+@eng a black leather whip@rus ~~черный~~ ~~кожаный~~ ~~хлыст~~~
+@eng A black leather whip lies on the ground.@rus Черный кожаный хлыст лежит на земле.~
+leather~
+weapon BEJ AN
+whip 4 6 whip 0
+35 70 70 P
+G male
+#10403
+hickey maker~
+@eng a hickey maker@rus ~~отсос~~~
+@eng A hickey maker lies on the ground, making a soft sucking sound.@rus Отсос (hickey) лежит за земле, издавая мягкий сосущий звук.~
+oldstyle~
+weapon G AN
+mace 4 1 drain 0
+37 110 74 P
+A
+13 40
+A
+12 60
+G male
+#10404
+sword farslayer меч~
+@eng a black-hilted sword called "Farslayer"@rus ~~меч~~ с черным эфесом, зовущийся Farslayer~
+@eng A black-hilted sword with engravings on the blade lies here.@rus Меч с черным эфесом и с гравировкой на лезвии лежит здесь.~
+steel~
+weapon BFGHM AN
+sword 6 6 pierce 0
+53 421 106 P
+E ''
+sword~
+The blade of the sword is a full meter long and straight as an arrow, with
+lightly-fluted sides.  Both edges are keened down to perfect lines, invisibly
+sharp.  Perfection like this could have only been forged by a god.  The black
+hilt is contrasted only by the faint symbol of a white arrow.
+Upon the blade is engraved a poem:
+
+                      Farslayer howls across the world
+                      For thy heart, for thy heart, who hast wronged me!
+                      Vengeance is his who casts the blade
+                      Yet he will in the end no triumph see.
+
+~
+G none
+#10405
+skull angel's череп ангела~
+@eng the angel's skull@rus череп ангела~
+@eng An angel's skull lies here on the ground.@rus Череп ангела (skull) лежит здесь на земле.~
+bone~
+armor 0 AE
+15 15 15 8 0
+45 40 90 P
+A
+2 1
+A
+12 50
+G none
+#10406
+flesh rotting гниющая плоть~
+@eng some rotting flesh@rus гниющая плоть~
+@eng Some rotting flesh lies here in a pile.@rus Гниющая плоть (flesh) лежит здесь, в куче.~
+flesh~
+armor 0 AD
+8 8 8 0 0
+25 30 50 P
+G none
+#10407
+sword vorpal blade меч клинок~
+the Vorpal Blade~
+@eng A magnificently crafted blade lies here, humming softly.@rus Великолепно сделанный клинок лежит здесь и тихо гудит.~
+steel~
+weapon B AN
+sword 4 8 slice EF
+33 60 66 P
+G none
+#10408
+claw flaming коготь пылающий~
+@eng a flaming claw@rus ~~пылающий~~ ~~коготь~~~
+@eng A flaming claw lies here, burning brightly.@rus Пылающий коготь (claw) лежит здесь, ярко горя.~
+steel~
+weapon 0 AN
+exotic 4 5 claw A
+46 75 92 P
+G male
+#10409
+demonskin кожа демона~
+@eng a demonskin@rus ~~кожа~~ демона~
+@eng A black, scaley pile of demonskin lies here.@rus Черная, потрепанная кожа демона лежит здесь в куче.~
+flesh~
+armor 0 AD
+11 12 12 5 0
+35 40 70 P
+A
+12 20
+A
+4 1
+G female
+#10410
+demon teeth~
+@eng demon teeth@rus Клык демона~
+@eng A bunch of very sharp, slimey teeth lie here.@rus Связка очень острых клыков лежит здесь.~
+oldstyle~
+weapon 0 AN
+exotic 6 5 bite 0
+36 42 72 P
+G none
+#10411
+burning flesh~
+@eng some burning flesh@rus кусок горящея плоти.~
+@eng A pile of burning flesh lies here.@rus Груда горящей плоти лежит здесь.~
+oldstyle~
+armor 0 AI
+12 11 11 10 0
+35 50 70 P
+G none
+#10412
+rivet gun~
+@eng a rivet gun@rus Степлер~
+@eng A rivet gun loaded with hot rivets lies here.@rus Мощьный строительный степлер лежит тут.~
+oldstyle~
+staff 0 AO
+46 10 10 'general purpose' 0
+17 70 34 P
+G none
+#10413
+circular saw~
+@eng a circular saw@rus ~~циркулярная~~ ~~пила~~~
+@eng A circular saw lies here.@rus Циркулярная пила лежит тут.~
+oldstyle~
+weapon B AN
+exotic 5 6 slice 0
+43 70 86 P
+A
+19 2
+G none
+#10414
+box matches~
+@eng a box of matches@rus ~~коробок~~ спичек~
+@eng A box of matches lies here, ready to light something.@rus Полный коробок спичек лежит здесь. Подними его и {RСОЖГИ ВСЕ{x!~
+oldstyle~
+staff A AO
+48 10 10 'sleep' 0
+9 20 18 P
+G none
+#10415
+bloody black talon~
+@eng a bloody black talon@rus ~~кровавый~~ ~~чёрный~~ ~~коготь~~~
+@eng A severed bloody, black talon lies here.@rus Оторванный кровавый черный коготь лежит здесь.~
+oldstyle~
+weapon EG AN
+dagger 5 4 claw C
+46 60 92 P
+A
+13 -25
+A
+12 25
+G male
+#10416
+jar of blood~
+@eng jar of blood@rus ~~банка~~ с {rкровью{x.~
+@eng A dark jar of blood lies here.@rus Банка с {rкровью{x лежит тут.~
+oldstyle~
+potion 0 A
+50 'teleport' 'remove curse' 'refresh' ''
+11 10 22 P
+G none
+#10417
+hell hound teeth~
+@eng hell hound teeth@rus Зуб адской собаки.~
+@eng The bloody teeth of a hell hound sit here.@rus Окровавленный зуб адской собаки лежит тут.~
+oldstyle~
+weapon 0 AN
+dagger 4 3 bite A
+43 20 86 P
+G none
+#10418
+icy bottle~
+@eng an icy bottle@rus {CЛедяная{x бутылка.~
+@eng An icy bottle sits on the floor.@rus {CЛедяная{x бутылка лежит на полу.~
+oldstyle~
+potion 0 A
+47 '' 'create spring' 'faerie fog' ''
+8 10 16 P
+G none
+#10419
+ice spear two-handed~
+@eng an ice spear@rus ледяное копье~
+@eng A spear made out of ice lies here.@rus Копье изо льда лежит тут.~
+oldstyle~
+weapon 0 AN
+spear 6 6 pierce BF
+48 219 96 P
+G none
+#10420
+large meat hook two-handed~
+@eng a large meat hook@rus Большой металлический крюк.~
+@eng A large meat hook is stuck into the ground.@rus Большой металлический крюк воткнут в землю.~
+oldstyle~
+weapon 0 AN
+polearm 7 5 stab BF
+47 30 94 P
+G none
+#10421
+meat~
+@eng some meat@rus Кусок сырого мяса.~
+@eng A chunk of meat lies here.@rus Кусок сырого мяса валяется на земле.~
+oldstyle~
+food 0 A
+BCDE BCDE 0 0 0
+0 20 0 P
+G none
+#10422
+blueprint~
+@eng the blueprint@rus Проект.~
+@eng A construction blueprint lies on the ground.@rus Конструкторский проект лежит на земле.~
+oldstyle~
+food 0 AO
+ABCDE ABCDE 0 0 0
+0 10 0 P
+G none
+#10423
+electric eraser~
+@eng an electric eraser@rus Электрическая дубинка.~
+@eng A electric eraser lies on the ground, waiting for an erasermate.@rus Электрическая дубинка лежит на земле и искриться.~
+oldstyle~
+weapon 0 AN
+mace 4 7 grep G
+44 10 88 P
+A
+19 4
+A
+3 -1
+G none
+#10424
+spectacles~
+@eng spectacles@rus Очки~
+@eng A set of spectacles lies here on the ground. Don't step on them.@rus Очки лежат на земле. Смотрти не наступи на них!~
+oldstyle~
+clothing 0 AV
+0 0 0 0 0
+17 10 34 P
+A
+19 -10
+A
+4 1
+A
+3 1
+G none
+#10425
+unholy symbol~
+@eng an unholy symbol@rus Символ зла~
+@eng A sinister-looking symbol of evil lies here smoldering.@rus Зловеще выглядящий символ зла лежит здесь в пепле.~
+oldstyle~
+wand 0 AO
+53 10 10 'cure poison' 0
+12 20 24 P
+G none
+#10426
+unholy robes pile cloth~
+@eng unholy robes@rus проклятая роба~
+@eng A stinking pile of cloth lies here.@rus Воняющая груда ткани лежит на земле.~
+oldstyle~
+armor EJ AK
+16 16 16 8 0
+47 40 94 P
+A
+12 125
+G none
+#10427
+sharp teeth lawyer~
+@eng the sharp teeth of a lawyer@rus Острый зуб адвоката~
+@eng A set of sharp, evil-looking teeth lie here. Probably a lawyer's.@rus Острые, зловеще выглядящие зубы. Кто-то выбил зубы своему адвокату~
+oldstyle~
+weapon G AN
+exotic 5 6 bite C
+52 127 104 P
+A
+14 -13
+A
+2 1
+G male
+#10428
+golden ring золотое кольцо~
+@eng a golden ring@rus золотое кольцо~
+@eng A golden ring lies on the ground.@rus Золотое кольцо (ring) лежит на земле.~
+gold~
+jewelry 0 AB
+0 0 0 0 0
+31 10 310 P
+A
+18 2
+A
+12 30
+G none
+#10429
+engagement ring обручальное кольцо~
+@eng an engagement ring@rus обручальное кольцо~
+@eng An engagement ring lies here.@rus Обручальное кольцо (ring) лежит здесь.~
+gold~
+jewelry 0 AB
+0 0 0 0 0
+33 10 330 P
+A
+19 3
+A
+18 1
+A
+4 -1
+G none
+#10430
+prenuptual agreement досвадебное соглашение~
+@eng a prenuptual agreement@rus досвадебное соглашение~
+@eng A prenuptual agreement lies here.@rus Досвадебное соглашение (agreement) лежит здесь.~
+paper~
+scroll 0 A
+51 'cure blindness' 'detect evil' 'shield' ''
+11 10 22 P
+G none
+#10431
+ionic torque wrench~
+@eng an ionic torque wrench@rus Электрический ток.~
+@eng You see an ionic torque wrench on the ground.@rus Электрический ток переливается нитями по полу.~
+oldstyle~
+weapon 0 AN
+mace 5 5 shbite G
+49 55 98 P
+G none
+#10432
+figurine horse~
+@eng a figurine of a horse@rus Статуэтка лошади~
+@eng You see a small figurine of a horse on the ground.@rus Маленькая статуэтка лошади стоит на земле.~
+oldstyle~
+treasure AG AO
+0 0 0 0 0
+45 30 450 P
+A
+14 20
+G none
+#10433
+figurine winged horse pegasus~
+@eng a figurine of a winged horse@rus Статуэтка крылатой лошади~
+@eng You see a small figurine of a winged horse on the ground.@rus Маленькая статуэтка крылатой лошади стоит на земле.~
+oldstyle~
+wand AG AO
+54 50 50 'summon' 0
+19 30 38 P
+G none
+#10434
+figurine dark horse nightmare~
+@eng a figurine of a nightmare@rus Статуэтка кошмара~
+@eng You see a small figurine of a dark horse on the ground.@rus Маленькая статуэтка темной лошади стоит на земле.~
+oldstyle~
+wand AG AO
+54 50 50 'teleport' 0
+19 30 38 P
+G none
+#10435
+figurine black dragon~
+@eng a figurine of a black dragon@rus Статуэтка {Dчерного{x дракона~
+@eng You see a small figurine of a black dragon on the ground.@rus Ты видишь маленькую статуэтку {Dчерного{x дракона.~
+oldstyle~
+wand AG AO
+54 10 10 'weaken' 0
+10 30 20 P
+G none
+#10436
+figurine red dragon~
+@eng a figurine of a red dragon@rus Статуэтка {Rкрасного{x дракона~
+@eng You see a small figurine of a red dragon on the ground.@rus Ты видишь маленькую статуэтку {Rкрасного{x дракона.~
+oldstyle~
+wand AG AO
+54 10 10 'mass invis' 0
+18 30 36 P
+G none
+#10437
+figurine white dragon~
+@eng a figurine of a white dragon@rus Статуэтка {Wбелого{x дракона~
+@eng You see a small figurine of a white dragon on the ground.@rus Ты видишь маленькую статуэтку {Wбелого{x дракона.~
+oldstyle~
+wand AG AO
+35 10 10 'acid blast' 0
+33 30 66 P
+G none
+#10438
+figurine green dragon~
+@eng a figurine of a green dragon@rus ~~статуэтка~~ {Gзеленого{x дракона~
+@eng You see a small figurine of a green dragon on the ground.@rus Ты видишь маленькую статуэтку {Gзеленого{x дракона.~
+oldstyle~
+wand AG AO
+44 5 5 'gas breath' 0
+41 30 82 P
+G none
+#10439
+figurine blue dragon~
+@eng a figurine of a blue dragon@rus Статуэтка {Bголубого{x дракона~
+@eng You see a small figurine of a blue dragon on the ground.@rus Ты видишь маленькую статуэтку {Bголубого{x дракона.~
+oldstyle~
+wand AG AO
+54 10 10 'faerie fire' 0
+4 30 8 P
+G none
+#10440
+geiger counter~
+@eng a geiger counter@rus Счетчик Гейгера~
+@eng You see a Geiger counter here.@rus Кто-то оставил счетчик Гейгера на земле.~
+oldstyle~
+wand A AO
+52 10 10 'remove curse' 0
+16 20 32 P
+A
+5 1
+G none
+#10441
+photon displacement matrix~
+@eng a photon-displacement matrix@rus Фотонный распылитель~
+@eng You see a photon-displacement matrix on the ground.@rus Ты видишь фотонный распылитель на земле.~
+oldstyle~
+weapon AB AN
+axe 5 6 blast 0
+45 70 90 P
+A
+12 -20
+G none
+#10442
+black jumpsuit~
+@eng a black jumpsuit@rus {DЧерный{x комбинезон~
+@eng You see a black jumpsuit on the ground.@rus {DЧерный{x комбинезон со знаком {Yр{Wа{Yд{Wи{Yа{Wц{Yи{Wи{x на спине.~
+A
+oldstyle~
+armor A AD
+16 16 16 10 0
+50 40 100 P
+A
+18 5
+G none
+#10443
+antacid pill~
+@eng an antacid pill@rus Антикислотная пилюля~
+@eng You see an antacid pill here.@rus Антикислотная пилюля лежит на земле.~
+oldstyle~
+pill 0 A
+54 'pass door' 'refresh' '' ''
+14 10 28 P
+G none
+#10444
+manes claws~
+@eng a manes' claws@rus Когти Манеса~
+@eng The severed claws of a sub-demon lie here, twitching.@rus Оторванные когти демона лежат тут и дергаются.~
+oldstyle~
+weapon 0 AN
+dagger 2 12 claw 0
+32 40 64 P
+G none
+#10445
+welding torch~
+@eng a welding torch@rus Сварочный аппарат~
+@eng A welding torch sits on the ground.@rus Сварочный аппарат брошен на земле.~
+oldstyle~
+weapon 0 AN
+exotic 5 7 flame 0
+47 70 94 P
+A
+17 7
+G none
+#10446
+blond wig~
+@eng a blond wig@rus {WБелый{x парик~
+@eng A blond wig lies on the ground.@rus {WБелый{x парик упал с чьей-то головы.~
+oldstyle~
+armor 0 AE
+16 16 16 8 0
+46 20 92 P
+A
+19 4
+A
+3 -1
+G none
+#10447
+yellow jumpsuit nuclear symbol~
+@eng a yellow jumpsuit@rus {YЖелтый{x комбинезон~
+@eng You see a yellow jumpsuit with a nuclear-warning symbol.@rus {YЖелтый{x комбинезон со знаком {Yр{Wа{Yд{Wи{Yа{Wц{Yи{Wи{x на спине.~
+oldstyle~
+armor 0 AD
+16 16 16 16 0
+48 30 96 P
+A
+20 4
+A
+12 50
+G none
+#10448
+cleaver~
+@eng a cleaver@rus колун~
+@eng You see a nasty-looking cleaver stuck in the ground.@rus В землю воткнут страшного вида колун.~
+oldstyle~
+weapon 0 AN
+axe 5 6 cleave 0
+45 60 90 P
+G none
+#10449
+fire opal gem~
+@eng a precious fire opal@rus Драгоценный {Rогненый{x опал~
+@eng A flaming red gem lies on the ground.@rus Драгоценный {Rогненый{x опал лежит на земле~
+oldstyle~
+warp_stone T AO
+0 0 0 0 0
+0 10 0 P
+E ''
+fire opal gem~
+The fire opal is a nicely-polished round gem, with orange, gold, and red
+mixed together like the heart of flame.  You can almost feel the hellfire
+from whence it came.
+~
+G none
+#10450
+hellstone hell stone~
+@eng a hellstone@rus Адский камень~
+@eng An evil black gem rests here, hoping to seduce you with its evil.@rus Злой {Dчерный{x драгоценный камень лежит здесь, надеясь совратить тебя на сторону злa.~
+oldstyle~
+warp_stone ET AO
+0 0 0 0 0
+0 10 0 P
+E ''
+hellstone hell stone~
+The hellstones are mined from the deepest pits of Hell at the cost of the
+blood, sweat, and pain of hundreds of damned souls.  You feel vaguely ill
+as you gaze into its lustrous black heart.
+~
+G none
+#0
+
+#ROOMS
+#10401
+@eng Stone Archway@rus {RКаменный Сводчатый Проход{x~
+@eng This is a ancient stone archway. Various faces of demons and other grim
+pictures are painted onto it. Stone gargoyles and demons glare down at
+you from atop the arch.
+There is a bronze plaque above the archway.
+@rus Это древний каменный сводчатый проход.  Разнообразные морды {rдемонов{z и
+{Dотвратительные{z картины нарисованы на нем.  Каменные {mгоргульи{z и {mдемоны{z
+свирепо смотрят на тебя сверху.
+
+{yБронзовая пластина{z (plaque) сверху сводчатого прохода.
+~
+0 AD inside
+E ''
+plaque~
+@eng ***************
+Descent to Hell
+***************
+
+You just GO TO HELL!!!!
+*chuckle*
+
+Made for levels 30-50
+
+Brought to you by Strahd
+@rus {z      {r************{z
+{z      {RПадение в Ад{z
+{z      {r************{z
+
+Ты только что ВОШЕЛ В АД!!!!
+{z       {M*{rchuckle{M*{x
+ 
+Область для игроков 30-50 уровня.
+ 
+~
+D0 0
+~
+~
+Z -1 22049
+D3 0
+It's too dark to see.
+~
+~
+Z -1 10402
+S
+#10402
+@eng Ancient Room@rus {RДревняя Комната{x~
+@eng You are standing in a large stone room - feels like a crypt.  Ancient murals
+of Hell and punishment cover the walls.  In the middle of the room are stairs
+that lead down into the darkness.  From the stairway you can smell brimstone
+and sulfur.
+To the west, there appears to be a shrine.
+@rus Ты стоишь в большой каменной комнате, очень похожей на {Dсклеп{z. 
+Древние настенные рисунки {RАда{z и {rадских мук{z покрывают стены.  В
+центре комнаты ступени, которые ведут вниз, в {Dтемноту{z.  С лестницы
+сильно пахнет серой.
+На западе (west), похоже, виднеется алтарь.
+~
+0 AD inside
+D1 0
+It is too dark to see.
+~
+~
+Z -1 10401
+D3 0
+You see an ancient shrine.
+~
+~
+Z -1 10418
+D5 0
+You see a dark stairway.
+~
+~
+Z -1 10403
+S
+#10403
+@eng Dark Stairway@rus {rТемная {RЛестница{x~
+@eng You are standing at the bottom of long dark stairway.  The smells of brimstone
+and sulfur choke you.  Screams of pain and terror fill the air.
+Stone faces carved into the walls seem to laugh at you.
+Maybe this is not such a good idea after all....
+@rus Ты стоишь на нижней площадке длинной {Dтемной лестницы{z.  Ты задыхаешься
+от запаха серы. Вопли {mболи{z и {rужаса{z наполняют воздух. Каменные морды,
+вырезанные в стенах, кажется смеются над тобой.  Может быть, твоя затея
+уже не кажется тебе такой хорошей после всего увиденного...
+~
+0 AD inside
+D3 0
+It's too dark to see.
+~
+~
+Z -1 10404
+D4 0
+You see a dark stairway.
+~
+~
+Z -1 10402
+S
+#10404
+@eng Landing@rus {RЛестничная площадка{x~
+@eng This landing has been scorched as if a large brushfire had swept through it.
+Bits of ash and burnt vegetation cover everything.  The walls and floor are
+flawlessly smooth, and the ceiling is covered with carved faces and ancient
+symbols and runes.
+Large, black iron gates tower over you to the west.
+You see a large gateway to the west.
+@rus Эта площадка {rобожжена{z так, как будто огромный {rпожар{z пронесся через
+нее.  Куски {Dзолы{z и {Dголовешки{z покрывают все вокруг.  Стены и пол
+безупречно гладкие, а потолок покрыт вырезанными мордами, древними
+{mзнаками{z и {gрунами{z.
+Огромные, из {Dчерного металла{z, врата возвышаются над тобой на западе.
+~
+0 AD inside
+E ''
+gates~
+These black iron gates are covered with grotesque faces and other
+creatures in various poses and acts of violence and lust. The gates
+make your blood run cold...
+~
+D1 0
+It's too dark to see.
+~
+~
+Z -1 10403
+D3 0
+You see the Gates of Hell
+~
+gates~
+ABZ -1 10405
+S
+#10405
+@eng Gateway to Hell@rus {RВорота в Ад{x~
+@eng You stand next to the very gateway of Hell. You are surrounded by 
+the sounds of torture and pain. Screams pierce the air and rattle your
+nerves. Displays of the treats of Hell are in all directions.
+A large black iron gates tower over you to the east.
+@rus Ты стоишь прямо перед входом в {RАд{z.  Со всех сторон слышны звуки
+{rстраданий{z и {rболи{z.  Крики разрывают воздух, заставляя тебя нервничать,
+лишь подтверждая, что {RАд{z окружает тебя со всех сторон.  Огромные, из
+{Dчерного металла{z, врата возвышаются над тобой с востока (east).  
+~
+0 AD inside
+E ''
+gates~
+These black iron gates are covered with grotesque faces and other
+creatures in various poses and acts of violence and lust. The gates
+seem to make your blood run cold...
+~
+D0 0
+It's too smoky to see.
+~
+~
+Z -1 10416
+D1 0
+The Gates of Hell
+~
+gates~
+ABZ -1 10404
+D2 0
+It's too smoky to see.
+~
+~
+Z -1 10426
+D3 0
+It's too smoky to see.
+~
+~
+Z -1 10406
+S
+#10406
+@eng Hall of the Damned@rus {RЗал Проклятых{x~
+@eng This hallway is a monument to the millions of damned souls in Hell.
+The walls are made up of various body parts and other, unidentifiable
+things. Many of the faces that make up the wall scream out to you for
+help. Their arms desperately grasp at your clothing as you pass.
+@rus Этот зал - памятник миллионам {rпроклятых{z душ в {RАду{z.  Стены {Dукрашены{z
+различными частями тела и другими, не поддающимися опознанию, вещами.
+Множество лиц, которые {Dукрашают{z стены, взывают к тебе с мольбой о
+помощи.  Руки отчаянно хватают тебя за одежду, когда ты проходишь мимо.
+~
+0 AD inside
+D0 0
+It's too smoky to see.
+~
+~
+Z -1 10415
+D1 0
+It's too smoky to see.
+~
+~
+Z -1 10405
+D2 0
+It's too smoky to see.
+~
+~
+Z -1 10425
+D3 0
+It's too smoky to see.
+~
+~
+Z -1 10407
+S
+#10407
+@eng Hall of the Damned@rus {RЗал Проклятых{x~
+@eng This hallway is a monument to the millions of damned souls in Hell.
+The walls are made up of various body parts and other, unidentifiable
+things. Many of the faces that make up the wall scream out to you for
+help. Their arms desperately grasp at your clothing as you pass.
+@rus Этот зал - памятник миллионам {rпроклятых{z душ в {RАду{z.  Стены {Dукрашены{z
+различными частями тела и другими, не поддающимися опознанию, вещами.
+Множество лиц, которые {Dукрашают{z стены, взывают к тебе с мольбой о
+помощи. Руки отчаянно хвают тебя за одежду, когда ты проходишь мимо.
+~
+0 AD inside
+D0 0
+It's too smoky to see.
+~
+~
+Z -1 10414
+D1 0
+It's too smoky to see.
+~
+~
+Z -1 10406
+D2 0
+It's too smoky to see.
+~
+~
+Z -1 10424
+D3 0
+It's too smoky to see.
+~
+~
+Z -1 10408
+S
+#10408
+@eng Hall of the Damned@rus {RЗал Проклятых{x~
+@eng This hallway is a monument to the millions of damned souls in Hell.
+The walls are made up of various body parts and other, unidentifiable
+things. Many of the faces that make up the wall scream out to you for
+help. Their arms desperately grasp at your clothing as you pass.
+@rus Этот зал - памятник миллионам {rпроклятых{z душ в {RАду{z.  Стены {Dукрашены{z
+различными частями тела и другими, не поддающимися опознанию, вещами.
+Множество лиц, которые {Dукрашают{z стены, взывают к тебе с мольбой о
+помощи. Руки отчаянно хвают тебя за одежду, когда ты проходишь мимо.
+~
+0 AD inside
+D0 0
+It's too smoky to see.
+~
+~
+Z -1 10413
+D1 0
+It's too smoky to see.
+~
+~
+Z -1 10407
+D2 0
+It's too smoky to see.
+~
+~
+Z -1 10423
+D3 0
+It's too smoky to see.
+~
+~
+Z -1 10409
+S
+#10409
+@eng Hall of the Damned@rus {RЗал Проклятых{x~
+@eng This hallway is a monument to the millions of damned souls in Hell.
+The walls are made up of various body parts and other, unidentifiable
+things. Many of the faces that make up the wall scream out to you for
+help. Their arms desperately grasp at your clothing as you pass.
+@rus Этот зал - памятник миллионам {rпроклятых{z душ в {RАду{z.  Стены {Dукрашены{z
+различными частями тела и другими, не поддающимися опознанию, вещами.
+Множество лиц, которые {Dукрашают{z стены, взывают к тебе с мольбой о
+помощи. Руки отчаянно хвают тебя за одежду, когда ты проходишь мимо.
+~
+0 AD inside
+D0 0
+It's too smoky to see.
+~
+~
+Z -1 10412
+D1 0
+It's too smoky to see.
+~
+~
+Z -1 10408
+D2 0
+It's too smoky to see.
+~
+~
+Z -1 10422
+D3 0
+It's too smoky to see.
+~
+~
+Z -1 10410
+D5 0
+You see a dark stairway leading down.
+~
+stairs~
+Z -1 10421
+S
+#10410
+@eng Hall of the Damned@rus {RЗал Проклятых{x~
+@eng This hallway is a monument to the millions of damned souls in Hell.
+The walls are made up of various body parts and other, unidentifiable
+things. Many of the faces that make up the wall scream out to you for
+help. Their arms desperately grasp at your clothing as you pass.
+@rus Этот зал - памятник миллионам {rпроклятых{z душ в {RАду{z.  Стены {Dукрашены{z
+различными частями тела и другими, не поддающимися опознанию, вещами.
+Множество лиц, которые {Dукрашают{z стены, взывают к тебе с мольбой о
+помощи. Руки отчаянно хвают тебя за одежду, когда ты проходишь мимо.
+~
+0 AD inside
+D0 0
+It's too smoky to see.
+~
+~
+Z -1 10411
+D1 0
+It's too smoky to see.
+~
+~
+Z -1 10409
+S
+#10411
+@eng Mural of the Dead@rus {RКартина Смерти{x~
+@eng You stand before a large mural. The mural depicts mountains of dead
+bodies piled up to the sky. The mural covers the whole north wall from
+floor to ceiling. You can smell the stench of decaying flesh.
+@rus Ты стоишь перед огромной картиной на стене.  Она изображает горы
+{Dмертвых{z тел высотой до небес.  Картина покрывает все северную стену
+от пола до потолка.  Ты чувствуешь зловоние разлагающихся тел.
+~
+0 AD inside
+D1 0
+It's too smoky to see.
+~
+~
+Z -1 10412
+D2 0
+It's too smoky to see.
+~
+~
+Z -1 10410
+S
+#10412
+@eng Living Walls@rus {RЖивые Стены{x~
+@eng The walls here actually consist of greying and sinewy flesh - faces, hands,
+broken bones, feet, and toes jutting from the surface. You hear low moans
+of horror, pain, and sorrow issuing from within.
+@rus Стены в этом месте фактически состоят из сереющих и мускулистых тел -
+лица, руки, сломаные кости, ноги и ступни выступают с поверхности.  Ты
+слышишь тихие стоны {Dужаса{z, {Dболи{z и {Dстраданий{z издаваемых изнутри. 
+~
+0 AD inside
+D1 0
+It's too smoky to see.
+~
+~
+Z -1 10413
+D2 0
+It's too smoky to see.
+~
+~
+Z -1 10409
+D3 0
+It's too smoky to see.
+~
+~
+Z -1 10411
+S
+#10413
+@eng Trapped souls@rus {RПлененные души{x~
+@eng There are many souls trapped behind the walls of this room, almost as though 
+they were trapped beneath the surface of a frozen lake. Even the floor and 
+ceiling show the screaming faces behind them.
+@rus Здесь множество душ пленены за стенами этой комнаты, почти так же, как
+если бы они были в ловушке под поверхностью замороженного озера.  Даже под
+полом и стенами видны вскрикивающие лица.  
+~
+0 AD inside
+D1 0
+It's too smoky to see.
+~
+~
+Z -1 10414
+D2 0
+It's too smoky to see.
+~
+~
+Z -1 10408
+D3 0
+It's too smoky to see.
+~
+~
+Z -1 10412
+S
+#10414
+@eng Tortured Beings@rus {RПытка Существ{z~
+@eng This room is filled with instruments of torture. Beings of all shapes and
+sizes are being brought to the thresholds of pain and beyond. Some are
+being sliced into thousands of pieces.  Others are being stretched as though
+they were made of rubber.  All are caught in an unending play of agony.
+@rus Эта комната заполнена инструментами {rпыток{z.  Существа разных форм и
+размеров были отданы на терзание {Dболью{z и {Dмучениями{z.  Некоторые были
+разрезаны на тысячи частей.  Другие - растянуты так, как будто они сделаны
+из резины.  Все они пойманы в бесконечную игру {rагонии{z.
+~
+0 AD inside
+D1 0
+It's too smoky to see.
+~
+~
+Z -1 10415
+D2 0
+It's too smoky to see.
+~
+~
+Z -1 10407
+D3 0
+It's too smoky to see.
+~
+~
+Z -1 10413
+S
+#10415
+@eng Gluttony@rus {RОбжорство{x~
+@eng Before you is a room filled with all sorts of food. The smells of pastries and
+hamburger assault your senses. All sorts of food lay everywhere you look.
+Cookies, twinkies, steak, prime rib, almost anything you can think of, call
+out to you. You suddenly feel VERY hungry.
+@rus Перед тобой комната заполненная всеми типами еды.  Запахи кондитерских
+изделий и гамбургеров тревожат твое сознание.  Еда всех сортов разложена
+всюду, куда бы ты не глянул.  Пирожные, бифштексы, грудинка, практически
+все, о чем ты можешь подумать, видится тебе.  И вдруг ты чувствуешь себя
+очень голодным.  
+~
+0 AD inside
+D1 0
+It's too smoky to see.
+~
+~
+Z -1 10416
+D2 0
+It's too smoky to see.
+~
+~
+Z -1 10406
+D3 0
+It's too smoky to see.
+~
+~
+Z -1 10414
+S
+#10416
+@eng Greed@rus {RЖадность{x~
+@eng What luck! A room full of treasure. Gold, diamonds, riches beyond
+imagination! Wait! You suddenly feel as if it were all slowly disappearing.
+Someone is taking your treasure. They have no right! It is yours! You
+found it first. Let them go get their own treasures!
+You see a door to the east.
+@rus Это {Bудача{z!  Комната полная {rсокровищ{z.  {YЗолото{z, {Wалмазы{z, несметные
+богатства.  {gПодождите-ка{z!  Ты вдруг чувствуешь, как все это медленно
+исчезает.  Кто-то забирает {Rваши{z {rсокровища{z.  {DОни{z не правы!  Это {Rваше{z!
+Вы нашли его первым.  Пускай {Dони{z проваливают и ищут свои собственные
+{rсокровища{z!
+Ты замечаешь дверь на востоке (east).
+~
+0 AD inside
+D1 0
+You see a bedroom door.
+~
+door~
+ABZ -1 10417
+D2 0
+It's too smoky to see.
+~
+~
+Z -1 10405
+D3 0
+It's too smoky to see.
+~
+~
+Z -1 10415
+S
+#10417
+@eng Bedroom.@rus {RСпальня.{x~
+@eng This is a small bedroom. It is well furnished and is a drastic change from
+the room you just stepped out of. A bed stands against the far wall.
+Upon the headboard of the bed are carved two cherub-like figures, with the
+the words 'DEE & DEE' written below them.
+The door to the bedroom is to the west.
+@rus Это небольшая спальня.  Она хорошо обставлена и сильно отличается от той
+комнаты, из которой ты только что пришел.  У дальней стены стоит постель.  В
+изголовье постели вырезаны две фигурки, наподобие херувима, со словами "ДИ &
+ДИ", написанными чуть ниже.  
+Дверь в спальню на западе (west).
+~
+0 AD inside
+D3 0
+You see a bedroom door.
+~
+door~
+ABZ -1 10416
+S
+#10418
+@eng Ancient Shrine@rus {RДревний Алтарь{x~
+@eng This is an ancient, abandoned shrine of some unknown god. It has been
+vandalized and torn apart. What used to be the shrine has been reduced to
+a large pile of stone and other debris. Various runes and demonic faces
+have been spray-painted on the walls and floor.  Nailed to the ceiling are
+an assortment of skeletons.  All seem to have been dead for a very long
+time. All surfaces of the room are covered with dried blood and dust. 
+@rus Это {mдревний{z, заброшенный {rалтарь{z какого-то неизвестного {yбога{z.  Он был
+разрушен {Dвандалами{z и разграблен.  То, что раньше использовалось как {yалтарь{z,
+было уменьшено до большой кипы камней и другого мусора.  Различные {Rруны{z и
+{Dрожи демонов{z намалевали распылителем на стенах и потолке. В довершение
+прибив к потолку несколько {Wскелетов{z.  Все они выглядят {Dумершими{z досрочно.
+Вся поверхность комнаты покрыта засохшей {rкровью{z и пылью.
+~
+0 AD inside
+D1 0
+It is too dark to see.
+~
+~
+Z -1 10402
+S
+#10419
+@eng Room full of Body Parts.@rus {RКомната полная Частей Тела.{x~
+@eng The room is filled with piles of arms, legs, heads, and other, unidentifiable
+parts of many different creatures. The stench is overwhelming. The body
+parts seem to wiggle and scream as you get closer. They are still alive!!
+@rus Комната заполнена кучами рук, ног, голов, и других, трудноразличимых
+частей разнообразных созданий.  Смрад невыносимый.  Части тела похоже
+шевелятся и кричат, когда ты подходишь ближе.  Они по-прежнему живы!!
+~
+0 AD inside
+D1 0
+It is too dark to see.
+~
+~
+Z -1 10420
+D2 0
+It is too dark to see.
+~
+~
+Z -1 10429
+S
+#10420
+@eng Fountain of Blood.@rus {RФонтан {rКрови.{x~
+@eng This room is made of a rough black stone. The walls seem to ooze black
+sludge. In the middle of the room stands a stone fountain of a demon spitting
+blood.
+@rus {DЭта комната сделана из грубого черного камня.  Стены похоже сочатся
+черной слизью.  В центре комнаты стоит {wкаменный{z фонтан в виде {Rдемона{z,
+выплевывающего {rкровь{z.
+~
+0 AD inside
+D2 0
+It is too dark to see.
+~
+~
+Z -1 10430
+D3 0
+It is too dark to see.
+~
+~
+Z -1 10419
+S
+#10421
+@eng Bloody Stairway.@rus {rКровавая {RЛестница.{x~
+@eng You are standing on a very slippy stairway. The walls and stairs are
+covered with blood and gore. Pieces of goo and ooze drip from the
+ceiling overhead. You almost slip a couple times on the stairway.
+The stench here is overwhelming.
+@rus Ты стоишь на очень скользкой лестнице.  Стены и ступени покрыты кровью.
+Липкие куски сочатся и капают сверху.  Ты практически катишься время от
+времени по лестнице.  Смрад здесь просто невыносимый.
+~
+0 AD inside
+D4 0
+It is too dark to see.
+~
+~
+Z -1 10409
+D5 0
+It is too dark to see.
+~
+~
+Z -1 10431
+S
+#10422
+@eng Ancient Room@rus {RСтарая Комната{x~
+@eng This is a very old and dusty room. It looks empty except for a few shards
+or bone and flesh.
+@rus Это очень древняя  и пыльная комната. Она выглядит пустой, за исключением
+нескольких черепов или костей и мяса.
+~
+0 AD inside
+D0 0
+It is too dark to see.
+~
+~
+Z -1 10409
+D1 0
+It is too dark to see.
+~
+~
+Z -1 10423
+S
+#10423
+@eng Room of Lost Souls@rus {RКомната Потерянных Душ{x~
+@eng This looks like a waiting room or sorts. Dust and cobwebs are everywhere.
+Wooden benches line the walls. A digital number sign is posted on the wall.
+It currently reads, 'Now Serving Number 1'.
+A ticket dispenser is bolted to the wall.
+@rus Эта комната чем-то напоминает зал ожидания или сортировки.  Кругом пыль и
+паутина.  {yДеревянные{z скамьи вдоль стен.  На стене висит цифровое табло.
+в данный момент оно показывает, '{gСейчас Обслуживается Номер 1{z'.
+Автомат по продаже билетов прикреплен на стене.
+~
+0 AD inside
+E ''
+dispenser~
+This is one of those red ticket dispensers that never seem to work right.
+~
+D0 0
+It is too dark to see.
+~
+~
+Z -1 10408
+D1 0
+It is too dark to see.
+~
+~
+Z -1 10424
+D3 0
+It is too dark to see.
+~
+~
+Z -1 10422
+S
+#10424
+@eng Room of Lost Souls@rus {RКомната Потерянных Душ{x~
+@eng This looks like a waiting room or sorts. Dust and cobwebs are everywhere.
+Wooden benches line the walls. A digital number sign is posted on the wall.
+It currently reads, 'Now Serving Number 1'.
+A ticket dispenser is bolted to the wall.
+@rus Эта комната чем-то напоминает зал ожидания или сортировки.  Кругом пыль и
+паутина. {yДеревянные{z скамьи вдоль стен.  На стене висит цифровое табло.
+в данный момент оно показывает, '{gСейчас Обслуживается Номер 1{z'.
+Автомат по продаже билетов прикреплен на стене.
+~
+0 AD inside
+E ''
+dispenser~
+This is one of those red ticket dispensers that never seem to work right.
+~
+D0 0
+It is too dark to see.
+~
+~
+Z -1 10407
+D1 0
+It is too dark to see.
+~
+~
+Z -1 10425
+D3 0
+It is too dark to see.
+~
+~
+Z -1 10423
+S
+#10425
+@eng Pit of Fire@rus {RОгненный Котел{x~
+@eng You enter a plain stone room with a large fire pit in the center of it.
+As you look closer at the pit you realize that hundreds of people are being
+burned inside it. They Scream out to you. The noise is deafening. Several
+minor imps and workers push more people into the pit, whistling while
+@rus Ты вошел в простую каменную комнату с большим {rогненным{z котлом в ее центре.
+Когда ты приглядываешься, то понимаешь, что внутри этого котла {rгорят{z сотни
+людей.  Они кричат тебе.  Шум оглушительный.  Несколько маленьких {Dимпов{z и
+их помощников заталкивают все больше людей в котел.
+~
+0 D inside
+D0 0
+It is too dark to see.
+~
+~
+Z -1 10406
+D1 0
+It is too dark to see.
+~
+~
+Z -1 10426
+D3 0
+It is too dark to see.
+~
+~
+Z -1 10424
+S
+#10426
+@eng Blackened Hallway@rus {RЗатемненый Коридор{z~
+@eng This dark hallway looks as if it was made by a lavaworm...All the surfaces
+in it are melted and burnt. The smell of brimstone and sulfur fill the air.
+@rus Этот {Dтемный{z коридор выглядит так, как будто его прокопал {rогненный
+червь{z... Все поверхности в нем {rоплавлены{z и {rсожжены{z.  Запах серы
+заполняет воздух.
+~
+0 AD inside
+D0 0
+It is too dark to see.
+~
+~
+Z -1 10405
+D1 0
+It is too dark to see.
+~
+~
+Z -1 10427
+D3 0
+It is too dark to see.
+~
+~
+Z -1 10425
+S
+#10427
+@eng Blackened Hallway@rus {RЗатемненый Коридор{z~
+@eng This dark hallway looks as if it was made by a lavaworm...All the surfaces
+in it are melted and burnt. The smell of brimstone and sulfur fill the air.
+@rus Этот {Dтемный{z коридор выглядит так, как будто его прокопал {rогненный
+червь{z... Все поверхности в нем {rоплавлены{z и {rсожжены{z.  Запах серы
+заполняет воздух.
+~
+0 AD inside
+D1 0
+It is too dark to see.
+~
+~
+Z -1 10428
+D3 0
+It is too dark to see.
+~
+~
+Z -1 10426
+S
+#10428
+@eng Blood Room@rus {rКровавая {RКомната{x~
+@eng You enter the room and are immediately assaulted by the smell of rotting
+flesh and blood. The walls are covered with the crimson fluid as it runs
+down from the ceiling.
+@rus Ты вошел в комнату и сразу задыхаешься от запаха гниющей {rплоти{z и {rкрови{z.
+Стены покрыты {rтемно-красной{z жижей, которая бежит вниз с потолка.
+~
+0 AD inside
+D1 0
+It is too dark to see.
+~
+~
+Z -1 10429
+D3 0
+It is too dark to see.
+~
+~
+Z -1 10427
+S
+#10429
+@eng Living Walls@rus {RЖивые Стены{x~
+@eng The walls here actually consist of greying and sinewy flesh - faces, hands,
+broken bones, feet, and toes jutting from the surface. You hear low moans
+of horror, pain, and sorrow issuing from the walls.
+@rus Стены в этом месте фактически состоят из сереющих и мускулистых тел -
+лица, руки, сломаные кости, ноги и ступни выступают с поверхности.  Ты
+слышишь тихие стоны {Dужаса{z, {Dболи{z и {Dстраданий{z, издаваемых изнутри.
+~
+0 AD inside
+D0 0
+It is too dark to see.
+~
+~
+Z -1 10419
+D1 0
+It is too dark to see.
+~
+~
+Z -1 10430
+D3 0
+It is too dark to see.
+~
+~
+Z -1 10428
+S
+#10430
+@eng Skeleton Factory@rus {RЗавод Скелетов{x~
+@eng This is probably where they make all the skeletons for nightmares and
+graveyards. The room is simply littered with bones. A poster on the
+wall reads, "Remember ....the head bone is connected to the neck bone.."
+The poster continues on...but it seems to get very technical and boring..
+@rus Это по всей видимости то место, где они делают всех {Wскелетов{z для
+{mкошмаров{z и {Dкладбищ{z.  Комната просто завалена {Wкостями{z.  Памятка на стене
+гласит, "{cПомни ....  череп соединяется с шейным позвонком..{z"  Памятка
+продолжается на...  но, это кажется становится очень техническим и скучным..
+~
+0 AD inside
+D0 0
+It is too dark to see.
+~
+~
+Z -1 10420
+D3 0
+It is too dark to see.
+~
+~
+Z -1 10429
+S
+#10431
+@eng Bottom of Stairway@rus {RВнизу Лестницы{x~
+@eng You are standing at the bottom of a bloody stairway. Or at least you
+thought it was a stairway. It seems to be just a painting the the wall.
+This roughly carved room with evil runes carved  in to the stone floor.
+There is a hallway to the east.
+@rus Ты стоишь внизу {rкровавой лестницы{z.  Ну или, по крайней мере, ты подумал,
+что это была лестница.  Это похоже просто рисунок на стене.  Эта
+грубовырезанная комната со злыми рунами, начертанными на каменном полу.
+На востоке (east) виднеется проход.
+~
+0 AD inside
+D1 0
+It is too dark to see.
+~
+~
+Z -1 10432
+S
+#10432
+@eng Stone Hall@rus {RКаменный Коридор{z~
+@eng This is a roughly carved hallway. The air here is damp and musty. You 
+hear the sound of something dripping in the distance. Your footsteps
+echo down the hall as you walk. There is a strange and deathly silence
+that fills these halls...
+The hall continues to the south and the west.
+@rus Это грубовырезанный проход.  Воздух здесь влажный и затхлый.  Где-то
+недалеко слышен звух чего-то капающего.  Эхо твоих шагов уходит вниз
+прохода, когда ты идешь.  Здесь странная и зловещая тишина, которая
+заполняет эти проходы.  
+Проход продолжается на юг (south) и запад (west).
+~
+0 AD inside
+D2 0
+It is too dark to see.
+~
+~
+Z -1 10442
+D3 0
+It is too dark to see.
+~
+~
+Z -1 10431
+S
+#10433
+@eng Cell@rus {RКамера{x~
+@eng The cell is very damp and very musty. The walls are covered with moisture
+and dirt. The smell of urine is very potent here.
+The steel bars to the cell are to the south.
+@rus Камера очень влажная и очень затхлая.  Стены покрыты влагой и грязью.
+Здесь очень сильный запах мочи.
+Стальная задвижка камеры на юге (south).
+~
+0 AD inside
+D2 0
+You see bars
+~
+bars~
+ABZ -1 10443
+S
+#10434
+@eng Stone Hall@rus {RКаменный Коридор{z~
+@eng This is a roughly carved hallway. The air here is damp and musty. You 
+hear the sound of something dripping in the distance. Your footsteps
+echo down the hall as you walk. There is a strange and deathly silence
+that fills these halls...
+The hallway continues to the east and the south.
+@rus Это грубовырезанный проход.  Воздух здесь влажный и затхлый.  Где-то
+недалеко слышен звух чего-то капающего.  Эхо твоих шагов уходит вниз
+прохода, когда ты идешь.  Здесь странная и зловещая тишина, которая
+заполняет эти проходы.  
+Проход продолжается на юг (south) и восток (east).
+~
+0 AD inside
+D1 0
+It is too dark to see.
+~
+~
+Z -1 10435
+D2 0
+It is too dark to see.
+~
+~
+Z -1 10444
+S
+#10435
+@eng Stone Hall@rus {RКаменный Коридор{z~
+@eng This is a roughly carved hallway. The air here is damp and musty. You 
+hear the sound of something dripping in the distance. Your footsteps
+echo down the hall as you walk. There is a strange and deathly silence
+that fills these halls...
+To the south you see the steel bars of a cell.
+@rus Это грубовырезанный проход.  Воздух здесь влажный и затхлый.  Где-то
+недалеко слышен звух чего-то капающего.  Эхо твоих шагов уходит вниз
+прохода, когда ты идешь.  Здесь странная и зловещая тишина, которая
+заполняет эти проходы.  
+На юге (south) ты видишь стальную дверь камеры.
+~
+0 AD inside
+D1 0
+It is too dark to see.
+~
+~
+Z -1 10436
+D2 0
+You see the steel bars of a cell.
+~
+bars~
+ABZ -1 10445
+D3 0
+It is too dark to see.
+~
+~
+Z -1 10434
+S
+#10436
+@eng Stone Hall@rus {RКаменный Коридор{z~
+@eng This is a roughly carved hallway. The air here is damp and musty. You 
+hear the sound of something dripping in the distance. Your footsteps
+echo down the hall as you walk. There is a strange and deathly silence
+that fills these halls...
+The hallway contines to the south and the west.
+@rus Это грубовырезанный проход.  Воздух здесь влажный и затхлый.  Где-то
+недалеко слышен звух чего-то капающего.  Эхо твоих шагов уходит вниз
+прохода, когда ты идешь.  Здесь странная и зловещая тишина, которая
+заполняет эти проходы.  
+Проход продолжается на юг (south) и запад (west).
+~
+0 AD inside
+D2 0
+It is too dark to see.
+~
+~
+Z -1 10446
+D3 0
+It is too dark to see.
+~
+~
+Z -1 10435
+S
+#10437
+@eng Cell@rus {RКамера{x~
+@eng The cell is very damp and very musty. The walls are covered with moisture
+and dirt. The smell of urine is very potent here.
+The steel bars to the cell are to the south.
+@rus Камера очень влажная и очень затхлая.  Стены покрыты влагой и грязью.
+Здесь очень сильный запах мочи.
+Стальная задвижка камеры на юге (south).
+~
+0 AD inside
+D2 0
+You see bars
+~
+bars~
+ABZ -1 10447
+S
+#10438
+@eng Stone Hall@rus {RКаменный Коридор{z~
+@eng This is a roughly carved hallway. The air here is damp and musty. You 
+hear the sound of something dripping in the distance. Your footsteps
+echo down the hall as you walk. There is a strange and deathly silence
+that fills these halls...
+The hallway contines to the west and the east.
+@rus Это грубовырезанный проход.  Воздух здесь влажный и затхлый.  Где-то
+недалеко слышен звух чего-то капающего.  Эхо твоих шагов уходит вниз
+прохода, когда ты идешь.  Здесь странная и зловещая тишина, которая
+заполняет эти проходы.  
+Проход продолжается на восток (east) и запад (west).
+~
+0 AD inside
+D1 0
+It is too dark to see.
+~
+~
+Z -1 10439
+D3 0
+It is too dark to see.
+~
+~
+Z -1 10448
+S
+#10439
+@eng Stone Hall@rus {RКаменный Коридор{z~
+@eng This is a roughly carved hallway. The air here is damp and musty. You 
+hear the sound of something dripping in the distance. Your footsteps
+echo down the hall as you walk. There is a strange and deathly silence
+that fills these halls...
+The hallway contines to the west.
+@rus Это грубовырезанный проход.  Воздух здесь влажный и затхлый.  Где-то
+недалеко слышен звух чего-то капающего.  Эхо твоих шагов уходит вниз
+прохода, когда ты идешь.  Здесь странная и зловещая тишина, которая
+заполняет эти проходы.  
+Проход продолжается на запад (west).
+~
+0 AD inside
+D1 0
+You see the steel bars to a cell.
+~
+bars~
+ABZ -1 10440
+D2 0
+You see the steel bars to a cell.
+~
+bars~
+ABZ -1 10449
+D3 0
+It is too dark to see.
+~
+~
+Z -1 10438
+D5 0
+You see a dark stairway down....
+~
+~
+Z -1 10450
+S
+#10440
+@eng Cell@rus {RКамера{x~
+@eng The cell is very damp and very musty. The walls are covered with moisture
+and dirt. The smell of urine is very potent here.
+The steel bars to the cell are to the west.
+@rus Камера очень влажная и очень затхлая.  Стены покрыты влагой и грязью.
+Здесь очень сильный запах мочи.
+Стальная задвижка камеры на западе (west).
+~
+0 AD inside
+D3 0
+You see bars
+~
+bars~
+ABZ -1 10439
+S
+#10441
+@eng Hidden Room@rus {RПотайная Комната{z~
+@eng This is a long forgotten room. Ancient torture equipment stands around
+collecting dust. Most of this stuff was probably replace with modern
+hi tech torture devices and for sentimental reasons wasn't thrown away.
+@rus Это давно забытая комната.  Древния орудия пыток стоят вокруг, собирая
+пыль.  Большинство из них, скорей всего, были заменены современными более
+удобными устройствами для пыток и по сентиментальным причинам не было
+выброшено.  
+~
+0 AD inside
+D2 0
+It's too dark to see.
+~
+~
+Z -1 10451
+S
+#10442
+@eng Stone Hall@rus {RКаменный Коридор{z~
+@eng This is a roughly carved hallway. The air here is damp and musty. You 
+hear the sound of something dripping in the distance. Your footsteps
+echo down the hall as you walk. There is a strange and deathly silence
+that fills these halls...
+The hallway contines to the north and east.
+@rus Это грубовырезанный проход.  Воздух здесь влажный и затхлый.  Где-то
+недалеко слышен звух чего-то капающего.  Эхо твоих шагов уходит вниз
+прохода, когда ты идешь.  Здесь странная и зловещая тишина, которая
+заполняет эти проходы.  
+Проход продолжается на север (north) и восток (east).
+~
+0 AD inside
+D0 0
+It's too dark to see.
+~
+~
+Z -1 10432
+D1 0
+It's too dark to see.
+~
+~
+Z -1 10443
+S
+#10443
+@eng Stone Hall@rus {RКаменный Коридор{z~
+@eng This is a roughly carved hallway. The air here is damp and musty. You 
+hear the sound of something dripping in the distance. Your footsteps
+echo down the hall as you walk. There is a strange and deathly silence
+that fills these halls...
+The hallway contines to the east and west.
+The bars to a cell are to the north.
+@rus Это грубовырезанный проход.  Воздух здесь влажный и затхлый.  Где-то
+недалеко слышен звух чего-то капающего.  Эхо твоих шагов уходит вниз
+прохода, когда ты идешь.  Здесь странная и зловещая тишина, которая
+заполняет эти проходы.  
+Проход продолжается на восток (east) и запад (west).
+Двери камеры на севере (north).
+~
+0 AD inside
+D0 0
+You see bars to a cell.
+~
+bars~
+ABZ -1 10433
+D1 0
+It's too dark to see.
+~
+~
+Z -1 10444
+D3 0
+It's too dark to see.
+~
+~
+Z -1 10442
+S
+#10444
+@eng Stone Hall@rus {RКаменный Коридор{z~
+@eng This is a roughly carved hallway. The air here is damp and musty. You 
+hear the sound of something dripping in the distance. Your footsteps
+echo down the hall as you walk. There is a strange and deathly silence
+that fills these halls...
+The hallway contines to the north and west.
+@rus Это грубовырезанный проход.  Воздух здесь влажный и затхлый.  Где-то
+недалеко слышен звух чего-то капающего.  Эхо твоих шагов уходит вниз
+прохода, когда ты идешь.  Здесь странная и зловещая тишина, которая
+заполняет эти проходы.  
+Проход продолжается на север (north) и запад (west).
+~
+0 AD inside
+D0 0
+It's too dark to see.
+~
+~
+Z -1 10434
+D3 0
+It's too dark to see.
+~
+~
+Z -1 10443
+S
+#10445
+@eng Cell@rus {RКамера{x~
+@eng The cell is very damp and very musty. The walls are covered with moisture
+and dirt. The smell of urine is very potent here.
+The steel bars to the cell are to the north.
+@rus Камера очень влажная и очень затхлая.  Стены покрыты влагой и грязью.
+Здесь очень сильный запах мочи.
+Стальная дверь камеры на севере (north).
+~
+0 AD inside
+D0 0
+You see bars
+~
+bars~
+ABZ -1 10435
+S
+#10446
+@eng Stone Hall@rus {RКаменный Коридор{z~
+@eng This is a roughly carved hallway. The air here is damp and musty. You 
+hear the sound of something dripping in the distance. Your footsteps
+echo down the hall as you walk. There is a strange and deathly silence
+that fills these halls...
+The hallway contines to the north and east.
+@rus Это грубовырезанный проход.  Воздух здесь влажный и затхлый.  Где-то
+недалеко слышен звух чего-то капающего.  Эхо твоих шагов уходит вниз
+прохода, когда ты идешь.  Здесь странная и зловещая тишина, которая
+заполняет эти проходы.  
+Проход продолжается на север (north) и восток (east).
+~
+0 AD inside
+D0 0
+It's too dark to see.
+~
+~
+Z -1 10436
+D1 0
+It's too dark to see.
+~
+~
+Z -1 10447
+S
+#10447
+@eng Stone Hall@rus {RКаменный Коридор{z~
+@eng This is a roughly carved hallway. The air here is damp and musty. You 
+hear the sound of something dripping in the distance. Your footsteps
+echo down the hall as you walk. There is a strange and deathly silence
+that fills these halls...
+The hallway contines to the east and west.
+You see bars to a cell to the north.
+@rus Это грубовырезанный проход.  Воздух здесь влажный и затхлый.  Где-то
+недалеко слышен звух чего-то капающего.  Эхо твоих шагов уходит вниз
+прохода, когда ты идешь.  Здесь странная и зловещая тишина, которая
+заполняет эти проходы.  
+Проход продолжается на восток (east) и запад (west).
+На севере (north) ты видишь двери камеры.
+~
+0 AD inside
+D0 0
+You see bars to a cell.
+~
+bars~
+ABZ -1 10437
+D1 0
+It's too dark to see.
+~
+~
+Z -1 10448
+D3 0
+It's too dark to see.
+~
+~
+Z -1 10446
+S
+#10448
+@eng Stone Hall@rus {RКаменный Коридор{z~
+@eng This is a roughly carved hallway. The air here is damp and musty. You 
+hear the sound of something dripping in the distance. Your footsteps
+echo down the hall as you walk. There is a strange and deathly silence
+that fills these halls...
+The hallway contines to the north and west.
+@rus Это грубовырезанный проход.  Воздух здесь влажный и затхлый.  Где-то
+недалеко слышен звух чего-то капающего.  Эхо твоих шагов уходит вниз
+прохода, когда ты идешь.  Здесь странная и зловещая тишина, которая
+заполняет эти проходы.  
+Проход продолжается на север (north) и запад (west).
+~
+0 AD inside
+D0 0
+It's too dark to see.
+~
+~
+Z -1 10438
+D3 0
+It's too dark to see.
+~
+~
+Z -1 10447
+S
+#10449
+@eng Cell@rus {RКамера{x~
+@eng The cell is very damp and very musty. The walls are covered with moisture
+and dirt. The smell of urine is very potent here.
+The steel bars to the cell are to the north.
+@rus Камера очень влажная и очень затхлая.  Стены покрыты влагой и грязью.
+Здесь очень сильный запах мочи.
+Стальная дверь камеры на севере (north).
+~
+0 AD inside
+D0 0
+You see bars
+~
+bars~
+ABZ -1 10439
+S
+#10450
+@eng Hot Stairs@rus {RГорячие Лестницы{x~
+@eng You are standing on a long stairway. The air around you is heavy and hot.
+The stone walls are hot to the touch and your sweat sizzles as it hits the
+ground. Cool air flows out from a crack in the wall to the east.
+The smell of brimstone and smoke is all around you.
+The stairs continue down.
+@rus Ты стоишь на длинной лестнице.  Воздух вокруг тебя тяжелый и {rгорячий{z.
+Каменные стены {rгорячи{z на ощупь и твой пот шипит, когда падает на землю.
+Холодный воздух пробивается из трещины в стене на востоке.  Запах {gсеры{z и
+{Dдыма{z заполнил все вокруг тебя.
+Лестница продолжается вниз (down).
+~
+0 AD inside
+D4 0
+It is too dark to see.
+~
+~
+Z -1 10439
+D5 0
+It is too dark to see.
+~
+~
+Z -1 10461
+S
+#10451
+@eng Crack in Wall@rus {RТрещина в Стене{x~
+@eng This is a rather large crack in the wall. On closer inspection it appears to be
+a passageway that was closed off long ago. It was probably reopened by
+an earthquake or something.
+An ancient passageway continues to the north.
+Hot gusts of air come from the west.
+@rus Это довольно большая трещина в стене.  При ближайшем рассмотрении она
+оказывается проходом, который был закрыт долгое время.  Вероятно он был
+открыт вновь землятресением или еще чем-то.
+Древний проход уходит на север (north).
+Горячие порывы воздуха дуют с запада (west).
+~
+0 AD inside
+D0 0
+It is too dark to see.
+~
+~
+Z -1 10441
+D3 0
+It is too dark to see.
+~
+~
+Z -1 10450
+S
+#10452
+@eng Stone Arch@rus {RКаменная Арка{x~
+@eng Before you stands the a large stone arch decorated with many runes you
+cannot decifer. It looks as though it has been closed up for a long time.
+To the east is a hallway of fire.
+To the south you see a large metal door with the words, 'FOREMAN'
+written on the door.
+There is a dark stairway down in the corner of the room.
+@rus Перед тобой стоит огромный каменный свод, украшеный множеством {mрун{z,
+которых ты не можешь разобрать.  Он выглядит так, как будто был закрыт
+долгое время.  На востоке (east) {rогненный проход{z.
+На юге ты видишь большую металлическую дверь со словами "{RМАСТЕР{z",
+написаными на ней.
+{DТемная{z лестница уходит вниз из центра комнаты.
+~
+0 AD inside
+D1 0
+You see a hall of fire.
+~
+~
+Z -1 10453
+D2 0
+You see the Foreman's office.
+~
+~
+ABZ -1 10462
+D5 0
+You see a dark stairway down.
+~
+~
+Z -1 10463
+S
+#10453
+@eng Hall of Fire@rus {RОгненный Коридор{x~
+@eng You are standing in a hallway made of fire. The walls are ablaze with
+yellow and blue flames. The smell of the hot air and sulfur burn your
+lungs as you inhale, and dry your mouth as you exhale. The stone floor
+burns at your feet and hungrily drinks up every drop of sweat as they
+fall from your body.
+The hall of fire continues to the east.
+You see a stone archway to the west.
+@rus Ты стоишь в проходе, образованном {Rогнем{z.  Стены охвачены {Yжелтыми{z и
+{Bголубыми{z огнями.  Пары {rгорячего воздуха{z {Rобжигают{z твои легкие, когда ты
+вдыхаешь, и сушат твой рот, когда ты выдыхаешь.  Каменный пол {Rвспыхивает{z под
+твоими ногами и жадно впитывает каждую каплю пота, которая падает с твоего
+тела.  
+{rОгненный коридор{z продолжается на восток (east).
+Ты видишь каменную арку на западе (west).
+~
+0 AD inside
+D1 0
+You see a hall of fire.
+~
+~
+Z -1 10454
+D3 0
+You see a stone archway.
+~
+~
+Z -1 10452
+S
+#10454
+@eng Hall of Fire@rus {RОгненный Коридор{x~
+@eng You are standing in a hallway made of fire. The walls are ablaze with
+yellow and blue flames. The smell of the hot air and sulfur burn your
+lungs as you inhale, and dry your mouth as you exhale. The stone floor
+burns at your feet and hungrily drinks up every drop of sweat as they
+fall from your body.
+The hall of fire continues to the south and west.
+@rus Ты стоишь в проходе, образованном {Rогнем{z.  Стены охвачены {Yжелтыми{z и
+{Bголубыми{z огнями.  Пары {rгорячего{z воздуха {Rобжигают{z твои легкие, когда ты
+вдыхаешь, и сушат твой рот, когда ты выдыхаешь.  Каменный пол {Rвспыхивает{z под
+твоими ногами и жадно впитывает каждую каплю пота, которая падает с твоего
+тела.
+{rОгненный коридор{z продолжается на юг (south) и запад (west).
+~
+0 AD inside
+D2 0
+You see a hall of fire.
+~
+~
+Z -1 10464
+D3 0
+You see a stone archway.
+~
+~
+Z -1 10453
+S
+#10455
+@eng Construction Area@rus {RСтроительная Площадка{x~
+@eng This part of Hell seems to be under repair. Workers are fixing and replacing
+what look like various gas mains and other pipework. You can see many
+gas lines and electrical conduits within the dismantled walls. Partially
+hidden fire sprinklers are being installed in the ceilings.
+You see more contruction to the east and south.
+@rus Эта часть {RАда{z по-видимому восстанавливается. Рабочие укрепляют и заменяют
+то, что выглядит похожим на различные газопроводы и другие трубопроводы.
+Ты видишь множество газовых труб и электропроводок на размонтированных
+стенах. Частично спрятанные {rогненные{z распылители вмонтированы в потолок.
+Еще ты замечаешь несколько стройплощадок на востоке (east) и юге (south).
+~
+0 AD inside
+D1 0
+You see a construction area.
+~
+~
+Z -1 10456
+D2 0
+You see a construction area.
+~
+~
+Z -1 10465
+S
+#10456
+@eng Construction Area@rus {RСтроительная Площадка{z~
+@eng This part of Hell seems to be under repair. Workers are fixing and replacing
+what look like various gas mains and other pipework. You can see many
+gas lines and electrical conduits within the dismantled walls. Partially
+hidden fire sprinklers are being installed in the ceilings.
+You see more contruction to the east and west.
+@rus Эта часть {RАда{z по-видимому восстанавливается. Рабочие укрепляют и заменяют
+то, что выглядит похожим на различные газопроводы и другие трубопроводы.
+Ты видишь множество газовых труб и электропроводок на размонтированных
+стенах. Частично спрятанные {rогненные{z распылители вмонтированы в потолок.
+Еще ты замечаешь несколько стройплощадок на востоке (east) и западе (west).
+~
+0 AD inside
+D1 0
+You see a construction area.
+~
+~
+Z -1 10457
+D2 0
+You see a construction area.
+~
+~
+Z -1 10455
+S
+#10457
+@eng Construction Area@rus {RСтроительная Площадка{x~
+@eng This part of Hell seems to be under repair. Workers are fixing and replacing
+what look like various gas mains and other pipework. You can see many
+gas lines and electrical conduits within the dismantled walls. Partially
+hidden fire sprinklers are being installed in the ceilings.
+You see more contruction to the south and west.
+@rus Эта часть {RАда{z по-видимому восстанавливается. Рабочие укрепляют и заменяют
+то, что выглядит похожим на различные газопроводы и другие трубопроводы.
+Ты видишь множество газовых труб и электропроводок на размонтированных
+стенах. Частично спрятанные {rогненные{z распылители вмонтированы в потолок.
+Еще ты замечаешь несколько стройплощадок на юге (south) и западе (west).
+~
+0 AD inside
+D2 0
+You see a construction area.
+~
+~
+Z -1 10467
+D3 0
+You see a construction area.
+~
+~
+Z -1 10456
+S
+#10458
+@eng Hall of Fire@rus {RОгненный Коридор{x~
+@eng You are standing in a hallway made of fire. The walls are ablaze with
+yellow and blue flames. The smell of the hot air and sulfur burn your
+lungs as you inhale, and dry your mouth as you exhale. The stone floor
+burns at your feet and hungrily drinks up every drop of sweat as they
+fall from your body.
+The hall of fire continues to the east and south.
+@rus Ты стоишь в проходе, образованном {Rогнем{z.  Стены охвачены {Yжелтыми{z и
+{Bголубыми{z огнями.  Пары {rгорячего{z воздуха {Rобжигают{z твои легкие, когда ты
+вдыхаешь, и сушат твой рот, когда ты выдыхаешь.  Каменный пол {Rвспыхивает{z под
+твоими ногами и жадно впитывает каждую каплю пота, которая падает с твоего
+тела.
+{rОгненный коридор{z продолжается на восток (east) и юг (south).
+~
+0 AD inside
+D1 0
+You see a hall of fire.
+~
+~
+Z -1 10459
+D2 0
+You see a hall of fire.
+~
+~
+Z -1 10468
+S
+#10459
+@eng Hall of Fire@rus {RОгненный Коридор{x~
+@eng You are standing in a hallway made of fire. The walls are ablaze with
+yellow and blue flames. The smell of the hot air and sulfur burn your
+lungs as you inhale, and dry your mouth as you exhale. The stone floor
+burns at your feet and hungrily drinks up every drop of sweat as they
+fall from your body.
+The hall of fire continues to the west.
+A room full of fire pits lies to the east.
+A wall of fire crackles merrily to the south.
+@rus Ты стоишь в проходе, образованном {Rогнем{z.  Стены охвачены {Yжелтыми{z и
+{Bголубыми{z огнями.  Пары {rгорячего{z воздуха {Rобжигают{z твои легкие, когда ты
+вдыхаешь, и сушат твой рот, когда ты выдыхаешь.  Каменный пол {Rвспыхивает{z под
+твоими ногами и жадно впитывает каждую каплю пота, которая падает с твоего
+тела.
+{rОгненный коридор{z продолжается на западе (west).
+Комната полная {rогненных{z котлов на востоке (east).
+{rОгненая стена{z весело трещит на юге (south).
+~
+0 AD inside
+D1 0
+You see a room full of fire pits.
+~
+~
+Z -1 10460
+D2 0
+You see a wall of fire.
+~
+~
+Z -1 10469
+D3 0
+You see a hall of fire.
+~
+~
+Z -1 10458
+S
+#10460
+@eng Fire Pits of Hades@rus {RОгненные Котлы Преисподней{x~
+@eng This room is filled with many small fire pits. Countless damned souls are
+being burnt and roasted within the the white flames that erupt from the
+many pits. Wailing and screams of pain chill your bones in this hot room.
+To the south you see a lake of fire.
+A fire hall lies to the west.
+@rus Эта комната заполнена множеством небольших {rогненных{z котлов.  Бесчисленные
+{Dпроклятые души{z {Rгорят{z и {rжарятся{z в {Wбелом огне{z, который вырывается из множества
+котлов.  Вопли и вскрикивания {bледенят{z ваши кости в этой {rраскаленной{z комнате.
+На юге (south) ты видишь {rогненное{z озеро.
+{rОгненый коридор{z лежит к западу (west).
+~
+0 AD inside
+D2 0
+You see a lake of fire.
+~
+~
+Z -1 10470
+D3 0
+You see a hall of fire.
+~
+~
+Z -1 10459
+S
+#10461
+@eng Fire Mural@rus {RОгненная Роспись{x~
+@eng Apon all the walls of this room is an enormous mural. Pictures of burning
+bodies and tortured souls seem to be the main theme of the art. Bright reds
+and hot blues are enphasized throughout the mural. As you stare at it the
+characters within it seem to move and struggle in pain. The hot air around
+you smells of sulfur and methane. To the south you see a stone hallway.
+Hot air blows in at you from the doorway. The air stirs up the methane and
+steals your breath. You choke and gag...
+@rus По всем стенам этой комнаты огромные росписи.  Картины {Rгорящих{z тел и
+{Dпытаемых душ{z кажется основная тема рисунков.  {RЯрко-красный{z и {Bгорячо-синий{z
+основные краски в росписи.  Когда ты присматриваешься к героям поближе,
+похоже они двигаются и извиваются в {Dагонии{z.  {rРаскаленный{z воздух вокруг тебя
+пахнет серой и метаном. Нагретый воздух бьётся о тебя, дуя со входа.  Он
+поднимает метан вверх, что затрудняет твое дыхание. Ты задыхаешься и
+кашляешь.
+~
+0 AD inside
+D2 0
+You see a stone hallway.
+~
+~
+Z -1 10471
+S
+#10462
+@eng Foreman's Office@rus {RОфис Мастера{x~
+@eng You stand in a crudly constructed office. Blueprints and change orders are
+scattered everywhere. A metal filing cabinet stands in the corner. Before
+you stands a stone table covered with blueprints. On the wall is a 
+construction plaque that reads, "4th DEMONsion Contruction"
+@rus Ты стоишь в грубо построенном офисе.  Везде разбросаны планы и подряды.
+железная картотека стоит в углу.  Перед тобой стоит каменный стол покрытый
+планами.  На стене конструкционная пластина, которая гласит, "4th DEMONsion
+Construction" (4-е Строительное ДЕМОНение(измерение)
+~
+0 AD inside
+D0 0
+You see the door to the office.
+~
+~
+ABZ -1 10452
+S
+#10463
+@eng Cold Stairway@rus {rХолодная {RЛестница{x~
+@eng You stand apon a cold stone stairway. Hot air blows down on you from
+higher up the stairwell. From below you a freezing gusts bite at your skin
+and make you shiver. Icicles drip slowly from the ceiling onto the frosted
+stone floor.
+@rus Ты стоишь на {bхолодной{z каменной лестнице.  {rГорячий{z воздух опускается на
+тебя с верхнего пролета.  Снизу {bхолодные{z порывы кусают твою кожу и
+заставляют тебя дрожать.  Сосульки медленно капают с потолка на покрытый
+{bинеем{z каменный пол.
+~
+0 AD inside
+D4 0
+It is too dark to see.
+~
+~
+Z -1 10452
+D5 0
+It is too dark to see.
+~
+~
+Z -1 10472
+S
+#10464
+@eng Hall of Fire@rus {RОгненный Коридор{x~
+@eng You are standing in a hallway made of fire. The walls are ablaze with
+yellow and blue flames. The smell of the hot air and sulfur burn your
+lungs as you inhale, and dry your mouth as you exhale. The stone floor
+burns at your feet and hungrily drinks up every drop of sweat as they
+fall from your body.
+The hall of fire continues to the north and east.
+@rus Ты стоишь в проходе, образованном {Rогнем{z.  Стены охвачены {Yжелтыми{z и
+{Bголубыми{z огнями.  Пары {rгорячего{z воздуха {Rобжигают{z твои легкие, когда ты
+вдыхаешь, и сушат твой рот, когда ты выдыхаешь.  Каменный пол {Rвспыхивает{z под
+твоими ногами и жадно впитывает каждую каплю пота, которая падает с твоего
+тела.
+{rОгненный коридор{z продолжается на север (north) и восток (east).
+~
+0 AD inside
+D0 0
+You see a hall of fire.
+~
+~
+Z -1 10454
+D1 0
+You see a wall of fire.
+~
+~
+Z -1 10465
+S
+#10465
+@eng Construction Area@rus {RСтроительная Площадка{x~
+@eng This part of Hell seems to be under repair. Workers are fixing and replacing
+what look like various gas mains and other pipework. You can see many
+gas lines and electrical conduits within the dismantled walls. Partially
+hidden fire sprinklers are being installed in the ceilings.
+You see more contruction to the north and east.
+A hall of fire is to the west.
+@rus Эта часть {RАда{z по-видимому восстанавливается. Рабочие укрепляют и заменяют
+то, что выглядит похожим на различные газопроводы и другие трубопроводы.
+Ты видишь множество газовых труб и электропроводок на размонтированных
+стенах. Частично спрятанные {rогненные{z распылители вмонтированы в потолок.
+Еще ты замечаешь несколько стройплощадок на севере (north) и востоке (east).
+{rОгненный коридор{z на западе (west).
+~
+0 AD inside
+D0 0
+You see a construction area.
+~
+~
+Z -1 10455
+D1 0
+You see a construction area.
+~
+~
+Z -1 10466
+D3 0
+You see a Hall of fire.
+~
+~
+Z -1 10464
+S
+#10466
+@eng Construction Area@rus {RСтроительная Площадка{x~
+@eng This part of Hell seems to be under repair. Workers are fixing and replacing
+what look like various gas mains and other pipework. You can see many
+gas lines and electrical conduits within the dismantled walls. Partially
+hidden fire sprinklers are being installed in the ceilings.
+You see more contruction to the east and west.
+@rus Эта часть {RАда{z по-видимому восстанавливается. Рабочие укрепляют и заменяют
+то, что выглядит похожим на различные газопроводы и другие трубопроводы.
+Ты видишь множество газовых труб и электропроводок на размонтированных
+стенах. Частично спрятанные {rогненные{z распылители вмонтированы в потолок.
+Еще ты замечаешь несколько стройплощадок на востоке (east) и западе (west).
+~
+0 AD inside
+D1 0
+You see a construction area.
+~
+~
+Z -1 10467
+D3 0
+You see a construction area.
+~
+~
+Z -1 10465
+S
+#10467
+@eng Construction Area@rus {RСтроительная Площадка{x~
+@eng This part of Hell seems to be under repair. Workers are fixing and replacing
+what look like various gas mains and other pipework. You can see many
+gas lines and electrical conduits within the dismantled walls. Partially
+hidden fire sprinklers are being installed in the ceilings.
+You see more contruction to the north and west.
+A hall of fire lies to the east.
+@rus Эта часть {RАда{z по-видимому восстанавливается. Рабочие укрепляют и заменяют
+то, что выглядит похожим на различные газопроводы и другие трубопроводы.
+Ты видишь множество газовых труб и электропроводок на размонтированных
+стенах. Частично спрятанные {rогненные{z распылители вмонтированы в потолок.
+Еще ты замечаешь несколько стройплощадок на севере (north) и западе (west).
+{rОгненный коридор{z лежит к востоку (east).
+~
+0 AD inside
+D0 0
+You see a construction area.
+~
+~
+Z -1 10457
+D1 0
+You see a hall of fire.
+~
+~
+Z -1 10468
+D3 0
+You see a construction area.
+~
+~
+Z -1 10466
+S
+#10468
+@eng Hall of Fire@rus {RОгненный Коридор{x~
+@eng You are standing in a hallway made of fire. The walls are ablaze with
+yellow and blue flames. The smell of the hot air and sulfur burn your
+lungs as you inhale, and dry your mouth as you exhale. The stone floor
+burns at your feet and hungrily drinks up every drop of sweat as they
+fall from your body.
+The hall of fire continues to the north.
+There are loud noises of contruction to the west.
+@rus Ты стоишь в проходе, образованном {Rогнем{z.  Стены охвачены {Yжелтыми{z и
+{Bголубыми{z огнями.  Пары {rгорячего{z воздуха {Rобжигают{z твои легкие, когда ты
+вдыхаешь, и сушат твой рот, когда ты выдыхаешь.  Каменный пол {Rвспыхивает{z под
+твоими ногами и жадно впитывает каждую каплю пота, которая падает с твоего
+тела.
+{rОгненный коридор{z продолжается на севере (north).
+~
+0 AD inside
+D0 0
+You see a hall of fire.
+~
+~
+Z -1 10458
+D3 0
+You see a construction area.
+~
+~
+Z -1 10467
+S
+#10469
+@eng Wall of Fire@rus {RОгненная Стена{x~
+@eng This large room is cut in into sections by small walls of fire. The walls
+to move slowly changing the layout of the room. As you examine the room
+further you notice various posts around the room to which people are
+chained. The firewalls seem to move in patterns that leave the poor
+people directly in the path of the oncoming fire. The walls seem to creep
+ever so slowly towards them. The people blister and scream as the fire gets
+closer. Their deaths seem like minutes of agony and pain, and even as they
+burst into flames they seem incapable of grasping the merciful attention of
+death...
+To the north you see a hall of fire.
+To the east you see a lake of fire.
+@rus Эта большая комната разбита на части небольшими {rстенками огня{z.  Стены
+медленно перемещаются, изменяя  вид комнаты.  Когда ты исследуешь комнату
+дальше, ты замечаешь различные столбы вокруг комнаты, к которым прикованы
+люди.  Похоже {rогненные стены{z двигаются по заданному пути, который оставляет
+бедных людей непосредственно на пути приближающегося {Rогня{z.  Похоже стены
+двигаются намного медленнее рядом с ними.  Люди {rобжигаются{z и вскрикивают,
+когда {Rогонь{z подбирается ближе.  Их {Dсмерти{z кажутся как минуты {rагонии{z и {rболи{z,
+и даже когда они погружаются в {Rпламя{z, они видимо не способны понять
+милосердного внимания {Dсмерти{z...
+На севере (north) ты видишь {rогненный коридор{z.
+На востоке (east) ты видишь {rогненное{z озеро.
+~
+0 AD inside
+D0 0
+You see a hall of fire.
+~
+~
+Z -1 10459
+D1 0
+You see a Lake of fire.
+~
+~
+Z -1 10470
+S
+#10470
+@eng Lake of Fire@rus {RОгненное Озеро{x~
+@eng You stand one the shore of a large lake of fire. The smoke and heat fill this
+enormous room. You can barely make out shapes of something moving
+withing the dancing flames of blue and gold..
+@rus Ты стоишь на берегу большого {rогненного{z озера.  {DДым{z и {rжар{z заполняют эту
+огромную комнату.  Ты едва можешь различить формы чего-то двигающегося в
+потоке {bсинего{z и {Yзолотого{z пламени..
+~
+0 AD inside
+D0 0
+It is too smoky to see.
+~
+~
+Z -1 10460
+D1 0
+It is too smoky to see.
+~
+~
+Z -1 10471
+D3 0
+It is too smoky to see.
+~
+~
+Z -1 10469
+S
+#10471
+@eng Hot Hall@rus {RГорячий Коридор{x~
+@eng The stone floor below you heats your feet uncomfortably. The ceiling and
+walls glow a dull red and you sweat uncomfortably under the heat.
+@rus Каменный пол под тобой очень неприятно {rнагревает{z твои подошвы.  Потолок и
+стены светятся {rтускло-красным{z и ты неприятно потеешь в этой {rжаре{z.
+~
+0 AD inside
+D0 0
+You see a Mural Room.
+~
+~
+Z -1 10461
+D3 0
+It is too smoky to see.
+~
+~
+Z -1 10470
+S
+#10472
+@eng Icy Landing@rus {bЛедяная {RПлощадка{x~
+@eng This landing is made entirely of ice. Its walls bear carvings of battle and
+hunting scenes in bas-relief. These carved scenes show ice devils slaying
+angels, hunting mortals and other gruesome pictures.
+To the east you see a room of ice.
+@rus Эта площадка сделана полнстью изо {bльда{z.  Ее стены служат основой для
+резьбы, показывающей битвы и сцены охоты в барельефах.  Эти резные
+изображения показывают {bледяных{z дьяволов, убивающих ангелов, выслеживающих
+смертных и другие жуткие изображения.  
+На востоке (east) ты видишь {bледяную{z комнату.
+~
+0 AD inside
+D1 0
+You see a room of ice.
+~
+~
+Z -1 10541
+S
+#10473
+@eng Ice Room@rus {bЛедяная {RКомната{x~
+@eng You are standing in a room of ice. Icicles of every size hang from the
+ceiling. Some shake with every sound. Your reflection off the ice walls
+seems to dance and wiggle as you move about.
+To the south you see more of the frozen room.
+To the west you see an Icy landing.
+@rus Ты стоишь в {bледяной{z комнате.  {bСосульки{z разных размеров свисают с потолка.
+Некоторые трясутся с каждым звуком.  Твое отражение от ледяных стен кажется
+танцует и шевелится, когда ты двигаешься.
+На юге (south) ты видишь еще несколько {bзамороженных{z комнат.
+На западе (west) ты видишь {bледяную{z площадку.
+~
+0 AD inside
+D2 0
+You see a room of ice.
+~
+~
+Z -1 10483
+D3 0
+You see a room of ice.
+~
+~
+Z -1 10541
+S
+#10474
+@eng Meat Locker@rus {RМясной Отсек{x~
+@eng You are standing in what looks like a meat locker. Rows of beef and other
+meats hang from large steel hooks. You also notice that many of the
+things hanging from the hooks are corpses of people. They reach out to
+you as you pass them as if to plead for help from their frozen mouths. 
+The meat locker continues to the east and south.
+@rus Ты стоишь в месте, которое выглядит как {rмясной{z отсек.  Ряды {rговядины{z и
+другого {rмяса{z свисают с больших стальных крюков.  Ты также замечаешь, что
+множество кусков, свисающих с крюков - {Dтрупы людей{z.  Они тянутся к тебе,
+когда ты проходишь мимо них, и словно мольба о помощи исходит из их
+{bзамороженных{z ртов.
+{rМясной отсек{z продолжается на восток (east) и юг (south).
+~
+0 AD inside
+D1 0
+You see more of the Meat locker
+~
+~
+Z -1 10475
+D2 0
+You see more of the Meat locker
+~
+~
+Z -1 10484
+S
+#10475
+@eng Meat Locker@rus {RМясной Отсек{x~
+@eng Rows of beef and other meats hang from large steel hooks. You notice that 
+many of the things hanging from the hooks are corpses of people. They 
+reach out to you as you pass them as if to plead for help from their frozen 
+mouths. 
+The meat locker continues to the south and west.
+There is a freezer door to the east.
+@rus Ты стоишь в месте, которое выглядит как {rмясной{z отсек.  Ряды {rговядины{z и
+другого {rмяса{z свисают с больших стальных крюков.  Ты так же замечаешь, что
+множество кусков, свисающих с крюков - {Dтрупы людей{z.  Они тянутся к тебе,
+когда ты проходишь мимо них, и словно мольба о помощи исходит из их
+{bзамороженных{z ртов.
+{rМясной отсек{z продолжается на юг (south) и запад (west).
+Дверь в {bхолодильник{z на востоке (east).
+~
+0 AD inside
+D1 0
+You see a freezer door.
+~
+freezer~
+ABZ -1 10476
+D2 0
+You see more of the Meat locker
+~
+~
+Z -1 10485
+S
+#10476
+@eng Penguin Room@rus {RКомната Пингвина{x~
+@eng This is what appears to be a replica of an iceberg. Penguins waddle about
+the room pecking at many poor souls half trapped in the icy floor. You
+seem to be outside, as the walls are painted to seem as if you are standing
+on a vast icy slab with nothing but ocean around you. 
+The iceberg continues to the south and east.
+There is a freezer door to the west.
+@rus Похоже, что это копия {bайсберга{z.  Пингвины в перевалку ходят по комнате и
+клюют множество грешных душ, наполовину замерзших в {bледяном{z полу.  Ты
+кажется одинок, так как стены разрисованы, чтоб создать впечатление, что ты
+на обширной {bльдине{z, и лишь океан вокруг тебя.
+{bАйсберг{z продолжается на юг (south) и запад (west).
+Дверь {bхолодильника{z на западе (west).
+~
+0 AD inside
+D1 0
+You see lots and lots of ice.
+~
+~
+Z -1 10477
+D2 0
+You see lots and lots of ice.
+~
+~
+Z -1 10486
+D3 0
+You see a freezer door.
+~
+door freezer~
+ABZ -1 10475
+S
+#10477
+@eng Penguin Room@rus {RКомната Пингвина{x~
+@eng This is what appears to be a replica of an iceberg. Penguins waddle about
+the room pecking at many poor souls half trapped in the icy floor. You
+seem to be outside, as the walls are painted to seem as if you are standing
+on a vast icy slab with nothing but ocean around you. 
+The iceberg continues to the south and west.
+@rus Похоже, что это копия {bайсберга{z.  Пингвины в перевалку ходят по комнате и
+клюют множество грешных душ, наполовину замерзших в {bледяном{z полу.  Ты
+кажется одинок, так как стены разрисованы, чтоб создать впечатление, что ты
+на обширной {bльдине{z, и лишь океан вокруг тебя.
+{bАйсберг{z продолжается на юг (south) и запад (west).
+~
+0 AD inside
+D2 0
+You see lots and lots of ice.
+~
+~
+Z -1 10487
+D3 0
+You see lots and lots of ice.
+~
+~
+Z -1 10476
+S
+#10478
+@eng Ice Creamery@rus {RЛедяной Маслозавод{x~
+@eng You appear to be standing in a ice-creamery. Many ice-cream workers run
+frantically around tending to the various machines.
+The factory continues to the east and south.
+@rus Ты, похоже, стоишь на фабрике мороженого.  Множество рабочих лихорадочно
+бегают вокруг разнообразных машин.  
+Фабрика продолжается на востоке (east) и юге (south).
+~
+0 AD inside
+D1 0
+You see lots of ice-cream machines.
+~
+~
+Z -1 10479
+D2 0
+You see lots of ice-cream machines.
+~
+~
+Z -1 10488
+S
+#10479
+@eng Ice Creamery@rus {RФабрика Мороженого{x~
+@eng You appear to be standing in a ice-creamery. There seems to be a
+group of people here shouting into containers and then quickly covering 
+them. How odd...
+The factory continues to the south and west.
+There is a steel door to the east.
+@rus Ты, похоже, стоишь на фабрике мороженого.  Здесь группа людей кричит
+в контейнеры, а затем быстро закрывает их.  Как странно...
+~
+0 AD inside
+D1 0
+You see a steel door.
+~
+door steel~
+ABZ -1 10480
+D2 0
+You see lots of ice-cream machines.
+~
+~
+Z -1 10489
+D3 0
+You see lots of ice-cream machines.
+~
+~
+Z -1 10478
+S
+#10480
+@eng White Marble Hall@rus {RЗал из Белого Мрамора{x~
+@eng You are standing in a white marble hallway. It is dry and clean. Many
+portraits of demons and devils in business suits adorn the walls on either
+side of you.
+The hall continues to the south.
+To the west is a steel door.
+@rus Ты стоишь в зале из {Wбелого мрамора{z.  Зал сухой и чистый.  Множество
+портретов {rдемонов{z и {rдьяволов{z занятых делами украшают стены по другую
+сторону от тебя.  
+Зал продолжается на юг (south).
+На западе (west) стальная дверь.
+~
+0 AD inside
+D2 0
+You see a marble hallway.
+~
+~
+Z -1 10490
+D3 0
+You see a steel door.
+~
+door steel~
+ABZ -1 10479
+S
+#10481
+@eng Refrigerator Room@rus {RКомната Холодильников{x~
+@eng This room is filled with giant refrigerators. All of them have no doors and
+their contents have spilled onto the floor.
+The only exit is east.
+@rus Эта комната заполнена огромными холодильниками.  Все они не имеют дверей
+и их содержимое раслилось по полу.  
+Только один выход на восток (east).
+~
+0 AD inside
+D1 0
+You see a room of ice.
+~
+~
+Z -1 10482
+S
+#10482
+@eng Ice Room@rus {bЛедяная{R Комната{x~
+@eng You are standing in a room of ice. Icicles of every size hang from the
+ceiling. Some shake with every sound. Your reflection off the ice walls
+seems to dance and wiggle as you move about.
+To the north and east you see more of the frozen room.
+To the west you see a room full of refrigerators.
+@rus Ты стоишь в {bледяной{z комнате.  {bСосульки{z разных размеров свисают с потолка.
+Некоторые трясутся с каждым звуком.  Твое отражение от ледяных стен кажется
+танцует и шевелится, когда ты двигаешься.
+На севере (north) ты видишь еще несколько {bзамороженных{z комнат.
+На западе (west) ты видишь комнату полную холодильников.
+~
+0 AD inside
+D0 0
+You see a room of ice.
+~
+~
+Z -1 10541
+D1 0
+You see a room of ice.
+~
+~
+Z -1 10483
+D3 0
+You see a room full of refrigerators.
+~
+~
+Z -1 10481
+S
+#10483
+@eng Ice Room@rus {bЛедяная{R Комната{x~
+@eng You are standing in a room of ice. Icicles of every size hang from the
+ceiling. Some shake with every sound. Your reflection off the ice walls
+seems to dance and wiggle as you move about.
+To the north and west you see more of the frozen room.
+To the east you see a freezer door.
+@rus Ты стоишь в {bледяной{z комнате.  {bСосульки{z разных размеров свисают с потолка.
+Некоторые трясутся с каждым звуком.  Твое отражение от ледяных стен кажется
+танцует и шевелится, когда ты двигаешься.
+На севере (north) ты видишь еще несколько {bзамороженных{z комнат.
+На востоке (east) ты видишь дверь холодильника.
+~
+0 AD inside
+D0 0
+You see a room of ice.
+~
+~
+Z -1 10473
+D1 0
+You see a freezer door.
+~
+door freezer~
+ABZ -1 10484
+D3 0
+You see a room of ice.
+~
+~
+Z -1 10482
+S
+#10484
+@eng Meat Locker@rus {RМясной Отсек{x~
+@eng You stand in a large meat locker. Chunks of meat hang on the wall and 
+larger corpses hang from steel hooks. Frozen blood and other 
+unrecognizable pieces are littered on the floor.
+The meat locker continues to the north and east.
+There is a freezer door to the west.
+@rus Ты стоишь в огромном {rмясном{z отсеке.  Куски {rмяса{z висят на стенах и
+множество {Dтрупов{z свисают со стальных крюков.  Замороженная {rкровь{z и
+другие неразличимые куски разбросаны по полу.
+{rМясной отсек{z продолжается на север (north) и восток (east).
+Дверь холодильника на западе (west).
+~
+0 AD inside
+D0 0
+You see more of the Meat locker
+~
+~
+Z -1 10474
+D1 0
+You see more of the Meat locker
+~
+~
+Z -1 10485
+D3 0
+You see a freezer door.
+~
+door freezer~
+ABZ -1 10483
+S
+#10485
+@eng Meat Locker@rus {RМясной Отсек{x~
+@eng Rows of beef and other meats hang from large steel hooks. 
+The meat locker continues to the north and west.
+@rus Ряды {rговядины{z и другого {rмяса{z свисают с больших стальных крюков.
+{rМясной отсек{z продолжается на север (north) и запад (west).
+~
+0 AD inside
+D0 0
+You see more of the Meat locker
+~
+~
+Z -1 10475
+D3 0
+You see more of the Meat locker
+~
+~
+Z -1 10484
+S
+#10486
+@eng Penguin Room@rus {RКомната Пингвина{x~
+@eng This is what appears to be a replica of an iceberg. Penguins waddle about
+the room pecking at many poor souls half trapped in the icy floor. You
+seem to be outside, as the walls are painted to seem as if you are standing
+on a vast icy slab with nothing but ocean around you. 
+The iceberg continues to the north and east.
+@rus Похоже, что это копия {bайсберга{z.  Пингвины в перевалку ходят по комнате и
+клюют множество грешных душ, наполовину замерзших в {bледяном{z полу.  Ты
+кажется одинок, так как стены разрисованы, чтоб создать впечатление, что ты
+на обширной {bльдине{z, и лишь океан вокруг тебя.
+{bАйсберг{z продолжается на север (north) и восток (east).
+~
+0 AD inside
+D0 0
+You see lots and lots of ice.
+~
+~
+Z -1 10476
+D1 0
+You see lots and lots of ice.
+~
+~
+Z -1 10487
+S
+#10487
+@eng Penguin Room@rus {RКомната Пингвина{x~
+@eng This is what appears to be a replica of an iceberg. Penguins waddle about
+the room pecking at many poor souls half trapped in the icy floor. You
+seem to be outside, as the walls are painted to seem as if you are standing
+on a vast icy slab with nothing but ocean around you. 
+The iceberg continues to the north and west.
+You can hear sounds of machinery to the east.
+@rus Похоже, что это копия {bайсберга{z.  Пингвины в перевалку ходят по комнате и
+клюют множество грешных душ, наполовину замерзших в {bледяном{z полу.  Ты
+кажется одинок, так как стены разрисованы, чтоб создать впечатление, что ты
+на обширной {bльдине{z, и лишь океан вокруг тебя.
+{bАйсберг{z продолжается на север (north) и запад (west).
+Ты можешь слышать звуки машин на востоке (east).
+~
+0 AD inside
+D0 0
+You see lots and lots of ice.
+~
+~
+Z -1 10477
+D1 0
+You see a dark passageway.
+~
+~
+Z -1 10488
+S
+#10488
+@eng Ice-Creamery@rus {RФабрика Мороженого{x~
+@eng You walk into part of an ice-cream factory. Many different types of
+ice-cream and other deserts are made by these machines. Above one
+of the machines a sign reads, 'Eye Spleen I Screamery'.
+The factory continues to the north and east.
+You can hear sounds of penguins to the west.
+@rus Ты зашел в часть фабрики мороженого.  Множество различных типов
+мороженого и других десертов, изготавливаются этими машинами.  Над
+одной из машин вывеска - 'Eye Spleen I Screamery'.
+Фабрика продолжается на север (north) и восток (east).
+Ты можешь слышать шум пингвинов на западе (west).
+~
+0 AD inside
+D0 0
+You see lots of ice-cream machines.
+~
+~
+Z -1 10478
+D1 0
+You see lots of ice-cream machines.
+~
+~
+Z -1 10489
+D3 0
+You see a dark passageway.
+~
+~
+Z -1 10487
+S
+#10489
+@eng Ice-Creamery@rus {RФабрика Мороженого{x~
+@eng You stand amidst dozens of ice-cream machines. Workers rush about
+for machine to machine, adjusting dials and checking gauges.
+The factory continues to the north and west.
+@rus Ты стоишь среди дюжины машин по изготовлению мороженого.  Рабочие носятся
+вокруг от машины к машине, подстраивают диски и проверяют манометры.
+Фабрика продолжается на север (north) и запад (west).
+~
+0 AD inside
+D0 0
+You see lots of ice-cream machines.
+~
+~
+Z -1 10479
+D3 0
+You see lots of ice-cream machines.
+~
+~
+Z -1 10488
+S
+#10490
+@eng Marble Hall@rus {RМраморный Зал{z~
+@eng You are walking down a white marble hallway. Large portraits of demons
+and devils adorn the walls on either side of you. As you look again you
+realize that they aren't demons and devils after all, but lawyers....well ok...
+depends on your point of view...
+The hallway continues to the north.
+There is an office to the south.
+@rus Ты проходишь по {Wбелому мраморному{z залу.  Огромные портреты {rдемонов{z и
+{rдьяволов{z украшают стены по другую сторону от тебя.  Когда ты вновь смотришь,
+то понимаешь, что после этого это не {rдемоны{z и {rдьяволы{z, а лишь адвокаты....
+ну хорошо...  это на твой взгляд.  
+Зал продолжается на север (north).
+Администрация на юге (south).
+~
+0 AD inside
+D0 0
+You see a white marble hallway.
+~
+~
+Z -1 10480
+D2 0
+You see an office.
+~
+~
+Z -1 10500
+S
+#10491
+@eng Records Hall@rus {RЗал Записей{x~
+@eng This Hallway is actually an enourmous records library. Millions of records
+are kept here detailing the status of peoples lives. These are confidential
+files and only authorized personnel are allowed to view them.
+The records room continues to the east.
+@rus На самом деле этот Зал - громадная библиотека записей.  Здесь хранятся
+миллионы записей подробно описывающих живых людей.  Это конфиденциальные
+бумаги и только уполномоченному персоналу позволяют их просматривать.
+Комната продолжается на восток (east).
+~
+0 AD inside
+D1 0
+You see rows and rows of records.
+~
+~
+Z -1 10492
+S
+#10492
+@eng Records Hall@rus {RЗал Записей{x~
+@eng This Hallway is actually an enourmous records library. Millions of records
+are kept here detailing the status of peoples lives. These are confidential
+files and only authorized personnel are allowed to view them.
+The records room continues to the east and west.
+There is another hallway to the south.
+@rus На самом деле этот Зал - громадная библиотека записей.  Здесь хранятся
+миллионы записей подробно описывающих живых людей.  Это конфиденциальные
+бумаги и только уполномоченному персоналу позволяют их просматривать.
+Комната продолжается на восток (east) и запад (west).
+И еще один зал на юге (south).
+~
+0 AD inside
+D1 0
+You see rows and rows of records.
+~
+~
+Z -1 10493
+D2 0
+You see the Halls of Judgement.
+~
+~
+Z -1 10502
+D3 0
+You see rows and rows of records.
+~
+~
+Z -1 10491
+S
+#10493
+@eng Records Hall@rus {RЗал Записей{x~
+@eng This Hallway is actually an enourmous records library. Millions of records
+are kept here detailing the status of peoples lives. These are confidential
+files and only authorized personnel are allowed to view them.
+The records room continues to the east and west.
+@rus На самом деле этот Зал - громадная библиотека записей.  Здесь хранятся
+миллионы записей подробно описывающих живых людей.  Это конфиденциальные
+бумаги и только уполномоченному персоналу позволяют их просматривать.
+Комната продолжается на восток (east) и запад (west).
+~
+0 AD inside
+D1 0
+You see rows and rows of records.
+~
+~
+Z -1 10494
+D3 0
+You see rows and rows of records.
+~
+~
+Z -1 10492
+S
+#10494
+@eng Records Hall@rus {RЗал Записей{x~
+@eng This Hallway is actually an enourmous records library. Millions of records
+are kept here detailing the status of peoples lives. These are confidential
+files and only authorized personnel are allowed to view them.
+The records room continues to the west.
+@rus На самом деле этот Зал - громадная библиотека записей.  Здесь хранятся
+миллионы записей подробно описывающих живых людей.  Это конфиденциальные
+бумаги и только уполномоченному персоналу позволяют их просматривать.
+Комната продолжается на запад (west).
+~
+0 AD inside
+D3 0
+You see rows and rows of records.
+~
+~
+Z -1 10493
+S
+#10495
+@eng Small Altar@rus {RМаленький Алтарь{x~
+@eng This is the private prayer room of the high priest. a small altar stands
+against the west wall. Evil symbols and pictures are plastered everywhere.
+The new propaganda posters for Hell are posted behind the altar.
+You see a blackened hall to the east.
+@rus Это частная молитвенная комната священника.  Небольшой {mалтарь{z стоит у
+западной стены.  {rЗлые{z символы и картины находятся везде.  Новые
+пропагандисткие плакаты {RАда{z висят позади {mалтаря{z.
+Ты видишь темный коридор на востоке (east).
+~
+0 AD inside
+E ''
+poster~
+Don't go to heaven....They're boring....
+
+***GO TO HELL!!!****
+
+You'll be damned if you don't  ;)
+~
+D1 0
+You see a blackened hallway.
+~
+~
+Z -1 10496
+S
+#10496
+@eng Blackened Hall@rus {rСгоревший {RЗал{x~
+@eng This hall looks as if it was burned out recently. The walls are charred and
+smoking. Ashes and bits of burnt timber crunch under your feet as you 
+walk down the hall. A sign on the wall reads, 'No Non-smoking Please'. 
+The hall continues to the south.
+There is a stone door to the east and a prayer room to the west.
+@rus Этот зал выглядит так, как будто он часто {rсжигается{z.  Стены {Dобуглены{z и
+дымятся.  {DПепел{z и куски {Dсожженных{z балок хрустят у тебя под ногами, когда ты
+проходишь по залу.  Надпись на стене гласит, 'Не Не-курить Пожалуйста'.
+Зал продолжается на юг (south).
+Каменная дверь на востоке (east) и молитвенная комната на западе (west).
+~
+0 AD inside
+D1 0
+You see a stone door.
+~
+door stone~
+ABZ -1 10497
+D2 0
+You see a blackened hall.
+~
+~
+Z -1 10506
+D3 0
+You see a prayer room.
+~
+~
+Z -1 10495
+S
+#10497
+@eng Office of the High Priest@rus {RКабинет Архимандрита{x~
+@eng This is the office of the High Priest of Hell. A black stone desk stands
+before you. The office is lavishly furnished with gold, gems and many
+antiques. A large portrait of a demons face is on the wall behind his desk.
+You see a stone door to the west.
+@rus Это кабинет Архимандрита {rАда{z.  {DЧерный{z каменный стол стоит перед тобой.
+Кабинет щедро украшен {Yзолотом{z, {Wдрагоценными камни{z и множеством древних
+произведений искусства.  Большой портрет с лицами {rдемонов{z на стене за
+столом.  
+Ты видишь каменную дверь на западе (west).
+~
+0 AD inside
+D3 0
+You see a stone door.
+~
+door stone~
+ABZ -1 10496
+S
+#10498
+@eng Blackened Hall@rus {rСгоревший {RЗал{x~
+@eng This hall looks as if it was burned out recently. The walls are charred and
+smoking. Ashes and bits of burnt timber crunch under your feet as you 
+walk down the hall. A sign on the wall reads, 'No Non-smoking Please'. 
+The hall continues to the east and south.
+@rus Этот зал выглядит так, как будто он часто {rсжигается{z.  Стены {Dобуглены{z и
+дымятся.  {DПепел{z и куски {Dсожженных{z балок хрустят у тебя под ногами, когда ты
+проходишь по залу.  Надпись на стене гласит, 'Не Не-курить Пожалуйста'.
+Зал продолжаетсна восток (east) и юг (south).
+~
+0 AD inside
+D1 0
+You see a blackened hall.
+~
+~
+Z -1 10499
+D2 0
+You see a blackened hall.
+~
+~
+Z -1 10508
+S
+#10499
+@eng Blackened Hall@rus {rСгоревший {RЗал{x~
+@eng This hall looks as if it was burned out recently. The walls are charred and
+smoking. Ashes and bits of burnt timber crunch under your feet as you 
+walk down the hall. A sign on the wall reads, 'No Non-smoking Please'.
+The hall continues to the west.
+A glass door is to the east. 
+@rus Этот зал выглядит так, как будто он часто {rсжигается{z.  Стены {Dобуглены{z и
+дымятся. {DПепел{z и куски {Dсожженных{z балок хрустят у тебя под ногами, когда ты
+проходишь по залу.  Надпись на стене гласит, 'Не Не-курить Пожалуйста'.
+Зал продолжается на запад (west).
+Стеклянная дверь на востоке (east).
+~
+0 AD inside
+D1 0
+You see a glass door.
+~
+door glass~
+ABZ -1 10500
+D3 0
+You see a blackened hall.
+~
+~
+Z -1 10498
+S
+#10500
+@eng Administration of Hell@rus {RПравление Ада{x~
+@eng This is the entrance to the Administration offices of Hell. The secretaries
+desk sits quietly in the middle of the room. To the south is a metal door
+labeled, 'Authorized Personnel Only'
+To the west is a large glass door.
+There is a stairway down on the opposite side of the room.
+There is a sign posted next to the stairs.
+@rus Это вход в кабинеты управления {rАда{z.  Конторки секретарей мирно стоят в
+центре комнаты.  на юге металлическая дверь с табличкой, 'Только
+Уполномоченный Персонал' 
+На западе (west) большая стеклянная дверь.
+Лестница вниз (down) с противоположной стороны комнаты.
+Вывеска ({csign{z) висит около лестницы.
+~
+0 AD inside
+E ''
+sign вывеска~
+@eng ****ATTENTION***
+The Abyss is CLOSED for construction.
+
+We will open for your painful pleasures
+
+soon....
+
+-Strahd-
+@rus {z         {r****{RВНИМАНИЕ{r****{x
+Пропасть ЗАКРЫТА на реконструкцию.
+ 
+Мы откроемся для вашего мучительного удовольствия
+ 
+скоро....
+ 
+~
+D0 0
+You see a marble hall.
+~
+~
+Z -1 10490
+D2 0
+You see a metal door.
+~
+door metal~
+ABZ -1 10510
+D3 0
+You see a glass door.
+~
+door glass~
+ABZ -1 10499
+D5 0
+You see a stairway down.
+~
+stairway~
+Z -1 10509
+S
+#10501
+@eng Halls of Judgement@rus {RЗалы Наказания{x~
+@eng You are standing in the Halls of Judgement. There are many alcoves 
+which contain different methods of torture. Each more grotesque than
+the one before it. On the wall a plaque reads, 'If you are here...You are
+Guilty...You have been judged...sound fair? Too bad..'
+The hall continues to the east.
+The Courtroom is to the south.
+@rus Ты стоишь в Залах Наказания.  Здесь множество ниш, которые содержат
+различные способы пыток.  Каждый следующий абсурдней, чем предыдущий.
+табличка на стене гласит, 'Если вы здесь...Вы Виновны...Вы осуждены...
+звучит справедливо?  Слишком..'
+Зал продолжается на восток (east).
+Комната суда на юге (south).
+~
+0 AD inside
+D1 0
+You see the Halls of Judgement.
+~
+~
+Z -1 10502
+D2 0
+You see the Court of Hell.
+~
+~
+Z -1 10511
+S
+#10502
+@eng Halls of Judgement@rus {RЗалы Наказания{x~
+@eng You are standing in the Halls of Judgement. There are many alcoves 
+which contain different methods of torture. Each more grotesque than
+the one before it. 
+The hall continues to the east and west.
+The hall of records is to the north.
+@rus Ты стоишь в Залах Наказания.  Здесь множество ниш, которые содержат
+различные способы пыток.  Каждый следующий абсурдней, чем предыдущий.
+Зал продолжается на восток (east) и запад (west).
+Зал записей на севере (north).
+~
+0 AD inside
+D0 0
+You see the Hall of Records.
+~
+~
+Z -1 10492
+D1 0
+You see the Halls of Judgement.
+~
+~
+Z -1 10503
+D3 0
+You see the Halls of Judgement.
+~
+~
+Z -1 10501
+S
+#10503
+@eng Halls of Judgement@rus {RЗалы Наказания{x~
+@eng You are standing in the Halls of Judgement. There are many alcoves 
+which contain different methods of torture. Each more grotesque than
+the one before it. 
+The hall continues to the east and west.
+The Office of Complaints is to the south.
+@rus Ты стоишь в Залах Наказания.  Здесь множество ниш, которые содержат
+различные способы пыток.  Каждый следующий абсурдней, чем предыдущий.
+Зал продолжается на восток (east) и запад (west).
+Служба Жалоб на юге (south).
+~
+0 AD inside
+D1 0
+You see the Halls of Judgement.
+~
+~
+Z -1 10504
+D2 0
+You see the Office of Complaints.
+~
+~
+Z -1 10513
+D3 0
+You see the Halls of Judgement.
+~
+~
+Z -1 10502
+S
+#10504
+@eng Halls of Judgement@rus {RЗалы Наказания{x~
+@eng You are standing in the Halls of Judgement. There are many alcoves 
+which contain different methods of torture. Each more grotesque than
+the one before it. 
+The hall continues to the east and west.
+@rus Ты стоишь в Залах Наказания.  Здесь множество ниш, которые содержат
+различные способы пыток.  Каждый следующий абсурдней, чем предыдущий.
+Зал продолжается на восток (east) и запад (west).
+~
+0 AD inside
+D1 0
+You see the Halls of Judgement.
+~
+~
+Z -1 10505
+D3 0
+You see the Halls of Judgement.
+~
+~
+Z -1 10503
+S
+#10505
+@eng Halls of Judgement@rus {RЗалы Наказания{x~
+@eng You are standing in the Halls of Judgement. There are many alcoves 
+which contain different methods of torture. Each more grotesque than
+the one before it. 
+The hall continues to the east and west.
+@rus Ты стоишь в Залах Наказания.  Здесь множество ниш, которые содержат
+различные способы пыток.  Каждый следующий абсурдней, чем предыдущий.
+Зал продолжается на восток (east) и запад (west).
+~
+0 AD inside
+D1 0
+You see the Halls of Judgement.
+~
+~
+Z -1 10506
+D3 0
+You see the Halls of Judgement.
+~
+~
+Z -1 10504
+S
+#10506
+@eng Blackened Hall@rus {rСгоревший {RЗал{x~
+@eng This hall looks as if it was burned out recently. The walls are charred and
+smoking. Ashes and bits of burnt timber crunch under your feet as you 
+walk down the hall. A sign on the wall reads, 'No Non-smoking Please'.
+There are exits in all directions.
+@rus Этот зал выглядит так, как будто он часто {rсжигается{z.  Стены {Dобуглены{z и
+дымятся.  {DПепел{z и куски {Dсожженных{z балок хрустят у тебя под ногами, когда ты
+проходишь по залу.  Надпись на стене гласит, 'Не Не-курить Пожалуйста'.
+Выходы во всех направлениях.
+~
+0 AD inside
+D0 0
+You see a blackened hall.
+~
+~
+Z -1 10496
+D1 0
+You see a blackened hall.
+~
+~
+Z -1 10507
+D2 0
+You see the hallway of the Mall from Hell .
+~
+~
+Z -1 10516
+D3 0
+You see the Halls of Judgement.
+~
+~
+Z -1 10505
+S
+#10507
+@eng Blackened Hall@rus {rСгоревший {RЗал{x~
+@eng This hall looks as if it was burned out recently. The walls are charred and
+smoking. Ashes and bits of burnt timber crunch under your feet as you 
+walk down the hall. A sign on the wall reads, 'No Non-smoking Please'.
+The hallway continues to the east and west.
+@rus Этот зал выглядит так, как будто он часто {rсжигается{z.  Стены {Dобуглены{z и
+дымятся.  {DПепел{z и куски {Dсожженных{z балок хрустят у тебя под ногами, когда ты
+проходишь по залу.  Надпись на стене гласит, 'Не Не-курить Пожалуйста'.
+Зал продолжается на восток (east) и запад (west).
+~
+0 AD inside
+D1 0
+You see a blackened hall.
+~
+~
+Z -1 10508
+D3 0
+You see a blackened hall.
+~
+~
+Z -1 10506
+S
+#10508
+@eng Blackened Hall@rus {rСгоревший {RЗал{x~
+@eng This hall looks as if it was burned out recently. The walls are charred and
+smoking. Ashes and bits of burnt timber crunch under your feet as you 
+walk down the hall. A sign on the wall reads, 'No Non-smoking Please'.
+The hallway continues to the north and west.
+@rus Этот зал выглядит так, как будто он часто {rсжигается{z.  Стены {Dобуглены{z и
+дымятся.  {DПепел{z и куски {Dсожженных{z балок хрустят у тебя под ногами, когда ты
+проходишь по залу.  Надпись на стене гласит, 'Не Не-курить Пожалуйста'.
+Зал продолжается на север (north) и запад (west).
+~
+0 AD inside
+D0 0
+You see a blackened hall.
+~
+~
+Z -1 10498
+D3 0
+You see a blackened hall.
+~
+~
+Z -1 10507
+S
+#10509
+@eng Stairs to the Abyss@rus {RЛестница в Бездну{x~
+@eng These dark stairs are made out of the bones of the damned. They rattle
+softly as you tread apon them as if to cry out in protest. The air is filled
+with the wailing of lost souls and the blood curdling screams of the
+punished.
+@rus Эта {Dтемная лестница{z сделана из костей {rпроклятых{z.  Они тихо потрескивают
+когда ты наступаешь на них, как будто они кричат в протесте.  Воздух наполен
+причитаниями {Dпотерянных душ{z и леденящими {rкровь{z криками {Dнаказуемых{z.
+~
+0 AD inside
+D5 0
+You see the eternal darkness of the Abyss.
+~
+~
+Z -1 10518
+S
+#10510
+@eng Maintenance Walkway@rus {RТехническая Дорожка{x~
+@eng This is a maintence accessway. You walk on a metal catwalk hundreds of 
+feet above the floor. The catwalk sways unsteadily as you walk on it.
+The catwalk continues to the south.
+To the north is a steel door.
+@rus Это технический вход.  Ты идешь по металлическим рабочим мосткам висящим
+на высоте сотен футов над полом.  Мостки опасно покачиваются, когда ты идешь
+по ним.  
+Мостки продолжаются на юг (south).
+На севере (north) ты видишь стальную дверь.
+~
+0 AD inside
+D0 0
+You see a steel door.
+~
+door steel~
+ABZ -1 10500
+D2 0
+You see a maintenance walkway.
+~
+~
+Z -1 10520
+S
+#10511
+@eng Court Room@rus {RКомната Суда{x~
+@eng This is the Courts of Hell. Here you are convicted, sentenced and punished.
+And no...you don't get a trial. You don't deserve one. The courtroom is
+filled with spectators and jury members. They seem to have no real reason
+to be here since there isn't going to be a trial. They jeer and boo you as you
+stand in the middle of the courtroom.
+To the north is the Halls of Judgement.
+Behind the judges bench is a wooden door.
+@rus Это Судилище {rАда{z.  Здесь ты осужденный, приговоренный и наказуемый.  И
+не...  С тобой не будет разбираться суд.  Ты не достоин этого.  Комната
+заполнена надзирателями и судьями.  Похоже у них нет достойных причин быть
+здесь, поскольку здесь не бывает судебных заседаний.  Они насмехаются и
+шикают на тебя, когда ты стоишь в центре комнаты суда.  
+На севере (north) Залы Наказания.
+За скамейками судей деревянная дверь.
+~
+0 AD inside
+D0 0
+You see the Halls of Judgement.
+~
+~
+Z -1 10501
+D2 0
+You see a large wooden door.
+~
+~
+Z -1 10521
+S
+#10512
+@eng Lawyers Office@rus {RКабинет Юристов{x~
+@eng As you look around you, you realize you've entered a lawyers office. Now
+you know you are in Hell....Everything in this office seems to be made of
+snakeskin. This is the only lawyers office in Hell, so if you don't  like them
+you're out of luck. But then again...if you are in Hell...you must've run
+out of luck a while ago.
+To the east is the Office of Complaints.
+To the south you see a courtyard.
+@rus Когда ты смотришь вокруг, то понимаешь, ты вошел в кабинет юристов.
+теперь ты знаешь ты в Аду....  Похоже все в этом кабинете сделано из змеиной
+кожи.  Здесь только кабинет юристов в Аду, и если они тебе не нравятся, у
+тебя не будет удачи.  Но опять же...  Если ты в Аду...  Ты должен бежать без
+оглядки, пока можешь.
+На востоке (east) Кабинет Жалоб.
+На юге (south) ты видишь здание суда.
+~
+0 AD inside
+D1 0
+You see the Office of Complaints.
+~
+~
+Z -1 10513
+D2 0
+You see a courtyard.
+~
+~
+Z -1 10522
+S
+#10513
+@eng Office of Complaints@rus {RКабинет Жалоб{x~
+@eng This is a relatively small office. There is a large hole in the wall where a 
+clerk usually sits and takes complaints about Hell. As you peek behind
+the counter you see a large paper shredder and alot of shredded complaints.
+a sign over the clerks desk reads, 'Hours: 12:00am - 12:01am'
+To the west is a lawyers office.
+To the north you see the Halls of Judgement.
+@rus Это сравнительно небольшой кабинет.  Здесь большое отверстие в стене, где
+обычно сидят клерки и берут жалобы об {rАде{z.  Когда ты присматриваешься, за
+стойкой ты видишь большой уничтожитель бумаг и множество уничтоженных жалоб.
+Вывеска на столом клерков гласит, '{gЧасы работы{z: {c24:00-24:01{z'
+На западе (west) кабинет юристов.
+На севере (north) ты видишь Залы Наказания.
+~
+0 AD inside
+D0 0
+You see the Halls of Judgement.
+~
+~
+Z -1 10503
+D3 0
+You see a lawyers office
+~
+~
+Z -1 10512
+S
+#10514
+@eng Pawn Shop@rus {RЛомбард{x~
+@eng You are standing in Hiramoto's Buy & Sell. This poor bastard has
+been damned to Hell to serve the public for eternity. He will buy most
+anything you have, since business is slow. Not many people visit
+Hell. The store is filled with worthless junk. Piles of aluminum balls,
+and bottle cap collections fill the corners of the room. Junk of
+all kinds is scattered about the store.
+To the east you see the Mall from Hell.
+@rus Ты стоишь в Хирамото Куплю & Продам.  Этот жалкий ублюдок был проклят в
+{rАд{z для вечного обслуживания народа.  Он купит практически все, что ты
+имеешь, так как дела идут плохо.  Не часто люди посещают {rАд{z.  Лавка
+заполнена бесполезным хламом.  Кучи алюминиевых шаров и коллекции бутылочных
+пробок заполняют углы комнаты.  Хлам всех сортов разбросан по всей лавке.
+На востоке (east) ты видишь Пассаж из Ада.
+~
+0 AD inside
+D1 0
+You see the Mall from Hell.
+~
+~
+Z -1 10515
+S
+#10515
+@eng Hallway of The Mall from Hell@rus {RКоридор Адского Пассажа{x~
+@eng This is definitely the Mall from Hell...there are no stores!
+Only in Hell would they have a mall with no stores.
+To the east you see the Mall from Hell.
+To the west you see Hiramoto's Buy & Sell.
+The hall continues to the east and south.
+@rus Это несомненно Пассаж из {rАда{z...здесь нет магазинов!
+Только в {rАду{z может быть пассаж без магазинов.
+На востоке (east) ты видишь Пассаж из Ада.
+На западе (west) ты видишь Хирамото Куплю & Продам.
+Холл продолжается на восток (east) и юг (south).
+~
+0 AD inside
+D1 0
+You see the Mall from Hell.
+~
+~
+Z -1 10516
+D2 0
+You see the Mall from Hell.
+~
+~
+Z -1 10525
+D3 0
+You see Hiramoto's Buy & Sell.
+~
+~
+Z -1 10514
+S
+#10516
+@eng Hallway of The Mall from Hell@rus {RКоридор Адского Пассажа{x~
+@eng This is definitely the Mall from Hell...there are no stores!
+Only in Hell would they have a mall with no stores.
+To the north you see a blackened hallway.
+To the east you see the office of Big Mouth.
+The hallway continues to the west.
+@rus Это несомненно Пассаж из {rАда{z...здесь нет магазинов!
+Только в {rАду{z может быть пассаж без магазинов.
+На севере (north) ты видишь сгоревший коридор.
+На востоке (east) ты видишь кабинет Большого Рта.
+Коридор продолжается на запад (west).
+~
+0 AD inside
+D0 0
+You see a blackened hall.
+~
+~
+Z -1 10506
+D1 0
+You see the office of Big Mouth.
+~
+~
+Z -1 10517
+D3 0
+You see the hallways of the Mall from Hell.
+~
+~
+Z -1 10515
+S
+#10517
+@eng The Office of Big Mouth@rus {RКабинет Большого Рта{x~
+@eng This is the office of Big Mouth, head demon of Hell's Administration.
+The room is decorated posters of naked women and autographed pictures
+of famous tortured souls. Behind a large oaken desk sleeps Big Mouth.
+This mouth looks large enough to step into if it were open. You wonder
+what this guy eats...
+@rus Это кабинет Большого Рта, главного демона Адской Администрации.  Комната
+украшена плакатами обнаженных женщин и картинами с афтографами знаменитых
+пытуемых душ.  За большим дубовым столом спит Большой Рот.  Этот рот
+выглядит настолько большим, что можно в него войти, если он будет открыт. 
+Интересно, что же этот парень ест...
+~
+0 AD inside
+D3 0
+You see the hallways of the Mall from Hell.
+~
+~
+Z -1 10516
+D5 0
+You see Big Mouth's mouth.
+~
+mouth big mouth's~
+Z -1 10526
+S
+#10518
+@eng Stairs to the Abyss@rus {RЛестница в Бездну{x~
+@eng These dark stairs are made out of the bones of the damned. They rattle
+softly as you tread apon them as if to cry out in protest. The air is filled
+with the wailing of lost souls and the blood curdling screams of the
+punished.
+@rus Эта {Dтемная лестница{z сделана из костей {rпроклятых{z.  Они тихо потрескивают
+когда ты наступаешь на них, как будто они кричат в протесте.  Воздух наполен
+причитаниями {Dпотерянных душ{z и леденящими {rкровь{z криками {Dнаказуемых{z.
+~
+0 AD inside
+D5 0
+You see the eternal darkness of the Abyss.
+~
+~
+Z -1 10527
+S
+#10519
+@eng Maintenance Walkway@rus {RТехническая Дорожка{x~
+@eng This is a maintence accessway. You walk on a metal catwalk hundreds of 
+feet above the floor. The catwalk sways unsteadily as you walk on it.
+The catwalk continues to the east and south.
+@rus Это технический вход.  Ты идешь по металлическим рабочим мосткам висящим
+на высоте сотен футов над полом.  Мостки опасно покачиваются, когда ты идешь
+по ним.
+Мостки продолжаются на восток (east) и юг (south).
+~
+0 AD inside
+D1 0
+You see a maintenance walkway.
+~
+~
+Z -1 10520
+D2 0
+You see a maintenance walkway.
+~
+~
+Z -1 10529
+S
+#10520
+@eng Maintenance Walkway@rus {RТехническая Дорожка{x~
+@eng This is a maintence accessway. You walk on a metal catwalk hundreds of 
+feet above the floor. The catwalk sways unsteadily as you walk on it.
+The catwalk continues to the north and west.
+@rus Это технический вход.  Ты идешь по металлическим рабочим мосткам висящим
+на высоте сотен футов над полом.  Мостки опасно покачиваются, когда ты идешь
+по ним.
+Мостки продолжаются на север (north) и запад (west).
+~
+0 AD inside
+D0 0
+You see a maintenance walkway.
+~
+~
+Z -1 10510
+D3 0
+You see a maintenance walkway.
+~
+~
+Z -1 10519
+S
+#10521
+@eng Judge's Chambers@rus {RКабинет Судьи{x~
+@eng This is the private chambers of the High Judge of Hell. He has a cushy job
+and his office reflects that. Golden torches light the walls with dancing
+blue and yellow flames. The judge's black crystal desk sparkles in the 
+torchlight.
+@rus Это личный кабинет Вышего Судьи {rАда{z.  У него тепленькое местечко и его
+кабинет отражает это.  {YЗолотые{z светильники освещают стены плящущим {Bголубым{z
+и {Yжелтым{z огнем.  Судейский стол из {Dчерного{z хрусталя искрится в свете
+светильников.  
+~
+0 D inside
+D0 0
+You see the Courtroom of Hell.
+~
+~
+Z -1 10511
+S
+#10522
+@eng Courtyard@rus {RВнутренний Двор{x~
+@eng This courtyard is barren and neglected. Small weeds grow up in between
+the concrete slabs. An old defunct fountain sputters with a grey-brown
+ooze.
+A lawyers office is to the north.
+The courtyard continues to the east and south.
+@rus Этот двор заброшен и пуст.  Маленькие сорняки пробиваются между бетонными
+плитами.  Старый неработающий фонтан брызгает серо-коричневой грязью.
+Кабинет юристов на севере (north).
+Двор продолжается на восток (east) и юг (south).
+~
+0 AD inside
+D0 0
+You see a lawyers office.
+~
+~
+Z -1 10512
+D1 0
+You see a more of the courtyard.
+~
+~
+Z -1 10523
+D2 0
+You see a more of the courtyard.
+~
+~
+Z -1 10532
+S
+#10523
+@eng Courtyard@rus {RВнутренний Двор{x~
+@eng This courtyard is barren and neglected. Small weeds grow up in between
+the concrete slabs. An old defunct fountain sputters with a grey-brown
+ooze.
+The courtyard continues to the west and south.
+Stanley's Magical Steeds is to the east.
+@rus Этот двор заброшен и пуст.  Маленькие сорняки пробиваются между бетонными
+плитами. Старый неработающий фонтан брызгает серо-коричневой грязью.
+Двор продолжается на запад (west) и юг (south).
+Магические Кони Стенли на востоке (east).
+~
+0 AD inside
+D1 0
+You see Stanley's Magical Steeds store.
+~
+~
+Z -1 10524
+D2 0
+You see a more of the courtyard.
+~
+~
+Z -1 10533
+D3 0
+You see a more of the courtyard.
+~
+~
+Z -1 10522
+S
+#10524
+@eng Stanley's Magical Steeds@rus {RМагические Кони Стенли{x~
+@eng This is the shop of Stanly. He used to be an old mage selling cursed
+trinkets at the town of Solace. He has recently set up shop in Hell selling
+magical figurines. Each figurine is in the shape of some sort of steed.
+Some are recognizable and some are not. Rumor has it that Stanley made
+a deal with a devil....so I guess his lease is up in seven years.....
+A courtyard is to the west.
+To the south you see the Mall from Hell.
+@rus Это магазин Стенли.  Он раньше был старым магом, продающим проклятые
+безделушки в городе Солейс.  Он недавно открыл магазин, продающий магические
+статуэтки, в {rАду{z.  Каждая статуэтка по форме похожа на коня.  Некоторые
+узнаваемы, некоторые нет.  Ходят слухи, что Стенли заключил договор с
+{rдьяволом{z...  Так Я предполагаю он получил аренду на семь лет.....
+Внутренний двор на западе (west).
+На юге (south) ты видишь Пассаж из Ада.
+~
+0 AD inside
+D2 0
+You see a hallway of the Mall from Hell.
+~
+~
+Z -1 10534
+D3 0
+You see an abandon courtyard.
+~
+~
+Z -1 10523
+S
+#10525
+@eng Hallway of The Mall from Hell@rus {RКоридор Адского Пассажа{x~
+@eng This is definitely the Mall from Hell...there are no stores!
+Only in Hell would they have a mall with no stores.
+The hallway continues to the north and south.
+@rus Это несомненно Пассаж из {rАда{z...здесь нет магазинов!
+Только в {rАду{z может быть пассаж без магазинов.
+Холл продолжается на север (north) и юг (south).
+~
+0 AD inside
+D0 0
+You see a hall of the Mall from Hell.
+~
+~
+Z -1 10515
+D2 0
+You see a hall of the Mall from Hell.
+~
+~
+Z -1 10535
+S
+#10526
+@eng Inside Big Mouth's Stomach@rus {RВнутри Живота Большого Рта{x~
+@eng You are standing inside Big Mouth's stomach. It is roomy in here. Small
+animals and other odds and ends lie about the stomach. Is that a dragon  
+you see? Nah...couldn't be...
+@rus Ты стоишь внутри живота Большого Рта.  Здесь довольно просторно.
+небольшие зверушки и другие остатки лежат в животе.  Ты видишь дракона?
+Ха...не может быть...
+~
+0 AD inside
+D4 0
+You see Big Mouth's throat.
+~
+mouth big mouth's throat~
+Z -1 10517
+S
+#10527
+@eng Stairs to the Abyss@rus {RЛестница в Бездну{x~
+@eng These dark stairs are made out of the bones of the damned. They rattle
+softly as you tread apon them as if to cry out in protest. The air is filled
+with the wailing of lost souls and the blood curdling screams of the
+punished.
+@rus Эта {Dтемная лестница{z сделана из костей {rпроклятых{z.  Они тихо потрескивают
+когда ты наступаешь на них, как будто они кричат в протесте.  Воздух наполен
+причитаниями {Dпотерянных душ{z и леденящими {rкровь{z криками {Dнаказуемых{z.
+~
+0 AD inside
+D5 0
+You see the eternal darkness of the Abyss.
+~
+~
+Z -1 10536
+S
+#10528
+@eng Reactor Control Room@rus {RКомната Управления Реактором{x~
+@eng This is the reactor control room of Hell. From here the workers control
+the main reactor and power supply for all of Hell and the abyss. Workers
+stroll back and forth, from station to station monitoring the reactor core.
+A large glass window looks out onto the reactor floor below.
+There are some stairs down to the reactor floor to the south.
+There is a maintenance room to the east.
+@rus Это комната управления реактором Ада.  Отсюда рабочие контролируют
+главный реактор и подачу энергии для всего ада и пропасти.  Рабочие
+двигаются взад и вперед, от поста к посту контролирующему ядро реактора. 
+Большое стеклянное окно выходит ниже, на уровень реактора.
+Здесь несколько лестниц вниз на уровень реактора на юге (south) .
+Техническая комната на востоке (east).
+~
+0 AD inside
+D1 0
+You see a maintenance room.
+~
+~
+Z -1 10529
+D2 0
+You see stairs down to the reactor floor.
+~
+~
+Z -1 10538
+S
+#10529
+@eng Maintenance Room@rus {RТехническая Комната{x~
+@eng You are standing in the primary maintenance room of Hell. Tools of all
+shapes and sizes are neatly hung on the walls, each with its own painted-on
+silhouette behind it.
+To the west is the reactor control room.
+To the east is the break room.
+To the north is a maintenance walkway.
+To the south is the secondary control room.
+@rus Ты стоишь в главной технической комнате Ада.  Приспособления разных форм
+и размеров аккуратно развешаны на стенах, каждое со своим собственным
+изображением, нарисованным позади него.
+На западе (west) комната управления реактором.
+На востоке (east) комната отдыха.
+На севере (north) техническая дорожка.
+На юге (south) вспомогательная контрольная комната.
+~
+0 AD inside
+D0 0
+You see a maintenance walkway.
+~
+~
+Z -1 10519
+D1 0
+You see a break room.
+~
+~
+Z -1 10530
+D2 0
+You see the secondary control room.
+~
+~
+Z -1 10539
+D3 0
+You see the reactor control room.
+~
+~
+Z -1 10528
+S
+#10530
+@eng Break Room@rus {RКомната Отдыха{x~
+@eng This is the break room for the maintenance workers. tables are filled with
+donuts and coffee. As a cruel joke, the cheif engineer has posted his guard
+dogs to guard the room so that no one can take a break.
+To the west is the primary maintenance room.
+To the south is the chief engineers office.
+@rus Это комната отдыха обслуживающего персонала.  Столы заполнены едой и
+кофе.  Наверное главный инженер пошутил, оставив своих сторожевых собак
+охранять комнату, чтоб никто не смог отдохнуть.
+На западе (west) главная техническая комната.
+На юге (south) кабинет главного инженера.
+~
+0 AD inside
+D2 0
+You see the chief engineers office.
+~
+~
+Z -1 10540
+D3 0
+You see the primary maintenance room.
+~
+~
+Z -1 10529
+S
+#10531
+@eng Hell's Kitchen@rus {RАдская Кухня{x~
+@eng Welcome to Hell's kitchen, where everything is delicious....you just can't
+have any....This is where the many foods of the world of Farside are made.
+The chefs are usually very busy, but they always have extra time to torture
+a guest....
+To the east is a courtyard.
+@rus Добро пожаловать в Адскую кухню, где все очень вкусно...  Только ты
+ничего не можешь съесть.....Тут произовдится множество еды Темного мира.
+Шеф-повара обычно заняты, но они всегда имеют свободное время, чтоб помучать
+гостя...  
+На востоке (east) ты видишь внутренний двор.
+~
+0 AD inside
+D1 0
+You see an abandon courtyard.
+~
+~
+Z -1 10532
+S
+#10532
+@eng Courtyard@rus {RВнутренний Двор{x~
+@eng This courtyard is barren and neglected. Small weeds grow up in between
+the concrete slabs. An old defunct fountain sputters with a grey-brown
+ooze.
+The courtyard continues to the north and east.
+You see a kitchen to the west.
+@rus Этот двор заброшен и пуст.  Маленькие сорняки пробиваются между бетонными
+плитами. Старый неработающий фонтан брызгает серо-коричневой грязью.
+Двор продолжается на север (north) и восток (east).
+На западе (west) ты видишь кухню.
+~
+0 AD inside
+D0 0
+You see more of the courtyard.
+~
+~
+Z -1 10522
+D1 0
+You see a more of the courtyard.
+~
+~
+Z -1 10533
+D3 0
+You see a kitchen.
+~
+~
+Z -1 10531
+S
+#10533
+@eng Courtyard@rus {RВнутренний Двор{x~
+@eng This courtyard is barren and neglected. Small weeds grow up in between
+the concrete slabs. An old defunct fountain sputters with a grey-brown
+ooze.
+The courtyard continues to the north and west.
+@rus Этот двор заброшен и пуст.  Маленькие сорняки пробиваются между бетонными
+плитами. Старый неработающий фонтан брызгает серо-коричневой грязью.
+Двор продолжается на север (north) и запад (west).
+~
+0 AD inside
+D0 0
+You see more of the courtyard.
+~
+~
+Z -1 10523
+D3 0
+You see a more of the courtyard.
+~
+~
+Z -1 10532
+S
+#10534
+@eng Hallway of The Mall from Hell@rus {RКоридор Адского Пассажа{x~
+@eng This is definitely the Mall from Hell...there are no stores!
+Only in Hell would they have a mall with no stores.
+The hallway continues to the east.
+Stanley's magic steeds are to the north.
+@rus Это несомненно Пассаж из {rАда{z...здесь нет магазинов!
+Только в {rАду{z может быть пассаж без магазинов.
+Коридор продолжается на восток (east).
+Магические кони Стенли на севере (north).
+~
+0 AD inside
+D0 0
+You see Stanley's Magic Steeds.
+~
+~
+Z -1 10524
+D1 0
+You see a hall of the Mall from Hell.
+~
+~
+Z -1 10535
+S
+#10535
+@eng Hallway of The Mall from Hell@rus {RКоридор Адского Пассажа{x~
+@eng This is definitely the Mall from Hell...there are no stores!
+Only in Hell would they have a mall with no stores.
+The hallway continues to the north and west.
+@rus Это несомненно Пассаж из {rАда{z...здесь нет магазинов!
+Только в {rАду{z может быть пассаж без магазинов.
+Коридор продолжается на север (north) и запад (west).
+~
+0 AD inside
+D0 0
+You see a hall of the Mall from Hell.
+~
+~
+Z -1 10525
+D3 0
+You see a hall of the Mall from Hell.
+~
+~
+Z -1 10534
+S
+#10536
+@eng Stairs to the Abyss@rus {RЛестница в Бездну{x~
+@eng These dark stairs are made out of the bones of the damned. They rattle
+softly as you tread apon them as if to cry out in protest. The air is filled
+with the wailing of lost souls and the blood curdling screams of the
+punished. You can't seem to find the Abyss...you seem to recall a seeing a
+sign....now what did it say again?......
+@rus Эта {Dтемная лестница{z сделана из костей {rпроклятых{z.  Они тихо потрескивают
+когда ты наступаешь на них, как будто они кричат в протесте.  Воздух наполен
+причитаниями {Dпотерянных душ{z и леденящими {rкровь{z криками {Dнаказуемых{z.
+По-видимому ты не попадешь в Бездну...по-видимому ты вспомнил увиденный
+знак...что он сказал теперь?......
+~
+0 D inside
+D5 0
+~
+~
+Z -1 5250
+S
+#10537
+@eng Inside the Reactor Core@rus {RВнутри Ядра Реактора{x~
+@eng You are standing on the inside of the reactor core. Actually you seem to
+be floating in the plasma energy of the reactor. You can see the core
+chamber fall off into the distance as it seems to be bottomless. Nuclear
+particles and other strange things whiz by you at blinding speeds.
+You see a maintenance hatch to the east.
+@rus Ты стоишь внутри ядра реактора.  Фактически ты плаваешь в плазменной
+энергии реактора.  Ты видишь ядро опускающееся вниз камеры, которая выглядит
+бездонной.  Ядерные частицы и другие странные вещи проносятся мимо тебя с
+безумной скоростью.  
+На востоке (east) ты видишь технический люк.
+~
+0 AD inside
+D1 0
+You see a maintenance hatch.
+~
+hatch maintenance reactor core~
+ABZ -1 10538
+S
+#10538
+@eng Reactor Room Floor@rus {RНа Уровне Реактора{x~
+@eng The room is taken up almost entirely by the enormous reactor core. The
+core pulses rhythmically as it generates the heat and power for the entire
+region of Hell. Many workers in orange jumpsuits run frantically around
+with geiger counters and plasma torches fixing breaches in the core.
+You see a reactor core maintenance hatch to the west.
+A stairway to the control room is to the north.
+@rus Эта комната практически полностью занята громадным ядром реактора.  Ядро
+ритмично пульсирует, когда вырабатывает тепло и энергию для всего Ада. 
+Множество рабочих в оранжевых костюмах бешено бегают вокруг со счетчиками
+Гейгера и плазменными горелками, заделывая бреши в ядре.
+Лестница в комнату управления на севере (north).
+~
+0 AD inside
+D0 0
+You see the stairs to the control room.
+~
+~
+Z -1 10528
+D3 0
+You see a reactor core maintence hatch.
+~
+hatch maintenance reactor core~
+ABZ -1 10537
+S
+#10539
+@eng Secondary Control Room@rus {RЗапасная Комната Управления{x~
+@eng This is the secondary control room for the reactor core. It is usually used in
+emergencies when the primary control room is contaminated or damaged.
+It isn't used very often since the primary control room is in perfect 
+working order.
+@rus Это запасная комната управления ядром реактора.  Она обычно используется
+в аварийных ситуациях, когда основная контрольная комната заражена или не
+работает.  Она используется не очень часто, так как основная контрольная
+комната работает отменно.  
+~
+0 AD inside
+D0 0
+You see the primary maintenance room.
+~
+~
+Z -1 10529
+S
+#10540
+@eng Office of the Chief Engineer@rus {RКабинет Главного Инжинера{x~
+@eng This office belongs to the chief engineer of Hell. Blueprints and pencils 
+are scattered about the room. The air is heavy with the smell of ammonia
+and sweat. A display of the reactor core is mounted into the wall.
+One wall is completely filled with monitors, each showing various
+status reports for the reactor core.
+@rus Этот кабинет принадлежит галвному инженеру {rАда{z.  Планы и ручки разбросаны
+по комнате.  Воздух заполнен запахом аммиака и пота.  Дисплеи ядра реактора
+вмонтированы в стену.  Одна стена полностью заполнена мониторами, каждый из
+которых показывает данные о реакторе.
+~
+0 AD inside
+D0 0
+You see the break room.
+~
+~
+Z -1 10530
+S
+#10541
+@eng Ice Room@rus {bЛедяная {RКомната{x~
+@eng You are standing in a room of ice. Icicles of every size hang from the
+ceiling. Some shake with every sound. Your reflection off the ice walls
+seems to dance and wiggle as you move about.
+@rus Ты стоишь в {bледяной{z комнате.  {bСосульки{z разных размеров свисают с потолка.
+Некоторые трясутся с каждым звуком.  Твое отражение от {bледяных{z стен кажется
+танцует и шевелится, когда ты двигаешься.
+~
+0 AD inside
+D1 0
+You see a room of ice.
+~
+~
+Z -1 10473
+D2 0
+You see a room of ice.
+~
+~
+Z -1 10482
+D3 0
+You see a room of ice.
+~
+~
+Z -1 10472
+S
+#0
+
+#SPECIALS
+M 10401 spec_cast_judge	* the Guardian of Hell
+M 10402 spec_thief	* the pile of gold coins
+M 10403 spec_breath_fire	* the male Dee
+M 10405 spec_thief	* the gold bar
+M 10406 spec_poison	* a scrumptious chicken pot pie
+M 10407 spec_cast_judge	* a yummy beef pot pie
+M 10408 spec_cast_cleric	* a yummy vegetable pot pie
+M 10409 spec_cast_cleric	* a damned soul
+M 10410 spec_cast_mage	* a tortured soul
+M 10411 spec_cast_undead	* the half-eaten person
+M 10412 spec_breath_acid	* the living wall
+M 10417 spec_breath_gas	* the blood from the fountain
+M 10418 spec_cast_mage	* the lost soul
+M 10419 spec_breath_fire	* the crispy critter
+M 10421 spec_fido	* the manes
+M 10422 spec_breath_lightning	* the prisoner Raiden
+M 10425 spec_poison	* demonguard
+M 10426 spec_breath_fire	* the burning fool
+M 10430 spec_breath_fire	* the fire devil
+M 10432 spec_breath_fire	* the hell hound
+M 10433 spec_breath_frost	* the frozen body
+M 10434 spec_breath_frost	* the ice devil
+M 10437 spec_cast_mage	* the killer penguin
+M 10438 spec_breath_frost	* the I-scream worker
+M 10439 spec_breath_frost	* the Ice Screamer
+M 10442 spec_thief	* office worker from Hell
+M 10445 spec_cast_cleric	* High Priest of Hell
+M 10448 spec_cast_judge	* Judge Whopper
+M 10456 spec_breath_acid	* stomach dragon
+M 10468 spec_breath_fire	* the Greater Fire Demon
+M 10469 spec_breath_frost	* side of frozen beef
+M 10470 spec_fido	* guard dog
+S
+
+#RESETS
+D 0 10404 3 1	* Landing: door to the west: closed
+D 0 10405 1 1	* Gateway to Hell: door to the east: closed
+D 0 10416 1 1	* Greed: door to the east: closed
+D 0 10417 3 1	* Bedroom.: door to the west: closed
+D 0 10433 2 1	* Cell: door to the south: closed
+D 0 10435 2 1	* Stone Hall: door to the south: closed
+D 0 10437 2 1	* Cell: door to the south: closed
+D 0 10439 1 1	* Stone Hall: door to the east: closed
+D 0 10439 2 1	* Stone Hall: door to the south: closed
+D 0 10440 3 1	* Cell: door to the west: closed
+D 0 10443 0 1	* Stone Hall: door to the north: closed
+D 0 10445 0 1	* Cell: door to the north: closed
+D 0 10447 0 1	* Stone Hall: door to the north: closed
+D 0 10449 0 1	* Cell: door to the north: closed
+D 0 10452 2 1	* Stone Arch: door to the south: closed
+D 0 10462 0 1	* Foreman's Office: door to the north: closed
+D 0 10475 1 1	* Meat Locker: door to the east: closed
+D 0 10476 3 1	* Penguin Room: door to the west: closed
+D 0 10479 1 1	* Ice Creamery: door to the east: closed
+D 0 10480 3 1	* White Marble Hall: door to the west: closed
+D 0 10483 1 1	* Ice Room: door to the east: closed
+D 0 10484 3 1	* Meat Locker: door to the west: closed
+D 0 10496 1 1	* Blackened Hall: door to the east: closed
+D 0 10497 3 1	* Office of the High Priest: door to the west: closed
+D 0 10499 1 1	* Blackened Hall: door to the east: closed
+D 0 10500 2 1	* Administration of Hell: door to the south: closed
+D 0 10500 3 1	* Administration of Hell: door to the west: closed
+D 0 10510 0 1	* Maintenance Walkway: door to the north: closed
+D 0 10537 1 1	* Inside the Reactor Core: door to the east: closed
+D 0 10538 3 1	* Reactor Room Floor: door to the west: closed
+M 0 10401 2 10405 2	* the Guardian of Hell (Gateway to Hell)
+E 0 10401 0 16		*	a wicked-looking trident: wielded
+M 0 10401 2 10405 2	* the Guardian of Hell (Gateway to Hell)
+E 0 10401 0 16		*	a wicked-looking trident: wielded
+M 0 10409 6 10406 2	* a damned soul (Hall of the Damned)
+M 0 10409 6 10408 2	* a damned soul (Hall of the Damned)
+M 0 10409 6 10410 2	* a damned soul (Hall of the Damned)
+M 0 10412 2 10412 1	* the living wall (Living Walls)
+G 0 10405 0		*	the angel's skull
+M 0 10410 2 10413 2	* a tortured soul (Trapped souls)
+M 0 10411 1 10414 1	* the half-eaten person (Tortured Beings)
+M 0 10406 1 10415 1	* a scrumptious chicken pot pie (Gluttony)
+M 0 10407 1 10415 1	* a yummy beef pot pie (Gluttony)
+M 0 10408 1 10415 1	* a yummy vegetable pot pie (Gluttony)
+M 0 10402 1 10416 1	* the pile of gold coins (Greed)
+M 0 10405 1 10416 1	* the gold bar (Greed)
+M 0 10403 1 10417 1	* the male Dee (Bedroom.)
+E 0 10402 0 16		*	a black leather whip: wielded
+M 0 10404 1 10417 1	* the female Dee (Bedroom.)
+E 0 10403 0 16		*	a hickey maker: wielded
+M 0 10414 1 10419 1	* bloody severed arm (Room full of Body Parts.)
+M 0 10415 1 10419 1	* bloody severed foot (Room full of Body Parts.)
+M 0 10416 1 10419 1	* bloody severed nose (Room full of Body Parts.)
+M 0 10417 1 10420 1	* the blood from the fountain (Fountain of Blood.)
+M 0 10418 4 10423 2	* the lost soul (Room of Lost Souls)
+M 0 10418 4 10424 2	* the lost soul (Room of Lost Souls)
+M 0 10419 1 10425 1	* the crispy critter (Pit of Fire)
+E 0 10408 0 16		*	a flaming claw: wielded
+M 0 10413 2 10426 1	* skeletal warrior (Blackened Hallway)
+E 0 10406 0 5		*	some rotting flesh: on the body
+E 0 10407 0 16		*	the Vorpal Blade: wielded
+M 0 10413 2 10428 1	* skeletal warrior (Blood Room)
+E 0 10406 0 5		*	some rotting flesh: on the body
+E 0 10407 0 16		*	the Vorpal Blade: wielded
+M 0 10412 2 10429 1	* the living wall (Living Walls)
+E 0 10404 0 16		*	a black-hilted sword called "Farslayer": wielded
+M 0 10420 2 10430 2	* pile of bones (Skeleton Factory)
+M 0 10422 1 10433 1	* the prisoner Raiden (Cell)
+M 0 10425 3 10436 1	* demonguard (Stone Hall)
+E 0 10409 0 5		*	a demonskin: on the body
+E 0 10410 0 16		*	demon teeth: wielded
+M 0 10423 1 10437 1	* a prisoner in Hell (Cell)
+M 0 10425 3 10438 1	* demonguard (Stone Hall)
+E 0 10409 0 5		*	a demonskin: on the body
+E 0 10410 0 16		*	demon teeth: wielded
+M 0 10421 2 10440 1	* the manes (Cell)
+E 0 10444 0 16		*	a manes' claws: wielded
+M 0 10425 3 10442 1	* demonguard (Stone Hall)
+E 0 10409 0 5		*	a demonskin: on the body
+E 0 10410 0 16		*	demon teeth: wielded
+M 0 10421 2 10445 1	* the manes (Cell)
+E 0 10444 0 16		*	a manes' claws: wielded
+M 0 10424 1 10449 1	* a prisoner in Hell (Cell)
+M 0 10432 1 10454 1	* the hell hound (Hall of Fire)
+E 0 10417 0 16		*	hell hound teeth: wielded
+M 0 10427 3 10456 1	* male construction worker (Construction Area)
+E 0 10445 0 16		*	a welding torch: wielded
+M 0 10428 3 10456 1	* the female construction worker (Construction Area)
+E 0 10412 0 16		*	a rivet gun: wielded
+M 0 10426 2 10460 1	* the burning fool (Fire Pits of Hades)
+E 0 10411 0 10		*	some burning flesh: on the arms
+M 0 10468 1 10460 1	* the Greater Fire Demon (Fire Pits of Hades)
+E 0 10415 0 16		*	a bloody black talon: wielded
+G 0 10416 0		*	jar of blood
+M 0 10440 1 10462 1	* the Demonic Foreman (Foreman's Office)
+G 0 10422 0		*	the blueprint
+M 0 10428 3 10465 1	* the female construction worker (Construction Area)
+E 0 10413 0 16		*	a circular saw: wielded
+M 0 10427 3 10465 1	* male construction worker (Construction Area)
+E 0 10412 0 16		*	a rivet gun: wielded
+M 0 10427 3 10467 1	* male construction worker (Construction Area)
+E 0 10445 0 16		*	a welding torch: wielded
+M 0 10428 3 10467 1	* the female construction worker (Construction Area)
+E 0 10412 0 16		*	a rivet gun: wielded
+M 0 10431 1 10469 1	* the wall of fire (Wall of Fire)
+M 0 10426 2 10470 1	* the burning fool (Lake of Fire)
+E 0 10411 0 10		*	some burning flesh: on the arms
+M 0 10430 1 10470 1	* the fire devil (Lake of Fire)
+E 0 10414 0 16		*	a box of matches: wielded
+G 0 10449 0		*	a precious fire opal
+M 0 10435 1 10473 1	* the trapped soul (Ice Room)
+M 0 10469 2 10474 1	* side of frozen beef (Meat Locker)
+G 0 10421 0		*	some meat
+M 0 10436 2 10475 1	* the half frozen body (Meat Locker)
+E 0 10420 0 16		*	a large meat hook: wielded
+M 0 10437 4 10476 1	* the killer penguin (Penguin Room)
+M 0 10437 4 10477 1	* the killer penguin (Penguin Room)
+M 0 10438 2 10478 1	* the I-scream worker (Ice Creamery)
+M 0 10439 1 10479 1	* the Ice Screamer (Ice Creamery)
+M 0 10434 1 10483 1	* the ice devil (Ice Room)
+E 0 10419 0 16		*	an ice spear: wielded
+M 0 10436 2 10484 1	* the half frozen body (Meat Locker)
+E 0 10420 0 16		*	a large meat hook: wielded
+M 0 10469 2 10485 1	* side of frozen beef (Meat Locker)
+G 0 10421 0		*	some meat
+M 0 10437 4 10486 1	* the killer penguin (Penguin Room)
+M 0 10437 4 10487 1	* the killer penguin (Penguin Room)
+M 0 10438 2 10488 1	* the I-scream worker (Ice-Creamery)
+M 0 10443 3 10491 1	* records worker (Records Hall)
+M 0 10443 3 10492 1	* records worker (Records Hall)
+M 0 10443 3 10493 1	* records worker (Records Hall)
+M 0 10444 1 10494 1	* Santa Claus (Records Hall)
+E 0 10424 0 6		*	spectacles: over the head
+M 0 10446 1 10495 1	* a bowl of blood (Small Altar)
+M 0 10445 1 10497 1	* High Priest of Hell (Office of the High Priest)
+E 0 10425 0 17		*	an unholy symbol: held in the hands
+E 0 10426 0 12		*	unholy robes: about the shoulders
+G 0 10450 0		*	a hellstone
+M 0 10442 2 10498 1	* office worker from Hell (Blackened Hall)
+E 0 10423 0 16		*	an electric eraser: wielded
+M 0 10441 1 10500 1	* Secretary of Hell (Administration of Hell)
+E 0 10446 0 6		*	a blond wig: over the head
+M 0 10442 2 10506 1	* office worker from Hell (Blackened Hall)
+E 0 10423 0 16		*	an electric eraser: wielded
+M 0 10447 6 10511 6	* jury member (Court Room)
+M 0 10449 1 10512 1	* Lawyer from Hell (Lawyers Office)
+E 0 10427 0 16		*	the sharp teeth of a lawyer: wielded
+M 0 10450 1 10513 1	* Complaints Officer (Office of Complaints)
+M 0 10451 1 10514 1	* bastard hiramoto (Pawn Shop)
+G 0 10428 0		*	a golden ring
+G 0 10429 0		*	an engagement ring
+G 0 10430 0		*	a prenuptual agreement
+M 0 10452 3 10519 1	* maintenance worker (Maintenance Walkway)
+E 0 10431 0 16		*	an ionic torque wrench: wielded
+E 0 10447 0 5		*	a yellow jumpsuit: on the body
+M 0 10452 3 10520 1	* maintenance worker (Maintenance Walkway)
+E 0 10431 0 16		*	an ionic torque wrench: wielded
+E 0 10447 0 5		*	a yellow jumpsuit: on the body
+M 0 10448 1 10521 1	* Judge Whopper (Judge's Chambers)
+M 0 10453 5 10522 1	* weeds (Courtyard)
+M 0 10453 5 10522 1	* weeds (Courtyard)
+M 0 10463 5 10522 1	* frantic lady (Courtyard)
+M 0 10453 5 10523 1	* weeds (Courtyard)
+M 0 10454 1 10524 1	* Stanley (Stanley's Magical Steeds)
+G 0 10432 0		*	a figurine of a horse
+G 0 10433 0		*	a figurine of a winged horse
+G 0 10434 0		*	a figurine of a nightmare
+G 0 10435 0		*	a figurine of a black dragon
+G 0 10436 0		*	a figurine of a red dragon
+G 0 10437 0		*	a figurine of a white dragon
+G 0 10438 0		*	a figurine of a green dragon
+G 0 10439 0		*	a figurine of a blue dragon
+M 0 10463 5 10524 1	* frantic lady (Stanley's Magical Steeds)
+M 0 10463 5 10524 1	* frantic lady (Stanley's Magical Steeds)
+M 0 10455 1 10526 1	* horse carcass (Inside Big Mouth's Stomach)
+M 0 10456 1 10526 1	* stomach dragon (Inside Big Mouth's Stomach)
+M 0 10457 1 10526 1	* rancid turkey leg (Inside Big Mouth's Stomach)
+M 0 10458 1 10528 1	* reactor specialist (Reactor Control Room)
+E 0 10440 0 17		*	a geiger counter: held in the hands
+E 0 10442 0 5		*	a black jumpsuit: on the body
+M 0 10459 1 10528 1	* reactor worker (Reactor Control Room)
+E 0 10441 0 16		*	a photon-displacement matrix: wielded
+E 0 10442 0 5		*	a black jumpsuit: on the body
+M 0 10452 3 10529 1	* maintenance worker (Maintenance Room)
+E 0 10431 0 16		*	an ionic torque wrench: wielded
+E 0 10447 0 5		*	a yellow jumpsuit: on the body
+M 0 10470 2 10530 2	* guard dog (Break Room)
+M 0 10471 1 10531 1	* juicy steak (Hell's Kitchen)
+M 0 10461 1 10531 1	* devil's food cake (Hell's Kitchen)
+M 0 10462 1 10531 1	* mad cook (Hell's Kitchen)
+E 0 10448 0 16		*	a cleaver: wielded
+M 0 10453 5 10533 1	* weeds (Courtyard)
+M 0 10453 5 10535 1	* weeds (Hallway of The Mall from Hell)
+M 0 10463 5 10535 1	* frantic lady (Hallway of The Mall from Hell)
+M 0 10463 5 10535 1	* frantic lady (Hallway of The Mall from Hell)
+M 0 10465 1 10537 1	* stray proton (Inside the Reactor Core)
+M 0 10466 2 10537 1	* radiation (Inside the Reactor Core)
+M 0 10464 1 10538 1	* nuclear technician (Reactor Room Floor)
+E 0 10442 0 5		*	a black jumpsuit: on the body
+M 0 10466 2 10538 1	* radiation (Reactor Room Floor)
+M 0 10460 1 10539 1	* Homer Simpson (Secondary Control Room)
+M 0 10467 1 10540 1	* the Chief Engineer of Hell (Office of the Chief Engineer)
+G 0 10443 0		*	an antacid pill
+M 0 10433 1 10541 1	* the frozen body (Ice Room)
+G 0 10418 0		*	an icy bottle
+S
+
+#SHOPS
+10451 0 0 0 0 0 110 75 0 23 0 ~
+10454 2 3 4 10 0 225 15 0 23 0 ~
+0
+
+#OLIMITS
+O 10424 20	* spectacles
+S
+
+#$

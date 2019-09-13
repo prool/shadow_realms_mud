@@ -1,0 +1,1519 @@
+#AREADATA
+Name In the Air~
+VNUMs 1000 1099
+Credits none~
+Security 5
+LevelRange 5 10
+End
+
+#MOBILES
+#1000
+griffin~
+@eng A fairy dragon@rus Волшебный дракон~
+@eng A fairy dragon is fluttering around here looking for something to do...
+@rus Волшебный дракон летает, ища, чего бы такого сделать...
+~
+@eng It's a cute little multi-colored dragon...about 2 foot long.
+It gracefully dances around your head.
+@rus Это небольшой симпатичный разноцветный дракон... приблизительно двухфутовой 
+длины. Он изящно танцует около вашей головы.
+~
+human~
+AGR DE 425 0
+5 0 2d7+46 5d25+200 1d5+0 none
+-6 -6 -6 -8
+FU 0 0 0
+stand stand none 5
+0 0 medium unknown
+#1001
+griffin~
+@eng A griffin@rus Грифон~
+@eng A large black winged griffin swoops into an attack.
+@rus Большой черный грифон атакует тебя.
+~
+@eng Golden maned and black all over.  It's quite a beautiful creature if not
+for the fact it is hungry and is attacking you!
+@rus {GЗолотая грива{x, а сам {Dчерный{x. Это - красивое творение Бога, если не 
+учитывать тот факт, что это создание голодно и атакует вас!
+~
+human~
+AFG 0 300 0
+8 0 2d7+96 8d25+200 1d7+2 none
+-3 -3 -3 -9
+EFNU 0 0 0
+stand stand male 8
+0 0 medium unknown
+#0
+
+#OBJECTS
+#1001
+rose~
+@eng a %s rose@rus %s роза~
+@eng A %s rose is lying on the ground.
+@rus %s роза лежит на земле.
+~
+flower~
+treasure P AE
+BC 0 0 0 0
+0 80 0 P
+A
+6 1
+E ''
+rose~
+@eng It's a beautiful %s rose, with a soft and romantic fragrance.
+@rus Эта прекрасная %s роза благоухает. 
+~
+G none
+#0
+
+#ROOMS
+#1001
+@eng In the air ...@rus {CВ воздухе...{x~
+@eng You are flying!
+Currently you are about 40 meters above the ground north of the city.
+It seems like you can see forever!
+@rus Ты летишь!!!!!
+Ты паришь на высоте 40 метров над северной частью города. 
+Это зрелище ты не забудешь никогда!!!
+~
+0 0 air
+D1 0
+@eng More of the same.
+@rus Тоже самое.
+~
+~
+Z 0 1006
+D2 0
+@eng More of the same.
+@rus Тоже самое.
+~
+~
+Z 0 1002
+D4 0
+@eng More of the same.
+@rus Тоже самое.
+~
+~
+Z 0 1021
+S
+#1002
+@eng In the air ...@rus {CВ воздухе...{x~
+@eng You are flying!
+Currently you are about 20 meters above the inside wall of West Midgaard.
+It seems like you can see forever!
+@rus  Ты летишь!!!!!
+Ты паришь на высоте 20 метров над Восточной стеной Мидгарда.
+Это зрелище ты не забудешь никогда!!!
+~
+0 0 air
+D0 0
+@eng More of the same.
+@rus Тоже самое.
+~
+~
+Z 0 1001
+D1 0
+@eng More of the same.
+@rus Тоже самое.
+~
+~
+Z 0 1007
+D2 0
+@eng More of the same.
+@rus Тоже самое.
+~
+~
+Z 0 1003
+D4 0
+@eng More of the same.
+@rus Тоже самое.
+~
+~
+Z 0 1022
+S
+#1003
+@eng In the air ...@rus {CВ воздухе...{x~
+@eng You are flying!
+Currently you are about 20 meters above the west gate of Midgaard.
+It seems like you can see forever!
+@rus  Ты летишь!!!!!
+Ты паришь на высоте 20 метров над Восточными воротами Мидгарда.
+Это зрелище ты не забудешь никогда!!!
+~
+0 0 air
+D0 0
+@eng More of the same.
+@rus Тоже самое.
+~
+~
+Z 0 1002
+D1 0
+@eng More of the same.
+@rus Тоже самое.
+~
+~
+Z 0 1008
+D2 0
+@eng More of the same.
+@rus Тоже самое.
+~
+~
+Z 0 1004
+D4 0
+@eng More of the same.
+@rus Тоже самое.
+~
+~
+Z 0 1023
+S
+#1004
+@eng In the air ...@rus В воздухе...~
+@eng You are flying!
+Currently you are about 40 meters above Wall Road.
+It seems like you can see forever!
+@rus Ты летишь!!!!!
+Ты паришь на высоте 40 метров над дорогой, идущей вдоль городской стены.
+Это зрелище ты не забудешь никогда!!!
+~
+0 0 air
+D0 0
+@eng More of the same.
+@rus Тоже самое.
+~
+~
+Z 0 1003
+D1 0
+@eng More of the same.
+@rus Тоже самое.
+~
+~
+Z 0 1009
+D2 0
+@eng More of the same.
+@rus Тоже самое.
+~
+~
+Z 0 1005
+D4 0
+@eng More of the same.
+@rus Тоже самое.
+~
+~
+Z 0 1024
+S
+#1005
+@eng In the air ...@rus В воздухе...~
+@eng You are flying!
+Currently you are about 40 meters above Wall Road.
+It seems like you can see forever!
+@rus Ты летишь!!!!!
+Ты паришь на высоте 40 метров над дорогой, идущей вдоль городской стены.
+Это зрелище ты не забудешь никогда!!!
+~
+0 0 air
+D0 0
+@eng More of the same.
+@rus Тоже самое.
+~
+~
+Z 0 1004
+D1 0
+@eng More of the same.
+@rus Тоже самое.
+~
+~
+Z 0 1010
+D4 0
+@eng More of the same.
+@rus Тоже самое.
+~
+~
+Z 0 1025
+S
+#1006
+@eng In the air ...@rus В воздухе~
+@eng You are flying!
+Currently you are about 40 meters above the ground north of Midgaard.
+It seems like you can see forever!
+@rus Ты летишь!!!!!
+Ты паришь на высоте 40 метров над северной частью города. 
+Это зрелище ты не забудешь никогда!!!
+~
+0 0 air
+D1 0
+@eng More of the same.
+@rus Тоже самое.
+~
+~
+Z 0 1011
+D2 0
+@eng More of the same.
+@rus Тоже самое.
+~
+~
+Z 0 1007
+D3 0
+@eng More of the same.
+@rus Тоже самое.
+~
+~
+Z 0 1001
+D4 0
+@eng More of the same.
+@rus Тоже самое.
+~
+~
+Z 0 1026
+S
+#1007
+@eng In the air ...@rus В воздухе...~
+@eng You are flying!
+Currently you are about 20 meters above the magic shop.
+It seems like you can see forever!
+@rus  Ты летишь!!!!!
+Ты паришь на высоте 20 метров над Магазином Магии.
+Это зрелище ты не забудешь никогда!!!
+~
+0 0 air
+D0 0
+@eng More of the same.
+@rus Тоже самое.
+~
+~
+Z 0 1006
+D1 0
+@eng More of the same.
+@rus Тоже самое.
+~
+~
+Z 0 1012
+D2 0
+@eng More of the same.
+@rus Тоже самое.
+~
+~
+Z 0 1008
+D3 0
+@eng More of the same.
+@rus Тоже самое.
+~
+~
+Z 0 1002
+D4 0
+@eng More of the same.
+@rus Тоже самое.
+~
+~
+Z 0 1027
+S
+#1008
+@eng In the air ...@rus В воздухе...~
+@eng You are flying!
+Currently you are about 40 meters above Main Street.
+It seems like you can see forever!
+@rus Ты летишь!!!!!
+Ты паришь на высоте 40 метров над Главной улицей.
+Это зрелище ты не забудешь никогда!!!
+~
+0 0 air
+D0 0
+@eng More of the same.
+@rus Тоже самое.
+~
+~
+Z 0 1007
+D1 0
+@eng More of the same.
+@rus Тоже самое.
+~
+~
+Z 0 1013
+D2 0
+@eng More of the same.
+@rus Тоже самое.
+~
+~
+Z 0 1009
+D3 0
+@eng More of the same.
+@rus Тоже самое.
+~
+~
+Z 0 1003
+D4 0
+@eng More of the same.
+@rus Тоже самое.
+~
+~
+Z 0 1028
+S
+#1009
+@eng In the air ...@rus В воздухе...~
+@eng You are flying!
+Currently you are about 20 meters above the Mage Guild Hall.
+It seems like you can see forever!
+@rus Ты летишь!!!!!
+Ты паришь на высоте 20 метров над Гильдией Магов.
+Это зрелище ты не забудешь никогда!!!
+~
+0 0 air
+D0 0
+@eng More of the same.
+@rus Тоже самое.
+~
+~
+Z 0 1008
+D1 0
+@eng More of the same.
+@rus Тоже самое.
+~
+~
+Z 0 1014
+D2 0
+@eng More of the same.
+@rus Тоже самое.
+~
+~
+Z 0 1010
+D3 0
+@eng More of the same.
+@rus Тоже самое.
+~
+~
+Z 0 1004
+D4 0
+@eng More of the same.
+@rus Тоже самое.
+~
+~
+Z 0 1029
+S
+#1010
+@eng In the air ...@rus В воздухе...~
+@eng You are flying!
+Currently you are about 40 meters above Poor Alley.
+It seems like you can see forever!
+@rus Ты летишь!!!!!
+Ты паришь на высоте 40 метров над Аллеей Бедняков.
+Это зрелище ты не забудешь никогда!!!
+~
+0 0 air
+D0 0
+@eng More of the same.
+@rus Тоже самое.
+~
+~
+Z 0 1009
+D1 0
+@eng More of the same.
+@rus Тоже самое.
+~
+~
+Z 0 1015
+D3 0
+@eng More of the same.
+@rus Тоже самое.
+~
+~
+Z 0 1005
+D4 0
+@eng More of the same.
+@rus Тоже самое.
+~
+~
+Z 0 1030
+S
+#1011
+@eng In the air ...@rus В воздухе~
+@eng You are flying!
+Currently you are about 40 meters above the ground north of Midgaard.
+It seems like you can see forever!
+@rus Ты летишь!!!!!
+Ты паришь на высоте 40 метров над северной частью города. 
+Это зрелище ты не забудешь никогда!!!
+~
+0 0 air
+D1 0
+@eng More of the same.
+@rus Тоже самое.
+~
+~
+Z 0 1016
+D2 0
+@eng More of the same.
+@rus Тоже самое.
+~
+~
+Z 0 1012
+D3 0
+@eng More of the same.
+@rus Тоже самое.
+~
+~
+Z 0 1006
+D4 0
+@eng More of the same.
+@rus Тоже самое.
+~
+~
+Z 0 1031
+S
+#1012
+@eng In the air ...@rus В воздухе~
+@eng You are flying!
+Currently you are about 20 meters above the bakery.
+It seems like you can see forever!
+@rus  Ты летишь!!!!!
+Ты паришь на высоте 20 метров над Булочной.
+Это зрелище ты не забудешь никогда!!!
+~
+0 0 air
+D0 0
+@eng More of the same.
+@rus Тоже самое.
+~
+~
+Z 0 1011
+D1 0
+@eng More of the same.
+@rus Тоже самое.
+~
+~
+Z 0 1017
+D2 0
+@eng More of the same.
+@rus Тоже самое.
+~
+~
+Z 0 1013
+D3 0
+@eng More of the same.
+@rus Тоже самое.
+~
+~
+Z 0 1007
+D4 0
+@eng More of the same.
+@rus Тоже самое.
+~
+~
+Z 0 1032
+S
+#1013
+@eng In the air ...@rus В воздухе...~
+@eng You are flying!
+Currently you are about 40 meters above Main Street.
+It seems like you can see forever!
+@rus Ты летишь!!!!!
+Ты паришь на высоте 40 метров над Главной улицей.
+Это зрелище ты не забудешь никогда!!!
+~
+0 0 air
+D0 0
+@eng More of the same.
+@rus Тоже самое.
+~
+~
+Z 0 1012
+D1 0
+@eng More of the same.
+@rus Тоже самое.
+~
+~
+Z 0 1018
+D2 0
+@eng More of the same.
+@rus Тоже самое.
+~
+~
+Z 0 1014
+D3 0
+@eng More of the same.
+@rus Тоже самое.
+~
+~
+Z 0 1008
+D4 0
+@eng More of the same.
+@rus Тоже самое.
+~
+~
+Z 0 1033
+S
+#1014
+@eng In the air ...@rus В воздухе...~
+@eng You are flying!
+Currently you are about 20 meters above Armoury.
+It seems like you can see forever!
+@rus Ты летишь!!!!!
+Ты паришь на высоте 20 метров над Магазином Экипировки.
+Это зрелище ты не забудешь никогда!!!
+~
+0 0 air
+D0 0
+@eng More of the same.
+@rus Тоже самое.
+~
+~
+Z 0 1013
+D1 0
+@eng More of the same.
+@rus Тоже самое.
+~
+~
+Z 0 1019
+D2 0
+@eng More of the same.
+@rus Тоже самое.
+~
+~
+Z 0 1015
+D3 0
+@eng More of the same.
+@rus Тоже самое.
+~
+~
+Z 0 1009
+D4 0
+@eng More of the same.
+@rus Тоже самое.
+~
+~
+Z 0 1034
+S
+#1015
+@eng In the air ...@rus В воздухе...~
+@eng You are flying!
+Currently you are about 40 meters above Poor Alley.
+It seems like you can see forever!
+@rus Ты летишь!!!!!
+Ты паришь на высоте 40 метров над Аллеей Бедняков.
+Это зрелище ты не забудешь никогда!!!
+~
+0 0 air
+D0 0
+@eng More of the same.
+@rus Тоже самое.
+~
+~
+Z 0 1014
+D1 0
+@eng More of the same.
+@rus Тоже самое.
+~
+~
+Z 0 1020
+D3 0
+@eng More of the same.
+@rus Тоже самое.
+~
+~
+Z 0 1010
+D4 0
+@eng More of the same.
+@rus Тоже самое.
+~
+~
+Z 0 1035
+S
+#1016
+@eng In the air ...@rus В воздухе~
+@eng You are flying!
+Currently you are about 10 meters above the temple spire of Midgaard
+It seems like you can see forever!
+@rus Ты летишь!!!!!
+Ты паришь на высоте 40 метров над северной частью города. 
+Это зрелище ты не забудешь никогда!!!
+~
+0 0 air
+D2 0
+@eng More of the same.
+@rus Тоже самое.
+~
+~
+Z 0 1017
+D3 0
+@eng More of the same.
+@rus Тоже самое.
+~
+~
+Z 0 1011
+D4 0
+@eng More of the same.
+@rus Тоже самое.
+~
+~
+Z 0 1036
+S
+#1017
+@eng In the air ...@rus В воздухе~
+@eng You are flying!
+Currently you are about 40 meters above the Temple Square.
+It seems like you can see forever!
+@rus  Ты летишь!!!!!
+Ты паришь на высоте 40 метров над Храмовой площадью.
+Это зрелище ты не забудешь никогда!!!
+~
+0 S air
+D0 0
+@eng More of the same.
+@rus Тоже самое.
+~
+~
+Z 0 1016
+D2 0
+@eng More of the same.
+@rus Тоже самое.
+~
+~
+Z 0 1018
+D3 0
+@eng More of the same.
+@rus Тоже самое.
+~
+~
+Z 0 1012
+D4 0
+@eng More of the same.
+@rus Тоже самое.
+~
+~
+Z 0 1037
+D5 0
+@eng More of the same.
+@rus Тоже самое.
+~
+~
+Z 0 3057
+S
+#1018
+@eng In the air ...@rus В воздухе...~
+@eng You are flying!
+Currently you are about 40 meters above Market Square.
+It seems like you can see forever!
+@rus Ты летишь!!!!!
+Ты паришь на высоте 40 метров над Рыночной площадью.
+Это зрелище ты не забудешь никогда!!!
+~
+0 0 air
+D0 0
+@eng More of the same.
+@rus Тоже самое.
+~
+~
+Z 0 1017
+D2 0
+@eng More of the same.
+@rus Тоже самое.
+~
+~
+Z 0 1019
+D3 0
+@eng More of the same.
+@rus Тоже самое.
+~
+~
+Z 0 1013
+D4 0
+@eng More of the same.
+@rus Тоже самое.
+~
+~
+Z 0 1038
+S
+#1019
+@eng In the air ...@rus В воздухе...~
+@eng You are flying!
+Currently you are about 40 meters above Market and Commons.
+It seems like you can see forever!
+@rus Ты летишь!!!!!
+Ты паришь на высоте 40 метров над Рынком и над Прощадью Согласия.
+Это зрелище ты не забудешь никогда!!!
+~
+0 0 air
+D0 0
+@eng More of the same.
+@rus Тоже самое.
+~
+~
+Z 0 1018
+D2 0
+@eng More of the same.
+@rus Тоже самое.
+~
+~
+Z 0 1020
+D3 0
+@eng More of the same.
+@rus Тоже самое.
+~
+~
+Z 0 1014
+D4 0
+@eng More of the same.
+@rus Тоже самое.
+~
+~
+Z 0 1039
+S
+#1020
+@eng In the air ...@rus В воздухе...~
+@eng You are flying!
+Currently you are about 40 meters above ground, overlooking the Common Square.
+It seems like you can see forever!
+@rus Ты летишь!!!!!
+Ты паришь на высоте 40 метров над Площадью Согласия.
+Это зрелище ты не забудешь никогда!!!
+~
+0 0 air
+D0 0
+@eng More of the same.
+@rus Тоже самое.
+~
+~
+Z 0 1019
+D3 0
+@eng More of the same.
+@rus Тоже самое.
+~
+~
+Z 0 1015
+D4 0
+@eng More of the same.
+@rus Тоже самое.
+~
+~
+Z 0 1040
+S
+#1021
+@eng In the air ...@rus В воздухе...~
+@eng You are flying!
+Currently you are about 60 meters above the ground just north of Midgaard.
+It seems like you can see forever!
+@rus Ты летишь!!!!!
+Ты паришь на высоте 60 метров над северной частью Мидгарда.
+Это зрелище ты не забудешь никогда!!!
+~
+0 0 air
+D1 0
+@eng More of the same.
+@rus Тоже самое.
+~
+~
+Z 0 1026
+D2 0
+@eng More of the same.
+@rus Тоже самое.
+~
+~
+Z 0 1022
+D5 0
+@eng More of the same.
+@rus Тоже самое.
+~
+~
+Z 0 1001
+S
+#1022
+@eng In the air ...@rus В воздухе...~
+@eng You are flying!
+Currently you are about 40 meters above the west gate of Midgaard.
+It seems like you can see forever!
+@rus Ты летишь!!!!!
+Ты паришь на высоте 60 метров над Западными воротами Мидгарда.
+Это зрелище ты не забудешь никогда!!!
+~
+0 0 air
+D0 0
+@eng More of the same.
+@rus Тоже самое.
+~
+~
+Z 0 1021
+D1 0
+@eng More of the same.
+@rus Тоже самое.
+~
+~
+Z 0 1027
+D2 0
+@eng More of the same.
+@rus Тоже самое.
+~
+~
+Z 0 1023
+D5 0
+@eng More of the same.
+@rus Тоже самое.
+~
+~
+Z 0 1002
+S
+#1023
+@eng In the air ...@rus В воздухе...~
+@eng You are flying!
+Currently you are about 60 meters above west gate of Midgaard.
+It seems like you can see forever!
+@rus Ты летишь!!!!!
+Ты паришь на высоте 60 метров над Западными воротами Мидгарда.
+Это зрелище ты не забудешь никогда!!!
+~
+0 0 air
+D0 0
+@eng More of the same.
+@rus Тоже самое.
+~
+~
+Z 0 1022
+D1 0
+@eng More of the same.
+@rus Тоже самое.
+~
+~
+Z 0 1028
+D2 0
+@eng More of the same.
+@rus Тоже самое.
+~
+~
+Z 0 1024
+D5 0
+@eng More of the same.
+@rus Тоже самое.
+~
+~
+Z 0 1003
+S
+#1024
+@eng In the air ...@rus В воздухе...~
+@eng You are flying!
+Currently you are about 60 meters above wall road.
+It seems like you can see forever!
+@rus Ты летишь!!!!!
+Ты паришь на высоте 60 метров над дорогой, идущей вдоль городской стены.
+Это зрелище ты не забудешь никогда!!!
+~
+0 0 air
+D0 0
+@eng More of the same.
+@rus Тоже самое.
+~
+~
+Z 0 1023
+D1 0
+@eng More of the same.
+@rus Тоже самое.
+~
+~
+Z 0 1029
+D2 0
+@eng More of the same.
+@rus Тоже самое.
+~
+~
+Z 0 1025
+D5 0
+@eng More of the same.
+@rus Тоже самое.
+~
+~
+Z 0 1004
+S
+#1025
+@eng In the air ...@rus В воздухе...~
+@eng You are flying!
+Currently you are about 60 meters above wall road.
+It seems like you can see forever!
+@rus Ты летишь!!!!!
+Ты паришь на высоте 60 метров над дорогой, идущей вдоль городской стены.
+Это зрелище ты не забудешь никогда!!!
+~
+0 0 air
+D0 0
+@eng More of the same.
+@rus Тоже самое.
+~
+~
+Z 0 1024
+D1 0
+@eng More of the same.
+@rus Тоже самое.
+~
+~
+Z 0 1030
+D5 0
+@eng More of the same.
+@rus Тоже самое.
+~
+~
+Z 0 1005
+S
+#1026
+@eng In the air ...@rus В воздухе...~
+@eng You are flying!
+Currently you are about 60 meters above the ground north of Midgaard.
+It seems like you can see forever!
+@rus Ты летишь!!!!!
+Ты паришь на высоте 60 метров над северной частью Мидгарда.
+Это зрелище ты не забудешь никогда!!!
+~
+0 0 air
+D1 0
+@eng More of the same.
+@rus Тоже самое.
+~
+~
+Z 0 1031
+D2 0
+@eng More of the same.
+@rus Тоже самое.
+~
+~
+Z 0 1027
+D3 0
+@eng More of the same.
+@rus Тоже самое.
+~
+~
+Z 0 1021
+D5 0
+@eng More of the same.
+@rus Тоже самое.
+~
+~
+Z 0 1006
+S
+#1027
+@eng In the air ...@rus В воздухе...~
+@eng You are flying!
+Currently you are about 40 meters above the magic shop.
+It seems like you can see forever!
+@rus Ты летишь!!!!!
+Ты паришь на высоте 40 метров над Магазином Магии.
+Это зрелище ты не забудешь никогда!!!
+~
+0 0 air
+D0 0
+@eng More of the same.
+@rus Тоже самое.
+~
+~
+Z 0 1026
+D1 0
+@eng More of the same.
+@rus Тоже самое.
+~
+~
+Z 0 1032
+D2 0
+@eng More of the same.
+@rus Тоже самое.
+~
+~
+Z 0 1028
+D3 0
+@eng More of the same.
+@rus Тоже самое.
+~
+~
+Z 0 1022
+D5 0
+@eng More of the same.
+@rus Тоже самое.
+~
+~
+Z 0 1007
+S
+#1028
+@eng In the air ...@rus В воздухе...~
+@eng You are flying!
+Currently you are about 60 meters above main street.
+It seems like you can see forever!
+@rus Ты летишь!!!!!
+Ты паришь на высоте 60 метров над Главной улицей.
+Это зрелище ты не забудешь никогда!!!
+~
+0 0 air
+D0 0
+@eng More of the same.
+@rus Тоже самое.
+~
+~
+Z 0 1027
+D1 0
+@eng More of the same.
+@rus Тоже самое.
+~
+~
+Z 0 1033
+D2 0
+@eng More of the same.
+@rus Тоже самое.
+~
+~
+Z 0 1029
+D3 0
+@eng More of the same.
+@rus Тоже самое.
+~
+~
+Z 0 1023
+D5 0
+@eng More of the same.
+@rus Тоже самое.
+~
+~
+Z 0 1008
+S
+#1029
+@eng In the air ...@rus В воздухе...~
+@eng You are flying!
+Currently you are about 40 meters above the mage guild.
+It seems like you can see forever!
+@rus Ты летишь!!!!!
+Ты паришь на высоте 40 метров над Гильдией Магов.
+Это зрелище ты не забудешь никогда!!!
+~
+0 0 air
+D0 0
+@eng More of the same.
+@rus Тоже самое.
+~
+~
+Z 0 1028
+D1 0
+@eng More of the same.
+@rus Тоже самое.
+~
+~
+Z 0 1034
+D2 0
+@eng More of the same.
+@rus Тоже самое.
+~
+~
+Z 0 1030
+D3 0
+@eng More of the same.
+@rus Тоже самое.
+~
+~
+Z 0 1024
+D5 0
+@eng More of the same.
+@rus Тоже самое.
+~
+~
+Z 0 1009
+S
+#1030
+@eng In the air ...@rus В воздухе...~
+@eng You are flying!
+Currently you are about 60 meters above poor alley.
+It seems like you can see forever!
+@rus Ты летишь!!!!!
+Ты паришь на высоте 60 метров над Аллеей Бедняков.
+Это зрелище ты не забудешь никогда!!!
+~
+0 0 air
+D0 0
+@eng More of the same.
+@rus Тоже самое.
+~
+~
+Z 0 1029
+D1 0
+@eng More of the same.
+@rus Тоже самое.
+~
+~
+Z 0 1035
+D3 0
+@eng More of the same.
+@rus Тоже самое.
+~
+~
+Z 0 1025
+D5 0
+@eng More of the same.
+@rus Тоже самое.
+~
+~
+Z 0 1010
+S
+#1031
+@eng In the air ...@rus В воздухе...~
+@eng You are flying!
+Currently you are about 60 meters above the ground north of Midgaard.
+It seems like you can see forever!
+@rus Ты летишь!!!!!
+Ты паришь на высоте 60 метров над северной частью Мидгарда.
+Это зрелище ты не забудешь никогда!!!
+~
+0 0 air
+D1 0
+@eng More of the same.
+@rus Тоже самое.
+~
+~
+Z 0 1036
+D2 0
+@eng More of the same.
+@rus Тоже самое.
+~
+~
+Z 0 1032
+D3 0
+@eng More of the same.
+@rus Тоже самое.
+~
+~
+Z 0 1026
+D5 0
+@eng More of the same.
+@rus Тоже самое.
+~
+~
+Z 0 1011
+S
+#1032
+@eng In the air ...@rus В воздухе...~
+@eng You are flying!
+Currently you are about 40 meters above bakery and cleric guild.
+It seems like you can see forever!
+@rus Ты летишь!!!!!
+Ты паришь на высоте 40 метров над Булочной и Гильдией Лекарей.
+Это зрелище ты не забудешь никогда!!!
+~
+0 0 air
+D0 0
+@eng More of the same.
+@rus Тоже самое.
+~
+~
+Z 0 1031
+D1 0
+@eng More of the same.
+@rus Тоже самое.
+~
+~
+Z 0 1037
+D2 0
+@eng More of the same.
+@rus Тоже самое.
+~
+~
+Z 0 1033
+D3 0
+@eng More of the same.
+@rus Тоже самое.
+~
+~
+Z 0 1027
+D5 0
+@eng More of the same.
+@rus Тоже самое.
+~
+~
+Z 0 1012
+S
+#1033
+@eng In the air ...@rus В воздухе...~
+@eng You are flying!
+Currently you are about 60 meters above main street.
+It seems like you can see forever!
+@rus Ты летишь!!!!!
+Ты паришь на высоте 60 метров над Главной улицей.
+Это зрелище ты не забудешь никогда!!!
+~
+0 0 air
+D0 0
+@eng More of the same.
+@rus Тоже самое.
+~
+~
+Z 0 1032
+D1 0
+@eng More of the same.
+@rus Тоже самое.
+~
+~
+Z 0 1038
+D2 0
+@eng More of the same.
+@rus Тоже самое.
+~
+~
+Z 0 1034
+D3 0
+@eng More of the same.
+@rus Тоже самое.
+~
+~
+Z 0 1028
+D5 0
+@eng More of the same.
+@rus Тоже самое.
+~
+~
+Z 0 1013
+S
+#1034
+@eng In the air ...@rus В воздухе...~
+@eng You are flying!
+Currently you are about 40 meters above the armoury.
+It seems like you can see forever!
+@rus Ты летишь!!!!!
+Ты паришь на высоте 40 метров над Магазином Экипировки.
+Это зрелище ты не забудешь никогда!!!
+~
+0 0 air
+D0 0
+@eng More of the same.
+@rus Тоже самое.
+~
+~
+Z 0 1033
+D1 0
+@eng More of the same.
+@rus Тоже самое.
+~
+~
+Z 0 1039
+D2 0
+@eng More of the same.
+@rus Тоже самое.
+~
+~
+Z 0 1035
+D3 0
+@eng More of the same.
+@rus Тоже самое.
+~
+~
+Z 0 1029
+D5 0
+@eng More of the same.
+@rus Тоже самое.
+~
+~
+Z 0 1014
+S
+#1035
+@eng In the air ...@rus В воздухе...~
+@eng You are flying!
+Currently you are about 60 meters above poor alley.
+It seems like you can see forever!
+@rus Ты летишь!!!!!
+Ты паришь на высоте 60 метров над Аллеей Бедняков.
+Это зрелище ты не забудешь никогда!!!
+~
+0 0 air
+D0 0
+@eng More of the same.
+@rus Тоже самое.
+~
+~
+Z 0 1034
+D1 0
+@eng More of the same.
+@rus Тоже самое.
+~
+~
+Z 0 1040
+D3 0
+@eng More of the same.
+@rus Тоже самое.
+~
+~
+Z 0 1030
+D5 0
+@eng More of the same.
+@rus Тоже самое.
+~
+~
+Z 0 1015
+S
+#1036
+@eng In the air ...@rus В воздухе...~
+@eng You are flying!
+Currently you are about 30 meters above the temple spire.
+It seems like you can see forever!
+@rus Ты летишь!!!!!
+Ты паришь на высоте 30 метров над крышей Храма.
+Это зрелище ты не забудешь никогда!!!
+~
+0 0 air
+D2 0
+@eng More of the same.
+@rus Тоже самое.
+~
+~
+Z 0 1037
+D3 0
+@eng More of the same.
+@rus Тоже самое.
+~
+~
+Z 0 1031
+D4 0
+@eng The rainbow leads onward and upward into the sky.
+It looks safe to travel on.
+@rus Радуга уходит в небо. Она выглядит такой прочной, что по ней можно идти.
+~
+~
+Z 0 7700
+D5 0
+@eng More of the same.
+@rus Тоже самое.
+~
+~
+Z 0 1016
+S
+#1037
+@eng In the air ...@rus В воздухе...~
+@eng You are flying!
+Currently you are about 60 meters above the temple square.
+It seems like you can see forever!
+@rus Ты летишь!!!!!
+Ты паришь на высоте 60 метров над Храмовой площадью.
+~
+0 0 air
+D0 0
+@eng More of the same.
+@rus Тоже самое.
+~
+~
+Z 0 1036
+D2 0
+@eng More of the same.
+@rus Тоже самое.
+~
+~
+Z 0 1038
+D3 0
+@eng More of the same.
+@rus Тоже самое.
+~
+~
+Z 0 1032
+D5 0
+@eng More of the same.
+@rus Тоже самое.
+~
+~
+Z 0 1017
+S
+#1038
+@eng In the air ...@rus В воздухе...~
+@eng You are flying!
+Currently you are about 60 meters above market square.
+It seems like you can see forever!
+@rus Ты летишь!!!!!
+Ты паришь на высоте 60 метров над Рынком.
+Это зрелище ты не забудешь никогда!!!
+~
+0 0 air
+D0 0
+@eng More of the same.
+@rus Тоже самое.
+~
+~
+Z 0 1037
+D2 0
+@eng More of the same.
+@rus Тоже самое.
+~
+~
+Z 0 1039
+D3 0
+@eng More of the same.
+@rus Тоже самое.
+~
+~
+Z 0 1033
+D5 0
+@eng More of the same.
+@rus Тоже самое.
+~
+~
+Z 0 1018
+S
+#1039
+@eng In the air ...@rus В воздухе...~
+@eng You are flying!
+Currently you are about 60 meters above market square and commons square.
+It seems like you can see forever!
+@rus Ты летишь!!!!!
+Ты паришь на высоте 60 метров над Рынком и над Прощадью Согласия.
+Это зрелище ты не забудешь никогда!!!
+~
+0 0 air
+D0 0
+@eng More of the same.
+@rus Тоже самое.
+~
+~
+Z 0 1038
+D2 0
+@eng More of the same.
+@rus Тоже самое.
+~
+~
+Z 0 1040
+D3 0
+@eng More of the same.
+@rus Тоже самое.
+~
+~
+Z 0 1034
+D5 0
+@eng More of the same.
+@rus Тоже самое.
+~
+~
+Z 0 1019
+S
+#1040
+@eng In the air ...@rus В воздухе...~
+@eng You are flying!
+Currently you are about 60 meters above commoners square and the dump.
+It seems like you can see forever!
+@rus Ты летишь!!!!!
+Ты паришь на высоте 60 метров над Площадью Согласия и Помойкой.
+Это зрелище ты не забудешь никогда!!!
+~
+0 0 air
+D0 0
+@eng More of the same.
+@rus Тоже самое.
+~
+~
+Z 0 1039
+D3 0
+@eng More of the same.
+@rus Тоже самое.
+~
+~
+Z 0 1035
+D5 0
+@eng More of the same.
+@rus Тоже самое.
+~
+~
+Z 0 1020
+S
+#0
+
+#SPECIALS
+M 1000 spec_cast_mage	* A fairy dragon
+S
+
+#RESETS
+M 0 1000 10 1005 4	* A fairy dragon (In the air ...)
+M 0 1000 10 1019 4	* A fairy dragon (In the air ...)
+M 0 1000 10 1022 4	* A fairy dragon (In the air ...)
+M 0 1001 3 1034 3	* A griffin (In the air ...)
+S
+
+#$
