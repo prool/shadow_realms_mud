@@ -4,7 +4,7 @@ Shadow Realms is Multi User Dimension(Domain, Dungeon) server.
 This is game daemon and many players can connect to it by simple
 telnet or other usefull clients for advancing game joining.
 
-			Copyrights
+*Copyrights*
 
 Current base of this MUD is "Shadow Realms", but
 it uses many of other code bases - hierarchy of
@@ -18,10 +18,15 @@ See 'SR' subdirectory for details.
 					Xorader
 					Wed, Apr 9, 2003
 
-			Installation
+*Installation*
+
 Read doc/INSTALL
 
 ---
 
 MUD downloaded from http://mud.nnov.net/~xor/tmp/muddy/srmud-2011-09-02.tar.gz 13-Sep-2019
+
+Also link http://mud.nnov.net/git/
+
+
 Prool, <proolix@gmail.com>, mud.kharkov.org
