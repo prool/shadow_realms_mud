@@ -26,6 +26,7 @@
 	
 	or
 	
+	cd mud
 	src/muddy -p 4000
 
 *) Examine logfile in mud/log
