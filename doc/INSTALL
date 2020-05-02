@@ -19,6 +19,14 @@
 
 *) Start muddy:
 	mud/src/startup
+	
+	or
+	
+	mud/src/muddy -p 4000
+	
+	or
+	
+	src/muddy -p 4000
 
 *) Examine logfile in mud/log
 
