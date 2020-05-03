@@ -237,6 +237,7 @@ mlstring *mlstr_printf(mlstring *ml,...)
 		for (lang = 0; lang < ml->nlang; lang++) {
 			if (IS_NULLSTR(ml->u.lstr[lang]))
 				continue;
+			if (lang==1) break; // prool: my foolish patch for fix crash
 			vsnprintf(buf, sizeof(buf), ml->u.lstr[lang], ap);
 			res->u.lstr[lang] = str_dup(buf);
 		}
