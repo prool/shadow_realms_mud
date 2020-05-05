@@ -29,6 +29,8 @@
 	cd mud
 	src/muddy -p 4000
 
+prool: flag -p with port number is necessary!
+
 *) Examine logfile in mud/log
 
 *) `telnet localhost 4000` and join ! :)
