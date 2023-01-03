@@ -57,7 +57,7 @@ char	filename[PATH_MAX];
 #if defined(WIN32)
 #define unlink	_unlink
 #else
-#include <linux/limits.h>
+//#include <linux/limits.h> // prool for cygwin
 #endif
 
 /*

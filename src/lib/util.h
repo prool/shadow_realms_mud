@@ -6,13 +6,15 @@
 #define _UTIL_H_
 
 #include <stdio.h>
-#include <linux/limits.h>
+//#include <linux/limits.h> // prool for cygwin
 #include <sys/socket.h>
 #include <netinet/in.h>
 #include <arpa/telnet.h>
 #include <arpa/inet.h>
 #include "libtypedef.h"
 #include "flag.h"
+
+#define PATH_MAX 512 // prool fool for cygwin
 
 FILE *	dfopen	(const char *dir, const char *file, const char *mode);
 int	dunlink	(const char *dir, const char *file);
@@ -30,9 +32,9 @@ const char *cutcolor(const char *str);
 
 char*		strtime		(time_t);
 
-unsigned char reverse_case[256];
-unsigned char upper_case[256];
-unsigned char lower_case[256];
+extern unsigned char reverse_case[256]; // prool for cygwin: add extern
+extern unsigned char upper_case[256];
+extern unsigned char lower_case[256];
 
 unsigned char to_reverse_case (unsigned char c);
 unsigned char to_upper_case (unsigned char c);

@@ -20,7 +20,7 @@ char *	strnzcpy(char *dest, size_t len, const char *src);
 char *	strnzcat(char *dest, size_t len, const char *src);
 char *	strnzncat(char *dest, size_t len, const char *src, size_t count);
 #if !defined (WIN32)
-char *	strlwr(const char *s);
+//char *	strlwr(const char *s); // prool for cygwin
 #endif
 
 int	str_cmp		(const char *astr, const char *bstr);

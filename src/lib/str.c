@@ -147,7 +147,7 @@ char *strnzncat(char *dest, size_t len, const char *src, size_t count)
 	return dest;
 }
 
-char *strlwr(const char *s)
+char *strlwr(/*const*/ char *s) // prool for cygwin
 {
 	static char buf[MAX_STRING_LENGTH];
 	char *p;
