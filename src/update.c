@@ -2063,6 +2063,7 @@ void obj_update_list(OBJ_DATA *obj)
 	obj_next = obj;
 	for (i = 0; obj && IS_SET(obj->hidden_flags, OHIDE_EXTRACTED); obj = obj->next, i++)
 		;
+#if 0 // prool: no garbage messages in log ;-)
 	if (i) {
 		log_printf("obj_update_list: skipped %d extracted objs, "
 			   "object_list == %p, obj == %p, "
@@ -2072,6 +2073,7 @@ void obj_update_list(OBJ_DATA *obj)
 			   last_updated_obj,
 			   last_updated_obj ? last_updated_obj->next : NULL);
 	}
+#endif
 
 	for (; obj; obj = obj_next) {
 		obj_next = obj->next;

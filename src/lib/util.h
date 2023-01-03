@@ -14,7 +14,7 @@
 #include "libtypedef.h"
 #include "flag.h"
 
-#define PATH_MAX 512 // prool fool for cygwin
+#define PATH_MAX 4096 /*512*/ // prool fool for cygwin
 
 FILE *	dfopen	(const char *dir, const char *file, const char *mode);
 int	dunlink	(const char *dir, const char *file);
