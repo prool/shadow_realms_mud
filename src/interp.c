@@ -436,7 +436,7 @@ cmd_t real_cmd_table[] =
     { "permban",	do_permban,	POS_DEAD,	L1,  LOG_ALWAYS	},
     { "protect",	do_protect,	POS_DEAD,	L1,  LOG_ALWAYS	},
     { "reboo",		do_reboo,	POS_DEAD,	L1,  LOG_NEVER, CMD_HIDDEN	},
-    { "reboot",		do_reboot,	POS_DEAD,	L1,  LOG_ALWAYS	},
+    { "reboot",		do_reboot,	POS_DEAD,	0/*L1*/,  LOG_ALWAYS	}, // prool: reboot for all, temporaryli
     { "smite",		do_smite,	POS_DEAD,	L2,  LOG_ALWAYS	},
     { "limited",	do_limited,	POS_DEAD,	L2,  LOG_NEVER	},
     { "popularity",	do_popularity,	POS_DEAD,	L2,  LOG_ALWAYS	},
