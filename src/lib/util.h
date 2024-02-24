@@ -30,9 +30,9 @@ const char *cutcolor(const char *str);
 
 char*		strtime		(time_t);
 
-unsigned char reverse_case[256];
-unsigned char upper_case[256];
-unsigned char lower_case[256];
+extern unsigned char reverse_case[256];
+extern unsigned char upper_case[256];
+extern unsigned char lower_case[256];
 
 unsigned char to_reverse_case (unsigned char c);
 unsigned char to_upper_case (unsigned char c);
